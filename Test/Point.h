@@ -3,6 +3,7 @@
 
 class Point {
 public:
+	/*!! y,x !!*/
 	Point(int, int);
 	~Point();
 

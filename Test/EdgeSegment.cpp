@@ -1,4 +1,6 @@
 #include "EdgeSegment.h"
+#include "Point.h"
+#include <iostream>
 
 
 EdgeSegment::EdgeSegment() {
@@ -6,8 +8,7 @@ EdgeSegment::EdgeSegment() {
 }
 
 
-EdgeSegment::~EdgeSegment()
-{
+EdgeSegment::~EdgeSegment() {
 }
 
 void EdgeSegment::push_backPoint(Point* p) {
