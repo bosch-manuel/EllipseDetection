@@ -4,13 +4,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-using namespace cv;
+#include "EdgeSegment.h"
+#include "Point.h"
+
+
 using namespace std;
 
-Mat src; Mat src_gray;
-int thresh = 100;
-int max_thresh = 255;
-RNG rng(12345);
+//Mat src; Mat src_gray;
+//int thresh = 100;
+//int max_thresh = 255;
+//RNG rng(12345);
 
 /// Function header
 void thresh_callback(int, void*);
@@ -18,7 +21,7 @@ void thresh_callback(int, void*);
 /** @function main */
 int main(int argc, char** argv)
 {
-	/// Load source image and convert it to gray
+	/*/// Load source image and convert it to gray
 	src = imread("D:\\Users\\Boschki\\Documents\\Visual Studio 2013\\Projects\\Test\\strassenschilder.jpg");
 
 	/// Convert image to gray and blur it
@@ -33,7 +36,14 @@ int main(int argc, char** argv)
 	createTrackbar(" Canny thresh:", "Source", &thresh, max_thresh, thresh_callback);
 	thresh_callback(0, 0);
 
-	waitKey(0);
+	waitKey(0);*/
+
+	Point p(1, 2);
+	EdgeSegment es;
+	es.push_frontPoint(&p);
+
+
+
 	return(0);
 }
 
