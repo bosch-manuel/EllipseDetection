@@ -40,11 +40,17 @@ int main(int argc, char** argv) {
 
 	/// Load source image and convert it to gray
 	
-	cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
+	//cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat src = cv::imread("..\\t.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
+	test.at<uchar>(5, 5) = 255;
+	test.at<uchar>(5, 6) = 255;
+	test.at<uchar>(5, 7) = 255;
+	//src = test;
 	cv::Mat edgeImage(src);
 	cv::Mat edgeImage2(src);
+	cv::Mat endPoints = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
 	list<EdgeSegment> edgeSegments;
-	list<Point*> endPoints;
 
 	/// Create Window
 	printf("Hallo Startrows: %d, cols: %d\n",src.rows,src.cols);
@@ -57,32 +63,17 @@ int main(int argc, char** argv) {
 	cv::namedWindow(edge_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge_window, edgeImage);
 	
-	int nEnds = 0;// = findEndsJunctions(&endPoints, edgeImage);/*
-	int nSet = 0;
-	//printf("Ends: %d\n", nEnds);*/
-	for (int r = 0; r < edgeImage.rows; r++){
-		for (int c = 0; c < edgeImage.cols; c++){
-			if (edgeImage.at<uchar>(r, c) > 0) {
-				//nEnds++;
-				/*for (int rn = r - 1; rn <= rn + 1; rn++)	{
-					for (int cn = c - 1; cn <= cn + 1; cn++)	{
-						if ((-1 < rn) && (rn < edgeImage.rows) && (-1 < cn) && (cn < edgeImage.cols)) {
-							if (edgeImage.at<uchar>(rn, cn) > 0) {
-								nSet++;
-							}
-						}
-					}
-				}
-				printf("%d nSet\n", nSet);
-				nSet = 0;*/
-			}
-		}
-	}
+	int nEnds  = findEndsJunctions(endPoints, edgeImage);
+	
 	printf("Ends: %d\n", nEnds);
 	
 	char* edge2_window = "Edges2";
 	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge2_window, edgeImage);
+
+	char* end_window = "Ends";
+	cv::namedWindow(end_window, CV_WINDOW_AUTOSIZE);
+	cv::imshow(end_window, endPoints);
 	cv::waitKey(0);
 	return(0);
 }

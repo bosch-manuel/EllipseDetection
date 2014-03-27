@@ -17,6 +17,6 @@ int edgeSegmentation(cv::Mat edge_image,std::list<EdgeSegment> *segments);
 
 /*Finds end points and junctions in the provied edge image
   Based on Peter Kovesis findEndsJunctions*/
-int findEndsJunctions(std::list<Point*>*,cv::Mat);
+int findEndsJunctions(cv::Mat,cv::Mat);
 
 #endif
