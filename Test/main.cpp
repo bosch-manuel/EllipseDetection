@@ -58,11 +58,23 @@ int main(int argc, char** argv) {
 	cv::imshow(edge_window, edgeImage);
 	
 	int nEnds = 0;// = findEndsJunctions(&endPoints, edgeImage);/*
+	int nSet = 0;
 	//printf("Ends: %d\n", nEnds);*/
 	for (int r = 0; r < edgeImage.rows; r++){
 		for (int c = 0; c < edgeImage.cols; c++){
 			if (edgeImage.at<uchar>(r, c) > 0) {
-				nEnds++;
+				//nEnds++;
+				/*for (int rn = r - 1; rn <= rn + 1; rn++)	{
+					for (int cn = c - 1; cn <= cn + 1; cn++)	{
+						if ((-1 < rn) && (rn < edgeImage.rows) && (-1 < cn) && (cn < edgeImage.cols)) {
+							if (edgeImage.at<uchar>(rn, cn) > 0) {
+								nSet++;
+							}
+						}
+					}
+				}
+				printf("%d nSet\n", nSet);
+				nSet = 0;*/
 			}
 		}
 	}
