@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
 
 	/// Load source image and convert it to gray
 	
-	cv::Mat src = cv::imread("D:\\Users\\Boschki\\Documents\\Visual Studio 2013\\Projects\\Test\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat edgeImage(src);
 	cv::Mat edgeImage2(src);
 	list<EdgeSegment> edgeSegments;
