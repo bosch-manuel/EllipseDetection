@@ -57,7 +57,15 @@ int main(int argc, char** argv) {
 	cv::namedWindow(edge_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge_window, edgeImage);
 	
-	int nEnds = findEndsJunctions(&endPoints,edgeImage);
+	int nEnds = 0;// = findEndsJunctions(&endPoints, edgeImage);/*
+	//printf("Ends: %d\n", nEnds);*/
+	for (int r = 0; r < edgeImage.rows; r++){
+		for (int c = 0; c < edgeImage.cols; c++){
+			if (edgeImage.at<uchar>(r, c) > 0) {
+				nEnds++;
+			}
+		}
+	}
 	printf("Ends: %d\n", nEnds);
 	
 	char* edge2_window = "Edges2";

@@ -23,7 +23,7 @@ int findEndsJunctions(std::list<Point*> *endPoints, cv::Mat edgeImage) {
 				//check out the neighborhood
 				for (int rn = r-1; rn <= rn+1; rn++)	{
 					for (int cn = c-1; cn <= cn+1; cn++)	{
-						if (-1 < rn && rn < rows && -1 < cn && cn < cols) {
+						if ((-1 < rn) && (rn < rows) && (-1 < cn) && (cn < cols)) {
 							if (edgeImage.at<uchar>(rn, cn) > 0) {
 								nSet++;
 							}
@@ -42,7 +42,7 @@ int findEndsJunctions(std::list<Point*> *endPoints, cv::Mat edgeImage) {
 					//edgeImage.at<uchar>(r, c) = 0;
 					for (int rn = r - 1; rn <= rn + 1; rn++)	{
 						for (int cn = c - 1; cn <= cn + 1; cn++)	{
-							if (-1 < rn && rn < rows && -1 < cn && cn < cols) {
+							if ((-1 < rn) && (rn < rows) && (-1 < cn) && (cn < cols)) {
 								if (edgeImage.at<uchar>(rn, cn) > 0) {
 								//	endPoints->push_back(new Point(rn, cn));
 									ends++;
