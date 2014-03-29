@@ -52,7 +52,7 @@ int checkNeighbors(int r, int c,cv::Mat edgeImage) {
 	return nSet;
 }
 
-int removeJunction(int r, int c, cv::Mat edgeImage, cv::Mat endPoints) {
+int removeJunction(int r, int c, cv::Mat edgeImage, std::list<Point*> *endPoints) {
 	int r1, r2, r3, c1, c2, c3, nSet, rows, cols,ends;
 	int value = 255;
 	ends = 0;
@@ -64,45 +64,54 @@ int removeJunction(int r, int c, cv::Mat edgeImage, cv::Mat endPoints) {
 	//first row
 	if (r1>-1) {
 		if ((c1 > -1) && edgeImage.at<uchar>(r1, c1)){
-			endPoints.at<uchar>(r1, c1)=value;
+			endPoints->push_back(new Point(r1, c1));
+			//endPointsImage.at<uchar>(r1, c1)=value;
 			ends++;
 		}
 		if (edgeImage.at<uchar>(r1, c2)){
-			endPoints.at<uchar>(r1, c2) = value;
+			endPoints->push_back(new Point(r1, c2));
+			//endPointsImage.at<uchar>(r1, c2) = value;
 			ends++;
 		}
 		if ((c3 < cols) && edgeImage.at<uchar>(r1, c3)){
-			endPoints.at<uchar>(r1, c3) = value;
+			endPoints->push_back(new Point(r1, c3));
+			//endPointsImage.at<uchar>(r1, c3) = value;
 			ends++;
 		}
 	}
 
 	if ((c1 > -1) && edgeImage.at<uchar>(r, c1)){
-		endPoints.at<uchar>(r, c1) = value;
+		endPoints->push_back(new Point(r, c1));
+		//endPointsImage.at<uchar>(r, c1) = value;
 		ends++;
 	}
 	if ((c3 < cols) && edgeImage.at<uchar>(r, c3)){
-		endPoints.at<uchar>(r, c3) = value;
+		endPoints->push_back(new Point(r, c3));
+		//endPointsImage.at<uchar>(r, c3) = value;
 		ends++;
 	}
 
 	if (r3<rows) {
 		if ((c1 > -1) && edgeImage.at<uchar>(r3, c1)){
-			endPoints.at<uchar>(r3, c1) = value;
+			endPoints->push_back(new Point(r3, c1));
+			//endPointsImage.at<uchar>(r3, c1) = value;
 			ends++;
 		}
 		if (edgeImage.at<uchar>(r3, c2)){
-			endPoints.at<uchar>(r3, c2) = value; ends++;
+			endPoints->push_back(new Point(r3, c2));
+			//endPointsImage.at<uchar>(r3, c2) = value; 
+			ends++;
 		}
 		if ((c3 < cols) && edgeImage.at<uchar>(r3, c3)){
-			endPoints.at<uchar>(r3, c3) = value;
+			endPoints->push_back(new Point(r3, c3));
+			//endPointsImage.at<uchar>(r3, c3) = value;
 			ends++;
 		}
 	}
 	return ends;
 }
 
-int findEndsJunctions(cv::Mat endPoints, cv::Mat edgeImage) {
+int findEnds(std::list<Point*> *endPoints, cv::Mat edgeImage) {
 	int value = 255;
 	int rows, cols;
 	rows = edgeImage.rows;
@@ -129,7 +138,8 @@ int findEndsJunctions(cv::Mat endPoints, cv::Mat edgeImage) {
 					edgeImage.at<uchar>(r, c) = 0;
 				}
 				else if (nSet == 2) {//end point found, save it
-					endPoints.at<uchar>(r, c)=value;
+					//endPointsImage.at<uchar>(r, c)=value;
+					endPoints->push_back(new Point(r, c));
 					ends++;
 				}
 				else if (nSet > 3) {//junction, remove it and add adjacent pixels as endpoints
@@ -152,8 +162,46 @@ int findEndsJunctions(cv::Mat endPoints, cv::Mat edgeImage) {
 	}
 	return ends;
 }
+/*Searches the next edge point to Point(row,col)
+return	0 if a point was found, r and c contain the coordinates of the next point;
+		-1 when no point was found*/
+int getNextPoint(int *row, int *col,cv::Mat edgeImage) {
+	int r,c,r1, r2, r3, c1, c2, c3, ret, rows, cols;
+	ret = -1;
+	r = *row;
+	c = *col;
+	rows = edgeImage.rows;
+	cols = edgeImage.cols;
+	//check out the neighborhood
+	r1 = r - 1; r2 = r; r3 = r + 1;
+	c1 = c - 1; c2 = c; c3 = c + 1;
+	//first row
+	if (r1>-1) {
+		if ((c1 > -1) && edgeImage.at<uchar>(r1, c1)){
+			nSet++;
+		}else if (edgeImage.at<uchar>(r1, c2)){
+			nSet++;
+		}else if ((c3 < cols) && edgeImage.at<uchar>(r1, c3)){
+			nSet++;
+		}
+	}else if ((c1 > -1) && edgeImage.at<uchar>(r, c1)){
+		nSet++;
+	}else if ((c3 < cols) && edgeImage.at<uchar>(r, c3)){
+		nSet++;
+	}else if (r3<rows) {
+		if ((c1 > -1) && edgeImage.at<uchar>(r3, c1)){
+			nSet++;
+		}else if (edgeImage.at<uchar>(r3, c2)){
+			nSet++;
+		}else if ((c3 < cols) && edgeImage.at<uchar>(r3, c3)){
+			nSet++;
+		}
+	}
 
-int edgeSegmentation(cv::Mat edge_image, std::list<EdgeSegment> *segments) {
+	return nSet;
+}
+
+int edgeSegmentation(cv::Mat edge_image, std::list<Point*> *ednPoints, std::list<EdgeSegment*> *segments) {
 	for (int i = 0; i < segments->size(); i++) {
 
 	}

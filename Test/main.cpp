@@ -10,6 +10,7 @@
 
 
 using namespace std;
+#define DEBUG
 
 //Mat src; Mat src_gray;
 //int thresh = 100;
@@ -49,8 +50,10 @@ int main(int argc, char** argv) {
 	//src = test;
 	cv::Mat edgeImage(src);
 	cv::Mat edgeImage2(src);
-	cv::Mat endPoints = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
+	cv::Mat endPointImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
+
 	list<EdgeSegment> edgeSegments;
+	list<Point*> endPoints;
 
 	/// Create Window
 	printf("Hallo Startrows: %d, cols: %d\n",src.rows,src.cols);
@@ -63,7 +66,7 @@ int main(int argc, char** argv) {
 	cv::namedWindow(edge_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge_window, edgeImage);
 	
-	int nEnds  = findEndsJunctions(endPoints, edgeImage);
+	int nEnds  = findEnds(&endPoints, edgeImage);
 	
 	printf("Ends: %d\n", nEnds);
 	
@@ -71,12 +74,19 @@ int main(int argc, char** argv) {
 	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge2_window, edgeImage);
 
+#ifdef DEBUG
 	char* end_window = "Ends";
 	cv::namedWindow(end_window, CV_WINDOW_AUTOSIZE);
-	cv::imshow(end_window, endPoints);
+	list<Point*>::iterator it;
+	for (it=endPoints.begin(); it!=endPoints.end(); it++)	{
+		endPointImage.at<uchar>((*it)->getY(), (*it)->getX()) = 255;
+	}
+	cv::imshow(end_window, endPointImage);
+#endif
 	cv::waitKey(0);
 	return(0);
 }
+
 
 /** @function thresh_callback */
 //void thresh_callback(int, void*)
