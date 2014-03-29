@@ -13,8 +13,10 @@ highThreshold	higher threashold for hysteresis procedure
 kernelSize		size for sobel operator*/
 int edgeDetection(cv::Mat input_image,cv::Mat edge_image,int lowThreshold,int highThreshold,int kernelSize);
 
-/*Edge segmentation off a thinned edge list*/
-int edgeSegmentation(cv::Mat edge_image,std::list<Point*> *ednPoints,std::list<EdgeSegment*> *segments);
+/*Edge linking of a thinned edge image
+return	number of found segments
+Based on Peter Kovesis edgeLinkig*/
+int edgeLinking(cv::Mat edge_image,std::list<Point*> *ednPoints,std::list<EdgeSegment*> *segments);
 
 /*Finds end points and junctions in the provied edge image
   Based on Peter Kovesis findEndsJunctions*/

@@ -53,7 +53,7 @@ int checkNeighbors(int r, int c,cv::Mat edgeImage) {
 }
 
 int removeJunction(int r, int c, cv::Mat edgeImage, std::list<Point*> *endPoints) {
-	int r1, r2, r3, c1, c2, c3, nSet, rows, cols,ends;
+	int r1, r2, r3, c1, c2, c3, rows, cols,ends;
 	int value = 255;
 	ends = 0;
 	rows = edgeImage.rows;
@@ -178,32 +178,92 @@ int getNextPoint(int *row, int *col,cv::Mat edgeImage) {
 	//first row
 	if (r1>-1) {
 		if ((c1 > -1) && edgeImage.at<uchar>(r1, c1)){
-			nSet++;
+			ret=0;
+			*row = r1;
+			*col = c1;
+			return 0;
 		}else if (edgeImage.at<uchar>(r1, c2)){
-			nSet++;
+			ret = 0;
+			*row = r1;
+			*col = c2;
+			return 0;
 		}else if ((c3 < cols) && edgeImage.at<uchar>(r1, c3)){
-			nSet++;
+			ret = 0;
+			*row = r1;
+			*col = c3;
+			return 0;
 		}
 	}else if ((c1 > -1) && edgeImage.at<uchar>(r, c1)){
-		nSet++;
+		ret = 0;
+		*row = r;
+		*col = c1;
+		return 0;
 	}else if ((c3 < cols) && edgeImage.at<uchar>(r, c3)){
-		nSet++;
+		ret = 0;
+		*row = r;
+		*col = c3;
+		return 0;
 	}else if (r3<rows) {
 		if ((c1 > -1) && edgeImage.at<uchar>(r3, c1)){
-			nSet++;
+			ret = 0;
+			*row = r3;
+			*col = c1;
+			return 0;
 		}else if (edgeImage.at<uchar>(r3, c2)){
-			nSet++;
+			ret = 0;
+			*row = r3;
+			*col = c2;
+			return 0;
 		}else if ((c3 < cols) && edgeImage.at<uchar>(r3, c3)){
-			nSet++;
+			ret = 0;
+			*row = r3;
+			*col = c3;
+			return 0;
 		}
 	}
 
-	return nSet;
+	return ret;
 }
 
-int edgeSegmentation(cv::Mat edge_image, std::list<Point*> *ednPoints, std::list<EdgeSegment*> *segments) {
-	for (int i = 0; i < segments->size(); i++) {
+int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeSegment*> *segments) {
+	//first step: connect all known end points to edge segments
+	std::list<Point*>::iterator it;
+	int r, c, nSegs;
+	EdgeSegment *es;
+	nSegs = 0;
+	for (it=endPoints->begin(); it!=endPoints->end(); it++)	{
+		 r = (*it)->getY();
+		 c = (*it)->getX();
+		 //check if point is not already connected (=still set in edgeImage)
+		 if (edgeImage.at<uchar>(r,c)>0) {
+			 es = new EdgeSegment();
+			 nSegs++;
+			 //trace until the end of the edge
+			 do {
+				 es->push_backPoint(new Point(r, c));//add point to current segment
+				 edgeImage.at<uchar>(r, c) = 0; //delet current point
+			 } while (!getNextPoint(&r, &c, edgeImage));
+			 segments->push_back(es);//end of edge reached; segment complete
+		 }
 
 	}
-	return 0;
+	//second step: search for any unattached edge points and connect them to segments. These correspond to isolated loops
+	for (int row = 0; row < edgeImage.rows; row++){
+		for (int col=0; col < edgeImage.cols; col++) {
+			//check if point is and edge point
+			if (edgeImage.at<uchar>(row, col)>0) {
+				es = new EdgeSegment();
+				nSegs++;
+				r = row;
+				c = col;
+				//trace until the end of the edge
+				do {
+					es->push_backPoint(new Point(r, c));//add point to current segment
+					edgeImage.at<uchar>(r, c) = 0; //delet current point
+				} while (!getNextPoint(&r, &c, edgeImage));
+				segments->push_back(es);//end of edge reached; segment complete
+			}
+		}
+	}
+	return nSegs;
 }
