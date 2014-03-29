@@ -46,9 +46,9 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
 	
-	test.at<uchar>(5, 5) = 255;
+	test.at<uchar>(0, 0) = 255;/*
 	test.at<uchar>(5, 6) = 255;
-	test.at<uchar>(5, 7) = 255;
+	test.at<uchar>(5, 7) = 255;*/
 	//src = test;
 	cv::Mat edgeImage(src);
 	//cv::Mat edgeImage2(src);
@@ -69,6 +69,7 @@ int main(int argc, char** argv) {
 	char* edge_window = "Edges";
 	cv::namedWindow(edge_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge_window, edgeImage);
+	cv::imwrite("..\\edgeImage.jpg", edgeImage);
 	cv::Mat edgeImage2(src);
 
 
@@ -78,7 +79,7 @@ int main(int argc, char** argv) {
 
 	//link edges
 	int nSegs = 0;
-	//int nSegs = edgeLinking(edgeImage, &endPoints, &edgeSegments);
+	nSegs = edgeLinking(edgeImage, &endPoints, &edgeSegments);
 	printf("Ends: %d\nSegments: %d", nEnds,nSegs);
 	
 	
@@ -86,12 +87,9 @@ int main(int argc, char** argv) {
 #ifdef DEBUG
 	char* edge2_window = "Edges2";
 	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
-	cv::imshow(edge2_window, edgeImage);
+	cv::imshow(edge2_window, edgeImage2);
 
-	//store endPoint image and edgeImage
-	cv::imwrite("..\\endPoints.jpg", endPointImage);
-	cv::imwrite("..\\edgeImage.jpg", edgeImage);
-	cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);
+	
 
 
 	char* end_window = "Ends";
@@ -116,6 +114,10 @@ int main(int argc, char** argv) {
 		//cv::waitKey(0);
 	}
 	cv::imshow(segment_window, segImage);
+	//store endPoint image and edgeImage
+	cv::imwrite("..\\endPoints.jpg", endPointImage);
+	//cv::imwrite("..\\edgeImage.jpg", edgeImage);
+	cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);
 #endif
 	cv::waitKey(0);
 	return(0);
