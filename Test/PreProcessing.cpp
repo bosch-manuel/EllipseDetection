@@ -5,9 +5,10 @@
 #include <fstream>
 
 #define DEBUG
+#define PATH "..\\PreProcessing_Debug.txt"
 #ifdef DEBUG
 std::fstream f;
-const char *log = "..\\PreProcessing_Debug.txt";
+//char *log = "..\\PreProcessing_Debug.txt";
 #endif
 int edgeDetection(cv::Mat input_image, cv::Mat edge_image, int lowThreshold, int highThreshold, int kernelSize) {
 	cv::Canny(input_image, edge_image, lowThreshold, highThreshold, kernelSize);
@@ -120,7 +121,7 @@ int removeJunction(int r, int c, cv::Mat edgeImage, std::list<Point*> *endPoints
 
 int findEnds(std::list<Point*> *endPoints, cv::Mat edgeImage) {
 #ifdef DEBUG
-	f.open(log,std::ios::out);
+	f.open(PATH,std::ios::out);
 #endif
 
 	int value = 255;
@@ -243,7 +244,7 @@ int getNextPoint(int *row, int *col,cv::Mat edgeImage) {
 
 int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeSegment*> *segments) {
 #ifdef DEBUG
-	f.open(log, std::ios::out);
+	f.open(PATH, std::ios::out);
 #endif
 	//first step: connect all known end points to edge segments
 	std::list<Point*>::iterator it;
@@ -255,10 +256,16 @@ int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeS
 		 c = (*it)->getX();
 		 //check if point is not already connected (=still set in edgeImage)
 		 if (edgeImage.at<uchar>(r,c)>0) {
+#ifdef DEBUG
+			 f << "Neues Segment ab: " << r << ", " << c << std::endl;
+#endif
 			 es = new EdgeSegment();
 			 nSegs++;
 			 //trace until the end of the edge
 			 do {
+#ifdef DEBUG
+				 f << " -->(" << r << "," << c <<") ";
+#endif
 				 es->push_backPoint(new Point(r, c));//add point to current segment
 				 edgeImage.at<uchar>(r, c) = 0; //delet current point
 			 } while (!getNextPoint(&r, &c, edgeImage));
@@ -266,17 +273,28 @@ int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeS
 		 }
 
 	}
+
+#ifdef DEBUG
+	f <<std::endl<< "Alle Endpunkte zugeordnet, Suche nach isolierten loops" << std::endl;
+#endif
+
 	//second step: search for any unattached edge points and connect them to segments. These correspond to isolated loops
 	for (int row = 0; row < edgeImage.rows; row++){
 		for (int col=0; col < edgeImage.cols; col++) {
 			//check if point is and edge point
 			if (edgeImage.at<uchar>(row, col)>0) {
+#ifdef DEBUG
+				f << "Neues Segment ab: " << r << ", " << c << std::endl;
+#endif
 				es = new EdgeSegment();
 				nSegs++;
 				r = row;
 				c = col;
 				//trace until the end of the edge
 				do {
+#ifdef DEBUG
+					f << " -->(" << r << "," << c << ") ";
+#endif
 					es->push_backPoint(new Point(r, c));//add point to current segment
 					edgeImage.at<uchar>(r, c) = 0; //delet current point
 				} while (!getNextPoint(&r, &c, edgeImage));
@@ -284,5 +302,10 @@ int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeS
 			}
 		}
 	}
+
+#ifdef DEBUG
+	f.close();
+#endif
+
 	return nSegs;
 }
