@@ -7,6 +7,9 @@
 #define DEBUG
 #define EDGE_DEBUG "..\\EdgeLink_Debug.txt"
 #define FINDENDS_DEBUG "..\\FindEnds_Debug.txt"
+#define EDGEPOINT 255
+#define ENDPOINT 200
+
 #ifdef DEBUG
 std::fstream f;
 //char *log = "..\\PreProcessing_Debug.txt";
@@ -92,25 +95,33 @@ int removeJunction(int r, int c, cv::Mat edgeImage, std::list<Point*> *endPoints
 	c1 = c - 1; c2 = c; c3 = c + 1;
 	//first row
 	if (r1>-1) { 
-		if ((c1 > -1) && edgeImage.at<uchar>(r1, c1)>0){
+		if ((c1 > -1) && edgeImage.at<uchar>(r1, c1)==EDGEPOINT){
 			endPoints->push_back(new Point(r1, c1));
+			edgeImage.at<uchar>(r, c) = ENDPOINT;
 			//endPointsImage.at<uchar>(r1, c1)=value;
+			f << "End Point:  " << r1 << " , " << c1 << std::endl;
 			ends++;
 		}
-		if (edgeImage.at<uchar>(r1, c2)>0){
+		if (edgeImage.at<uchar>(r1, c2) == EDGEPOINT){
 			endPoints->push_back(new Point(r1, c2));
+			edgeImage.at<uchar>(r, c) = ENDPOINT;
 			//endPointsImage.at<uchar>(r1, c2) = value;
+			f << "End Point:  " << r1 << " , " << c2<< std::endl;
 			ends++;
 		}
-		if ((c3 < cols) && edgeImage.at<uchar>(r1, c3)>0){
+		if ((c3 < cols) && edgeImage.at<uchar>(r1, c3) == EDGEPOINT){
 			endPoints->push_back(new Point(r1, c3));
+			edgeImage.at<uchar>(r, c) = ENDPOINT;
 			//endPointsImage.at<uchar>(r1, c3) = value;
+			f << "End Point:  " << r1 << " , " << c3 << std::endl;
 			ends++;
 		}
 	}
 
-	if ((c1 > -1) && edgeImage.at<uchar>(r, c1)>0){
+	if ((c1 > -1) && edgeImage.at<uchar>(r, c1) == EDGEPOINT){
 		endPoints->push_back(new Point(r, c1));
+		edgeImage.at<uchar>(r, c) = ENDPOINT;
+		f << "End Point:  " << r << " , " << c1 << std::endl;
 		//endPointsImage.at<uchar>(r, c1) = value;
 		ends++;
 	}
@@ -170,7 +181,9 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat edgeImage) {
 #endif
 				}else if (crossings == 2) {//end point found, save it
 					//endPointsImage.at<uchar>(r, c)=value;
+					edgeImage.at<uchar>(r, c) = ENDPOINT;
 					endPoints->push_back(new Point(r, c));
+					f << "End Point:  " << r << " , " << c << std::endl;
 					ends++;
 				}else if (crossings > 5) {//junction, remove it and add adjacent pixels as endpoints
 					edgeImage.at<uchar>(r, c) = 0;
@@ -187,7 +200,11 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat edgeImage) {
 	}
 
 #ifdef DEBUG
+	std::list<Point*>::iterator it;
 	f << "############"<<std::endl<< "Ends: "<<ends<<" Juctions: "<<junctions << std::endl;
+	for ( it =endPoints->begin() ; it != endPoints->end(); it++)	{
+		f << (*it)->getY() << ", " << (*it)->getX() << std::endl;
+	}
 	f.close();	
 #endif
 
@@ -208,44 +225,44 @@ int getNextPoint(int *row, int *col,cv::Mat edgeImage) {
 	c1 = c - 1; c2 = c; c3 = c + 1;
 	//first row
 	if (r1>-1) {
-		if ((c1 > -1) && edgeImage.at<uchar>(r1, c1)){
+		if ((c1 > -1) && edgeImage.at<uchar>(r1, c1)>0){
 			ret=0;
 			*row = r1;
 			*col = c1;
 			return 0;
-		}else if (edgeImage.at<uchar>(r1, c2)){
+		}else if (edgeImage.at<uchar>(r1, c2)>0){
 			ret = 0;
 			*row = r1;
 			*col = c2;
 			return 0;
-		}else if ((c3 < cols) && edgeImage.at<uchar>(r1, c3)){
+		}else if ((c3 < cols) && edgeImage.at<uchar>(r1, c3)>0){
 			ret = 0;
 			*row = r1;
 			*col = c3;
 			return 0;
 		}
-	}else if ((c1 > -1) && edgeImage.at<uchar>(r, c1)){
+	}else if ((c1 > -1) && edgeImage.at<uchar>(r, c1)>0){
 		ret = 0;
 		*row = r;
 		*col = c1;
 		return 0;
-	}else if ((c3 < cols) && edgeImage.at<uchar>(r, c3)){
+	}else if ((c3 < cols) && edgeImage.at<uchar>(r, c3)>0){
 		ret = 0;
 		*row = r;
 		*col = c3;
 		return 0;
 	}else if (r3<rows) {
-		if ((c1 > -1) && edgeImage.at<uchar>(r3, c1)){
+		if ((c1 > -1) && edgeImage.at<uchar>(r3, c1)>0){
 			ret = 0;
 			*row = r3;
 			*col = c1;
 			return 0;
-		}else if (edgeImage.at<uchar>(r3, c2)){
+		}else if (edgeImage.at<uchar>(r3, c2)>0){
 			ret = 0;
 			*row = r3;
 			*col = c2;
 			return 0;
-		}else if ((c3 < cols) && edgeImage.at<uchar>(r3, c3)){
+		}else if ((c3 < cols) && edgeImage.at<uchar>(r3, c3)>0){
 			ret = 0;
 			*row = r3;
 			*col = c3;
