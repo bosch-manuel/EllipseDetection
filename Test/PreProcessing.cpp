@@ -5,7 +5,8 @@
 #include <fstream>
 
 #define DEBUG
-#define PATH "..\\PreProcessing_Debug.txt"
+#define EDGE_DEBUG "..\\EdgeLink_Debug.txt"
+#define FINDENDS_DEBUG "..\\FindEnds_Debug.txt"
 #ifdef DEBUG
 std::fstream f;
 //char *log = "..\\PreProcessing_Debug.txt";
@@ -17,8 +18,15 @@ int edgeDetection(cv::Mat input_image, cv::Mat edge_image, int lowThreshold, int
 }
 
 int checkNeighbors(int r, int c,cv::Mat edgeImage) {
-	int r1, r2, r3, c1, c2, c3, nSet,rows,cols;
-	nSet = 0;
+	int r1, r2, r3, c1, c2, c3, crossings,rows,cols;
+	// | 1 | 8 | 7 |
+	//	--- --- ---
+	// | 2 | x | 6 |
+	//  --- --- ---
+	// | 3 | 4 | 5 |
+	uchar a[8] = { 0 };
+	uchar b[8] = {0};
+	crossings = 0;
 	rows = edgeImage.rows;
 	cols = edgeImage.cols;
 	//check out the neighborhood
@@ -27,36 +35,49 @@ int checkNeighbors(int r, int c,cv::Mat edgeImage) {
 	//first row
 	if (r1>-1) {
 		if ((c1 > -1) && edgeImage.at<uchar>(r1, c1)>0){
-			nSet++;
+			a[0] = 1;
+			b[7] = 1;
 		}
 		if (edgeImage.at<uchar>(r1, c2)>0){
-			nSet++;
+			a[7] = 1;
+			b[6] = 1;
 		}
 		if ((c3 < cols) && edgeImage.at<uchar>(r1, c3)>0){
-			nSet++;
+			a[6] = 1;
+			b[5] = 1;
 		}
 	}
 
 	if ((c1 > -1) && edgeImage.at<uchar>(r, c1)>0){
-		nSet++;
+		a[1] = 1;
+		b[0] = 1;
 	}
 	if ((c3 < cols) && edgeImage.at<uchar>(r, c3)>0){
-		nSet++;
+		a[5] = 1;
+		b[4] = 1;
 	}
 
 	if (r3<rows) {
 		if ((c1 > -1) && edgeImage.at<uchar>(r3, c1)>0){
-			nSet++;
+			a[2] = 1;
+			b[1] = 1;
 		}
 		if (edgeImage.at<uchar>(r3, c2)>0){
-			nSet++;
+			a[3] = 1;
+			b[2] = 1;
 		}
 		if ((c3 < cols) && edgeImage.at<uchar>(r3, c3)>0){
-			nSet++;
+			a[4] = 1;
+			b[3] = 1;
 		}
 	}
 
-	return nSet;
+	for (int i = 0; i < 8; i++){
+		crossings += std::abs(a[i] - b[i]);
+	}
+	//2 crossings = center point is an end point
+	//>5 crossings =center point is a junction point
+	return crossings;
 }
 
 /*Removes a Junction an adds all pixel above it as end point*/
@@ -121,59 +142,52 @@ int removeJunction(int r, int c, cv::Mat edgeImage, std::list<Point*> *endPoints
 
 int findEnds(std::list<Point*> *endPoints, cv::Mat edgeImage) {
 #ifdef DEBUG
-	f.open(PATH,std::ios::out);
+	f.open(FINDENDS_DEBUG,std::ios::out);
 #endif
 
 	int value = 255;
 	int rows, cols;
 	rows = edgeImage.rows;
 	cols = edgeImage.cols;
-	int nSet = 0;
+	int crossings = 0;
 	int ends=0;
+	int junctions = 0;
 
 	for (int r = 0; r < rows; r++) {
 		for (int c = 0; c < cols; c++) {
 			//(r,c) is an end point if within his 3x3 neighborhood exactly 2 pixels are set
 			if (edgeImage.at<uchar>(r, c) > 0) {
-				nSet = checkNeighbors(r, c, edgeImage);
+				crossings = checkNeighbors(r, c, edgeImage);
 #ifdef DEBUG
 				//printf("Gesetzt in Nachbarschaft von (%d,%d): %d \n",r,c, nSet);
-				f << "Gesetzt in Nachbarschaft von" << r << "  " << c << "  " << nSet << std::endl;
+				f << "Crossings in Nachbarschaft von" << r << "  " << c << "  " << crossings << std::endl;
 #endif
-				if (nSet == 0) {//isolated pixel, remove it
+				if (crossings == 0) {//isolated pixel, remove it
 					edgeImage.at<uchar>(r, c) = 0;
 #ifdef DEBUG
 					//printf("Isoliertes Pixel\n");
 					f << "Isoliertes Pixel" << std::endl;
 #endif
-				}else if (nSet == 1) {//end point found, save it
+				}else if (crossings == 2) {//end point found, save it
 					//endPointsImage.at<uchar>(r, c)=value;
 					endPoints->push_back(new Point(r, c));
 					ends++;
-				}else if (nSet > 2) {//junction, remove it and add adjacent pixels as endpoints
+				}else if (crossings > 5) {//junction, remove it and add adjacent pixels as endpoints
 					edgeImage.at<uchar>(r, c) = 0;
-					/*for (int rn = r - 1; rn <= rn + 1; rn++)	{
-						for (int cn = c - 1; cn <= cn + 1; cn++)	{
-							if ((-1 < rn) && (rn < rows) && (-1 < cn) && (cn < cols)) {
-								if (edgeImage.at<uchar>(rn, cn) > 0) {
-									endPoints.at<uchar>(r, c);
-									ends++;
-								}
-							}
-						}
-					}*/
+					junctions++;
 #ifdef DEBUG
 					//printf("Junction Removed at (%d,%d) \n",r,c);
 					f << "Junction Removed  " << r << " , " << c << std::endl;
 #endif
 					ends += removeJunction( r,  c, edgeImage, endPoints);
 				}
-				nSet = 0;
+				crossings = 0;
 			}
 		}
 	}
 
-#ifdef DEGBU
+#ifdef DEBUG
+	f << "############"<<std::endl<< "Ends: "<<ends<<" Juctions: "<<junctions << std::endl;
 	f.close();	
 #endif
 
@@ -244,7 +258,7 @@ int getNextPoint(int *row, int *col,cv::Mat edgeImage) {
 
 int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeSegment*> *segments) {
 #ifdef DEBUG
-	f.open(PATH, std::ios::out);
+	f.open(EDGE_DEBUG, std::ios::out);
 #endif
 	//first step: connect all known end points to edge segments
 	std::list<Point*>::iterator it;
@@ -257,7 +271,7 @@ int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeS
 		 //check if point is not already connected (=still set in edgeImage)
 		 if (edgeImage.at<uchar>(r,c)>0) {
 #ifdef DEBUG
-			 f << "Neues Segment ab: " << r << ", " << c << std::endl;
+			 f <<std::endl<< "Neues Segment ab: " << r << ", " << c << std::endl;
 #endif
 			 es = new EdgeSegment();
 			 nSegs++;
@@ -284,7 +298,7 @@ int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeS
 			//check if point is and edge point
 			if (edgeImage.at<uchar>(row, col)>0) {
 #ifdef DEBUG
-				f << "Neues Segment ab: " << r << ", " << c << std::endl;
+				f << std::endl<<"Neues Segment ab: " << row << ", " << col << std::endl;
 #endif
 				es = new EdgeSegment();
 				nSegs++;

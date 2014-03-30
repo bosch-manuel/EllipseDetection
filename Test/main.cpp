@@ -75,6 +75,10 @@ int main(int argc, char** argv) {
 
 	//find ends
 	int nEnds  = findEnds(&endPoints, edgeImage2);
+	char* edge2_window = "Edges2";
+	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
+	cv::imshow(edge2_window, edgeImage2);
+	cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);
 
 
 	//link edges
@@ -85,9 +89,7 @@ int main(int argc, char** argv) {
 	
 
 #ifdef DEBUG
-	char* edge2_window = "Edges2";
-	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
-	cv::imshow(edge2_window, edgeImage2);
+	
 
 	
 
@@ -114,10 +116,11 @@ int main(int argc, char** argv) {
 		//cv::waitKey(0);
 	}
 	cv::imshow(segment_window, segImage);
+	cv::imwrite("..\\Segments.jpg", segImage);
 	//store endPoint image and edgeImage
 	cv::imwrite("..\\endPoints.jpg", endPointImage);
 	//cv::imwrite("..\\edgeImage.jpg", edgeImage);
-	cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);
+	
 #endif
 	cv::waitKey(0);
 	return(0);
