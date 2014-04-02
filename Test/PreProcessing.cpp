@@ -125,29 +125,6 @@ int removeJunction(int r, int c, cv::Mat edgeImage, std::list<Point*> *endPoints
 		//endPointsImage.at<uchar>(r, c1) = value;
 		ends++;
 	}
-	//if ((c3 < cols) && edgeImage.at<uchar>(r, c3)>0){
-	//	endPoints->push_back(new Point(r, c3));
-	//	//endPointsImage.at<uchar>(r, c3) = value;
-	//	ends++;
-	//}
-
-	//if (r3<rows) {
-	//	if ((c1 > -1) && edgeImage.at<uchar>(r3, c1)>0){
-	//		endPoints->push_back(new Point(r3, c1));
-	//		//endPointsImage.at<uchar>(r3, c1) = value;
-	//		ends++;
-	//	}
-	//	if (edgeImage.at<uchar>(r3, c2)>0){
-	//		endPoints->push_back(new Point(r3, c2));
-	//		//endPointsImage.at<uchar>(r3, c2) = value; 
-	//		ends++;
-	//	}
-	//	if ((c3 < cols) && edgeImage.at<uchar>(r3, c3)>0){
-	//		endPoints->push_back(new Point(r3, c3));
-	//		//endPointsImage.at<uchar>(r3, c3) = value;
-	//		ends++;
-	//	}
-	//}
 	return ends;
 }
 

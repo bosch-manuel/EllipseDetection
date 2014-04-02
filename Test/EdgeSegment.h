@@ -17,18 +17,20 @@ public:
 	/*Adds a Point at the beginning of the segment*/
 	void push_frontPoint(Point*);
 
-	size_t getLength() {
-		return edgeList.size();
-	}
+	size_t getLength();
+
+	/*true if Segment has already been segmented into lines*/
+	bool isSegmented();
 
 	/*Approximates the Segment with connected straight lines*/
-	int linearizeSegment();
+	int lineSegmentation();
 
 	/*Draws the Segment into image, Color is provied color (BGR))*/
 	void drawToImage(cv::Mat image,cv::Vec3b color);
 
 private:
 	std::list<Point*> edgeList; //edge pixels
+	bool isSegmented;
 
 };
 

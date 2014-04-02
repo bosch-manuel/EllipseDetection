@@ -5,6 +5,7 @@
 
 EdgeSegment::EdgeSegment() {
 	edgeList.clear();
+	isSegmented = false;
 }
 
 
@@ -17,6 +18,14 @@ void EdgeSegment::push_backPoint(Point* p) {
 
 void EdgeSegment::push_frontPoint(Point* p) {
 	edgeList.push_front(p);
+}
+
+size_t EdgeSegment::getLength() {
+	return edgeList.size();
+}
+
+bool EdgeSegment::isSegmented() {
+	return isSegmented;
 }
 
 void EdgeSegment::drawToImage(cv::Mat image,cv::Vec3b color) {
