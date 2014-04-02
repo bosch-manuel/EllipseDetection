@@ -3,12 +3,8 @@
 #include "Point.h"
 #include <list>
 #include <fstream>
+#include "Defines.h"
 
-//#define DEBUG
-#define EDGE_DEBUG "..\\EdgeLink_Debug.txt"
-#define FINDENDS_DEBUG "..\\FindEnds_Debug.txt"
-#define EDGEPOINT 255
-#define ENDPOINT 200
 
 #ifdef DEBUG
 std::fstream f;

@@ -26,6 +26,7 @@
     <ClCompile Include="PreProcessing.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Defines.h" />
     <ClInclude Include="EdgeSegment.h" />
     <ClInclude Include="LinearizedEdgeSegment.h" />
     <ClInclude Include="Point.h" />

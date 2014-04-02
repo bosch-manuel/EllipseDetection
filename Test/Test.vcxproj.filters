@@ -44,5 +44,8 @@
     <ClInclude Include="LinearizedEdgeSegment.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

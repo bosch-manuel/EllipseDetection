@@ -3,14 +3,13 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "Defines.h"
 #include "EdgeSegment.h"
 #include "Point.h"
 #include "PreProcessing.hpp"
 
 
 using namespace std;
-#define DEBUG
 
 //Mat src; Mat src_gray;
 //int thresh = 100;
@@ -45,6 +44,7 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\t.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
+	cv::RNG rng(12345);
 	
 	test.at<uchar>(0, 0) = 255;/*
 	test.at<uchar>(5, 6) = 255;
@@ -53,6 +53,7 @@ int main(int argc, char** argv) {
 	cv::Mat edgeImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
 	//cv::Mat edgeImage2(src);
 	cv::Mat segImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
+	cv::Mat lineSegmentedEdges = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
 	cv::Mat endPointImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
 
 	list<EdgeSegment*> edgeSegments;
@@ -86,26 +87,40 @@ int main(int argc, char** argv) {
 	nSegs = edgeLinking(edgeImage2, &endPoints, &edgeSegments);
 	printf("Ends: %d\nSegments: %d", nEnds,nSegs);
 	
-	
-
-#ifdef DEBUG
-	
-
-	
-
-
-	char* end_window = "Ends";
-	cv::namedWindow(end_window, CV_WINDOW_AUTOSIZE);
-	list<Point*>::iterator it;
-	for (it=endPoints.begin(); it!=endPoints.end(); it++)	{
-		endPointImage.at<uchar>((*it)->getY(), (*it)->getX()) = 255;
+	//line segmentation for each Edge segment
+	list<EdgeSegment*>::iterator it;
+	for (it=edgeSegments.begin(); it!=edgeSegments.end(); it++)	{
+		(*it)->lineSegmentation(D_TOL);
 	}
-	cv::imshow(end_window, endPointImage);
+
+#ifdef DEBUG_SHOW_LINESEGMENTEDEDGES
+	//draw segments
+	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it != edgeSegments.end(); it++){
+		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
+		if ((*it)->getLength() >= MIN_LENGTH) {
+			(*it)->drawToImage(lineSegmentedEdges, color);
+		}
+
+		//cv::waitKey(0);
+	}
+	char* lineSegmentedEdges_window = "LineSegmentedEdges";
+	cv::namedWindow(lineSegmentedEdges_window, CV_WINDOW_AUTOSIZE);
+	cv::imshow(lineSegmentedEdges_window, lineSegmentedEdges);
+	cv::imwrite("..\\lineSegmentedEdges.jpg", lineSegmentedEdges);
+#endif
+
+#ifdef DEBUG_MAIN
+	/*char* end_window = "Ends";
+	cv::namedWindow(end_window, CV_WINDOW_AUTOSIZE);
+	for (list<Point*>::iterator itt = endPoints.begin(); itt != endPoints.end(); itt++)	{
+		endPointImage.at<uchar>((*itt)->getY(), (*itt)->getX()) = 255;
+	}
+	cv::imshow(end_window, endPointImage);*/
 
 	//show segments
 	char* segment_window = "Segments";
 	cv::namedWindow(segment_window, CV_WINDOW_AUTOSIZE);
-	cv::RNG rng(12345);
+	
 	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it!=edgeSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0,255));
 		if ((*it)->getLength() > 0) {
@@ -118,7 +133,7 @@ int main(int argc, char** argv) {
 	cv::imshow(segment_window, segImage);
 	cv::imwrite("..\\Segments.jpg", segImage);
 	//store endPoint image and edgeImage
-	cv::imwrite("..\\endPoints.jpg", endPointImage);
+	//cv::imwrite("..\\endPoints.jpg", endPointImage);
 	//cv::imwrite("..\\edgeImage.jpg", edgeImage);
 	
 #endif

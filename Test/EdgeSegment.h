@@ -1,6 +1,7 @@
 #ifndef EDGESEGMENT_H
 #define EDGESEGMENT_H
 
+#include "Defines.h"
 #include "Point.h"
 #include "opencv2/imgproc/imgproc.hpp"
 #include <list>
@@ -20,17 +21,19 @@ public:
 	size_t getLength();
 
 	/*true if Segment has already been segmented into lines*/
-	bool isSegmented();
+	int isSegmented();
 
-	/*Approximates the Segment with connected straight lines*/
-	int lineSegmentation();
+	/*Approximates the Segment with connected straight lines
+	d_tol	max devation of a point to a line segment*/
+	int lineSegmentation(int d_tol);
 
 	/*Draws the Segment into image, Color is provied color (BGR))*/
 	void drawToImage(cv::Mat image,cv::Vec3b color);
 
 private:
 	std::list<Point*> edgeList; //edge pixels
-	bool isSegmented;
+	int segmented;
+	int nLineSegs;
 
 };
 
