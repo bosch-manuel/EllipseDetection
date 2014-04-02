@@ -41,8 +41,8 @@ int main(int argc, char** argv) {
 
 	/// Load source image and convert it to gray
 	
-	//cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
-	cv::Mat src = cv::imread("..\\t.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
+	//cv::Mat src = cv::imread("..\\t.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
 	
@@ -50,7 +50,7 @@ int main(int argc, char** argv) {
 	test.at<uchar>(5, 6) = 255;
 	test.at<uchar>(5, 7) = 255;*/
 	//src = test;
-	cv::Mat edgeImage(src);
+	cv::Mat edgeImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
 	//cv::Mat edgeImage2(src);
 	cv::Mat segImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
 	cv::Mat endPointImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
@@ -70,7 +70,7 @@ int main(int argc, char** argv) {
 	cv::namedWindow(edge_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge_window, edgeImage);
 	cv::imwrite("..\\edgeImage.jpg", edgeImage);
-	cv::Mat edgeImage2(src);
+	cv::Mat edgeImage2(edgeImage);
 
 
 	//find ends
@@ -83,7 +83,7 @@ int main(int argc, char** argv) {
 
 	//link edges
 	int nSegs = 0;
-	nSegs = edgeLinking(edgeImage, &endPoints, &edgeSegments);
+	nSegs = edgeLinking(edgeImage2, &endPoints, &edgeSegments);
 	printf("Ends: %d\nSegments: %d", nEnds,nSegs);
 	
 	
