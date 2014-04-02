@@ -45,21 +45,21 @@ Copyright (c) 2000-2006 Peter Kovesi
 %
 % The above copyright notice and this permission notice shall be included in
 % all copies or substantial portions of the Software.*/
-double maxlinedev(list<Point*>::iterator start, list<Point*>::iterator end) {
+double maxlinedev(list<Point*>::iterator *start, list<Point*>::iterator *end) {
 	double D, y1my2, x2mx1, C,dev,maxDev;
 	list<Point*>::iterator tmp;
 	list<Point*>::iterator cur_max;
 	//distance between end points
 	//D = sqrt((x(1)-x(Npts))^2 + (y(1)-y(Npts))^2);
 	maxDev = 0.0;
-	D = sqrt(pow((*start)->getX() - (*end)->getX(), 2) + pow((*start)->getY() - (*end)->getY(), 2));
+	D = sqrt(pow((**start)->getX() - (**end)->getX(), 2) + pow((**start)->getY() - (**end)->getY(), 2));
 
-	y1my2 = (*start)->getY() - (*end)->getY();
-	x2mx1 = (*end)->getX() - (*start)->getX();
-	C = (*end)->getY()*(*start)->getX() - (*start)->getY()*(*end)->getX();
+	y1my2 = (**start)->getY() - (**end)->getY();
+	x2mx1 = (**end)->getX() - (**start)->getX();
+	C = (**end)->getY() * (**start)->getX() - (**start)->getY() * (**end)->getX();
 
 	//calulate distance from line for every point between the two end points
-	for ( tmp = start; tmp != end; tmp++) {
+	for ( tmp = *start; tmp != *end; tmp++) {
 		dev = abs((*tmp)->getX()*y1my2 + (*tmp)->getY()*x2mx1 + C) / D;
 		if (dev>maxDev) {
 			cur_max = tmp;
@@ -67,11 +67,11 @@ double maxlinedev(list<Point*>::iterator start, list<Point*>::iterator end) {
 		}
 	}
 #ifdef DEBUG_MAXLINEDEV
-	cout << "MaxLineDev: " << (*start)->getY() << ", " << (*start)->getX() << " und " << (*end)->getY()<< ", "<< (*end)->getX();
+	cout << "MaxLineDev: " << (**start)->getY() << ", " << (**start)->getX() << " und " << (**end)->getY()<< ", "<< (**end)->getX();
 #endif
-	end = tmp;
+	*end = tmp;
 #ifdef DEBUG_MAXLINEDEV
-	cout << "-->   Max abw bei: " << (*end)->getY() << ", " << (*end)->getX() << endl;
+	cout << "-->   Max abw - "<< maxDev<<" - bei: " << (**end)->getY() << ", " << (**end)->getX() << endl;
 #endif
 	return maxDev;
 }
@@ -85,22 +85,29 @@ int EdgeSegment::lineSegmentation(int d_tol) {
 	double y1my2 = 0;
 	double x2mx1 = 0;
 	double C = 0;
+	int size = edgeList.size();
+	list<Point*>::iterator last = edgeList.begin();
+	list<Point*>::iterator lastElem = edgeList.begin();
 	list<Point*>::iterator first = edgeList.begin();
-	list<Point*>::iterator last = edgeList.end();
 	list<Point*>::iterator tmp;
 
+	//set iterator last on last element
+	for (size_t i = 0; i < size-1; i++){
+		lastElem++;
+	}
+	last = lastElem;
 	while (first != last) {
-		maxDev=maxlinedev(first, last);
+		maxDev=maxlinedev(&first, &last);
 		//split line at point with maxDev if maxDev>tolDev
 		while (maxDev>d_tol) {
-			maxDev = maxlinedev(first, last);
+			maxDev = maxlinedev(&first, &last);
 		}
 		//remove all Points between first and last (end points of the line Segment)
 		edgeList.erase(++first, last);
 		nLineSegs++;
 		//next line segment
 		first = last;
-		last = edgeList.end();
+		last = lastElem;
 	}
 
 	//Mark EdgeSegment as segmented

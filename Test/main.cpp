@@ -90,7 +90,11 @@ int main(int argc, char** argv) {
 	//line segmentation for each Edge segment
 	list<EdgeSegment*>::iterator it;
 	for (it=edgeSegments.begin(); it!=edgeSegments.end(); it++)	{
-		(*it)->lineSegmentation(D_TOL);
+		if ((*it)->getLength() > MIN_LENGTH) {
+			(*it)->lineSegmentation(D_TOL);
+		}else{
+			edgeSegments.erase(it);
+		}
 	}
 
 #ifdef DEBUG_SHOW_LINESEGMENTEDEDGES
@@ -123,7 +127,7 @@ int main(int argc, char** argv) {
 	
 	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it!=edgeSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0,255));
-		if ((*it)->getLength() > 0) {
+		if ((*it)->getLength() > MIN_LENGTH) {
 			(*it)->drawToImage(segImage, color);
 			//cv::imshow(segment_window, segImage);
 		}
