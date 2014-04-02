@@ -61,7 +61,7 @@ double maxlinedev(list<Point*>::iterator *start, list<Point*>::iterator *end) {
 	//calulate distance from line for every point between the two end points
 	for ( tmp = *start; tmp != *end; tmp++) {
 		dev = abs((*tmp)->getX()*y1my2 + (*tmp)->getY()*x2mx1 + C) / D;
-		if (dev>maxDev) {
+		if (dev>=maxDev) {
 			cur_max = tmp;
 			maxDev = dev;
 		}
@@ -69,7 +69,7 @@ double maxlinedev(list<Point*>::iterator *start, list<Point*>::iterator *end) {
 #ifdef DEBUG_MAXLINEDEV
 	cout << "MaxLineDev: " << (**start)->getY() << ", " << (**start)->getX() << " und " << (**end)->getY()<< ", "<< (**end)->getX();
 #endif
-	*end = tmp;
+	*end = cur_max;
 #ifdef DEBUG_MAXLINEDEV
 	cout << "-->   Max abw - "<< maxDev<<" - bei: " << (**end)->getY() << ", " << (**end)->getX() << endl;
 #endif
@@ -103,11 +103,17 @@ int EdgeSegment::lineSegmentation(int d_tol) {
 			maxDev = maxlinedev(&first, &last);
 		}
 		//remove all Points between first and last (end points of the line Segment)
-		edgeList.erase(++first, last);
+		if (first != last) {
+			first = edgeList.erase(++first, last);
+		}
 		nLineSegs++;
 		//next line segment
-		first = last;
-		last = lastElem;
+		//first = last;
+		last = edgeList.begin();
+		//set iterator last on last element
+		for (size_t i = 0; i < edgeList.size() - 1; i++){
+			last++;
+		}
 	}
 
 	//Mark EdgeSegment as segmented

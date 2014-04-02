@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\t.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
-	cv::RNG rng(12345);
+	cv::RNG rng(999999998989);
 	
 	test.at<uchar>(0, 0) = 255;/*
 	test.at<uchar>(5, 6) = 255;
@@ -89,11 +89,12 @@ int main(int argc, char** argv) {
 	
 	//line segmentation for each Edge segment
 	list<EdgeSegment*>::iterator it;
-	for (it=edgeSegments.begin(); it!=edgeSegments.end(); it++)	{
+	for (it=edgeSegments.begin(); it!=edgeSegments.end();)	{
 		if ((*it)->getLength() > MIN_LENGTH) {
 			(*it)->lineSegmentation(D_TOL);
+			it++;
 		}else{
-			edgeSegments.erase(it);
+			it=edgeSegments.erase(it);
 		}
 	}
 
