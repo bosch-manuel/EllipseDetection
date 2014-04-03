@@ -103,7 +103,7 @@ int main(int argc, char** argv) {
 	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it != edgeSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
 		if ((*it)->getLength() >= MIN_LENGTH) {
-			(*it)->drawToImage(lineSegmentedEdges, color);
+			(*it)->drawToImage(&lineSegmentedEdges, color);
 		}
 
 		//cv::waitKey(0);
@@ -129,7 +129,7 @@ int main(int argc, char** argv) {
 	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it!=edgeSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0,255));
 		if ((*it)->getLength() > MIN_LENGTH) {
-			(*it)->drawToImage(segImage, color);
+			(*it)->drawToImage(&segImage, color);
 			//cv::imshow(segment_window, segImage);
 		}
 		

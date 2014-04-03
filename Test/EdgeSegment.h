@@ -28,7 +28,7 @@ public:
 	int lineSegmentation(int d_tol);
 
 	/*Draws the Segment into image, Color is provied color (BGR))*/
-	void drawToImage(cv::Mat image,cv::Vec3b color);
+	void drawToImage(cv::Mat *image,cv::Vec3b color);
 
 private:
 	std::list<Point*> edgeList; //edge pixels

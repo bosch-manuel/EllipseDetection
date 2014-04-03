@@ -105,15 +105,16 @@ int EdgeSegment::lineSegmentation(int d_tol) {
 		//remove all Points between first and last (end points of the line Segment)
 		if (first != last) {
 			first = edgeList.erase(++first, last);
+			last = edgeList.begin();
+			//set iterator last on last element
+			for (size_t i = 0; i < edgeList.size() - 1; i++){
+				last++;
+			}
 		}
 		nLineSegs++;
 		//next line segment
 		//first = last;
-		last = edgeList.begin();
-		//set iterator last on last element
-		for (size_t i = 0; i < edgeList.size() - 1; i++){
-			last++;
-		}
+		
 	}
 
 	//Mark EdgeSegment as segmented
@@ -121,20 +122,26 @@ int EdgeSegment::lineSegmentation(int d_tol) {
 	return nLineSegs;
 }
 
-void EdgeSegment::drawToImage(cv::Mat image,cv::Vec3b color) {
+void EdgeSegment::drawToImage(cv::Mat *image,cv::Vec3b color) {
+	cv::Scalar c = (color.val[0], color.val[1], color.val[2]);
 	if (!segmented) {
 		//draw every contained Point to image
 		for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
-			image.at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
-			image.at<cv::Vec3b>((*it)->getY(), (*it)->getX())[1] = color.val[1];
-			image.at<cv::Vec3b>((*it)->getY(), (*it)->getX())[2] = color.val[2];
+			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
+			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[1] = color.val[1];
+			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[2] = color.val[2];
 		}
 	}else {
 		//draw the lines between the end points
-		for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
-			image.at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
-			image.at<cv::Vec3b>((*it)->getY(), (*it)->getX())[1] = color.val[1];
-			image.at<cv::Vec3b>((*it)->getY(), (*it)->getX())[2] = color.val[2];
+		std::list<Point*>::iterator a, a_1;
+		cv::Point p1;
+		cv::Point p2;
+		a = edgeList.begin();
+		a_1 = edgeList.begin()++;
+		for (; a != edgeList.end() && a_1!=edgeList.end(); a++,a_1++)	{
+			p1 = cv::Point((*a)->getX(), (*a)->getY());
+			p2 = cv::Point((*a_1)->getX(), (*a_1)->getY());
+			cv::line(*image,p1,p2,c,1,8,0);
 
 		}
 	}

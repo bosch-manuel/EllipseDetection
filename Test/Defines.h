@@ -9,7 +9,7 @@
 #define FINDENDS_DEBUG "..\\FindEnds_Debug.txt"
 #define EDGEPOINT 255
 #define ENDPOINT 200
-#define DEBUG_MAXLINEDEV
+//#define DEBUG_MAXLINEDEV
 //#define DEBUG_SHOW_LINESEGMENTEDEDGES
 
 #define MIN_LENGTH 10
