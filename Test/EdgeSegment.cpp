@@ -123,7 +123,7 @@ int EdgeSegment::lineSegmentation(int d_tol) {
 }
 
 void EdgeSegment::drawToImage(cv::Mat *image,cv::Vec3b color) {
-	cv::Scalar c = (color.val[0], color.val[1], color.val[2]);
+	cv::Scalar c(255, 20, 20);
 	if (!segmented) {
 		//draw every contained Point to image
 		for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
@@ -137,11 +137,11 @@ void EdgeSegment::drawToImage(cv::Mat *image,cv::Vec3b color) {
 		cv::Point p1;
 		cv::Point p2;
 		a = edgeList.begin();
-		a_1 = edgeList.begin()++;
+		a_1 = ++edgeList.begin();
 		for (; a != edgeList.end() && a_1!=edgeList.end(); a++,a_1++)	{
 			p1 = cv::Point((*a)->getX(), (*a)->getY());
 			p2 = cv::Point((*a_1)->getX(), (*a_1)->getY());
-			cv::line(*image,p1,p2,c,1,8,0);
+			cv::line(*image,p1,p2,c,1,8);
 
 		}
 	}

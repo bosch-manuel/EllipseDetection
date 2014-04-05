@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\t.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
-	cv::RNG rng(999999998989);
+	cv::RNG rng(12353);
 	
 	test.at<uchar>(0, 0) = 255;/*
 	test.at<uchar>(5, 6) = 255;
@@ -86,6 +86,19 @@ int main(int argc, char** argv) {
 	int nSegs = 0;
 	nSegs = edgeLinking(edgeImage2, &endPoints, &edgeSegments);
 	printf("Ends: %d\nSegments: %d", nEnds,nSegs);
+
+	//show segments
+	char* segment_window = "Segments";
+	cv::namedWindow(segment_window, CV_WINDOW_AUTOSIZE);
+
+	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it != edgeSegments.end(); it++){
+		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
+		if ((*it)->getLength() > MIN_LENGTH) {
+			(*it)->drawToImage(&segImage, color);
+		}
+	}
+	cv::imshow(segment_window, segImage);
+	cv::imwrite("..\\Segments.jpg", segImage);
 	
 	//line segmentation for each Edge segment
 	list<EdgeSegment*>::iterator it;
@@ -102,9 +115,8 @@ int main(int argc, char** argv) {
 	//draw segments
 	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it != edgeSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
-		if ((*it)->getLength() >= MIN_LENGTH) {
-			(*it)->drawToImage(&lineSegmentedEdges, color);
-		}
+		(*it)->drawToImage(&lineSegmentedEdges, color);
+		
 
 		//cv::waitKey(0);
 	}
@@ -122,21 +134,7 @@ int main(int argc, char** argv) {
 	}
 	cv::imshow(end_window, endPointImage);*/
 
-	//show segments
-	char* segment_window = "Segments";
-	cv::namedWindow(segment_window, CV_WINDOW_AUTOSIZE);
 	
-	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it!=edgeSegments.end(); it++){
-		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0,255));
-		if ((*it)->getLength() > MIN_LENGTH) {
-			(*it)->drawToImage(&segImage, color);
-			//cv::imshow(segment_window, segImage);
-		}
-		
-		//cv::waitKey(0);
-	}
-	cv::imshow(segment_window, segImage);
-	cv::imwrite("..\\Segments.jpg", segImage);
 	//store endPoint image and edgeImage
 	//cv::imwrite("..\\endPoints.jpg", endPointImage);
 	//cv::imwrite("..\\edgeImage.jpg", edgeImage);
