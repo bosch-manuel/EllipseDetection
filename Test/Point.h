@@ -9,7 +9,11 @@ public:
 
 	int getX();
 	int getY();
-
+	/*scalar product*/
+	double operator*(Point);
+	Point operator+(Point);
+	Point operator-(Point);
+	double norm();
 private:
 	int x, y;
 };
