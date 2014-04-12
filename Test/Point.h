@@ -10,9 +10,10 @@ public:
 	int getX();
 	int getY();
 	/*scalar product*/
-	double operator*(Point);
-	Point operator+(Point);
-	Point operator-(Point);
+	double operator*(const Point&);
+	Point operator+(const Point& );
+	Point operator-(const Point&);
+	Point operator==(const Point&);
 	double norm();
 private:
 	int x, y;

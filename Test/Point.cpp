@@ -16,15 +16,15 @@ int Point::getY(){
 	return y;
 }
 
-double Point::operator*(Point p) {
+double Point::operator*(const Point& p) {
 	return  (x*p.x + y*p.y);
 }
 
-Point Point::operator+(Point p) {
+Point Point::operator+(const Point& p) {
 	return Point(y + p.y, x + p.x);
 }
 
-Point Point::operator-(Point p){
+Point Point::operator-(const Point& p){
 	return Point(y - p.y, x - p.x);
 }
 

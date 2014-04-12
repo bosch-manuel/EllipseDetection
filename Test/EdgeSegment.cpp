@@ -14,6 +14,16 @@ EdgeSegment::EdgeSegment()
 EdgeSegment::~EdgeSegment() {
 }
 
+EdgeSegment::EdgeSegment( const EdgeSegment& other)
+: segmented(FALSE)
+, nLineSegs(-1) {
+	edgeList.clear();
+
+	for (list<Point*>::const_iterator i = other.edgeList.begin(); i != other.edgeList.end(); i++)	{
+		edgeList.push_back(new Point((*i)->getY(),(*i)->getX()));
+	}
+}
+
 void EdgeSegment::push_backPoint(Point* p) {
 	edgeList.push_back(p);
 }
@@ -145,5 +155,15 @@ void EdgeSegment::drawToImage(cv::Mat *image,cv::Vec3b color) {
 
 		}
 	}
+}
+
+int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> curveSegments) {
+	Point *lastSplit; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
+	//segment must be segmented into lines
+	if (!segmented) {
+		return -1;
+	}
+	//go through the whole segment
+
 }
 

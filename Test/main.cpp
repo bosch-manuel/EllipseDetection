@@ -126,19 +126,15 @@ int main(int argc, char** argv) {
 	cv::imwrite("..\\lineSegmentedEdges.jpg", lineSegmentedEdges);
 #endif
 
-#ifdef DEBUG_MAIN
-	/*char* end_window = "Ends";
-	cv::namedWindow(end_window, CV_WINDOW_AUTOSIZE);
-	for (list<Point*>::iterator itt = endPoints.begin(); itt != endPoints.end(); itt++)	{
-		endPointImage.at<uchar>((*itt)->getY(), (*itt)->getX()) = 255;
+	//curve segmentation
+#ifdef DEBUB_CURVE_SEG
+	//copy each edge Segment
+	list<EdgeSegment*> copy_segs;
+	for (list<EdgeSegment*>::const_iterator i = edgeSegments.begin(); i!=edgeSegments.end(); i++)	{
+		EdgeSegment *es=new EdgeSegment((**i));
+		copy_segs.push_back(es);
 	}
-	cv::imshow(end_window, endPointImage);*/
-
-	
-	//store endPoint image and edgeImage
-	//cv::imwrite("..\\endPoints.jpg", endPointImage);
-	//cv::imwrite("..\\edgeImage.jpg", edgeImage);
-	
+	int b = 1;
 #endif
 	cv::waitKey(0);
 	return(0);
