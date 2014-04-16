@@ -1,5 +1,6 @@
 #include "EdgeSegment.h"
 #include "Point.h"
+#include "Defines.h"
 #include <iostream>
 
 using namespace std;
@@ -159,11 +160,36 @@ void EdgeSegment::drawToImage(cv::Mat *image,cv::Vec3b color) {
 
 int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> curveSegments) {
 	Point *lastSplit; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
+	Point *L1, *L2, *R1, *R2, *P,*PL1, *PR1;
+	list<Point*>::const_iterator i, l, r;
+	int lSteps,rSteps,lengthPL1,lengthPR1;
 	//segment must be segmented into lines
 	if (!segmented) {
 		return -1;
 	}
 	//go through the whole segment
+	for (i = edgeList.begin(); i !=edgeList.end(); i++)	{
+		P = *i;
+		//check how many points exist left and right to the current point, to determine which condition should be tested
+		for (lSteps=0,l = i; l != edgeList.begin() && lSteps<2 ; l--,lSteps++)	{
+			lSteps == 0 ? L1 = *l : L2 = *l;
+		}
 
+		for (rSteps = 0, r = i; r != edgeList.end() && rSteps<2; r++, rSteps++) {
+			rSteps == 0 ? R1 = *r : R2 = *r;
+		}
+		
+		//length condition
+		if (lSteps>=1 && rSteps>=1)	{
+			PL1 = &(*P - *L1);
+			PR1 = &(*P - *R1);
+			lengthPL1 = PL1->norm();
+			lengthPR1 = PR1->norm();
+			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+
+			}
+		}
+
+	}
 }
 
