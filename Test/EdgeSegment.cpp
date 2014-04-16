@@ -158,34 +158,45 @@ void EdgeSegment::drawToImage(cv::Mat *image,cv::Vec3b color) {
 	}
 }
 
-int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> curveSegments) {
-	Point *lastSplit; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
-	Point *L1, *L2, *R1, *R2, *P,*PL1, *PR1;
+int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
+	Point *lastSplit=NULL; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
+	Point *L1, *L2, *R1, *R2, *P,*PL1, *PR1,*r0,*r1,*r2,*r3,*r4,*r5,*r6,*r7,*r8,*r9;
 	list<Point*>::const_iterator i, l, r;
 	int lSteps,rSteps,lengthPL1,lengthPR1;
+	EdgeSegment *cS = NULL;
 	//segment must be segmented into lines
 	if (!segmented) {
 		return -1;
 	}
 	//go through the whole segment
+	cS = new EdgeSegment;
 	for (i = edgeList.begin(); i !=edgeList.end(); i++)	{
 		P = *i;
+		cS->push_backPoint(P);//collect all visited points
 		//check how many points exist left and right to the current point, to determine which condition should be tested
-		for (lSteps=0,l = i; l != edgeList.begin() && lSteps<2 ; l--,lSteps++)	{
+		for (lSteps=0,l = i;*l!=lastSplit, l != edgeList.begin() && lSteps<2 ; l--,lSteps++)	{
 			lSteps == 0 ? L1 = *l : L2 = *l;
 		}
 
-		for (rSteps = 0, r = i; r != edgeList.end() && rSteps<2; r++, rSteps++) {
+		for (rSteps = 0, r = i; *r != lastSplit, r != edgeList.end() && rSteps<2; r++, rSteps++) {
 			rSteps == 0 ? R1 = *r : R2 = *r;
 		}
-		
-		//length condition
-		if (lSteps>=1 && rSteps>=1)	{
+
+		if (lSteps>=1 && rSteps>=1)	{ //length condition
 			PL1 = &(*P - *L1);
 			PR1 = &(*P - *R1);
 			lengthPL1 = PL1->norm();
 			lengthPR1 = PR1->norm();
 			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+				//split the line at P
+				curveSegments->push_back(cS);
+				lastSplit = P;// keep the last splitting point in mind
+				cS = new EdgeSegment; // next curve segment
+				
+			}else if(lSteps==2 && rSteps>=1) { //curvature condition 1
+				r0 = &(*L2 - *L1);
+				r1 = &(*L2 - *P);
+				r2 = &(*L2 - *R1);
 
 			}
 		}

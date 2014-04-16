@@ -7,6 +7,7 @@
 #define DEBUG_MAIN
 #define EDGE_DEBUG "..\\EdgeLink_Debug.txt"
 #define FINDENDS_DEBUG "..\\FindEnds_Debug.txt"
+#define CURVE_SEG_DEBUG "..\\CurveSeg_Debug.txt"
 #define EDGEPOINT 255
 #define ENDPOINT 200
 //#define DEBUG_MAXLINEDEV
