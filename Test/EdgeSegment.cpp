@@ -160,10 +160,14 @@ void EdgeSegment::drawToImage(cv::Mat *image,cv::Vec3b color) {
 
 int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 	Point *lastSplit=NULL; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
-	Point *L1, *L2, *R1, *R2, *P,*PL1, *PR1,*r0,*r1,*r2,*r3,*r4,*r5,*r6,*r7,*r8,*r9;
+	Point *L1 = NULL, *L2 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL, *PL1 = NULL, *PR1 = NULL, *r0 = NULL
+		, *r1 = NULL, *r2 = NULL, *r3 = NULL, *r4 = NULL, *r5 = NULL, *r6 = NULL, *r7 = NULL, *r8 = NULL, *r9 = NULL;
 	list<Point*>::const_iterator i, l, r;
-	int lSteps,rSteps,lengthPL1,lengthPR1;
+	int lSteps,rSteps,lengthPL1,lengthPR1=0;
+	int nCurvSegs = 0;
+	int a1 = 0, a2 = 0, a3 = 0, a4 = 0, g1 = 0,g2=0,b1=0,b2=0,b3=0;
 	EdgeSegment *cS = NULL;
+
 	//segment must be segmented into lines
 	if (!segmented) {
 		return -1;
@@ -190,17 +194,74 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
 				//split the line at P
 				curveSegments->push_back(cS);
+				nCurvSegs++;
 				lastSplit = P;// keep the last splitting point in mind
 				cS = new EdgeSegment; // next curve segment
+				cS->push_backPoint(P);//collect all visited points
 				
-			}else if(lSteps==2 && rSteps>=1) { //curvature condition 1
-				r0 = &(*L2 - *L1);
-				r1 = &(*L2 - *P);
-				r2 = &(*L2 - *R1);
+			}
+			//curvature condition left side
+			else if(lSteps==2 && rSteps>=1) { 
+				r0 = &(*L1 - *L2);
+				r1 = &(*P - *L2);
+				r2 = &(*R1 - *L2);
+				a1 = acos((*r0 * *r1)/(r0->norm()* r1->norm()))*(180/PI);
+				a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI);
+				g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI);
+				
+				if (abs(a2 - a1) != g1 || (a2 - a1) < 0) {
+					//split the line at P
+					curveSegments->push_back(cS);
+					nCurvSegs++;
+					lastSplit = P;// keep the last splitting point in mind
+					cS = new EdgeSegment; // next curve segment
+					cS->push_backPoint(P);//collect all visited points
+				}
 
+			}
+			//curvature condition right side
+			else if (rSteps == 2 && lSteps >= 1){
+				r3 = &(*R1 - *R2);
+				r4 = &(*L1 - *R2);
+				r5 = &(*P - *R2);
+				a3 = acos((*r3 * *r5) / (r3->norm()* r5->norm()))*(180 / PI);
+				a4 = acos((*r3 * *r4) / (r3->norm()* r4->norm()))*(180 / PI);
+				g2 = acos((*r4 * *r5) / (r4->norm()* r5->norm()))*(180 / PI);
+
+				if (abs(a4 - a3) != g2 || (a4 - a3) < 0) {
+					//split the line at P
+					curveSegments->push_back(cS);
+					nCurvSegs++;
+					lastSplit = P;// keep the last splitting point in mind
+					cS = new EdgeSegment; // next curve segment
+					cS->push_backPoint(P);//collect all visited points
+				}
+
+			}
+			//angle condition
+			else if (rSteps == 2 && lSteps == 2) {
+				r7 = &(*P - *L1);
+				r8 = &(*P - *R1);
+				b3 = acos((*r0 * *r7) / (r0->norm()* r7->norm()))*(180 / PI);
+				b1 = acos((*r3 * *r8) / (r3->norm()* r8->norm()))*(180 / PI);
+				b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()))*(180 / PI);
+
+				if (abs(b1 - b2) > TH || abs(b3 - b2) > TH) {
+					//split the line at P
+					curveSegments->push_back(cS);
+					nCurvSegs++;
+					lastSplit = P;// keep the last splitting point in mind
+					cS = new EdgeSegment; // next curve segment
+					cS->push_backPoint(P);//collect all visited points
+				}
 			}
 		}
 
 	}
+	//add last curve segment to list
+	curveSegments->push_back(cS);
+	nCurvSegs++;
+
+	return nCurvSegs;
 }
 

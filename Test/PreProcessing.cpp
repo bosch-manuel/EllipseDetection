@@ -365,11 +365,11 @@ int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeS
 }
 
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs) {
-	//check every edge segments
+	//check every edge segment
+	int nCurvSegs = 0;
 	for (std::list<EdgeSegment*>::const_iterator i = edgeSegs->begin(); i!=edgeSegs->end() ; i++) {
-		//step through the whole segment and split it if one of the condition is satisfied
-		//search points left to P
-		(*i)->
-		//search points right to P
+		nCurvSegs+=(*i)->curveSegmentation(curveSegs);
 	}
+
+	return nCurvSegs;
 }

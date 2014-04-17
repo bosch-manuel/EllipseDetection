@@ -30,6 +30,9 @@
     <ClCompile Include="LinearizedEdgeSegment.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="testMain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PreProcessing.hpp">
