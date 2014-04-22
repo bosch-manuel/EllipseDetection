@@ -178,15 +178,15 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 		P = *i;
 		cS->push_backPoint(P);//collect all visited points
 		//check how many points exist left and right to the current point, to determine which condition should be tested
-		for (lSteps=0,l = i;*l!=lastSplit, l != edgeList.begin() && lSteps<2 ; l--,lSteps++)	{
+		for (lSteps=-1,l = i;*l!=lastSplit, l != edgeList.begin() && lSteps<2 ; l--,lSteps++)	{
 			lSteps == 0 ? L1 = *l : L2 = *l;
 		}
 
-		for (rSteps = 0, r = i; *r != lastSplit, r != edgeList.end() && rSteps<2; r++, rSteps++) {
+		for (rSteps = -1, r = i; *r != lastSplit, r != edgeList.end() && rSteps<2; r++, rSteps++) {
 			rSteps == 0 ? R1 = *r : R2 = *r;
 		}
 
-		if (lSteps>=1 && rSteps>=1)	{ //length condition
+		if (lSteps >= 1 && rSteps >= 1)	{ //length condition
 			PL1 = &(*P - *L1);
 			PR1 = &(*P - *R1);
 			lengthPL1 = PL1->norm();
@@ -198,8 +198,9 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 				lastSplit = P;// keep the last splitting point in mind
 				cS = new EdgeSegment; // next curve segment
 				cS->push_backPoint(P);//collect all visited points
-				
+
 			}
+		}
 			//curvature condition left side
 			else if(lSteps==2 && rSteps>=1) { 
 				r0 = &(*L1 - *L2);
@@ -255,9 +256,9 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 					cS->push_backPoint(P);//collect all visited points
 				}
 			}
-		}
+		
 
-	}
+		}
 	//add last curve segment to list
 	curveSegments->push_back(cS);
 	nCurvSegs++;
