@@ -6,10 +6,14 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include <list>
 
+#define LSEG_EDGE 0 //line segmented edge segment
+#define EDGESEG  1 // pure edge segment
+#define CURVESEG 2 // curve segment
 class EdgeSegment
 {
 public:
 	EdgeSegment();
+	EdgeSegment(int type);
 	~EdgeSegment();
 	EdgeSegment(const EdgeSegment& other);
 	/*Adds a Point behind the currently last Point of the edge segment*/
@@ -21,7 +25,7 @@ public:
 	size_t getLength();
 
 	/*true if Segment has already been segmented into lines*/
-	int isSegmented();
+	int getType();
 
 	/*Approximates the Segment with connected straight lines
 	d_tol	max devation of a point to a line segment*/
@@ -41,8 +45,8 @@ public:
 	
 private:
 	std::list<Point*> edgeList; //edge pixels
-	int segmented;
 	int nLineSegs;
+	int type;
 
 };
 

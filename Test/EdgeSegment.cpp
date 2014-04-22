@@ -6,17 +6,22 @@
 using namespace std;
 
 EdgeSegment::EdgeSegment()
-: segmented(FALSE)
+: type(LSEG_EDGE)
 , nLineSegs(-1){
 	edgeList.clear();
 }
 
+EdgeSegment::EdgeSegment(int type)
+: type(type)
+, nLineSegs(-1){
+	edgeList.clear();
+}
 
 EdgeSegment::~EdgeSegment() {
 }
 
 EdgeSegment::EdgeSegment( const EdgeSegment& other)
-: segmented(FALSE)
+: type(other.type)
 , nLineSegs(-1) {
 	edgeList.clear();
 
@@ -37,8 +42,8 @@ size_t EdgeSegment::getLength() {
 	return edgeList.size();
 }
 
-int EdgeSegment::isSegmented() {
-	return segmented;
+int EdgeSegment::getType() {
+	return type;
 }
 
 /*Finds the point of max devation from the line between start and end
@@ -129,13 +134,13 @@ int EdgeSegment::lineSegmentation(int d_tol) {
 	}
 
 	//Mark EdgeSegment as segmented
-	segmented = 1;
+	type = LSEG_EDGE;
 	return nLineSegs;
 }
 
 void EdgeSegment::drawToImage(cv::Mat *image,cv::Vec3b color) {
-	cv::Scalar c(255, 20, 20);
-	if (!segmented) {
+	cv::Scalar c(color[0], color[1], color[2]);
+	if (type==EDGESEG) {
 		//draw every contained Point to image
 		for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
@@ -169,11 +174,11 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 	EdgeSegment *cS = NULL;
 
 	//segment must be segmented into lines
-	if (!segmented) {
+	if (type!=LSEG_EDGE) {
 		return -1;
 	}
 	//go through the whole segment
-	cS = new EdgeSegment;
+	cS = new EdgeSegment(CURVESEG);
 	for (i = edgeList.begin(); i !=edgeList.end(); i++)	{
 		P = *i;
 		cS->push_backPoint(P);//collect all visited points
@@ -196,7 +201,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 				curveSegments->push_back(cS);
 				nCurvSegs++;
 				lastSplit = P;// keep the last splitting point in mind
-				cS = new EdgeSegment; // next curve segment
+				cS = new EdgeSegment(CURVESEG); // next curve segment
 				cS->push_backPoint(P);//collect all visited points
 
 			}
@@ -215,7 +220,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 					curveSegments->push_back(cS);
 					nCurvSegs++;
 					lastSplit = P;// keep the last splitting point in mind
-					cS = new EdgeSegment; // next curve segment
+					cS = new EdgeSegment(CURVESEG); // next curve segment
 					cS->push_backPoint(P);//collect all visited points
 				}
 
@@ -234,7 +239,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 					curveSegments->push_back(cS);
 					nCurvSegs++;
 					lastSplit = P;// keep the last splitting point in mind
-					cS = new EdgeSegment; // next curve segment
+					cS = new EdgeSegment(CURVESEG); // next curve segment
 					cS->push_backPoint(P);//collect all visited points
 				}
 
@@ -252,7 +257,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 					curveSegments->push_back(cS);
 					nCurvSegs++;
 					lastSplit = P;// keep the last splitting point in mind
-					cS = new EdgeSegment; // next curve segment
+					cS = new EdgeSegment(CURVESEG); // next curve segment
 					cS->push_backPoint(P);//collect all visited points
 				}
 			}
