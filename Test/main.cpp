@@ -40,7 +40,8 @@ int main(int argc, char** argv) {
 
 	/// Load source image and convert it to gray
 	
-	cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
+	//cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat src = cv::imread("..\\curvTestImg.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\t.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
@@ -55,9 +56,12 @@ int main(int argc, char** argv) {
 	cv::Mat segImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
 	cv::Mat lineSegmentedEdges = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
 	cv::Mat endPointImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
+	cv::Mat curveSegImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
 
 	list<EdgeSegment*> edgeSegments;
 	list<Point*> endPoints;
+	list<EdgeSegment*> curveSegments;
+
 
 	/// Create Window
 	printf("Hallo Startrows: %d, cols: %d\n",src.rows,src.cols);
@@ -74,19 +78,20 @@ int main(int argc, char** argv) {
 	cv::Mat edgeImage2(edgeImage);
 
 
-	//find ends
+	////find ends
 	int nEnds  = findEnds(&endPoints, edgeImage2);
-	char* edge2_window = "Edges2";
-	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
-	cv::imshow(edge2_window, edgeImage2);
-	cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);
+	//char* edge2_window = "Edges2";
+	//cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
+	//cv::imshow(edge2_window, edgeImage2);
+	//cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);
 
 
 	//link edges
 	int nSegs = 0;
 	nSegs = edgeLinking(edgeImage2, &endPoints, &edgeSegments);
-	printf("Ends: %d\nSegments: %d", nEnds,nSegs);
+	printf("Ends: %d\nSegments: %d\n", nEnds,nSegs);
 
+#ifdef DEBUG_SHOW_EDGESEGS
 	//show segments
 	char* segment_window = "Segments";
 	cv::namedWindow(segment_window, CV_WINDOW_AUTOSIZE);
@@ -99,7 +104,8 @@ int main(int argc, char** argv) {
 	}
 	cv::imshow(segment_window, segImage);
 	cv::imwrite("..\\Segments.jpg", segImage);
-	
+#endif 
+
 	//line segmentation for each Edge segment
 	list<EdgeSegment*>::iterator it;
 	for (it=edgeSegments.begin(); it!=edgeSegments.end();)	{
@@ -112,6 +118,7 @@ int main(int argc, char** argv) {
 	}
 
 #ifdef DEBUG_SHOW_LINESEGMENTEDEDGES
+	std::cout << "Gültige Segmente: " << edgeSegments.size() << std::endl;
 	//draw segments
 	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it != edgeSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
@@ -127,15 +134,23 @@ int main(int argc, char** argv) {
 #endif
 
 	//curve segmentation
+	int t=curveSegmentation(&edgeSegments,&curveSegments);
+
 #ifdef DEBUB_CURVE_SEG
-	//copy each edge Segment
-	list<EdgeSegment*> copy_segs;
-	for (list<EdgeSegment*>::const_iterator i = edgeSegments.begin(); i!=edgeSegments.end(); i++)	{
-		EdgeSegment *es=new EdgeSegment((**i));
-		copy_segs.push_back(es);
+	std::cout << "Curve Segments: " << t << std::endl;
+	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
+		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
+		(*it)->drawToImage(&curveSegImage, color);
+
+
+		//scv::waitKey(0);
 	}
-	int b = 1;
+	char* curveSegments_window = "Curve Segments";
+	cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
+	cv::imshow(curveSegments_window, curveSegImage);
+	cv::imwrite("..\\curveSegments.jpg", curveSegImage);
 #endif
+
 	cv::waitKey(0);
 	return(0);
 }
