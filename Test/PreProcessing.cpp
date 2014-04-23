@@ -373,7 +373,7 @@ int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*>
 	//check every edge segment
 	int nCurvSegs = 0;
 	for (std::list<EdgeSegment*>::const_iterator i = edgeSegs->begin(); i!=edgeSegs->end() ; i++) {
-		nCurvSegs+=(*i)->curveSegmentation(curveSegs);
+		nCurvSegs+=(*i)->curveSegmentation(curveSegs,&csf);
 	}
 
 #ifdef DEBUB_CURVE_SEG

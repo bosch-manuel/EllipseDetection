@@ -164,7 +164,7 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 	}
 }
 
-int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
+int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::fstream *csf) {
 	Point *lastSplit = NULL; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
 	Point *L1 = NULL, *L2 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL, *PL1 = NULL, *PR1 = NULL, *r0 = NULL
 		, *r1 = NULL, *r2 = NULL, *r3 = NULL, *r4 = NULL, *r5 = NULL, *r6 = NULL, *r7 = NULL, *r8 = NULL, *r9 = NULL;
@@ -199,7 +199,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 			lengthPR1 = PR1->norm();
 			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
 #ifdef DEBUB_CURVE_SEG
-				csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
+				*csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif
 				//split the line at P
 				curveSegments->push_back(cS);
@@ -215,13 +215,13 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 			r0 = &(*L1 - *L2);
 			r1 = &(*P - *L2);
 			r2 = &(*R1 - *L2);
-			a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI);
-			a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI);
-			g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI);
+			a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI) + .5;
+			a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI) + .5;
+			g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI) + .5;
 
 			if (abs(a2 - a1) != g1 || (a2 - a1) < 0) {
 #ifdef DEBUB_CURVE_SEG
-				csf << "curve cond left at: " << P->getX() << ", " << P->getY() << endl;
+				*csf << "curve cond left at: " << P->getX() << ", " << P->getY() << endl;
 #endif
 				//split the line at P
 				curveSegments->push_back(cS);
@@ -238,13 +238,13 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 			r3 = &(*R1 - *R2);
 			r4 = &(*L1 - *R2);
 			r5 = &(*P - *R2);
-			a3 = acos((*r3 * *r5) / (r3->norm()* r5->norm()))*(180 / PI);
-			a4 = acos((*r3 * *r4) / (r3->norm()* r4->norm()))*(180 / PI);
-			g2 = acos((*r4 * *r5) / (r4->norm()* r5->norm()))*(180 / PI);
+			a3 = acos((*r3 * *r5) / (r3->norm()* r5->norm()))*(180 / PI) + .5;
+			a4 = acos((*r3 * *r4) / (r3->norm()* r4->norm()))*(180 / PI) + .5;
+			g2 = acos((*r4 * *r5) / (r4->norm()* r5->norm()))*(180 / PI) + .5;
 
 			if (abs(a4 - a3) != g2 || (a4 - a3) < 0) {
 #ifdef DEBUB_CURVE_SEG
-				csf << "curve cond right at: " << P->getX() << ", " << P->getY() << endl;
+				*csf << "curve cond right at: " << P->getX() << ", " << P->getY() << endl;
 #endif
 				//split the line at P
 				curveSegments->push_back(cS);
@@ -258,15 +258,19 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments) {
 		}
 		//angle condition
 		if (rSteps == 2 && lSteps == 2) {
-			r7 = &(*P - *L1);
-			r8 = &(*P - *R1);
-			b3 = acos((*r0 * *r7) / (r0->norm()* r7->norm()))*(180 / PI);
-			b1 = acos((*r3 * *r8) / (r3->norm()* r8->norm()))*(180 / PI);
-			b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()))*(180 / PI);
+			r7 = &(*L1 - *P);
+			r8 = &(*R1 - *P);
+			double tmp1 = *r0* *r7;
+			double tmp2 = *r3 * *r8;
+			double t1 = (r0->norm()* r7->norm());
+			double t2 = (r3->norm()* r8->norm());
+			b3 = acos(tmp1 / t1)*(180 / PI) + .5;
+			b1 = acos(tmp2 / t2)*(180 / PI) + .5;
+			b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()))*(180 / PI) + .5;
 
 			if (abs(b1 - b2) > TH || abs(b3 - b2) > TH) {
 #ifdef DEBUB_CURVE_SEG
-				csf << "angle cond at: " << P->getX() << ", " << P->getY() << endl;
+				*csf << "angle cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif
 				//split the line at P
 				curveSegments->push_back(cS);

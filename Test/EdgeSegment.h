@@ -40,7 +40,7 @@ public:
 		curveSegments	list for curve segments generated from this edge segment
 	return
 		num of curve segments; -1 if edge segment was not segmented*/
-	int curveSegmentation(std::list<EdgeSegment*> *curveSegments);
+	int curveSegmentation(std::list<EdgeSegment*> *curveSegments,std::fstream *csf);
 
 	
 private:

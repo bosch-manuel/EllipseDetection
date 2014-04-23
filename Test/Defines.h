@@ -21,8 +21,6 @@
 #define LTH 4 /* if LTH* length of line 1 > length of line 2 or the other way round an edge segment will be splitted at their connection point P   */
 #define TH 40 /*max dif between angles of neighboring line segments  */
 
-extern std::fstream csf;
-
 #define MIN_LENGTH 10
 #define D_TOL 3
 
