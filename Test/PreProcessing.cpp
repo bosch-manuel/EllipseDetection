@@ -365,11 +365,20 @@ int edgeLinking(cv::Mat edgeImage, std::list<Point*> *endPoints, std::list<EdgeS
 }
 
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs) {
+#ifdef DEBUB_CURVE_SEG
+	std::fstream csf;
+	csf.open(CURVE_SEG_DEBUG, std::ios::out);
+#endif 
+
 	//check every edge segment
 	int nCurvSegs = 0;
 	for (std::list<EdgeSegment*>::const_iterator i = edgeSegs->begin(); i!=edgeSegs->end() ; i++) {
 		nCurvSegs+=(*i)->curveSegmentation(curveSegs);
 	}
+
+#ifdef DEBUB_CURVE_SEG
+	csf.close();
+#endif
 
 	return nCurvSegs;
 }
