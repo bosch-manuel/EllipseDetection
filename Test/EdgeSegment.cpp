@@ -149,8 +149,13 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 		}
 	}
 	else {
+		for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
+			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
+			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[1] = color.val[1];
+			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[2] = color.val[2];
+		}
 		//draw the lines between the end points
-		std::list<Point*>::iterator a, a_1;
+		/*std::list<Point*>::iterator a, a_1;
 		cv::Point p1;
 		cv::Point p2;
 		a = edgeList.begin();
@@ -160,7 +165,7 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 			p2 = cv::Point((*a_1)->getX(), (*a_1)->getY());
 			cv::line(*image, p1, p2, c, 1, 8);
 
-		}
+		}*/
 	}
 }
 
