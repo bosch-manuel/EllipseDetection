@@ -169,9 +169,9 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 	Point *L1 = NULL, *L2 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL, *PL1 = NULL, *PR1 = NULL, *r0 = NULL
 		, *r1 = NULL, *r2 = NULL, *r3 = NULL, *r4 = NULL, *r5 = NULL, *r6 = NULL, *r7 = NULL, *r8 = NULL, *r9 = NULL;
 	list<Point*>::const_iterator i, l, r;
-	int lSteps, rSteps, lengthPL1, lengthPR1 = 0;
+	int d,lSteps, rSteps, lengthPL1, lengthPR1 = 0;
 	int nCurvSegs = 0;
-	int a1 = 0, a2 = 0, a3 = 0, a4 = 0, g1 = 0, g2 = 0, b1 = 0, b2 = 0, b3 = 0;
+	double a1 = 0, a2 = 0, a3 = 0, a4 = 0, g1 = 0, g2 = 0, b1 = 0, b2 = 0, b3 = 0;
 	EdgeSegment *cS = NULL;
 
 	//segment must be segmented into lines
@@ -192,34 +192,35 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			rSteps == 0 ? R1 = *r : R2 = *r;
 		}
 
-		if (lSteps >= 1 && rSteps >= 1)	{ //length condition
-			PL1 = &(*P - *L1);
-			PR1 = &(*P - *R1);
-			lengthPL1 = PL1->norm();
-			lengthPR1 = PR1->norm();
-			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
-#ifdef DEBUB_CURVE_SEG
-				*csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
-#endif
-				//split the line at P
-				curveSegments->push_back(cS);
-				nCurvSegs++;
-				lastSplit = P;// keep the last splitting point in mind
-				cS = new EdgeSegment(CURVESEG); // next curve segment
-				cS->push_backPoint(P);//collect all visited points
-				continue;
-			}
-		}
+//		if (lSteps >= 1 && rSteps >= 1)	{ //length condition
+//			PL1 = &(*P - *L1);
+//			PR1 = &(*P - *R1);
+//			lengthPL1 = PL1->norm();
+//			lengthPR1 = PR1->norm();
+//			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+//#ifdef DEBUB_CURVE_SEG
+//				*csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
+//#endif
+//				//split the line at P
+//				curveSegments->push_back(cS);
+//				nCurvSegs++;
+//				lastSplit = P;// keep the last splitting point in mind
+//				cS = new EdgeSegment(CURVESEG); // next curve segment
+//				cS->push_backPoint(P);//collect all visited points
+//				continue;
+//			}
+//		}
 		//curvature condition left side
 		if (lSteps == 2 && rSteps >= 1) {
 			r0 = &(*L1 - *L2);
 			r1 = &(*P - *L2);
 			r2 = &(*R1 - *L2);
-			a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI) + .5;
-			a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI) + .5;
-			g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI) + .5;
-
-			if (abs(a2 - a1) != g1 || (a2 - a1) < 0) {
+			a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI);
+			a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI);
+			g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI);
+			 
+			d = (abs(a2 - a1)-g1) + .5;
+			if (d != 0 || (a2 - a1) < 0) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "curve cond left at: " << P->getX() << ", " << P->getY() << endl;
 #endif
@@ -242,7 +243,8 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			a4 = acos((*r3 * *r4) / (r3->norm()* r4->norm()))*(180 / PI) + .5;
 			g2 = acos((*r4 * *r5) / (r4->norm()* r5->norm()))*(180 / PI) + .5;
 
-			if (abs(a4 - a3) != g2 || (a4 - a3) < 0) {
+			d = (abs(a4 - a3) - g2) + .5;
+			if (d !=0 || (a4 - a3) < 0) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "curve cond right at: " << P->getX() << ", " << P->getY() << endl;
 #endif
@@ -258,15 +260,14 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 		}
 		//angle condition
 		if (rSteps == 2 && lSteps == 2) {
-			r7 = &(*L1 - *P);
-			r8 = &(*R1 - *P);
-			double tmp1 = *r0* *r7;
-			double tmp2 = *r3 * *r8;
-			double t1 = (r0->norm()* r7->norm());
-			double t2 = (r3->norm()* r8->norm());
-			b3 = acos(tmp1 / t1)*(180 / PI) + .5;
-			b1 = acos(tmp2 / t2)*(180 / PI) + .5;
-			b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()))*(180 / PI) + .5;
+			r6 = &(*L2 - *L1);
+			r7 = &(*P - *L1);
+			r8 = &(*P - *R1);
+			r9 = &(*R2 - *R1);
+
+			b3 = acos((*r6 * *r7) / (r6->norm()* r7->norm()))*(180 / PI);
+			b1 = acos((*r8 * *r9) / (r8->norm()* r9->norm()))*(180 / PI);
+			b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()))*(180 / PI);
 
 			if (abs(b1 - b2) > TH || abs(b3 - b2) > TH) {
 #ifdef DEBUB_CURVE_SEG
