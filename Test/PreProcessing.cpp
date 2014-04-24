@@ -3,6 +3,7 @@
 #include "Point.h"
 #include <list>
 #include <fstream>
+#include <algorithm> 
 #include "Defines.h"
 #include "EdgeSegment.h"
 
@@ -381,4 +382,57 @@ int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*>
 #endif
 
 	return nCurvSegs;
+}
+
+int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EdgeSegment*> *groupedCurveSegs) {
+#ifdef DEBUB_CURVE_GRP
+	std::fstream csf;
+	csf.open(CURVE_GRP_DEBUG, std::ios::out);
+#endif 
+	Point *nfirst, *nend, *mfirst, *mend;
+	EdgeSegment *eS_min;
+	int order_min; //eS_min must be added in this order
+	int d, d_min=D0+1;
+	int mEnE, mEnB, mBnE, mBnB;
+	//search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
+	for (std::list<EdgeSegment*>::iterator n = curveSegs->begin(); n != curveSegs->end(); n++) {
+		if (*n != NULL) {
+			nfirst = (*n)->getFirstPoint();
+			nend = (*n)->getLastPoint();
+			for (std::list<EdgeSegment*>::iterator m = curveSegs->begin(); m != curveSegs->end(); m++) {
+				if (*n != *m) {
+					mfirst = (*m)->getFirstPoint();
+					mend = (*m)->getLastPoint();
+					//calc distance between n and m
+					mEnE = (*mend - *nend).norm()+.5;
+					mEnB = (*mend - *nfirst).norm()+.5;
+					mBnE = (*mfirst - *nend).norm()+.5;
+					mBnB = (*mfirst - *nfirst).norm()+.5;
+					d = std::min(std::min(mEnE, mEnB), std::min(mBnE, mBnB));
+					if (d < d_min) {
+						//dif of gradients
+						if (d == mEnE) {
+
+						}
+						else if (d == mEnB) {
+
+						}
+						else if (d == mBnE) {
+
+						}
+						else if (d == mBnB) {
+
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+#ifdef DEBUB_CURVE_GRP
+	csf.close();
+#endif
+
+	return 0;
 }

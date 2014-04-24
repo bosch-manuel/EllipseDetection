@@ -40,4 +40,7 @@ int findEnds(std::list<Point*>*,cv::Mat);
 /*Curve segmentation based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu*/
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs);
 
+/*Curve grouping based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu*/
+int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EdgeSegment*> *groupedCurveSegs);
+
 #endif

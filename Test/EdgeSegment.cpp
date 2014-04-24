@@ -92,6 +92,41 @@ double maxlinedev(list<Point*>::iterator *start, list<Point*>::iterator *end) {
 	return maxDev;
 }
 
+Point* EdgeSegment::getFirstPoint(){
+	return edgeList.front();
+}
+
+Point* EdgeSegment::getLastPoint(){
+	return edgeList.back();
+}
+
+void EdgeSegment::addSegment(EdgeSegment *seg, int order) {
+	switch (order) {
+	case END_AT_END:
+		for (std::list<Point*>::const_reverse_iterator i = seg->edgeList.rbegin(); i != seg->edgeList.rend(); i++)	{
+			edgeList.push_back(*i);
+		}
+		break;
+	case END_AT_BEGIN:
+		for (std::list<Point*>::const_reverse_iterator i = seg->edgeList.rbegin(); i != seg->edgeList.rend(); i++)	{
+			edgeList.push_front(*i);
+		}
+			break;
+	case BEGIN_AT_END:
+		for (std::list<Point*>::const_iterator i = seg->edgeList.begin(); i != seg->edgeList.end(); i++)	{
+			edgeList.push_back(*i);
+		}
+		break;
+	case BEGIN_AT_BEGIN:
+		for (std::list<Point*>::const_iterator i = seg->edgeList.begin(); i != seg->edgeList.end(); i++)	{
+			edgeList.push_front(*i);
+		}
+		break;
+	default:
+		break;
+	}
+}
+
 int EdgeSegment::lineSegmentation(int d_tol) {
 	nLineSegs = 0;
 	double maxDev = 0;

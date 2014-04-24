@@ -27,6 +27,16 @@ public:
 	/*true if Segment has already been segmented into lines*/
 	int getType();
 
+	Point* getFirstPoint();
+
+	Point* getLastPoint();
+
+	/*Adds a segment
+	param:
+		seg: segment which should be added
+		order: defines where seg should be added (END_AT_END, END_AT_BEGIN, BEGIN_AT_END 2, BEGIN_AT_BEGIN 3*/
+	void addSegment(EdgeSegment *seg, int order);
+
 	/*Approximates the Segment with connected straight lines
 	d_tol	max devation of a point to a line segment*/
 	int lineSegmentation(int d_tol);

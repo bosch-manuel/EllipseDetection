@@ -13,7 +13,7 @@ public:
 	double operator*(const Point&);
 	Point operator+(const Point& );
 	Point operator-(const Point&);
-	int operator==(const Point&);
+	bool operator==(const Point&);
 	double norm();
 private:
 	int x, y;
