@@ -197,24 +197,24 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			rSteps == 0 ? R1 = *r : R2 = *r;
 		}
 
-//		if (lSteps >= 1 && rSteps >= 1)	{ //length condition
-//			PL1 = &(*P - *L1);
-//			PR1 = &(*P - *R1);
-//			lengthPL1 = PL1->norm();
-//			lengthPR1 = PR1->norm();
-//			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
-//#ifdef DEBUB_CURVE_SEG
-//				*csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
-//#endif
-//				//split the line at P
-//				curveSegments->push_back(cS);
-//				nCurvSegs++;
-//				lastSplit = P;// keep the last splitting point in mind
-//				cS = new EdgeSegment(CURVESEG); // next curve segment
-//				cS->push_backPoint(P);//collect all visited points
-//				continue;
-//			}
-//		}
+		if (lSteps >= 1 && rSteps >= 1)	{ //length condition
+			PL1 = &(*P - *L1);
+			PR1 = &(*P - *R1);
+			lengthPL1 = PL1->norm();
+			lengthPR1 = PR1->norm();
+			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+#ifdef DEBUB_CURVE_SEG
+				*csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
+#endif
+				//split the line at P
+				curveSegments->push_back(cS);
+				nCurvSegs++;
+				lastSplit = P;// keep the last splitting point in mind
+				cS = new EdgeSegment(CURVESEG); // next curve segment
+				cS->push_backPoint(P);//collect all visited points
+				continue;
+			}
+		}
 		//curvature condition left side
 		if (lSteps == 2 && rSteps >= 1) {
 			r0 = &(*L1 - *L2);
@@ -244,9 +244,9 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			r3 = &(*R1 - *R2);
 			r4 = &(*L1 - *R2);
 			r5 = &(*P - *R2);
-			a3 = acos((*r3 * *r5) / (r3->norm()* r5->norm()))*(180 / PI) + .5;
-			a4 = acos((*r3 * *r4) / (r3->norm()* r4->norm()))*(180 / PI) + .5;
-			g2 = acos((*r4 * *r5) / (r4->norm()* r5->norm()))*(180 / PI) + .5;
+			a3 = acos((*r3 * *r5) / (r3->norm()* r5->norm()))*(180 / PI);
+			a4 = acos((*r3 * *r4) / (r3->norm()* r4->norm()))*(180 / PI);
+			g2 = acos((*r4 * *r5) / (r4->norm()* r5->norm()))*(180 / PI);
 
 			d = (abs(a4 - a3) - g2) + .5;
 			if (d !=0 || (a4 - a3) < 0) {
