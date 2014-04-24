@@ -149,13 +149,13 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 		}
 	}
 	else {
-		for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
+		/*for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[1] = color.val[1];
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[2] = color.val[2];
-		}
+		}*/
 		//draw the lines between the end points
-		/*std::list<Point*>::iterator a, a_1;
+		std::list<Point*>::iterator a, a_1;
 		cv::Point p1;
 		cv::Point p2;
 		a = edgeList.begin();
@@ -165,7 +165,7 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 			p2 = cv::Point((*a_1)->getX(), (*a_1)->getY());
 			cv::line(*image, p1, p2, c, 1, 8);
 
-		}*/
+		}
 	}
 }
 
@@ -274,7 +274,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			b1 = acos((*r8 * *r9) / (r8->norm()* r9->norm()))*(180 / PI);
 			b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()))*(180 / PI);
 
-			if (abs(b1 - b2) > TH || abs(b3 - b2) > TH) {
+			if (abs(b1 - b2) > TH && abs(b3 - b2) > TH) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "angle cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif
