@@ -19,7 +19,7 @@
 
 /*Line segmentation*/
 #define MIN_LENGTH 10
-#define D_TOL 3
+#define D_TOL 8
 
 /*Curve segmentation*/
 #define DEBUB_CURVE_SEG

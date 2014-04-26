@@ -10,30 +10,14 @@
 //using namespace std;
 //int main(int argc, char** argv) {
 //	Point P(1,1);
-//	Point L2(2,2);
-//	Point L1(3,3);
-//	Point R1(4,4);
-//	Point R2(5,5);
-//	Point R3(6, 6);
+//	Point L2(74,430);
+//	Point L1(75,421);
+//	Point R1(75,416);
+//	Point R2(69,406);
 //
-//	EdgeSegment s1;
-//	EdgeSegment s2;
-//
-//	EdgeSegment s3;
-//	EdgeSegment s4;
-//	EdgeSegment s5;
-//	EdgeSegment s6;
-//
-//	s1.push_backPoint(&P);
-//	s1.push_backPoint(&L2);
-//
-//	s2.push_backPoint(&L1);
-//	s2.push_backPoint(&R1);
-//
-//	//END_END
-//	s1.addSegment(&s2, BEGIN_AT_END);
-//
-//
+//	Point r0 = (R1 - R2);
+//	Point r1 = (L2 - L1);
+//	double a1 = acos((r0 * r1) / (r0.norm()* r1.norm()))*(180 / PI);
 //	
 //	getchar();
 //

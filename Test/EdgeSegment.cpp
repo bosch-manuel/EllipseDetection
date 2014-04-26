@@ -224,11 +224,11 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 		P = *i;
 		cS->push_backPoint(P);//collect all visited points
 		//check how many points exist left and right to the current point, to determine which condition should be tested
-		for (lSteps = -1, l = i; *l != lastSplit && l != edgeList.begin() && lSteps < 2; l--, lSteps++)	{
+		for (lSteps = -1, l = i;/* *l != lastSplit &&*/ l != edgeList.begin() && lSteps < 2; l--, lSteps++)	{
 			lSteps == 0 ? L1 = *l : L2 = *l;
 		}
 
-		for (rSteps = -1, r = i; r != edgeList.end() && *r != lastSplit && rSteps<2; r++, rSteps++) {
+		for (rSteps = -1, r = i; r != edgeList.end() &&/* *r != lastSplit &&*/ rSteps<2; r++, rSteps++) {
 			rSteps == 0 ? R1 = *r : R2 = *r;
 		}
 
