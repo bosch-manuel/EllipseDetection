@@ -31,6 +31,12 @@ public:
 
 	Point* getLastPoint();
 
+	/*returns pointer to point before last point*/
+	Point* getNextToLastPoint();
+
+	/*returns pointer to point after first point*/
+	Point* getSecondPoint();
+
 	/*Adds a segment
 	param:
 		seg: segment which should be added

@@ -389,11 +389,13 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EdgeSegment*> *g
 	std::fstream csf;
 	csf.open(CURVE_GRP_DEBUG, std::ios::out);
 #endif 
-	Point *nfirst, *nend, *mfirst, *mend;
-	EdgeSegment *eS_min;
+	Point *nfirst, *nend, *mfirst, *mend,*N1,*M1,*N2,*M2,*r1,*r2;
+	EdgeSegment *cS_min=NULL;
 	int order_min; //eS_min must be added in this order
-	int d, d_min=D0+1;
+	int order_tmp;
+	int d;
 	int mEnE, mEnB, mBnE, mBnB;
+	double a_min = 2*PI,a_tmp;
 	//search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
 	for (std::list<EdgeSegment*>::iterator n = curveSegs->begin(); n != curveSegs->end(); n++) {
 		if (*n != NULL) {
@@ -409,23 +411,56 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EdgeSegment*> *g
 					mBnE = (*mfirst - *nend).norm()+.5;
 					mBnB = (*mfirst - *nfirst).norm()+.5;
 					d = std::min(std::min(mEnE, mEnB), std::min(mBnE, mBnB));
-					if (d < d_min) {
-						//dif of gradients
+					if (d < D0) {
 						if (d == mEnE) {
-
+							order_tmp = END_AT_END;
+							M1 = (*m)->getLastPoint();
+							N1 = (*n)->getLastPoint();
+							M2 = (*m)->getNextToLastPoint();
+							N2 = (*n)->getNextToLastPoint();
 						}
 						else if (d == mEnB) {
-
+							order_tmp = END_AT_BEGIN;
+							M1 = (*m)->getLastPoint();
+							N1 = (*n)->getFirstPoint();
+							M2 = (*m)->getNextToLastPoint();
+							N2 = (*n)->getSecondPoint();
 						}
 						else if (d == mBnE) {
-
+							order_tmp = BEGIN_AT_END;
+							M1 = (*m)->getFirstPoint();
+							N1 = (*n)->getLastPoint();
+							M2 = (*m)->getSecondPoint();
+							N2 = (*n)->getNextToLastPoint();
 						}
 						else if (d == mBnB) {
+							order_tmp = BEGIN_AT_BEGIN;
+							M1 = (*m)->getFirstPoint();
+							N1 = (*n)->getFirstPoint();
+							M2 = (*m)->getSecondPoint();
+							N2 = (*n)->getSecondPoint();
+						}
+						//calc angle between the tangents of m and n
+						r1 = &(*M1 - *M2);
+						r2 = &(*N2 - *N1);
+						a_tmp = acos((*r1 * *r2) / (r1->norm()* r2->norm()));
 
+						if (a_tmp < a_min) {
+							//current angle between n and m is the smallest so far, so keep it in mind
+							order_min = order_tmp;
+							a_min = a_tmp;
+							cS_min = (*m);
 						}
 					}
 				}
 			}
+
+			//group n with the curve segment which has the smallest angle between tangents
+			if (cS_min != NULL) {
+				(*n)->addSegment(cS_min, order_min);
+			}
+			cS_min = NULL;
+			a_min = 2 * PI;
 		}
 
 	}

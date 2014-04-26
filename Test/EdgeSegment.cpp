@@ -100,6 +100,22 @@ Point* EdgeSegment::getLastPoint(){
 	return edgeList.back();
 }
 
+Point* EdgeSegment::getNextToLastPoint() {
+	list<Point*>::reverse_iterator i = edgeList.rbegin();
+	if (i != edgeList.rend()) {
+		i++;
+	}
+	return *i;
+}
+
+Point* EdgeSegment::getSecondPoint() {
+	list<Point*>::iterator i = edgeList.begin();
+	if (i != edgeList.end()) {
+		i++;
+	}
+	return *i;
+}
+
 void EdgeSegment::addSegment(EdgeSegment *seg, int order) {
 	switch (order) {
 	case END_AT_END:
