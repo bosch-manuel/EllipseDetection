@@ -1,0 +1,5615 @@
+
+Neues Segment ab: 576, 803
+ -->(576,803)  -->(575,803)  -->(574,803)  -->(573,803)  -->(572,803)  -->(571,803)  -->(570,803)  -->(569,803)  -->(568,803)  -->(567,803)  -->(566,803)  -->(565,803)  -->(564,803)  -->(563,803)  -->(562,803)  -->(561,803)  -->(560,803)  -->(559,803)  -->(558,803)  -->(557,803)  -->(556,803)  -->(555,803)  -->(554,803)  -->(553,803)  -->(552,803)  -->(551,803)  -->(550,803)  -->(549,803)  -->(548,803)  -->(547,803)  -->(546,803)  -->(545,803)  -->(544,803)  -->(543,803)  -->(542,803)  -->(541,803)  -->(540,803)  -->(539,803)  -->(538,803)  -->(537,803)  -->(536,803)  -->(535,803)  -->(534,803)  -->(533,803)  -->(532,803)  -->(531,803)  -->(530,803)  -->(529,803)  -->(528,803)  -->(527,803)  -->(526,803)  -->(525,803)  -->(524,803)  -->(523,803)  -->(522,803)  -->(521,803)  -->(520,803)  -->(519,803)  -->(518,803)  -->(517,803)  -->(516,803)  -->(515,803)  -->(514,803)  -->(513,803)  -->(512,803)  -->(511,803)  -->(510,803)  -->(509,803)  -->(508,803)  -->(507,803)  -->(506,803)  -->(505,803)  -->(504,803)  -->(503,803)  -->(502,803)  -->(501,803)  -->(500,803)  -->(499,803)  -->(498,803)  -->(497,803)  -->(496,803)  -->(495,803)  -->(494,803)  -->(493,803)  -->(492,804) 
+Neues Segment ab: 577, 802
+ -->(577,802) 
+Neues Segment ab: 576, 805
+ -->(576,805)  -->(575,805)  -->(574,805)  -->(573,805)  -->(572,805)  -->(571,805)  -->(570,805)  -->(569,805)  -->(568,805)  -->(567,805)  -->(566,805)  -->(565,805)  -->(564,805)  -->(563,805)  -->(562,805)  -->(561,805)  -->(560,805)  -->(559,805)  -->(558,805)  -->(557,805)  -->(556,805)  -->(555,805)  -->(554,805)  -->(553,805)  -->(552,805)  -->(551,805)  -->(550,805)  -->(549,805)  -->(548,805)  -->(547,805)  -->(546,805)  -->(545,805)  -->(544,805)  -->(543,805)  -->(542,805)  -->(541,805)  -->(540,805)  -->(539,805)  -->(538,805)  -->(537,805)  -->(536,805)  -->(535,805)  -->(534,805)  -->(533,805)  -->(532,805)  -->(531,805)  -->(530,805)  -->(529,805)  -->(528,805)  -->(527,805)  -->(526,805)  -->(525,805)  -->(524,805)  -->(523,805)  -->(522,805)  -->(521,805)  -->(520,805)  -->(519,805)  -->(518,805)  -->(517,805)  -->(516,805)  -->(515,805)  -->(514,805)  -->(513,805)  -->(512,805)  -->(511,805)  -->(510,805)  -->(509,805)  -->(508,805)  -->(507,805)  -->(506,805)  -->(505,805)  -->(504,805)  -->(503,805)  -->(502,805)  -->(501,805)  -->(500,805)  -->(499,805)  -->(498,805)  -->(497,805)  -->(496,805)  -->(495,805)  -->(494,805)  -->(493,805) 
+Neues Segment ab: 577, 804
+ -->(577,804) 
+Neues Segment ab: 578, 803
+ -->(578,803)  -->(577,803) 
+Neues Segment ab: 579, 802
+ -->(579,802) 
+Neues Segment ab: 578, 805
+ -->(578,805)  -->(577,805) 
+Neues Segment ab: 579, 804
+ -->(579,804) 
+Alle Endpunkte zugeordnet, Suche nach isolierten loops
+
+Neues Segment ab: 78, 334
+ -->(78,334) 
+Neues Segment ab: 78, 335
+ -->(78,335) 
+Neues Segment ab: 78, 336
+ -->(78,336) 
+Neues Segment ab: 78, 337
+ -->(78,337) 
+Neues Segment ab: 78, 338
+ -->(78,338) 
+Neues Segment ab: 78, 339
+ -->(78,339) 
+Neues Segment ab: 78, 340
+ -->(78,340) 
+Neues Segment ab: 78, 341
+ -->(78,341) 
+Neues Segment ab: 78, 342
+ -->(78,342) 
+Neues Segment ab: 78, 343
+ -->(78,343) 
+Neues Segment ab: 78, 344
+ -->(78,344) 
+Neues Segment ab: 78, 345
+ -->(78,345) 
+Neues Segment ab: 78, 346
+ -->(78,346) 
+Neues Segment ab: 78, 347
+ -->(78,347) 
+Neues Segment ab: 78, 348
+ -->(78,348) 
+Neues Segment ab: 78, 349
+ -->(78,349) 
+Neues Segment ab: 78, 350
+ -->(78,350) 
+Neues Segment ab: 78, 351
+ -->(78,351) 
+Neues Segment ab: 78, 352
+ -->(78,352) 
+Neues Segment ab: 78, 353
+ -->(78,353) 
+Neues Segment ab: 78, 354
+ -->(78,354) 
+Neues Segment ab: 78, 355
+ -->(78,355) 
+Neues Segment ab: 78, 356
+ -->(78,356) 
+Neues Segment ab: 78, 357
+ -->(78,357) 
+Neues Segment ab: 78, 358
+ -->(78,358) 
+Neues Segment ab: 78, 359
+ -->(78,359) 
+Neues Segment ab: 78, 360
+ -->(78,360) 
+Neues Segment ab: 78, 361
+ -->(78,361) 
+Neues Segment ab: 78, 362
+ -->(78,362) 
+Neues Segment ab: 78, 363
+ -->(78,363) 
+Neues Segment ab: 78, 364
+ -->(78,364) 
+Neues Segment ab: 78, 365
+ -->(78,365) 
+Neues Segment ab: 78, 366
+ -->(78,366) 
+Neues Segment ab: 78, 367
+ -->(78,367) 
+Neues Segment ab: 78, 368
+ -->(78,368) 
+Neues Segment ab: 78, 369
+ -->(78,369) 
+Neues Segment ab: 78, 370
+ -->(78,370) 
+Neues Segment ab: 78, 371
+ -->(78,371) 
+Neues Segment ab: 78, 372
+ -->(78,372) 
+Neues Segment ab: 78, 373
+ -->(78,373) 
+Neues Segment ab: 78, 374
+ -->(78,374) 
+Neues Segment ab: 78, 375
+ -->(78,375) 
+Neues Segment ab: 78, 376
+ -->(78,376) 
+Neues Segment ab: 78, 377
+ -->(78,377) 
+Neues Segment ab: 78, 378
+ -->(78,378) 
+Neues Segment ab: 78, 379
+ -->(78,379) 
+Neues Segment ab: 78, 380
+ -->(78,380) 
+Neues Segment ab: 78, 381
+ -->(78,381) 
+Neues Segment ab: 78, 382
+ -->(78,382) 
+Neues Segment ab: 78, 383
+ -->(78,383) 
+Neues Segment ab: 78, 384
+ -->(78,384) 
+Neues Segment ab: 78, 385
+ -->(78,385) 
+Neues Segment ab: 78, 386
+ -->(78,386) 
+Neues Segment ab: 78, 387
+ -->(78,387) 
+Neues Segment ab: 78, 388
+ -->(78,388) 
+Neues Segment ab: 78, 389
+ -->(78,389) 
+Neues Segment ab: 78, 390
+ -->(78,390) 
+Neues Segment ab: 78, 391
+ -->(78,391) 
+Neues Segment ab: 78, 392
+ -->(78,392) 
+Neues Segment ab: 78, 393
+ -->(78,393) 
+Neues Segment ab: 78, 394
+ -->(78,394) 
+Neues Segment ab: 78, 395
+ -->(78,395) 
+Neues Segment ab: 78, 396
+ -->(78,396) 
+Neues Segment ab: 78, 397
+ -->(78,397) 
+Neues Segment ab: 78, 398
+ -->(78,398) 
+Neues Segment ab: 78, 399
+ -->(78,399) 
+Neues Segment ab: 78, 400
+ -->(78,400) 
+Neues Segment ab: 78, 401
+ -->(78,401) 
+Neues Segment ab: 78, 402
+ -->(78,402) 
+Neues Segment ab: 78, 403
+ -->(78,403) 
+Neues Segment ab: 78, 404
+ -->(78,404) 
+Neues Segment ab: 78, 405
+ -->(78,405) 
+Neues Segment ab: 78, 406
+ -->(78,406) 
+Neues Segment ab: 78, 407
+ -->(78,407) 
+Neues Segment ab: 78, 408
+ -->(78,408) 
+Neues Segment ab: 78, 409
+ -->(78,409) 
+Neues Segment ab: 78, 410
+ -->(78,410) 
+Neues Segment ab: 78, 411
+ -->(78,411) 
+Neues Segment ab: 78, 412
+ -->(78,412) 
+Neues Segment ab: 78, 413
+ -->(78,413) 
+Neues Segment ab: 78, 414
+ -->(78,414) 
+Neues Segment ab: 78, 415
+ -->(78,415) 
+Neues Segment ab: 78, 416
+ -->(78,416) 
+Neues Segment ab: 78, 417
+ -->(78,417) 
+Neues Segment ab: 78, 418
+ -->(78,418) 
+Neues Segment ab: 78, 419
+ -->(78,419) 
+Neues Segment ab: 78, 420
+ -->(78,420) 
+Neues Segment ab: 78, 421
+ -->(78,421) 
+Neues Segment ab: 78, 422
+ -->(78,422) 
+Neues Segment ab: 78, 423
+ -->(78,423) 
+Neues Segment ab: 78, 424
+ -->(78,424) 
+Neues Segment ab: 78, 425
+ -->(78,425) 
+Neues Segment ab: 78, 426
+ -->(78,426) 
+Neues Segment ab: 78, 427
+ -->(78,427) 
+Neues Segment ab: 78, 428
+ -->(78,428) 
+Neues Segment ab: 78, 429
+ -->(78,429) 
+Neues Segment ab: 78, 430
+ -->(78,430) 
+Neues Segment ab: 78, 431
+ -->(78,431) 
+Neues Segment ab: 78, 432
+ -->(78,432) 
+Neues Segment ab: 78, 433
+ -->(78,433) 
+Neues Segment ab: 78, 434
+ -->(78,434) 
+Neues Segment ab: 78, 435
+ -->(78,435) 
+Neues Segment ab: 78, 436
+ -->(78,436) 
+Neues Segment ab: 78, 437
+ -->(78,437) 
+Neues Segment ab: 78, 438
+ -->(78,438) 
+Neues Segment ab: 78, 439
+ -->(78,439) 
+Neues Segment ab: 78, 440
+ -->(78,440) 
+Neues Segment ab: 78, 441
+ -->(78,441) 
+Neues Segment ab: 78, 442
+ -->(78,442) 
+Neues Segment ab: 78, 443
+ -->(78,443) 
+Neues Segment ab: 78, 444
+ -->(78,444) 
+Neues Segment ab: 78, 445
+ -->(78,445) 
+Neues Segment ab: 78, 446
+ -->(78,446) 
+Neues Segment ab: 78, 447
+ -->(78,447) 
+Neues Segment ab: 78, 448
+ -->(78,448) 
+Neues Segment ab: 78, 449
+ -->(78,449) 
+Neues Segment ab: 78, 450
+ -->(78,450) 
+Neues Segment ab: 78, 451
+ -->(78,451) 
+Neues Segment ab: 78, 452
+ -->(78,452) 
+Neues Segment ab: 78, 453
+ -->(78,453) 
+Neues Segment ab: 78, 454
+ -->(78,454) 
+Neues Segment ab: 78, 455
+ -->(78,455) 
+Neues Segment ab: 78, 456
+ -->(78,456) 
+Neues Segment ab: 78, 457
+ -->(78,457) 
+Neues Segment ab: 78, 458
+ -->(78,458) 
+Neues Segment ab: 78, 459
+ -->(78,459) 
+Neues Segment ab: 78, 460
+ -->(78,460) 
+Neues Segment ab: 78, 461
+ -->(78,461) 
+Neues Segment ab: 78, 462
+ -->(78,462) 
+Neues Segment ab: 78, 463
+ -->(78,463) 
+Neues Segment ab: 78, 464
+ -->(78,464) 
+Neues Segment ab: 78, 465
+ -->(78,465) 
+Neues Segment ab: 78, 466
+ -->(78,466) 
+Neues Segment ab: 78, 467
+ -->(78,467) 
+Neues Segment ab: 78, 468
+ -->(78,468) 
+Neues Segment ab: 78, 469
+ -->(78,469) 
+Neues Segment ab: 78, 470
+ -->(78,470) 
+Neues Segment ab: 78, 471
+ -->(78,471) 
+Neues Segment ab: 78, 472
+ -->(78,472) 
+Neues Segment ab: 78, 473
+ -->(78,473) 
+Neues Segment ab: 78, 474
+ -->(78,474) 
+Neues Segment ab: 78, 475
+ -->(78,475) 
+Neues Segment ab: 78, 476
+ -->(78,476) 
+Neues Segment ab: 78, 477
+ -->(78,477) 
+Neues Segment ab: 78, 478
+ -->(78,478) 
+Neues Segment ab: 78, 479
+ -->(78,479) 
+Neues Segment ab: 78, 480
+ -->(78,480) 
+Neues Segment ab: 78, 481
+ -->(78,481) 
+Neues Segment ab: 78, 482
+ -->(78,482) 
+Neues Segment ab: 78, 483
+ -->(78,483) 
+Neues Segment ab: 78, 484
+ -->(78,484) 
+Neues Segment ab: 78, 485
+ -->(78,485) 
+Neues Segment ab: 78, 486
+ -->(78,486) 
+Neues Segment ab: 78, 487
+ -->(78,487) 
+Neues Segment ab: 78, 488
+ -->(78,488) 
+Neues Segment ab: 78, 489
+ -->(78,489) 
+Neues Segment ab: 78, 490
+ -->(78,490) 
+Neues Segment ab: 78, 491
+ -->(78,491) 
+Neues Segment ab: 78, 492
+ -->(78,492) 
+Neues Segment ab: 78, 493
+ -->(78,493) 
+Neues Segment ab: 78, 494
+ -->(78,494) 
+Neues Segment ab: 78, 495
+ -->(78,495) 
+Neues Segment ab: 78, 496
+ -->(78,496) 
+Neues Segment ab: 78, 497
+ -->(78,497) 
+Neues Segment ab: 78, 498
+ -->(78,498) 
+Neues Segment ab: 78, 499
+ -->(78,499) 
+Neues Segment ab: 78, 500
+ -->(78,500) 
+Neues Segment ab: 78, 501
+ -->(78,501) 
+Neues Segment ab: 78, 502
+ -->(78,502) 
+Neues Segment ab: 78, 503
+ -->(78,503) 
+Neues Segment ab: 78, 504
+ -->(78,504) 
+Neues Segment ab: 78, 505
+ -->(78,505) 
+Neues Segment ab: 78, 506
+ -->(78,506) 
+Neues Segment ab: 78, 507
+ -->(78,507) 
+Neues Segment ab: 78, 508
+ -->(78,508) 
+Neues Segment ab: 78, 509
+ -->(78,509) 
+Neues Segment ab: 78, 510
+ -->(78,510) 
+Neues Segment ab: 78, 511
+ -->(78,511) 
+Neues Segment ab: 78, 512
+ -->(78,512) 
+Neues Segment ab: 78, 513
+ -->(78,513) 
+Neues Segment ab: 78, 514
+ -->(78,514) 
+Neues Segment ab: 78, 515
+ -->(78,515) 
+Neues Segment ab: 78, 516
+ -->(78,516) 
+Neues Segment ab: 78, 517
+ -->(78,517) 
+Neues Segment ab: 78, 518
+ -->(78,518) 
+Neues Segment ab: 78, 519
+ -->(78,519) 
+Neues Segment ab: 78, 520
+ -->(78,520) 
+Neues Segment ab: 78, 521
+ -->(78,521) 
+Neues Segment ab: 78, 522
+ -->(78,522) 
+Neues Segment ab: 78, 523
+ -->(78,523) 
+Neues Segment ab: 78, 524
+ -->(78,524) 
+Neues Segment ab: 78, 525
+ -->(78,525) 
+Neues Segment ab: 78, 526
+ -->(78,526) 
+Neues Segment ab: 78, 527
+ -->(78,527) 
+Neues Segment ab: 78, 528
+ -->(78,528) 
+Neues Segment ab: 78, 529
+ -->(78,529) 
+Neues Segment ab: 78, 530
+ -->(78,530) 
+Neues Segment ab: 78, 531
+ -->(78,531) 
+Neues Segment ab: 78, 532
+ -->(78,532) 
+Neues Segment ab: 78, 533
+ -->(78,533) 
+Neues Segment ab: 78, 534
+ -->(78,534) 
+Neues Segment ab: 78, 535
+ -->(78,535) 
+Neues Segment ab: 78, 536
+ -->(78,536) 
+Neues Segment ab: 78, 537
+ -->(78,537) 
+Neues Segment ab: 78, 538
+ -->(78,538) 
+Neues Segment ab: 78, 539
+ -->(78,539) 
+Neues Segment ab: 78, 540
+ -->(78,540) 
+Neues Segment ab: 78, 541
+ -->(78,541) 
+Neues Segment ab: 78, 542
+ -->(78,542) 
+Neues Segment ab: 78, 543
+ -->(78,543) 
+Neues Segment ab: 78, 544
+ -->(78,544) 
+Neues Segment ab: 78, 545
+ -->(78,545) 
+Neues Segment ab: 78, 546
+ -->(78,546) 
+Neues Segment ab: 78, 547
+ -->(78,547) 
+Neues Segment ab: 78, 548
+ -->(78,548) 
+Neues Segment ab: 78, 549
+ -->(78,549) 
+Neues Segment ab: 78, 550
+ -->(78,550) 
+Neues Segment ab: 78, 551
+ -->(78,551) 
+Neues Segment ab: 78, 552
+ -->(78,552) 
+Neues Segment ab: 78, 553
+ -->(78,553) 
+Neues Segment ab: 78, 554
+ -->(78,554) 
+Neues Segment ab: 78, 555
+ -->(78,555) 
+Neues Segment ab: 78, 556
+ -->(78,556) 
+Neues Segment ab: 78, 557
+ -->(78,557) 
+Neues Segment ab: 78, 558
+ -->(78,558) 
+Neues Segment ab: 78, 559
+ -->(78,559) 
+Neues Segment ab: 78, 560
+ -->(78,560) 
+Neues Segment ab: 78, 561
+ -->(78,561) 
+Neues Segment ab: 78, 562
+ -->(78,562) 
+Neues Segment ab: 78, 563
+ -->(78,563) 
+Neues Segment ab: 78, 564
+ -->(78,564) 
+Neues Segment ab: 78, 565
+ -->(78,565) 
+Neues Segment ab: 78, 566
+ -->(78,566) 
+Neues Segment ab: 78, 567
+ -->(78,567) 
+Neues Segment ab: 78, 568
+ -->(78,568) 
+Neues Segment ab: 78, 569
+ -->(78,569) 
+Neues Segment ab: 78, 570
+ -->(78,570) 
+Neues Segment ab: 78, 571
+ -->(78,571) 
+Neues Segment ab: 78, 572
+ -->(78,572) 
+Neues Segment ab: 78, 573
+ -->(78,573) 
+Neues Segment ab: 78, 574
+ -->(78,574) 
+Neues Segment ab: 78, 575
+ -->(78,575) 
+Neues Segment ab: 78, 576
+ -->(78,576) 
+Neues Segment ab: 78, 577
+ -->(78,577) 
+Neues Segment ab: 78, 578
+ -->(78,578) 
+Neues Segment ab: 78, 579
+ -->(78,579) 
+Neues Segment ab: 78, 580
+ -->(78,580) 
+Neues Segment ab: 78, 581
+ -->(78,581) 
+Neues Segment ab: 78, 582
+ -->(78,582) 
+Neues Segment ab: 78, 583
+ -->(78,583) 
+Neues Segment ab: 78, 584
+ -->(78,584) 
+Neues Segment ab: 78, 585
+ -->(78,585) 
+Neues Segment ab: 78, 586
+ -->(78,586) 
+Neues Segment ab: 78, 587
+ -->(78,587) 
+Neues Segment ab: 78, 588
+ -->(78,588) 
+Neues Segment ab: 78, 589
+ -->(78,589) 
+Neues Segment ab: 78, 590
+ -->(78,590) 
+Neues Segment ab: 78, 591
+ -->(78,591) 
+Neues Segment ab: 78, 592
+ -->(78,592) 
+Neues Segment ab: 78, 593
+ -->(78,593) 
+Neues Segment ab: 78, 594
+ -->(78,594) 
+Neues Segment ab: 78, 595
+ -->(78,595) 
+Neues Segment ab: 78, 596
+ -->(78,596) 
+Neues Segment ab: 78, 597
+ -->(78,597) 
+Neues Segment ab: 78, 598
+ -->(78,598) 
+Neues Segment ab: 78, 599
+ -->(78,599) 
+Neues Segment ab: 78, 600
+ -->(78,600) 
+Neues Segment ab: 78, 601
+ -->(78,601) 
+Neues Segment ab: 78, 602
+ -->(78,602) 
+Neues Segment ab: 78, 603
+ -->(78,603) 
+Neues Segment ab: 78, 604
+ -->(78,604) 
+Neues Segment ab: 78, 605
+ -->(78,605) 
+Neues Segment ab: 78, 606
+ -->(78,606) 
+Neues Segment ab: 78, 607
+ -->(78,607) 
+Neues Segment ab: 78, 608
+ -->(78,608) 
+Neues Segment ab: 78, 609
+ -->(78,609) 
+Neues Segment ab: 78, 610
+ -->(78,610) 
+Neues Segment ab: 78, 611
+ -->(78,611) 
+Neues Segment ab: 78, 612
+ -->(78,612) 
+Neues Segment ab: 78, 613
+ -->(78,613) 
+Neues Segment ab: 78, 614
+ -->(78,614) 
+Neues Segment ab: 78, 615
+ -->(78,615) 
+Neues Segment ab: 78, 616
+ -->(78,616) 
+Neues Segment ab: 78, 617
+ -->(78,617) 
+Neues Segment ab: 78, 618
+ -->(78,618) 
+Neues Segment ab: 78, 619
+ -->(78,619) 
+Neues Segment ab: 78, 620
+ -->(78,620) 
+Neues Segment ab: 78, 621
+ -->(78,621) 
+Neues Segment ab: 78, 622
+ -->(78,622) 
+Neues Segment ab: 78, 623
+ -->(78,623) 
+Neues Segment ab: 78, 624
+ -->(78,624) 
+Neues Segment ab: 78, 625
+ -->(78,625) 
+Neues Segment ab: 78, 626
+ -->(78,626) 
+Neues Segment ab: 78, 627
+ -->(78,627) 
+Neues Segment ab: 78, 628
+ -->(78,628) 
+Neues Segment ab: 78, 629
+ -->(78,629) 
+Neues Segment ab: 78, 630
+ -->(78,630) 
+Neues Segment ab: 78, 631
+ -->(78,631) 
+Neues Segment ab: 78, 632
+ -->(78,632) 
+Neues Segment ab: 78, 633
+ -->(78,633) 
+Neues Segment ab: 78, 634
+ -->(78,634) 
+Neues Segment ab: 78, 635
+ -->(78,635) 
+Neues Segment ab: 78, 636
+ -->(78,636) 
+Neues Segment ab: 78, 637
+ -->(78,637) 
+Neues Segment ab: 78, 638
+ -->(78,638) 
+Neues Segment ab: 78, 639
+ -->(78,639) 
+Neues Segment ab: 78, 640
+ -->(78,640) 
+Neues Segment ab: 78, 641
+ -->(78,641) 
+Neues Segment ab: 78, 642
+ -->(78,642) 
+Neues Segment ab: 78, 643
+ -->(78,643) 
+Neues Segment ab: 78, 644
+ -->(78,644) 
+Neues Segment ab: 78, 645
+ -->(78,645) 
+Neues Segment ab: 78, 646
+ -->(78,646) 
+Neues Segment ab: 78, 647
+ -->(78,647) 
+Neues Segment ab: 78, 648
+ -->(78,648) 
+Neues Segment ab: 78, 649
+ -->(78,649) 
+Neues Segment ab: 78, 650
+ -->(78,650) 
+Neues Segment ab: 78, 651
+ -->(78,651) 
+Neues Segment ab: 78, 652
+ -->(78,652) 
+Neues Segment ab: 78, 653
+ -->(78,653) 
+Neues Segment ab: 78, 654
+ -->(78,654) 
+Neues Segment ab: 78, 655
+ -->(78,655) 
+Neues Segment ab: 78, 656
+ -->(78,656) 
+Neues Segment ab: 78, 657
+ -->(78,657) 
+Neues Segment ab: 78, 658
+ -->(78,658) 
+Neues Segment ab: 78, 659
+ -->(78,659) 
+Neues Segment ab: 78, 660
+ -->(78,660) 
+Neues Segment ab: 78, 661
+ -->(78,661) 
+Neues Segment ab: 78, 662
+ -->(78,662) 
+Neues Segment ab: 78, 663
+ -->(78,663) 
+Neues Segment ab: 78, 664
+ -->(78,664) 
+Neues Segment ab: 78, 665
+ -->(78,665) 
+Neues Segment ab: 78, 666
+ -->(78,666) 
+Neues Segment ab: 78, 667
+ -->(78,667) 
+Neues Segment ab: 78, 668
+ -->(78,668) 
+Neues Segment ab: 78, 669
+ -->(78,669) 
+Neues Segment ab: 78, 670
+ -->(78,670) 
+Neues Segment ab: 78, 671
+ -->(78,671) 
+Neues Segment ab: 78, 672
+ -->(78,672) 
+Neues Segment ab: 78, 673
+ -->(78,673) 
+Neues Segment ab: 78, 674
+ -->(78,674) 
+Neues Segment ab: 78, 675
+ -->(78,675) 
+Neues Segment ab: 78, 676
+ -->(78,676) 
+Neues Segment ab: 78, 677
+ -->(78,677) 
+Neues Segment ab: 78, 678
+ -->(78,678) 
+Neues Segment ab: 78, 679
+ -->(78,679) 
+Neues Segment ab: 78, 680
+ -->(78,680) 
+Neues Segment ab: 78, 681
+ -->(78,681) 
+Neues Segment ab: 78, 682
+ -->(78,682) 
+Neues Segment ab: 78, 683
+ -->(78,683) 
+Neues Segment ab: 78, 684
+ -->(78,684) 
+Neues Segment ab: 78, 685
+ -->(78,685) 
+Neues Segment ab: 78, 686
+ -->(78,686) 
+Neues Segment ab: 78, 687
+ -->(78,687) 
+Neues Segment ab: 78, 688
+ -->(78,688) 
+Neues Segment ab: 78, 689
+ -->(78,689) 
+Neues Segment ab: 78, 690
+ -->(78,690) 
+Neues Segment ab: 78, 691
+ -->(78,691) 
+Neues Segment ab: 78, 692
+ -->(78,692) 
+Neues Segment ab: 78, 693
+ -->(78,693) 
+Neues Segment ab: 78, 694
+ -->(78,694) 
+Neues Segment ab: 78, 695
+ -->(78,695) 
+Neues Segment ab: 78, 696
+ -->(78,696) 
+Neues Segment ab: 78, 697
+ -->(78,697) 
+Neues Segment ab: 78, 698
+ -->(78,698) 
+Neues Segment ab: 78, 699
+ -->(78,699) 
+Neues Segment ab: 78, 700
+ -->(78,700) 
+Neues Segment ab: 78, 701
+ -->(78,701) 
+Neues Segment ab: 78, 702
+ -->(78,702) 
+Neues Segment ab: 78, 703
+ -->(78,703) 
+Neues Segment ab: 78, 704
+ -->(78,704) 
+Neues Segment ab: 78, 705
+ -->(78,705) 
+Neues Segment ab: 78, 706
+ -->(78,706) 
+Neues Segment ab: 78, 707
+ -->(78,707) 
+Neues Segment ab: 78, 708
+ -->(78,708) 
+Neues Segment ab: 78, 709
+ -->(78,709) 
+Neues Segment ab: 78, 710
+ -->(78,710) 
+Neues Segment ab: 78, 711
+ -->(78,711) 
+Neues Segment ab: 78, 712
+ -->(78,712) 
+Neues Segment ab: 78, 713
+ -->(78,713) 
+Neues Segment ab: 78, 714
+ -->(78,714) 
+Neues Segment ab: 78, 715
+ -->(78,715) 
+Neues Segment ab: 78, 716
+ -->(78,716) 
+Neues Segment ab: 78, 717
+ -->(78,717) 
+Neues Segment ab: 78, 718
+ -->(78,718) 
+Neues Segment ab: 78, 719
+ -->(78,719) 
+Neues Segment ab: 78, 720
+ -->(78,720) 
+Neues Segment ab: 78, 721
+ -->(78,721) 
+Neues Segment ab: 78, 722
+ -->(78,722) 
+Neues Segment ab: 78, 723
+ -->(78,723) 
+Neues Segment ab: 78, 724
+ -->(78,724) 
+Neues Segment ab: 78, 725
+ -->(78,725) 
+Neues Segment ab: 78, 726
+ -->(78,726) 
+Neues Segment ab: 78, 727
+ -->(78,727) 
+Neues Segment ab: 78, 728
+ -->(78,728) 
+Neues Segment ab: 78, 729
+ -->(78,729) 
+Neues Segment ab: 78, 730
+ -->(78,730) 
+Neues Segment ab: 78, 731
+ -->(78,731) 
+Neues Segment ab: 78, 732
+ -->(78,732) 
+Neues Segment ab: 78, 733
+ -->(78,733) 
+Neues Segment ab: 78, 734
+ -->(78,734) 
+Neues Segment ab: 78, 735
+ -->(78,735) 
+Neues Segment ab: 78, 736
+ -->(78,736) 
+Neues Segment ab: 78, 737
+ -->(78,737) 
+Neues Segment ab: 78, 738
+ -->(78,738) 
+Neues Segment ab: 78, 739
+ -->(78,739) 
+Neues Segment ab: 78, 740
+ -->(78,740) 
+Neues Segment ab: 78, 741
+ -->(78,741) 
+Neues Segment ab: 78, 742
+ -->(78,742) 
+Neues Segment ab: 78, 743
+ -->(78,743) 
+Neues Segment ab: 78, 744
+ -->(78,744) 
+Neues Segment ab: 78, 745
+ -->(78,745) 
+Neues Segment ab: 78, 746
+ -->(78,746) 
+Neues Segment ab: 78, 747
+ -->(78,747) 
+Neues Segment ab: 78, 748
+ -->(78,748) 
+Neues Segment ab: 78, 749
+ -->(78,749) 
+Neues Segment ab: 78, 750
+ -->(78,750) 
+Neues Segment ab: 78, 751
+ -->(78,751) 
+Neues Segment ab: 78, 752
+ -->(78,752) 
+Neues Segment ab: 78, 753
+ -->(78,753) 
+Neues Segment ab: 78, 754
+ -->(78,754) 
+Neues Segment ab: 78, 755
+ -->(78,755) 
+Neues Segment ab: 78, 756
+ -->(78,756) 
+Neues Segment ab: 78, 757
+ -->(78,757) 
+Neues Segment ab: 78, 758
+ -->(78,758) 
+Neues Segment ab: 78, 759
+ -->(78,759) 
+Neues Segment ab: 78, 760
+ -->(78,760) 
+Neues Segment ab: 78, 761
+ -->(78,761) 
+Neues Segment ab: 78, 762
+ -->(78,762) 
+Neues Segment ab: 78, 763
+ -->(78,763) 
+Neues Segment ab: 78, 764
+ -->(78,764) 
+Neues Segment ab: 78, 765
+ -->(78,765) 
+Neues Segment ab: 78, 766
+ -->(78,766) 
+Neues Segment ab: 78, 767
+ -->(78,767) 
+Neues Segment ab: 78, 768
+ -->(78,768) 
+Neues Segment ab: 78, 769
+ -->(78,769) 
+Neues Segment ab: 78, 770
+ -->(78,770) 
+Neues Segment ab: 78, 771
+ -->(78,771) 
+Neues Segment ab: 78, 772
+ -->(78,772) 
+Neues Segment ab: 78, 773
+ -->(78,773) 
+Neues Segment ab: 78, 774
+ -->(78,774) 
+Neues Segment ab: 78, 775
+ -->(78,775) 
+Neues Segment ab: 78, 776
+ -->(78,776) 
+Neues Segment ab: 78, 777
+ -->(78,777) 
+Neues Segment ab: 78, 778
+ -->(78,778) 
+Neues Segment ab: 78, 779
+ -->(78,779) 
+Neues Segment ab: 78, 780
+ -->(78,780) 
+Neues Segment ab: 78, 781
+ -->(78,781) 
+Neues Segment ab: 78, 782
+ -->(78,782) 
+Neues Segment ab: 78, 783
+ -->(78,783) 
+Neues Segment ab: 78, 784
+ -->(78,784) 
+Neues Segment ab: 78, 785
+ -->(78,785) 
+Neues Segment ab: 78, 786
+ -->(78,786) 
+Neues Segment ab: 78, 787
+ -->(78,787) 
+Neues Segment ab: 78, 788
+ -->(78,788) 
+Neues Segment ab: 78, 789
+ -->(78,789) 
+Neues Segment ab: 78, 790
+ -->(78,790) 
+Neues Segment ab: 78, 791
+ -->(78,791) 
+Neues Segment ab: 78, 792
+ -->(78,792) 
+Neues Segment ab: 78, 793
+ -->(78,793) 
+Neues Segment ab: 78, 794
+ -->(78,794) 
+Neues Segment ab: 78, 795
+ -->(78,795) 
+Neues Segment ab: 78, 796
+ -->(78,796) 
+Neues Segment ab: 78, 797
+ -->(78,797) 
+Neues Segment ab: 78, 798
+ -->(78,798) 
+Neues Segment ab: 78, 799
+ -->(78,799) 
+Neues Segment ab: 78, 800
+ -->(78,800) 
+Neues Segment ab: 78, 801
+ -->(78,801) 
+Neues Segment ab: 78, 802
+ -->(78,802) 
+Neues Segment ab: 78, 803
+ -->(78,803) 
+Neues Segment ab: 78, 804
+ -->(78,804) 
+Neues Segment ab: 78, 805
+ -->(78,805) 
+Neues Segment ab: 78, 806
+ -->(78,806) 
+Neues Segment ab: 78, 807
+ -->(78,807) 
+Neues Segment ab: 78, 808
+ -->(78,808) 
+Neues Segment ab: 78, 809
+ -->(78,809) 
+Neues Segment ab: 78, 810
+ -->(78,810) 
+Neues Segment ab: 78, 811
+ -->(78,811) 
+Neues Segment ab: 78, 812
+ -->(78,812) 
+Neues Segment ab: 78, 813
+ -->(78,813) 
+Neues Segment ab: 78, 814
+ -->(78,814) 
+Neues Segment ab: 78, 815
+ -->(78,815) 
+Neues Segment ab: 78, 816
+ -->(78,816) 
+Neues Segment ab: 78, 817
+ -->(78,817) 
+Neues Segment ab: 78, 818
+ -->(78,818) 
+Neues Segment ab: 78, 819
+ -->(78,819) 
+Neues Segment ab: 78, 820
+ -->(78,820) 
+Neues Segment ab: 78, 821
+ -->(78,821) 
+Neues Segment ab: 78, 822
+ -->(78,822) 
+Neues Segment ab: 78, 823
+ -->(78,823) 
+Neues Segment ab: 78, 824
+ -->(78,824) 
+Neues Segment ab: 78, 825
+ -->(78,825) 
+Neues Segment ab: 78, 826
+ -->(78,826) 
+Neues Segment ab: 78, 827
+ -->(78,827) 
+Neues Segment ab: 78, 828
+ -->(78,828) 
+Neues Segment ab: 78, 829
+ -->(78,829) 
+Neues Segment ab: 78, 830
+ -->(78,830) 
+Neues Segment ab: 78, 831
+ -->(78,831) 
+Neues Segment ab: 78, 832
+ -->(78,832) 
+Neues Segment ab: 78, 833
+ -->(78,833) 
+Neues Segment ab: 78, 834
+ -->(78,834) 
+Neues Segment ab: 78, 835
+ -->(78,835) 
+Neues Segment ab: 78, 836
+ -->(78,836) 
+Neues Segment ab: 78, 837
+ -->(78,837) 
+Neues Segment ab: 78, 838
+ -->(78,838) 
+Neues Segment ab: 78, 839
+ -->(78,839) 
+Neues Segment ab: 78, 840
+ -->(78,840) 
+Neues Segment ab: 78, 841
+ -->(78,841) 
+Neues Segment ab: 78, 842
+ -->(78,842) 
+Neues Segment ab: 78, 843
+ -->(78,843) 
+Neues Segment ab: 78, 844
+ -->(78,844) 
+Neues Segment ab: 78, 845
+ -->(78,845) 
+Neues Segment ab: 78, 846
+ -->(78,846) 
+Neues Segment ab: 78, 847
+ -->(78,847) 
+Neues Segment ab: 78, 848
+ -->(78,848) 
+Neues Segment ab: 78, 849
+ -->(78,849) 
+Neues Segment ab: 78, 850
+ -->(78,850) 
+Neues Segment ab: 78, 851
+ -->(78,851) 
+Neues Segment ab: 78, 852
+ -->(78,852) 
+Neues Segment ab: 78, 853
+ -->(78,853) 
+Neues Segment ab: 78, 854
+ -->(78,854) 
+Neues Segment ab: 78, 855
+ -->(78,855) 
+Neues Segment ab: 78, 856
+ -->(78,856) 
+Neues Segment ab: 78, 857
+ -->(78,857) 
+Neues Segment ab: 78, 858
+ -->(78,858) 
+Neues Segment ab: 78, 859
+ -->(78,859) 
+Neues Segment ab: 78, 860
+ -->(78,860) 
+Neues Segment ab: 78, 861
+ -->(78,861) 
+Neues Segment ab: 78, 862
+ -->(78,862) 
+Neues Segment ab: 78, 863
+ -->(78,863) 
+Neues Segment ab: 78, 864
+ -->(78,864) 
+Neues Segment ab: 78, 865
+ -->(78,865) 
+Neues Segment ab: 78, 866
+ -->(78,866) 
+Neues Segment ab: 78, 867
+ -->(78,867) 
+Neues Segment ab: 78, 868
+ -->(78,868) 
+Neues Segment ab: 78, 869
+ -->(78,869) 
+Neues Segment ab: 78, 870
+ -->(78,870) 
+Neues Segment ab: 78, 871
+ -->(78,871) 
+Neues Segment ab: 78, 872
+ -->(78,872) 
+Neues Segment ab: 78, 873
+ -->(78,873) 
+Neues Segment ab: 78, 874
+ -->(78,874) 
+Neues Segment ab: 78, 875
+ -->(78,875) 
+Neues Segment ab: 78, 876
+ -->(78,876) 
+Neues Segment ab: 78, 877
+ -->(78,877) 
+Neues Segment ab: 78, 878
+ -->(78,878) 
+Neues Segment ab: 78, 879
+ -->(78,879) 
+Neues Segment ab: 78, 880
+ -->(78,880) 
+Neues Segment ab: 78, 881
+ -->(78,881) 
+Neues Segment ab: 78, 882
+ -->(78,882) 
+Neues Segment ab: 78, 883
+ -->(78,883) 
+Neues Segment ab: 78, 884
+ -->(78,884) 
+Neues Segment ab: 78, 885
+ -->(78,885) 
+Neues Segment ab: 78, 886
+ -->(78,886) 
+Neues Segment ab: 78, 887
+ -->(78,887) 
+Neues Segment ab: 78, 888
+ -->(78,888) 
+Neues Segment ab: 78, 889
+ -->(78,889) 
+Neues Segment ab: 78, 890
+ -->(78,890) 
+Neues Segment ab: 78, 891
+ -->(78,891) 
+Neues Segment ab: 78, 892
+ -->(78,892) 
+Neues Segment ab: 78, 893
+ -->(78,893) 
+Neues Segment ab: 78, 894
+ -->(78,894) 
+Neues Segment ab: 78, 895
+ -->(78,895) 
+Neues Segment ab: 78, 896
+ -->(78,896) 
+Neues Segment ab: 78, 897
+ -->(78,897) 
+Neues Segment ab: 78, 898
+ -->(78,898) 
+Neues Segment ab: 78, 899
+ -->(78,899) 
+Neues Segment ab: 78, 900
+ -->(78,900) 
+Neues Segment ab: 78, 901
+ -->(78,901) 
+Neues Segment ab: 78, 902
+ -->(78,902) 
+Neues Segment ab: 78, 903
+ -->(78,903) 
+Neues Segment ab: 78, 904
+ -->(78,904) 
+Neues Segment ab: 78, 905
+ -->(78,905) 
+Neues Segment ab: 78, 906
+ -->(78,906) 
+Neues Segment ab: 78, 907
+ -->(78,907) 
+Neues Segment ab: 78, 908
+ -->(78,908) 
+Neues Segment ab: 78, 909
+ -->(78,909) 
+Neues Segment ab: 78, 910
+ -->(78,910) 
+Neues Segment ab: 78, 911
+ -->(78,911) 
+Neues Segment ab: 78, 912
+ -->(78,912) 
+Neues Segment ab: 78, 913
+ -->(78,913) 
+Neues Segment ab: 78, 914
+ -->(78,914) 
+Neues Segment ab: 78, 915
+ -->(78,915) 
+Neues Segment ab: 78, 916
+ -->(78,916) 
+Neues Segment ab: 78, 917
+ -->(78,917) 
+Neues Segment ab: 78, 918
+ -->(78,918) 
+Neues Segment ab: 78, 919
+ -->(78,919) 
+Neues Segment ab: 78, 920
+ -->(78,920) 
+Neues Segment ab: 78, 921
+ -->(78,921) 
+Neues Segment ab: 78, 922
+ -->(78,922) 
+Neues Segment ab: 78, 923
+ -->(78,923) 
+Neues Segment ab: 78, 924
+ -->(78,924) 
+Neues Segment ab: 78, 925
+ -->(78,925) 
+Neues Segment ab: 78, 926
+ -->(78,926) 
+Neues Segment ab: 78, 927
+ -->(78,927) 
+Neues Segment ab: 78, 928
+ -->(78,928) 
+Neues Segment ab: 78, 929
+ -->(78,929) 
+Neues Segment ab: 78, 930
+ -->(78,930) 
+Neues Segment ab: 78, 931
+ -->(78,931) 
+Neues Segment ab: 78, 932
+ -->(78,932) 
+Neues Segment ab: 78, 933
+ -->(78,933) 
+Neues Segment ab: 78, 934
+ -->(78,934) 
+Neues Segment ab: 78, 935
+ -->(78,935) 
+Neues Segment ab: 78, 936
+ -->(78,936) 
+Neues Segment ab: 78, 937
+ -->(78,937) 
+Neues Segment ab: 78, 938
+ -->(78,938) 
+Neues Segment ab: 78, 939
+ -->(78,939) 
+Neues Segment ab: 78, 940
+ -->(78,940) 
+Neues Segment ab: 78, 941
+ -->(78,941) 
+Neues Segment ab: 78, 942
+ -->(78,942) 
+Neues Segment ab: 78, 943
+ -->(78,943) 
+Neues Segment ab: 78, 944
+ -->(78,944) 
+Neues Segment ab: 78, 945
+ -->(78,945) 
+Neues Segment ab: 78, 946
+ -->(78,946) 
+Neues Segment ab: 78, 947
+ -->(78,947) 
+Neues Segment ab: 78, 948
+ -->(78,948) 
+Neues Segment ab: 78, 949
+ -->(78,949) 
+Neues Segment ab: 78, 950
+ -->(78,950) 
+Neues Segment ab: 78, 951
+ -->(78,951) 
+Neues Segment ab: 78, 952
+ -->(78,952) 
+Neues Segment ab: 78, 953
+ -->(78,953) 
+Neues Segment ab: 78, 954
+ -->(78,954) 
+Neues Segment ab: 78, 955
+ -->(78,955) 
+Neues Segment ab: 78, 956
+ -->(78,956) 
+Neues Segment ab: 78, 957
+ -->(78,957) 
+Neues Segment ab: 78, 958
+ -->(78,958) 
+Neues Segment ab: 78, 959
+ -->(78,959) 
+Neues Segment ab: 79, 329
+ -->(79,329) 
+Neues Segment ab: 79, 330
+ -->(79,330) 
+Neues Segment ab: 79, 331
+ -->(79,331) 
+Neues Segment ab: 79, 332
+ -->(79,332) 
+Neues Segment ab: 79, 333
+ -->(79,333) 
+Neues Segment ab: 79, 960
+ -->(79,960) 
+Neues Segment ab: 80, 328
+ -->(80,328) 
+Neues Segment ab: 80, 960
+ -->(80,960) 
+Neues Segment ab: 81, 328
+ -->(81,328) 
+Neues Segment ab: 81, 960
+ -->(81,960) 
+Neues Segment ab: 82, 328
+ -->(82,328) 
+Neues Segment ab: 82, 960
+ -->(82,960) 
+Neues Segment ab: 83, 328
+ -->(83,328) 
+Neues Segment ab: 83, 960
+ -->(83,960) 
+Neues Segment ab: 84, 328
+ -->(84,328) 
+Neues Segment ab: 84, 960
+ -->(84,960) 
+Neues Segment ab: 85, 328
+ -->(85,328) 
+Neues Segment ab: 85, 960
+ -->(85,960) 
+Neues Segment ab: 86, 328
+ -->(86,328) 
+Neues Segment ab: 86, 960
+ -->(86,960) 
+Neues Segment ab: 87, 328
+ -->(87,328) 
+Neues Segment ab: 87, 960
+ -->(87,960) 
+Neues Segment ab: 88, 328
+ -->(88,328) 
+Neues Segment ab: 88, 960
+ -->(88,960) 
+Neues Segment ab: 89, 328
+ -->(89,328) 
+Neues Segment ab: 89, 960
+ -->(89,960) 
+Neues Segment ab: 90, 328
+ -->(90,328) 
+Neues Segment ab: 90, 960
+ -->(90,960) 
+Neues Segment ab: 91, 328
+ -->(91,328) 
+Neues Segment ab: 91, 960
+ -->(91,960) 
+Neues Segment ab: 92, 328
+ -->(92,328) 
+Neues Segment ab: 92, 960
+ -->(92,960) 
+Neues Segment ab: 93, 328
+ -->(93,328) 
+Neues Segment ab: 93, 960
+ -->(93,960) 
+Neues Segment ab: 94, 328
+ -->(94,328) 
+Neues Segment ab: 94, 960
+ -->(94,960) 
+Neues Segment ab: 95, 328
+ -->(95,328) 
+Neues Segment ab: 95, 960
+ -->(95,960) 
+Neues Segment ab: 96, 328
+ -->(96,328) 
+Neues Segment ab: 96, 960
+ -->(96,960) 
+Neues Segment ab: 97, 328
+ -->(97,328) 
+Neues Segment ab: 97, 960
+ -->(97,960) 
+Neues Segment ab: 98, 328
+ -->(98,328) 
+Neues Segment ab: 98, 960
+ -->(98,960) 
+Neues Segment ab: 99, 328
+ -->(99,328) 
+Neues Segment ab: 99, 960
+ -->(99,960) 
+Neues Segment ab: 100, 328
+ -->(100,328) 
+Neues Segment ab: 100, 960
+ -->(100,960) 
+Neues Segment ab: 101, 328
+ -->(101,328) 
+Neues Segment ab: 101, 960
+ -->(101,960) 
+Neues Segment ab: 102, 328
+ -->(102,328) 
+Neues Segment ab: 102, 960
+ -->(102,960) 
+Neues Segment ab: 103, 328
+ -->(103,328) 
+Neues Segment ab: 103, 960
+ -->(103,960) 
+Neues Segment ab: 104, 328
+ -->(104,328) 
+Neues Segment ab: 104, 960
+ -->(104,960) 
+Neues Segment ab: 105, 328
+ -->(105,328) 
+Neues Segment ab: 105, 960
+ -->(105,960) 
+Neues Segment ab: 106, 328
+ -->(106,328) 
+Neues Segment ab: 106, 960
+ -->(106,960) 
+Neues Segment ab: 107, 328
+ -->(107,328) 
+Neues Segment ab: 107, 960
+ -->(107,960) 
+Neues Segment ab: 108, 328
+ -->(108,328) 
+Neues Segment ab: 108, 960
+ -->(108,960) 
+Neues Segment ab: 109, 328
+ -->(109,328) 
+Neues Segment ab: 109, 960
+ -->(109,960) 
+Neues Segment ab: 110, 328
+ -->(110,328) 
+Neues Segment ab: 110, 960
+ -->(110,960) 
+Neues Segment ab: 111, 328
+ -->(111,328) 
+Neues Segment ab: 111, 960
+ -->(111,960) 
+Neues Segment ab: 112, 328
+ -->(112,328) 
+Neues Segment ab: 112, 960
+ -->(112,960) 
+Neues Segment ab: 113, 328
+ -->(113,328) 
+Neues Segment ab: 113, 960
+ -->(113,960) 
+Neues Segment ab: 114, 328
+ -->(114,328) 
+Neues Segment ab: 114, 960
+ -->(114,960) 
+Neues Segment ab: 115, 328
+ -->(115,328) 
+Neues Segment ab: 115, 960
+ -->(115,960) 
+Neues Segment ab: 116, 328
+ -->(116,328) 
+Neues Segment ab: 116, 960
+ -->(116,960) 
+Neues Segment ab: 117, 328
+ -->(117,328) 
+Neues Segment ab: 117, 960
+ -->(117,960) 
+Neues Segment ab: 118, 328
+ -->(118,328) 
+Neues Segment ab: 118, 960
+ -->(118,960) 
+Neues Segment ab: 119, 328
+ -->(119,328) 
+Neues Segment ab: 119, 960
+ -->(119,960) 
+Neues Segment ab: 120, 328
+ -->(120,328) 
+Neues Segment ab: 120, 960
+ -->(120,960) 
+Neues Segment ab: 121, 328
+ -->(121,328) 
+Neues Segment ab: 121, 960
+ -->(121,960) 
+Neues Segment ab: 122, 328
+ -->(122,328) 
+Neues Segment ab: 122, 960
+ -->(122,960) 
+Neues Segment ab: 123, 328
+ -->(123,328) 
+Neues Segment ab: 123, 960
+ -->(123,960) 
+Neues Segment ab: 124, 328
+ -->(124,328) 
+Neues Segment ab: 124, 960
+ -->(124,960) 
+Neues Segment ab: 125, 328
+ -->(125,328) 
+Neues Segment ab: 125, 960
+ -->(125,960) 
+Neues Segment ab: 126, 328
+ -->(126,328) 
+Neues Segment ab: 126, 960
+ -->(126,960) 
+Neues Segment ab: 127, 328
+ -->(127,328) 
+Neues Segment ab: 127, 960
+ -->(127,960) 
+Neues Segment ab: 128, 328
+ -->(128,328) 
+Neues Segment ab: 128, 960
+ -->(128,960) 
+Neues Segment ab: 129, 328
+ -->(129,328) 
+Neues Segment ab: 129, 960
+ -->(129,960) 
+Neues Segment ab: 130, 328
+ -->(130,328) 
+Neues Segment ab: 130, 960
+ -->(130,960) 
+Neues Segment ab: 131, 328
+ -->(131,328) 
+Neues Segment ab: 131, 960
+ -->(131,960) 
+Neues Segment ab: 132, 328
+ -->(132,328) 
+Neues Segment ab: 132, 960
+ -->(132,960) 
+Neues Segment ab: 133, 328
+ -->(133,328) 
+Neues Segment ab: 133, 960
+ -->(133,960) 
+Neues Segment ab: 134, 328
+ -->(134,328) 
+Neues Segment ab: 134, 960
+ -->(134,960) 
+Neues Segment ab: 135, 328
+ -->(135,328) 
+Neues Segment ab: 135, 960
+ -->(135,960) 
+Neues Segment ab: 136, 328
+ -->(136,328) 
+Neues Segment ab: 136, 960
+ -->(136,960) 
+Neues Segment ab: 137, 328
+ -->(137,328) 
+Neues Segment ab: 137, 960
+ -->(137,960) 
+Neues Segment ab: 138, 328
+ -->(138,328) 
+Neues Segment ab: 138, 960
+ -->(138,960) 
+Neues Segment ab: 139, 328
+ -->(139,328) 
+Neues Segment ab: 139, 960
+ -->(139,960) 
+Neues Segment ab: 140, 328
+ -->(140,328) 
+Neues Segment ab: 140, 960
+ -->(140,960) 
+Neues Segment ab: 141, 328
+ -->(141,328) 
+Neues Segment ab: 141, 960
+ -->(141,960) 
+Neues Segment ab: 142, 328
+ -->(142,328) 
+Neues Segment ab: 142, 960
+ -->(142,960) 
+Neues Segment ab: 143, 328
+ -->(143,328) 
+Neues Segment ab: 143, 960
+ -->(143,960) 
+Neues Segment ab: 144, 328
+ -->(144,328) 
+Neues Segment ab: 144, 960
+ -->(144,960) 
+Neues Segment ab: 145, 328
+ -->(145,328) 
+Neues Segment ab: 145, 960
+ -->(145,960) 
+Neues Segment ab: 146, 328
+ -->(146,328) 
+Neues Segment ab: 146, 960
+ -->(146,960) 
+Neues Segment ab: 147, 328
+ -->(147,328) 
+Neues Segment ab: 147, 960
+ -->(147,960) 
+Neues Segment ab: 148, 328
+ -->(148,328) 
+Neues Segment ab: 148, 960
+ -->(148,960) 
+Neues Segment ab: 149, 328
+ -->(149,328) 
+Neues Segment ab: 149, 960
+ -->(149,960) 
+Neues Segment ab: 150, 328
+ -->(150,328) 
+Neues Segment ab: 150, 960
+ -->(150,960) 
+Neues Segment ab: 151, 328
+ -->(151,328) 
+Neues Segment ab: 151, 960
+ -->(151,960) 
+Neues Segment ab: 152, 328
+ -->(152,328) 
+Neues Segment ab: 152, 960
+ -->(152,960) 
+Neues Segment ab: 153, 328
+ -->(153,328) 
+Neues Segment ab: 153, 960
+ -->(153,960) 
+Neues Segment ab: 154, 328
+ -->(154,328) 
+Neues Segment ab: 154, 960
+ -->(154,960) 
+Neues Segment ab: 155, 328
+ -->(155,328) 
+Neues Segment ab: 155, 960
+ -->(155,960) 
+Neues Segment ab: 156, 328
+ -->(156,328) 
+Neues Segment ab: 156, 960
+ -->(156,960) 
+Neues Segment ab: 157, 328
+ -->(157,328) 
+Neues Segment ab: 157, 960
+ -->(157,960) 
+Neues Segment ab: 158, 328
+ -->(158,328) 
+Neues Segment ab: 158, 960
+ -->(158,960) 
+Neues Segment ab: 159, 328
+ -->(159,328) 
+Neues Segment ab: 159, 960
+ -->(159,960) 
+Neues Segment ab: 160, 328
+ -->(160,328) 
+Neues Segment ab: 160, 960
+ -->(160,960) 
+Neues Segment ab: 161, 328
+ -->(161,328) 
+Neues Segment ab: 161, 960
+ -->(161,960) 
+Neues Segment ab: 162, 328
+ -->(162,328) 
+Neues Segment ab: 162, 960
+ -->(162,960) 
+Neues Segment ab: 163, 328
+ -->(163,328) 
+Neues Segment ab: 163, 960
+ -->(163,960) 
+Neues Segment ab: 164, 328
+ -->(164,328) 
+Neues Segment ab: 164, 960
+ -->(164,960) 
+Neues Segment ab: 165, 328
+ -->(165,328) 
+Neues Segment ab: 165, 960
+ -->(165,960) 
+Neues Segment ab: 166, 328
+ -->(166,328) 
+Neues Segment ab: 166, 960
+ -->(166,960) 
+Neues Segment ab: 167, 328
+ -->(167,328) 
+Neues Segment ab: 167, 960
+ -->(167,960) 
+Neues Segment ab: 168, 328
+ -->(168,328) 
+Neues Segment ab: 168, 960
+ -->(168,960) 
+Neues Segment ab: 169, 328
+ -->(169,328) 
+Neues Segment ab: 169, 960
+ -->(169,960) 
+Neues Segment ab: 170, 328
+ -->(170,328) 
+Neues Segment ab: 170, 960
+ -->(170,960) 
+Neues Segment ab: 171, 328
+ -->(171,328) 
+Neues Segment ab: 171, 960
+ -->(171,960) 
+Neues Segment ab: 172, 328
+ -->(172,328) 
+Neues Segment ab: 172, 960
+ -->(172,960) 
+Neues Segment ab: 173, 328
+ -->(173,328) 
+Neues Segment ab: 173, 960
+ -->(173,960) 
+Neues Segment ab: 174, 328
+ -->(174,328) 
+Neues Segment ab: 174, 960
+ -->(174,960) 
+Neues Segment ab: 175, 328
+ -->(175,328) 
+Neues Segment ab: 175, 960
+ -->(175,960) 
+Neues Segment ab: 176, 328
+ -->(176,328) 
+Neues Segment ab: 176, 960
+ -->(176,960) 
+Neues Segment ab: 177, 328
+ -->(177,328) 
+Neues Segment ab: 177, 960
+ -->(177,960) 
+Neues Segment ab: 178, 328
+ -->(178,328) 
+Neues Segment ab: 178, 960
+ -->(178,960) 
+Neues Segment ab: 179, 328
+ -->(179,328) 
+Neues Segment ab: 179, 960
+ -->(179,960) 
+Neues Segment ab: 180, 328
+ -->(180,328) 
+Neues Segment ab: 180, 960
+ -->(180,960) 
+Neues Segment ab: 181, 328
+ -->(181,328) 
+Neues Segment ab: 181, 960
+ -->(181,960) 
+Neues Segment ab: 182, 328
+ -->(182,328) 
+Neues Segment ab: 182, 960
+ -->(182,960) 
+Neues Segment ab: 183, 328
+ -->(183,328) 
+Neues Segment ab: 183, 960
+ -->(183,960) 
+Neues Segment ab: 184, 328
+ -->(184,328) 
+Neues Segment ab: 184, 960
+ -->(184,960) 
+Neues Segment ab: 185, 328
+ -->(185,328) 
+Neues Segment ab: 185, 960
+ -->(185,960) 
+Neues Segment ab: 186, 328
+ -->(186,328) 
+Neues Segment ab: 186, 960
+ -->(186,960) 
+Neues Segment ab: 187, 328
+ -->(187,328) 
+Neues Segment ab: 187, 960
+ -->(187,960) 
+Neues Segment ab: 188, 328
+ -->(188,328) 
+Neues Segment ab: 188, 960
+ -->(188,960) 
+Neues Segment ab: 189, 328
+ -->(189,328) 
+Neues Segment ab: 189, 960
+ -->(189,960) 
+Neues Segment ab: 190, 328
+ -->(190,328) 
+Neues Segment ab: 190, 960
+ -->(190,960) 
+Neues Segment ab: 191, 328
+ -->(191,328) 
+Neues Segment ab: 191, 960
+ -->(191,960) 
+Neues Segment ab: 192, 328
+ -->(192,328) 
+Neues Segment ab: 192, 960
+ -->(192,960) 
+Neues Segment ab: 193, 328
+ -->(193,328) 
+Neues Segment ab: 193, 960
+ -->(193,960) 
+Neues Segment ab: 194, 328
+ -->(194,328) 
+Neues Segment ab: 194, 960
+ -->(194,960) 
+Neues Segment ab: 195, 328
+ -->(195,328) 
+Neues Segment ab: 195, 960
+ -->(195,960) 
+Neues Segment ab: 196, 328
+ -->(196,328) 
+Neues Segment ab: 196, 960
+ -->(196,960) 
+Neues Segment ab: 197, 328
+ -->(197,328) 
+Neues Segment ab: 197, 960
+ -->(197,960) 
+Neues Segment ab: 198, 328
+ -->(198,328) 
+Neues Segment ab: 198, 960
+ -->(198,960) 
+Neues Segment ab: 199, 328
+ -->(199,328) 
+Neues Segment ab: 199, 960
+ -->(199,960) 
+Neues Segment ab: 200, 328
+ -->(200,328) 
+Neues Segment ab: 200, 960
+ -->(200,960) 
+Neues Segment ab: 201, 328
+ -->(201,328) 
+Neues Segment ab: 201, 960
+ -->(201,960) 
+Neues Segment ab: 202, 328
+ -->(202,328) 
+Neues Segment ab: 202, 960
+ -->(202,960) 
+Neues Segment ab: 203, 328
+ -->(203,328) 
+Neues Segment ab: 203, 960
+ -->(203,960) 
+Neues Segment ab: 204, 328
+ -->(204,328) 
+Neues Segment ab: 204, 960
+ -->(204,960) 
+Neues Segment ab: 205, 328
+ -->(205,328) 
+Neues Segment ab: 205, 960
+ -->(205,960) 
+Neues Segment ab: 206, 328
+ -->(206,328) 
+Neues Segment ab: 206, 960
+ -->(206,960) 
+Neues Segment ab: 207, 328
+ -->(207,328) 
+Neues Segment ab: 207, 960
+ -->(207,960) 
+Neues Segment ab: 208, 328
+ -->(208,328) 
+Neues Segment ab: 208, 960
+ -->(208,960) 
+Neues Segment ab: 209, 328
+ -->(209,328) 
+Neues Segment ab: 209, 960
+ -->(209,960) 
+Neues Segment ab: 210, 328
+ -->(210,328) 
+Neues Segment ab: 210, 960
+ -->(210,960) 
+Neues Segment ab: 211, 328
+ -->(211,328) 
+Neues Segment ab: 211, 960
+ -->(211,960) 
+Neues Segment ab: 212, 328
+ -->(212,328) 
+Neues Segment ab: 212, 960
+ -->(212,960) 
+Neues Segment ab: 213, 328
+ -->(213,328) 
+Neues Segment ab: 213, 960
+ -->(213,960) 
+Neues Segment ab: 214, 328
+ -->(214,328) 
+Neues Segment ab: 214, 960
+ -->(214,960) 
+Neues Segment ab: 215, 328
+ -->(215,328) 
+Neues Segment ab: 215, 960
+ -->(215,960) 
+Neues Segment ab: 216, 328
+ -->(216,328) 
+Neues Segment ab: 216, 960
+ -->(216,960) 
+Neues Segment ab: 217, 328
+ -->(217,328) 
+Neues Segment ab: 217, 960
+ -->(217,960) 
+Neues Segment ab: 218, 328
+ -->(218,328) 
+Neues Segment ab: 218, 960
+ -->(218,960) 
+Neues Segment ab: 219, 328
+ -->(219,328) 
+Neues Segment ab: 219, 960
+ -->(219,960) 
+Neues Segment ab: 220, 328
+ -->(220,328) 
+Neues Segment ab: 220, 960
+ -->(220,960) 
+Neues Segment ab: 221, 328
+ -->(221,328) 
+Neues Segment ab: 221, 960
+ -->(221,960) 
+Neues Segment ab: 222, 328
+ -->(222,328) 
+Neues Segment ab: 222, 960
+ -->(222,960) 
+Neues Segment ab: 223, 328
+ -->(223,328) 
+Neues Segment ab: 223, 960
+ -->(223,960) 
+Neues Segment ab: 224, 328
+ -->(224,328) 
+Neues Segment ab: 224, 960
+ -->(224,960) 
+Neues Segment ab: 225, 328
+ -->(225,328) 
+Neues Segment ab: 225, 960
+ -->(225,960) 
+Neues Segment ab: 226, 328
+ -->(226,328) 
+Neues Segment ab: 226, 960
+ -->(226,960) 
+Neues Segment ab: 227, 328
+ -->(227,328) 
+Neues Segment ab: 227, 960
+ -->(227,960) 
+Neues Segment ab: 228, 328
+ -->(228,328) 
+Neues Segment ab: 228, 960
+ -->(228,960) 
+Neues Segment ab: 229, 328
+ -->(229,328) 
+Neues Segment ab: 229, 960
+ -->(229,960) 
+Neues Segment ab: 230, 328
+ -->(230,328) 
+Neues Segment ab: 230, 960
+ -->(230,960) 
+Neues Segment ab: 231, 328
+ -->(231,328) 
+Neues Segment ab: 231, 960
+ -->(231,960) 
+Neues Segment ab: 232, 328
+ -->(232,328) 
+Neues Segment ab: 232, 960
+ -->(232,960) 
+Neues Segment ab: 233, 328
+ -->(233,328) 
+Neues Segment ab: 233, 960
+ -->(233,960) 
+Neues Segment ab: 234, 328
+ -->(234,328) 
+Neues Segment ab: 234, 960
+ -->(234,960) 
+Neues Segment ab: 235, 328
+ -->(235,328) 
+Neues Segment ab: 235, 960
+ -->(235,960) 
+Neues Segment ab: 236, 328
+ -->(236,328) 
+Neues Segment ab: 236, 960
+ -->(236,960) 
+Neues Segment ab: 237, 328
+ -->(237,328) 
+Neues Segment ab: 237, 960
+ -->(237,960) 
+Neues Segment ab: 238, 328
+ -->(238,328) 
+Neues Segment ab: 238, 960
+ -->(238,960) 
+Neues Segment ab: 239, 328
+ -->(239,328) 
+Neues Segment ab: 239, 960
+ -->(239,960) 
+Neues Segment ab: 240, 328
+ -->(240,328) 
+Neues Segment ab: 240, 960
+ -->(240,960) 
+Neues Segment ab: 241, 328
+ -->(241,328) 
+Neues Segment ab: 241, 960
+ -->(241,960) 
+Neues Segment ab: 242, 328
+ -->(242,328) 
+Neues Segment ab: 242, 960
+ -->(242,960) 
+Neues Segment ab: 243, 328
+ -->(243,328) 
+Neues Segment ab: 243, 960
+ -->(243,960) 
+Neues Segment ab: 244, 328
+ -->(244,328) 
+Neues Segment ab: 244, 960
+ -->(244,960) 
+Neues Segment ab: 245, 328
+ -->(245,328) 
+Neues Segment ab: 245, 960
+ -->(245,960) 
+Neues Segment ab: 246, 328
+ -->(246,328) 
+Neues Segment ab: 246, 960
+ -->(246,960) 
+Neues Segment ab: 247, 328
+ -->(247,328) 
+Neues Segment ab: 247, 960
+ -->(247,960) 
+Neues Segment ab: 248, 328
+ -->(248,328) 
+Neues Segment ab: 248, 960
+ -->(248,960) 
+Neues Segment ab: 249, 328
+ -->(249,328) 
+Neues Segment ab: 249, 960
+ -->(249,960) 
+Neues Segment ab: 250, 328
+ -->(250,328) 
+Neues Segment ab: 250, 960
+ -->(250,960) 
+Neues Segment ab: 251, 328
+ -->(251,328) 
+Neues Segment ab: 251, 960
+ -->(251,960) 
+Neues Segment ab: 252, 328
+ -->(252,328) 
+Neues Segment ab: 252, 960
+ -->(252,960) 
+Neues Segment ab: 253, 328
+ -->(253,328) 
+Neues Segment ab: 253, 960
+ -->(253,960) 
+Neues Segment ab: 254, 328
+ -->(254,328) 
+Neues Segment ab: 254, 960
+ -->(254,960) 
+Neues Segment ab: 255, 328
+ -->(255,328) 
+Neues Segment ab: 255, 960
+ -->(255,960) 
+Neues Segment ab: 256, 328
+ -->(256,328) 
+Neues Segment ab: 256, 960
+ -->(256,960) 
+Neues Segment ab: 257, 328
+ -->(257,328) 
+Neues Segment ab: 257, 960
+ -->(257,960) 
+Neues Segment ab: 258, 328
+ -->(258,328) 
+Neues Segment ab: 258, 960
+ -->(258,960) 
+Neues Segment ab: 259, 328
+ -->(259,328) 
+Neues Segment ab: 259, 960
+ -->(259,960) 
+Neues Segment ab: 260, 328
+ -->(260,328) 
+Neues Segment ab: 260, 960
+ -->(260,960) 
+Neues Segment ab: 261, 328
+ -->(261,328) 
+Neues Segment ab: 261, 960
+ -->(261,960) 
+Neues Segment ab: 262, 328
+ -->(262,328) 
+Neues Segment ab: 262, 960
+ -->(262,960) 
+Neues Segment ab: 263, 328
+ -->(263,328) 
+Neues Segment ab: 263, 960
+ -->(263,960) 
+Neues Segment ab: 264, 328
+ -->(264,328) 
+Neues Segment ab: 264, 960
+ -->(264,960) 
+Neues Segment ab: 265, 328
+ -->(265,328) 
+Neues Segment ab: 265, 960
+ -->(265,960) 
+Neues Segment ab: 266, 328
+ -->(266,328) 
+Neues Segment ab: 266, 960
+ -->(266,960) 
+Neues Segment ab: 267, 328
+ -->(267,328) 
+Neues Segment ab: 267, 960
+ -->(267,960) 
+Neues Segment ab: 268, 328
+ -->(268,328) 
+Neues Segment ab: 268, 960
+ -->(268,960) 
+Neues Segment ab: 269, 328
+ -->(269,328) 
+Neues Segment ab: 269, 960
+ -->(269,960) 
+Neues Segment ab: 270, 328
+ -->(270,328) 
+Neues Segment ab: 270, 960
+ -->(270,960) 
+Neues Segment ab: 271, 328
+ -->(271,328) 
+Neues Segment ab: 271, 960
+ -->(271,960) 
+Neues Segment ab: 272, 328
+ -->(272,328) 
+Neues Segment ab: 272, 960
+ -->(272,960) 
+Neues Segment ab: 273, 328
+ -->(273,328) 
+Neues Segment ab: 273, 960
+ -->(273,960) 
+Neues Segment ab: 274, 328
+ -->(274,328) 
+Neues Segment ab: 274, 960
+ -->(274,960) 
+Neues Segment ab: 275, 328
+ -->(275,328) 
+Neues Segment ab: 275, 960
+ -->(275,960) 
+Neues Segment ab: 276, 328
+ -->(276,328) 
+Neues Segment ab: 276, 960
+ -->(276,960) 
+Neues Segment ab: 277, 328
+ -->(277,328) 
+Neues Segment ab: 277, 960
+ -->(277,960) 
+Neues Segment ab: 278, 328
+ -->(278,328) 
+Neues Segment ab: 278, 960
+ -->(278,960) 
+Neues Segment ab: 279, 328
+ -->(279,328) 
+Neues Segment ab: 279, 960
+ -->(279,960) 
+Neues Segment ab: 280, 328
+ -->(280,328) 
+Neues Segment ab: 280, 960
+ -->(280,960) 
+Neues Segment ab: 281, 328
+ -->(281,328) 
+Neues Segment ab: 281, 960
+ -->(281,960) 
+Neues Segment ab: 282, 328
+ -->(282,328) 
+Neues Segment ab: 282, 960
+ -->(282,960) 
+Neues Segment ab: 283, 328
+ -->(283,328) 
+Neues Segment ab: 283, 960
+ -->(283,960) 
+Neues Segment ab: 284, 328
+ -->(284,328) 
+Neues Segment ab: 284, 960
+ -->(284,960) 
+Neues Segment ab: 285, 328
+ -->(285,328) 
+Neues Segment ab: 285, 960
+ -->(285,960) 
+Neues Segment ab: 286, 328
+ -->(286,328) 
+Neues Segment ab: 286, 960
+ -->(286,960) 
+Neues Segment ab: 287, 328
+ -->(287,328) 
+Neues Segment ab: 287, 960
+ -->(287,960) 
+Neues Segment ab: 288, 328
+ -->(288,328) 
+Neues Segment ab: 288, 960
+ -->(288,960) 
+Neues Segment ab: 289, 328
+ -->(289,328) 
+Neues Segment ab: 289, 960
+ -->(289,960) 
+Neues Segment ab: 290, 328
+ -->(290,328) 
+Neues Segment ab: 290, 960
+ -->(290,960) 
+Neues Segment ab: 291, 328
+ -->(291,328) 
+Neues Segment ab: 291, 960
+ -->(291,960) 
+Neues Segment ab: 292, 328
+ -->(292,328) 
+Neues Segment ab: 292, 960
+ -->(292,960) 
+Neues Segment ab: 293, 328
+ -->(293,328) 
+Neues Segment ab: 293, 960
+ -->(293,960) 
+Neues Segment ab: 294, 328
+ -->(294,328) 
+Neues Segment ab: 294, 960
+ -->(294,960) 
+Neues Segment ab: 295, 328
+ -->(295,328) 
+Neues Segment ab: 295, 960
+ -->(295,960) 
+Neues Segment ab: 296, 328
+ -->(296,328) 
+Neues Segment ab: 296, 960
+ -->(296,960) 
+Neues Segment ab: 297, 328
+ -->(297,328) 
+Neues Segment ab: 297, 960
+ -->(297,960) 
+Neues Segment ab: 298, 328
+ -->(298,328) 
+Neues Segment ab: 298, 960
+ -->(298,960) 
+Neues Segment ab: 299, 328
+ -->(299,328) 
+Neues Segment ab: 299, 960
+ -->(299,960) 
+Neues Segment ab: 300, 328
+ -->(300,328) 
+Neues Segment ab: 300, 960
+ -->(300,960) 
+Neues Segment ab: 301, 328
+ -->(301,328) 
+Neues Segment ab: 301, 960
+ -->(301,960) 
+Neues Segment ab: 302, 328
+ -->(302,328) 
+Neues Segment ab: 302, 960
+ -->(302,960) 
+Neues Segment ab: 303, 328
+ -->(303,328) 
+Neues Segment ab: 303, 960
+ -->(303,960) 
+Neues Segment ab: 304, 328
+ -->(304,328) 
+Neues Segment ab: 304, 960
+ -->(304,960) 
+Neues Segment ab: 305, 328
+ -->(305,328) 
+Neues Segment ab: 305, 960
+ -->(305,960) 
+Neues Segment ab: 306, 328
+ -->(306,328) 
+Neues Segment ab: 306, 960
+ -->(306,960) 
+Neues Segment ab: 307, 328
+ -->(307,328) 
+Neues Segment ab: 307, 960
+ -->(307,960) 
+Neues Segment ab: 308, 328
+ -->(308,328) 
+Neues Segment ab: 308, 960
+ -->(308,960) 
+Neues Segment ab: 309, 328
+ -->(309,328) 
+Neues Segment ab: 309, 960
+ -->(309,960) 
+Neues Segment ab: 310, 328
+ -->(310,328) 
+Neues Segment ab: 310, 960
+ -->(310,960) 
+Neues Segment ab: 311, 328
+ -->(311,328) 
+Neues Segment ab: 311, 960
+ -->(311,960) 
+Neues Segment ab: 312, 328
+ -->(312,328) 
+Neues Segment ab: 312, 960
+ -->(312,960) 
+Neues Segment ab: 313, 328
+ -->(313,328) 
+Neues Segment ab: 313, 960
+ -->(313,960) 
+Neues Segment ab: 314, 328
+ -->(314,328) 
+Neues Segment ab: 314, 960
+ -->(314,960) 
+Neues Segment ab: 315, 328
+ -->(315,328) 
+Neues Segment ab: 315, 960
+ -->(315,960) 
+Neues Segment ab: 316, 328
+ -->(316,328) 
+Neues Segment ab: 316, 960
+ -->(316,960) 
+Neues Segment ab: 317, 328
+ -->(317,328) 
+Neues Segment ab: 317, 960
+ -->(317,960) 
+Neues Segment ab: 318, 328
+ -->(318,328) 
+Neues Segment ab: 318, 960
+ -->(318,960) 
+Neues Segment ab: 319, 328
+ -->(319,328) 
+Neues Segment ab: 319, 960
+ -->(319,960) 
+Neues Segment ab: 320, 328
+ -->(320,328) 
+Neues Segment ab: 320, 960
+ -->(320,960) 
+Neues Segment ab: 321, 328
+ -->(321,328) 
+Neues Segment ab: 321, 960
+ -->(321,960) 
+Neues Segment ab: 322, 328
+ -->(322,328) 
+Neues Segment ab: 322, 960
+ -->(322,960) 
+Neues Segment ab: 323, 328
+ -->(323,328) 
+Neues Segment ab: 323, 960
+ -->(323,960) 
+Neues Segment ab: 324, 328
+ -->(324,328) 
+Neues Segment ab: 324, 960
+ -->(324,960) 
+Neues Segment ab: 325, 328
+ -->(325,328) 
+Neues Segment ab: 325, 960
+ -->(325,960) 
+Neues Segment ab: 326, 328
+ -->(326,328) 
+Neues Segment ab: 326, 960
+ -->(326,960) 
+Neues Segment ab: 327, 328
+ -->(327,328) 
+Neues Segment ab: 327, 960
+ -->(327,960) 
+Neues Segment ab: 328, 328
+ -->(328,328) 
+Neues Segment ab: 328, 960
+ -->(328,960) 
+Neues Segment ab: 329, 328
+ -->(329,328) 
+Neues Segment ab: 329, 960
+ -->(329,960) 
+Neues Segment ab: 330, 328
+ -->(330,328) 
+Neues Segment ab: 330, 960
+ -->(330,960) 
+Neues Segment ab: 331, 328
+ -->(331,328) 
+Neues Segment ab: 331, 960
+ -->(331,960) 
+Neues Segment ab: 332, 328
+ -->(332,328) 
+Neues Segment ab: 332, 960
+ -->(332,960) 
+Neues Segment ab: 333, 328
+ -->(333,328) 
+Neues Segment ab: 333, 960
+ -->(333,960) 
+Neues Segment ab: 334, 328
+ -->(334,328) 
+Neues Segment ab: 334, 960
+ -->(334,960) 
+Neues Segment ab: 335, 328
+ -->(335,328) 
+Neues Segment ab: 335, 960
+ -->(335,960) 
+Neues Segment ab: 336, 328
+ -->(336,328) 
+Neues Segment ab: 336, 960
+ -->(336,960) 
+Neues Segment ab: 337, 328
+ -->(337,328) 
+Neues Segment ab: 337, 960
+ -->(337,960) 
+Neues Segment ab: 338, 328
+ -->(338,328) 
+Neues Segment ab: 338, 960
+ -->(338,960) 
+Neues Segment ab: 339, 328
+ -->(339,328) 
+Neues Segment ab: 339, 960
+ -->(339,960) 
+Neues Segment ab: 340, 328
+ -->(340,328) 
+Neues Segment ab: 340, 960
+ -->(340,960) 
+Neues Segment ab: 341, 328
+ -->(341,328) 
+Neues Segment ab: 341, 960
+ -->(341,960) 
+Neues Segment ab: 342, 328
+ -->(342,328) 
+Neues Segment ab: 342, 960
+ -->(342,960) 
+Neues Segment ab: 343, 328
+ -->(343,328) 
+Neues Segment ab: 343, 960
+ -->(343,960) 
+Neues Segment ab: 344, 328
+ -->(344,328) 
+Neues Segment ab: 344, 960
+ -->(344,960) 
+Neues Segment ab: 345, 328
+ -->(345,328) 
+Neues Segment ab: 345, 960
+ -->(345,960) 
+Neues Segment ab: 346, 328
+ -->(346,328) 
+Neues Segment ab: 346, 960
+ -->(346,960) 
+Neues Segment ab: 347, 328
+ -->(347,328) 
+Neues Segment ab: 347, 960
+ -->(347,960) 
+Neues Segment ab: 348, 328
+ -->(348,328) 
+Neues Segment ab: 348, 960
+ -->(348,960) 
+Neues Segment ab: 349, 328
+ -->(349,328) 
+Neues Segment ab: 349, 960
+ -->(349,960) 
+Neues Segment ab: 350, 328
+ -->(350,328) 
+Neues Segment ab: 350, 960
+ -->(350,960) 
+Neues Segment ab: 351, 328
+ -->(351,328) 
+Neues Segment ab: 351, 960
+ -->(351,960) 
+Neues Segment ab: 352, 328
+ -->(352,328) 
+Neues Segment ab: 352, 960
+ -->(352,960) 
+Neues Segment ab: 353, 328
+ -->(353,328) 
+Neues Segment ab: 353, 960
+ -->(353,960) 
+Neues Segment ab: 354, 328
+ -->(354,328) 
+Neues Segment ab: 354, 960
+ -->(354,960) 
+Neues Segment ab: 355, 328
+ -->(355,328) 
+Neues Segment ab: 355, 960
+ -->(355,960) 
+Neues Segment ab: 356, 328
+ -->(356,328) 
+Neues Segment ab: 356, 960
+ -->(356,960) 
+Neues Segment ab: 357, 328
+ -->(357,328) 
+Neues Segment ab: 357, 960
+ -->(357,960) 
+Neues Segment ab: 358, 328
+ -->(358,328) 
+Neues Segment ab: 358, 960
+ -->(358,960) 
+Neues Segment ab: 359, 328
+ -->(359,328) 
+Neues Segment ab: 359, 960
+ -->(359,960) 
+Neues Segment ab: 360, 328
+ -->(360,328) 
+Neues Segment ab: 360, 960
+ -->(360,960) 
+Neues Segment ab: 361, 328
+ -->(361,328) 
+Neues Segment ab: 361, 960
+ -->(361,960) 
+Neues Segment ab: 362, 328
+ -->(362,328) 
+Neues Segment ab: 362, 960
+ -->(362,960) 
+Neues Segment ab: 363, 328
+ -->(363,328) 
+Neues Segment ab: 363, 960
+ -->(363,960) 
+Neues Segment ab: 364, 328
+ -->(364,328) 
+Neues Segment ab: 364, 960
+ -->(364,960) 
+Neues Segment ab: 365, 328
+ -->(365,328) 
+Neues Segment ab: 365, 960
+ -->(365,960) 
+Neues Segment ab: 366, 328
+ -->(366,328) 
+Neues Segment ab: 366, 960
+ -->(366,960) 
+Neues Segment ab: 367, 328
+ -->(367,328) 
+Neues Segment ab: 367, 960
+ -->(367,960) 
+Neues Segment ab: 368, 328
+ -->(368,328) 
+Neues Segment ab: 368, 960
+ -->(368,960) 
+Neues Segment ab: 369, 328
+ -->(369,328) 
+Neues Segment ab: 369, 960
+ -->(369,960) 
+Neues Segment ab: 370, 328
+ -->(370,328) 
+Neues Segment ab: 370, 960
+ -->(370,960) 
+Neues Segment ab: 371, 328
+ -->(371,328) 
+Neues Segment ab: 371, 960
+ -->(371,960) 
+Neues Segment ab: 372, 328
+ -->(372,328) 
+Neues Segment ab: 372, 960
+ -->(372,960) 
+Neues Segment ab: 373, 328
+ -->(373,328) 
+Neues Segment ab: 373, 960
+ -->(373,960) 
+Neues Segment ab: 374, 328
+ -->(374,328) 
+Neues Segment ab: 374, 960
+ -->(374,960) 
+Neues Segment ab: 375, 328
+ -->(375,328) 
+Neues Segment ab: 375, 960
+ -->(375,960) 
+Neues Segment ab: 376, 328
+ -->(376,328) 
+Neues Segment ab: 376, 960
+ -->(376,960) 
+Neues Segment ab: 377, 328
+ -->(377,328) 
+Neues Segment ab: 377, 960
+ -->(377,960) 
+Neues Segment ab: 378, 328
+ -->(378,328) 
+Neues Segment ab: 378, 960
+ -->(378,960) 
+Neues Segment ab: 379, 328
+ -->(379,328) 
+Neues Segment ab: 379, 960
+ -->(379,960) 
+Neues Segment ab: 380, 328
+ -->(380,328) 
+Neues Segment ab: 380, 960
+ -->(380,960) 
+Neues Segment ab: 381, 328
+ -->(381,328) 
+Neues Segment ab: 381, 960
+ -->(381,960) 
+Neues Segment ab: 382, 328
+ -->(382,328) 
+Neues Segment ab: 382, 960
+ -->(382,960) 
+Neues Segment ab: 383, 328
+ -->(383,328) 
+Neues Segment ab: 383, 960
+ -->(383,960) 
+Neues Segment ab: 384, 328
+ -->(384,328) 
+Neues Segment ab: 384, 960
+ -->(384,960) 
+Neues Segment ab: 385, 328
+ -->(385,328) 
+Neues Segment ab: 385, 960
+ -->(385,960) 
+Neues Segment ab: 386, 328
+ -->(386,328) 
+Neues Segment ab: 386, 960
+ -->(386,960) 
+Neues Segment ab: 387, 328
+ -->(387,328) 
+Neues Segment ab: 387, 960
+ -->(387,960) 
+Neues Segment ab: 388, 328
+ -->(388,328) 
+Neues Segment ab: 388, 960
+ -->(388,960) 
+Neues Segment ab: 389, 328
+ -->(389,328) 
+Neues Segment ab: 389, 960
+ -->(389,960) 
+Neues Segment ab: 390, 328
+ -->(390,328) 
+Neues Segment ab: 390, 960
+ -->(390,960) 
+Neues Segment ab: 391, 328
+ -->(391,328) 
+Neues Segment ab: 391, 960
+ -->(391,960) 
+Neues Segment ab: 392, 328
+ -->(392,328) 
+Neues Segment ab: 392, 960
+ -->(392,960) 
+Neues Segment ab: 393, 328
+ -->(393,328) 
+Neues Segment ab: 393, 960
+ -->(393,960) 
+Neues Segment ab: 394, 328
+ -->(394,328) 
+Neues Segment ab: 394, 960
+ -->(394,960) 
+Neues Segment ab: 395, 328
+ -->(395,328) 
+Neues Segment ab: 395, 960
+ -->(395,960) 
+Neues Segment ab: 396, 328
+ -->(396,328) 
+Neues Segment ab: 396, 960
+ -->(396,960) 
+Neues Segment ab: 397, 328
+ -->(397,328) 
+Neues Segment ab: 397, 960
+ -->(397,960) 
+Neues Segment ab: 398, 328
+ -->(398,328) 
+Neues Segment ab: 398, 960
+ -->(398,960) 
+Neues Segment ab: 399, 328
+ -->(399,328) 
+Neues Segment ab: 399, 960
+ -->(399,960) 
+Neues Segment ab: 400, 328
+ -->(400,328) 
+Neues Segment ab: 400, 960
+ -->(400,960) 
+Neues Segment ab: 401, 328
+ -->(401,328) 
+Neues Segment ab: 401, 960
+ -->(401,960) 
+Neues Segment ab: 402, 328
+ -->(402,328) 
+Neues Segment ab: 402, 960
+ -->(402,960) 
+Neues Segment ab: 403, 328
+ -->(403,328) 
+Neues Segment ab: 403, 960
+ -->(403,960) 
+Neues Segment ab: 404, 328
+ -->(404,328) 
+Neues Segment ab: 404, 960
+ -->(404,960) 
+Neues Segment ab: 405, 328
+ -->(405,328) 
+Neues Segment ab: 405, 960
+ -->(405,960) 
+Neues Segment ab: 406, 328
+ -->(406,328) 
+Neues Segment ab: 406, 960
+ -->(406,960) 
+Neues Segment ab: 407, 328
+ -->(407,328) 
+Neues Segment ab: 407, 960
+ -->(407,960) 
+Neues Segment ab: 408, 328
+ -->(408,328) 
+Neues Segment ab: 408, 960
+ -->(408,960) 
+Neues Segment ab: 409, 328
+ -->(409,328) 
+Neues Segment ab: 409, 960
+ -->(409,960) 
+Neues Segment ab: 410, 328
+ -->(410,328) 
+Neues Segment ab: 410, 960
+ -->(410,960) 
+Neues Segment ab: 411, 328
+ -->(411,328) 
+Neues Segment ab: 411, 960
+ -->(411,960) 
+Neues Segment ab: 412, 328
+ -->(412,328) 
+Neues Segment ab: 412, 960
+ -->(412,960) 
+Neues Segment ab: 413, 328
+ -->(413,328) 
+Neues Segment ab: 413, 960
+ -->(413,960) 
+Neues Segment ab: 414, 328
+ -->(414,328) 
+Neues Segment ab: 414, 960
+ -->(414,960) 
+Neues Segment ab: 415, 328
+ -->(415,328) 
+Neues Segment ab: 415, 960
+ -->(415,960) 
+Neues Segment ab: 416, 328
+ -->(416,328) 
+Neues Segment ab: 416, 960
+ -->(416,960) 
+Neues Segment ab: 417, 328
+ -->(417,328) 
+Neues Segment ab: 417, 960
+ -->(417,960) 
+Neues Segment ab: 418, 328
+ -->(418,328) 
+Neues Segment ab: 418, 960
+ -->(418,960) 
+Neues Segment ab: 419, 328
+ -->(419,328) 
+Neues Segment ab: 419, 960
+ -->(419,960) 
+Neues Segment ab: 420, 328
+ -->(420,328) 
+Neues Segment ab: 420, 960
+ -->(420,960) 
+Neues Segment ab: 421, 328
+ -->(421,328) 
+Neues Segment ab: 421, 960
+ -->(421,960) 
+Neues Segment ab: 422, 328
+ -->(422,328) 
+Neues Segment ab: 422, 960
+ -->(422,960) 
+Neues Segment ab: 423, 328
+ -->(423,328) 
+Neues Segment ab: 423, 960
+ -->(423,960) 
+Neues Segment ab: 424, 328
+ -->(424,328) 
+Neues Segment ab: 424, 960
+ -->(424,960) 
+Neues Segment ab: 425, 328
+ -->(425,328) 
+Neues Segment ab: 425, 960
+ -->(425,960) 
+Neues Segment ab: 426, 328
+ -->(426,328) 
+Neues Segment ab: 426, 960
+ -->(426,960) 
+Neues Segment ab: 427, 328
+ -->(427,328) 
+Neues Segment ab: 427, 960
+ -->(427,960) 
+Neues Segment ab: 428, 328
+ -->(428,328) 
+Neues Segment ab: 428, 960
+ -->(428,960) 
+Neues Segment ab: 429, 328
+ -->(429,328) 
+Neues Segment ab: 429, 960
+ -->(429,960) 
+Neues Segment ab: 430, 328
+ -->(430,328) 
+Neues Segment ab: 430, 960
+ -->(430,960) 
+Neues Segment ab: 431, 329
+ -->(431,329) 
+Neues Segment ab: 431, 330
+ -->(431,330) 
+Neues Segment ab: 431, 331
+ -->(431,331) 
+Neues Segment ab: 431, 332
+ -->(431,332) 
+Neues Segment ab: 431, 333
+ -->(431,333) 
+Neues Segment ab: 431, 334
+ -->(431,334) 
+Neues Segment ab: 431, 335
+ -->(431,335) 
+Neues Segment ab: 431, 336
+ -->(431,336) 
+Neues Segment ab: 431, 337
+ -->(431,337) 
+Neues Segment ab: 431, 338
+ -->(431,338) 
+Neues Segment ab: 431, 339
+ -->(431,339) 
+Neues Segment ab: 431, 340
+ -->(431,340) 
+Neues Segment ab: 431, 341
+ -->(431,341) 
+Neues Segment ab: 431, 342
+ -->(431,342) 
+Neues Segment ab: 431, 343
+ -->(431,343) 
+Neues Segment ab: 431, 344
+ -->(431,344) 
+Neues Segment ab: 431, 345
+ -->(431,345) 
+Neues Segment ab: 431, 346
+ -->(431,346) 
+Neues Segment ab: 431, 347
+ -->(431,347) 
+Neues Segment ab: 431, 348
+ -->(431,348) 
+Neues Segment ab: 431, 349
+ -->(431,349) 
+Neues Segment ab: 431, 350
+ -->(431,350) 
+Neues Segment ab: 431, 351
+ -->(431,351) 
+Neues Segment ab: 431, 352
+ -->(431,352) 
+Neues Segment ab: 431, 353
+ -->(431,353) 
+Neues Segment ab: 431, 354
+ -->(431,354) 
+Neues Segment ab: 431, 355
+ -->(431,355) 
+Neues Segment ab: 431, 356
+ -->(431,356) 
+Neues Segment ab: 431, 357
+ -->(431,357) 
+Neues Segment ab: 431, 358
+ -->(431,358) 
+Neues Segment ab: 431, 359
+ -->(431,359) 
+Neues Segment ab: 431, 360
+ -->(431,360) 
+Neues Segment ab: 431, 361
+ -->(431,361) 
+Neues Segment ab: 431, 362
+ -->(431,362) 
+Neues Segment ab: 431, 363
+ -->(431,363) 
+Neues Segment ab: 431, 364
+ -->(431,364) 
+Neues Segment ab: 431, 365
+ -->(431,365) 
+Neues Segment ab: 431, 366
+ -->(431,366) 
+Neues Segment ab: 431, 367
+ -->(431,367) 
+Neues Segment ab: 431, 368
+ -->(431,368) 
+Neues Segment ab: 431, 369
+ -->(431,369) 
+Neues Segment ab: 431, 370
+ -->(431,370) 
+Neues Segment ab: 431, 371
+ -->(431,371) 
+Neues Segment ab: 431, 372
+ -->(431,372) 
+Neues Segment ab: 431, 373
+ -->(431,373) 
+Neues Segment ab: 431, 374
+ -->(431,374) 
+Neues Segment ab: 431, 375
+ -->(431,375) 
+Neues Segment ab: 431, 376
+ -->(431,376) 
+Neues Segment ab: 431, 377
+ -->(431,377) 
+Neues Segment ab: 431, 378
+ -->(431,378) 
+Neues Segment ab: 431, 379
+ -->(431,379) 
+Neues Segment ab: 431, 380
+ -->(431,380) 
+Neues Segment ab: 431, 381
+ -->(431,381) 
+Neues Segment ab: 431, 382
+ -->(431,382) 
+Neues Segment ab: 431, 383
+ -->(431,383) 
+Neues Segment ab: 431, 384
+ -->(431,384) 
+Neues Segment ab: 431, 385
+ -->(431,385) 
+Neues Segment ab: 431, 386
+ -->(431,386) 
+Neues Segment ab: 431, 387
+ -->(431,387) 
+Neues Segment ab: 431, 388
+ -->(431,388) 
+Neues Segment ab: 431, 389
+ -->(431,389) 
+Neues Segment ab: 431, 390
+ -->(431,390) 
+Neues Segment ab: 431, 391
+ -->(431,391) 
+Neues Segment ab: 431, 392
+ -->(431,392) 
+Neues Segment ab: 431, 393
+ -->(431,393) 
+Neues Segment ab: 431, 394
+ -->(431,394) 
+Neues Segment ab: 431, 395
+ -->(431,395) 
+Neues Segment ab: 431, 396
+ -->(431,396) 
+Neues Segment ab: 431, 397
+ -->(431,397) 
+Neues Segment ab: 431, 398
+ -->(431,398) 
+Neues Segment ab: 431, 399
+ -->(431,399) 
+Neues Segment ab: 431, 400
+ -->(431,400) 
+Neues Segment ab: 431, 401
+ -->(431,401) 
+Neues Segment ab: 431, 402
+ -->(431,402) 
+Neues Segment ab: 431, 403
+ -->(431,403) 
+Neues Segment ab: 431, 404
+ -->(431,404) 
+Neues Segment ab: 431, 405
+ -->(431,405) 
+Neues Segment ab: 431, 406
+ -->(431,406) 
+Neues Segment ab: 431, 407
+ -->(431,407) 
+Neues Segment ab: 431, 408
+ -->(431,408) 
+Neues Segment ab: 431, 409
+ -->(431,409) 
+Neues Segment ab: 431, 410
+ -->(431,410) 
+Neues Segment ab: 431, 411
+ -->(431,411) 
+Neues Segment ab: 431, 412
+ -->(431,412) 
+Neues Segment ab: 431, 413
+ -->(431,413) 
+Neues Segment ab: 431, 414
+ -->(431,414) 
+Neues Segment ab: 431, 415
+ -->(431,415) 
+Neues Segment ab: 431, 416
+ -->(431,416) 
+Neues Segment ab: 431, 417
+ -->(431,417) 
+Neues Segment ab: 431, 418
+ -->(431,418) 
+Neues Segment ab: 431, 419
+ -->(431,419) 
+Neues Segment ab: 431, 420
+ -->(431,420) 
+Neues Segment ab: 431, 421
+ -->(431,421) 
+Neues Segment ab: 431, 422
+ -->(431,422) 
+Neues Segment ab: 431, 423
+ -->(431,423) 
+Neues Segment ab: 431, 424
+ -->(431,424) 
+Neues Segment ab: 431, 425
+ -->(431,425) 
+Neues Segment ab: 431, 426
+ -->(431,426) 
+Neues Segment ab: 431, 427
+ -->(431,427) 
+Neues Segment ab: 431, 428
+ -->(431,428) 
+Neues Segment ab: 431, 429
+ -->(431,429) 
+Neues Segment ab: 431, 430
+ -->(431,430) 
+Neues Segment ab: 431, 431
+ -->(431,431) 
+Neues Segment ab: 431, 432
+ -->(431,432) 
+Neues Segment ab: 431, 433
+ -->(431,433) 
+Neues Segment ab: 431, 434
+ -->(431,434) 
+Neues Segment ab: 431, 435
+ -->(431,435) 
+Neues Segment ab: 431, 436
+ -->(431,436) 
+Neues Segment ab: 431, 437
+ -->(431,437) 
+Neues Segment ab: 431, 438
+ -->(431,438) 
+Neues Segment ab: 431, 439
+ -->(431,439) 
+Neues Segment ab: 431, 440
+ -->(431,440) 
+Neues Segment ab: 431, 441
+ -->(431,441) 
+Neues Segment ab: 431, 442
+ -->(431,442) 
+Neues Segment ab: 431, 443
+ -->(431,443) 
+Neues Segment ab: 431, 444
+ -->(431,444) 
+Neues Segment ab: 431, 445
+ -->(431,445) 
+Neues Segment ab: 431, 446
+ -->(431,446) 
+Neues Segment ab: 431, 447
+ -->(431,447) 
+Neues Segment ab: 431, 448
+ -->(431,448) 
+Neues Segment ab: 431, 449
+ -->(431,449) 
+Neues Segment ab: 431, 450
+ -->(431,450) 
+Neues Segment ab: 431, 451
+ -->(431,451) 
+Neues Segment ab: 431, 452
+ -->(431,452) 
+Neues Segment ab: 431, 453
+ -->(431,453) 
+Neues Segment ab: 431, 454
+ -->(431,454) 
+Neues Segment ab: 431, 455
+ -->(431,455) 
+Neues Segment ab: 431, 456
+ -->(431,456) 
+Neues Segment ab: 431, 457
+ -->(431,457) 
+Neues Segment ab: 431, 458
+ -->(431,458) 
+Neues Segment ab: 431, 459
+ -->(431,459) 
+Neues Segment ab: 431, 460
+ -->(431,460) 
+Neues Segment ab: 431, 461
+ -->(431,461) 
+Neues Segment ab: 431, 462
+ -->(431,462) 
+Neues Segment ab: 431, 463
+ -->(431,463) 
+Neues Segment ab: 431, 464
+ -->(431,464) 
+Neues Segment ab: 431, 465
+ -->(431,465) 
+Neues Segment ab: 431, 466
+ -->(431,466) 
+Neues Segment ab: 431, 467
+ -->(431,467) 
+Neues Segment ab: 431, 468
+ -->(431,468) 
+Neues Segment ab: 431, 469
+ -->(431,469) 
+Neues Segment ab: 431, 470
+ -->(431,470) 
+Neues Segment ab: 431, 471
+ -->(431,471) 
+Neues Segment ab: 431, 472
+ -->(431,472) 
+Neues Segment ab: 431, 473
+ -->(431,473) 
+Neues Segment ab: 431, 474
+ -->(431,474) 
+Neues Segment ab: 431, 475
+ -->(431,475) 
+Neues Segment ab: 431, 476
+ -->(431,476) 
+Neues Segment ab: 431, 477
+ -->(431,477) 
+Neues Segment ab: 431, 478
+ -->(431,478) 
+Neues Segment ab: 431, 479
+ -->(431,479) 
+Neues Segment ab: 431, 480
+ -->(431,480) 
+Neues Segment ab: 431, 481
+ -->(431,481) 
+Neues Segment ab: 431, 482
+ -->(431,482) 
+Neues Segment ab: 431, 483
+ -->(431,483) 
+Neues Segment ab: 431, 484
+ -->(431,484) 
+Neues Segment ab: 431, 485
+ -->(431,485) 
+Neues Segment ab: 431, 486
+ -->(431,486) 
+Neues Segment ab: 431, 487
+ -->(431,487) 
+Neues Segment ab: 431, 488
+ -->(431,488) 
+Neues Segment ab: 431, 489
+ -->(431,489) 
+Neues Segment ab: 431, 490
+ -->(431,490) 
+Neues Segment ab: 431, 491
+ -->(431,491) 
+Neues Segment ab: 431, 492
+ -->(431,492) 
+Neues Segment ab: 431, 493
+ -->(431,493) 
+Neues Segment ab: 431, 494
+ -->(431,494) 
+Neues Segment ab: 431, 495
+ -->(431,495) 
+Neues Segment ab: 431, 496
+ -->(431,496) 
+Neues Segment ab: 431, 497
+ -->(431,497) 
+Neues Segment ab: 431, 498
+ -->(431,498) 
+Neues Segment ab: 431, 499
+ -->(431,499) 
+Neues Segment ab: 431, 500
+ -->(431,500) 
+Neues Segment ab: 431, 501
+ -->(431,501) 
+Neues Segment ab: 431, 502
+ -->(431,502) 
+Neues Segment ab: 431, 503
+ -->(431,503) 
+Neues Segment ab: 431, 504
+ -->(431,504) 
+Neues Segment ab: 431, 505
+ -->(431,505) 
+Neues Segment ab: 431, 506
+ -->(431,506) 
+Neues Segment ab: 431, 507
+ -->(431,507) 
+Neues Segment ab: 431, 508
+ -->(431,508) 
+Neues Segment ab: 431, 509
+ -->(431,509) 
+Neues Segment ab: 431, 510
+ -->(431,510) 
+Neues Segment ab: 431, 511
+ -->(431,511) 
+Neues Segment ab: 431, 512
+ -->(431,512) 
+Neues Segment ab: 431, 513
+ -->(431,513) 
+Neues Segment ab: 431, 514
+ -->(431,514) 
+Neues Segment ab: 431, 515
+ -->(431,515) 
+Neues Segment ab: 431, 516
+ -->(431,516) 
+Neues Segment ab: 431, 517
+ -->(431,517) 
+Neues Segment ab: 431, 518
+ -->(431,518) 
+Neues Segment ab: 431, 519
+ -->(431,519) 
+Neues Segment ab: 431, 520
+ -->(431,520) 
+Neues Segment ab: 431, 521
+ -->(431,521) 
+Neues Segment ab: 431, 522
+ -->(431,522) 
+Neues Segment ab: 431, 523
+ -->(431,523) 
+Neues Segment ab: 431, 524
+ -->(431,524) 
+Neues Segment ab: 431, 525
+ -->(431,525) 
+Neues Segment ab: 431, 526
+ -->(431,526) 
+Neues Segment ab: 431, 527
+ -->(431,527) 
+Neues Segment ab: 431, 528
+ -->(431,528) 
+Neues Segment ab: 431, 529
+ -->(431,529) 
+Neues Segment ab: 431, 530
+ -->(431,530) 
+Neues Segment ab: 431, 531
+ -->(431,531) 
+Neues Segment ab: 431, 532
+ -->(431,532) 
+Neues Segment ab: 431, 533
+ -->(431,533) 
+Neues Segment ab: 431, 534
+ -->(431,534) 
+Neues Segment ab: 431, 535
+ -->(431,535) 
+Neues Segment ab: 431, 536
+ -->(431,536) 
+Neues Segment ab: 431, 537
+ -->(431,537) 
+Neues Segment ab: 431, 538
+ -->(431,538) 
+Neues Segment ab: 431, 539
+ -->(431,539) 
+Neues Segment ab: 431, 540
+ -->(431,540) 
+Neues Segment ab: 431, 541
+ -->(431,541) 
+Neues Segment ab: 431, 542
+ -->(431,542) 
+Neues Segment ab: 431, 543
+ -->(431,543) 
+Neues Segment ab: 431, 544
+ -->(431,544) 
+Neues Segment ab: 431, 545
+ -->(431,545) 
+Neues Segment ab: 431, 546
+ -->(431,546) 
+Neues Segment ab: 431, 547
+ -->(431,547) 
+Neues Segment ab: 431, 548
+ -->(431,548) 
+Neues Segment ab: 431, 549
+ -->(431,549) 
+Neues Segment ab: 431, 550
+ -->(431,550) 
+Neues Segment ab: 431, 551
+ -->(431,551) 
+Neues Segment ab: 431, 552
+ -->(431,552) 
+Neues Segment ab: 431, 553
+ -->(431,553) 
+Neues Segment ab: 431, 554
+ -->(431,554) 
+Neues Segment ab: 431, 555
+ -->(431,555) 
+Neues Segment ab: 431, 556
+ -->(431,556) 
+Neues Segment ab: 431, 557
+ -->(431,557) 
+Neues Segment ab: 431, 558
+ -->(431,558) 
+Neues Segment ab: 431, 559
+ -->(431,559) 
+Neues Segment ab: 431, 560
+ -->(431,560) 
+Neues Segment ab: 431, 561
+ -->(431,561) 
+Neues Segment ab: 431, 562
+ -->(431,562) 
+Neues Segment ab: 431, 563
+ -->(431,563) 
+Neues Segment ab: 431, 564
+ -->(431,564) 
+Neues Segment ab: 431, 565
+ -->(431,565) 
+Neues Segment ab: 431, 566
+ -->(431,566) 
+Neues Segment ab: 431, 567
+ -->(431,567) 
+Neues Segment ab: 431, 568
+ -->(431,568) 
+Neues Segment ab: 431, 569
+ -->(431,569) 
+Neues Segment ab: 431, 570
+ -->(431,570) 
+Neues Segment ab: 431, 571
+ -->(431,571) 
+Neues Segment ab: 431, 572
+ -->(431,572) 
+Neues Segment ab: 431, 573
+ -->(431,573) 
+Neues Segment ab: 431, 574
+ -->(431,574) 
+Neues Segment ab: 431, 575
+ -->(431,575) 
+Neues Segment ab: 431, 576
+ -->(431,576) 
+Neues Segment ab: 431, 577
+ -->(431,577) 
+Neues Segment ab: 431, 578
+ -->(431,578) 
+Neues Segment ab: 431, 579
+ -->(431,579) 
+Neues Segment ab: 431, 580
+ -->(431,580) 
+Neues Segment ab: 431, 581
+ -->(431,581) 
+Neues Segment ab: 431, 582
+ -->(431,582) 
+Neues Segment ab: 431, 583
+ -->(431,583) 
+Neues Segment ab: 431, 584
+ -->(431,584) 
+Neues Segment ab: 431, 585
+ -->(431,585) 
+Neues Segment ab: 431, 586
+ -->(431,586) 
+Neues Segment ab: 431, 587
+ -->(431,587) 
+Neues Segment ab: 431, 588
+ -->(431,588) 
+Neues Segment ab: 431, 589
+ -->(431,589) 
+Neues Segment ab: 431, 590
+ -->(431,590) 
+Neues Segment ab: 431, 591
+ -->(431,591) 
+Neues Segment ab: 431, 592
+ -->(431,592) 
+Neues Segment ab: 431, 593
+ -->(431,593) 
+Neues Segment ab: 431, 594
+ -->(431,594) 
+Neues Segment ab: 431, 595
+ -->(431,595) 
+Neues Segment ab: 431, 596
+ -->(431,596) 
+Neues Segment ab: 431, 597
+ -->(431,597) 
+Neues Segment ab: 431, 598
+ -->(431,598) 
+Neues Segment ab: 431, 599
+ -->(431,599) 
+Neues Segment ab: 431, 600
+ -->(431,600) 
+Neues Segment ab: 431, 601
+ -->(431,601) 
+Neues Segment ab: 431, 602
+ -->(431,602) 
+Neues Segment ab: 431, 603
+ -->(431,603) 
+Neues Segment ab: 431, 604
+ -->(431,604) 
+Neues Segment ab: 431, 605
+ -->(431,605) 
+Neues Segment ab: 431, 606
+ -->(431,606) 
+Neues Segment ab: 431, 607
+ -->(431,607) 
+Neues Segment ab: 431, 608
+ -->(431,608) 
+Neues Segment ab: 431, 609
+ -->(431,609) 
+Neues Segment ab: 431, 610
+ -->(431,610) 
+Neues Segment ab: 431, 611
+ -->(431,611) 
+Neues Segment ab: 431, 612
+ -->(431,612) 
+Neues Segment ab: 431, 613
+ -->(431,613) 
+Neues Segment ab: 431, 614
+ -->(431,614) 
+Neues Segment ab: 431, 615
+ -->(431,615) 
+Neues Segment ab: 431, 616
+ -->(431,616) 
+Neues Segment ab: 431, 617
+ -->(431,617) 
+Neues Segment ab: 431, 618
+ -->(431,618) 
+Neues Segment ab: 431, 619
+ -->(431,619) 
+Neues Segment ab: 431, 620
+ -->(431,620) 
+Neues Segment ab: 431, 621
+ -->(431,621) 
+Neues Segment ab: 431, 622
+ -->(431,622) 
+Neues Segment ab: 431, 623
+ -->(431,623) 
+Neues Segment ab: 431, 624
+ -->(431,624) 
+Neues Segment ab: 431, 625
+ -->(431,625) 
+Neues Segment ab: 431, 626
+ -->(431,626) 
+Neues Segment ab: 431, 627
+ -->(431,627) 
+Neues Segment ab: 431, 628
+ -->(431,628) 
+Neues Segment ab: 431, 629
+ -->(431,629) 
+Neues Segment ab: 431, 630
+ -->(431,630) 
+Neues Segment ab: 431, 631
+ -->(431,631) 
+Neues Segment ab: 431, 632
+ -->(431,632) 
+Neues Segment ab: 431, 633
+ -->(431,633) 
+Neues Segment ab: 431, 634
+ -->(431,634) 
+Neues Segment ab: 431, 635
+ -->(431,635) 
+Neues Segment ab: 431, 636
+ -->(431,636) 
+Neues Segment ab: 431, 637
+ -->(431,637) 
+Neues Segment ab: 431, 638
+ -->(431,638) 
+Neues Segment ab: 431, 639
+ -->(431,639) 
+Neues Segment ab: 431, 640
+ -->(431,640) 
+Neues Segment ab: 431, 641
+ -->(431,641) 
+Neues Segment ab: 431, 642
+ -->(431,642) 
+Neues Segment ab: 431, 643
+ -->(431,643) 
+Neues Segment ab: 431, 644
+ -->(431,644) 
+Neues Segment ab: 431, 645
+ -->(431,645) 
+Neues Segment ab: 431, 646
+ -->(431,646) 
+Neues Segment ab: 431, 647
+ -->(431,647) 
+Neues Segment ab: 431, 648
+ -->(431,648) 
+Neues Segment ab: 431, 649
+ -->(431,649) 
+Neues Segment ab: 431, 650
+ -->(431,650) 
+Neues Segment ab: 431, 651
+ -->(431,651) 
+Neues Segment ab: 431, 652
+ -->(431,652) 
+Neues Segment ab: 431, 653
+ -->(431,653) 
+Neues Segment ab: 431, 654
+ -->(431,654) 
+Neues Segment ab: 431, 655
+ -->(431,655) 
+Neues Segment ab: 431, 656
+ -->(431,656) 
+Neues Segment ab: 431, 657
+ -->(431,657) 
+Neues Segment ab: 431, 658
+ -->(431,658) 
+Neues Segment ab: 431, 659
+ -->(431,659) 
+Neues Segment ab: 431, 660
+ -->(431,660) 
+Neues Segment ab: 431, 661
+ -->(431,661) 
+Neues Segment ab: 431, 662
+ -->(431,662) 
+Neues Segment ab: 431, 663
+ -->(431,663) 
+Neues Segment ab: 431, 664
+ -->(431,664) 
+Neues Segment ab: 431, 665
+ -->(431,665) 
+Neues Segment ab: 431, 666
+ -->(431,666) 
+Neues Segment ab: 431, 667
+ -->(431,667) 
+Neues Segment ab: 431, 668
+ -->(431,668) 
+Neues Segment ab: 431, 669
+ -->(431,669) 
+Neues Segment ab: 431, 670
+ -->(431,670) 
+Neues Segment ab: 431, 671
+ -->(431,671) 
+Neues Segment ab: 431, 672
+ -->(431,672) 
+Neues Segment ab: 431, 673
+ -->(431,673) 
+Neues Segment ab: 431, 674
+ -->(431,674) 
+Neues Segment ab: 431, 675
+ -->(431,675) 
+Neues Segment ab: 431, 676
+ -->(431,676) 
+Neues Segment ab: 431, 677
+ -->(431,677) 
+Neues Segment ab: 431, 678
+ -->(431,678) 
+Neues Segment ab: 431, 679
+ -->(431,679) 
+Neues Segment ab: 431, 680
+ -->(431,680) 
+Neues Segment ab: 431, 681
+ -->(431,681) 
+Neues Segment ab: 431, 682
+ -->(431,682) 
+Neues Segment ab: 431, 683
+ -->(431,683) 
+Neues Segment ab: 431, 684
+ -->(431,684) 
+Neues Segment ab: 431, 685
+ -->(431,685) 
+Neues Segment ab: 431, 686
+ -->(431,686) 
+Neues Segment ab: 431, 687
+ -->(431,687) 
+Neues Segment ab: 431, 688
+ -->(431,688) 
+Neues Segment ab: 431, 689
+ -->(431,689) 
+Neues Segment ab: 431, 690
+ -->(431,690) 
+Neues Segment ab: 431, 691
+ -->(431,691) 
+Neues Segment ab: 431, 692
+ -->(431,692) 
+Neues Segment ab: 431, 693
+ -->(431,693) 
+Neues Segment ab: 431, 694
+ -->(431,694) 
+Neues Segment ab: 431, 695
+ -->(431,695) 
+Neues Segment ab: 431, 696
+ -->(431,696) 
+Neues Segment ab: 431, 697
+ -->(431,697) 
+Neues Segment ab: 431, 698
+ -->(431,698) 
+Neues Segment ab: 431, 699
+ -->(431,699) 
+Neues Segment ab: 431, 700
+ -->(431,700) 
+Neues Segment ab: 431, 701
+ -->(431,701) 
+Neues Segment ab: 431, 702
+ -->(431,702) 
+Neues Segment ab: 431, 703
+ -->(431,703) 
+Neues Segment ab: 431, 704
+ -->(431,704) 
+Neues Segment ab: 431, 705
+ -->(431,705) 
+Neues Segment ab: 431, 706
+ -->(431,706) 
+Neues Segment ab: 431, 707
+ -->(431,707) 
+Neues Segment ab: 431, 708
+ -->(431,708) 
+Neues Segment ab: 431, 709
+ -->(431,709) 
+Neues Segment ab: 431, 710
+ -->(431,710) 
+Neues Segment ab: 431, 711
+ -->(431,711) 
+Neues Segment ab: 431, 712
+ -->(431,712) 
+Neues Segment ab: 431, 713
+ -->(431,713) 
+Neues Segment ab: 431, 714
+ -->(431,714) 
+Neues Segment ab: 431, 715
+ -->(431,715) 
+Neues Segment ab: 431, 716
+ -->(431,716) 
+Neues Segment ab: 431, 717
+ -->(431,717) 
+Neues Segment ab: 431, 718
+ -->(431,718) 
+Neues Segment ab: 431, 719
+ -->(431,719) 
+Neues Segment ab: 431, 720
+ -->(431,720) 
+Neues Segment ab: 431, 721
+ -->(431,721) 
+Neues Segment ab: 431, 722
+ -->(431,722) 
+Neues Segment ab: 431, 723
+ -->(431,723) 
+Neues Segment ab: 431, 724
+ -->(431,724) 
+Neues Segment ab: 431, 725
+ -->(431,725) 
+Neues Segment ab: 431, 726
+ -->(431,726) 
+Neues Segment ab: 431, 727
+ -->(431,727) 
+Neues Segment ab: 431, 728
+ -->(431,728) 
+Neues Segment ab: 431, 729
+ -->(431,729) 
+Neues Segment ab: 431, 730
+ -->(431,730) 
+Neues Segment ab: 431, 731
+ -->(431,731) 
+Neues Segment ab: 431, 732
+ -->(431,732) 
+Neues Segment ab: 431, 733
+ -->(431,733) 
+Neues Segment ab: 431, 734
+ -->(431,734) 
+Neues Segment ab: 431, 735
+ -->(431,735) 
+Neues Segment ab: 431, 736
+ -->(431,736) 
+Neues Segment ab: 431, 737
+ -->(431,737) 
+Neues Segment ab: 431, 738
+ -->(431,738) 
+Neues Segment ab: 431, 739
+ -->(431,739) 
+Neues Segment ab: 431, 740
+ -->(431,740) 
+Neues Segment ab: 431, 741
+ -->(431,741) 
+Neues Segment ab: 431, 742
+ -->(431,742) 
+Neues Segment ab: 431, 743
+ -->(431,743) 
+Neues Segment ab: 431, 744
+ -->(431,744) 
+Neues Segment ab: 431, 745
+ -->(431,745) 
+Neues Segment ab: 431, 746
+ -->(431,746) 
+Neues Segment ab: 431, 747
+ -->(431,747) 
+Neues Segment ab: 431, 748
+ -->(431,748) 
+Neues Segment ab: 431, 749
+ -->(431,749) 
+Neues Segment ab: 431, 750
+ -->(431,750) 
+Neues Segment ab: 431, 751
+ -->(431,751) 
+Neues Segment ab: 431, 752
+ -->(431,752) 
+Neues Segment ab: 431, 753
+ -->(431,753) 
+Neues Segment ab: 431, 754
+ -->(431,754) 
+Neues Segment ab: 431, 755
+ -->(431,755) 
+Neues Segment ab: 431, 756
+ -->(431,756) 
+Neues Segment ab: 431, 757
+ -->(431,757) 
+Neues Segment ab: 431, 758
+ -->(431,758) 
+Neues Segment ab: 431, 759
+ -->(431,759) 
+Neues Segment ab: 431, 760
+ -->(431,760) 
+Neues Segment ab: 431, 761
+ -->(431,761) 
+Neues Segment ab: 431, 762
+ -->(431,762) 
+Neues Segment ab: 431, 763
+ -->(431,763) 
+Neues Segment ab: 431, 764
+ -->(431,764) 
+Neues Segment ab: 431, 765
+ -->(431,765) 
+Neues Segment ab: 431, 766
+ -->(431,766) 
+Neues Segment ab: 431, 767
+ -->(431,767) 
+Neues Segment ab: 431, 768
+ -->(431,768) 
+Neues Segment ab: 431, 769
+ -->(431,769) 
+Neues Segment ab: 431, 770
+ -->(431,770) 
+Neues Segment ab: 431, 771
+ -->(431,771) 
+Neues Segment ab: 431, 772
+ -->(431,772) 
+Neues Segment ab: 431, 773
+ -->(431,773) 
+Neues Segment ab: 431, 774
+ -->(431,774) 
+Neues Segment ab: 431, 775
+ -->(431,775) 
+Neues Segment ab: 431, 776
+ -->(431,776) 
+Neues Segment ab: 431, 777
+ -->(431,777) 
+Neues Segment ab: 431, 778
+ -->(431,778) 
+Neues Segment ab: 431, 779
+ -->(431,779) 
+Neues Segment ab: 431, 780
+ -->(431,780) 
+Neues Segment ab: 431, 781
+ -->(431,781) 
+Neues Segment ab: 431, 782
+ -->(431,782) 
+Neues Segment ab: 431, 783
+ -->(431,783) 
+Neues Segment ab: 431, 784
+ -->(431,784) 
+Neues Segment ab: 431, 785
+ -->(431,785) 
+Neues Segment ab: 431, 786
+ -->(431,786) 
+Neues Segment ab: 431, 787
+ -->(431,787) 
+Neues Segment ab: 431, 788
+ -->(431,788) 
+Neues Segment ab: 431, 789
+ -->(431,789) 
+Neues Segment ab: 431, 790
+ -->(431,790) 
+Neues Segment ab: 431, 791
+ -->(431,791) 
+Neues Segment ab: 431, 792
+ -->(431,792) 
+Neues Segment ab: 431, 793
+ -->(431,793) 
+Neues Segment ab: 431, 794
+ -->(431,794) 
+Neues Segment ab: 431, 795
+ -->(431,795) 
+Neues Segment ab: 431, 796
+ -->(431,796) 
+Neues Segment ab: 431, 797
+ -->(431,797) 
+Neues Segment ab: 431, 798
+ -->(431,798) 
+Neues Segment ab: 431, 799
+ -->(431,799) 
+Neues Segment ab: 431, 800
+ -->(431,800) 
+Neues Segment ab: 431, 801
+ -->(431,801) 
+Neues Segment ab: 431, 802
+ -->(431,802) 
+Neues Segment ab: 431, 803
+ -->(431,803) 
+Neues Segment ab: 431, 804
+ -->(431,804) 
+Neues Segment ab: 431, 805
+ -->(431,805) 
+Neues Segment ab: 431, 806
+ -->(431,806) 
+Neues Segment ab: 431, 807
+ -->(431,807) 
+Neues Segment ab: 431, 808
+ -->(431,808) 
+Neues Segment ab: 431, 809
+ -->(431,809) 
+Neues Segment ab: 431, 810
+ -->(431,810) 
+Neues Segment ab: 431, 811
+ -->(431,811) 
+Neues Segment ab: 431, 812
+ -->(431,812) 
+Neues Segment ab: 431, 813
+ -->(431,813) 
+Neues Segment ab: 431, 814
+ -->(431,814) 
+Neues Segment ab: 431, 815
+ -->(431,815) 
+Neues Segment ab: 431, 816
+ -->(431,816) 
+Neues Segment ab: 431, 817
+ -->(431,817) 
+Neues Segment ab: 431, 818
+ -->(431,818) 
+Neues Segment ab: 431, 819
+ -->(431,819) 
+Neues Segment ab: 431, 820
+ -->(431,820) 
+Neues Segment ab: 431, 821
+ -->(431,821) 
+Neues Segment ab: 431, 822
+ -->(431,822) 
+Neues Segment ab: 431, 823
+ -->(431,823) 
+Neues Segment ab: 431, 824
+ -->(431,824) 
+Neues Segment ab: 431, 825
+ -->(431,825) 
+Neues Segment ab: 431, 826
+ -->(431,826) 
+Neues Segment ab: 431, 827
+ -->(431,827) 
+Neues Segment ab: 431, 828
+ -->(431,828) 
+Neues Segment ab: 431, 829
+ -->(431,829) 
+Neues Segment ab: 431, 830
+ -->(431,830) 
+Neues Segment ab: 431, 831
+ -->(431,831) 
+Neues Segment ab: 431, 832
+ -->(431,832) 
+Neues Segment ab: 431, 833
+ -->(431,833) 
+Neues Segment ab: 431, 834
+ -->(431,834) 
+Neues Segment ab: 431, 835
+ -->(431,835) 
+Neues Segment ab: 431, 836
+ -->(431,836) 
+Neues Segment ab: 431, 837
+ -->(431,837) 
+Neues Segment ab: 431, 838
+ -->(431,838) 
+Neues Segment ab: 431, 839
+ -->(431,839) 
+Neues Segment ab: 431, 840
+ -->(431,840) 
+Neues Segment ab: 431, 841
+ -->(431,841) 
+Neues Segment ab: 431, 842
+ -->(431,842) 
+Neues Segment ab: 431, 843
+ -->(431,843) 
+Neues Segment ab: 431, 844
+ -->(431,844) 
+Neues Segment ab: 431, 845
+ -->(431,845) 
+Neues Segment ab: 431, 846
+ -->(431,846) 
+Neues Segment ab: 431, 847
+ -->(431,847) 
+Neues Segment ab: 431, 848
+ -->(431,848) 
+Neues Segment ab: 431, 849
+ -->(431,849) 
+Neues Segment ab: 431, 850
+ -->(431,850) 
+Neues Segment ab: 431, 851
+ -->(431,851) 
+Neues Segment ab: 431, 852
+ -->(431,852) 
+Neues Segment ab: 431, 853
+ -->(431,853) 
+Neues Segment ab: 431, 854
+ -->(431,854) 
+Neues Segment ab: 431, 855
+ -->(431,855) 
+Neues Segment ab: 431, 856
+ -->(431,856) 
+Neues Segment ab: 431, 857
+ -->(431,857) 
+Neues Segment ab: 431, 858
+ -->(431,858) 
+Neues Segment ab: 431, 859
+ -->(431,859) 
+Neues Segment ab: 431, 860
+ -->(431,860) 
+Neues Segment ab: 431, 861
+ -->(431,861) 
+Neues Segment ab: 431, 862
+ -->(431,862) 
+Neues Segment ab: 431, 863
+ -->(431,863) 
+Neues Segment ab: 431, 864
+ -->(431,864) 
+Neues Segment ab: 431, 865
+ -->(431,865) 
+Neues Segment ab: 431, 866
+ -->(431,866) 
+Neues Segment ab: 431, 867
+ -->(431,867) 
+Neues Segment ab: 431, 868
+ -->(431,868) 
+Neues Segment ab: 431, 869
+ -->(431,869) 
+Neues Segment ab: 431, 870
+ -->(431,870) 
+Neues Segment ab: 431, 871
+ -->(431,871) 
+Neues Segment ab: 431, 872
+ -->(431,872) 
+Neues Segment ab: 431, 873
+ -->(431,873) 
+Neues Segment ab: 431, 874
+ -->(431,874) 
+Neues Segment ab: 431, 875
+ -->(431,875) 
+Neues Segment ab: 431, 876
+ -->(431,876) 
+Neues Segment ab: 431, 877
+ -->(431,877) 
+Neues Segment ab: 431, 878
+ -->(431,878) 
+Neues Segment ab: 431, 879
+ -->(431,879) 
+Neues Segment ab: 431, 880
+ -->(431,880) 
+Neues Segment ab: 431, 881
+ -->(431,881) 
+Neues Segment ab: 431, 882
+ -->(431,882) 
+Neues Segment ab: 431, 883
+ -->(431,883) 
+Neues Segment ab: 431, 884
+ -->(431,884) 
+Neues Segment ab: 431, 885
+ -->(431,885) 
+Neues Segment ab: 431, 886
+ -->(431,886) 
+Neues Segment ab: 431, 887
+ -->(431,887) 
+Neues Segment ab: 431, 888
+ -->(431,888) 
+Neues Segment ab: 431, 889
+ -->(431,889) 
+Neues Segment ab: 431, 890
+ -->(431,890) 
+Neues Segment ab: 431, 891
+ -->(431,891) 
+Neues Segment ab: 431, 892
+ -->(431,892) 
+Neues Segment ab: 431, 893
+ -->(431,893) 
+Neues Segment ab: 431, 894
+ -->(431,894) 
+Neues Segment ab: 431, 895
+ -->(431,895) 
+Neues Segment ab: 431, 896
+ -->(431,896) 
+Neues Segment ab: 431, 897
+ -->(431,897) 
+Neues Segment ab: 431, 898
+ -->(431,898) 
+Neues Segment ab: 431, 899
+ -->(431,899) 
+Neues Segment ab: 431, 900
+ -->(431,900) 
+Neues Segment ab: 431, 901
+ -->(431,901) 
+Neues Segment ab: 431, 902
+ -->(431,902) 
+Neues Segment ab: 431, 903
+ -->(431,903) 
+Neues Segment ab: 431, 904
+ -->(431,904) 
+Neues Segment ab: 431, 905
+ -->(431,905) 
+Neues Segment ab: 431, 906
+ -->(431,906) 
+Neues Segment ab: 431, 907
+ -->(431,907) 
+Neues Segment ab: 431, 908
+ -->(431,908) 
+Neues Segment ab: 431, 909
+ -->(431,909) 
+Neues Segment ab: 431, 910
+ -->(431,910) 
+Neues Segment ab: 431, 911
+ -->(431,911) 
+Neues Segment ab: 431, 912
+ -->(431,912) 
+Neues Segment ab: 431, 913
+ -->(431,913) 
+Neues Segment ab: 431, 914
+ -->(431,914) 
+Neues Segment ab: 431, 915
+ -->(431,915) 
+Neues Segment ab: 431, 916
+ -->(431,916) 
+Neues Segment ab: 431, 917
+ -->(431,917) 
+Neues Segment ab: 431, 918
+ -->(431,918) 
+Neues Segment ab: 431, 919
+ -->(431,919) 
+Neues Segment ab: 431, 920
+ -->(431,920) 
+Neues Segment ab: 431, 921
+ -->(431,921) 
+Neues Segment ab: 431, 922
+ -->(431,922) 
+Neues Segment ab: 431, 923
+ -->(431,923) 
+Neues Segment ab: 431, 924
+ -->(431,924) 
+Neues Segment ab: 431, 925
+ -->(431,925) 
+Neues Segment ab: 431, 926
+ -->(431,926) 
+Neues Segment ab: 431, 927
+ -->(431,927) 
+Neues Segment ab: 431, 928
+ -->(431,928) 
+Neues Segment ab: 431, 929
+ -->(431,929) 
+Neues Segment ab: 431, 930
+ -->(431,930) 
+Neues Segment ab: 431, 931
+ -->(431,931) 
+Neues Segment ab: 431, 932
+ -->(431,932) 
+Neues Segment ab: 431, 933
+ -->(431,933) 
+Neues Segment ab: 431, 934
+ -->(431,934) 
+Neues Segment ab: 431, 935
+ -->(431,935) 
+Neues Segment ab: 431, 936
+ -->(431,936) 
+Neues Segment ab: 431, 937
+ -->(431,937) 
+Neues Segment ab: 431, 938
+ -->(431,938) 
+Neues Segment ab: 431, 939
+ -->(431,939) 
+Neues Segment ab: 431, 940
+ -->(431,940) 
+Neues Segment ab: 431, 941
+ -->(431,941) 
+Neues Segment ab: 431, 942
+ -->(431,942) 
+Neues Segment ab: 431, 943
+ -->(431,943) 
+Neues Segment ab: 431, 944
+ -->(431,944) 
+Neues Segment ab: 431, 945
+ -->(431,945) 
+Neues Segment ab: 431, 946
+ -->(431,946) 
+Neues Segment ab: 431, 947
+ -->(431,947) 
+Neues Segment ab: 431, 948
+ -->(431,948) 
+Neues Segment ab: 431, 949
+ -->(431,949) 
+Neues Segment ab: 431, 950
+ -->(431,950) 
+Neues Segment ab: 431, 951
+ -->(431,951) 
+Neues Segment ab: 431, 952
+ -->(431,952) 
+Neues Segment ab: 431, 953
+ -->(431,953) 
+Neues Segment ab: 431, 954
+ -->(431,954) 
+Neues Segment ab: 431, 955
+ -->(431,955) 
+Neues Segment ab: 431, 956
+ -->(431,956) 
+Neues Segment ab: 431, 957
+ -->(431,957) 
+Neues Segment ab: 431, 958
+ -->(431,958) 
+Neues Segment ab: 431, 959
+ -->(431,959) 
+Neues Segment ab: 431, 960
+ -->(431,960) 
+Neues Segment ab: 577, 655
+ -->(577,655) 
+Neues Segment ab: 577, 656
+ -->(577,656) 
+Neues Segment ab: 577, 657
+ -->(577,657) 
+Neues Segment ab: 577, 658
+ -->(577,658) 
+Neues Segment ab: 577, 659
+ -->(577,659) 
+Neues Segment ab: 577, 660
+ -->(577,660) 
+Neues Segment ab: 577, 661
+ -->(577,661) 
+Neues Segment ab: 577, 662
+ -->(577,662) 
+Neues Segment ab: 577, 663
+ -->(577,663) 
+Neues Segment ab: 577, 664
+ -->(577,664) 
+Neues Segment ab: 577, 665
+ -->(577,665) 
+Neues Segment ab: 577, 666
+ -->(577,666) 
+Neues Segment ab: 577, 667
+ -->(577,667) 
+Neues Segment ab: 577, 668
+ -->(577,668) 
+Neues Segment ab: 577, 669
+ -->(577,669) 
+Neues Segment ab: 577, 670
+ -->(577,670) 
+Neues Segment ab: 577, 671
+ -->(577,671) 
+Neues Segment ab: 577, 672
+ -->(577,672) 
+Neues Segment ab: 577, 673
+ -->(577,673) 
+Neues Segment ab: 577, 674
+ -->(577,674) 
+Neues Segment ab: 577, 675
+ -->(577,675) 
+Neues Segment ab: 577, 676
+ -->(577,676) 
+Neues Segment ab: 577, 677
+ -->(577,677) 
+Neues Segment ab: 577, 678
+ -->(577,678) 
+Neues Segment ab: 577, 679
+ -->(577,679) 
+Neues Segment ab: 577, 680
+ -->(577,680) 
+Neues Segment ab: 577, 681
+ -->(577,681) 
+Neues Segment ab: 577, 682
+ -->(577,682) 
+Neues Segment ab: 577, 683
+ -->(577,683) 
+Neues Segment ab: 577, 684
+ -->(577,684) 
+Neues Segment ab: 577, 685
+ -->(577,685) 
+Neues Segment ab: 577, 686
+ -->(577,686) 
+Neues Segment ab: 577, 687
+ -->(577,687) 
+Neues Segment ab: 577, 688
+ -->(577,688) 
+Neues Segment ab: 577, 689
+ -->(577,689) 
+Neues Segment ab: 577, 690
+ -->(577,690) 
+Neues Segment ab: 577, 691
+ -->(577,691) 
+Neues Segment ab: 577, 692
+ -->(577,692) 
+Neues Segment ab: 577, 693
+ -->(577,693) 
+Neues Segment ab: 577, 694
+ -->(577,694) 
+Neues Segment ab: 577, 695
+ -->(577,695) 
+Neues Segment ab: 577, 696
+ -->(577,696) 
+Neues Segment ab: 577, 697
+ -->(577,697) 
+Neues Segment ab: 577, 698
+ -->(577,698) 
+Neues Segment ab: 577, 699
+ -->(577,699) 
+Neues Segment ab: 577, 700
+ -->(577,700) 
+Neues Segment ab: 577, 701
+ -->(577,701) 
+Neues Segment ab: 577, 702
+ -->(577,702) 
+Neues Segment ab: 577, 703
+ -->(577,703) 
+Neues Segment ab: 577, 704
+ -->(577,704) 
+Neues Segment ab: 577, 705
+ -->(577,705) 
+Neues Segment ab: 577, 706
+ -->(577,706) 
+Neues Segment ab: 577, 707
+ -->(577,707) 
+Neues Segment ab: 577, 708
+ -->(577,708) 
+Neues Segment ab: 577, 709
+ -->(577,709) 
+Neues Segment ab: 577, 710
+ -->(577,710) 
+Neues Segment ab: 577, 711
+ -->(577,711) 
+Neues Segment ab: 577, 712
+ -->(577,712) 
+Neues Segment ab: 577, 713
+ -->(577,713) 
+Neues Segment ab: 577, 714
+ -->(577,714) 
+Neues Segment ab: 577, 715
+ -->(577,715) 
+Neues Segment ab: 577, 716
+ -->(577,716) 
+Neues Segment ab: 577, 717
+ -->(577,717) 
+Neues Segment ab: 577, 718
+ -->(577,718) 
+Neues Segment ab: 577, 719
+ -->(577,719) 
+Neues Segment ab: 577, 720
+ -->(577,720) 
+Neues Segment ab: 577, 721
+ -->(577,721) 
+Neues Segment ab: 577, 722
+ -->(577,722) 
+Neues Segment ab: 577, 723
+ -->(577,723) 
+Neues Segment ab: 577, 724
+ -->(577,724) 
+Neues Segment ab: 577, 725
+ -->(577,725) 
+Neues Segment ab: 577, 726
+ -->(577,726) 
+Neues Segment ab: 577, 727
+ -->(577,727) 
+Neues Segment ab: 577, 728
+ -->(577,728) 
+Neues Segment ab: 577, 729
+ -->(577,729) 
+Neues Segment ab: 577, 730
+ -->(577,730) 
+Neues Segment ab: 577, 731
+ -->(577,731) 
+Neues Segment ab: 577, 732
+ -->(577,732) 
+Neues Segment ab: 577, 733
+ -->(577,733) 
+Neues Segment ab: 577, 734
+ -->(577,734) 
+Neues Segment ab: 577, 735
+ -->(577,735) 
+Neues Segment ab: 577, 736
+ -->(577,736) 
+Neues Segment ab: 577, 737
+ -->(577,737) 
+Neues Segment ab: 577, 738
+ -->(577,738) 
+Neues Segment ab: 577, 739
+ -->(577,739) 
+Neues Segment ab: 577, 740
+ -->(577,740) 
+Neues Segment ab: 577, 741
+ -->(577,741) 
+Neues Segment ab: 577, 742
+ -->(577,742) 
+Neues Segment ab: 577, 743
+ -->(577,743) 
+Neues Segment ab: 577, 744
+ -->(577,744) 
+Neues Segment ab: 577, 745
+ -->(577,745) 
+Neues Segment ab: 577, 746
+ -->(577,746) 
+Neues Segment ab: 577, 747
+ -->(577,747) 
+Neues Segment ab: 577, 748
+ -->(577,748) 
+Neues Segment ab: 577, 749
+ -->(577,749) 
+Neues Segment ab: 577, 750
+ -->(577,750) 
+Neues Segment ab: 577, 751
+ -->(577,751) 
+Neues Segment ab: 577, 752
+ -->(577,752) 
+Neues Segment ab: 577, 753
+ -->(577,753) 
+Neues Segment ab: 577, 754
+ -->(577,754) 
+Neues Segment ab: 577, 755
+ -->(577,755) 
+Neues Segment ab: 577, 756
+ -->(577,756) 
+Neues Segment ab: 577, 757
+ -->(577,757) 
+Neues Segment ab: 577, 758
+ -->(577,758) 
+Neues Segment ab: 577, 759
+ -->(577,759) 
+Neues Segment ab: 577, 760
+ -->(577,760) 
+Neues Segment ab: 577, 761
+ -->(577,761) 
+Neues Segment ab: 577, 762
+ -->(577,762) 
+Neues Segment ab: 577, 763
+ -->(577,763) 
+Neues Segment ab: 577, 764
+ -->(577,764) 
+Neues Segment ab: 577, 765
+ -->(577,765) 
+Neues Segment ab: 577, 766
+ -->(577,766) 
+Neues Segment ab: 577, 767
+ -->(577,767) 
+Neues Segment ab: 577, 768
+ -->(577,768) 
+Neues Segment ab: 577, 769
+ -->(577,769) 
+Neues Segment ab: 577, 770
+ -->(577,770) 
+Neues Segment ab: 577, 771
+ -->(577,771) 
+Neues Segment ab: 577, 772
+ -->(577,772) 
+Neues Segment ab: 577, 773
+ -->(577,773) 
+Neues Segment ab: 577, 774
+ -->(577,774) 
+Neues Segment ab: 577, 775
+ -->(577,775) 
+Neues Segment ab: 577, 776
+ -->(577,776) 
+Neues Segment ab: 577, 777
+ -->(577,777) 
+Neues Segment ab: 577, 778
+ -->(577,778) 
+Neues Segment ab: 577, 779
+ -->(577,779) 
+Neues Segment ab: 577, 780
+ -->(577,780) 
+Neues Segment ab: 577, 781
+ -->(577,781) 
+Neues Segment ab: 577, 782
+ -->(577,782) 
+Neues Segment ab: 577, 783
+ -->(577,783) 
+Neues Segment ab: 577, 784
+ -->(577,784) 
+Neues Segment ab: 577, 785
+ -->(577,785) 
+Neues Segment ab: 577, 786
+ -->(577,786) 
+Neues Segment ab: 577, 787
+ -->(577,787) 
+Neues Segment ab: 577, 788
+ -->(577,788) 
+Neues Segment ab: 577, 789
+ -->(577,789) 
+Neues Segment ab: 577, 790
+ -->(577,790) 
+Neues Segment ab: 577, 791
+ -->(577,791) 
+Neues Segment ab: 577, 792
+ -->(577,792) 
+Neues Segment ab: 577, 793
+ -->(577,793) 
+Neues Segment ab: 577, 794
+ -->(577,794) 
+Neues Segment ab: 577, 795
+ -->(577,795) 
+Neues Segment ab: 577, 796
+ -->(577,796) 
+Neues Segment ab: 577, 797
+ -->(577,797) 
+Neues Segment ab: 577, 798
+ -->(577,798) 
+Neues Segment ab: 577, 799
+ -->(577,799) 
+Neues Segment ab: 577, 800
+ -->(577,800) 
+Neues Segment ab: 577, 801
+ -->(577,801) 
+Neues Segment ab: 577, 806
+ -->(577,806) 
+Neues Segment ab: 577, 807
+ -->(577,807) 
+Neues Segment ab: 577, 808
+ -->(577,808) 
+Neues Segment ab: 577, 809
+ -->(577,809) 
+Neues Segment ab: 577, 810
+ -->(577,810) 
+Neues Segment ab: 577, 811
+ -->(577,811) 
+Neues Segment ab: 577, 812
+ -->(577,812) 
+Neues Segment ab: 577, 813
+ -->(577,813) 
+Neues Segment ab: 577, 814
+ -->(577,814) 
+Neues Segment ab: 577, 815
+ -->(577,815) 
+Neues Segment ab: 577, 816
+ -->(577,816) 
+Neues Segment ab: 577, 817
+ -->(577,817) 
+Neues Segment ab: 577, 818
+ -->(577,818) 
+Neues Segment ab: 577, 819
+ -->(577,819) 
+Neues Segment ab: 577, 820
+ -->(577,820) 
+Neues Segment ab: 577, 821
+ -->(577,821) 
+Neues Segment ab: 577, 822
+ -->(577,822) 
+Neues Segment ab: 577, 823
+ -->(577,823) 
+Neues Segment ab: 577, 824
+ -->(577,824) 
+Neues Segment ab: 577, 825
+ -->(577,825) 
+Neues Segment ab: 577, 826
+ -->(577,826) 
+Neues Segment ab: 577, 827
+ -->(577,827) 
+Neues Segment ab: 577, 828
+ -->(577,828) 
+Neues Segment ab: 577, 829
+ -->(577,829) 
+Neues Segment ab: 577, 830
+ -->(577,830) 
+Neues Segment ab: 577, 831
+ -->(577,831) 
+Neues Segment ab: 577, 832
+ -->(577,832) 
+Neues Segment ab: 577, 833
+ -->(577,833) 
+Neues Segment ab: 577, 834
+ -->(577,834) 
+Neues Segment ab: 577, 835
+ -->(577,835) 
+Neues Segment ab: 577, 836
+ -->(577,836) 
+Neues Segment ab: 577, 837
+ -->(577,837) 
+Neues Segment ab: 577, 838
+ -->(577,838) 
+Neues Segment ab: 577, 839
+ -->(577,839) 
+Neues Segment ab: 577, 840
+ -->(577,840) 
+Neues Segment ab: 577, 841
+ -->(577,841) 
+Neues Segment ab: 577, 842
+ -->(577,842) 
+Neues Segment ab: 577, 843
+ -->(577,843) 
+Neues Segment ab: 577, 844
+ -->(577,844) 
+Neues Segment ab: 577, 845
+ -->(577,845) 
+Neues Segment ab: 577, 846
+ -->(577,846) 
+Neues Segment ab: 577, 847
+ -->(577,847) 
+Neues Segment ab: 577, 848
+ -->(577,848) 
+Neues Segment ab: 577, 849
+ -->(577,849) 
+Neues Segment ab: 577, 850
+ -->(577,850) 
+Neues Segment ab: 577, 851
+ -->(577,851) 
+Neues Segment ab: 577, 852
+ -->(577,852) 
+Neues Segment ab: 577, 853
+ -->(577,853) 
+Neues Segment ab: 577, 854
+ -->(577,854) 
+Neues Segment ab: 577, 855
+ -->(577,855) 
+Neues Segment ab: 577, 856
+ -->(577,856) 
+Neues Segment ab: 577, 857
+ -->(577,857) 
+Neues Segment ab: 577, 858
+ -->(577,858) 
+Neues Segment ab: 577, 859
+ -->(577,859) 
+Neues Segment ab: 577, 860
+ -->(577,860) 
+Neues Segment ab: 577, 861
+ -->(577,861) 
+Neues Segment ab: 577, 862
+ -->(577,862) 
+Neues Segment ab: 577, 863
+ -->(577,863) 
+Neues Segment ab: 577, 864
+ -->(577,864) 
+Neues Segment ab: 577, 865
+ -->(577,865) 
+Neues Segment ab: 577, 866
+ -->(577,866) 
+Neues Segment ab: 577, 867
+ -->(577,867) 
+Neues Segment ab: 577, 868
+ -->(577,868) 
+Neues Segment ab: 577, 869
+ -->(577,869) 
+Neues Segment ab: 577, 870
+ -->(577,870) 
+Neues Segment ab: 577, 871
+ -->(577,871) 
+Neues Segment ab: 577, 872
+ -->(577,872) 
+Neues Segment ab: 577, 873
+ -->(577,873) 
+Neues Segment ab: 577, 874
+ -->(577,874) 
+Neues Segment ab: 577, 875
+ -->(577,875) 
+Neues Segment ab: 577, 876
+ -->(577,876) 
+Neues Segment ab: 577, 877
+ -->(577,877) 
+Neues Segment ab: 577, 878
+ -->(577,878) 
+Neues Segment ab: 577, 879
+ -->(577,879) 
+Neues Segment ab: 577, 880
+ -->(577,880) 
+Neues Segment ab: 577, 881
+ -->(577,881) 
+Neues Segment ab: 577, 882
+ -->(577,882) 
+Neues Segment ab: 577, 883
+ -->(577,883) 
+Neues Segment ab: 577, 884
+ -->(577,884) 
+Neues Segment ab: 577, 885
+ -->(577,885) 
+Neues Segment ab: 577, 886
+ -->(577,886) 
+Neues Segment ab: 577, 887
+ -->(577,887) 
+Neues Segment ab: 577, 888
+ -->(577,888) 
+Neues Segment ab: 577, 889
+ -->(577,889) 
+Neues Segment ab: 577, 890
+ -->(577,890) 
+Neues Segment ab: 577, 891
+ -->(577,891) 
+Neues Segment ab: 577, 892
+ -->(577,892) 
+Neues Segment ab: 577, 893
+ -->(577,893) 
+Neues Segment ab: 577, 894
+ -->(577,894) 
+Neues Segment ab: 577, 895
+ -->(577,895) 
+Neues Segment ab: 577, 896
+ -->(577,896) 
+Neues Segment ab: 577, 897
+ -->(577,897) 
+Neues Segment ab: 577, 898
+ -->(577,898) 
+Neues Segment ab: 577, 899
+ -->(577,899) 
+Neues Segment ab: 577, 900
+ -->(577,900) 
+Neues Segment ab: 577, 901
+ -->(577,901) 
+Neues Segment ab: 577, 902
+ -->(577,902) 
+Neues Segment ab: 577, 903
+ -->(577,903) 
+Neues Segment ab: 577, 904
+ -->(577,904) 
+Neues Segment ab: 577, 905
+ -->(577,905) 
+Neues Segment ab: 577, 906
+ -->(577,906) 
+Neues Segment ab: 577, 907
+ -->(577,907) 
+Neues Segment ab: 577, 908
+ -->(577,908) 
+Neues Segment ab: 577, 909
+ -->(577,909) 
+Neues Segment ab: 577, 910
+ -->(577,910) 
+Neues Segment ab: 577, 911
+ -->(577,911) 
+Neues Segment ab: 577, 912
+ -->(577,912) 
+Neues Segment ab: 577, 913
+ -->(577,913) 
+Neues Segment ab: 577, 914
+ -->(577,914) 
+Neues Segment ab: 577, 915
+ -->(577,915) 
+Neues Segment ab: 577, 916
+ -->(577,916) 
+Neues Segment ab: 577, 917
+ -->(577,917) 
+Neues Segment ab: 577, 918
+ -->(577,918) 
+Neues Segment ab: 577, 919
+ -->(577,919) 
+Neues Segment ab: 577, 920
+ -->(577,920) 
+Neues Segment ab: 577, 921
+ -->(577,921) 
+Neues Segment ab: 577, 922
+ -->(577,922) 
+Neues Segment ab: 577, 923
+ -->(577,923) 
+Neues Segment ab: 577, 924
+ -->(577,924) 
+Neues Segment ab: 577, 925
+ -->(577,925) 
+Neues Segment ab: 577, 926
+ -->(577,926) 
+Neues Segment ab: 577, 927
+ -->(577,927) 
+Neues Segment ab: 577, 928
+ -->(577,928) 
+Neues Segment ab: 577, 929
+ -->(577,929) 
+Neues Segment ab: 577, 930
+ -->(577,930) 
+Neues Segment ab: 577, 931
+ -->(577,931) 
+Neues Segment ab: 577, 932
+ -->(577,932) 
+Neues Segment ab: 577, 933
+ -->(577,933) 
+Neues Segment ab: 577, 934
+ -->(577,934) 
+Neues Segment ab: 577, 935
+ -->(577,935) 
+Neues Segment ab: 577, 936
+ -->(577,936) 
+Neues Segment ab: 577, 937
+ -->(577,937) 
+Neues Segment ab: 577, 938
+ -->(577,938) 
+Neues Segment ab: 577, 939
+ -->(577,939) 
+Neues Segment ab: 577, 940
+ -->(577,940) 
+Neues Segment ab: 577, 941
+ -->(577,941) 
+Neues Segment ab: 577, 942
+ -->(577,942) 
+Neues Segment ab: 577, 943
+ -->(577,943) 
+Neues Segment ab: 577, 944
+ -->(577,944) 
+Neues Segment ab: 577, 945
+ -->(577,945) 
+Neues Segment ab: 577, 946
+ -->(577,946) 
+Neues Segment ab: 577, 947
+ -->(577,947) 
+Neues Segment ab: 577, 948
+ -->(577,948) 
+Neues Segment ab: 577, 949
+ -->(577,949) 
+Neues Segment ab: 577, 950
+ -->(577,950) 
+Neues Segment ab: 577, 951
+ -->(577,951) 
+Neues Segment ab: 577, 952
+ -->(577,952) 
+Neues Segment ab: 577, 953
+ -->(577,953) 
+Neues Segment ab: 577, 954
+ -->(577,954) 
+Neues Segment ab: 577, 955
+ -->(577,955) 
+Neues Segment ab: 577, 956
+ -->(577,956) 
+Neues Segment ab: 577, 957
+ -->(577,957) 
+Neues Segment ab: 577, 958
+ -->(577,958) 
+Neues Segment ab: 577, 959
+ -->(577,959) 
+Neues Segment ab: 577, 960
+ -->(577,960) 
+Neues Segment ab: 577, 961
+ -->(577,961) 
+Neues Segment ab: 577, 962
+ -->(577,962) 
+Neues Segment ab: 577, 963
+ -->(577,963) 
+Neues Segment ab: 577, 964
+ -->(577,964) 
+Neues Segment ab: 577, 965
+ -->(577,965) 
+Neues Segment ab: 577, 966
+ -->(577,966) 
+Neues Segment ab: 577, 967
+ -->(577,967) 
+Neues Segment ab: 578, 655
+ -->(578,655) 
+Neues Segment ab: 578, 967
+ -->(578,967) 
+Neues Segment ab: 579, 655
+ -->(579,655) 
+Neues Segment ab: 579, 656
+ -->(579,656) 
+Neues Segment ab: 579, 657
+ -->(579,657) 
+Neues Segment ab: 579, 658
+ -->(579,658) 
+Neues Segment ab: 579, 659
+ -->(579,659) 
+Neues Segment ab: 579, 660
+ -->(579,660) 
+Neues Segment ab: 579, 661
+ -->(579,661) 
+Neues Segment ab: 579, 662
+ -->(579,662) 
+Neues Segment ab: 579, 663
+ -->(579,663) 
+Neues Segment ab: 579, 664
+ -->(579,664) 
+Neues Segment ab: 579, 665
+ -->(579,665) 
+Neues Segment ab: 579, 666
+ -->(579,666) 
+Neues Segment ab: 579, 667
+ -->(579,667) 
+Neues Segment ab: 579, 668
+ -->(579,668) 
+Neues Segment ab: 579, 669
+ -->(579,669) 
+Neues Segment ab: 579, 670
+ -->(579,670) 
+Neues Segment ab: 579, 671
+ -->(579,671) 
+Neues Segment ab: 579, 672
+ -->(579,672) 
+Neues Segment ab: 579, 673
+ -->(579,673) 
+Neues Segment ab: 579, 674
+ -->(579,674) 
+Neues Segment ab: 579, 675
+ -->(579,675) 
+Neues Segment ab: 579, 676
+ -->(579,676) 
+Neues Segment ab: 579, 677
+ -->(579,677) 
+Neues Segment ab: 579, 678
+ -->(579,678) 
+Neues Segment ab: 579, 679
+ -->(579,679) 
+Neues Segment ab: 579, 680
+ -->(579,680) 
+Neues Segment ab: 579, 681
+ -->(579,681) 
+Neues Segment ab: 579, 682
+ -->(579,682) 
+Neues Segment ab: 579, 683
+ -->(579,683) 
+Neues Segment ab: 579, 684
+ -->(579,684) 
+Neues Segment ab: 579, 685
+ -->(579,685) 
+Neues Segment ab: 579, 686
+ -->(579,686) 
+Neues Segment ab: 579, 687
+ -->(579,687) 
+Neues Segment ab: 579, 688
+ -->(579,688) 
+Neues Segment ab: 579, 689
+ -->(579,689) 
+Neues Segment ab: 579, 690
+ -->(579,690) 
+Neues Segment ab: 579, 691
+ -->(579,691) 
+Neues Segment ab: 579, 692
+ -->(579,692) 
+Neues Segment ab: 579, 693
+ -->(579,693) 
+Neues Segment ab: 579, 694
+ -->(579,694) 
+Neues Segment ab: 579, 695
+ -->(579,695) 
+Neues Segment ab: 579, 696
+ -->(579,696) 
+Neues Segment ab: 579, 697
+ -->(579,697) 
+Neues Segment ab: 579, 698
+ -->(579,698) 
+Neues Segment ab: 579, 699
+ -->(579,699) 
+Neues Segment ab: 579, 700
+ -->(579,700) 
+Neues Segment ab: 579, 701
+ -->(579,701) 
+Neues Segment ab: 579, 702
+ -->(579,702) 
+Neues Segment ab: 579, 703
+ -->(579,703) 
+Neues Segment ab: 579, 704
+ -->(579,704) 
+Neues Segment ab: 579, 705
+ -->(579,705) 
+Neues Segment ab: 579, 706
+ -->(579,706) 
+Neues Segment ab: 579, 707
+ -->(579,707) 
+Neues Segment ab: 579, 708
+ -->(579,708) 
+Neues Segment ab: 579, 709
+ -->(579,709) 
+Neues Segment ab: 579, 710
+ -->(579,710) 
+Neues Segment ab: 579, 711
+ -->(579,711) 
+Neues Segment ab: 579, 712
+ -->(579,712) 
+Neues Segment ab: 579, 713
+ -->(579,713) 
+Neues Segment ab: 579, 714
+ -->(579,714) 
+Neues Segment ab: 579, 715
+ -->(579,715) 
+Neues Segment ab: 579, 716
+ -->(579,716) 
+Neues Segment ab: 579, 717
+ -->(579,717) 
+Neues Segment ab: 579, 718
+ -->(579,718) 
+Neues Segment ab: 579, 719
+ -->(579,719) 
+Neues Segment ab: 579, 720
+ -->(579,720) 
+Neues Segment ab: 579, 721
+ -->(579,721) 
+Neues Segment ab: 579, 722
+ -->(579,722) 
+Neues Segment ab: 579, 723
+ -->(579,723) 
+Neues Segment ab: 579, 724
+ -->(579,724) 
+Neues Segment ab: 579, 725
+ -->(579,725) 
+Neues Segment ab: 579, 726
+ -->(579,726) 
+Neues Segment ab: 579, 727
+ -->(579,727) 
+Neues Segment ab: 579, 728
+ -->(579,728) 
+Neues Segment ab: 579, 729
+ -->(579,729) 
+Neues Segment ab: 579, 730
+ -->(579,730) 
+Neues Segment ab: 579, 731
+ -->(579,731) 
+Neues Segment ab: 579, 732
+ -->(579,732) 
+Neues Segment ab: 579, 733
+ -->(579,733) 
+Neues Segment ab: 579, 734
+ -->(579,734) 
+Neues Segment ab: 579, 735
+ -->(579,735) 
+Neues Segment ab: 579, 736
+ -->(579,736) 
+Neues Segment ab: 579, 737
+ -->(579,737) 
+Neues Segment ab: 579, 738
+ -->(579,738) 
+Neues Segment ab: 579, 739
+ -->(579,739) 
+Neues Segment ab: 579, 740
+ -->(579,740) 
+Neues Segment ab: 579, 741
+ -->(579,741) 
+Neues Segment ab: 579, 742
+ -->(579,742) 
+Neues Segment ab: 579, 743
+ -->(579,743) 
+Neues Segment ab: 579, 744
+ -->(579,744) 
+Neues Segment ab: 579, 745
+ -->(579,745) 
+Neues Segment ab: 579, 746
+ -->(579,746) 
+Neues Segment ab: 579, 747
+ -->(579,747) 
+Neues Segment ab: 579, 748
+ -->(579,748) 
+Neues Segment ab: 579, 749
+ -->(579,749) 
+Neues Segment ab: 579, 750
+ -->(579,750) 
+Neues Segment ab: 579, 751
+ -->(579,751) 
+Neues Segment ab: 579, 752
+ -->(579,752) 
+Neues Segment ab: 579, 753
+ -->(579,753) 
+Neues Segment ab: 579, 754
+ -->(579,754) 
+Neues Segment ab: 579, 755
+ -->(579,755) 
+Neues Segment ab: 579, 756
+ -->(579,756) 
+Neues Segment ab: 579, 757
+ -->(579,757) 
+Neues Segment ab: 579, 758
+ -->(579,758) 
+Neues Segment ab: 579, 759
+ -->(579,759) 
+Neues Segment ab: 579, 760
+ -->(579,760) 
+Neues Segment ab: 579, 761
+ -->(579,761) 
+Neues Segment ab: 579, 762
+ -->(579,762) 
+Neues Segment ab: 579, 763
+ -->(579,763) 
+Neues Segment ab: 579, 764
+ -->(579,764) 
+Neues Segment ab: 579, 765
+ -->(579,765) 
+Neues Segment ab: 579, 766
+ -->(579,766) 
+Neues Segment ab: 579, 767
+ -->(579,767) 
+Neues Segment ab: 579, 768
+ -->(579,768) 
+Neues Segment ab: 579, 769
+ -->(579,769) 
+Neues Segment ab: 579, 770
+ -->(579,770) 
+Neues Segment ab: 579, 771
+ -->(579,771) 
+Neues Segment ab: 579, 772
+ -->(579,772) 
+Neues Segment ab: 579, 773
+ -->(579,773) 
+Neues Segment ab: 579, 774
+ -->(579,774) 
+Neues Segment ab: 579, 775
+ -->(579,775) 
+Neues Segment ab: 579, 776
+ -->(579,776) 
+Neues Segment ab: 579, 777
+ -->(579,777) 
+Neues Segment ab: 579, 778
+ -->(579,778) 
+Neues Segment ab: 579, 779
+ -->(579,779) 
+Neues Segment ab: 579, 780
+ -->(579,780) 
+Neues Segment ab: 579, 781
+ -->(579,781) 
+Neues Segment ab: 579, 782
+ -->(579,782) 
+Neues Segment ab: 579, 783
+ -->(579,783) 
+Neues Segment ab: 579, 784
+ -->(579,784) 
+Neues Segment ab: 579, 785
+ -->(579,785) 
+Neues Segment ab: 579, 786
+ -->(579,786) 
+Neues Segment ab: 579, 787
+ -->(579,787) 
+Neues Segment ab: 579, 788
+ -->(579,788) 
+Neues Segment ab: 579, 789
+ -->(579,789) 
+Neues Segment ab: 579, 790
+ -->(579,790) 
+Neues Segment ab: 579, 791
+ -->(579,791) 
+Neues Segment ab: 579, 792
+ -->(579,792) 
+Neues Segment ab: 579, 793
+ -->(579,793) 
+Neues Segment ab: 579, 794
+ -->(579,794) 
+Neues Segment ab: 579, 795
+ -->(579,795) 
+Neues Segment ab: 579, 796
+ -->(579,796) 
+Neues Segment ab: 579, 797
+ -->(579,797) 
+Neues Segment ab: 579, 798
+ -->(579,798) 
+Neues Segment ab: 579, 799
+ -->(579,799) 
+Neues Segment ab: 579, 800
+ -->(579,800) 
+Neues Segment ab: 579, 801
+ -->(579,801) 
+Neues Segment ab: 579, 803
+ -->(579,803) 
+Neues Segment ab: 579, 805
+ -->(579,805) 
+Neues Segment ab: 579, 806
+ -->(579,806) 
+Neues Segment ab: 579, 807
+ -->(579,807) 
+Neues Segment ab: 579, 808
+ -->(579,808) 
+Neues Segment ab: 579, 809
+ -->(579,809) 
+Neues Segment ab: 579, 810
+ -->(579,810) 
+Neues Segment ab: 579, 811
+ -->(579,811) 
+Neues Segment ab: 579, 812
+ -->(579,812) 
+Neues Segment ab: 579, 813
+ -->(579,813) 
+Neues Segment ab: 579, 814
+ -->(579,814) 
+Neues Segment ab: 579, 815
+ -->(579,815) 
+Neues Segment ab: 579, 816
+ -->(579,816) 
+Neues Segment ab: 579, 817
+ -->(579,817) 
+Neues Segment ab: 579, 818
+ -->(579,818) 
+Neues Segment ab: 579, 819
+ -->(579,819) 
+Neues Segment ab: 579, 820
+ -->(579,820) 
+Neues Segment ab: 579, 821
+ -->(579,821) 
+Neues Segment ab: 579, 822
+ -->(579,822) 
+Neues Segment ab: 579, 823
+ -->(579,823) 
+Neues Segment ab: 579, 824
+ -->(579,824) 
+Neues Segment ab: 579, 825
+ -->(579,825) 
+Neues Segment ab: 579, 826
+ -->(579,826) 
+Neues Segment ab: 579, 827
+ -->(579,827) 
+Neues Segment ab: 579, 828
+ -->(579,828) 
+Neues Segment ab: 579, 829
+ -->(579,829) 
+Neues Segment ab: 579, 830
+ -->(579,830) 
+Neues Segment ab: 579, 831
+ -->(579,831) 
+Neues Segment ab: 579, 832
+ -->(579,832) 
+Neues Segment ab: 579, 833
+ -->(579,833) 
+Neues Segment ab: 579, 834
+ -->(579,834) 
+Neues Segment ab: 579, 835
+ -->(579,835) 
+Neues Segment ab: 579, 836
+ -->(579,836) 
+Neues Segment ab: 579, 837
+ -->(579,837) 
+Neues Segment ab: 579, 838
+ -->(579,838) 
+Neues Segment ab: 579, 839
+ -->(579,839) 
+Neues Segment ab: 579, 840
+ -->(579,840) 
+Neues Segment ab: 579, 841
+ -->(579,841) 
+Neues Segment ab: 579, 842
+ -->(579,842) 
+Neues Segment ab: 579, 843
+ -->(579,843) 
+Neues Segment ab: 579, 844
+ -->(579,844) 
+Neues Segment ab: 579, 845
+ -->(579,845) 
+Neues Segment ab: 579, 846
+ -->(579,846) 
+Neues Segment ab: 579, 847
+ -->(579,847) 
+Neues Segment ab: 579, 848
+ -->(579,848) 
+Neues Segment ab: 579, 849
+ -->(579,849) 
+Neues Segment ab: 579, 850
+ -->(579,850) 
+Neues Segment ab: 579, 851
+ -->(579,851) 
+Neues Segment ab: 579, 852
+ -->(579,852) 
+Neues Segment ab: 579, 853
+ -->(579,853) 
+Neues Segment ab: 579, 854
+ -->(579,854) 
+Neues Segment ab: 579, 855
+ -->(579,855) 
+Neues Segment ab: 579, 856
+ -->(579,856) 
+Neues Segment ab: 579, 857
+ -->(579,857) 
+Neues Segment ab: 579, 858
+ -->(579,858) 
+Neues Segment ab: 579, 859
+ -->(579,859) 
+Neues Segment ab: 579, 860
+ -->(579,860) 
+Neues Segment ab: 579, 861
+ -->(579,861) 
+Neues Segment ab: 579, 862
+ -->(579,862) 
+Neues Segment ab: 579, 863
+ -->(579,863) 
+Neues Segment ab: 579, 864
+ -->(579,864) 
+Neues Segment ab: 579, 865
+ -->(579,865) 
+Neues Segment ab: 579, 866
+ -->(579,866) 
+Neues Segment ab: 579, 867
+ -->(579,867) 
+Neues Segment ab: 579, 868
+ -->(579,868) 
+Neues Segment ab: 579, 869
+ -->(579,869) 
+Neues Segment ab: 579, 870
+ -->(579,870) 
+Neues Segment ab: 579, 871
+ -->(579,871) 
+Neues Segment ab: 579, 872
+ -->(579,872) 
+Neues Segment ab: 579, 873
+ -->(579,873) 
+Neues Segment ab: 579, 874
+ -->(579,874) 
+Neues Segment ab: 579, 875
+ -->(579,875) 
+Neues Segment ab: 579, 876
+ -->(579,876) 
+Neues Segment ab: 579, 877
+ -->(579,877) 
+Neues Segment ab: 579, 878
+ -->(579,878) 
+Neues Segment ab: 579, 879
+ -->(579,879) 
+Neues Segment ab: 579, 880
+ -->(579,880) 
+Neues Segment ab: 579, 881
+ -->(579,881) 
+Neues Segment ab: 579, 882
+ -->(579,882) 
+Neues Segment ab: 579, 883
+ -->(579,883) 
+Neues Segment ab: 579, 884
+ -->(579,884) 
+Neues Segment ab: 579, 885
+ -->(579,885) 
+Neues Segment ab: 579, 886
+ -->(579,886) 
+Neues Segment ab: 579, 887
+ -->(579,887) 
+Neues Segment ab: 579, 888
+ -->(579,888) 
+Neues Segment ab: 579, 889
+ -->(579,889) 
+Neues Segment ab: 579, 890
+ -->(579,890) 
+Neues Segment ab: 579, 891
+ -->(579,891) 
+Neues Segment ab: 579, 892
+ -->(579,892) 
+Neues Segment ab: 579, 893
+ -->(579,893) 
+Neues Segment ab: 579, 894
+ -->(579,894) 
+Neues Segment ab: 579, 895
+ -->(579,895) 
+Neues Segment ab: 579, 896
+ -->(579,896) 
+Neues Segment ab: 579, 897
+ -->(579,897) 
+Neues Segment ab: 579, 898
+ -->(579,898) 
+Neues Segment ab: 579, 899
+ -->(579,899) 
+Neues Segment ab: 579, 900
+ -->(579,900) 
+Neues Segment ab: 579, 901
+ -->(579,901) 
+Neues Segment ab: 579, 902
+ -->(579,902) 
+Neues Segment ab: 579, 903
+ -->(579,903) 
+Neues Segment ab: 579, 904
+ -->(579,904) 
+Neues Segment ab: 579, 905
+ -->(579,905) 
+Neues Segment ab: 579, 906
+ -->(579,906) 
+Neues Segment ab: 579, 907
+ -->(579,907) 
+Neues Segment ab: 579, 908
+ -->(579,908) 
+Neues Segment ab: 579, 909
+ -->(579,909) 
+Neues Segment ab: 579, 910
+ -->(579,910) 
+Neues Segment ab: 579, 911
+ -->(579,911) 
+Neues Segment ab: 579, 912
+ -->(579,912) 
+Neues Segment ab: 579, 913
+ -->(579,913) 
+Neues Segment ab: 579, 914
+ -->(579,914) 
+Neues Segment ab: 579, 915
+ -->(579,915) 
+Neues Segment ab: 579, 916
+ -->(579,916) 
+Neues Segment ab: 579, 917
+ -->(579,917) 
+Neues Segment ab: 579, 918
+ -->(579,918) 
+Neues Segment ab: 579, 919
+ -->(579,919) 
+Neues Segment ab: 579, 920
+ -->(579,920) 
+Neues Segment ab: 579, 921
+ -->(579,921) 
+Neues Segment ab: 579, 922
+ -->(579,922) 
+Neues Segment ab: 579, 923
+ -->(579,923) 
+Neues Segment ab: 579, 924
+ -->(579,924) 
+Neues Segment ab: 579, 925
+ -->(579,925) 
+Neues Segment ab: 579, 926
+ -->(579,926) 
+Neues Segment ab: 579, 927
+ -->(579,927) 
+Neues Segment ab: 579, 928
+ -->(579,928) 
+Neues Segment ab: 579, 929
+ -->(579,929) 
+Neues Segment ab: 579, 930
+ -->(579,930) 
+Neues Segment ab: 579, 931
+ -->(579,931) 
+Neues Segment ab: 579, 932
+ -->(579,932) 
+Neues Segment ab: 579, 933
+ -->(579,933) 
+Neues Segment ab: 579, 934
+ -->(579,934) 
+Neues Segment ab: 579, 935
+ -->(579,935) 
+Neues Segment ab: 579, 936
+ -->(579,936) 
+Neues Segment ab: 579, 937
+ -->(579,937) 
+Neues Segment ab: 579, 938
+ -->(579,938) 
+Neues Segment ab: 579, 939
+ -->(579,939) 
+Neues Segment ab: 579, 940
+ -->(579,940) 
+Neues Segment ab: 579, 941
+ -->(579,941) 
+Neues Segment ab: 579, 942
+ -->(579,942) 
+Neues Segment ab: 579, 943
+ -->(579,943) 
+Neues Segment ab: 579, 944
+ -->(579,944) 
+Neues Segment ab: 579, 945
+ -->(579,945) 
+Neues Segment ab: 579, 946
+ -->(579,946) 
+Neues Segment ab: 579, 947
+ -->(579,947) 
+Neues Segment ab: 579, 948
+ -->(579,948) 
+Neues Segment ab: 579, 949
+ -->(579,949) 
+Neues Segment ab: 579, 950
+ -->(579,950) 
+Neues Segment ab: 579, 951
+ -->(579,951) 
+Neues Segment ab: 579, 952
+ -->(579,952) 
+Neues Segment ab: 579, 953
+ -->(579,953) 
+Neues Segment ab: 579, 954
+ -->(579,954) 
+Neues Segment ab: 579, 955
+ -->(579,955) 
+Neues Segment ab: 579, 956
+ -->(579,956) 
+Neues Segment ab: 579, 957
+ -->(579,957) 
+Neues Segment ab: 579, 958
+ -->(579,958) 
+Neues Segment ab: 579, 959
+ -->(579,959) 
+Neues Segment ab: 579, 960
+ -->(579,960) 
+Neues Segment ab: 579, 961
+ -->(579,961) 
+Neues Segment ab: 579, 962
+ -->(579,962) 
+Neues Segment ab: 579, 963
+ -->(579,963) 
+Neues Segment ab: 579, 964
+ -->(579,964) 
+Neues Segment ab: 579, 965
+ -->(579,965) 
+Neues Segment ab: 579, 966
+ -->(579,966) 
+Neues Segment ab: 579, 967
+ -->(579,967) 
+Neues Segment ab: 580, 803
+ -->(580,803) 
+Neues Segment ab: 580, 805
+ -->(580,805) 
+Neues Segment ab: 581, 803
+ -->(581,803) 
+Neues Segment ab: 581, 805
+ -->(581,805) 
+Neues Segment ab: 582, 803
+ -->(582,803) 
+Neues Segment ab: 582, 805
+ -->(582,805) 
+Neues Segment ab: 583, 803
+ -->(583,803) 
+Neues Segment ab: 583, 805
+ -->(583,805) 
+Neues Segment ab: 584, 803
+ -->(584,803) 
+Neues Segment ab: 584, 805
+ -->(584,805) 
+Neues Segment ab: 585, 803
+ -->(585,803) 
+Neues Segment ab: 585, 805
+ -->(585,805) 
+Neues Segment ab: 586, 803
+ -->(586,803) 
+Neues Segment ab: 586, 805
+ -->(586,805) 
+Neues Segment ab: 587, 803
+ -->(587,803) 
+Neues Segment ab: 587, 805
+ -->(587,805) 
+Neues Segment ab: 588, 803
+ -->(588,803) 
+Neues Segment ab: 588, 805
+ -->(588,805) 
+Neues Segment ab: 589, 803
+ -->(589,803) 
+Neues Segment ab: 589, 805
+ -->(589,805) 
+Neues Segment ab: 590, 803
+ -->(590,803) 
+Neues Segment ab: 590, 805
+ -->(590,805) 
+Neues Segment ab: 591, 803
+ -->(591,803) 
+Neues Segment ab: 591, 805
+ -->(591,805) 
+Neues Segment ab: 592, 803
+ -->(592,803) 
+Neues Segment ab: 592, 805
+ -->(592,805) 
+Neues Segment ab: 593, 803
+ -->(593,803) 
+Neues Segment ab: 593, 805
+ -->(593,805) 
+Neues Segment ab: 594, 803
+ -->(594,803) 
+Neues Segment ab: 594, 805
+ -->(594,805) 
+Neues Segment ab: 595, 803
+ -->(595,803) 
+Neues Segment ab: 595, 805
+ -->(595,805) 
+Neues Segment ab: 596, 803
+ -->(596,803) 
+Neues Segment ab: 596, 805
+ -->(596,805) 
+Neues Segment ab: 597, 803
+ -->(597,803) 
+Neues Segment ab: 597, 805
+ -->(597,805) 
+Neues Segment ab: 598, 803
+ -->(598,803) 
+Neues Segment ab: 598, 805
+ -->(598,805) 
+Neues Segment ab: 599, 803
+ -->(599,803) 
+Neues Segment ab: 599, 805
+ -->(599,805) 
+Neues Segment ab: 600, 803
+ -->(600,803) 
+Neues Segment ab: 600, 805
+ -->(600,805) 
+Neues Segment ab: 601, 803
+ -->(601,803) 
+Neues Segment ab: 601, 805
+ -->(601,805) 
+Neues Segment ab: 602, 803
+ -->(602,803) 
+Neues Segment ab: 602, 805
+ -->(602,805) 
+Neues Segment ab: 603, 803
+ -->(603,803) 
+Neues Segment ab: 603, 805
+ -->(603,805) 
+Neues Segment ab: 604, 803
+ -->(604,803) 
+Neues Segment ab: 604, 805
+ -->(604,805) 
+Neues Segment ab: 605, 803
+ -->(605,803) 
+Neues Segment ab: 605, 805
+ -->(605,805) 
+Neues Segment ab: 606, 803
+ -->(606,803) 
+Neues Segment ab: 606, 805
+ -->(606,805) 
+Neues Segment ab: 607, 803
+ -->(607,803) 
+Neues Segment ab: 607, 805
+ -->(607,805) 
+Neues Segment ab: 608, 803
+ -->(608,803) 
+Neues Segment ab: 608, 805
+ -->(608,805) 
+Neues Segment ab: 609, 803
+ -->(609,803) 
+Neues Segment ab: 609, 805
+ -->(609,805) 
+Neues Segment ab: 610, 803
+ -->(610,803) 
+Neues Segment ab: 610, 805
+ -->(610,805) 
+Neues Segment ab: 611, 803
+ -->(611,803) 
+Neues Segment ab: 611, 805
+ -->(611,805) 
+Neues Segment ab: 612, 803
+ -->(612,803) 
+Neues Segment ab: 612, 805
+ -->(612,805) 
+Neues Segment ab: 613, 803
+ -->(613,803) 
+Neues Segment ab: 613, 805
+ -->(613,805) 
+Neues Segment ab: 614, 803
+ -->(614,803) 
+Neues Segment ab: 614, 805
+ -->(614,805) 
+Neues Segment ab: 615, 803
+ -->(615,803) 
+Neues Segment ab: 615, 805
+ -->(615,805) 
+Neues Segment ab: 616, 803
+ -->(616,803) 
+Neues Segment ab: 616, 805
+ -->(616,805) 
+Neues Segment ab: 617, 803
+ -->(617,803) 
+Neues Segment ab: 617, 805
+ -->(617,805) 
+Neues Segment ab: 618, 803
+ -->(618,803) 
+Neues Segment ab: 618, 805
+ -->(618,805) 
+Neues Segment ab: 619, 803
+ -->(619,803) 
+Neues Segment ab: 619, 805
+ -->(619,805) 
+Neues Segment ab: 620, 803
+ -->(620,803) 
+Neues Segment ab: 620, 805
+ -->(620,805) 
+Neues Segment ab: 621, 803
+ -->(621,803) 
+Neues Segment ab: 621, 805
+ -->(621,805) 
+Neues Segment ab: 622, 803
+ -->(622,803) 
+Neues Segment ab: 622, 805
+ -->(622,805) 
+Neues Segment ab: 623, 803
+ -->(623,803) 
+Neues Segment ab: 623, 805
+ -->(623,805) 
+Neues Segment ab: 624, 803
+ -->(624,803) 
+Neues Segment ab: 624, 805
+ -->(624,805) 
+Neues Segment ab: 625, 803
+ -->(625,803) 
+Neues Segment ab: 625, 805
+ -->(625,805) 
+Neues Segment ab: 626, 803
+ -->(626,803) 
+Neues Segment ab: 626, 805
+ -->(626,805) 
+Neues Segment ab: 627, 803
+ -->(627,803) 
+Neues Segment ab: 627, 805
+ -->(627,805) 
+Neues Segment ab: 628, 803
+ -->(628,803) 
+Neues Segment ab: 628, 805
+ -->(628,805) 
+Neues Segment ab: 629, 803
+ -->(629,803) 
+Neues Segment ab: 629, 805
+ -->(629,805) 
+Neues Segment ab: 630, 803
+ -->(630,803) 
+Neues Segment ab: 630, 805
+ -->(630,805) 
+Neues Segment ab: 631, 803
+ -->(631,803) 
+Neues Segment ab: 631, 805
+ -->(631,805) 
+Neues Segment ab: 632, 803
+ -->(632,803) 
+Neues Segment ab: 632, 805
+ -->(632,805) 
+Neues Segment ab: 633, 803
+ -->(633,803) 
+Neues Segment ab: 633, 805
+ -->(633,805) 
+Neues Segment ab: 634, 803
+ -->(634,803) 
+Neues Segment ab: 634, 805
+ -->(634,805) 
+Neues Segment ab: 635, 803
+ -->(635,803) 
+Neues Segment ab: 635, 805
+ -->(635,805) 
+Neues Segment ab: 636, 803
+ -->(636,803) 
+Neues Segment ab: 636, 805
+ -->(636,805) 
+Neues Segment ab: 637, 803
+ -->(637,803) 
+Neues Segment ab: 637, 805
+ -->(637,805) 
+Neues Segment ab: 638, 803
+ -->(638,803) 
+Neues Segment ab: 638, 805
+ -->(638,805) 
+Neues Segment ab: 639, 803
+ -->(639,803) 
+Neues Segment ab: 639, 805
+ -->(639,805) 
+Neues Segment ab: 640, 803
+ -->(640,803) 
+Neues Segment ab: 640, 805
+ -->(640,805) 
+Neues Segment ab: 641, 803
+ -->(641,803) 
+Neues Segment ab: 641, 805
+ -->(641,805) 
+Neues Segment ab: 642, 803
+ -->(642,803) 
+Neues Segment ab: 642, 805
+ -->(642,805) 
+Neues Segment ab: 643, 803
+ -->(643,803) 
+Neues Segment ab: 643, 805
+ -->(643,805) 
+Neues Segment ab: 644, 803
+ -->(644,803) 
+Neues Segment ab: 644, 805
+ -->(644,805) 
+Neues Segment ab: 645, 803
+ -->(645,803) 
+Neues Segment ab: 645, 805
+ -->(645,805) 
+Neues Segment ab: 646, 803
+ -->(646,803) 
+Neues Segment ab: 646, 805
+ -->(646,805) 
+Neues Segment ab: 647, 803
+ -->(647,803) 
+Neues Segment ab: 647, 805
+ -->(647,805) 
+Neues Segment ab: 648, 803
+ -->(648,803) 
+Neues Segment ab: 648, 805
+ -->(648,805) 
+Neues Segment ab: 649, 803
+ -->(649,803) 
+Neues Segment ab: 649, 805
+ -->(649,805) 
+Neues Segment ab: 650, 803
+ -->(650,803) 
+Neues Segment ab: 650, 805
+ -->(650,805) 
+Neues Segment ab: 651, 803
+ -->(651,803) 
+Neues Segment ab: 651, 805
+ -->(651,805) 
+Neues Segment ab: 652, 803
+ -->(652,803) 
+Neues Segment ab: 652, 805
+ -->(652,805) 
+Neues Segment ab: 653, 803
+ -->(653,803) 
+Neues Segment ab: 653, 805
+ -->(653,805) 
+Neues Segment ab: 654, 803
+ -->(654,803) 
+Neues Segment ab: 654, 805
+ -->(654,805) 
+Neues Segment ab: 655, 803
+ -->(655,803) 
+Neues Segment ab: 655, 805
+ -->(655,805) 
+Neues Segment ab: 656, 803
+ -->(656,803) 
+Neues Segment ab: 656, 805
+ -->(656,805) 
+Neues Segment ab: 657, 803
+ -->(657,803) 
+Neues Segment ab: 657, 805
+ -->(657,805) 
+Neues Segment ab: 658, 803
+ -->(658,803) 
+Neues Segment ab: 658, 805
+ -->(658,805) 
+Neues Segment ab: 659, 803
+ -->(659,803) 
+Neues Segment ab: 659, 805
+ -->(659,805) 
+Neues Segment ab: 660, 803
+ -->(660,803) 
+Neues Segment ab: 660, 805
+ -->(660,805) 
+Neues Segment ab: 661, 803
+ -->(661,803) 
+Neues Segment ab: 661, 805
+ -->(661,805) 
+Neues Segment ab: 662, 803
+ -->(662,803) 
+Neues Segment ab: 662, 805
+ -->(662,805) 
+Neues Segment ab: 663, 803
+ -->(663,803) 
+Neues Segment ab: 663, 805
+ -->(663,805) 
+Neues Segment ab: 664, 803
+ -->(664,803) 
+Neues Segment ab: 664, 805
+ -->(664,805) 
+Neues Segment ab: 665, 803
+ -->(665,803) 
+Neues Segment ab: 665, 805
+ -->(665,805) 
+Neues Segment ab: 666, 803
+ -->(666,803) 
+Neues Segment ab: 666, 805
+ -->(666,805) 
+Neues Segment ab: 667, 803
+ -->(667,803) 
+Neues Segment ab: 667, 805
+ -->(667,805) 
+Neues Segment ab: 668, 803
+ -->(668,803) 
+Neues Segment ab: 668, 805
+ -->(668,805) 
+Neues Segment ab: 669, 803
+ -->(669,803) 
+Neues Segment ab: 669, 805
+ -->(669,805) 
+Neues Segment ab: 670, 803
+ -->(670,803) 
+Neues Segment ab: 670, 805
+ -->(670,805) 
+Neues Segment ab: 671, 803
+ -->(671,803) 
+Neues Segment ab: 671, 805
+ -->(671,805) 
+Neues Segment ab: 672, 803
+ -->(672,803) 
+Neues Segment ab: 672, 805
+ -->(672,805) 
+Neues Segment ab: 673, 803
+ -->(673,803) 
+Neues Segment ab: 673, 805
+ -->(673,805) 
+Neues Segment ab: 674, 803
+ -->(674,803) 
+Neues Segment ab: 674, 805
+ -->(674,805) 
+Neues Segment ab: 675, 803
+ -->(675,803) 
+Neues Segment ab: 675, 805
+ -->(675,805) 
+Neues Segment ab: 676, 803
+ -->(676,803) 
+Neues Segment ab: 676, 805
+ -->(676,805) 
+Neues Segment ab: 677, 803
+ -->(677,803) 
+Neues Segment ab: 677, 805
+ -->(677,805) 
+Neues Segment ab: 678, 803
+ -->(678,803) 
+Neues Segment ab: 678, 805
+ -->(678,805) 
+Neues Segment ab: 679, 803
+ -->(679,803) 
+Neues Segment ab: 679, 805
+ -->(679,805) 
+Neues Segment ab: 680, 803
+ -->(680,803) 
+Neues Segment ab: 680, 805
+ -->(680,805) 
+Neues Segment ab: 681, 803
+ -->(681,803) 
+Neues Segment ab: 681, 805
+ -->(681,805) 
+Neues Segment ab: 682, 803
+ -->(682,803) 
+Neues Segment ab: 682, 805
+ -->(682,805) 
+Neues Segment ab: 683, 803
+ -->(683,803) 
+Neues Segment ab: 683, 805
+ -->(683,805) 
+Neues Segment ab: 684, 803
+ -->(684,803) 
+Neues Segment ab: 684, 804
+ -->(684,804) 

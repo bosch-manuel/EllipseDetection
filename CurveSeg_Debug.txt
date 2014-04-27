@@ -1,0 +1,21 @@
+lenght cond at: 293, 91
+lenght cond at: 473, 413
+curve cond left at: 471, 413
+curve cond left at: 466, 417
+curve cond left at: 464, 417
+lenght cond at: 459, 420
+lenght cond at: 242, 135
+curve cond left at: 233, 145
+curve cond left at: 225, 159
+lenght cond at: 222, 162
+curve cond left at: 191, 152
+lenght cond at: 96, 168
+curve cond right at: 599, 359
+lenght cond at: 582, 374
+curve cond left at: 252, 387
+curve cond right at: 409, 436
+curve cond left at: 452, 423
+curve cond left at: 486, 421
+curve cond right at: 535, 405
+lenght cond at: 580, 375
+angle cond at: 581, 375
