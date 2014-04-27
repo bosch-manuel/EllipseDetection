@@ -58,11 +58,17 @@ public:
 		num of curve segments; -1 if edge segment was not segmented*/
 	int curveSegmentation(std::list<EdgeSegment*> *curveSegments,std::fstream *csf);
 
+	//bool operator<(const EdgeSegment& other) const;
+
+	//bool operator>(const EdgeSegment& other) const;
+
+	int const ID;
 	
 private:
 	std::list<Point*> edgeList; //edge pixels
 	int nLineSegs;
 	int type;
+	static int id_cnt;
 
 };
 

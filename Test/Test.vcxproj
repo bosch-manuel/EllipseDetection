@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EdgeSegment.cpp" />
+    <ClCompile Include="EllipticalArc.cpp" />
     <ClCompile Include="LinearizedEdgeSegment.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Point.cpp" />
@@ -29,6 +30,7 @@
   <ItemGroup>
     <ClInclude Include="Defines.h" />
     <ClInclude Include="EdgeSegment.h" />
+    <ClInclude Include="EllipticalArc.h" />
     <ClInclude Include="LinearizedEdgeSegment.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="PreProcessing.hpp" />

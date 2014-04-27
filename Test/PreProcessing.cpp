@@ -384,7 +384,7 @@ int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*>
 	return nCurvSegs;
 }
 
-int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EdgeSegment*> *groupedCurveSegs) {
+int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EllipticalArc*> *groupedCurveSegs) {
 #ifdef DEBUB_CURVE_GRP
 	std::fstream csf;
 	csf.open(CURVE_GRP_DEBUG, std::ios::out);
@@ -457,6 +457,10 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EdgeSegment*> *g
 
 			//group n with the curve segment which has the smallest angle between tangents
 			if (cS_min != NULL) {
+				//check if m or n are already grouped in an elliptical arc
+				for (std::list<EllipticalArc*>::iterator i = groupedCurveSegs->begin(); i !=groupedCurveSegs->end(); i++) {
+					(*i)->containsSegment(cS_min)
+				}
 				(*n)->addSegment(cS_min, order_min);
 			}
 			cS_min = NULL;

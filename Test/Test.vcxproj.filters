@@ -33,6 +33,9 @@
     <ClCompile Include="testMain.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="EllipticalArc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PreProcessing.hpp">
@@ -48,6 +51,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="Defines.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipticalArc.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

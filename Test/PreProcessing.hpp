@@ -4,6 +4,7 @@
 #include <opencv\cv.h>
 #include <list>
 #include "EdgeSegment.h"
+#include "EllipticalArc.h"
 #include "Point.h"
 /**Canny based edge detection based on the OpenCv Implementation
 input_image		Input image
@@ -41,6 +42,6 @@ int findEnds(std::list<Point*>*,cv::Mat);
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs);
 
 /*Curve grouping based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu*/
-int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EdgeSegment*> *groupedCurveSegs);
+int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EllipticalArc*> *groupedCurveSegs);
 
 #endif

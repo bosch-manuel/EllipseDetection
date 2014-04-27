@@ -5,24 +5,30 @@
 
 using namespace std;
 
+int EdgeSegment::id_cnt = 0;
+
 EdgeSegment::EdgeSegment()
 : type(LSEG_EDGE)
-, nLineSegs(-1){
+, nLineSegs(-1)
+,ID(++id_cnt){
 	edgeList.clear();
 }
 
 EdgeSegment::EdgeSegment(int type)
 : type(type)
-, nLineSegs(-1){
+, nLineSegs(-1)
+,ID(++id_cnt){
 	edgeList.clear();
 }
 
 EdgeSegment::~EdgeSegment() {
+	edgeList.clear();
 }
 
 EdgeSegment::EdgeSegment(const EdgeSegment& other)
 : type(other.type)
-, nLineSegs(-1) {
+, nLineSegs(-1)
+, ID(++id_cnt){
 	edgeList.clear();
 
 	for (list<Point*>::const_iterator i = other.edgeList.begin(); i != other.edgeList.end(); i++)	{
@@ -45,6 +51,14 @@ size_t EdgeSegment::getLength() {
 int EdgeSegment::getType() {
 	return type;
 }
+
+//bool  EdgeSegment::operator<(const EdgeSegment& other) const {
+//	return ID < other.ID;
+//}
+//
+//bool EdgeSegment::operator>(const EdgeSegment& other) const {
+//	return ID > other.ID;
+//}
 
 /*Finds the point of max devation from the line between start and end
 end will be set to this point
