@@ -2,6 +2,7 @@
 #include "opencv2\imgproc\imgproc.hpp"
 #include "Point.h"
 #include <list>
+#include <set>
 #include <fstream>
 #include <algorithm> 
 #include "Defines.h"
@@ -384,21 +385,64 @@ int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*>
 	return nCurvSegs;
 }
 
-int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EllipticalArc*> *groupedCurveSegs) {
+/*Connects two curve segments and groups them in one elliptical arc
+if the segmenst are still grouped in a elliptical arc, the arcs will be joined
+param:
+	cS1		curve segment 1
+	cS2		curve segment 2
+	arcs	set of existing elliptical arcs
+	*/
+void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2,std::set<EllipticalArc*> *arcs) {
+	EllipticalArc* arcS1=NULL,*arcS2=NULL;
+	for (std::set<EllipticalArc*>::iterator i = arcs->begin(); i != arcs->end(); i++)	{
+		if ((*i)->containsSegment(cS1)) {
+			arcS1 = (*i);
+		}
+		else if ((*i)->containsSegment(cS2)) {
+			arcS2 = (*i);
+		}
+	}
+
+	//check if segments are still grouped 
+	if (arcS1 == NULL && arcS2 == NULL) {
+		//create new elliptical arc and add both segments
+		arcS1 = new EllipticalArc();
+		arcS1->addSegment(cS1);
+		arcS1->addSegment(cS2);
+		arcs->insert(arcS1);
+	}
+	else if (arcS1 != NULL && arcS2 != NULL && arcS1 != arcS2) {
+		//both segments are already a part of different arcs, so join them
+		arcS1->joinArcs(arcS2);
+		arcs->erase(arcS2);
+		delete(arcS2);
+	}
+	else if (arcS1 != NULL) {
+		//only segment cS1 is part of an arc, add cS2
+		arcS1->addSegment(cS2);
+	}
+	else if (arcS2 != NULL) {
+		arcS2->addSegment(cS1);
+	}
+}
+
+int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *arcs) {
 #ifdef DEBUB_CURVE_GRP
 	std::fstream csf;
 	csf.open(CURVE_GRP_DEBUG, std::ios::out);
 #endif 
-	Point *nfirst, *nend, *mfirst, *mend,*N1,*M1,*N2,*M2,*r1,*r2;
+	Point *nfirst = NULL, *nend = NULL, *mfirst = NULL, *mend = NULL, *N1 = NULL, *M1 = NULL, *N2 = NULL, *M2 = NULL, *r1 = NULL, *r2 = NULL;
 	EdgeSegment *cS_min=NULL;
 	int order_min; //eS_min must be added in this order
 	int order_tmp;
 	int d;
 	int mEnE, mEnB, mBnE, mBnB;
 	double a_min = 2*PI,a_tmp;
+	//neightbourhood curve grouping:
 	//search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
 	for (std::list<EdgeSegment*>::iterator n = curveSegs->begin(); n != curveSegs->end(); n++) {
 		if (*n != NULL) {
+			csf << "Seg " << (*n)->ID << std::endl;
 			nfirst = (*n)->getFirstPoint();
 			nend = (*n)->getLastPoint();
 			for (std::list<EdgeSegment*>::iterator m = curveSegs->begin(); m != curveSegs->end(); m++) {
@@ -413,41 +457,37 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EllipticalArc*> 
 					d = std::min(std::min(mEnE, mEnB), std::min(mBnE, mBnB));
 					if (d < D0) {
 						if (d == mEnE) {
-							order_tmp = END_AT_END;
 							M1 = (*m)->getLastPoint();
 							N1 = (*n)->getLastPoint();
 							M2 = (*m)->getNextToLastPoint();
 							N2 = (*n)->getNextToLastPoint();
 						}
 						else if (d == mEnB) {
-							order_tmp = END_AT_BEGIN;
 							M1 = (*m)->getLastPoint();
 							N1 = (*n)->getFirstPoint();
 							M2 = (*m)->getNextToLastPoint();
 							N2 = (*n)->getSecondPoint();
 						}
 						else if (d == mBnE) {
-							order_tmp = BEGIN_AT_END;
 							M1 = (*m)->getFirstPoint();
 							N1 = (*n)->getLastPoint();
 							M2 = (*m)->getSecondPoint();
 							N2 = (*n)->getNextToLastPoint();
 						}
 						else if (d == mBnB) {
-							order_tmp = BEGIN_AT_BEGIN;
 							M1 = (*m)->getFirstPoint();
 							N1 = (*n)->getFirstPoint();
 							M2 = (*m)->getSecondPoint();
 							N2 = (*n)->getSecondPoint();
 						}
+
 						//calc angle between the tangents of m and n
 						r1 = &(*M1 - *M2);
 						r2 = &(*N2 - *N1);
 						a_tmp = acos((*r1 * *r2) / (r1->norm()* r2->norm()));
-
+						csf << "Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() <<") ::"<<a_tmp<<std::endl ;
 						if (a_tmp < a_min) {
 							//current angle between n and m is the smallest so far, so keep it in mind
-							order_min = order_tmp;
 							a_min = a_tmp;
 							cS_min = (*m);
 						}
@@ -457,11 +497,10 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EllipticalArc*> 
 
 			//group n with the curve segment which has the smallest angle between tangents
 			if (cS_min != NULL) {
-				//check if m or n are already grouped in an elliptical arc
-				for (std::list<EllipticalArc*>::iterator i = groupedCurveSegs->begin(); i !=groupedCurveSegs->end(); i++) {
-					(*i)->containsSegment(cS_min)
-				}
-				(*n)->addSegment(cS_min, order_min);
+				//TODO: an dieser Stelle sollte curvature condi getesten werden, damit nicht zuvor getrennt Segmente erneut verknuepft werden!!!!
+				connectSegments((*n), cS_min, arcs);
+				csf << "Seg "<<(*n)->ID<<" mit Seg "<<cS_min->ID<<"-> kleinster Winkel: " << a_min << std::endl;
+				csf << "################ Zusammengefuegt ######################" << std::endl;
 			}
 			cS_min = NULL;
 			a_min = 2 * PI;
@@ -469,9 +508,18 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::list<EllipticalArc*> 
 
 	}
 
+	//global curve grouping:
+	for (std::set<EllipticalArc*>::iterator n = arcs->begin(); n != arcs->end(); n++) {
+		if (*n != NULL) {
+			for (std::list<EdgeSegment*>::iterator m = curveSegs->begin(); m != curveSegs->end(); m++) {
+
+			}
+		}
+	}
+
 #ifdef DEBUB_CURVE_GRP
 	csf.close();
 #endif
 
-	return 0;
+	return arcs->size();
 }

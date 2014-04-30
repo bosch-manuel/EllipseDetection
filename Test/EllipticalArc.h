@@ -15,6 +15,8 @@ public:
 
 	void addSegment(EdgeSegment*);
 
+	void joinArcs(EllipticalArc*);
+
 	void drawToImage(cv::Mat*, cv::Vec3b);
 
 	int const ID;
