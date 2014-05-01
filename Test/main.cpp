@@ -83,10 +83,10 @@ int main(int argc, char** argv) {
 	//find ends
 	int nEnds  = findEnds(&endPoints, edgeImage2);
 
-	/*char* edge2_window = "Edges2";
+	char* edge2_window = "Edges2";
 	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge2_window, edgeImage2);
-	cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);*/
+	cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);
 
 
 	//link edges
@@ -95,7 +95,7 @@ int main(int argc, char** argv) {
 	printf("Ends: %d\nSegments: %d\n", nEnds,nSegs);
 
 #ifdef DEBUG_SHOW_EDGESEGS
-	show segments
+	//show segments
 	char* segment_window = "Segments";
 	cv::namedWindow(segment_window, CV_WINDOW_AUTOSIZE);
 
@@ -103,6 +103,9 @@ int main(int argc, char** argv) {
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
 		if ((*it)->getLength() > MIN_LENGTH) {
 			(*it)->drawToImage(&segImage, color);
+			/*cv::imshow(segment_window, segImage);
+			cout << "ID: " << (*it)->ID<<endl;
+			cv::waitKey();*/
 		}
 	}
 	cv::imshow(segment_window, segImage);

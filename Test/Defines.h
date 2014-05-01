@@ -15,7 +15,7 @@
 #define ENDPOINT 200
 //#define DEBUG_MAXLINEDEV
 #define DEBUG_SHOW_LINESEGMENTEDEDGES
-//#define DEBUG_SHOW_EDGESEGS
+#define DEBUG_SHOW_EDGESEGS
 
 /*Line segmentation*/
 #define MIN_LENGTH 10

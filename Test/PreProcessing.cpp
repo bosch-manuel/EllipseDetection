@@ -442,6 +442,9 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 	//search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
 	for (std::list<EdgeSegment*>::iterator n = curveSegs->begin(); n != curveSegs->end(); n++) {
 		if (*n != NULL) {
+			EllipticalArc *tmp = new EllipticalArc;
+			tmp->addSegment((*n));
+			arcs->insert(tmp);
 			csf << "Seg " << (*n)->ID << std::endl;
 			nfirst = (*n)->getFirstPoint();
 			nend = (*n)->getLastPoint();
@@ -455,7 +458,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 					mBnE = (*mfirst - *nend).norm()+.5;
 					mBnB = (*mfirst - *nfirst).norm()+.5;
 					d = std::min(std::min(mEnE, mEnB), std::min(mBnE, mBnB));
-					if (d < D0) {
+					if (d>0 && d < D0) {
 						if (d == mEnE) {
 							M1 = (*m)->getLastPoint();
 							N1 = (*n)->getLastPoint();
@@ -485,7 +488,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 						r1 = &(*M1 - *M2);
 						r2 = &(*N2 - *N1);
 						a_tmp = acos((*r1 * *r2) / (r1->norm()* r2->norm()));
-						csf << "Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() <<") ::"<<a_tmp<<std::endl ;
+						csf << "Abstand: "<<d<<"  Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() <<") ::"<<a_tmp<<std::endl ;
 						if (a_tmp < a_min) {
 							//current angle between n and m is the smallest so far, so keep it in mind
 							a_min = a_tmp;
