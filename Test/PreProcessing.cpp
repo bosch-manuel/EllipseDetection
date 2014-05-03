@@ -478,7 +478,9 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 			EllipticalArc *tmp = new EllipticalArc;
 			tmp->addSegment((*n));
 			arcs->insert(tmp);
+#ifdef DEBUB_CURVE_GRP
 			csf << "Seg " << (*n)->ID << std::endl;
+#endif
 			nfirst = (*n)->getFirstPoint();
 			nend = (*n)->getLastPoint();
 			for (std::list<EdgeSegment*>::iterator m = curveSegs->begin(); m != curveSegs->end(); m++) {
@@ -521,7 +523,9 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 						r1 = &(*M1 - *M2);
 						r2 = &(*N2 - *N1);
 						a_tmp = acos((*r1 * *r2) / (r1->norm()* r2->norm()));
+#ifdef DEBUB_CURVE_GRP
 						csf << "Abstand: "<<d<<"  Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() <<") ::"<<a_tmp<<std::endl ;
+#endif
 						if (a_tmp < a_min) {
 							//current angle between n and m is the smallest so far, so keep it in mind
 							a_min = a_tmp;
@@ -535,8 +539,10 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 			if (cS_min != NULL) {
 				//TODO: an dieser Stelle sollte curvature condi getesten werden, damit nicht zuvor getrennt Segmente erneut verknuepft werden!!!!
 				connectSegments((*n), cS_min, arcs);
+#ifdef DEBUB_CURVE_GRP
 				csf << "Seg "<<(*n)->ID<<" mit Seg "<<cS_min->ID<<"-> kleinster Winkel: " << a_min << std::endl;
 				csf << "################ Zusammengefuegt ######################" << std::endl;
+#endif
 			}
 			cS_min = NULL;
 			a_min = 2 * PI;

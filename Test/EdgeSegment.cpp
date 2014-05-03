@@ -235,6 +235,70 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 	}
 }
 
+/*Test whether the segment should be splitted at P inregard to the length condition
+param
+	L1		point left to P
+	R1		point right to P
+return
+	true	segment must be splitted at P
+	false	else*/
+bool lengthCond(Point* L1, Point *P, Point *R1) {
+	Point *PL1, *PR1;
+	double lengthPL1, lengthPR1;
+	PL1 = &(*P - *L1);
+	PR1 = &(*P - *R1);
+	lengthPL1 = PL1->norm();
+	lengthPR1 = PR1->norm();
+	if (lengthPL1 > LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+/*Test whether the segment should be splitted at P in regard to the curvature condition
+param
+	L2		point before L1
+	L1		point before P
+	P		point before R1
+	R1		point after P
+return
+	true	segment should be splitted at P
+	fase	else
+	*/
+bool curvatureCond(Point *L2, Point *L1, Point *P, Point *R1) {
+	Point *r0, *r1, *r2;
+	double a1, a2, g1;
+	int d;
+
+	r0 = &(*L1 - *L2);
+	r1 = &(*P - *L2);
+	r2 = &(*R1 - *L2);
+	a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI);
+	a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI);
+	g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI);
+
+	d = (abs(a2 - a1) - g1) + .5;
+	if (d != 0 || (a2 - a1) < 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+/*Test whetherthe segment should be splitted at P in regard to the curvature condition
+param
+	L2		point before L1
+	L1		point before P
+	P		point before R1
+	R1		point after P
+	*/
+bool angleCond(Point *L2, Point *L1, Point *P, Point *R1, Point *R2) {
+
+}
+
 int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::fstream *csf) {
 	Point *lastSplit = NULL; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
 	Point *L1 = NULL, *L2 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL, *PL1 = NULL, *PR1 = NULL, *r0 = NULL
@@ -264,11 +328,12 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 		}
 
 		if (lSteps >= 1 && rSteps >= 1)	{ //length condition
-			PL1 = &(*P - *L1);
+			/*PL1 = &(*P - *L1);
 			PR1 = &(*P - *R1);
 			lengthPL1 = PL1->norm();
-			lengthPR1 = PR1->norm();
-			if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+			lengthPR1 = PR1->norm();*/
+			//if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+			if (lengthCond(L1,P,R1)) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif
@@ -283,15 +348,16 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 		}
 		//curvature condition left side
 		if (lSteps == 2 && rSteps >= 1) {
-			r0 = &(*L1 - *L2);
+			/*r0 = &(*L1 - *L2);
 			r1 = &(*P - *L2);
 			r2 = &(*R1 - *L2);
 			a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI);
 			a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI);
 			g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI);
 			 
-			d = (abs(a2 - a1)-g1) + .5;
-			if (d != 0 || (a2 - a1) < 0) {
+			d = (abs(a2 - a1)-g1) + .5;*/
+			//if (d != 0 || (a2 - a1) < 0) {
+			if (curvatureCond(L2,L1,P,R1)) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "curve cond left at: " << P->getX() << ", " << P->getY() << endl;
 #endif
@@ -307,15 +373,16 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 		}
 		//curvature condition right side
 		if (rSteps == 2 && lSteps >= 1){
-			r3 = &(*R1 - *R2);
+			/*r3 = &(*R1 - *R2);
 			r4 = &(*L1 - *R2);
 			r5 = &(*P - *R2);
 			a3 = acos((*r3 * *r5) / (r3->norm()* r5->norm()))*(180 / PI);
 			a4 = acos((*r3 * *r4) / (r3->norm()* r4->norm()))*(180 / PI);
 			g2 = acos((*r4 * *r5) / (r4->norm()* r5->norm()))*(180 / PI);
 
-			d = (abs(a4 - a3) - g2) + .5;
-			if (d !=0 || (a4 - a3) < 0) {
+			d = (abs(a4 - a3) - g2) + .5;*/
+			//if (d !=0 || (a4 - a3) < 0) {
+			if (curvatureCond(R2,R1,P,L1)) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "curve cond right at: " << P->getX() << ", " << P->getY() << endl;
 #endif
