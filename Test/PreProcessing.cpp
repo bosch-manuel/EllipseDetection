@@ -399,6 +399,91 @@ int edgeLinking(cv::Mat *edgeImage, std::list<Point*> *endPoints, std::list<Edge
 	return nSegs;
 }
 
+
+/*Test whether the segment should be splitted at P inregard to the length condition
+param
+L1		point left to P
+R1		point right to P
+return
+true	segment must be splitted at P
+false	else*/
+bool lengthCond(Point* L1, Point *P, Point *R1) {
+	Point *PL1, *PR1;
+	double lengthPL1, lengthPR1;
+	PL1 = &(*P - *L1);
+	PR1 = &(*P - *R1);
+	lengthPL1 = PL1->norm();
+	lengthPR1 = PR1->norm();
+	if (lengthPL1 > LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+/*Test whether the segment should be splitted at P in regard to the curvature condition
+param
+L2		point before L1
+L1		point before P
+P		point before R1
+R1		point after P
+return
+true	segment should be splitted at P
+fase	else
+*/
+bool curvatureCond(Point *L2, Point *L1, Point *P, Point *R1) {
+	Point *r0, *r1, *r2;
+	double a1, a2, g1;
+	int d;
+
+	r0 = &(*L1 - *L2);
+	r1 = &(*P - *L2);
+	r2 = &(*R1 - *L2);
+	a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm())) * 100;
+	a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm())) * 100;
+	g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm())) * 100;
+
+	d = (abs(a2 - a1) - g1) + .5;
+	if (d != 0 || (a2 - a1) < 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+/*Test whetherthe segment should be splitted at P in regard to the curvature condition
+param
+L2		point before L1
+L1		point before P
+P		point before R1
+R1		point after P
+R2		point after R1
+return
+true	segment should be splitted at P
+fase	else
+*/
+bool angleCond(Point *L2, Point *L1, Point *P, Point *R1, Point *R2) {
+	Point *r6, *r7, *r8, *r9;
+	double b3, b1, b2;
+	r6 = &(*L2 - *L1);
+	r7 = &(*P - *L1);
+	r8 = &(*P - *R1);
+	r9 = &(*R2 - *R1);
+
+	b3 = acos((*r6 * *r7) / (r6->norm()* r7->norm()));
+	b1 = acos((*r8 * *r9) / (r8->norm()* r9->norm()));
+	b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()));
+
+	if (abs(b1 - b2) > TH && abs(b3 - b2) > TH) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs) {
 #ifdef DEBUB_CURVE_SEG
 	std::fstream csf;
@@ -465,6 +550,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 	csf.open(CURVE_GRP_DEBUG, std::ios::out);
 #endif 
 	Point *nfirst = NULL, *nend = NULL, *mfirst = NULL, *mend = NULL, *N1 = NULL, *M1 = NULL, *N2 = NULL, *M2 = NULL, *r1 = NULL, *r2 = NULL;
+	Point *L1 = NULL, *L2 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL;
 	EdgeSegment *cS_min=NULL;
 	int order_min; //eS_min must be added in this order
 	int order_tmp;
@@ -495,24 +581,28 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 					d = std::min(std::min(mEnE, mEnB), std::min(mBnE, mBnB));
 					if (d>0 && d < D0) {
 						if (d == mEnE) {
+							order_tmp = END_END;
 							M1 = (*m)->getLastPoint();
 							N1 = (*n)->getLastPoint();
 							M2 = (*m)->getNextToLastPoint();
 							N2 = (*n)->getNextToLastPoint();
 						}
 						else if (d == mEnB) {
+							order_tmp = BEGIN_END;
 							M1 = (*m)->getLastPoint();
 							N1 = (*n)->getFirstPoint();
 							M2 = (*m)->getNextToLastPoint();
 							N2 = (*n)->getSecondPoint();
 						}
 						else if (d == mBnE) {
+							order_tmp = END_BEGIN;
 							M1 = (*m)->getFirstPoint();
 							N1 = (*n)->getLastPoint();
 							M2 = (*m)->getSecondPoint();
 							N2 = (*n)->getNextToLastPoint();
 						}
 						else if (d == mBnB) {
+							order_tmp = BEGIN_BEGIN;
 							M1 = (*m)->getFirstPoint();
 							N1 = (*n)->getFirstPoint();
 							M2 = (*m)->getSecondPoint();
@@ -528,6 +618,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 #endif
 						if (a_tmp < a_min) {
 							//current angle between n and m is the smallest so far, so keep it in mind
+							order_min = order_tmp;
 							a_min = a_tmp;
 							cS_min = (*m);
 						}
@@ -538,11 +629,14 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 			//group n with the curve segment which has the smallest angle between tangents
 			if (cS_min != NULL) {
 				//TODO: an dieser Stelle sollte curvature condi getesten werden, damit nicht zuvor getrennt Segmente erneut verknuepft werden!!!!
-				connectSegments((*n), cS_min, arcs);
+				//test curvature cond
+				if (!curvatureCond(M2, M1, N1, N2) && !curvatureCond(N2, N1, M1, M2)) {
+					connectSegments((*n), cS_min, arcs);
 #ifdef DEBUB_CURVE_GRP
-				csf << "Seg "<<(*n)->ID<<" mit Seg "<<cS_min->ID<<"-> kleinster Winkel: " << a_min << std::endl;
-				csf << "################ Zusammengefuegt ######################" << std::endl;
+					csf << "Seg " << (*n)->ID << " mit Seg " << cS_min->ID << "-> kleinster Winkel: " << a_min << std::endl;
+					csf << "################ Zusammengefuegt ######################" << std::endl;
 #endif
+				}
 			}
 			cS_min = NULL;
 			a_min = 2 * PI;

@@ -30,6 +30,10 @@
 /*Curve grouping*/
 #define DEBUB_CURVE_GRP
 #define D0 10/*max distance between neighbouring curve segments*/
+#define END_END 1
+#define END_BEGIN 2
+#define BEGIN_END 3
+#define BEGIN_BEGIN 4
 
 
 #endif

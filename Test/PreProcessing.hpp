@@ -38,6 +38,40 @@ int edgeLinking(cv::Mat *edge_image,std::list<Point*> *endPoints,std::list<EdgeS
   Based on Peter Kovesis findEndsJunctions*/
 int findEnds(std::list<Point*>*,cv::Mat*);
 
+/*Test whether the segment should be splitted at P inregard to the length condition
+param
+L1		point left to P
+R1		point right to P
+return
+true	segment must be splitted at P
+false	else*/
+bool lengthCond(Point* L1, Point *P, Point *R1);
+
+/*Test whether the segment should be splitted at P in regard to the curvature condition
+param
+L2		point before L1
+L1		point before P
+P		point before R1
+R1		point after P
+return
+true	segment should be splitted at P
+fase	else
+*/
+bool curvatureCond(Point *L2, Point *L1, Point *P, Point *R1);
+
+/*Test whetherthe segment should be splitted at P in regard to the curvature condition
+param
+L2		point before L1
+L1		point before P
+P		point before R1
+R1		point after P
+R2		point after R1
+return
+true	segment should be splitted at P
+fase	else
+*/
+bool angleCond(Point *L2, Point *L1, Point *P, Point *R1, Point *R2);
+
 /*Curve segmentation based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu*/
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs);
 
