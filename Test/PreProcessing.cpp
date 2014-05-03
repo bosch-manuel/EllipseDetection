@@ -525,8 +525,13 @@ void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2,std::set<EllipticalArc*>
 	if (arcS1 == NULL && arcS2 == NULL) {
 		//create new elliptical arc and add both segments
 		arcS1 = new EllipticalArc();
-		arcS1->addSegment(cS1);
-		arcS1->addSegment(cS2);
+		if (cS1 != NULL) {
+			arcS1->addSegment(cS1);
+		}
+		if (cS2 != NULL) {
+			arcS1->addSegment(cS2);
+		}
+		
 		arcs->insert(arcS1);
 	}
 	else if (arcS1 != NULL && arcS2 != NULL && arcS1 != arcS2) {
@@ -561,9 +566,9 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 	//search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
 	for (std::list<EdgeSegment*>::iterator n = curveSegs->begin(); n != curveSegs->end(); n++) {
 		if (*n != NULL) {
-			EllipticalArc *tmp = new EllipticalArc;
+			/*EllipticalArc *tmp = new EllipticalArc;
 			tmp->addSegment((*n));
-			arcs->insert(tmp);
+			arcs->insert(tmp);*/
 #ifdef DEBUB_CURVE_GRP
 			csf << "Seg " << (*n)->ID << std::endl;
 #endif
@@ -579,7 +584,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 					mBnE = (*mfirst - *nend).norm()+.5;
 					mBnB = (*mfirst - *nfirst).norm()+.5;
 					d = std::min(std::min(mEnE, mEnB), std::min(mBnE, mBnB));
-					if (d>0 && d < D0) {
+					if (/*d>0 &&*/ d < D0) {
 						if (d == mEnE) {
 							order_tmp = END_END;
 							M1 = (*m)->getLastPoint();
@@ -621,6 +626,10 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 							order_min = order_tmp;
 							a_min = a_tmp;
 							cS_min = (*m);
+							L2 = M2;
+							L1 = M1;
+							R1 = N1;
+							R2 = N2;
 						}
 					}
 				}
@@ -630,12 +639,15 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 			if (cS_min != NULL) {
 				//TODO: an dieser Stelle sollte curvature condi getesten werden, damit nicht zuvor getrennt Segmente erneut verknuepft werden!!!!
 				//test curvature cond
-				if (!curvatureCond(M2, M1, N1, N2) && !curvatureCond(N2, N1, M1, M2)) {
+				if (!curvatureCond(L2, L1, R1, R2) && !curvatureCond(R2, R1, L1, L2)) {
 					connectSegments((*n), cS_min, arcs);
 #ifdef DEBUB_CURVE_GRP
 					csf << "Seg " << (*n)->ID << " mit Seg " << cS_min->ID << "-> kleinster Winkel: " << a_min << std::endl;
 					csf << "################ Zusammengefuegt ######################" << std::endl;
 #endif
+				}
+				else {
+					connectSegments((*n), NULL, arcs);
 				}
 			}
 			cS_min = NULL;

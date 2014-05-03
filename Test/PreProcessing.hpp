@@ -1,7 +1,7 @@
 #ifndef PREPROCESSING_HPP
 #define PPEPROCESSING_HPP
 
-#include <opencv\cv.h>
+//#include <opencv\cv.h>
 #include <list>
 #include "EdgeSegment.h"
 #include "EllipticalArc.h"

@@ -169,6 +169,11 @@ int main(int argc, char** argv) {
 	for (set<EllipticalArc*>::iterator it = ellipticalArcs.begin(); it != ellipticalArcs.end(); it++){
 		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		(*it)->drawToImage(&arcImage, color);
+		char* arcs_window = "Elliptical Arcs";
+		cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
+		cv::imshow(arcs_window, arcImage);
+		cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
+		cv::waitKey(0);
 	}
 	char* arcs_window = "Elliptical Arcs";
 	cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
