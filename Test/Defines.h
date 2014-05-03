@@ -19,20 +19,17 @@
 
 /*Line segmentation*/
 #define MIN_LENGTH 10
-#define D_TOL 8
+#define D_TOL 4
 
 /*Curve segmentation*/
 #define DEBUB_CURVE_SEG
 #define LTH 4 /* if LTH* length of line 1 > length of line 2 or the other way round an edge segment will be splitted at their connection point P   */
 #define TH 40 /*max dif between angles of neighboring line segments  */
+#define NP 4 /*a curve segment must contain more than NP pixels otherwise it will be deleted*/
 
 /*Curve grouping*/
 #define DEBUB_CURVE_GRP
 #define D0 10/*max distance between neighbouring curve segments*/
-#define END_AT_END 0
-#define END_AT_BEGIN 1
-#define BEGIN_AT_END 2
-#define BEGIN_AT_BEGIN 3
 
 
 #endif

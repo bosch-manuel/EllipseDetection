@@ -130,32 +130,32 @@ Point* EdgeSegment::getSecondPoint() {
 	return *i;
 }
 
-void EdgeSegment::addSegment(EdgeSegment *seg, int order) {
-	switch (order) {
-	case END_AT_END:
-		for (std::list<Point*>::const_reverse_iterator i = seg->edgeList.rbegin(); i != seg->edgeList.rend(); i++)	{
-			edgeList.push_back(*i);
-		}
-		break;
-	case END_AT_BEGIN:
-		for (std::list<Point*>::const_reverse_iterator i = seg->edgeList.rbegin(); i != seg->edgeList.rend(); i++)	{
-			edgeList.push_front(*i);
-		}
-			break;
-	case BEGIN_AT_END:
-		for (std::list<Point*>::const_iterator i = seg->edgeList.begin(); i != seg->edgeList.end(); i++)	{
-			edgeList.push_back(*i);
-		}
-		break;
-	case BEGIN_AT_BEGIN:
-		for (std::list<Point*>::const_iterator i = seg->edgeList.begin(); i != seg->edgeList.end(); i++)	{
-			edgeList.push_front(*i);
-		}
-		break;
-	default:
-		break;
-	}
-}
+//void EdgeSegment::addSegment(EdgeSegment *seg, int order) {
+//	switch (order) {
+//	case END_AT_END:
+//		for (std::list<Point*>::const_reverse_iterator i = seg->edgeList.rbegin(); i != seg->edgeList.rend(); i++)	{
+//			edgeList.push_back(*i);
+//		}
+//		break;
+//	case END_AT_BEGIN:
+//		for (std::list<Point*>::const_reverse_iterator i = seg->edgeList.rbegin(); i != seg->edgeList.rend(); i++)	{
+//			edgeList.push_front(*i);
+//		}
+//			break;
+//	case BEGIN_AT_END:
+//		for (std::list<Point*>::const_iterator i = seg->edgeList.begin(); i != seg->edgeList.end(); i++)	{
+//			edgeList.push_back(*i);
+//		}
+//		break;
+//	case BEGIN_AT_BEGIN:
+//		for (std::list<Point*>::const_iterator i = seg->edgeList.begin(); i != seg->edgeList.end(); i++)	{
+//			edgeList.push_front(*i);
+//		}
+//		break;
+//	default:
+//		break;
+//	}
+//}
 
 int EdgeSegment::lineSegmentation(int d_tol) {
 	nLineSegs = 0;
@@ -215,13 +215,13 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 		}
 	}
 	else {
-		for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
+		/*for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[1] = color.val[1];
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[2] = color.val[2];
-		}
+		}*/
 		//draw the lines between the end points
-		/*std::list<Point*>::iterator a, a_1;
+		std::list<Point*>::iterator a, a_1;
 		cv::Point p1;
 		cv::Point p2;
 		a = edgeList.begin();
@@ -231,7 +231,7 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 			p2 = cv::Point((*a_1)->getX(), (*a_1)->getY());
 			cv::line(*image, p1, p2, c, 1, 8);
 
-		}*/
+		}
 	}
 }
 

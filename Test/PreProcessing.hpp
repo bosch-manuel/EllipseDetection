@@ -32,11 +32,11 @@ Copyright (c) 2006-2013 Peter Kovesi
 %
 % The Software is provided "as is", without warranty of any kind.
 */
-int edgeLinking(cv::Mat edge_image,std::list<Point*> *endPoints,std::list<EdgeSegment*> *segments);
+int edgeLinking(cv::Mat *edge_image,std::list<Point*> *endPoints,std::list<EdgeSegment*> *segments);
 
 /*Finds end points and junctions in the provied edge image
   Based on Peter Kovesis findEndsJunctions*/
-int findEnds(std::list<Point*>*,cv::Mat);
+int findEnds(std::list<Point*>*,cv::Mat*);
 
 /*Curve segmentation based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu*/
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs);

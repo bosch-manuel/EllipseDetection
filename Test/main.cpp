@@ -81,7 +81,7 @@ int main(int argc, char** argv) {
 
 
 	//find ends
-	int nEnds  = findEnds(&endPoints, edgeImage2);
+	int nEnds  = findEnds(&endPoints, &edgeImage2);
 
 	char* edge2_window = "Edges2";
 	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
@@ -91,7 +91,7 @@ int main(int argc, char** argv) {
 
 	//link edges
 	int nSegs = 0;
-	nSegs = edgeLinking(edgeImage2, &endPoints, &edgeSegments);
+	nSegs = edgeLinking(&edgeImage2, &endPoints, &edgeSegments);
 	printf("Ends: %d\nSegments: %d\n", nEnds,nSegs);
 
 #ifdef DEBUG_SHOW_EDGESEGS
@@ -138,6 +138,15 @@ int main(int argc, char** argv) {
 
 	//curve segmentation
 	int t=curveSegmentation(&edgeSegments,&curveSegments);
+
+	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end();)	{
+		if ((*it)->getLength() < NP) {
+			it = curveSegments.erase(it);
+		}
+		else{
+			it++;
+		}
+	}
 
 #ifdef DEBUB_CURVE_SEG
 	std::cout << "Curve Segments: " << t << std::endl;
