@@ -1,6 +1,7 @@
 #include "EdgeSegment.h"
 #include "Point.h"
 #include "Defines.h"
+#include "PreProcessing.hpp"
 #include <iostream>
 
 using namespace std;
@@ -235,69 +236,69 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 	}
 }
 
-/*Test whether the segment should be splitted at P inregard to the length condition
-param
-	L1		point left to P
-	R1		point right to P
-return
-	true	segment must be splitted at P
-	false	else*/
-bool lengthCond(Point* L1, Point *P, Point *R1) {
-	Point *PL1, *PR1;
-	double lengthPL1, lengthPR1;
-	PL1 = &(*P - *L1);
-	PR1 = &(*P - *R1);
-	lengthPL1 = PL1->norm();
-	lengthPR1 = PR1->norm();
-	if (lengthPL1 > LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
-		return true;
-	}
-	else {
-		return false;
-	}
-}
-
-/*Test whether the segment should be splitted at P in regard to the curvature condition
-param
-	L2		point before L1
-	L1		point before P
-	P		point before R1
-	R1		point after P
-return
-	true	segment should be splitted at P
-	fase	else
-	*/
-bool curvatureCond(Point *L2, Point *L1, Point *P, Point *R1) {
-	Point *r0, *r1, *r2;
-	double a1, a2, g1;
-	int d;
-
-	r0 = &(*L1 - *L2);
-	r1 = &(*P - *L2);
-	r2 = &(*R1 - *L2);
-	a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI);
-	a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI);
-	g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI);
-
-	d = (abs(a2 - a1) - g1) + .5;
-	if (d != 0 || (a2 - a1) < 0) {
-		return true;
-	}
-	else {
-		return false;
-	}
-}
-
-/*Test whetherthe segment should be splitted at P in regard to the curvature condition
-param
-	L2		point before L1
-	L1		point before P
-	P		point before R1
-	R1		point after P
-	*/
-bool angleCond(Point *L2, Point *L1, Point *P, Point *R1, Point *R2) {
-
-}
+///*Test whether the segment should be splitted at P inregard to the length condition
+//param
+//	L1		point left to P
+//	R1		point right to P
+//return
+//	true	segment must be splitted at P
+//	false	else*/
+//bool lengthCond(Point* L1, Point *P, Point *R1) {
+//	Point *PL1, *PR1;
+//	double lengthPL1, lengthPR1;
+//	PL1 = &(*P - *L1);
+//	PR1 = &(*P - *R1);
+//	lengthPL1 = PL1->norm();
+//	lengthPR1 = PR1->norm();
+//	if (lengthPL1 > LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
+//		return true;
+//	}
+//	else {
+//		return false;
+//	}
+//}
+//
+///*Test whether the segment should be splitted at P in regard to the curvature condition
+//param
+//	L2		point before L1
+//	L1		point before P
+//	P		point before R1
+//	R1		point after P
+//return
+//	true	segment should be splitted at P
+//	fase	else
+//	*/
+//bool curvatureCond(Point *L2, Point *L1, Point *P, Point *R1) {
+//	Point *r0, *r1, *r2;
+//	double a1, a2, g1;
+//	int d;
+//
+//	r0 = &(*L1 - *L2);
+//	r1 = &(*P - *L2);
+//	r2 = &(*R1 - *L2);
+//	a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI);
+//	a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI);
+//	g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI);
+//
+//	d = (abs(a2 - a1) - g1) + .5;
+//	if (d != 0 || (a2 - a1) < 0) {
+//		return true;
+//	}
+//	else {
+//		return false;
+//	}
+//}
+//
+///*Test whetherthe segment should be splitted at P in regard to the curvature condition
+//param
+//	L2		point before L1
+//	L1		point before P
+//	P		point before R1
+//	R1		point after P
+//	*/
+//bool angleCond(Point *L2, Point *L1, Point *P, Point *R1, Point *R2) {
+//
+//}
 
 int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::fstream *csf) {
 	Point *lastSplit = NULL; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
@@ -398,7 +399,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 		}
 		//angle condition
 		if (rSteps == 2 && lSteps == 2) {
-			r6 = &(*L2 - *L1);
+			/*r6 = &(*L2 - *L1);
 			r7 = &(*P - *L1);
 			r8 = &(*P - *R1);
 			r9 = &(*R2 - *R1);
@@ -407,7 +408,8 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			b1 = acos((*r8 * *r9) / (r8->norm()* r9->norm()))*(180 / PI);
 			b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()))*(180 / PI);
 
-			if (abs(b1 - b2) > TH && abs(b3 - b2) > TH) {
+			if (abs(b1 - b2) > TH && abs(b3 - b2) > TH) {*/
+			if (angleCond(L2,L1,P,R1,R2)) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "angle cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif

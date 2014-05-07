@@ -540,11 +540,11 @@ void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2,std::set<EllipticalArc*>
 		arcs->erase(arcS2);
 		delete(arcS2);
 	}
-	else if (arcS1 != NULL) {
+	else if (arcS1 != NULL && cS2!=NULL) {
 		//only segment cS1 is part of an arc, add cS2
 		arcS1->addSegment(cS2);
 	}
-	else if (arcS2 != NULL) {
+	else if (arcS2 != NULL && cS2!=NULL) {
 		arcS2->addSegment(cS1);
 	}
 }
@@ -646,9 +646,12 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 					csf << "################ Zusammengefuegt ######################" << std::endl;
 #endif
 				}
-				else {
+				else {// all segments must be contained in the arc segment set, even unconnected ones
 					connectSegments((*n), NULL, arcs);
 				}
+			}
+			else {// all segments must be contained in the arc segment set, even unconnected ones
+				connectSegments((*n), NULL, arcs);
 			}
 			cS_min = NULL;
 			a_min = 2 * PI;

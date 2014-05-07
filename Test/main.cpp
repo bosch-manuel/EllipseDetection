@@ -149,7 +149,7 @@ int main(int argc, char** argv) {
 	}
 
 #ifdef DEBUB_CURVE_SEG
-	std::cout << "Curve Segments: " << t << std::endl;
+	std::cout << "Curve Segments: " << t <<"Verwendete Segmente: "<<curveSegments.size()<< std::endl;
 	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		(*it)->drawToImage(&curveSegImage, color);
@@ -172,7 +172,7 @@ int main(int argc, char** argv) {
 		char* arcs_window = "Elliptical Arcs";
 		cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
 		cv::imshow(arcs_window, arcImage);
-		cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
+		//cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
 		cv::waitKey(0);
 	}
 	char* arcs_window = "Elliptical Arcs";
