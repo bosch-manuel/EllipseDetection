@@ -32,11 +32,11 @@ Copyright (c) 2006-2013 Peter Kovesi
 %
 % The Software is provided "as is", without warranty of any kind.
 */
-int edgeLinking(cv::Mat *edge_image,std::list<Point*> *endPoints,std::list<EdgeSegment*> *segments);
+int edgeLinking(cv::Mat *edge_image,std::list<Point*> *endPoints,std::list<EdgeSegment*> *segments,int*);
 
 /*Finds end points and junctions in the provied edge image
   Based on Peter Kovesis findEndsJunctions*/
-int findEnds(std::list<Point*>*,cv::Mat*);
+int findEnds(std::list<Point*>*,cv::Mat*,int*);
 
 /*Test whether the segment should be splitted at P inregard to the length condition
 param

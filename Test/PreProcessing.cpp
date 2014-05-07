@@ -166,7 +166,7 @@ int removeJunction(int r, int c, cv::Mat *edgeImage, std::list<Point*> *endPoint
 	return ends;
 }
 
-int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage) {
+int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage,int* edgeCnt) {
 #ifdef DEBUG
 	f.open(FINDENDS_DEBUG,std::ios::out);
 #endif
@@ -185,6 +185,7 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage) {
 			edgeThinning(r, c,edgeImage);
 			//(r,c) is an end point if within his 3x3 neighborhood exactly 2 pixels are set
 			if (edgeImage->at<uchar>(r, c) > 0) {
+				*edgeCnt=*edgeCnt+1;
 				crossings = checkNeighbors(r, c, edgeImage);
 #ifdef DEBUG
 				//printf("Gesetzt in Nachbarschaft von (%d,%d): %d \n",r,c, nSet);
@@ -192,6 +193,7 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage) {
 #endif
 				if (crossings == 0) {//isolated pixel, remove it
 					edgeImage->at<uchar>(r, c) = 0;
+					*edgeCnt = *edgeCnt - 1;
 #ifdef DEBUG
 					//printf("Isoliertes Pixel\n");
 					f << "Isoliertes Pixel" << std::endl;
@@ -206,6 +208,7 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage) {
 					ends++;
 				}else if (crossings > 5) {//junction, remove it and add adjacent pixels as endpoints
 					edgeImage->at<uchar>(r, c) = 0;
+					*edgeCnt = *edgeCnt - 1;
 					junctions++;
 #ifdef DEBUG
 					//printf("Junction Removed at (%d,%d) \n",r,c);
@@ -331,7 +334,7 @@ int getNextPoint(int *row, int *col,cv::Mat *edgeImage) {
 	return ret;
 }
 
-int edgeLinking(cv::Mat *edgeImage, std::list<Point*> *endPoints, std::list<EdgeSegment*> *segments) {
+int edgeLinking(cv::Mat *edgeImage, std::list<Point*> *endPoints, std::list<EdgeSegment*> *segments,int* edgeCnt) {
 #ifdef DEBUG
 	f.open(EDGE_DEBUG, std::ios::out);
 #endif
@@ -357,6 +360,7 @@ int edgeLinking(cv::Mat *edgeImage, std::list<Point*> *endPoints, std::list<Edge
 #endif
 				 es->push_backPoint(new Point(r, c));//add point to current segment
 				 edgeImage->at<uchar>(r, c) = 0; //delet current point
+				 *edgeCnt = *edgeCnt - 1;
 			 } while (!getNextPoint(&r, &c, edgeImage));
 			 segments->push_back(es);//end of edge reached; segment complete
 		 }
@@ -386,8 +390,12 @@ int edgeLinking(cv::Mat *edgeImage, std::list<Point*> *endPoints, std::list<Edge
 #endif
 					es->push_backPoint(new Point(r, c));//add point to current segment
 					edgeImage->at<uchar>(r, c) = 0; //delet current point
+					*edgeCnt = *edgeCnt - 1;
 				} while (!getNextPoint(&r, &c, edgeImage));
 				segments->push_back(es);//end of edge reached; segment complete
+			}
+			if (*edgeCnt < 1) {
+				return nSegs;
 			}
 		}
 	}
@@ -468,9 +476,15 @@ bool angleCond(Point *L2, Point *L1, Point *P, Point *R1, Point *R2) {
 	Point *r6, *r7, *r8, *r9;
 	double b3, b1, b2;
 	r6 = &(*L2 - *L1);
-	r7 = &(*P - *L1);
-	r8 = &(*P - *R1);
 	r9 = &(*R2 - *R1);
+	if (P != NULL) {
+		r7 = &(*P - *L1);
+		r8 = &(*P - *R1);
+	}
+	else {
+		r7 = r6;
+		r8 = r9;
+	}
 
 	b3 = acos((*r6 * *r7) / (r6->norm()* r7->norm()));
 	b1 = acos((*r8 * *r9) / (r8->norm()* r9->norm()));
@@ -639,7 +653,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 			if (cS_min != NULL) {
 				//TODO: an dieser Stelle sollte curvature condi getesten werden, damit nicht zuvor getrennt Segmente erneut verknuepft werden!!!!
 				//test curvature cond
-				if (!curvatureCond(L2, L1, R1, R2) && !curvatureCond(R2, R1, L1, L2)) {
+				if (!curvatureCond(L2, L1, R1, R2) && !curvatureCond(R2, R1, L1, L2) && !angleCond(L2,L1,NULL,R1,R2)) {
 					connectSegments((*n), cS_min, arcs);
 #ifdef DEBUB_CURVE_GRP
 					csf << "Seg " << (*n)->ID << " mit Seg " << cS_min->ID << "-> kleinster Winkel: " << a_min << std::endl;

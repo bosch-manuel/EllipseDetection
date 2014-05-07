@@ -1,5 +1,6 @@
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
+#include <ctime>
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -42,11 +43,13 @@ int main(int argc, char** argv) {
 	
 	//cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat src = cv::imread("..\\Test.png", CV_LOAD_IMAGE_GRAYSCALE);
-	//cv::Mat src = cv::imread("..\\t.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	 //cv::Mat src = cv::imread("..\\bloederFall1.png", CV_LOAD_IMAGE_GRAYSCALE);
+	//cv::Mat src = cv::imread("..\\TestBild2.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
 	cv::RNG rng(12353);
-	
+	clock_t start, end,time;
+		
 	/*test.at<uchar>(0, 0) = 255;
 	test.at<uchar>(5, 6) = 255;
 	test.at<uchar>(5, 7) = 255;*/
@@ -62,6 +65,7 @@ int main(int argc, char** argv) {
 	list<Point*> endPoints;
 	list<EdgeSegment*> curveSegments;
 	set<EllipticalArc*> ellipticalArcs;
+	int edgeCnt=0;
 
 
 	// Create Window
@@ -70,8 +74,12 @@ int main(int argc, char** argv) {
 	cv::namedWindow(source_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(source_window, src);
 
+	start = clock();
 	//detect edges
 	edgeDetection(src, edgeImage, 100, 150, 3);
+	end = clock();
+	time = (end - start);
+	cout << "Laufzeit edgeDetection: " << time << " ms" << endl;
 
 	char* edge_window = "Edges";
 	cv::namedWindow(edge_window, CV_WINDOW_AUTOSIZE);
@@ -81,7 +89,11 @@ int main(int argc, char** argv) {
 
 
 	//find ends
-	int nEnds  = findEnds(&endPoints, &edgeImage2);
+	start = clock();
+	int nEnds  = findEnds(&endPoints, &edgeImage2,&edgeCnt);
+	end = clock();
+	time = (end - start);
+	cout << "Laufzeit findEnds: " << time << " ms" << endl;
 
 	char* edge2_window = "Edges2";
 	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
@@ -91,7 +103,11 @@ int main(int argc, char** argv) {
 
 	//link edges
 	int nSegs = 0;
-	nSegs = edgeLinking(&edgeImage2, &endPoints, &edgeSegments);
+	start = clock();
+	nSegs = edgeLinking(&edgeImage2, &endPoints, &edgeSegments,&edgeCnt);
+	end = clock();
+	time = (end - start);
+	cout << "Laufzeit edgeLinking: " << time << " ms" << endl;
 	printf("Ends: %d\nSegments: %d\n", nEnds,nSegs);
 
 #ifdef DEBUG_SHOW_EDGESEGS
@@ -114,6 +130,7 @@ int main(int argc, char** argv) {
 
 	//line segmentation for each Edge segment
 	list<EdgeSegment*>::iterator it;
+	start = clock();
 	for (it=edgeSegments.begin(); it!=edgeSegments.end();)	{
 		if ((*it)->getLength() > MIN_LENGTH) {
 			(*it)->lineSegmentation(D_TOL);
@@ -122,6 +139,9 @@ int main(int argc, char** argv) {
 			it=edgeSegments.erase(it);
 		}
 	}
+	end = clock();
+	time = (end - start);
+	cout << "Laufzeit lineSegmentation: " << time << " ms" << endl;
 
 #ifdef DEBUG_SHOW_LINESEGMENTEDEDGES
 	std::cout << "Gültige Segmente: " << edgeSegments.size() << std::endl;
@@ -137,7 +157,11 @@ int main(int argc, char** argv) {
 #endif
 
 	//curve segmentation
+	start = clock();
 	int t=curveSegmentation(&edgeSegments,&curveSegments);
+	end = clock();
+	time = (end - start);
+	cout << "Laufzeit curveSegmentation: " << time << " ms" << endl;
 
 	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end();)	{
 		if ((*it)->getLength() < NP) {
@@ -161,7 +185,11 @@ int main(int argc, char** argv) {
 #endif
 
 	//curve grouping
+	start = clock();
 	int nArcs=curveGrouping(&curveSegments, &ellipticalArcs);
+	end = clock();
+	time = (end - start);
+	cout << "Laufzeit curveGrouping: " << time << " ms" << endl;
 
 #ifdef DEBUB_CURVE_GRP
 	cout << "Elliptical Arcs: " << nArcs << endl;
@@ -169,11 +197,11 @@ int main(int argc, char** argv) {
 	for (set<EllipticalArc*>::iterator it = ellipticalArcs.begin(); it != ellipticalArcs.end(); it++){
 		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		(*it)->drawToImage(&arcImage, color);
-		char* arcs_window = "Elliptical Arcs";
+		/*char* arcs_window = "Elliptical Arcs";
 		cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
-		cv::imshow(arcs_window, arcImage);
+		cv::imshow(arcs_window, arcImage);*/
 		//cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
-		cv::waitKey(0);
+		//cv::waitKey(0);
 	}
 	char* arcs_window = "Elliptical Arcs";
 	cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
