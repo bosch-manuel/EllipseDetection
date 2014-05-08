@@ -571,7 +571,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 	csf.open(CURVE_GRP_DEBUG, std::ios::out);
 #endif 
 	Point *nfirst = NULL, *nend = NULL, *mfirst = NULL, *mend = NULL, *N1 = NULL, *M1 = NULL, *N2 = NULL, *M2 = NULL, *r1 = NULL, *r2 = NULL;
-	Point *L1 = NULL, *L2 = NULL, *L3 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL;
+	Point *L1 = NULL, *L2 = NULL, *L3 = NULL, *R1 = NULL, *R2 = NULL, *R3 = NULL;
 	EdgeSegment *cS_min = NULL;
 	int order_min; //eS_min must be added in this order
 	int order_tmp;
@@ -665,16 +665,28 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 						L3 = (*i);
 					}
 				}
+				s = 0;
+				//get third point of n
+				if (order_min == END_END || order_min == END_BEGIN){
+					for (std::list<Point*>::const_reverse_iterator i = (*n)->crbegin(); i != (*n)->crend() && s < 3; i++, s++)	{
+						R3 = (*i);
+					}
+				}
+				else if (order_min == BEGIN_BEGIN || order_min == BEGIN_END) {
+					for (std::list<Point*>::const_iterator i = (*n)->cbegin(); i != (*n)->cend() && s < 3; i++, s++)	{
+						R3 = (*i);
+					}
+				}
 
-				if (!angleCond(L3, L2, L1, R1, R2)&& !curvatureCond(L2,L1,R1,R2) && !curvatureCond(R2,R1,L2,L1)) {
+				if (angleCond(L3, L2, L1, R1, R2) || (curvatureCond(L3, L2, L1, R1) || curvatureCond(R3,R2, R1, L1))) {
+					connectSegments((*n), NULL, arcs);// all segments must be contained in the arc segment set, even unconnected ones
+				}
+				else {
 					connectSegments((*n), cS_min, arcs);
 #ifdef DEBUB_CURVE_GRP
 					csf << "Seg " << (*n)->ID << " mit Seg " << cS_min->ID << "-> kleinster Winkel: " << a_min << std::endl;
 					csf << "################ Zusammengefuegt ######################" << std::endl;
 #endif
-				}
-				else {// all segments must be contained in the arc segment set, even unconnected ones
-					connectSegments((*n), NULL, arcs);
 				}
 			}
 			else {// all segments must be contained in the arc segment set, even unconnected ones
