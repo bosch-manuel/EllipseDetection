@@ -1,26 +1,8 @@
-lenght cond at: 400, 406
-curve cond left at: 401, 406
-curve cond left at: 403, 408
-curve cond left at: 406, 409
-lenght cond at: 460, 420
-curve cond right at: 438, 421
-lenght cond at: 444, 421
-curve cond left at: 445, 422
-curve cond right at: 530, 143
-lenght cond at: 543, 166
-lenght cond at: 545, 168
-curve cond left at: 559, 167
-lenght cond at: 644, 233
-lenght cond at: 643, 235
-curve cond left at: 646, 247
-curve cond right at: 480, 422
-curve cond right at: 452, 423
-curve cond left at: 428, 432
-curve cond left at: 255, 387
-lenght cond at: 174, 423
-curve cond left at: 168, 422
-lenght cond at: 165, 424
-curve cond left at: 221, 161
-lenght cond at: 225, 159
-curve cond left at: 238, 139
-lenght cond at: 376, 68
+curve cond right at: 234, 145
+curve cond left at: 225, 160
+curve cond right at: 221, 162
+curve cond left at: 253, 386
+lenght cond at: 547, 173
+curve cond left at: 545, 171
+curve cond left at: 545, 170
+lenght cond at: 460, 422

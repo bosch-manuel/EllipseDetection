@@ -107,6 +107,22 @@ double maxlinedev(list<Point*>::iterator *start, list<Point*>::iterator *end) {
 	return maxDev;
 }
 
+list<Point*>::const_iterator EdgeSegment::cbegin() {
+	return edgeList.cbegin();
+}
+
+list<Point*>::const_iterator EdgeSegment::cend() {
+	return edgeList.cend();
+}
+
+list<Point*>::const_reverse_iterator EdgeSegment::crbegin() {
+	return edgeList.crbegin();
+}
+
+list<Point*>::const_reverse_iterator EdgeSegment::crend() {
+	return edgeList.crend();
+}
+
 Point* EdgeSegment::getFirstPoint(){
 	return edgeList.front();
 }
@@ -114,7 +130,7 @@ Point* EdgeSegment::getFirstPoint(){
 Point* EdgeSegment::getLastPoint(){
 	return edgeList.back();
 }
-
+//
 Point* EdgeSegment::getNextToLastPoint() {
 	list<Point*>::reverse_iterator i = edgeList.rbegin();
 	if (i != edgeList.rend()) {
@@ -123,6 +139,15 @@ Point* EdgeSegment::getNextToLastPoint() {
 	return *i;
 }
 
+//Point* EdgeSegment::getNextToNextToLastPoint() {
+//	list<Point*>::reverse_iterator i = edgeList.rbegin();
+//	if (i != edgeList.rend()) {
+//		i++;
+//		i++;
+//	}
+//	return *i;
+//}
+
 Point* EdgeSegment::getSecondPoint() {
 	list<Point*>::iterator i = edgeList.begin();
 	if (i != edgeList.end()) {
@@ -130,6 +155,15 @@ Point* EdgeSegment::getSecondPoint() {
 	}
 	return *i;
 }
+
+//Point* EdgeSegment::getThirdPoint() {
+//	list<Point*>::iterator i = edgeList.begin();
+//	if (i != edgeList.end()) {
+//		i++;
+//		i++;
+//	}
+//	return *i;
+//}
 
 //void EdgeSegment::addSegment(EdgeSegment *seg, int order) {
 //	switch (order) {

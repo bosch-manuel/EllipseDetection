@@ -24,7 +24,7 @@
 /*Curve segmentation*/
 #define DEBUB_CURVE_SEG
 #define LTH 4 /* if LTH* length of line 1 > length of line 2 or the other way round an edge segment will be splitted at their connection point P   */
-#define TH 40 /*max dif between angles of neighboring line segments  */
+#define TH .698 /*40 max dif between angles of neighboring line segments (in radian)  */
 #define NP 4 /*a curve segment must contain more than NP pixels otherwise it will be deleted*/
 
 /*Curve grouping*/

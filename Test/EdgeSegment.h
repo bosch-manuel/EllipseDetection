@@ -27,6 +27,14 @@ public:
 	/*true if Segment has already been segmented into lines*/
 	int getType();
 
+	std::list<Point*>::const_iterator cbegin();
+
+	std::list<Point*>::const_iterator cend();
+
+	std::list<Point*>::const_reverse_iterator crbegin();
+
+	std::list<Point*>::const_reverse_iterator crend();
+
 	Point* getFirstPoint();
 
 	Point* getLastPoint();

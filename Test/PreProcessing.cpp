@@ -21,15 +21,15 @@ int edgeDetection(cv::Mat input_image, cv::Mat edge_image, int lowThreshold, int
 
 /*Removes needless pixels in a 2x2 neighbourhood, so that an edge in this area will have a width of only one pixel
 param:
-	r	row of the upper left pixel
-	c	column of the upper left pixel*/
-void edgeThinning(int r, int c,cv::Mat *image) {
+r	row of the upper left pixel
+c	column of the upper left pixel*/
+void edgeThinning(int r, int c, cv::Mat *image) {
 	uchar p[4]; //represents the values of pixels in the 2x2 neightbourhood
 	if (r + 1 < image->rows && c + 1 < image->cols) {
 		p[0] = image->at<uchar>(r, c);
-		p[1] = image->at<uchar>(r, c+1);
-		p[2] = image->at<uchar>(r+1, c);
-		p[3] = image->at<uchar>(r+1, c+1);
+		p[1] = image->at<uchar>(r, c + 1);
+		p[2] = image->at<uchar>(r + 1, c);
+		p[3] = image->at<uchar>(r + 1, c + 1);
 
 		if (p[0] && p[1] && p[2] && p[3]) { //case e
 			image->at<uchar>(r + 1, c) = 0;
@@ -50,15 +50,15 @@ void edgeThinning(int r, int c,cv::Mat *image) {
 	}
 }
 
-int checkNeighbors(int r, int c,cv::Mat *edgeImage) {
-	int r1, r2, r3, c1, c2, c3, crossings,rows,cols;
+int checkNeighbors(int r, int c, cv::Mat *edgeImage) {
+	int r1, r2, r3, c1, c2, c3, crossings, rows, cols;
 	// | 1 | 8 | 7 |
 	//	--- --- ---
 	// | 2 | x | 6 |
 	//  --- --- ---
 	// | 3 | 4 | 5 |
 	uchar a[8] = { 0 };
-	uchar b[8] = {0};
+	uchar b[8] = { 0 };
 	crossings = 0;
 	rows = edgeImage->rows;
 	cols = edgeImage->cols;
@@ -66,12 +66,12 @@ int checkNeighbors(int r, int c,cv::Mat *edgeImage) {
 	r1 = r - 1; r2 = r; r3 = r + 1;
 	c1 = c - 1; c2 = c; c3 = c + 1;
 	//first row
-	if (r1>-1) {
-		if ((c1 > -1) && edgeImage->at<uchar>(r1, c1)>0){
+	if (r1 > -1) {
+		if ((c1 > -1) && edgeImage->at<uchar>(r1, c1) > 0){
 			a[0] = 1;
 			b[7] = 1;
 		}
-		if (edgeImage->at<uchar>(r1, c2)>0){
+		if (edgeImage->at<uchar>(r1, c2) > 0){
 			a[7] = 1;
 			b[6] = 1;
 		}
@@ -81,7 +81,7 @@ int checkNeighbors(int r, int c,cv::Mat *edgeImage) {
 		}
 	}
 
-	if ((c1 > -1) && edgeImage->at<uchar>(r, c1)>0){
+	if ((c1 > -1) && edgeImage->at<uchar>(r, c1) > 0){
 		a[1] = 1;
 		b[0] = 1;
 	}
@@ -91,11 +91,11 @@ int checkNeighbors(int r, int c,cv::Mat *edgeImage) {
 	}
 
 	if (r3<rows) {
-		if ((c1 > -1) && edgeImage->at<uchar>(r3, c1)>0){
+		if ((c1 > -1) && edgeImage->at<uchar>(r3, c1) > 0){
 			a[2] = 1;
 			b[1] = 1;
 		}
-		if (edgeImage->at<uchar>(r3, c2)>0){
+		if (edgeImage->at<uchar>(r3, c2) > 0){
 			a[3] = 1;
 			b[2] = 1;
 		}
@@ -115,7 +115,7 @@ int checkNeighbors(int r, int c,cv::Mat *edgeImage) {
 
 /*Removes a Junction an adds all pixel above it as end point*/
 int removeJunction(int r, int c, cv::Mat *edgeImage, std::list<Point*> *endPoints) {
-	int r1, r2, r3, c1, c2, c3, rows, cols,ends;
+	int r1, r2, r3, c1, c2, c3, rows, cols, ends;
 	int value = 255;
 	ends = 0;
 	rows = edgeImage->rows;
@@ -124,7 +124,7 @@ int removeJunction(int r, int c, cv::Mat *edgeImage, std::list<Point*> *endPoint
 	r1 = r - 1; r2 = r; r3 = r + 1;
 	c1 = c - 1; c2 = c; c3 = c + 1;
 	//first row
-	if (r1>-1) { 
+	if (r1 > -1) {
 		if ((c1 > -1) && edgeImage->at<uchar>(r1, c1) == EDGEPOINT){
 			endPoints->push_back(new Point(r1, c1));
 			edgeImage->at<uchar>(r1, c1) = ENDPOINT;
@@ -166,7 +166,7 @@ int removeJunction(int r, int c, cv::Mat *edgeImage, std::list<Point*> *endPoint
 	return ends;
 }
 
-int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage,int* edgeCnt) {
+int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage, int* edgeCnt) {
 #ifdef DEBUG
 	f.open(FINDENDS_DEBUG,std::ios::out);
 #endif
@@ -176,16 +176,16 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage,int* edgeCnt) {
 	rows = edgeImage->rows;
 	cols = edgeImage->cols;
 	int crossings = 0;
-	int ends=0;
+	int ends = 0;
 	int junctions = 0;
 
 	for (int r = 0; r < rows; r++) {
 		for (int c = 0; c < cols; c++) {
 			//thinn part of the edge
-			edgeThinning(r, c,edgeImage);
+			edgeThinning(r, c, edgeImage);
 			//(r,c) is an end point if within his 3x3 neighborhood exactly 2 pixels are set
 			if (edgeImage->at<uchar>(r, c) > 0) {
-				*edgeCnt=*edgeCnt+1;
+				*edgeCnt = *edgeCnt + 1;
 				crossings = checkNeighbors(r, c, edgeImage);
 #ifdef DEBUG
 				//printf("Gesetzt in Nachbarschaft von (%d,%d): %d \n",r,c, nSet);
@@ -198,7 +198,8 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage,int* edgeCnt) {
 					//printf("Isoliertes Pixel\n");
 					f << "Isoliertes Pixel" << std::endl;
 #endif
-				}else if (crossings == 2) {//end point found, save it
+				}
+				else if (crossings == 2) {//end point found, save it
 					//endPointsImage.at<uchar>(r, c)=value;
 					edgeImage->at<uchar>(r, c) = ENDPOINT;
 					endPoints->push_back(new Point(r, c));
@@ -206,7 +207,8 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage,int* edgeCnt) {
 					f << "End Point:  " << r << " , " << c << std::endl;
 #endif
 					ends++;
-				}else if (crossings > 5) {//junction, remove it and add adjacent pixels as endpoints
+				}
+				else if (crossings > 5) {//junction, remove it and add adjacent pixels as endpoints
 					edgeImage->at<uchar>(r, c) = 0;
 					*edgeCnt = *edgeCnt - 1;
 					junctions++;
@@ -214,7 +216,7 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage,int* edgeCnt) {
 					//printf("Junction Removed at (%d,%d) \n",r,c);
 					f << "Junction Removed  " << r << " , " << c << std::endl;
 #endif
-					ends += removeJunction( r,  c, edgeImage, endPoints);
+					ends += removeJunction(r, c, edgeImage, endPoints);
 				}
 				crossings = 0;
 			}
@@ -234,9 +236,9 @@ int findEnds(std::list<Point*> *endPoints, cv::Mat *edgeImage,int* edgeCnt) {
 }
 /*Searches the next edge point to Point(row,col)
 return	0 if a point was found, r and c contain the coordinates of the next point;
-		-1 when no point was found*/
-int getNextPoint(int *row, int *col,cv::Mat *edgeImage) {
-	int r,c,r1, r2, r3, c1, c2, c3, ret, rows, cols;
+-1 when no point was found*/
+int getNextPoint(int *row, int *col, cv::Mat *edgeImage) {
+	int r, c, r1, r2, r3, c1, c2, c3, ret, rows, cols;
 	ret = -1;
 	r = *row;
 	c = *col;
@@ -254,9 +256,9 @@ int getNextPoint(int *row, int *col,cv::Mat *edgeImage) {
 		<< "		(" << r3 << ", " << c1 << ")" << "(" << r3 << ", " << c2 << ")" << "(" << r3 << ", " << c3 << ")"  << std::endl;
 #endif
 	//first row
-	if (r1>-1) {
-		if ((c1 > -1) && edgeImage->at<uchar>(r1, c1)>0){
-			ret=0;
+	if (r1 > -1) {
+		if ((c1 > -1) && edgeImage->at<uchar>(r1, c1) > 0){
+			ret = 0;
 			*row = r1;
 			*col = c1;
 #ifdef DEBUG
@@ -264,7 +266,7 @@ int getNextPoint(int *row, int *col,cv::Mat *edgeImage) {
 #endif
 			return 0;
 		}
-		if (edgeImage->at<uchar>(r1, c2)>0){
+		if (edgeImage->at<uchar>(r1, c2) > 0){
 			ret = 0;
 			*row = r1;
 			*col = c2;
@@ -283,7 +285,7 @@ int getNextPoint(int *row, int *col,cv::Mat *edgeImage) {
 			return 0;
 		}
 	}
-	if ((c1 > -1) && edgeImage->at<uchar>(r, c1)>0){
+	if ((c1 > -1) && edgeImage->at<uchar>(r, c1) > 0){
 		ret = 0;
 		*row = r;
 		*col = c1;
@@ -302,7 +304,7 @@ int getNextPoint(int *row, int *col,cv::Mat *edgeImage) {
 		return 0;
 	}
 	if (r3<rows) {
-		if ((c1 > -1) && edgeImage->at<uchar>(r3, c1)>0){
+		if ((c1 > -1) && edgeImage->at<uchar>(r3, c1) > 0){
 			ret = 0;
 			*row = r3;
 			*col = c1;
@@ -311,7 +313,7 @@ int getNextPoint(int *row, int *col,cv::Mat *edgeImage) {
 #endif
 			return 0;
 		}
-		if (edgeImage->at<uchar>(r3, c2)>0){
+		if (edgeImage->at<uchar>(r3, c2) > 0){
 			ret = 0;
 			*row = r3;
 			*col = c2;
@@ -334,7 +336,7 @@ int getNextPoint(int *row, int *col,cv::Mat *edgeImage) {
 	return ret;
 }
 
-int edgeLinking(cv::Mat *edgeImage, std::list<Point*> *endPoints, std::list<EdgeSegment*> *segments,int* edgeCnt) {
+int edgeLinking(cv::Mat *edgeImage, std::list<Point*> *endPoints, std::list<EdgeSegment*> *segments, int* edgeCnt) {
 #ifdef DEBUG
 	f.open(EDGE_DEBUG, std::ios::out);
 #endif
@@ -343,27 +345,27 @@ int edgeLinking(cv::Mat *edgeImage, std::list<Point*> *endPoints, std::list<Edge
 	int r, c, nSegs;
 	EdgeSegment *es;
 	nSegs = 0;
-	for (it=endPoints->begin(); it!=endPoints->end(); it++)	{
-		 r = (*it)->getY();
-		 c = (*it)->getX();
-		 //check if point is not already connected (=still set in edgeImage)
-		 if (edgeImage->at<uchar>(r, c)>0) {
+	for (it = endPoints->begin(); it != endPoints->end(); it++)	{
+		r = (*it)->getY();
+		c = (*it)->getX();
+		//check if point is not already connected (=still set in edgeImage)
+		if (edgeImage->at<uchar>(r, c) > 0) {
 #ifdef DEBUG
-			 f <<std::endl<< "Neues Segment ab: " << r << ", " << c << std::endl;
+			f <<std::endl<< "Neues Segment ab: " << r << ", " << c << std::endl;
 #endif
-			 es = new EdgeSegment();
-			 nSegs++;
-			 //trace until the end of the edge
-			 do {
+			es = new EdgeSegment();
+			nSegs++;
+			//trace until the end of the edge
+			do {
 #ifdef DEBUG
-				 f << " -->(" << r << "," << c <<") ";
+				f << " -->(" << r << "," << c <<") ";
 #endif
-				 es->push_backPoint(new Point(r, c));//add point to current segment
-				 edgeImage->at<uchar>(r, c) = 0; //delet current point
-				 *edgeCnt = *edgeCnt - 1;
-			 } while (!getNextPoint(&r, &c, edgeImage));
-			 segments->push_back(es);//end of edge reached; segment complete
-		 }
+				es->push_backPoint(new Point(r, c));//add point to current segment
+				edgeImage->at<uchar>(r, c) = 0; //delet current point
+				*edgeCnt = *edgeCnt - 1;
+			} while (!getNextPoint(&r, &c, edgeImage));
+			segments->push_back(es);//end of edge reached; segment complete
+		}
 
 	}
 
@@ -506,8 +508,8 @@ int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*>
 
 	//check every edge segment
 	int nCurvSegs = 0;
-	for (std::list<EdgeSegment*>::const_iterator i = edgeSegs->begin(); i!=edgeSegs->end() ; i++) {
-		nCurvSegs+=(*i)->curveSegmentation(curveSegs,&csf);
+	for (std::list<EdgeSegment*>::const_iterator i = edgeSegs->begin(); i != edgeSegs->end(); i++) {
+		nCurvSegs += (*i)->curveSegmentation(curveSegs, &csf);
 	}
 
 #ifdef DEBUB_CURVE_SEG
@@ -520,12 +522,12 @@ int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*>
 /*Connects two curve segments and groups them in one elliptical arc
 if the segmenst are still grouped in a elliptical arc, the arcs will be joined
 param:
-	cS1		curve segment 1
-	cS2		curve segment 2
-	arcs	set of existing elliptical arcs
-	*/
-void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2,std::set<EllipticalArc*> *arcs) {
-	EllipticalArc* arcS1=NULL,*arcS2=NULL;
+cS1		curve segment 1
+cS2		curve segment 2
+arcs	set of existing elliptical arcs
+*/
+void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2, std::set<EllipticalArc*> *arcs) {
+	EllipticalArc* arcS1 = NULL, *arcS2 = NULL;
 	for (std::set<EllipticalArc*>::iterator i = arcs->begin(); i != arcs->end(); i++)	{
 		if ((*i)->containsSegment(cS1)) {
 			arcS1 = (*i);
@@ -545,7 +547,7 @@ void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2,std::set<EllipticalArc*>
 		if (cS2 != NULL) {
 			arcS1->addSegment(cS2);
 		}
-		
+
 		arcs->insert(arcS1);
 	}
 	else if (arcS1 != NULL && arcS2 != NULL && arcS1 != arcS2) {
@@ -554,11 +556,11 @@ void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2,std::set<EllipticalArc*>
 		arcs->erase(arcS2);
 		delete(arcS2);
 	}
-	else if (arcS1 != NULL && cS2!=NULL) {
+	else if (arcS1 != NULL && cS2 != NULL) {
 		//only segment cS1 is part of an arc, add cS2
 		arcS1->addSegment(cS2);
 	}
-	else if (arcS2 != NULL && cS2!=NULL) {
+	else if (arcS2 != NULL && cS2 != NULL) {
 		arcS2->addSegment(cS1);
 	}
 }
@@ -569,13 +571,13 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 	csf.open(CURVE_GRP_DEBUG, std::ios::out);
 #endif 
 	Point *nfirst = NULL, *nend = NULL, *mfirst = NULL, *mend = NULL, *N1 = NULL, *M1 = NULL, *N2 = NULL, *M2 = NULL, *r1 = NULL, *r2 = NULL;
-	Point *L1 = NULL, *L2 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL;
-	EdgeSegment *cS_min=NULL;
+	Point *L1 = NULL, *L2 = NULL, *L3 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL;
+	EdgeSegment *cS_min = NULL;
 	int order_min; //eS_min must be added in this order
 	int order_tmp;
-	int d;
-	int mEnE, mEnB, mBnE, mBnB;
-	double a_min = 2*PI,a_tmp;
+	int d, s = 0;
+	int nEmE, nEmB, nBmE, nBmB;
+	double a_min = 2 * PI, a_tmp;
 	//neightbourhood curve grouping:
 	//search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
 	for (std::list<EdgeSegment*>::iterator n = curveSegs->begin(); n != curveSegs->end(); n++) {
@@ -593,34 +595,34 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 					mfirst = (*m)->getFirstPoint();
 					mend = (*m)->getLastPoint();
 					//calc distance between n and m
-					mEnE = (*mend - *nend).norm()+.5;
-					mEnB = (*mend - *nfirst).norm()+.5;
-					mBnE = (*mfirst - *nend).norm()+.5;
-					mBnB = (*mfirst - *nfirst).norm()+.5;
-					d = std::min(std::min(mEnE, mEnB), std::min(mBnE, mBnB));
-					if (/*d>0 &&*/ d < D0) {
-						if (d == mEnE) {
+					nEmE/*mEnE*/ = (*mend - *nend).norm() + .5;
+					nBmE/*mEnB*/ = (*mend - *nfirst).norm() + .5;
+					nEmB/*mBnE*/ = (*mfirst - *nend).norm() + .5;
+					nBmB/*mBnB*/ = (*mfirst - *nfirst).norm() + .5;
+					d = std::min(std::min(nEmE, nBmE), std::min(nEmB, nBmB));
+					if (d>0 && d < D0) {
+						if (d == nEmE) {
 							order_tmp = END_END;
 							M1 = (*m)->getLastPoint();
 							N1 = (*n)->getLastPoint();
 							M2 = (*m)->getNextToLastPoint();
 							N2 = (*n)->getNextToLastPoint();
 						}
-						else if (d == mEnB) {
+						else if (d == nBmE) {
 							order_tmp = BEGIN_END;
 							M1 = (*m)->getLastPoint();
 							N1 = (*n)->getFirstPoint();
 							M2 = (*m)->getNextToLastPoint();
 							N2 = (*n)->getSecondPoint();
 						}
-						else if (d == mBnE) {
+						else if (d == nEmB) {
 							order_tmp = END_BEGIN;
 							M1 = (*m)->getFirstPoint();
 							N1 = (*n)->getLastPoint();
 							M2 = (*m)->getSecondPoint();
 							N2 = (*n)->getNextToLastPoint();
 						}
-						else if (d == mBnB) {
+						else if (d == nBmB) {
 							order_tmp = BEGIN_BEGIN;
 							M1 = (*m)->getFirstPoint();
 							N1 = (*n)->getFirstPoint();
@@ -633,7 +635,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 						r2 = &(*N2 - *N1);
 						a_tmp = acos((*r1 * *r2) / (r1->norm()* r2->norm()));
 #ifdef DEBUB_CURVE_GRP
-						csf << "Abstand: "<<d<<"  Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() <<") ::"<<a_tmp<<std::endl ;
+						csf << "Abstand: " << d << "  Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() << ") ::" << a_tmp << std::endl;
 #endif
 						if (a_tmp < a_min) {
 							//current angle between n and m is the smallest so far, so keep it in mind
@@ -651,9 +653,20 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 
 			//group n with the curve segment which has the smallest angle between tangents
 			if (cS_min != NULL) {
-				//TODO: an dieser Stelle sollte curvature condi getesten werden, damit nicht zuvor getrennt Segmente erneut verknuepft werden!!!!
-				//test curvature cond
-				if (!curvatureCond(L2, L1, R1, R2) && !curvatureCond(R2, R1, L1, L2) && !angleCond(L2,L1,NULL,R1,R2)) {
+				s = 0;
+				//get third point of cS_min in regard to connection order (order_min)
+				if (order_min == END_END || order_min==BEGIN_END){
+					for (std::list<Point*>::const_reverse_iterator i = cS_min->crbegin(); i != cS_min->crend() && s < 3; i++, s++)	{
+						L3 = (*i);
+					}
+				}
+				else if (order_min == BEGIN_BEGIN || order_min == END_BEGIN) {
+					for (std::list<Point*>::const_iterator i = cS_min->cbegin(); i != cS_min->cend() && s < 3; i++, s++)	{
+						L3 = (*i);
+					}
+				}
+
+				if (!angleCond(L3, L2, L1, R1, R2)&& !curvatureCond(L2,L1,R1,R2) && !curvatureCond(R2,R1,L2,L1)) {
 					connectSegments((*n), cS_min, arcs);
 #ifdef DEBUB_CURVE_GRP
 					csf << "Seg " << (*n)->ID << " mit Seg " << cS_min->ID << "-> kleinster Winkel: " << a_min << std::endl;
