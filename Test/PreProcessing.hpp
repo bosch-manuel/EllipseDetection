@@ -72,6 +72,8 @@ fase	else
 */
 bool angleCond(Point *L2, Point *L1, Point *P, Point *R1, Point *R2);
 
+void evaluateCurvature(std::list<EdgeSegment*>*segments);
+
 /*Curve segmentation based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu*/
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs);
 

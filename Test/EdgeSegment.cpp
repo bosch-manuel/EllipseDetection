@@ -11,14 +11,14 @@ int EdgeSegment::id_cnt = 0;
 EdgeSegment::EdgeSegment()
 : type(LSEG_EDGE)
 , nLineSegs(-1)
-,ID(++id_cnt){
+, ID(++id_cnt){
 	edgeList.clear();
 }
 
 EdgeSegment::EdgeSegment(int type)
 : type(type)
 , nLineSegs(-1)
-,ID(++id_cnt){
+, ID(++id_cnt){
 	edgeList.clear();
 }
 
@@ -254,7 +254,7 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[1] = color.val[1];
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[2] = color.val[2];
-		}*/
+			}*/
 		//draw the lines between the end points
 		std::list<Point*>::iterator a, a_1;
 		cv::Point p1;
@@ -334,12 +334,47 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 //
 //}
 
+bool EdgeSegment::evaluateCurvature() {
+	Point *l1, *l2, *P1, *P2, *P3;
+	double b1, b2;
+	b1 = -1;
+	if (type == CURVESEG && edgeList.size() > 2) {
+		std::list<Point*>::const_iterator i = edgeList.begin();
+		std::list<Point*>::const_iterator j = ++i;
+		for (std::list<Point*>::const_iterator k = ++j; k != edgeList.end(); k++)	{
+			P1 = (*i);
+			P2 = (*j);
+			P3 = (*k);
+			l1 = &(*P2 - *P1);
+			l2 = &(*P2 - *P3);
+
+			b2 = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
+			if (b1 != -1){
+				//calc dif
+				if (abs(b1 - b2) > TH /*|| b1<B_MIN || b1>B_MAX*/) {
+					return false;
+				}
+			}
+
+			i = j;
+			j = k;
+			b1 = b2;
+		}
+
+	}
+	else {
+		return false;
+	}
+
+	return true;
+}
+
 int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::fstream *csf) {
 	Point *lastSplit = NULL; // Point where the last segmentation has taken place, all points left to lastSplit must not be considered for any further segmentation
 	Point *L1 = NULL, *L2 = NULL, *R1 = NULL, *R2 = NULL, *P = NULL, *PL1 = NULL, *PR1 = NULL, *r0 = NULL
 		, *r1 = NULL, *r2 = NULL, *r3 = NULL, *r4 = NULL, *r5 = NULL, *r6 = NULL, *r7 = NULL, *r8 = NULL, *r9 = NULL;
 	list<Point*>::const_iterator i, l, r;
-	int d,lSteps, rSteps, lengthPL1, lengthPR1 = 0;
+	int d, lSteps, rSteps, lengthPL1, lengthPR1 = 0;
 	int nCurvSegs = 0;
 	double a1 = 0, a2 = 0, a3 = 0, a4 = 0, g1 = 0, g2 = 0, b1 = 0, b2 = 0, b3 = 0;
 	EdgeSegment *cS = NULL;
@@ -358,7 +393,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			lSteps == 0 ? L1 = *l : L2 = *l;
 		}
 
-		for (rSteps = -1, r = i; r != edgeList.end() &&/* *r != lastSplit &&*/ rSteps<2; r++, rSteps++) {
+		for (rSteps = -1, r = i; r != edgeList.end() &&/* *r != lastSplit &&*/ rSteps < 2; r++, rSteps++) {
 			rSteps == 0 ? R1 = *r : R2 = *r;
 		}
 
@@ -368,7 +403,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			lengthPL1 = PL1->norm();
 			lengthPR1 = PR1->norm();*/
 			//if (lengthPL1>LTH* lengthPR1 || lengthPR1 > LTH* lengthPL1) {
-			if (lengthCond(L1,P,R1)) {
+			if (lengthCond(L1, P, R1)) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif
@@ -389,10 +424,10 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			a1 = acos((*r0 * *r1) / (r0->norm()* r1->norm()))*(180 / PI);
 			a2 = acos((*r0 * *r2) / (r0->norm()* r2->norm()))*(180 / PI);
 			g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm()))*(180 / PI);
-			 
+
 			d = (abs(a2 - a1)-g1) + .5;*/
 			//if (d != 0 || (a2 - a1) < 0) {
-			if (curvatureCond(L2,L1,P,R1)) {
+			if (curvatureCond(L2, L1, P, R1)) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "curve cond left at: " << P->getX() << ", " << P->getY() << endl;
 #endif
@@ -417,7 +452,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 
 			d = (abs(a4 - a3) - g2) + .5;*/
 			//if (d !=0 || (a4 - a3) < 0) {
-			if (curvatureCond(R2,R1,P,L1)) {
+			if (curvatureCond(R2, R1, P, L1)) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "curve cond right at: " << P->getX() << ", " << P->getY() << endl;
 #endif
@@ -443,7 +478,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 			b2 = acos((*r7 * *r8) / (r7->norm()* r8->norm()))*(180 / PI);
 
 			if (abs(b1 - b2) > TH && abs(b3 - b2) > TH) {*/
-			if (angleCond(L2,L1,P,R1,R2)) {
+			if (angleCond(L2, L1, P, R1, R2)) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << "angle cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif

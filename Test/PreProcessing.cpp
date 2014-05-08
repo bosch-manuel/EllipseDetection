@@ -500,9 +500,11 @@ bool angleCond(Point *L2, Point *L1, Point *P, Point *R1, Point *R2) {
 	}
 }
 
+
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs) {
-#ifdef DEBUB_CURVE_SEG
 	std::fstream csf;
+#ifdef DEBUB_CURVE_SEG
+	
 	csf.open(CURVE_SEG_DEBUG, std::ios::out);
 #endif 
 
