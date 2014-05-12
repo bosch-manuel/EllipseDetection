@@ -1,0 +1,47 @@
+Seg 446
+Abstand: 6  Winkel an Enden: M1(472,138) M2(453,134) und N1(468,134) N2(476,134) ::0.207496
+Abstand: 9  Winkel an Enden: M1(474,141) M2(459,176) und N1(468,134) N2(476,134) ::1.1659
+Seg 450
+Seg 454
+Abstand: 4  Winkel an Enden: M1(488,137) M2(519,143) und N1(484,136) N2(530,124) ::2.69523
+Seg 463
+Abstand: 4  Winkel an Enden: M1(484,136) M2(530,124) und N1(488,137) N2(519,143) ::2.69523
+Abstand: 6  Winkel an Enden: M1(636,213) M2(619,225) und N1(633,208) N2(615,192) ::1.80029
+Abstand: 9  Winkel an Enden: M1(638,215) M2(656,236) und N1(633,208) N2(615,192) ::0.135528
+Seg 463 mit Seg 491-> kleinster Winkel: 0.135528
+################ Zusammengefuegt ######################
+Seg 465
+Abstand: 6  Winkel an Enden: M1(468,134) M2(476,134) und N1(472,138) N2(453,134) ::0.207496
+Abstand: 4  Winkel an Enden: M1(474,141) M2(459,176) und N1(472,138) N2(453,134) ::1.76819
+Seg 478
+Abstand: 9  Winkel an Enden: M1(468,134) M2(476,134) und N1(474,141) N2(459,176) ::1.1659
+Abstand: 4  Winkel an Enden: M1(472,138) M2(453,134) und N1(474,141) N2(459,176) ::1.76819
+Seg 480
+Abstand: 2  Winkel an Enden: M1(765,188) M2(787,192) und N1(763,188) N2(724,186) ::0.128616
+Abstand: 2  Winkel an Enden: M1(764,190) M2(781,249) und N1(763,188) N2(724,186) ::1.23902
+Seg 480 mit Seg 483-> kleinster Winkel: 0.128616
+################ Zusammengefuegt ######################
+Seg 483
+Abstand: 2  Winkel an Enden: M1(763,188) M2(724,186) und N1(765,188) N2(787,192) ::0.128616
+Abstand: 2  Winkel an Enden: M1(764,190) M2(781,249) und N1(765,188) N2(787,192) ::2.03119
+Seg 483 mit Seg 480-> kleinster Winkel: 0.128616
+################ Zusammengefuegt ######################
+Seg 485
+Abstand: 2  Winkel an Enden: M1(763,188) M2(724,186) und N1(764,190) N2(781,249) ::1.23902
+Abstand: 2  Winkel an Enden: M1(765,188) M2(787,192) und N1(764,190) N2(781,249) ::2.03119
+Seg 488
+Abstand: 6  Winkel an Enden: M1(633,208) M2(615,192) und N1(636,213) N2(619,225) ::1.80029
+Abstand: 3  Winkel an Enden: M1(638,215) M2(656,236) und N1(636,213) N2(619,225) ::1.47683
+Seg 491
+Abstand: 9  Winkel an Enden: M1(633,208) M2(615,192) und N1(638,215) N2(656,236) ::0.135528
+Abstand: 3  Winkel an Enden: M1(636,213) M2(619,225) und N1(638,215) N2(656,236) ::1.47683
+Seg 491 mit Seg 463-> kleinster Winkel: 0.135528
+################ Zusammengefuegt ######################
+Seg 494
+Seg 498
+Seg 506
+Abstand: 3  Winkel an Enden: M1(666,444) M2(657,458) und N1(668,442) N2(695,450) ::1.28751
+Seg 509
+Seg 512
+Abstand: 3  Winkel an Enden: M1(668,442) M2(695,450) und N1(666,444) N2(657,458) ::1.28751
+Seg 520

@@ -43,9 +43,10 @@ int main(int argc, char** argv) {
 	
 	//cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\Test.png", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat src = cv::imread("..\\Ellipsen.png", CV_LOAD_IMAGE_GRAYSCALE);
 	 //cv::Mat src = cv::imread("..\\bloederFall1.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\TestBild2.jpg", CV_LOAD_IMAGE_GRAYSCALE);
-	cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
 	cv::RNG rng(12353);
 	clock_t start, end,time;
@@ -169,7 +170,7 @@ int main(int argc, char** argv) {
 	cout << "Laufzeit curveSegmentation: " << time << " ms" << endl;
 
 	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end();)	{
-		if ((*it)->getLength() < NP || !(*it)->evaluateCurvature()) {
+		if ((*it)->getLength() < NP /*|| !(*it)->evaluateCurvature()*/) {
 			it = curveSegments.erase(it);
 		}
 		else{
@@ -182,10 +183,16 @@ int main(int argc, char** argv) {
 	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		(*it)->drawToImage(&curveSegImage, color);
+		/*char* curveSegments_window = "Curve Segments";
+		cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
+		cv::imshow(curveSegments_window, curveSegImage);
+		cout << (*it)->ID << endl;
+		cv::waitKey(0);*/
 	}
 	char* curveSegments_window = "Curve Segments";
 	cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(curveSegments_window, curveSegImage);
+	//cv::waitKey(0);
 	cv::imwrite("..\\curveSegments.jpg", curveSegImage);
 #endif
 
@@ -202,11 +209,11 @@ int main(int argc, char** argv) {
 	for (set<EllipticalArc*>::iterator it = ellipticalArcs.begin(); it != ellipticalArcs.end(); it++){
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
 		(*it)->drawToImage(&arcImage, color);
-		/*char* arcs_window = "Elliptical Arcs";
+		char* arcs_window = "Elliptical Arcs";
 		cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
-		cv::imshow(arcs_window, arcImage);*/
+		cv::imshow(arcs_window, arcImage);
 		//cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
-		//cv::waitKey(0);
+		cv::waitKey(0);
 	}
 	char* arcs_window = "Elliptical Arcs";
 	cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
