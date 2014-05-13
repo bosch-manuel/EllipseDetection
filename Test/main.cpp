@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
 	
 	//cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\Test.png", CV_LOAD_IMAGE_GRAYSCALE);
-	cv::Mat src = cv::imread("..\\Ellipsen.png", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat src = cv::imread("..\\mehrEllipsen.png", CV_LOAD_IMAGE_GRAYSCALE);
 	 //cv::Mat src = cv::imread("..\\bloederFall1.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\TestBild2.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
@@ -183,11 +183,11 @@ int main(int argc, char** argv) {
 	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		(*it)->drawToImage(&curveSegImage, color);
-		/*char* curveSegments_window = "Curve Segments";
+		char* curveSegments_window = "Curve Segments";
 		cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
 		cv::imshow(curveSegments_window, curveSegImage);
 		cout << (*it)->ID << endl;
-		cv::waitKey(0);*/
+		cv::waitKey(0);
 	}
 	char* curveSegments_window = "Curve Segments";
 	cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);

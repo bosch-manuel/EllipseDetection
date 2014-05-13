@@ -455,7 +455,7 @@ bool curvatureCond(Point *L2, Point *L1, Point *P, Point *R1) {
 	g1 = acos((*r1 * *r2) / (r1->norm()* r2->norm())) * 100;
 
 	d = (abs(a2 - a1) - g1) + .5;
-	if (d != 0 || (a2 - a1) < 0) {
+	if (d != 0 || (a2 - a1) < A_TOL*100) {
 		return true;
 	}
 	else {
@@ -680,7 +680,7 @@ int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *
 					}
 				}
 
-				if (angleCond(L3, L2, L1, R1, R2)/* || (curvatureCond(L3, L2, L1, R1) || curvatureCond(R3,R2, R1, L1))*/) {
+				if (angleCond(L3, L2, L1, R1, R2) || angleCond(R3, R2, R1, L1, L2) ||curvatureCond(R1,L1,L2,L3) || curvatureCond(L1,R1,R2,R3)) {
 					connectSegments((*n), NULL, arcs);// all segments must be contained in the arc segment set, even unconnected ones
 				}
 				else {
