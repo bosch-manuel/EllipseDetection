@@ -1,55 +1,27 @@
-Seg 31
-Abstand: 4  Winkel an Enden: M1(325,52) M2(319,48) und N1(328,55) N2(339,63) ::0.0407937
-Seg 31 mit Seg 93-> kleinster Winkel: 0.0407937
+Seg 7
+Abstand: 2  Winkel an Enden: M1(455,152) M2(459,134) und N1(453,152) N2(441,141) ::2.09407
+Abstand: 4  Winkel an Enden: M1(456,154) M2(469,171) und N1(453,152) N2(441,141) ::0.176002
+Seg 7 mit Seg 27-> kleinster Winkel: 0.176002
 ################ Zusammengefuegt ######################
-Seg 46
-Abstand: 6  Winkel an Enden: M1(461,113) M2(479,125) und N1(463,107) N2(468,103) ::1.87885
-Abstand: 3  Winkel an Enden: M1(522,76) M2(513,72) und N1(523,79) N2(502,85) ::2.44507
-Abstand: 3  Winkel an Enden: M1(522,76) M2(575,74) und N1(523,79) N2(502,85) ::0.240582
-Seg 49
-Abstand: 6  Winkel an Enden: M1(463,107) M2(468,103) und N1(461,113) N2(479,125) ::1.87885
-Seg 52
-Seg 57
-Abstand: 2  Winkel an Enden: M1(215,90) M2(204,110) und N1(215,88) N2(187,107) ::2.66984
-Abstand: 9  Winkel an Enden: M1(207,265) M2(236,279) und N1(200,260) N2(178,242) ::0.23597
-Seg 59
-Abstand: 2  Winkel an Enden: M1(215,88) M2(187,107) und N1(215,90) N2(204,110) ::2.66984
-Seg 61
-Abstand: 6  Winkel an Enden: M1(580,110) M2(607,112) und N1(574,110) N2(554,113) ::0.222829
-Abstand: 5  Winkel an Enden: M1(579,111) M2(580,112) und N1(574,110) N2(554,113) ::0.934288
-Seg 61 mit Seg 112-> kleinster Winkel: 0.222829
+Seg 9
+Seg 19
+Abstand: 2  Winkel an Enden: M1(453,152) M2(441,141) und N1(455,152) N2(459,134) ::2.09407
+Abstand: 2  Winkel an Enden: M1(456,154) M2(469,171) und N1(455,152) N2(459,134) ::0.871516
+Seg 22
+Seg 24
+Abstand: 9  Winkel an Enden: M1(257,306) M2(269,310) und N1(248,303) N2(254,317) ::2.29744
+Seg 27
+Abstand: 4  Winkel an Enden: M1(453,152) M2(441,141) und N1(456,154) N2(469,171) ::0.176002
+Abstand: 2  Winkel an Enden: M1(455,152) M2(459,134) und N1(456,154) N2(469,171) ::0.871516
+Seg 27 mit Seg 7-> kleinster Winkel: 0.176002
 ################ Zusammengefuegt ######################
-Seg 66
-Abstand: 2  Winkel an Enden: M1(589,237) M2(574,251) und N1(589,235) N2(590,234) ::0.0344691
-Seg 67
-Abstand: 2  Winkel an Enden: M1(484,223) M2(462,240) und N1(484,221) N2(464,209) ::1.94328
-Seg 75
-Abstand: 6  Winkel an Enden: M1(373,273) M2(401,266) und N1(370,268) N2(374,258) ::2.19628
-Seg 77
-Abstand: 2  Winkel an Enden: M1(484,221) M2(464,209) und N1(484,223) N2(462,240) ::1.94328
-Abstand: 6  Winkel an Enden: M1(370,268) M2(374,258) und N1(373,273) N2(401,266) ::2.19628
-Seg 86
-Abstand: 9  Winkel an Enden: M1(200,260) M2(178,242) und N1(207,265) N2(236,279) ::0.23597
-Seg 90
-Seg 92
-Seg 93
-Abstand: 4  Winkel an Enden: M1(328,55) M2(339,63) und N1(325,52) N2(319,48) ::0.0407937
-Abstand: 1  Winkel an Enden: M1(280,41) M2(279,41) und N1(281,40) N2(294,40) ::0
-Seg 95
-Abstand: 3  Winkel an Enden: M1(523,79) M2(502,85) und N1(522,76) N2(513,72) ::2.44507
-Seg 96
-Abstand: 3  Winkel an Enden: M1(523,79) M2(502,85) und N1(522,76) N2(575,74) ::0.240582
-Seg 98
-Abstand: 2  Winkel an Enden: M1(589,235) M2(590,234) und N1(589,237) N2(574,251) ::0.0344691
-Seg 102
-Seg 106
-Seg 111
-Abstand: 1  Winkel an Enden: M1(281,40) M2(294,40) und N1(280,41) N2(279,41) ::0
-Seg 112
-Abstand: 6  Winkel an Enden: M1(574,110) M2(554,113) und N1(580,110) N2(607,112) ::0.222829
-Abstand: 1  Winkel an Enden: M1(579,111) M2(580,112) und N1(580,110) N2(607,112) ::2.43013
-Seg 112 mit Seg 61-> kleinster Winkel: 0.222829
+Seg 33
+Abstand: 2  Winkel an Enden: M1(424,233) M2(408,233) und N1(426,232) N2(468,232) ::0
+Seg 33 mit Seg 37-> kleinster Winkel: 0
 ################ Zusammengefuegt ######################
-Seg 115
-Abstand: 5  Winkel an Enden: M1(574,110) M2(554,113) und N1(579,111) N2(580,112) ::0.934288
-Abstand: 1  Winkel an Enden: M1(580,110) M2(607,112) und N1(579,111) N2(580,112) ::2.43013
+Seg 34
+Abstand: 9  Winkel an Enden: M1(248,303) M2(254,317) und N1(257,306) N2(269,310) ::2.29744
+Seg 37
+Abstand: 2  Winkel an Enden: M1(426,232) M2(468,232) und N1(424,233) N2(408,233) ::0
+Seg 37 mit Seg 33-> kleinster Winkel: 0
+################ Zusammengefuegt ######################

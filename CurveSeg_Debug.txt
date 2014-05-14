@@ -1,71 +1,2268 @@
-lenght cond at: 288, 61
-curve cond right at: 270, 65
-lenght cond at: 260, 69
-lenght cond at: 298, 71
-lenght cond at: 313, 71
-lenght cond at: 314, 72
-lenght cond at: 325, 72
-lenght cond at: 326, 73
-lenght cond at: 334, 73
-lenght cond at: 335, 74
-lenght cond at: 342, 74
-angle cond at: 343, 75
-lenght cond at: 230, 73
-lenght cond at: 223, 83
-angle cond at: 463, 107
-angle cond at: 460, 110
-lenght cond at: 461, 113
-angle cond at: 496, 211
-curve cond left at: 487, 221
-angle cond at: 509, 231
-angle cond at: 577, 238
-lenght cond at: 586, 237
-lenght cond at: 574, 108
-lenght cond at: 200, 260
-lenght cond at: 199, 253
-angle cond at: 530, 134
-angle cond at: 539, 145
-lenght cond at: 549, 150
-curve cond left at: 607, 153
-angle cond at: 612, 170
-curve cond right at: 439, 137
-lenght cond at: 456, 113
-lenght cond at: 455, 110
-angle cond at: 423, 95
-angle cond at: 380, 82
-lenght cond at: 355, 77
-lenght cond at: 353, 79
-angle cond at: 361, 90
-lenght cond at: 370, 268
-lenght cond at: 373, 273
-lenght cond at: 210, 276
-curve cond right at: 212, 278
-lenght cond at: 218, 278
-lenght cond at: 219, 279
-lenght cond at: 227, 279
-angle cond at: 228, 280
-lenght cond at: 246, 282
-angle cond at: 246, 284
-curve cond right at: 268, 291
-lenght cond at: 256, 286
-lenght cond at: 325, 52
-angle cond at: 362, 49
-lenght cond at: 522, 76
-curve cond right at: 599, 236
-lenght cond at: 589, 237
-angle cond at: 398, 307
-lenght cond at: 362, 307
-lenght cond at: 361, 306
-curve cond right at: 347, 306
-curve cond right at: 223, 299
-lenght cond at: 212, 281
-lenght cond at: 209, 278
-angle cond at: 173, 272
-lenght cond at: 206, 75
-lenght cond at: 212, 75
-lenght cond at: 213, 74
-angle cond at: 220, 74
-curve cond right at: 226, 73
-curve cond right at: 607, 149
-angle cond at: 599, 133
-lenght cond at: 586, 117
+lenght cond at: 18, 19
+curve cond left at: 39, 31
+curve cond right at: 47, 33
+angle cond at: 53, 28
+lenght cond at: 58, 26
+curve cond right at: 203, 19
+curve cond left at: 208, 19
+angle cond at: 211, 17
+lenght cond at: 6, 28
+lenght cond at: 13, 28
+angle cond at: 14, 29
+lenght cond at: 1239, 29
+lenght cond at: 1737, 67
+curve cond right at: 1669, 88
+lenght cond at: 1074, 89
+angle cond at: 1075, 90
+curve cond right at: 1077, 102
+angle cond at: 1078, 103
+lenght cond at: 1083, 103
+lenght cond at: 1024, 105
+lenght cond at: 1035, 105
+lenght cond at: 1338, 110
+curve cond right at: 1355, 109
+lenght cond at: 1354, 110
+lenght cond at: 1347, 110
+lenght cond at: 1367, 113
+lenght cond at: 1226, 114
+lenght cond at: 1224, 117
+lenght cond at: 1039, 118
+angle cond at: 1040, 119
+lenght cond at: 1177, 124
+lenght cond at: 1441, 124
+lenght cond at: 1177, 126
+angle cond at: 1178, 127
+lenght cond at: 1146, 126
+lenght cond at: 1159, 126
+angle cond at: 1160, 127
+lenght cond at: 971, 128
+lenght cond at: 977, 128
+angle cond at: 978, 129
+lenght cond at: 1051, 130
+curve cond right at: 1345, 130
+angle cond at: 1346, 131
+lenght cond at: 1351, 131
+lenght cond at: 977, 131
+lenght cond at: 1009, 132
+lenght cond at: 1180, 135
+lenght cond at: 1275, 135
+lenght cond at: 1284, 135
+lenght cond at: 1237, 136
+lenght cond at: 1238, 137
+lenght cond at: 1248, 137
+lenght cond at: 923, 138
+lenght cond at: 1115, 138
+lenght cond at: 1175, 137
+lenght cond at: 1176, 138
+lenght cond at: 1187, 138
+lenght cond at: 1277, 140
+lenght cond at: 1283, 143
+lenght cond at: 1731, 150
+lenght cond at: 1741, 150
+lenght cond at: 1166, 150
+lenght cond at: 1267, 153
+lenght cond at: 1907, 157
+lenght cond at: 1130, 158
+lenght cond at: 1516, 160
+lenght cond at: 1453, 168
+angle cond at: 1452, 169
+lenght cond at: 1842, 169
+angle cond at: 1843, 170
+lenght cond at: 1107, 173
+lenght cond at: 1114, 173
+lenght cond at: 1332, 173
+lenght cond at: 565, 179
+curve cond right at: 1723, 179
+angle cond at: 1724, 180
+lenght cond at: 1415, 181
+lenght cond at: 1030, 184
+lenght cond at: 1037, 184
+lenght cond at: 1038, 185
+lenght cond at: 1045, 185
+angle cond at: 1046, 186
+curve cond right at: 1041, 187
+lenght cond at: 1042, 188
+lenght cond at: 1048, 188
+angle cond at: 1049, 189
+lenght cond at: 1506, 193
+lenght cond at: 1373, 191
+lenght cond at: 1489, 193
+curve cond right at: 1538, 195
+curve cond left at: 1534, 195
+angle cond at: 1533, 196
+lenght cond at: 1672, 197
+lenght cond at: 1683, 197
+lenght cond at: 1523, 200
+lenght cond at: 1221, 200
+lenght cond at: 1228, 200
+lenght cond at: 179, 204
+lenght cond at: 170, 204
+lenght cond at: 1340, 203
+lenght cond at: 1346, 203
+angle cond at: 1461, 206
+curve cond left at: 1467, 204
+curve cond left at: 1470, 204
+lenght cond at: 1251, 204
+lenght cond at: 1436, 204
+lenght cond at: 1375, 205
+angle cond at: 1376, 206
+lenght cond at: 1494, 207
+lenght cond at: 1511, 208
+lenght cond at: 1347, 211
+lenght cond at: 1420, 211
+lenght cond at: 1409, 212
+lenght cond at: 703, 211
+lenght cond at: 712, 211
+lenght cond at: 1143, 212
+lenght cond at: 176, 218
+lenght cond at: 1384, 222
+curve cond right at: 1733, 221
+curve cond left at: 1729, 221
+lenght cond at: 1924, 228
+lenght cond at: 1969, 241
+curve cond right at: 1979, 244
+curve cond left at: 1981, 244
+curve cond left at: 1982, 243
+lenght cond at: 209, 250
+lenght cond at: 1392, 252
+lenght cond at: 204, 253
+lenght cond at: 248, 255
+angle cond at: 249, 256
+curve cond right at: 689, 256
+curve cond left at: 693, 256
+angle cond at: 694, 257
+lenght cond at: 965, 260
+lenght cond at: 968, 263
+lenght cond at: 1269, 259
+lenght cond at: 1351, 260
+lenght cond at: 1606, 269
+curve cond right at: 1007, 277
+lenght cond at: 1013, 291
+lenght cond at: 1025, 321
+lenght cond at: 1027, 322
+angle cond at: 1031, 334
+curve cond left at: 1035, 341
+angle cond at: 1031, 374
+lenght cond at: 1031, 382
+angle cond at: 1030, 383
+lenght cond at: 1030, 388
+lenght cond at: 1039, 266
+lenght cond at: 1050, 266
+curve cond right at: 889, 270
+curve cond right at: 884, 273
+angle cond at: 1505, 287
+lenght cond at: 1133, 286
+lenght cond at: 1142, 286
+curve cond right at: 1908, 290
+curve cond left at: 1907, 292
+lenght cond at: 1340, 291
+lenght cond at: 1990, 295
+curve cond right at: 1376, 298
+angle cond at: 1377, 299
+lenght cond at: 1055, 300
+lenght cond at: 1061, 300
+curve cond right at: 1374, 301
+curve cond left at: 1377, 301
+lenght cond at: 847, 314
+lenght cond at: 1387, 305
+lenght cond at: 1451, 308
+curve cond right at: 645, 305
+curve cond left at: 650, 305
+lenght cond at: 1440, 310
+curve cond right at: 853, 326
+curve cond left at: 854, 332
+curve cond left at: 857, 336
+lenght cond at: 73, 316
+lenght cond at: 79, 316
+curve cond left at: 846, 341
+curve cond right at: 844, 342
+angle cond at: 843, 341
+curve cond right at: 1424, 320
+angle cond at: 1425, 321
+lenght cond at: 97, 319
+lenght cond at: 105, 319
+lenght cond at: 1310, 330
+lenght cond at: 98, 333
+lenght cond at: 105, 333
+angle cond at: 106, 334
+curve cond right at: 1660, 333
+angle cond at: 1661, 334
+lenght cond at: 1227, 340
+lenght cond at: 1314, 342
+curve cond right at: 879, 384
+lenght cond at: 1151, 347
+lenght cond at: 1108, 348
+angle cond at: 1109, 349
+lenght cond at: 1383, 348
+lenght cond at: 1204, 351
+lenght cond at: 1272, 350
+lenght cond at: 1474, 350
+curve cond right at: 1548, 351
+angle cond at: 1547, 350
+lenght cond at: 1149, 350
+lenght cond at: 1159, 350
+lenght cond at: 1160, 351
+lenght cond at: 1166, 351
+lenght cond at: 1191, 353
+lenght cond at: 1197, 353
+lenght cond at: 1326, 354
+curve cond left at: 854, 441
+curve cond right at: 852, 443
+angle cond at: 851, 442
+lenght cond at: 1225, 356
+lenght cond at: 1347, 356
+angle cond at: 1348, 357
+curve cond right at: 1484, 363
+curve cond left at: 1486, 363
+curve cond left at: 1487, 364
+lenght cond at: 1261, 364
+angle cond at: 1262, 365
+lenght cond at: 1391, 368
+lenght cond at: 1392, 369
+lenght cond at: 1399, 369
+curve cond right at: 1400, 370
+curve cond left at: 1405, 370
+lenght cond at: 1236, 370
+lenght cond at: 1245, 370
+lenght cond at: 1354, 374
+lenght cond at: 1111, 377
+lenght cond at: 1396, 380
+curve cond right at: 984, 384
+lenght cond at: 979, 382
+lenght cond at: 1047, 386
+lenght cond at: 1054, 386
+lenght cond at: 1088, 387
+curve cond right at: 1476, 386
+curve cond left at: 1480, 386
+curve cond left at: 1481, 387
+curve cond left at: 1485, 387
+lenght cond at: 1350, 388
+lenght cond at: 1249, 391
+lenght cond at: 1255, 391
+lenght cond at: 1361, 398
+lenght cond at: 1775, 398
+lenght cond at: 1738, 401
+lenght cond at: 1568, 402
+curve cond right at: 1589, 404
+angle cond at: 1590, 405
+curve cond right at: 1220, 407
+lenght cond at: 1231, 407
+angle cond at: 1232, 408
+curve cond right at: 1308, 410
+lenght cond at: 1317, 409
+angle cond at: 1318, 410
+lenght cond at: 1207, 409
+lenght cond at: 1215, 409
+angle cond at: 1216, 410
+lenght cond at: 1460, 411
+lenght cond at: 1523, 413
+lenght cond at: 1529, 413
+angle cond at: 1530, 414
+lenght cond at: 1554, 412
+lenght cond at: 1516, 414
+lenght cond at: 1137, 414
+lenght cond at: 1441, 417
+curve cond right at: 1433, 419
+curve cond left at: 1435, 419
+curve cond left at: 1436, 420
+curve cond left at: 1438, 420
+curve cond left at: 1439, 421
+lenght cond at: 1619, 421
+curve cond right at: 1647, 423
+lenght cond at: 1639, 423
+lenght cond at: 1696, 429
+lenght cond at: 1706, 429
+lenght cond at: 1074, 433
+angle cond at: 1075, 432
+lenght cond at: 1370, 435
+lenght cond at: 1668, 436
+lenght cond at: 1078, 436
+lenght cond at: 1179, 436
+lenght cond at: 1187, 436
+lenght cond at: 1188, 437
+lenght cond at: 1195, 437
+angle cond at: 1196, 438
+lenght cond at: 1367, 437
+lenght cond at: 1122, 438
+lenght cond at: 1241, 440
+lenght cond at: 1412, 443
+angle cond at: 1413, 444
+lenght cond at: 861, 457
+lenght cond at: 1458, 452
+lenght cond at: 1057, 451
+lenght cond at: 1088, 452
+angle cond at: 1089, 453
+lenght cond at: 447, 453
+lenght cond at: 461, 453
+lenght cond at: 1365, 454
+lenght cond at: 1379, 454
+lenght cond at: 927, 512
+lenght cond at: 957, 517
+angle cond at: 979, 506
+lenght cond at: 1008, 476
+lenght cond at: 1008, 475
+lenght cond at: 1014, 469
+lenght cond at: 1014, 468
+lenght cond at: 610, 474
+lenght cond at: 617, 474
+lenght cond at: 685, 468
+lenght cond at: 197, 786
+lenght cond at: 194, 789
+lenght cond at: 193, 789
+lenght cond at: 190, 792
+angle cond at: 189, 792
+lenght cond at: 776, 556
+lenght cond at: 776, 557
+lenght cond at: 781, 562
+angle cond at: 781, 563
+lenght cond at: 1030, 498
+curve cond right at: 674, 509
+angle cond at: 703, 513
+curve cond left at: 668, 510
+angle cond at: 671, 514
+angle cond at: 670, 515
+curve cond right at: 695, 529
+angle cond at: 699, 529
+curve cond right at: 702, 530
+curve cond left at: 698, 534
+curve cond right at: 717, 519
+lenght cond at: 720, 526
+lenght cond at: 657, 565
+curve cond right at: 707, 535
+lenght cond at: 394, 526
+curve cond right at: 452, 526
+angle cond at: 453, 527
+curve cond right at: 656, 537
+curve cond right at: 675, 531
+lenght cond at: 680, 538
+lenght cond at: 723, 540
+angle cond at: 712, 522
+curve cond right at: 688, 523
+angle cond at: 688, 525
+angle cond at: 692, 530
+angle cond at: 697, 539
+curve cond right at: 692, 543
+curve cond right at: 725, 534
+curve cond right at: 711, 540
+curve cond right at: 561, 539
+curve cond left at: 562, 538
+lenght cond at: 1411, 553
+curve cond right at: 714, 542
+lenght cond at: 672, 533
+angle cond at: 671, 532
+angle cond at: 669, 533
+angle cond at: 667, 535
+angle cond at: 674, 542
+lenght cond at: 681, 548
+curve cond right at: 687, 563
+curve cond right at: 685, 565
+curve cond left at: 684, 565
+curve cond left at: 682, 567
+curve cond left at: 681, 567
+curve cond left at: 679, 569
+lenght cond at: 711, 564
+curve cond right at: 690, 564
+lenght cond at: 678, 572
+lenght cond at: 655, 548
+lenght cond at: 481, 551
+curve cond right at: 664, 546
+curve cond left at: 667, 540
+lenght cond at: 664, 536
+lenght cond at: 681, 564
+curve cond right at: 679, 564
+curve cond right at: 384, 554
+angle cond at: 385, 553
+curve cond right at: 656, 561
+curve cond left at: 660, 559
+lenght cond at: 673, 561
+lenght cond at: 708, 538
+lenght cond at: 1790, 558
+angle cond at: 1343, 585
+lenght cond at: 485, 562
+angle cond at: 664, 578
+angle cond at: 698, 572
+lenght cond at: 708, 567
+lenght cond at: 1094, 574
+lenght cond at: 1321, 589
+curve cond right at: 1272, 573
+curve cond right at: 1272, 575
+curve cond left at: 1270, 578
+curve cond left at: 1270, 580
+curve cond left at: 1268, 583
+curve cond left at: 1268, 585
+curve cond left at: 1265, 590
+curve cond right at: 1265, 592
+angle cond at: 668, 572
+lenght cond at: 799, 584
+lenght cond at: 799, 585
+angle cond at: 1043, 618
+lenght cond at: 1031, 632
+lenght cond at: 1661, 580
+lenght cond at: 1073, 588
+lenght cond at: 1488, 583
+lenght cond at: 816, 605
+lenght cond at: 1059, 599
+lenght cond at: 957, 591
+lenght cond at: 972, 591
+curve cond right at: 1259, 606
+lenght cond at: 1347, 590
+curve cond right at: 1261, 613
+lenght cond at: 1374, 607
+angle cond at: 1373, 606
+lenght cond at: 1369, 609
+lenght cond at: 1512, 608
+angle cond at: 1513, 609
+lenght cond at: 990, 612
+lenght cond at: 1003, 612
+lenght cond at: 946, 615
+angle cond at: 947, 616
+lenght cond at: 1235, 661
+lenght cond at: 1021, 622
+lenght cond at: 1022, 623
+lenght cond at: 1029, 623
+lenght cond at: 914, 626
+lenght cond at: 1019, 630
+lenght cond at: 1019, 632
+curve cond right at: 1385, 665
+curve cond right at: 986, 633
+lenght cond at: 849, 645
+lenght cond at: 849, 646
+lenght cond at: 853, 650
+lenght cond at: 853, 651
+lenght cond at: 858, 656
+angle cond at: 858, 657
+lenght cond at: 982, 634
+curve cond right at: 990, 636
+lenght cond at: 998, 635
+angle cond at: 999, 636
+lenght cond at: 1004, 636
+curve cond right at: 1248, 639
+curve cond left at: 1246, 641
+curve cond left at: 1245, 646
+curve cond left at: 1243, 648
+lenght cond at: 871, 643
+lenght cond at: 947, 648
+lenght cond at: 1404, 653
+angle cond at: 1405, 654
+lenght cond at: 1414, 654
+lenght cond at: 882, 655
+lenght cond at: 883, 656
+lenght cond at: 892, 656
+lenght cond at: 954, 656
+lenght cond at: 966, 656
+angle cond at: 967, 657
+lenght cond at: 1000, 715
+lenght cond at: 1001, 724
+lenght cond at: 1000, 725
+lenght cond at: 1000, 733
+lenght cond at: 1570, 661
+lenght cond at: 1528, 664
+lenght cond at: 1543, 664
+angle cond at: 1544, 665
+lenght cond at: 1549, 667
+lenght cond at: 1409, 669
+lenght cond at: 1394, 669
+angle cond at: 1393, 668
+lenght cond at: 934, 671
+angle cond at: 935, 672
+lenght cond at: 1407, 732
+angle cond at: 1406, 735
+lenght cond at: 1407, 736
+angle cond at: 1407, 771
+lenght cond at: 1404, 790
+lenght cond at: 1403, 791
+curve cond left at: 1402, 798
+curve cond right at: 1400, 802
+curve cond left at: 1400, 805
+lenght cond at: 1478, 671
+lenght cond at: 220, 671
+lenght cond at: 235, 671
+lenght cond at: 1704, 674
+lenght cond at: 1743, 676
+angle cond at: 1744, 677
+lenght cond at: 1817, 687
+lenght cond at: 1792, 678
+lenght cond at: 1798, 678
+lenght cond at: 339, 679
+lenght cond at: 350, 679
+angle cond at: 893, 700
+lenght cond at: 899, 706
+angle cond at: 899, 707
+lenght cond at: 341, 682
+curve cond right at: 965, 681
+lenght cond at: 966, 682
+lenght cond at: 973, 682
+curve cond right at: 971, 685
+curve cond left at: 974, 685
+lenght cond at: 1507, 685
+lenght cond at: 1508, 686
+lenght cond at: 1517, 686
+lenght cond at: 1734, 686
+lenght cond at: 1837, 688
+lenght cond at: 1418, 690
+lenght cond at: 992, 692
+lenght cond at: 1849, 693
+lenght cond at: 958, 694
+lenght cond at: 1786, 693
+lenght cond at: 1795, 693
+lenght cond at: 978, 696
+lenght cond at: 90, 699
+lenght cond at: 1944, 698
+angle cond at: 1943, 699
+curve cond right at: 1915, 702
+lenght cond at: 1916, 703
+lenght cond at: 1923, 703
+lenght cond at: 982, 704
+lenght cond at: 982, 706
+lenght cond at: 1186, 708
+curve cond right at: 1186, 768
+lenght cond at: 1180, 763
+lenght cond at: 979, 713
+curve cond right at: 1208, 712
+curve cond left at: 1212, 712
+curve cond right at: 1199, 714
+curve cond left at: 1196, 714
+lenght cond at: 1558, 714
+lenght cond at: 1564, 714
+lenght cond at: 1812, 715
+lenght cond at: 1226, 721
+angle cond at: 1226, 722
+lenght cond at: 60, 716
+lenght cond at: 1465, 717
+lenght cond at: 1479, 717
+lenght cond at: 1620, 718
+lenght cond at: 1700, 718
+lenght cond at: 1704, 723
+lenght cond at: 1716, 723
+lenght cond at: 959, 726
+lenght cond at: 273, 726
+angle cond at: 929, 744
+lenght cond at: 935, 750
+angle cond at: 935, 751
+lenght cond at: 1232, 738
+lenght cond at: 1898, 726
+lenght cond at: 1904, 726
+lenght cond at: 223, 727
+lenght cond at: 1230, 740
+lenght cond at: 238, 728
+lenght cond at: 246, 728
+curve cond right at: 991, 733
+lenght cond at: 949, 739
+curve cond left at: 948, 739
+curve cond right at: 1502, 736
+curve cond left at: 1498, 736
+angle cond at: 1497, 737
+lenght cond at: 1525, 738
+lenght cond at: 1532, 738
+curve cond right at: 1178, 742
+curve cond left at: 1179, 745
+lenght cond at: 1182, 750
+lenght cond at: 1751, 740
+lenght cond at: 1773, 740
+lenght cond at: 1774, 743
+curve cond right at: 1495, 743
+lenght cond at: 1496, 744
+lenght cond at: 1502, 744
+lenght cond at: 1684, 746
+lenght cond at: 1757, 748
+angle cond at: 1984, 751
+lenght cond at: 1002, 760
+lenght cond at: 1714, 752
+curve cond right at: 964, 751
+curve cond left at: 961, 751
+lenght cond at: 1199, 760
+lenght cond at: 1210, 757
+curve cond right at: 1202, 762
+angle cond at: 1203, 763
+lenght cond at: 1216, 763
+lenght cond at: 1228, 763
+curve cond right at: 910, 766
+curve cond left at: 905, 768
+curve cond left at: 902, 776
+curve cond right at: 899, 775
+curve cond right at: 901, 773
+lenght cond at: 43, 768
+lenght cond at: 981, 768
+lenght cond at: 975, 768
+lenght cond at: 1544, 768
+angle cond at: 1545, 769
+lenght cond at: 1567, 768
+lenght cond at: 1574, 768
+lenght cond at: 1589, 768
+lenght cond at: 961, 782
+lenght cond at: 1685, 773
+lenght cond at: 1633, 778
+lenght cond at: 1578, 783
+curve cond right at: 586, 781
+curve cond right at: 580, 786
+curve cond right at: 577, 787
+curve cond left at: 575, 789
+lenght cond at: 986, 813
+lenght cond at: 989, 816
+angle cond at: 989, 817
+curve cond right at: 1013, 802
+curve cond left at: 1014, 803
+curve cond left at: 1014, 805
+curve cond left at: 1015, 806
+lenght cond at: 1614, 787
+lenght cond at: 1622, 787
+lenght cond at: 1746, 788
+lenght cond at: 593, 777
+lenght cond at: 609, 797
+lenght cond at: 593, 768
+lenght cond at: 666, 862
+lenght cond at: 666, 863
+lenght cond at: 682, 883
+curve cond left at: 685, 888
+lenght cond at: 688, 888
+lenght cond at: 711, 872
+curve cond right at: 1001, 797
+curve cond right at: 1004, 797
+lenght cond at: 1160, 797
+curve cond right at: 1161, 797
+curve cond left at: 1163, 799
+lenght cond at: 1700, 792
+lenght cond at: 1708, 792
+lenght cond at: 1718, 792
+lenght cond at: 1725, 792
+lenght cond at: 470, 857
+lenght cond at: 466, 861
+angle cond at: 442, 876
+lenght cond at: 431, 885
+lenght cond at: 523, 816
+lenght cond at: 504, 828
+lenght cond at: 501, 831
+curve cond right at: 500, 831
+curve cond left at: 498, 833
+curve cond left at: 497, 833
+curve cond left at: 495, 835
+curve cond left at: 494, 835
+curve cond left at: 492, 837
+curve cond left at: 491, 837
+curve cond left at: 489, 839
+lenght cond at: 1552, 800
+curve cond right at: 873, 797
+curve cond left at: 867, 798
+angle cond at: 869, 790
+curve cond right at: 871, 790
+curve cond left at: 870, 792
+curve cond right at: 874, 763
+angle cond at: 886, 779
+lenght cond at: 906, 803
+lenght cond at: 904, 806
+lenght cond at: 840, 852
+lenght cond at: 837, 855
+lenght cond at: 901, 936
+lenght cond at: 902, 941
+lenght cond at: 632, 1142
+lenght cond at: 620, 1152
+angle cond at: 617, 1154
+lenght cond at: 612, 1150
+lenght cond at: 612, 1149
+lenght cond at: 609, 1146
+curve cond right at: 609, 1145
+curve cond left at: 607, 1143
+lenght cond at: 53, 804
+lenght cond at: 61, 804
+curve cond right at: 778, 823
+lenght cond at: 774, 827
+curve cond right at: 773, 827
+curve cond left at: 771, 829
+curve cond right at: 876, 796
+curve cond left at: 869, 796
+lenght cond at: 1498, 806
+curve cond right at: 605, 816
+lenght cond at: 996, 807
+lenght cond at: 1558, 806
+lenght cond at: 207, 863
+lenght cond at: 217, 873
+curve cond right at: 854, 815
+lenght cond at: 850, 809
+curve cond right at: 1175, 813
+curve cond left at: 1175, 815
+curve cond left at: 1174, 816
+lenght cond at: 1008, 808
+lenght cond at: 1137, 892
+curve cond right at: 1128, 912
+lenght cond at: 1127, 918
+curve cond right at: 1395, 817
+lenght cond at: 1395, 819
+lenght cond at: 1391, 828
+curve cond right at: 608, 824
+curve cond left at: 611, 826
+lenght cond at: 1541, 812
+lenght cond at: 1540, 813
+lenght cond at: 1534, 813
+angle cond at: 851, 817
+curve cond right at: 849, 819
+curve cond left at: 844, 813
+curve cond right at: 840, 815
+curve cond left at: 844, 822
+curve cond right at: 842, 824
+angle cond at: 839, 820
+lenght cond at: 1172, 826
+lenght cond at: 1804, 818
+lenght cond at: 1813, 818
+angle cond at: 1814, 819
+lenght cond at: 173, 827
+lenght cond at: 556, 828
+lenght cond at: 2014, 821
+lenght cond at: 2025, 821
+lenght cond at: 118, 823
+lenght cond at: 126, 823
+angle cond at: 838, 825
+curve cond right at: 836, 828
+curve cond left at: 831, 822
+curve cond right at: 827, 825
+angle cond at: 831, 830
+angle cond at: 831, 832
+lenght cond at: 1425, 826
+lenght cond at: 1426, 827
+lenght cond at: 1432, 827
+curve cond right at: 1166, 836
+lenght cond at: 1163, 841
+lenght cond at: 1654, 827
+lenght cond at: 1497, 829
+lenght cond at: 1587, 829
+lenght cond at: 1586, 830
+lenght cond at: 1580, 830
+curve cond right at: 739, 852
+curve cond right at: 736, 853
+curve cond right at: 729, 858
+lenght cond at: 726, 861
+lenght cond at: 725, 861
+lenght cond at: 722, 864
+lenght cond at: 1414, 832
+angle cond at: 1415, 833
+lenght cond at: 590, 836
+curve cond right at: 209, 874
+lenght cond at: 219, 886
+lenght cond at: 1514, 834
+lenght cond at: 1515, 835
+lenght cond at: 1538, 835
+curve cond right at: 644, 849
+curve cond right at: 647, 848
+lenght cond at: 1533, 837
+angle cond at: 1534, 838
+lenght cond at: 1539, 838
+lenght cond at: 1657, 837
+lenght cond at: 1658, 838
+lenght cond at: 1666, 838
+lenght cond at: 1691, 838
+lenght cond at: 1829, 838
+curve cond right at: 538, 858
+lenght cond at: 544, 867
+curve cond right at: 806, 832
+curve cond left at: 805, 834
+lenght cond at: 809, 849
+curve cond right at: 810, 846
+lenght cond at: 803, 837
+lenght cond at: 1436, 841
+lenght cond at: 1471, 840
+lenght cond at: 1481, 840
+curve cond right at: 422, 889
+angle cond at: 430, 900
+lenght cond at: 433, 903
+angle cond at: 433, 904
+lenght cond at: 1605, 841
+lenght cond at: 1615, 841
+lenght cond at: 628, 832
+lenght cond at: 1419, 843
+curve cond right at: 186, 851
+curve cond left at: 186, 853
+curve cond left at: 187, 854
+lenght cond at: 1441, 845
+lenght cond at: 1468, 845
+curve cond right at: 544, 849
+lenght cond at: 550, 855
+curve cond right at: 550, 857
+lenght cond at: 1049, 858
+lenght cond at: 1511, 847
+lenght cond at: 1651, 846
+lenght cond at: 1662, 846
+lenght cond at: 1511, 849
+lenght cond at: 602, 858
+lenght cond at: 1427, 852
+curve cond right at: 1382, 844
+curve cond left at: 1384, 842
+curve cond right at: 524, 862
+curve cond right at: 1151, 869
+curve cond left at: 1150, 870
+lenght cond at: 1393, 858
+lenght cond at: 1445, 859
+curve cond right at: 787, 865
+angle cond at: 784, 867
+curve cond left at: 780, 870
+curve cond right at: 1436, 860
+lenght cond at: 1437, 861
+lenght cond at: 1450, 861
+curve cond right at: 653, 867
+curve cond right at: 650, 867
+lenght cond at: 645, 872
+lenght cond at: 1057, 868
+lenght cond at: 897, 805
+lenght cond at: 898, 801
+lenght cond at: 870, 766
+lenght cond at: 865, 767
+lenght cond at: 694, 890
+lenght cond at: 723, 931
+curve cond right at: 717, 929
+curve cond right at: 698, 903
+lenght cond at: 693, 898
+lenght cond at: 693, 897
+lenght cond at: 690, 894
+lenght cond at: 202, 871
+lenght cond at: 206, 875
+lenght cond at: 649, 883
+lenght cond at: 1505, 867
+lenght cond at: 1617, 870
+curve cond right at: 566, 898
+curve cond left at: 571, 904
+curve cond right at: 571, 906
+curve cond right at: 573, 908
+lenght cond at: 1042, 881
+lenght cond at: 1332, 899
+angle cond at: 1331, 899
+curve cond right at: 1281, 876
+curve cond left at: 1277, 876
+angle cond at: 757, 874
+angle cond at: 760, 868
+curve cond right at: 763, 868
+curve cond left at: 762, 870
+lenght cond at: 830, 859
+angle cond at: 782, 895
+lenght cond at: 732, 930
+lenght cond at: 678, 969
+lenght cond at: 612, 1018
+curve cond right at: 566, 1050
+lenght cond at: 563, 1053
+lenght cond at: 562, 1053
+lenght cond at: 559, 1056
+angle cond at: 872, 909
+lenght cond at: 876, 913
+lenght cond at: 876, 914
+lenght cond at: 880, 918
+lenght cond at: 880, 919
+angle cond at: 884, 923
+curve cond right at: 768, 873
+lenght cond at: 761, 873
+curve cond right at: 594, 885
+curve cond left at: 594, 889
+angle cond at: 596, 887
+lenght cond at: 605, 889
+curve cond right at: 1142, 895
+curve cond right at: 1141, 901
+angle cond at: 1139, 903
+lenght cond at: 1845, 884
+lenght cond at: 233, 886
+lenght cond at: 237, 889
+lenght cond at: 1779, 885
+lenght cond at: 1250, 901
+lenght cond at: 1520, 886
+curve cond right at: 1715, 887
+lenght cond at: 1705, 886
+lenght cond at: 1391, 888
+angle cond at: 1390, 887
+curve cond right at: 648, 891
+curve cond left at: 646, 889
+curve cond left at: 644, 889
+curve cond left at: 643, 888
+lenght cond at: 1496, 892
+lenght cond at: 1531, 896
+curve cond right at: 243, 916
+curve cond left at: 246, 918
+lenght cond at: 1488, 896
+angle cond at: 620, 904
+lenght cond at: 1122, 914
+curve cond left at: 1124, 916
+lenght cond at: 1072, 918
+lenght cond at: 229, 890
+angle cond at: 229, 889
+curve cond right at: 721, 903
+curve cond left at: 729, 904
+angle cond at: 729, 907
+curve cond right at: 724, 907
+lenght cond at: 720, 905
+curve cond right at: 611, 911
+curve cond left at: 613, 910
+lenght cond at: 1284, 911
+curve cond right at: 271, 909
+curve cond left at: 273, 911
+curve cond left at: 273, 912
+curve cond left at: 275, 914
+lenght cond at: 1481, 908
+lenght cond at: 240, 923
+lenght cond at: 457, 936
+angle cond at: 616, 913
+curve cond right at: 1277, 913
+curve cond left at: 1277, 915
+lenght cond at: 1243, 925
+lenght cond at: 1485, 912
+lenght cond at: 1394, 913
+angle cond at: 1395, 912
+lenght cond at: 1414, 913
+lenght cond at: 1415, 914
+lenght cond at: 1422, 914
+lenght cond at: 1465, 914
+curve cond right at: 1248, 911
+lenght cond at: 1249, 910
+lenght cond at: 1249, 903
+lenght cond at: 1254, 922
+angle cond at: 1255, 923
+curve cond right at: 1337, 915
+curve cond left at: 1336, 920
+angle cond at: 1337, 921
+curve cond right at: 1510, 913
+lenght cond at: 1466, 917
+lenght cond at: 1502, 917
+lenght cond at: 1514, 918
+angle cond at: 1515, 917
+lenght cond at: 1259, 924
+lenght cond at: 1385, 920
+lenght cond at: 1513, 920
+lenght cond at: 1751, 920
+curve cond right at: 252, 929
+curve cond left at: 254, 930
+lenght cond at: 802, 929
+curve cond right at: 1288, 921
+curve cond left at: 1287, 923
+angle cond at: 865, 946
+curve cond right at: 860, 948
+curve cond left at: 865, 941
+lenght cond at: 863, 934
+lenght cond at: 1231, 935
+lenght cond at: 1232, 934
+lenght cond at: 1241, 934
+lenght cond at: 1416, 925
+lenght cond at: 1434, 925
+curve cond right at: 1418, 923
+lenght cond at: 1424, 922
+curve cond right at: 1500, 926
+lenght cond at: 1591, 925
+curve cond right at: 286, 931
+lenght cond at: 612, 966
+angle cond at: 615, 972
+lenght cond at: 1283, 931
+angle cond at: 1285, 931
+lenght cond at: 1444, 929
+angle cond at: 1445, 928
+curve cond right at: 546, 933
+curve cond left at: 543, 936
+curve cond right at: 1267, 936
+curve cond left at: 1267, 929
+angle cond at: 1270, 926
+curve cond left at: 1271, 924
+angle cond at: 1274, 930
+curve cond left at: 1277, 933
+angle cond at: 1276, 934
+lenght cond at: 1639, 930
+lenght cond at: 1453, 932
+angle cond at: 1454, 933
+lenght cond at: 1505, 931
+lenght cond at: 1579, 934
+angle cond at: 1259, 938
+curve cond right at: 894, 941
+angle cond at: 882, 949
+lenght cond at: 843, 979
+lenght cond at: 815, 999
+lenght cond at: 811, 1003
+angle cond at: 810, 1003
+curve cond left at: 270, 955
+curve cond left at: 277, 962
+curve cond right at: 280, 969
+lenght cond at: 284, 972
+lenght cond at: 1334, 940
+lenght cond at: 1367, 935
+lenght cond at: 1376, 935
+lenght cond at: 1426, 934
+lenght cond at: 1427, 935
+lenght cond at: 1444, 935
+lenght cond at: 564, 943
+curve cond right at: 1405, 935
+lenght cond at: 1406, 936
+lenght cond at: 1415, 936
+curve cond right at: 1096, 936
+curve cond right at: 697, 940
+curve cond left at: 696, 942
+lenght cond at: 1376, 938
+angle cond at: 491, 1000
+lenght cond at: 467, 1017
+lenght cond at: 464, 1018
+lenght cond at: 454, 1026
+lenght cond at: 1531, 940
+lenght cond at: 1631, 942
+lenght cond at: 290, 944
+lenght cond at: 300, 955
+curve cond right at: 300, 958
+curve cond left at: 303, 960
+curve cond right at: 300, 951
+lenght cond at: 304, 955
+lenght cond at: 532, 948
+curve cond left at: 521, 956
+lenght cond at: 515, 956
+curve cond right at: 665, 955
+curve cond left at: 662, 959
+curve cond left at: 659, 960
+curve cond left at: 653, 965
+curve cond left at: 651, 965
+lenght cond at: 648, 968
+angle cond at: 688, 945
+lenght cond at: 685, 948
+lenght cond at: 1448, 947
+curve cond right at: 692, 950
+lenght cond at: 691, 949
+lenght cond at: 682, 957
+lenght cond at: 1486, 949
+curve cond right at: 265, 954
+lenght cond at: 271, 961
+curve cond right at: 271, 962
+curve cond left at: 273, 964
+lenght cond at: 1429, 950
+lenght cond at: 1457, 950
+lenght cond at: 1823, 950
+lenght cond at: 1833, 952
+lenght cond at: 1453, 954
+lenght cond at: 1600, 955
+lenght cond at: 1333, 942
+curve cond right at: 1672, 954
+curve cond left at: 1675, 955
+lenght cond at: 667, 962
+curve cond right at: 1280, 964
+lenght cond at: 1513, 957
+lenght cond at: 1454, 959
+lenght cond at: 1571, 959
+lenght cond at: 1673, 960
+curve cond right at: 563, 948
+curve cond left at: 570, 957
+lenght cond at: 1521, 961
+curve cond left at: 818, 965
+lenght cond at: 816, 948
+curve cond right at: 828, 963
+curve cond left at: 825, 963
+angle cond at: 824, 966
+lenght cond at: 811, 965
+lenght cond at: 1533, 965
+lenght cond at: 1549, 966
+lenght cond at: 285, 986
+lenght cond at: 297, 1003
+lenght cond at: 1287, 967
+angle cond at: 1288, 968
+lenght cond at: 1293, 968
+lenght cond at: 278, 971
+curve cond right at: 278, 972
+curve cond left at: 280, 974
+curve cond right at: 1272, 968
+curve cond left at: 1277, 968
+angle cond at: 1278, 969
+curve cond right at: 635, 976
+lenght cond at: 630, 981
+curve cond right at: 812, 975
+curve cond left at: 811, 972
+lenght cond at: 501, 968
+lenght cond at: 505, 964
+angle cond at: 506, 964
+lenght cond at: 292, 983
+curve cond right at: 536, 981
+lenght cond at: 291, 989
+lenght cond at: 291, 991
+angle cond at: 298, 999
+lenght cond at: 329, 1045
+lenght cond at: 331, 1046
+curve cond right at: 336, 1055
+lenght cond at: 339, 1058
+lenght cond at: 339, 1059
+lenght cond at: 342, 1062
+lenght cond at: 342, 1063
+lenght cond at: 345, 1066
+curve cond right at: 552, 974
+angle cond at: 554, 976
+lenght cond at: 609, 985
+lenght cond at: 1623, 978
+curve cond right at: 616, 992
+curve cond left at: 620, 987
+angle cond at: 622, 987
+curve cond right at: 645, 975
+curve cond left at: 647, 972
+curve cond right at: 649, 972
+curve cond left at: 654, 968
+curve cond right at: 656, 968
+curve cond left at: 658, 966
+curve cond right at: 595, 990
+angle cond at: 594, 993
+curve cond left at: 590, 995
+curve cond right at: 592, 997
+angle cond at: 532, 992
+lenght cond at: 536, 999
+curve cond right at: 731, 992
+curve cond left at: 725, 995
+angle cond at: 729, 998
+angle cond at: 736, 991
+angle cond at: 736, 984
+lenght cond at: 725, 970
+angle cond at: 723, 968
+lenght cond at: 719, 972
+curve cond right at: 1709, 987
+curve cond left at: 1706, 987
+lenght cond at: 716, 973
+lenght cond at: 301, 996
+lenght cond at: 324, 1032
+curve cond right at: 329, 1035
+lenght cond at: 602, 993
+lenght cond at: 1432, 994
+lenght cond at: 550, 1004
+curve cond right at: 334, 1006
+lenght cond at: 340, 1012
+angle cond at: 693, 991
+curve cond right at: 694, 994
+curve cond left at: 700, 988
+curve cond right at: 704, 989
+curve cond left at: 697, 998
+lenght cond at: 709, 1002
+lenght cond at: 1164, 1000
+curve cond right at: 703, 995
+curve cond right at: 518, 1010
+lenght cond at: 521, 1014
+lenght cond at: 601, 1014
+angle cond at: 600, 1013
+lenght cond at: 1494, 1005
+lenght cond at: 376, 1057
+curve cond right at: 746, 1023
+curve cond left at: 743, 1007
+curve cond left at: 746, 1003
+angle cond at: 743, 1002
+angle cond at: 740, 1005
+lenght cond at: 1165, 1006
+angle cond at: 1166, 1007
+lenght cond at: 256, 1011
+curve cond right at: 680, 1014
+lenght cond at: 746, 990
+lenght cond at: 746, 991
+curve cond right at: 751, 996
+angle cond at: 757, 991
+curve cond right at: 767, 1009
+angle cond at: 764, 1009
+lenght cond at: 760, 1013
+curve cond right at: 586, 1028
+curve cond right at: 584, 1031
+angle cond at: 583, 1031
+curve cond right at: 732, 1062
+lenght cond at: 143, 1018
+curve cond left at: 530, 1027
+angle cond at: 532, 1025
+angle cond at: 733, 1030
+lenght cond at: 733, 1025
+lenght cond at: 1534, 1024
+lenght cond at: 127, 1024
+lenght cond at: 133, 1024
+lenght cond at: 1168, 1034
+angle cond at: 1168, 1035
+lenght cond at: 1563, 1025
+lenght cond at: 1564, 1026
+lenght cond at: 1580, 1026
+lenght cond at: 668, 1030
+curve cond right at: 665, 1034
+lenght cond at: 656, 1023
+angle cond at: 650, 1029
+angle cond at: 652, 1033
+curve cond left at: 657, 1038
+lenght cond at: 656, 1041
+angle cond at: 646, 1033
+lenght cond at: 643, 1028
+curve cond right at: 41, 1027
+lenght cond at: 42, 1028
+lenght cond at: 50, 1028
+lenght cond at: 358, 1037
+curve cond right at: 388, 1079
+curve cond right at: 712, 1033
+lenght cond at: 719, 1042
+curve cond right at: 422, 1049
+angle cond at: 426, 1053
+lenght cond at: 436, 1067
+lenght cond at: 470, 1116
+lenght cond at: 474, 1117
+lenght cond at: 514, 1087
+lenght cond at: 517, 1086
+lenght cond at: 542, 1067
+angle cond at: 548, 1063
+lenght cond at: 552, 1068
+lenght cond at: 570, 1091
+lenght cond at: 572, 1095
+lenght cond at: 597, 1128
+curve cond right at: 598, 1131
+lenght cond at: 601, 1134
+curve cond right at: 601, 1135
+curve cond left at: 603, 1137
+lenght cond at: 1376, 1032
+lenght cond at: 1645, 1034
+lenght cond at: 1606, 1034
+angle cond at: 1605, 1035
+lenght cond at: 1600, 1035
+lenght cond at: 645, 1482
+angle cond at: 645, 1483
+lenght cond at: 476, 1036
+lenght cond at: 1177, 1036
+lenght cond at: 1224, 1035
+lenght cond at: 1240, 1035
+angle cond at: 635, 1032
+angle cond at: 640, 1034
+lenght cond at: 647, 1044
+lenght cond at: 1793, 1040
+lenght cond at: 638, 1050
+lenght cond at: 627, 1040
+curve cond right at: 633, 1055
+lenght cond at: 643, 1048
+lenght cond at: 1549, 1045
+lenght cond at: 1615, 1047
+lenght cond at: 503, 999
+angle cond at: 524, 1029
+angle cond at: 530, 1036
+lenght cond at: 545, 1057
+lenght cond at: 544, 1060
+lenght cond at: 530, 1069
+lenght cond at: 614, 1057
+angle cond at: 614, 1058
+curve cond left at: 624, 1062
+curve cond right at: 620, 1066
+angle cond at: 619, 1064
+curve cond right at: 1201, 1074
+lenght cond at: 1688, 1050
+lenght cond at: 1702, 1050
+lenght cond at: 1737, 1050
+angle cond at: 539, 1058
+curve cond right at: 338, 1064
+curve cond right at: 342, 1068
+curve cond left at: 342, 1070
+curve cond left at: 344, 1071
+lenght cond at: 1349, 1056
+lenght cond at: 1437, 1058
+lenght cond at: 1459, 1059
+curve cond right at: 529, 1063
+angle cond at: 528, 1061
+lenght cond at: 564, 1073
+lenght cond at: 614, 1143
+angle cond at: 617, 1146
+lenght cond at: 619, 1146
+lenght cond at: 631, 1137
+lenght cond at: 666, 1111
+curve cond right at: 683, 1062
+angle cond at: 679, 1053
+angle cond at: 679, 1050
+angle cond at: 681, 1048
+angle cond at: 684, 1051
+angle cond at: 687, 1062
+angle cond at: 687, 1067
+curve cond right at: 617, 1399
+lenght cond at: 365, 1092
+angle cond at: 516, 1072
+curve cond right at: 717, 1072
+lenght cond at: 714, 1075
+angle cond at: 713, 1075
+curve cond right at: 503, 1079
+curve cond left at: 506, 1074
+curve cond left at: 509, 1078
+curve cond left at: 508, 1073
+angle cond at: 511, 1072
+curve cond left at: 515, 1074
+lenght cond at: 512, 1070
+lenght cond at: 653, 1090
+curve cond right at: 637, 1078
+lenght cond at: 640, 1081
+lenght cond at: 640, 1082
+lenght cond at: 643, 1085
+lenght cond at: 643, 1086
+lenght cond at: 646, 1089
+lenght cond at: 377, 1113
+curve cond right at: 380, 1116
+lenght cond at: 1294, 1077
+lenght cond at: 1311, 1077
+lenght cond at: 705, 1082
+lenght cond at: 704, 1082
+curve cond left at: 701, 1085
+curve cond right at: 500, 1077
+curve cond left at: 499, 1080
+curve cond left at: 501, 1083
+angle cond at: 500, 1085
+lenght cond at: 483, 1104
+curve cond right at: 482, 1104
+curve cond left at: 480, 1106
+lenght cond at: 1289, 1081
+angle cond at: 497, 1089
+curve cond right at: 1178, 1110
+lenght cond at: 641, 1101
+lenght cond at: 631, 1088
+lenght cond at: 414, 1118
+lenght cond at: 428, 1135
+lenght cond at: 443, 1158
+lenght cond at: 677, 1103
+lenght cond at: 676, 1103
+lenght cond at: 673, 1106
+angle cond at: 620, 1097
+curve cond right at: 380, 1113
+lenght cond at: 383, 1116
+curve cond right at: 383, 1117
+curve cond left at: 385, 1119
+angle cond at: 475, 1097
+angle cond at: 478, 1101
+curve cond right at: 480, 1100
+curve cond left at: 477, 1096
+curve cond right at: 480, 1094
+curve cond right at: 482, 1097
+angle cond at: 607, 1093
+lenght cond at: 605, 1096
+angle cond at: 616, 1111
+angle cond at: 620, 1115
+angle cond at: 627, 1112
+angle cond at: 633, 1106
+angle cond at: 1213, 1111
+angle cond at: 1209, 1113
+curve cond right at: 1205, 1112
+curve cond right at: 1200, 1112
+curve cond right at: 1680, 1114
+curve cond right at: 1683, 1118
+curve cond left at: 1685, 1118
+curve cond left at: 1687, 1120
+curve cond left at: 1689, 1120
+lenght cond at: 1252, 1137
+curve cond right at: 389, 1134
+curve cond right at: 392, 1140
+lenght cond at: 1717, 1135
+angle cond at: 1168, 1159
+lenght cond at: 1159, 1169
+lenght cond at: 392, 1133
+curve cond right at: 1727, 1134
+lenght cond at: 1523, 1131
+lenght cond at: 1158, 1126
+lenght cond at: 1161, 1123
+angle cond at: 1162, 1123
+lenght cond at: 1120, 1157
+curve cond right at: 413, 1158
+curve cond right at: 414, 1161
+curve cond right at: 426, 1178
+lenght cond at: 429, 1181
+lenght cond at: 1499, 1135
+lenght cond at: 1736, 1139
+curve cond right at: 1167, 1134
+curve cond left at: 1174, 1141
+angle cond at: 1173, 1145
+angle cond at: 1167, 1137
+angle cond at: 1165, 1133
+curve cond right at: 1172, 1130
+curve cond left at: 1174, 1135
+curve cond left at: 1180, 1138
+angle cond at: 1176, 1140
+angle cond at: 1174, 1139
+lenght cond at: 1237, 1143
+curve cond right at: 1236, 1145
+curve cond right at: 1229, 1150
+lenght cond at: 1223, 1143
+curve cond right at: 403, 1157
+curve cond left at: 406, 1159
+lenght cond at: 420, 1181
+curve cond right at: 1218, 1147
+lenght cond at: 1218, 1148
+lenght cond at: 1222, 1152
+lenght cond at: 1223, 1157
+angle cond at: 1222, 1157
+curve cond right at: 1703, 1144
+curve cond left at: 1706, 1144
+angle cond at: 1707, 1145
+curve cond right at: 221, 1150
+angle cond at: 220, 1151
+lenght cond at: 1315, 1150
+lenght cond at: 1161, 1155
+lenght cond at: 1319, 1152
+lenght cond at: 1318, 1153
+lenght cond at: 1304, 1153
+curve cond right at: 1736, 1158
+curve cond left at: 1730, 1154
+curve cond right at: 406, 1166
+curve cond left at: 408, 1168
+curve cond left at: 408, 1169
+curve cond left at: 410, 1171
+curve cond right at: 1208, 1168
+lenght cond at: 1201, 1160
+angle cond at: 1133, 1175
+lenght cond at: 1137, 1179
+lenght cond at: 1137, 1180
+lenght cond at: 1141, 1184
+angle cond at: 1141, 1185
+curve cond right at: 1205, 1155
+curve cond right at: 1208, 1157
+lenght cond at: 1208, 1158
+angle cond at: 1235, 1170
+lenght cond at: 1238, 1173
+lenght cond at: 1258, 1173
+curve cond right at: 1583, 1165
+curve cond right at: 1582, 1164
+curve cond left at: 1580, 1164
+curve cond left at: 1579, 1163
+lenght cond at: 1197, 1160
+lenght cond at: 1197, 1161
+lenght cond at: 1201, 1165
+angle cond at: 1201, 1166
+lenght cond at: 1414, 1167
+lenght cond at: 1423, 1167
+lenght cond at: 1896, 1168
+lenght cond at: 1486, 1172
+lenght cond at: 1177, 1215
+lenght cond at: 1176, 1215
+lenght cond at: 235, 1175
+lenght cond at: 234, 1176
+lenght cond at: 227, 1176
+lenght cond at: 1256, 1176
+lenght cond at: 217, 1175
+curve cond right at: 1168, 1185
+curve cond left at: 1165, 1182
+curve cond right at: 1163, 1184
+lenght cond at: 1344, 1182
+lenght cond at: 1357, 1182
+lenght cond at: 1358, 1185
+lenght cond at: 1368, 1185
+curve cond right at: 1650, 1185
+lenght cond at: 449, 1211
+lenght cond at: 493, 1272
+lenght cond at: 494, 1275
+lenght cond at: 516, 1305
+lenght cond at: 520, 1311
+curve cond right at: 530, 1327
+curve cond left at: 538, 1337
+lenght cond at: 547, 1350
+lenght cond at: 1158, 1171
+curve cond right at: 1176, 1191
+lenght cond at: 1174, 1197
+lenght cond at: 1634, 1189
+lenght cond at: 320, 1188
+angle cond at: 321, 1189
+lenght cond at: 1165, 1214
+curve cond right at: 1201, 1136
+lenght cond at: 1231, 1121
+lenght cond at: 1172, 1190
+angle cond at: 1239, 1187
+curve cond right at: 1651, 1190
+curve cond left at: 1648, 1190
+lenght cond at: 1639, 1191
+lenght cond at: 1008, 1217
+curve cond right at: 1365, 1193
+curve cond left at: 1366, 1194
+angle cond at: 1367, 1193
+curve cond right at: 1312, 1193
+lenght cond at: 1311, 1194
+lenght cond at: 1301, 1194
+lenght cond at: 1391, 1194
+lenght cond at: 1490, 1193
+lenght cond at: 1498, 1193
+curve cond right at: 431, 1201
+curve cond left at: 428, 1198
+lenght cond at: 422, 1198
+lenght cond at: 1413, 1195
+lenght cond at: 1420, 1195
+curve cond right at: 1488, 1196
+curve cond left at: 1485, 1196
+lenght cond at: 988, 1196
+lenght cond at: 991, 1199
+lenght cond at: 991, 1200
+lenght cond at: 994, 1203
+angle cond at: 994, 1204
+curve cond right at: 985, 1205
+curve cond right at: 1250, 1202
+lenght cond at: 1249, 1203
+lenght cond at: 1242, 1203
+lenght cond at: 1859, 1204
+lenght cond at: 983, 1214
+lenght cond at: 1242, 1205
+lenght cond at: 1287, 1205
+angle cond at: 1288, 1206
+lenght cond at: 1338, 1208
+lenght cond at: 1006, 1219
+curve cond right at: 442, 1213
+angle cond at: 444, 1215
+lenght cond at: 447, 1220
+lenght cond at: 226, 1213
+curve cond right at: 971, 1210
+lenght cond at: 971, 1211
+lenght cond at: 974, 1214
+angle cond at: 974, 1215
+lenght cond at: 1208, 1204
+lenght cond at: 1209, 1204
+lenght cond at: 1213, 1200
+angle cond at: 1214, 1200
+lenght cond at: 109, 1214
+curve cond right at: 979, 1235
+lenght cond at: 1444, 1215
+lenght cond at: 236, 1215
+lenght cond at: 237, 1216
+lenght cond at: 243, 1216
+curve cond right at: 1500, 1215
+angle cond at: 1501, 1216
+lenght cond at: 976, 1221
+curve cond right at: 976, 1222
+curve cond left at: 978, 1224
+curve cond left at: 988, 1233
+angle cond at: 986, 1235
+lenght cond at: 981, 1229
+lenght cond at: 469, 1253
+curve cond right at: 473, 1256
+angle cond at: 473, 1258
+curve cond right at: 964, 1222
+curve cond left at: 968, 1229
+curve cond left at: 970, 1230
+angle cond at: 1158, 1244
+lenght cond at: 1154, 1239
+curve cond right at: 988, 1217
+lenght cond at: 988, 1218
+lenght cond at: 991, 1221
+angle cond at: 991, 1222
+lenght cond at: 1160, 1227
+lenght cond at: 1156, 1231
+angle cond at: 1155, 1231
+angle cond at: 1202, 1198
+lenght cond at: 1207, 1193
+lenght cond at: 1208, 1193
+lenght cond at: 1211, 1190
+angle cond at: 1212, 1190
+lenght cond at: 1441, 1224
+lenght cond at: 197, 1223
+lenght cond at: 190, 1223
+curve cond right at: 960, 1237
+lenght cond at: 964, 1241
+lenght cond at: 1160, 1232
+lenght cond at: 1159, 1232
+lenght cond at: 1156, 1235
+lenght cond at: 145, 1226
+lenght cond at: 963, 1230
+lenght cond at: 966, 1233
+angle cond at: 966, 1234
+lenght cond at: 1277, 1227
+lenght cond at: 358, 1228
+lenght cond at: 350, 1228
+angle cond at: 349, 1229
+lenght cond at: 284, 1229
+lenght cond at: 293, 1229
+lenght cond at: 1419, 1229
+lenght cond at: 1430, 1229
+lenght cond at: 1472, 1231
+angle cond at: 203, 1234
+lenght cond at: 1327, 1232
+lenght cond at: 1426, 1233
+curve cond right at: 1207, 1237
+curve cond left at: 1203, 1236
+lenght cond at: 1202, 1237
+lenght cond at: 1193, 1237
+lenght cond at: 952, 1262
+lenght cond at: 953, 1258
+lenght cond at: 941, 1243
+curve cond right at: 940, 1240
+lenght cond at: 936, 1236
+lenght cond at: 1108, 1270
+lenght cond at: 1436, 1235
+lenght cond at: 1426, 1235
+angle cond at: 1425, 1236
+lenght cond at: 1148, 1241
+lenght cond at: 1137, 1250
+lenght cond at: 1752, 1240
+lenght cond at: 283, 1242
+curve cond right at: 934, 1240
+angle cond at: 934, 1242
+lenght cond at: 933, 1260
+lenght cond at: 1267, 1245
+curve cond right at: 1343, 1243
+lenght cond at: 1344, 1244
+lenght cond at: 1351, 1244
+lenght cond at: 216, 1246
+lenght cond at: 216, 1249
+lenght cond at: 1583, 1251
+lenght cond at: 1590, 1251
+angle cond at: 1591, 1252
+lenght cond at: 1804, 1251
+lenght cond at: 1815, 1251
+lenght cond at: 255, 1252
+lenght cond at: 938, 1270
+lenght cond at: 1589, 1253
+angle cond at: 1590, 1254
+curve cond right at: 923, 1264
+curve cond left at: 925, 1266
+curve cond left at: 925, 1267
+curve cond left at: 927, 1269
+lenght cond at: 1324, 1254
+lenght cond at: 1576, 1259
+curve cond right at: 1292, 1261
+angle cond at: 1293, 1262
+lenght cond at: 929, 1280
+lenght cond at: 1520, 1265
+angle cond at: 1521, 1266
+curve cond right at: 184, 1265
+lenght cond at: 185, 1266
+lenght cond at: 191, 1266
+curve cond right at: 327, 1265
+lenght cond at: 326, 1266
+lenght cond at: 315, 1266
+lenght cond at: 1176, 1266
+lenght cond at: 485, 1281
+lenght cond at: 190, 1268
+curve cond right at: 966, 1263
+curve cond right at: 900, 1283
+lenght cond at: 903, 1286
+lenght cond at: 903, 1287
+lenght cond at: 906, 1290
+curve cond right at: 975, 1277
+curve cond left at: 972, 1281
+lenght cond at: 970, 1281
+lenght cond at: 941, 1304
+lenght cond at: 886, 1283
+angle cond at: 886, 1284
+curve cond right at: 895, 1285
+curve cond left at: 898, 1287
+curve cond right at: 899, 1290
+lenght cond at: 903, 1294
+lenght cond at: 1422, 1278
+lenght cond at: 1550, 1277
+lenght cond at: 1527, 1278
+lenght cond at: 934, 1285
+curve cond right at: 941, 1290
+lenght cond at: 938, 1283
+angle cond at: 939, 1282
+lenght cond at: 947, 1307
+lenght cond at: 944, 1310
+lenght cond at: 1768, 1282
+lenght cond at: 1306, 1287
+lenght cond at: 1674, 1285
+curve cond right at: 1668, 1282
+angle cond at: 1667, 1283
+lenght cond at: 1193, 1284
+lenght cond at: 1398, 1285
+lenght cond at: 496, 1281
+lenght cond at: 540, 1346
+lenght cond at: 544, 1350
+lenght cond at: 502, 1304
+angle cond at: 502, 1305
+lenght cond at: 1843, 1285
+angle cond at: 1842, 1286
+lenght cond at: 1837, 1286
+lenght cond at: 509, 1309
+lenght cond at: 1221, 1287
+lenght cond at: 1600, 1288
+lenght cond at: 1308, 1290
+lenght cond at: 1625, 1288
+lenght cond at: 1643, 1289
+lenght cond at: 308, 1289
+lenght cond at: 332, 1289
+lenght cond at: 874, 1299
+lenght cond at: 1510, 1290
+lenght cond at: 1518, 1290
+lenght cond at: 1729, 1291
+lenght cond at: 1728, 1292
+lenght cond at: 1718, 1292
+angle cond at: 1717, 1293
+lenght cond at: 1712, 1293
+curve cond right at: 898, 1299
+lenght cond at: 1194, 1292
+lenght cond at: 1188, 1292
+lenght cond at: 1642, 1291
+lenght cond at: 1476, 1295
+lenght cond at: 1565, 1294
+lenght cond at: 1578, 1294
+curve cond right at: 1717, 1296
+curve cond right at: 1712, 1295
+angle cond at: 1711, 1296
+lenght cond at: 243, 1296
+lenght cond at: 1597, 1296
+lenght cond at: 1829, 1296
+lenght cond at: 1780, 1296
+curve cond right at: 1114, 1278
+lenght cond at: 1115, 1278
+lenght cond at: 1129, 1266
+lenght cond at: 1130, 1266
+lenght cond at: 1133, 1263
+lenght cond at: 1265, 1299
+angle cond at: 1266, 1300
+lenght cond at: 1610, 1299
+angle cond at: 1611, 1300
+lenght cond at: 1616, 1300
+curve cond right at: 1738, 1298
+lenght cond at: 1729, 1297
+lenght cond at: 1728, 1298
+lenght cond at: 1716, 1298
+angle cond at: 1715, 1299
+curve cond right at: 886, 1305
+lenght cond at: 889, 1308
+lenght cond at: 1416, 1300
+lenght cond at: 1763, 1298
+angle cond at: 1125, 1261
+lenght cond at: 1133, 1253
+lenght cond at: 1617, 1306
+lenght cond at: 178, 1305
+lenght cond at: 1421, 1309
+lenght cond at: 1422, 1310
+lenght cond at: 1430, 1310
+lenght cond at: 234, 1315
+lenght cond at: 1564, 1315
+lenght cond at: 1571, 1315
+lenght cond at: 1833, 1316
+lenght cond at: 1844, 1316
+lenght cond at: 1123, 1318
+curve cond right at: 519, 1324
+curve cond left at: 521, 1325
+lenght cond at: 1101, 1318
+lenght cond at: 1111, 1318
+lenght cond at: 1357, 1319
+lenght cond at: 1803, 1319
+angle cond at: 1802, 1320
+lenght cond at: 942, 1311
+lenght cond at: 2012, 1325
+lenght cond at: 454, 1324
+lenght cond at: 1268, 1325
+lenght cond at: 240, 1327
+lenght cond at: 217, 1327
+angle cond at: 216, 1328
+angle cond at: 1150, 1329
+lenght cond at: 1144, 1329
+lenght cond at: 393, 1328
+lenght cond at: 1071, 1331
+curve cond right at: 1072, 1332
+curve cond left at: 1077, 1332
+lenght cond at: 1627, 1328
+angle cond at: 1628, 1329
+lenght cond at: 155, 1330
+lenght cond at: 163, 1330
+lenght cond at: 1259, 1331
+lenght cond at: 1384, 1333
+lenght cond at: 1393, 1333
+lenght cond at: 1231, 1335
+lenght cond at: 1393, 1335
+lenght cond at: 1678, 1335
+lenght cond at: 1672, 1335
+lenght cond at: 1202, 1337
+curve cond right at: 1361, 1335
+angle cond at: 1362, 1336
+lenght cond at: 1471, 1337
+lenght cond at: 1563, 1340
+lenght cond at: 567, 1395
+curve cond right at: 1063, 1341
+angle cond at: 1062, 1340
+curve cond right at: 1082, 1338
+angle cond at: 1083, 1339
+lenght cond at: 1337, 1339
+lenght cond at: 1108, 1343
+curve cond right at: 1154, 1342
+curve cond left at: 1157, 1342
+lenght cond at: 1337, 1341
+curve cond right at: 1135, 1347
+curve cond left at: 1137, 1346
+curve cond left at: 1138, 1347
+angle cond at: 1139, 1346
+curve cond right at: 1707, 1343
+lenght cond at: 1706, 1344
+lenght cond at: 1700, 1344
+curve cond right at: 1759, 1344
+angle cond at: 1758, 1345
+lenght cond at: 1634, 1346
+lenght cond at: 1642, 1346
+curve cond right at: 1856, 1348
+curve cond left at: 1861, 1348
+lenght cond at: 1137, 1349
+lenght cond at: 1342, 1349
+lenght cond at: 1350, 1349
+lenght cond at: 1381, 1348
+curve cond right at: 1423, 1349
+lenght cond at: 1424, 1350
+lenght cond at: 1435, 1350
+curve cond right at: 1044, 1354
+lenght cond at: 1346, 1351
+lenght cond at: 1371, 1350
+lenght cond at: 1380, 1350
+lenght cond at: 22, 1353
+curve cond right at: 1236, 1357
+angle cond at: 1238, 1355
+lenght cond at: 1527, 1353
+lenght cond at: 551, 1360
+lenght cond at: 586, 1411
+angle cond at: 584, 1404
+lenght cond at: 587, 1407
+lenght cond at: 1052, 1328
+lenght cond at: 1540, 1354
+lenght cond at: 1558, 1354
+lenght cond at: 1613, 1353
+lenght cond at: 1619, 1353
+lenght cond at: 1313, 1355
+lenght cond at: 1614, 1355
+lenght cond at: 1578, 1355
+lenght cond at: 1265, 1358
+lenght cond at: 1415, 1359
+lenght cond at: 1372, 1359
+lenght cond at: 1378, 1359
+lenght cond at: 1445, 1360
+lenght cond at: 921, 1329
+lenght cond at: 933, 1310
+curve cond right at: 934, 1310
+curve cond left at: 936, 1308
+lenght cond at: 1117, 1361
+angle cond at: 1118, 1362
+lenght cond at: 1447, 1363
+lenght cond at: 1462, 1363
+lenght cond at: 1463, 1364
+lenght cond at: 1474, 1364
+lenght cond at: 1119, 1364
+lenght cond at: 1823, 1364
+lenght cond at: 1520, 1365
+angle cond at: 1521, 1366
+lenght cond at: 116, 1368
+lenght cond at: 124, 1368
+lenght cond at: 1055, 1371
+curve cond right at: 1507, 1370
+curve cond right at: 1512, 1369
+lenght cond at: 1513, 1370
+lenght cond at: 1524, 1370
+lenght cond at: 1689, 1370
+lenght cond at: 1683, 1370
+lenght cond at: 1568, 1370
+lenght cond at: 1569, 1371
+lenght cond at: 1577, 1371
+curve cond right at: 1504, 1371
+angle cond at: 1505, 1372
+curve cond right at: 288, 1374
+curve cond left at: 286, 1373
+lenght cond at: 558, 1386
+lenght cond at: 1640, 1373
+lenght cond at: 1641, 1374
+lenght cond at: 1679, 1374
+curve cond right at: 1954, 1373
+lenght cond at: 1953, 1374
+lenght cond at: 1946, 1374
+curve cond right at: 1091, 1375
+angle cond at: 1092, 1376
+lenght cond at: 1097, 1376
+lenght cond at: 1392, 1375
+curve cond right at: 317, 1378
+lenght cond at: 307, 1377
+angle cond at: 306, 1378
+lenght cond at: 1207, 1378
+lenght cond at: 1745, 1376
+lenght cond at: 1752, 1376
+lenght cond at: 1023, 1378
+lenght cond at: 1458, 1378
+lenght cond at: 1472, 1378
+lenght cond at: 1473, 1379
+lenght cond at: 1480, 1379
+lenght cond at: 1680, 1376
+curve cond right at: 380, 1379
+curve cond left at: 383, 1379
+lenght cond at: 975, 1389
+lenght cond at: 1122, 1381
+lenght cond at: 1466, 1380
+lenght cond at: 1479, 1381
+curve cond right at: 1026, 1382
+curve cond left at: 1031, 1383
+angle cond at: 1032, 1382
+lenght cond at: 1145, 1384
+curve cond right at: 1200, 1392
+angle cond at: 1201, 1393
+lenght cond at: 1927, 1384
+lenght cond at: 1514, 1385
+lenght cond at: 1881, 1387
+lenght cond at: 1544, 1386
+lenght cond at: 1849, 1386
+angle cond at: 1850, 1387
+lenght cond at: 1855, 1387
+curve cond right at: 1232, 1387
+lenght cond at: 982, 1389
+lenght cond at: 1003, 1392
+angle cond at: 1002, 1391
+lenght cond at: 1440, 1389
+lenght cond at: 1446, 1389
+curve cond right at: 1073, 1396
+lenght cond at: 1505, 1393
+angle cond at: 1506, 1394
+lenght cond at: 1511, 1394
+curve cond right at: 1160, 1394
+lenght cond at: 1154, 1394
+lenght cond at: 1419, 1394
+lenght cond at: 1838, 1394
+lenght cond at: 1710, 1394
+lenght cond at: 1721, 1394
+lenght cond at: 969, 1397
+lenght cond at: 1132, 1399
+lenght cond at: 1653, 1400
+curve cond right at: 1375, 1402
+angle cond at: 1374, 1403
+curve cond right at: 1726, 1402
+lenght cond at: 1716, 1401
+angle cond at: 1715, 1402
+curve cond right at: 1036, 1406
+angle cond at: 1034, 1404
+lenght cond at: 331, 1404
+lenght cond at: 1324, 1404
+curve cond right at: 1291, 1404
+lenght cond at: 1290, 1405
+lenght cond at: 1284, 1405
+angle cond at: 1283, 1406
+lenght cond at: 1728, 1404
+lenght cond at: 1702, 1404
+angle cond at: 1701, 1405
+angle cond at: 956, 1410
+lenght cond at: 1280, 1408
+lenght cond at: 1032, 1409
+angle cond at: 1031, 1410
+lenght cond at: 1463, 1410
+lenght cond at: 967, 1395
+lenght cond at: 968, 1395
+lenght cond at: 972, 1391
+curve cond right at: 611, 1441
+curve cond right at: 1461, 1412
+angle cond at: 1462, 1413
+lenght cond at: 1176, 1413
+curve cond right at: 280, 1414
+lenght cond at: 276, 1416
+lenght cond at: 1184, 1416
+lenght cond at: 1191, 1416
+angle cond at: 1192, 1417
+lenght cond at: 1523, 1422
+lenght cond at: 1670, 1421
+angle cond at: 1671, 1422
+curve cond right at: 939, 1422
+curve cond left at: 944, 1422
+curve cond right at: 1134, 1422
+curve cond left at: 1139, 1422
+angle cond at: 1140, 1423
+curve cond right at: 1175, 1422
+angle cond at: 1176, 1423
+lenght cond at: 613, 1448
+angle cond at: 616, 1454
+lenght cond at: 629, 1472
+lenght cond at: 631, 1470
+angle cond at: 623, 1458
+lenght cond at: 620, 1455
+lenght cond at: 620, 1454
+lenght cond at: 617, 1451
+angle cond at: 617, 1450
+lenght cond at: 594, 1440
+lenght cond at: 1378, 1424
+lenght cond at: 1379, 1425
+lenght cond at: 1391, 1425
+curve cond right at: 1452, 1424
+lenght cond at: 1453, 1425
+lenght cond at: 1459, 1425
+lenght cond at: 1649, 1424
+lenght cond at: 1396, 1425
+lenght cond at: 1406, 1425
+lenght cond at: 976, 1430
+lenght cond at: 1355, 1428
+lenght cond at: 1361, 1428
+lenght cond at: 1095, 1428
+lenght cond at: 1101, 1428
+lenght cond at: 1360, 1430
+lenght cond at: 942, 1437
+lenght cond at: 1328, 1431
+lenght cond at: 1334, 1431
+lenght cond at: 159, 1431
+curve cond right at: 199, 1432
+curve cond left at: 202, 1432
+lenght cond at: 1193, 1432
+lenght cond at: 1201, 1432
+lenght cond at: 557, 1434
+curve cond right at: 556, 1435
+curve cond left at: 553, 1435
+lenght cond at: 965, 1436
+lenght cond at: 1037, 1437
+lenght cond at: 1154, 1434
+angle cond at: 1155, 1435
+lenght cond at: 1546, 1434
+lenght cond at: 1552, 1434
+lenght cond at: 1590, 1435
+lenght cond at: 1290, 1437
+lenght cond at: 1301, 1437
+curve cond right at: 1027, 1442
+lenght cond at: 605, 1457
+curve cond right at: 601, 1448
+curve cond right at: 603, 1449
+curve cond right at: 957, 1450
+lenght cond at: 325, 1450
+lenght cond at: 326, 1451
+lenght cond at: 332, 1451
+angle cond at: 333, 1452
+curve cond right at: 990, 1453
+lenght cond at: 991, 1452
+lenght cond at: 997, 1452
+lenght cond at: 1291, 1449
+curve cond right at: 982, 1447
+lenght cond at: 980, 1454
+angle cond at: 979, 1455
+lenght cond at: 1534, 1450
+lenght cond at: 1535, 1451
+lenght cond at: 1556, 1451
+angle cond at: 1557, 1452
+lenght cond at: 1583, 1452
+lenght cond at: 1599, 1452
+curve cond right at: 1061, 1450
+curve cond right at: 1061, 1452
+curve cond left at: 1062, 1453
+curve cond left at: 1062, 1455
+curve cond left at: 1063, 1456
+angle cond at: 1072, 1449
+curve cond right at: 253, 1454
+lenght cond at: 242, 1454
+curve cond right at: 241, 1455
+curve cond left at: 238, 1455
+curve cond left at: 905, 1458
+lenght cond at: 899, 1458
+curve cond right at: 982, 1458
+lenght cond at: 1010, 1455
+curve cond right at: 960, 1461
+lenght cond at: 923, 1458
+lenght cond at: 924, 1460
+lenght cond at: 955, 1463
+lenght cond at: 521, 1464
+curve cond right at: 520, 1463
+curve cond left at: 518, 1464
+curve cond right at: 1001, 1471
+angle cond at: 998, 1468
+angle cond at: 968, 1463
+lenght cond at: 1100, 1465
+curve cond right at: 972, 1469
+curve cond right at: 972, 1472
+curve cond right at: 973, 1471
+curve cond right at: 974, 1472
+curve cond left at: 976, 1472
+curve cond left at: 977, 1473
+lenght cond at: 1006, 1471
+lenght cond at: 957, 1473
+curve cond right at: 884, 1472
+curve cond right at: 886, 1473
+curve cond left at: 886, 1476
+curve cond right at: 898, 1480
+curve cond left at: 896, 1480
+curve cond left at: 895, 1479
+lenght cond at: 979, 1481
+angle cond at: 978, 1482
+lenght cond at: 637, 1500
+lenght cond at: 944, 1485
+curve cond right at: 1004, 1494
+lenght cond at: 912, 1493
+angle cond at: 847, 1491
+curve cond right at: 825, 1494
+curve cond left at: 822, 1497
+lenght cond at: 924, 1490
+lenght cond at: 917, 1491
+curve cond right at: 978, 1491
+curve cond right at: 980, 1492
+lenght cond at: 1009, 1490
+lenght cond at: 1024, 1490
+lenght cond at: 818, 1505
+curve cond right at: 820, 1507
+angle cond at: 819, 1508
+curve cond right at: 921, 1496
+lenght cond at: 930, 1494
+curve cond right at: 866, 1494
+lenght cond at: 824, 1504
+lenght cond at: 1024, 1496
+lenght cond at: 899, 1497
+lenght cond at: 905, 1497
+curve cond right at: 634, 1502
+curve cond left at: 636, 1503
+curve cond right at: 637, 1506
+lenght cond at: 640, 1509
+lenght cond at: 1033, 1503
+lenght cond at: 926, 1501
+curve cond right at: 899, 1502
+lenght cond at: 941, 1500
+curve cond right at: 941, 1502
+curve cond left at: 948, 1502
+curve cond left at: 950, 1505
+lenght cond at: 1067, 1510
+angle cond at: 510, 1511
+curve cond right at: 687, 1515
+lenght cond at: 690, 1518
+lenght cond at: 865, 1510
+curve cond right at: 951, 1509
+curve cond left at: 956, 1513
+lenght cond at: 803, 1522
+curve cond right at: 925, 1516
+curve cond right at: 929, 1518
+curve cond left at: 930, 1517
+angle cond at: 931, 1518
+angle cond at: 946, 1517
+curve cond right at: 1009, 1525
+lenght cond at: 1005, 1523
+curve cond right at: 831, 1526
+lenght cond at: 838, 1527
+lenght cond at: 799, 1518
+curve cond right at: 850, 1529
+curve cond left at: 852, 1527
+curve cond right at: 925, 1524
+curve cond left at: 930, 1524
+angle cond at: 931, 1525
+lenght cond at: 458, 1525
+lenght cond at: 457, 1526
+lenght cond at: 441, 1526
+curve cond right at: 997, 1527
+curve cond right at: 994, 1526
+angle cond at: 993, 1527
+lenght cond at: 432, 1529
+lenght cond at: 531, 1528
+lenght cond at: 543, 1528
+lenght cond at: 829, 1532
+angle cond at: 895, 1529
+lenght cond at: 203, 1529
+lenght cond at: 1006, 1534
+lenght cond at: 1905, 292
+angle cond at: 707, 520
+curve cond right at: 673, 557
+lenght cond at: 1195, 678
+curve cond right at: 865, 802
+curve cond left at: 860, 806
+curve cond right at: 862, 808
+curve cond left at: 866, 805
+curve cond left at: 866, 809
+lenght cond at: 815, 829
+lenght cond at: 820, 838
+angle cond at: 782, 866
+angle cond at: 775, 860
+curve cond left at: 760, 882
+angle cond at: 751, 889
+angle cond at: 745, 883
+curve cond right at: 747, 880
+curve cond left at: 752, 886
+angle cond at: 755, 881
+angle cond at: 753, 878
+curve cond right at: 747, 891
+curve cond left at: 746, 894
+curve cond right at: 740, 889
+curve cond left at: 736, 893
+angle cond at: 742, 898
+angle cond at: 730, 899
+lenght cond at: 723, 890
+angle cond at: 780, 926
+curve cond left at: 784, 925
+curve cond left at: 780, 917
+angle cond at: 803, 920
+lenght cond at: 849, 930
+angle cond at: 849, 928
+angle cond at: 790, 939
+angle cond at: 782, 935
+curve cond left at: 849, 946
+curve cond right at: 846, 949
+curve cond left at: 837, 939
+curve cond right at: 831, 943
+lenght cond at: 838, 953
+angle cond at: 838, 955
+angle cond at: 836, 957
+curve cond right at: 830, 951
+angle cond at: 827, 946
+curve cond left at: 825, 944
+curve cond right at: 826, 941
+curve cond right at: 828, 941
+lenght cond at: 832, 936
+curve cond right at: 771, 954
+curve cond left at: 770, 957
+curve cond right at: 754, 954
+angle cond at: 757, 957
+angle cond at: 761, 963
+angle cond at: 747, 953
+curve cond right at: 748, 963
+angle cond at: 741, 968
+curve cond right at: 738, 971
+curve cond left at: 749, 967
+angle cond at: 751, 971
+angle cond at: 747, 975
+lenght cond at: 736, 958
+curve cond left at: 803, 960
+angle cond at: 803, 962
+curve cond left at: 800, 964
+lenght cond at: 807, 973
+angle cond at: 736, 968
+angle cond at: 734, 965
+angle cond at: 779, 966
+angle cond at: 797, 986
+angle cond at: 793, 984
+lenght cond at: 784, 972
+curve cond right at: 716, 978
+curve cond right at: 785, 985
+angle cond at: 781, 987
+angle cond at: 776, 992
+curve cond right at: 782, 994
+curve cond left at: 787, 988
+angle cond at: 789, 992
+angle cond at: 782, 997
+lenght cond at: 772, 980
+angle cond at: 776, 988
+angle cond at: 690, 1009
+lenght cond at: 678, 993
+curve cond right at: 687, 1018
+curve cond right at: 683, 1019
+curve cond left at: 679, 1025
+angle cond at: 668, 1008
+curve cond left at: 672, 1007
+lenght cond at: 668, 998
+angle cond at: 765, 1006
+angle cond at: 592, 1006
+curve cond right at: 301, 1016
+curve cond right at: 722, 1031
+curve cond left at: 730, 1021
+curve cond right at: 726, 1018
+curve cond left at: 720, 1023
+angle cond at: 719, 1020
+angle cond at: 722, 1017
+curve cond right at: 706, 1043
+angle cond at: 701, 1046
+angle cond at: 696, 1051
+curve cond right at: 702, 1053
+curve cond left at: 707, 1047
+angle cond at: 709, 1050
+angle cond at: 703, 1056
+lenght cond at: 692, 1039
+lenght cond at: 500, 1059
+curve cond left at: 503, 1062
+angle cond at: 500, 1066
+angle cond at: 496, 1069
+curve cond right at: 490, 1067
+angle cond at: 476, 1048
+angle cond at: 475, 1045
+lenght cond at: 481, 1040
+angle cond at: 695, 1048
+angle cond at: 698, 1045
+angle cond at: 700, 1042
+angle cond at: 699, 1041
+angle cond at: 609, 1076
+angle cond at: 614, 1071
+angle cond at: 610, 1062
+angle cond at: 606, 1059
+angle cond at: 600, 1063
+curve cond right at: 600, 1067
+curve cond left at: 604, 1065
+lenght cond at: 597, 1055
+curve cond right at: 672, 1079
+curve cond right at: 669, 1079
+curve cond left at: 664, 1085
+angle cond at: 654, 1067
+curve cond left at: 658, 1065
+lenght cond at: 654, 1058
+curve cond right at: 524, 1066
+angle cond at: 523, 1064
+lenght cond at: 654, 1074
+angle cond at: 654, 1072
+angle cond at: 625, 1080
+angle cond at: 482, 1088
+angle cond at: 491, 1087
+angle cond at: 624, 1110
+curve cond right at: 619, 1102
+curve cond right at: 1199, 1117
+lenght cond at: 1197, 1126
+lenght cond at: 1195, 1127
+curve cond right at: 1188, 1118
+curve cond right at: 1185, 1130
+angle cond at: 1184, 1136
+angle cond at: 1154, 1161
+lenght cond at: 1158, 1158
+curve cond right at: 1144, 1161
+curve cond left at: 1140, 1156
+curve cond right at: 1137, 1158
+angle cond at: 1143, 1165
+angle cond at: 1144, 1168
+lenght cond at: 1142, 1169
+lenght cond at: 1175, 1185
+angle cond at: 1175, 1186
+curve cond right at: 955, 1270
+angle cond at: 956, 1269
+angle cond at: 932, 1298
+angle cond at: 926, 1292
+angle cond at: 926, 1289
+lenght cond at: 945, 1528
