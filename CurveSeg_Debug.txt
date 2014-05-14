@@ -1,8 +1,7000 @@
-angle cond at: 221, 162
-angle cond at: 205, 156
-angle cond at: 225, 406
-curve cond left at: 253, 386
-angle cond at: 274, 403
-lenght cond at: 547, 173
-curve cond right at: 545, 171
-lenght cond at: 460, 422
+Segmentierung von Seg 2
+158.682, 
+####### Trennen (220,12)>>12.3722
+146.31, 
+####### Trennen (219,12)>>33.6901
+Segmentierung von Seg 4
+148.392, 
+####### Trennen (83,10)>>31.6075
+Segmentierung von Seg 10
+152.592, 143.13, 
+####### Trennen (19,19)>>36.8699
+Segmentierung von Seg 13
+Segmentierung von Seg 15
+139.399, 144.462, 
+####### Trennen (39,31)>>14.0362
+158.499, 
+####### Trennen (47,33)>>32.3404
+126.158, 
+####### Trennen (53,28)>>35.8377
+161.996, 
+####### Trennen (58,26)>>93.7972
+Segmentierung von Seg 17
+146.31, 146.31, 146.31, 146.31, 
+####### Trennen (212,17)>>33.6901
+Segmentierung von Seg 21
+135, 135, 135, 135, 
+####### Trennen (16,29)>>45
+Segmentierung von Seg 23
+135, 135, Segmentierung von Seg 26
+169.592, 
+####### Trennen (47,43)>>22.0635
+147.529, Segmentierung von Seg 34
+168.69, 
+####### Trennen (1049,45)>>11.3099
+Segmentierung von Seg 36
+135, 135, 
+####### Trennen (1140,48)>>45
+Segmentierung von Seg 38
+Segmentierung von Seg 53
+170.538, 
+####### Trennen (1737,67)>>71.0754
+Segmentierung von Seg 55
+135, 135, 
+####### Trennen (1706,71)>>45
+Segmentierung von Seg 60
+173.454, 
+####### Trennen (1051,86)>>27.1438
+Segmentierung von Seg 63
+135, 135, 
+####### Trennen (993,88)>>45
+Segmentierung von Seg 65
+52.125, 
+####### Trennen (1669,88)>>71.5651
+123.69, 
+####### Trennen (1668,89)>>11.3099
+Segmentierung von Seg 68
+135, 135, 135, 
+####### Trennen (1076,90)>>45
+Segmentierung von Seg 76
+139.086, Segmentierung von Seg 80
+Segmentierung von Seg 85
+150.255, 
+####### Trennen (1077,102)>>26.5651
+123.69, 
+####### Trennen (1078,103)>>11.3099
+135, 
+####### Trennen (1083,103)>>45
+Segmentierung von Seg 87
+125.538, 135, 
+####### Trennen (1035,105)>>45
+Segmentierung von Seg 88
+Segmentierung von Seg 98
+135, 135, 
+####### Trennen (1338,110)>>45
+Segmentierung von Seg 99
+135, 
+####### Trennen (1355,109)>>18.4349
+116.565, 
+####### Trennen (1354,110)>>18.4349
+135, 
+####### Trennen (1347,110)>>45
+Segmentierung von Seg 100
+168.69, 
+####### Trennen (1012,112)>>11.3099
+Segmentierung von Seg 101
+Segmentierung von Seg 102
+167.471, 
+####### Trennen (1367,113)>>32.4712
+Segmentierung von Seg 103
+Segmentierung von Seg 104
+Segmentierung von Seg 105
+Segmentierung von Seg 106
+153.435, 
+####### Trennen (1226,114)>>26.5651
+Segmentierung von Seg 114
+170.538, Segmentierung von Seg 115
+135, 135, 
+####### Trennen (1024,118)>>45
+Segmentierung von Seg 116
+135, 135, 135, 
+####### Trennen (1043,119)>>45
+Segmentierung von Seg 121
+154.654, Segmentierung von Seg 122
+135, 135, 
+####### Trennen (988,122)>>45
+Segmentierung von Seg 123
+153.034, 161.565, 
+####### Trennen (1218,123)>>18.4349
+Segmentierung von Seg 128
+168.69, 
+####### Trennen (1177,124)>>11.3099
+Segmentierung von Seg 131
+165.964, 
+####### Trennen (1441,124)>>14.0362
+Segmentierung von Seg 134
+161.565, 
+####### Trennen (1177,126)>>26.5651
+135, 135, 
+####### Trennen (1181,127)>>45
+Segmentierung von Seg 138
+135, 135, 135, 135, 
+####### Trennen (1161,127)>>45
+Segmentierung von Seg 145
+138.814, 135, 135, 135, 
+####### Trennen (979,129)>>45
+Segmentierung von Seg 152
+Segmentierung von Seg 153
+Segmentierung von Seg 154
+170.538, Segmentierung von Seg 156
+145.62, 
+####### Trennen (1345,130)>>29.0546
+116.565, 
+####### Trennen (1346,131)>>18.4349
+135, 
+####### Trennen (1351,131)>>45
+Segmentierung von Seg 158
+168.69, 
+####### Trennen (977,131)>>11.3099
+Segmentierung von Seg 162
+165.964, 
+####### Trennen (1009,132)>>14.0362
+Segmentierung von Seg 164
+135, 135, 
+####### Trennen (1272,132)>>45
+Segmentierung von Seg 165
+135, 135, 
+####### Trennen (1057,133)>>45
+Segmentierung von Seg 172
+Segmentierung von Seg 173
+135, 
+####### Trennen (1180,135)>>45
+Segmentierung von Seg 178
+125.538, 135, 
+####### Trennen (1284,135)>>45
+Segmentierung von Seg 182
+130.601, 130.601, 135, 
+####### Trennen (1248,137)>>45
+Segmentierung von Seg 184
+165.964, 
+####### Trennen (923,138)>>14.0362
+Segmentierung von Seg 186
+153.435, 
+####### Trennen (1115,138)>>26.5651
+Segmentierung von Seg 187
+162.408, 
+####### Trennen (1175,137)>>36.8699
+125.538, 135, 
+####### Trennen (1187,138)>>45
+Segmentierung von Seg 193
+135, 
+####### Trennen (1277,140)>>45
+Segmentierung von Seg 205
+170.538, Segmentierung von Seg 208
+Segmentierung von Seg 211
+Segmentierung von Seg 215
+135, 135, 
+####### Trennen (1300,146)>>45
+Segmentierung von Seg 222
+Segmentierung von Seg 237
+168.69, 
+####### Trennen (1431,151)>>11.3099
+Segmentierung von Seg 238
+Segmentierung von Seg 240
+90, 
+####### Trennen (1731,150)>>45
+135, 
+####### Trennen (1741,150)>>45
+Segmentierung von Seg 242
+153.435, 
+####### Trennen (1166,150)>>26.5651
+Segmentierung von Seg 243
+Segmentierung von Seg 246
+146.31, 
+####### Trennen (1267,153)>>11.3099
+Segmentierung von Seg 248
+135, 135, 
+####### Trennen (1169,153)>>45
+Segmentierung von Seg 251
+144.462, Segmentierung von Seg 256
+Segmentierung von Seg 259
+Segmentierung von Seg 268
+153.435, 
+####### Trennen (1907,157)>>26.5651
+Segmentierung von Seg 270
+153.435, 
+####### Trennen (1130,158)>>26.5651
+Segmentierung von Seg 276
+153.435, 
+####### Trennen (1516,160)>>26.5651
+Segmentierung von Seg 278
+130.601, 135, 
+####### Trennen (1131,160)>>45
+Segmentierung von Seg 293
+135, 135, 135, 
+####### Trennen (1450,169)>>45
+Segmentierung von Seg 303
+153.435, 
+####### Trennen (1842,169)>>18.4349
+135, 135, 
+####### Trennen (1847,170)>>45
+Segmentierung von Seg 315
+135, 135, 
+####### Trennen (1768,171)>>45
+Segmentierung von Seg 320
+135, 135, 
+####### Trennen (1768,173)>>45
+Segmentierung von Seg 321
+123.69, 
+####### Trennen (1107,173)>>11.3099
+135, 
+####### Trennen (1114,173)>>45
+Segmentierung von Seg 322
+125.538, 135, 
+####### Trennen (1332,173)>>45
+Segmentierung von Seg 324
+Segmentierung von Seg 325
+116.565, 
+####### Trennen (1407,175)>>18.4349
+135, 
+####### Trennen (1404,175)>>45
+Segmentierung von Seg 327
+135, 135, 
+####### Trennen (1066,176)>>45
+Segmentierung von Seg 328
+Segmentierung von Seg 331
+174.289, Segmentierung von Seg 334
+116.565, 
+####### Trennen (1723,179)>>26.5651
+90, 
+####### Trennen (1724,180)>>45
+135, 
+####### Trennen (1726,180)>>45
+Segmentierung von Seg 336
+127.875, Segmentierung von Seg 339
+153.435, 
+####### Trennen (1415,181)>>26.5651
+Segmentierung von Seg 348
+90, 90, 
+####### Trennen (1870,184)>>90
+Segmentierung von Seg 349
+120.964, 
+####### Trennen (257,184)>>14.0362
+135, 
+####### Trennen (258,184)>>45
+Segmentierung von Seg 350
+135, 135, 135, 135, 135, 135, 
+####### Trennen (1049,186)>>45
+Segmentierung von Seg 365
+Segmentierung von Seg 367
+108.435, 
+####### Trennen (1041,187)>>18.4349
+90, 
+####### Trennen (1042,188)>>45
+135, 135, 135, 
+####### Trennen (1050,189)>>45
+Segmentierung von Seg 377
+135, Segmentierung von Seg 382
+Segmentierung von Seg 384
+142.595, Segmentierung von Seg 386
+153.435, 
+####### Trennen (1513,191)>>10.6197
+164.055, 
+####### Trennen (1506,193)>>13.1092
+Segmentierung von Seg 393
+170.538, Segmentierung von Seg 395
+174.401, 
+####### Trennen (1489,193)>>28.0907
+Segmentierung von Seg 401
+165.964, 
+####### Trennen (1534,193)>>14.0362
+Segmentierung von Seg 412
+135, 135, 135, 135, 
+####### Trennen (1531,196)>>45
+Segmentierung von Seg 415
+135, Segmentierung von Seg 418
+Segmentierung von Seg 425
+Segmentierung von Seg 431
+125.538, 135, 
+####### Trennen (1683,197)>>45
+Segmentierung von Seg 433
+120.964, 
+####### Trennen (1305,198)>>14.0362
+135, 
+####### Trennen (1309,198)>>45
+Segmentierung von Seg 435
+161.565, 
+####### Trennen (1523,200)>>18.4349
+Segmentierung von Seg 439
+128.66, 135, 
+####### Trennen (1228,200)>>45
+Segmentierung von Seg 441
+99.4623, 90, 
+####### Trennen (170,204)>>90
+Segmentierung von Seg 442
+135, 135, 
+####### Trennen (1038,202)>>45
+Segmentierung von Seg 448
+135, 135, 
+####### Trennen (1346,203)>>45
+Segmentierung von Seg 449
+143.13, 
+####### Trennen (1456,202)>>86.0353
+57.0948, 
+####### Trennen (1461,206)>>84.2454
+141.34, 
+####### Trennen (1463,206)>>12.0948
+153.435, 153.435, 
+####### Trennen (1470,204)>>18.4349
+135, Segmentierung von Seg 452
+164.055, 
+####### Trennen (1525,204)>>15.9454
+Segmentierung von Seg 456
+153.435, 
+####### Trennen (1251,204)>>26.5651
+Segmentierung von Seg 457
+165.964, 
+####### Trennen (1436,204)>>14.0362
+Segmentierung von Seg 459
+153.435, 
+####### Trennen (1375,205)>>18.4349
+135, 135, 
+####### Trennen (1377,206)>>45
+Segmentierung von Seg 463
+Segmentierung von Seg 464
+153.435, 153.435, 
+####### Trennen (1493,207)>>26.5651
+Segmentierung von Seg 466
+128.66, Segmentierung von Seg 467
+Segmentierung von Seg 470
+153.435, 
+####### Trennen (1511,208)>>26.5651
+Segmentierung von Seg 472
+139.086, 135, 
+####### Trennen (1410,210)>>45
+Segmentierung von Seg 479
+Segmentierung von Seg 482
+168.69, 
+####### Trennen (1347,211)>>11.3099
+Segmentierung von Seg 483
+135, 140.194, 140.194, Segmentierung von Seg 486
+108.435, 
+####### Trennen (703,211)>>26.5651
+135, 
+####### Trennen (712,211)>>45
+Segmentierung von Seg 488
+153.435, 
+####### Trennen (1143,212)>>26.5651
+Segmentierung von Seg 495
+Segmentierung von Seg 500
+131.634, 135, 
+####### Trennen (1358,214)>>45
+Segmentierung von Seg 503
+135, 135, 
+####### Trennen (1286,216)>>45
+Segmentierung von Seg 515
+120.964, 
+####### Trennen (171,218)>>14.0362
+135, 
+####### Trennen (176,218)>>45
+Segmentierung von Seg 522
+Segmentierung von Seg 523
+Segmentierung von Seg 524
+135, 135, 
+####### Trennen (1254,220)>>45
+Segmentierung von Seg 525
+143.13, Segmentierung von Seg 527
+135, 135, 135, Segmentierung von Seg 541
+Segmentierung von Seg 544
+135, 
+####### Trennen (1924,228)>>45
+Segmentierung von Seg 549
+167.471, 
+####### Trennen (259,232)>>12.5288
+Segmentierung von Seg 555
+Segmentierung von Seg 561
+172.875, Segmentierung von Seg 563
+168.69, 
+####### Trennen (1242,242)>>11.3099
+Segmentierung von Seg 566
+119.055, 
+####### Trennen (1979,244)>>15.9454
+135, 135, Segmentierung von Seg 569
+135, 135, 
+####### Trennen (1127,249)>>45
+Segmentierung von Seg 572
+Segmentierung von Seg 573
+135, 135, 
+####### Trennen (188,250)>>45
+Segmentierung von Seg 574
+160.253, 
+####### Trennen (209,250)>>30.9638
+129.289, Segmentierung von Seg 580
+170.538, Segmentierung von Seg 581
+135, 135, 
+####### Trennen (1433,252)>>45
+Segmentierung von Seg 583
+165.964, 
+####### Trennen (204,253)>>14.0362
+Segmentierung von Seg 587
+153.435, 
+####### Trennen (248,255)>>18.4349
+135, 135, 
+####### Trennen (252,256)>>45
+Segmentierung von Seg 589
+135, 135, 135, 135, 
+####### Trennen (695,257)>>45
+Segmentierung von Seg 595
+135, 135, 
+####### Trennen (1337,257)>>45
+Segmentierung von Seg 599
+146.669, 141.766, Segmentierung von Seg 601
+135, 
+####### Trennen (1269,259)>>45
+Segmentierung von Seg 603
+173.14, 
+####### Trennen (1351,260)>>28.6779
+Segmentierung von Seg 608
+131.634, 
+####### Trennen (1284,261)>>21.8014
+153.435, 
+####### Trennen (1286,261)>>26.5651
+Segmentierung von Seg 609
+Segmentierung von Seg 612
+Segmentierung von Seg 619
+108.435, 
+####### Trennen (1606,269)>>18.4349
+Segmentierung von Seg 621
+169.695, 
+####### Trennen (992,266)>>10.2512
+159.444, 151.742, 155.513, 159.829, 164.932, 
+####### Trennen (1025,321)>>26.5651
+138.366, 135, 
+####### Trennen (1031,334)>>33.6901
+168.69, 
+####### Trennen (1035,341)>>18.4349
+150.255, 
+####### Trennen (1035,353)>>18.9606
+169.216, 169.216, 
+####### Trennen (1031,382)>>34.2157
+135, 135, 
+####### Trennen (1030,388)>>45
+Segmentierung von Seg 626
+116.565, 
+####### Trennen (1039,266)>>18.4349
+135, 
+####### Trennen (1050,266)>>45
+Segmentierung von Seg 628
+108.435, 
+####### Trennen (889,270)>>30.9638
+139.399, 147.529, 
+####### Trennen (883,275)>>14.0362
+Segmentierung von Seg 636
+90, 90, 
+####### Trennen (1221,271)>>90
+Segmentierung von Seg 642
+107.65, 
+####### Trennen (1285,273)>>33.6901
+141.34, 
+####### Trennen (1287,273)>>38.6598
+Segmentierung von Seg 654
+130.236, 135, 
+####### Trennen (251,278)>>45
+Segmentierung von Seg 673
+101.31, 
+####### Trennen (1506,286)>>11.3099
+90, 
+####### Trennen (1505,287)>>18.4349
+108.435, 
+####### Trennen (1503,286)>>53.1301
+Segmentierung von Seg 680
+116.565, 
+####### Trennen (1133,286)>>18.4349
+135, 
+####### Trennen (1142,286)>>45
+Segmentierung von Seg 690
+Segmentierung von Seg 696
+146.31, 
+####### Trennen (1908,290)>>49.1849
+97.125, 
+####### Trennen (1907,292)>>33.6901
+Segmentierung von Seg 702
+135, 135, 
+####### Trennen (1340,291)>>45
+Segmentierung von Seg 710
+139.399, 
+####### Trennen (245,292)>>14.0362
+153.435, 
+####### Trennen (247,292)>>26.5651
+Segmentierung von Seg 711
+Segmentierung von Seg 718
+120.964, 
+####### Trennen (1472,295)>>14.0362
+Segmentierung von Seg 719
+165.964, 
+####### Trennen (1990,295)>>14.0362
+Segmentierung von Seg 724
+161.565, 
+####### Trennen (1376,298)>>26.5651
+135, 135, 
+####### Trennen (1378,299)>>45
+Segmentierung von Seg 726
+Segmentierung von Seg 728
+130.236, Segmentierung von Seg 731
+Segmentierung von Seg 737
+135, 135, 
+####### Trennen (1061,300)>>45
+Segmentierung von Seg 743
+135, 135, 135, Segmentierung von Seg 745
+143.13, 
+####### Trennen (847,314)>>90
+Segmentierung von Seg 748
+137.726, Segmentierung von Seg 752
+161.565, 
+####### Trennen (1387,305)>>18.4349
+Segmentierung von Seg 753
+174.531, 170.538, Segmentierung von Seg 759
+108.435, 
+####### Trennen (645,305)>>26.5651
+135, 135, Segmentierung von Seg 761
+156.161, 149.036, 
+####### Trennen (1441,310)>>30.9638
+Segmentierung von Seg 776
+164.055, 
+####### Trennen (676,310)>>15.9454
+Segmentierung von Seg 797
+140.711, 144.462, 152.592, 143.13, Segmentierung von Seg 802
+120.964, 
+####### Trennen (73,316)>>14.0362
+135, 135, Segmentierung von Seg 805
+164.129, 158.839, 
+####### Trennen (846,341)>>56.3099
+102.529, 108.435, 
+####### Trennen (843,341)>>26.5651
+135, 
+####### Trennen (839,341)>>45
+Segmentierung von Seg 812
+158.199, 
+####### Trennen (1424,320)>>23.1986
+135, 135, 
+####### Trennen (1426,321)>>45
+Segmentierung von Seg 814
+128.66, 135, 
+####### Trennen (105,319)>>45
+Segmentierung von Seg 815
+135, Segmentierung von Seg 817
+135, Segmentierung von Seg 820
+Segmentierung von Seg 829
+145.305, 
+####### Trennen (256,326)>>34.6952
+Segmentierung von Seg 833
+168.69, 
+####### Trennen (11,326)>>15.2551
+Segmentierung von Seg 840
+Segmentierung von Seg 841
+Segmentierung von Seg 847
+Segmentierung von Seg 856
+172.875, 
+####### Trennen (1310,330)>>30.75
+Segmentierung von Seg 865
+163.301, 
+####### Trennen (1469,333)>>16.6992
+Segmentierung von Seg 868
+136.79, 135, 135, 135, 
+####### Trennen (109,334)>>45
+Segmentierung von Seg 878
+142.125, 
+####### Trennen (1660,333)>>18.4349
+123.69, 
+####### Trennen (1661,334)>>11.3099
+135, 
+####### Trennen (1662,334)>>45
+Segmentierung von Seg 886
+135, 135, 
+####### Trennen (84,338)>>45
+Segmentierung von Seg 889
+161.565, Segmentierung von Seg 896
+170.538, 
+####### Trennen (1227,340)>>26.0754
+Segmentierung von Seg 897
+164.055, 
+####### Trennen (1328,341)>>15.9454
+Segmentierung von Seg 899
+161.565, 
+####### Trennen (1211,343)>>18.4349
+Segmentierung von Seg 900
+165.964, 
+####### Trennen (1314,342)>>14.0362
+Segmentierung von Seg 903
+161.565, 161.565, 162.784, 164.116, 
+####### Trennen (879,384)>>19.6538
+144.462, Segmentierung von Seg 910
+135, 135, 
+####### Trennen (1215,346)>>45
+Segmentierung von Seg 915
+135, 
+####### Trennen (1151,347)>>45
+Segmentierung von Seg 916
+135, Segmentierung von Seg 919
+135, 135, 135, 
+####### Trennen (1111,349)>>45
+Segmentierung von Seg 920
+135, 135, 
+####### Trennen (1198,348)>>45
+Segmentierung von Seg 925
+120.964, 
+####### Trennen (1378,348)>>14.0362
+135, 
+####### Trennen (1383,348)>>45
+Segmentierung von Seg 927
+176.309, 
+####### Trennen (1204,351)>>41.3086
+135, Segmentierung von Seg 928
+168.69, 
+####### Trennen (1272,350)>>11.3099
+Segmentierung von Seg 929
+161.565, 
+####### Trennen (1474,350)>>18.4349
+Segmentierung von Seg 930
+90, 
+####### Trennen (1548,351)>>45
+135, 135, 
+####### Trennen (1546,350)>>45
+Segmentierung von Seg 931
+123.69, 
+####### Trennen (1149,350)>>11.3099
+135, 135, 135, 
+####### Trennen (1166,351)>>45
+Segmentierung von Seg 933
+Segmentierung von Seg 934
+143.13, 
+####### Trennen (1027,358)>>18.4349
+161.565, 
+####### Trennen (1026,359)>>18.4349
+Segmentierung von Seg 937
+135, 135, 135, Segmentierung von Seg 938
+132.397, 135, 
+####### Trennen (1285,352)>>45
+Segmentierung von Seg 939
+164.055, 
+####### Trennen (1326,354)>>15.9454
+Segmentierung von Seg 942
+172.924, 
+####### Trennen (852,437)>>10.0264
+162.897, 
+####### Trennen (854,441)>>54.4623
+108.435, 
+####### Trennen (852,443)>>18.4349
+90, 
+####### Trennen (851,442)>>45
+135, 
+####### Trennen (850,442)>>45
+Segmentierung von Seg 949
+Segmentierung von Seg 950
+135, 135, 
+####### Trennen (1225,356)>>45
+Segmentierung von Seg 951
+Segmentierung von Seg 952
+158.405, 161.565, 
+####### Trennen (1333,359)>>18.4349
+Segmentierung von Seg 954
+135, 135, 135, 
+####### Trennen (1351,357)>>45
+Segmentierung von Seg 957
+Segmentierung von Seg 958
+Segmentierung von Seg 965
+Segmentierung von Seg 966
+167.905, 
+####### Trennen (1358,363)>>12.0948
+Segmentierung von Seg 968
+Segmentierung von Seg 969
+135, 135, 
+####### Trennen (975,362)>>45
+Segmentierung von Seg 975
+135, 135, 135, Segmentierung von Seg 980
+135, 135, 135, 
+####### Trennen (1264,365)>>45
+Segmentierung von Seg 981
+Segmentierung von Seg 983
+168.69, 
+####### Trennen (1616,364)>>22.3801
+Segmentierung von Seg 987
+124.695, 
+####### Trennen (1087,366)>>10.3048
+Segmentierung von Seg 988
+129.289, 135, 
+####### Trennen (1309,365)>>45
+Segmentierung von Seg 995
+120.964, 
+####### Trennen (1327,367)>>14.0362
+135, 
+####### Trennen (1331,367)>>45
+Segmentierung von Seg 996
+135, 135, 135, 135, 135, 135, Segmentierung von Seg 1003
+Segmentierung von Seg 1004
+108.435, 
+####### Trennen (1236,370)>>26.5651
+135, 
+####### Trennen (1245,370)>>45
+Segmentierung von Seg 1011
+Segmentierung von Seg 1015
+165.964, 
+####### Trennen (1354,374)>>61.9275
+Segmentierung von Seg 1017
+176.186, Segmentierung von Seg 1023
+135, 135, 
+####### Trennen (1268,378)>>45
+Segmentierung von Seg 1024
+135, 135, 
+####### Trennen (1283,378)>>45
+Segmentierung von Seg 1027
+153.435, 
+####### Trennen (1396,380)>>26.5651
+Segmentierung von Seg 1028
+120.964, 
+####### Trennen (1392,378)>>14.0362
+135, 
+####### Trennen (1396,378)>>45
+Segmentierung von Seg 1033
+135, 135, 
+####### Trennen (975,381)>>45
+Segmentierung von Seg 1034
+90, 
+####### Trennen (984,384)>>21.8014
+68.1986, 
+####### Trennen (979,382)>>90
+Segmentierung von Seg 1035
+Segmentierung von Seg 1037
+135, 135, 
+####### Trennen (1078,383)>>45
+Segmentierung von Seg 1043
+90, 
+####### Trennen (1047,386)>>45
+135, 
+####### Trennen (1054,386)>>45
+Segmentierung von Seg 1044
+153.435, 
+####### Trennen (1088,387)>>26.5651
+Segmentierung von Seg 1045
+90, 
+####### Trennen (1476,386)>>45
+135, 135, 135, 135, Segmentierung von Seg 1048
+165.964, 
+####### Trennen (1350,388)>>14.0362
+Segmentierung von Seg 1052
+161.565, 
+####### Trennen (1632,390)>>18.4349
+Segmentierung von Seg 1059
+135, 135, 
+####### Trennen (1255,391)>>45
+Segmentierung von Seg 1060
+142.431, 
+####### Trennen (1020,461)>>37.5686
+Segmentierung von Seg 1074
+Segmentierung von Seg 1075
+Segmentierung von Seg 1080
+171.87, Segmentierung von Seg 1081
+135, 135, 
+####### Trennen (1513,398)>>45
+Segmentierung von Seg 1082
+135, 
+####### Trennen (1775,398)>>45
+Segmentierung von Seg 1092
+135, 135, 
+####### Trennen (1555,401)>>45
+Segmentierung von Seg 1094
+135, 
+####### Trennen (1738,401)>>45
+Segmentierung von Seg 1096
+165.964, 
+####### Trennen (1445,403)>>14.0362
+Segmentierung von Seg 1097
+135, 
+####### Trennen (1568,402)>>45
+Segmentierung von Seg 1100
+Segmentierung von Seg 1102
+135, 135, 
+####### Trennen (1529,403)>>45
+Segmentierung von Seg 1103
+Segmentierung von Seg 1105
+Segmentierung von Seg 1108
+123.69, 123.69, 
+####### Trennen (1590,405)>>11.3099
+135, 
+####### Trennen (1592,405)>>45
+Segmentierung von Seg 1109
+85.9144, 90, 
+####### Trennen (1231,407)>>45
+135, 135, 
+####### Trennen (1235,408)>>45
+Segmentierung von Seg 1115
+90, 83.6598, 
+####### Trennen (1317,409)>>45
+128.66, 135, 
+####### Trennen (1320,410)>>45
+Segmentierung von Seg 1117
+135, 135, 135, 135, 
+####### Trennen (1220,410)>>45
+Segmentierung von Seg 1118
+135, 135, 
+####### Trennen (1254,409)>>45
+Segmentierung von Seg 1119
+135, 135, 
+####### Trennen (1381,409)>>45
+Segmentierung von Seg 1131
+161.565, 
+####### Trennen (1460,411)>>18.4349
+Segmentierung von Seg 1132
+139.97, 135, 135, 135, 
+####### Trennen (1532,414)>>45
+Segmentierung von Seg 1133
+164.055, 
+####### Trennen (1554,412)>>15.9454
+Segmentierung von Seg 1139
+Segmentierung von Seg 1140
+171.254, Segmentierung von Seg 1141
+171.87, Segmentierung von Seg 1148
+Segmentierung von Seg 1150
+168.69, 
+####### Trennen (1441,417)>>11.3099
+Segmentierung von Seg 1151
+168.69, 
+####### Trennen (1590,416)>>11.3099
+Segmentierung von Seg 1158
+126.87, 135, 
+####### Trennen (1677,416)>>45
+Segmentierung von Seg 1169
+129.289, 135, 135, 135, 135, Segmentierung von Seg 1170
+165.964, 165.964, 
+####### Trennen (1619,421)>>14.0362
+Segmentierung von Seg 1175
+140.599, 146.31, 
+####### Trennen (1639,423)>>11.3099
+135, Segmentierung von Seg 1187
+123.69, 
+####### Trennen (1696,429)>>11.3099
+135, 
+####### Trennen (1706,429)>>45
+Segmentierung von Seg 1188
+122.276, 129.289, 135, 
+####### Trennen (1077,432)>>45
+Segmentierung von Seg 1192
+Segmentierung von Seg 1198
+153.435, 
+####### Trennen (1370,435)>>26.5651
+Segmentierung von Seg 1199
+26.5651, 
+####### Trennen (1668,436)>>153.435
+Segmentierung von Seg 1203
+135, 
+####### Trennen (1078,436)>>45
+Segmentierung von Seg 1204
+Segmentierung von Seg 1209
+130.601, 135, 135, 135, 135, 135, 
+####### Trennen (1197,438)>>45
+Segmentierung von Seg 1210
+171.87, Segmentierung von Seg 1215
+135, 
+####### Trennen (1122,438)>>45
+Segmentierung von Seg 1226
+153.435, 
+####### Trennen (1241,440)>>26.5651
+Segmentierung von Seg 1233
+135, 135, 135, 
+####### Trennen (1417,444)>>45
+Segmentierung von Seg 1235
+162.255, 
+####### Trennen (861,457)>>11.3099
+150.945, 
+####### Trennen (861,458)>>29.0546
+Segmentierung von Seg 1236
+135, 135, 
+####### Trennen (148,446)>>45
+Segmentierung von Seg 1241
+94.0856, 90, 
+####### Trennen (1458,452)>>90
+Segmentierung von Seg 1243
+127.875, 136.848, 136.848, 135, 
+####### Trennen (1090,453)>>45
+Segmentierung von Seg 1244
+131.82, Segmentierung von Seg 1246
+150.255, 
+####### Trennen (446,452)>>26.5651
+123.69, 
+####### Trennen (447,453)>>11.3099
+135, 
+####### Trennen (461,453)>>45
+Segmentierung von Seg 1249
+123.69, 123.69, 
+####### Trennen (1365,454)>>11.3099
+135, 135, Segmentierung von Seg 1252
+130.914, 135, 
+####### Trennen (1318,454)>>45
+Segmentierung von Seg 1255
+Segmentierung von Seg 1256
+135, 135, 
+####### Trennen (1350,457)>>45
+Segmentierung von Seg 1259
+Segmentierung von Seg 1268
+174.52, 
+####### Trennen (877,496)>>17.0692
+157.451, 148.898, 
+####### Trennen (913,510)>>20.2162
+169.114, 161.565, 171.027, 162.408, 154.44, 
+####### Trennen (979,506)>>13.279
+167.719, 
+####### Trennen (1008,476)>>31.748
+135.971, 135, 135, 135, 
+####### Trennen (1017,465)>>45
+Segmentierung von Seg 1269
+170.538, Segmentierung von Seg 1276
+129.806, 135, 
+####### Trennen (1397,467)>>45
+Segmentierung von Seg 1280
+Segmentierung von Seg 1283
+Segmentierung von Seg 1284
+126.87, 135, 
+####### Trennen (617,474)>>45
+Segmentierung von Seg 1288
+Segmentierung von Seg 1289
+Segmentierung von Seg 1291
+Segmentierung von Seg 1293
+139.764, 
+####### Trennen (1614,481)>>40.2364
+Segmentierung von Seg 1294
+129.806, Segmentierung von Seg 1296
+164.687, 
+####### Trennen (700,465)>>34.6569
+130.03, 
+####### Trennen (685,468)>>28.2558
+158.286, 
+####### Trennen (325,702)>>21.4629
+179.749, 
+####### Trennen (197,786)>>11.4741
+168.275, 
+####### Trennen (194,789)>>33.2749
+135, 135, 135, 135, 
+####### Trennen (188,793)>>45
+Segmentierung von Seg 1299
+173.868, 
+####### Trennen (776,556)>>38.8678
+135, 135, 135, 135, 
+####### Trennen (783,565)>>45
+Segmentierung von Seg 1308
+135, 
+####### Trennen (1030,498)>>45
+Segmentierung von Seg 1310
+Segmentierung von Seg 1311
+Segmentierung von Seg 1312
+140.711, Segmentierung von Seg 1313
+135, Segmentierung von Seg 1315
+143.13, 
+####### Trennen (674,509)>>53.1301
+90, 
+####### Trennen (675,510)>>45
+Segmentierung von Seg 1328
+116.565, 108.435, 
+####### Trennen (703,513)>>45
+153.435, Segmentierung von Seg 1339
+63.4349, 
+####### Trennen (666,513)>>60.2551
+123.69, 
+####### Trennen (668,510)>>53.1301
+70.56, 
+####### Trennen (671,514)>>27.5701
+98.1301, 
+####### Trennen (670,515)>>36.8699
+135, 
+####### Trennen (669,515)>>45
+Segmentierung von Seg 1350
+127.875, 135, 
+####### Trennen (709,527)>>45
+Segmentierung von Seg 1354
+138.366, 
+####### Trennen (673,524)>>29.9315
+108.435, 
+####### Trennen (675,526)>>26.5651
+135, Segmentierung von Seg 1357
+108.435, 102.995, 
+####### Trennen (695,529)>>19.0108
+122.005, 
+####### Trennen (699,529)>>39.5597
+161.565, 
+####### Trennen (702,530)>>98.1301
+63.4349, 
+####### Trennen (698,534)>>26.5651
+90, 
+####### Trennen (699,535)>>90
+Segmentierung von Seg 1358
+167.005, 163.94, 160.241, 165.379, 158.199, 153.435, Segmentierung von Seg 1361
+155.225, 160.017, 158.35, 
+####### Trennen (657,565)>>26.716
+131.634, Segmentierung von Seg 1369
+135, 135, 
+####### Trennen (272,525)>>45
+Segmentierung von Seg 1371
+146.31, 
+####### Trennen (707,528)>>22.6199
+123.69, 
+####### Trennen (707,535)>>11.8887
+111.801, 
+####### Trennen (702,537)>>45
+Segmentierung von Seg 1373
+161.565, 
+####### Trennen (394,526)>>18.4349
+Segmentierung von Seg 1374
+142.125, 
+####### Trennen (452,526)>>18.4349
+123.69, 
+####### Trennen (453,527)>>11.3099
+135, 
+####### Trennen (455,527)>>45
+Segmentierung von Seg 1375
+153.435, 
+####### Trennen (656,537)>>18.4349
+135, Segmentierung von Seg 1379
+Segmentierung von Seg 1381
+123.69, 
+####### Trennen (675,531)>>12.9178
+110.772, 
+####### Trennen (680,538)>>33.6901
+Segmentierung von Seg 1383
+148.671, 
+####### Trennen (731,533)>>23.9762
+124.695, 
+####### Trennen (730,536)>>13.4847
+138.18, 
+####### Trennen (723,540)>>12.0753
+Segmentierung von Seg 1386
+102.529, 104.036, 
+####### Trennen (712,522)>>30.9638
+135, 
+####### Trennen (711,523)>>45
+Segmentierung von Seg 1393
+130.601, 
+####### Trennen (685,523)>>22.1663
+108.435, 
+####### Trennen (688,523)>>18.4349
+90, 
+####### Trennen (688,525)>>51.3402
+141.34, 
+####### Trennen (692,530)>>29.0546
+170.395, 
+####### Trennen (697,539)>>46.0145
+124.38, 116.565, 
+####### Trennen (692,543)>>18.4349
+135, Segmentierung von Seg 1404
+112.62, 
+####### Trennen (725,534)>>52.3647
+60.2551, 
+####### Trennen (723,535)>>101.31
+Segmentierung von Seg 1407
+141.34, 141.34, 
+####### Trennen (709,540)>>12.0948
+153.435, Segmentierung von Seg 1410
+161.565, 
+####### Trennen (561,539)>>26.5651
+135, Segmentierung von Seg 1411
+63.4349, 
+####### Trennen (652,541)>>16.2602
+79.6952, 
+####### Trennen (653,539)>>28.7398
+Segmentierung von Seg 1412
+152.393, 
+####### Trennen (1411,553)>>48.3571
+Segmentierung von Seg 1414
+137.726, 142.125, 
+####### Trennen (711,543)>>11.3099
+153.435, 
+####### Trennen (710,544)>>26.565
+Segmentierung von Seg 1418
+168.69, 
+####### Trennen (672,533)>>11.3099
+180, 
+####### Trennen (671,532)>>71.565
+108.435, 
+####### Trennen (669,533)>>53.1301
+161.565, 
+####### Trennen (667,535)>>71.5651
+90, 
+####### Trennen (674,542)>>85.6013
+175.601, 
+####### Trennen (681,548)>>36.2026
+Segmentierung von Seg 1419
+107.103, 
+####### Trennen (684,549)>>54.4623
+161.565, 
+####### Trennen (683,550)>>26.5651
+Segmentierung von Seg 1422
+159.444, 
+####### Trennen (687,563)>>10.4077
+149.036, 
+####### Trennen (685,565)>>14.0362
+135, 135, 135, 135, 135, Segmentierung von Seg 1423
+148.772, 
+####### Trennen (711,564)>>96.3402
+Segmentierung von Seg 1429
+156.335, 159.829, 169.695, 
+####### Trennen (678,572)>>16.2602
+Segmentierung von Seg 1432
+54.1623, 
+####### Trennen (655,548)>>14.0362
+Segmentierung von Seg 1437
+Segmentierung von Seg 1444
+135, 
+####### Trennen (481,551)>>45
+Segmentierung von Seg 1450
+135, 
+####### Trennen (664,546)>>26.5651
+108.435, 116.565, 
+####### Trennen (664,536)>>63.4349
+Segmentierung von Seg 1451
+171.87, 
+####### Trennen (681,564)>>24.3411
+147.529, 
+####### Trennen (679,564)>>30.9638
+116.565, 
+####### Trennen (678,562)>>45
+Segmentierung von Seg 1453
+169.695, 
+####### Trennen (384,554)>>34.6952
+135, 135, 
+####### Trennen (386,553)>>45
+Segmentierung von Seg 1465
+164.055, 
+####### Trennen (1264,557)>>15.9454
+Segmentierung von Seg 1467
+147.995, 
+####### Trennen (696,550)>>32.0054
+Segmentierung von Seg 1469
+97.125, 
+####### Trennen (660,563)>>22.6199
+119.745, 
+####### Trennen (656,561)>>66.6148
+53.1301, 
+####### Trennen (660,559)>>18.4349
+Segmentierung von Seg 1470
+144.462, 137.227, 
+####### Trennen (708,538)>>31.0836
+168.311, 
+####### Trennen (709,537)>>11.6894
+Segmentierung von Seg 1474
+135, 
+####### Trennen (1790,558)>>45
+Segmentierung von Seg 1476
+135, 
+####### Trennen (1341,579)>>26.5651
+161.565, 153.435, 
+####### Trennen (1345,587)>>63.4349
+Segmentierung von Seg 1477
+Segmentierung von Seg 1478
+161.565, 
+####### Trennen (485,562)>>18.4349
+Segmentierung von Seg 1484
+147.653, 
+####### Trennen (658,571)>>41.9439
+105.709, 
+####### Trennen (664,578)>>14.8847
+120.593, 
+####### Trennen (698,572)>>42.8496
+163.443, 161.565, 
+####### Trennen (709,566)>>18.4349
+Segmentierung von Seg 1485
+169.783, 172.854, 170.013, 171.374, 170.191, 160.56, 
+####### Trennen (1093,575)>>19.44
+Segmentierung von Seg 1490
+163.632, 158.962, 
+####### Trennen (1345,592)>>23.9625
+Segmentierung von Seg 1495
+170.074, 177.274, 168.69, 
+####### Trennen (1322,590)>>11.3099
+Segmentierung von Seg 1497
+135, 135, 
+####### Trennen (1272,575)>>11.3099
+146.31, 146.31, 146.31, 146.31, 149.036, 149.036, 146.31, Segmentierung von Seg 1499
+71.5651, 
+####### Trennen (676,567)>>36.4041
+107.969, 
+####### Trennen (668,572)>>58.4604
+166.43, 
+####### Trennen (665,573)>>49.8645
+Segmentierung von Seg 1502
+170.538, 
+####### Trennen (799,584)>>35.5377
+135, 135, 
+####### Trennen (802,588)>>45
+Segmentierung von Seg 1503
+97.7652, 
+####### Trennen (1252,559)>>71.1465
+168.912, 169.287, 168.179, 168.833, 170.713, 173.985, 173.29, 175.601, 
+####### Trennen (1031,632)>>36.2026
+Segmentierung von Seg 1508
+81.5056, 
+####### Trennen (1348,612)>>26.9293
+Segmentierung von Seg 1516
+113.199, 
+####### Trennen (1656,580)>>45
+158.199, 
+####### Trennen (1661,580)>>21.8014
+Segmentierung von Seg 1521
+165.964, 
+####### Trennen (1073,588)>>30.9638
+135, Segmentierung von Seg 1523
+153.435, 
+####### Trennen (1270,591)>>26.5651
+Segmentierung von Seg 1524
+135, 
+####### Trennen (1488,583)>>45
+Segmentierung von Seg 1530
+Segmentierung von Seg 1532
+94.3987, 
+####### Trennen (816,605)>>45
+Segmentierung von Seg 1533
+171.87, Segmentierung von Seg 1536
+Segmentierung von Seg 1537
+Segmentierung von Seg 1538
+120.964, 
+####### Trennen (957,591)>>14.0362
+135, 
+####### Trennen (972,591)>>45
+Segmentierung von Seg 1546
+86.6335, Segmentierung von Seg 1556
+153.435, 146.31, Segmentierung von Seg 1557
+175.601, 
+####### Trennen (1277,568)>>14.0362
+Segmentierung von Seg 1564
+123.254, 132.709, Segmentierung von Seg 1565
+150.255, 
+####### Trennen (1261,613)>>15.2551
+135, Segmentierung von Seg 1566
+162.001, 
+####### Trennen (1374,607)>>21.8069
+140.194, 135, 
+####### Trennen (1371,606)>>45
+Segmentierung von Seg 1571
+170.838, 
+####### Trennen (1369,609)>>12.6391
+158.199, 
+####### Trennen (1370,609)>>21.8014
+Segmentierung von Seg 1584
+153.435, 
+####### Trennen (1512,608)>>18.4349
+135, 135, 
+####### Trennen (1514,609)>>45
+Segmentierung von Seg 1585
+139.635, Segmentierung von Seg 1589
+Segmentierung von Seg 1591
+135, Segmentierung von Seg 1599
+135, 135, 
+####### Trennen (1003,612)>>45
+Segmentierung von Seg 1600
+Segmentierung von Seg 1607
+Segmentierung von Seg 1609
+152.103, 
+####### Trennen (946,615)>>26.5651
+125.538, 135, 
+####### Trennen (949,616)>>45
+Segmentierung von Seg 1610
+166.686, 166.109, 
+####### Trennen (1235,661)>>11.3099
+154.799, 
+####### Trennen (1235,662)>>25.2011
+Segmentierung von Seg 1611
+66.8014, 
+####### Trennen (1361,626)>>60.0685
+126.87, 
+####### Trennen (1360,624)>>34.6952
+Segmentierung von Seg 1621
+Segmentierung von Seg 1622
+146.31, 153.435, 
+####### Trennen (997,621)>>26.5651
+Segmentierung von Seg 1624
+Segmentierung von Seg 1628
+148.241, 
+####### Trennen (1021,622)>>18.4349
+129.806, 135, 
+####### Trennen (1029,623)>>45
+Segmentierung von Seg 1629
+158.199, 
+####### Trennen (1252,634)>>21.8014
+Segmentierung von Seg 1632
+153.435, 
+####### Trennen (914,626)>>26.5651
+Segmentierung von Seg 1633
+Segmentierung von Seg 1636
+171.87, Segmentierung von Seg 1644
+171.254, Segmentierung von Seg 1645
+171.973, 163.072, 
+####### Trennen (1385,665)>>14.0362
+149.036, 
+####### Trennen (1387,667)>>14.0362
+Segmentierung von Seg 1648
+155.638, 
+####### Trennen (986,633)>>39.0725
+116.565, 
+####### Trennen (986,635)>>18.4349
+Segmentierung von Seg 1649
+168.69, 
+####### Trennen (849,645)>>33.6901
+135, 135, 135, 135, 135, 135, 
+####### Trennen (859,658)>>45
+Segmentierung von Seg 1652
+127.875, 135, 
+####### Trennen (185,633)>>45
+Segmentierung von Seg 1653
+157.751, 
+####### Trennen (982,634)>>26.5651
+131.186, Segmentierung von Seg 1654
+83.6598, 82.875, 
+####### Trennen (998,635)>>45
+127.875, 135, 
+####### Trennen (1004,636)>>45
+Segmentierung von Seg 1656
+146.31, 
+####### Trennen (1248,639)>>11.3099
+135, 
+####### Trennen (1246,641)>>11.3099
+146.31, 146.31, 146.31, Segmentierung von Seg 1666
+129.289, 135, 
+####### Trennen (85,639)>>45
+Segmentierung von Seg 1668
+Segmentierung von Seg 1673
+171.87, Segmentierung von Seg 1674
+135, 135, 
+####### Trennen (935,643)>>45
+Segmentierung von Seg 1678
+Segmentierung von Seg 1680
+Segmentierung von Seg 1683
+135, 
+####### Trennen (940,648)>>26.5651
+161.565, 
+####### Trennen (947,648)>>18.4349
+Segmentierung von Seg 1694
+Segmentierung von Seg 1699
+Segmentierung von Seg 1702
+135, 135, 135, 
+####### Trennen (1406,654)>>45
+Segmentierung von Seg 1704
+170.538, Segmentierung von Seg 1709
+164.197, 
+####### Trennen (882,655)>>38.6598
+125.538, 135, 
+####### Trennen (892,656)>>45
+Segmentierung von Seg 1711
+103.392, 
+####### Trennen (1026,640)>>13.3925
+Segmentierung von Seg 1714
+125.538, 135, 135, 135, 
+####### Trennen (968,657)>>45
+Segmentierung von Seg 1716
+169.951, 161.459, 
+####### Trennen (1001,724)>>32.7995
+128.66, 135, 
+####### Trennen (1000,733)>>45
+Segmentierung von Seg 1720
+129.806, 135, 
+####### Trennen (50,657)>>45
+Segmentierung von Seg 1722
+Segmentierung von Seg 1729
+Segmentierung von Seg 1731
+161.565, 
+####### Trennen (1570,661)>>18.4349
+Segmentierung von Seg 1733
+127.875, Segmentierung von Seg 1736
+129.806, 135, 
+####### Trennen (1477,661)>>45
+Segmentierung von Seg 1742
+135, 135, 135, 135, 
+####### Trennen (1548,665)>>45
+Segmentierung von Seg 1747
+175.914, Segmentierung von Seg 1752
+66.8014, 
+####### Trennen (1409,669)>>49.7636
+116.565, 
+####### Trennen (1394,669)>>18.4349
+135, 135, 
+####### Trennen (1392,668)>>45
+Segmentierung von Seg 1757
+90, 
+####### Trennen (934,671)>>45
+135, 135, 
+####### Trennen (936,672)>>45
+Segmentierung von Seg 1762
+172.026, 175.26, 
+####### Trennen (1407,732)>>24.4794
+150.781, 
+####### Trennen (1406,735)>>34.2157
+116.565, 
+####### Trennen (1407,736)>>18.4349
+135, 
+####### Trennen (1407,771)>>36.0274
+171.027, 
+####### Trennen (1404,790)>>27.0547
+143.973, 143.13, 
+####### Trennen (1402,798)>>18.4349
+161.565, 153.435, 
+####### Trennen (1400,805)>>18.4349
+135, Segmentierung von Seg 1763
+161.565, 
+####### Trennen (1478,671)>>18.4349
+Segmentierung von Seg 1764
+125.538, 135, 
+####### Trennen (235,671)>>45
+Segmentierung von Seg 1771
+135, 135, 
+####### Trennen (1480,674)>>45
+Segmentierung von Seg 1774
+161.565, 
+####### Trennen (1704,674)>>18.4349
+Segmentierung von Seg 1778
+135, 135, 
+####### Trennen (1523,675)>>45
+Segmentierung von Seg 1779
+135, 135, 
+####### Trennen (1661,675)>>45
+Segmentierung von Seg 1780
+133.698, 135, 
+####### Trennen (1759,674)>>45
+Segmentierung von Seg 1783
+Segmentierung von Seg 1784
+Segmentierung von Seg 1785
+90, 
+####### Trennen (1801,676)>>90
+Segmentierung von Seg 1786
+Segmentierung von Seg 1792
+Segmentierung von Seg 1793
+125.538, 125.538, 135, 
+####### Trennen (1747,677)>>45
+Segmentierung von Seg 1794
+161.565, 
+####### Trennen (1817,687)>>18.4349
+Segmentierung von Seg 1805
+130.914, 135, 
+####### Trennen (1798,678)>>45
+Segmentierung von Seg 1806
+135, Segmentierung von Seg 1807
+128.66, 135, 
+####### Trennen (350,679)>>45
+Segmentierung von Seg 1809
+164.055, 168.453, 165.964, 
+####### Trennen (899,706)>>30.9638
+135, 135, 
+####### Trennen (901,709)>>45
+Segmentierung von Seg 1815
+135, 
+####### Trennen (341,682)>>45
+Segmentierung von Seg 1818
+135, 
+####### Trennen (965,681)>>26.5651
+108.435, 
+####### Trennen (966,682)>>26.5651
+135, 
+####### Trennen (973,682)>>45
+Segmentierung von Seg 1820
+Segmentierung von Seg 1823
+90, 
+####### Trennen (298,684)>>90
+Segmentierung von Seg 1824
+135, 135, 
+####### Trennen (307,684)>>45
+Segmentierung von Seg 1826
+140.711, 135, 135, Segmentierung von Seg 1829
+167.949, 
+####### Trennen (1507,685)>>39.2894
+128.66, 135, 
+####### Trennen (1517,686)>>45
+Segmentierung von Seg 1832
+153.435, 
+####### Trennen (1734,686)>>26.5651
+Segmentierung von Seg 1835
+Segmentierung von Seg 1839
+136.397, 135, 
+####### Trennen (1520,689)>>45
+Segmentierung von Seg 1841
+135, 135, 
+####### Trennen (1837,688)>>45
+Segmentierung von Seg 1844
+168.69, 
+####### Trennen (1418,690)>>11.3099
+Segmentierung von Seg 1849
+116.565, 
+####### Trennen (992,692)>>18.4349
+135, Segmentierung von Seg 1850
+Segmentierung von Seg 1851
+Segmentierung von Seg 1852
+153.435, 
+####### Trennen (1849,693)>>26.5651
+Segmentierung von Seg 1853
+168.69, 
+####### Trennen (958,694)>>11.3099
+Segmentierung von Seg 1857
+90, 
+####### Trennen (1786,693)>>45
+135, 
+####### Trennen (1795,693)>>45
+Segmentierung von Seg 1861
+45, 
+####### Trennen (978,696)>>90
+135, Segmentierung von Seg 1866
+Segmentierung von Seg 1868
+Segmentierung von Seg 1877
+161.565, 
+####### Trennen (90,699)>>18.4349
+Segmentierung von Seg 1881
+Segmentierung von Seg 1882
+145.305, 
+####### Trennen (1944,698)>>18.4349
+126.87, 135, 
+####### Trennen (1942,699)>>45
+Segmentierung von Seg 1895
+135, 
+####### Trennen (1915,702)>>26.5651
+108.435, 
+####### Trennen (1916,703)>>26.5651
+135, 
+####### Trennen (1923,703)>>45
+Segmentierung von Seg 1896
+127.875, 135, 
+####### Trennen (1954,702)>>45
+Segmentierung von Seg 1898
+153.435, 
+####### Trennen (982,704)>>26.5651
+Segmentierung von Seg 1900
+Segmentierung von Seg 1903
+135, Segmentierung von Seg 1908
+135, 
+####### Trennen (982,706)>>45
+Segmentierung von Seg 1910
+131.186, 135, 
+####### Trennen (1485,705)>>45
+Segmentierung von Seg 1915
+135, 
+####### Trennen (1186,708)>>45
+Segmentierung von Seg 1927
+168.551, 159.444, 162.897, 163.413, 162.35, 159.775, 161.565, 160.017, 154.983, 156.038, 158.962, 158.962, 161.232, 
+####### Trennen (1180,763)>>21.0375
+140.194, Segmentierung von Seg 1928
+135, 135, 
+####### Trennen (1180,711)>>45
+Segmentierung von Seg 1933
+138.366, 135, 
+####### Trennen (912,723)>>45
+Segmentierung von Seg 1934
+161.565, 
+####### Trennen (979,713)>>18.4349
+Segmentierung von Seg 1937
+159.444, 
+####### Trennen (1140,723)>>20.556
+Segmentierung von Seg 1938
+135, 135, 135, Segmentierung von Seg 1942
+Segmentierung von Seg 1945
+135, 135, 
+####### Trennen (1196,714)>>11.3099
+146.31, Segmentierung von Seg 1946
+135, 135, 
+####### Trennen (1564,714)>>45
+Segmentierung von Seg 1947
+63.4349, 
+####### Trennen (1820,715)>>53.1301
+116.565, 
+####### Trennen (1812,715)>>63.4349
+Segmentierung von Seg 1949
+Segmentierung von Seg 1952
+156.801, 
+####### Trennen (1226,721)>>21.8014
+135, 135, 
+####### Trennen (1227,723)>>45
+Segmentierung von Seg 1955
+161.565, 
+####### Trennen (60,716)>>18.4349
+Segmentierung von Seg 1959
+135, Segmentierung von Seg 1964
+135, 135, 
+####### Trennen (1479,717)>>45
+Segmentierung von Seg 1966
+160.56, 160.78, 162.35, 164.745, 
+####### Trennen (1176,759)>>15.2551
+Segmentierung von Seg 1968
+135, 
+####### Trennen (1620,718)>>45
+Segmentierung von Seg 1969
+171.87, 
+####### Trennen (1700,718)>>73.7398
+Segmentierung von Seg 1970
+Segmentierung von Seg 1975
+Segmentierung von Seg 1976
+Segmentierung von Seg 1978
+125.538, 135, 
+####### Trennen (1635,719)>>45
+Segmentierung von Seg 1992
+90, 90, 
+####### Trennen (1716,723)>>90
+Segmentierung von Seg 1996
+71.5651, 
+####### Trennen (949,726)>>36.8699
+108.435, 
+####### Trennen (959,726)>>71.5651
+Segmentierung von Seg 2002
+Segmentierung von Seg 2005
+Segmentierung von Seg 2009
+153.435, 
+####### Trennen (273,726)>>26.5651
+Segmentierung von Seg 2014
+137.49, 
+####### Trennen (926,739)>>30.9638
+168.453, 165.964, 
+####### Trennen (935,750)>>30.9638
+135, 135, 
+####### Trennen (936,752)>>45
+Segmentierung von Seg 2016
+156.801, 
+####### Trennen (1232,738)>>23.1986
+Segmentierung von Seg 2021
+129.806, 135, 
+####### Trennen (1904,726)>>45
+Segmentierung von Seg 2022
+123.69, 
+####### Trennen (218,727)>>11.3099
+135, 
+####### Trennen (223,727)>>45
+Segmentierung von Seg 2023
+123.69, 
+####### Trennen (941,727)>>11.3099
+135, 
+####### Trennen (945,727)>>45
+Segmentierung von Seg 2025
+122.471, 
+####### Trennen (1230,734)>>39.0939
+161.565, 
+####### Trennen (1230,740)>>18.4349
+Segmentierung von Seg 2026
+127.875, 135, 
+####### Trennen (246,728)>>45
+Segmentierung von Seg 2030
+Segmentierung von Seg 2031
+135, 135, 
+####### Trennen (1906,729)>>45
+Segmentierung von Seg 2036
+Segmentierung von Seg 2037
+90, 
+####### Trennen (991,733)>>45
+135, Segmentierung von Seg 2039
+Segmentierung von Seg 2047
+129.806, 129.806, Segmentierung von Seg 2055
+135, 135, 
+####### Trennen (1753,735)>>45
+Segmentierung von Seg 2058
+129.289, 135, 
+####### Trennen (997,747)>>45
+Segmentierung von Seg 2059
+108.435, 
+####### Trennen (1502,736)>>26.5651
+135, 135, 135, 
+####### Trennen (1496,737)>>45
+Segmentierung von Seg 2063
+135, 135, 
+####### Trennen (1532,738)>>45
+Segmentierung von Seg 2066
+90, 
+####### Trennen (1178,742)>>45
+135, 135, 
+####### Trennen (1179,745)>>14.0362
+149.036, Segmentierung von Seg 2071
+Segmentierung von Seg 2076
+Segmentierung von Seg 2082
+90, 
+####### Trennen (1751,740)>>45
+135, 135, Segmentierung von Seg 2096
+135, 135, 
+####### Trennen (1774,743)>>45
+Segmentierung von Seg 2102
+108.435, 108.435, 
+####### Trennen (1496,744)>>26.5651
+135, 
+####### Trennen (1502,744)>>45
+Segmentierung von Seg 2113
+161.565, 
+####### Trennen (1684,746)>>18.4349
+Segmentierung von Seg 2114
+135, 135, 
+####### Trennen (1726,746)>>45
+Segmentierung von Seg 2119
+Segmentierung von Seg 2121
+129.289, 135, 
+####### Trennen (966,747)>>45
+Segmentierung von Seg 2128
+135, 
+####### Trennen (1757,748)>>45
+Segmentierung von Seg 2129
+140.194, Segmentierung von Seg 2130
+90, 96.009, 
+####### Trennen (1981,751)>>14.547
+110.556, 
+####### Trennen (1984,751)>>20.556
+90, 
+####### Trennen (1984,749)>>45
+Segmentierung von Seg 2131
+165.964, 
+####### Trennen (1002,760)>>14.0362
+Segmentierung von Seg 2138
+135, 135, 
+####### Trennen (1432,750)>>45
+Segmentierung von Seg 2139
+123.69, 
+####### Trennen (1714,752)>>56.3099
+Segmentierung von Seg 2140
+119.745, 
+####### Trennen (964,751)>>26.5651
+146.31, 
+####### Trennen (961,751)>>11.3099
+135, Segmentierung von Seg 2141
+153.435, 
+####### Trennen (1180,737)>>26.5651
+Segmentierung von Seg 2143
+127.875, Segmentierung von Seg 2157
+Segmentierung von Seg 2164
+140.194, Segmentierung von Seg 2168
+Segmentierung von Seg 2169
+Segmentierung von Seg 2172
+Segmentierung von Seg 2176
+146.31, 
+####### Trennen (1199,760)>>11.3099
+135, 
+####### Trennen (1200,760)>>45
+Segmentierung von Seg 2177
+127.875, 135, 
+####### Trennen (1712,756)>>45
+Segmentierung von Seg 2179
+120.964, 
+####### Trennen (1205,757)>>14.0362
+135, 
+####### Trennen (1210,757)>>45
+Segmentierung von Seg 2180
+Segmentierung von Seg 2188
+150.255, 
+####### Trennen (1202,762)>>15.2551
+135, 135, 
+####### Trennen (1205,763)>>45
+Segmentierung von Seg 2191
+Segmentierung von Seg 2195
+139.764, Segmentierung von Seg 2198
+135, 135, 
+####### Trennen (1768,761)>>45
+Segmentierung von Seg 2204
+Segmentierung von Seg 2206
+135, Segmentierung von Seg 2208
+Segmentierung von Seg 2209
+123.69, 
+####### Trennen (1216,763)>>11.3099
+135, 
+####### Trennen (1228,763)>>45
+Segmentierung von Seg 2213
+135, 
+####### Trennen (910,766)>>68.1986
+66.8014, 
+####### Trennen (905,768)>>65.556
+132.357, 
+####### Trennen (902,776)>>40.2364
+92.1211, 
+####### Trennen (899,775)>>28.6861
+63.4349, 
+####### Trennen (901,773)>>71.5651
+135, 
+####### Trennen (901,770)>>18.4349
+153.435, Segmentierung von Seg 2214
+60.2551, 
+####### Trennen (1002,766)>>48.1798
+108.435, 
+####### Trennen (999,766)>>71.5651
+Segmentierung von Seg 2216
+Segmentierung von Seg 2219
+Segmentierung von Seg 2223
+165.964, 
+####### Trennen (43,768)>>14.0362
+Segmentierung von Seg 2227
+135, 135, 135, Segmentierung von Seg 2228
+113.385, 
+####### Trennen (1003,780)>>10.3048
+Segmentierung von Seg 2230
+153.435, 
+####### Trennen (1544,768)>>18.4349
+135, 135, 
+####### Trennen (1549,769)>>45
+Segmentierung von Seg 2231
+135, 135, 
+####### Trennen (1567,768)>>45
+Segmentierung von Seg 2235
+108.435, 
+####### Trennen (1574,768)>>26.5651
+135, 135, Segmentierung von Seg 2239
+Segmentierung von Seg 2243
+Segmentierung von Seg 2245
+168.69, 
+####### Trennen (961,782)>>11.3099
+Segmentierung von Seg 2247
+128.66, Segmentierung von Seg 2251
+173.66, 
+####### Trennen (1685,773)>>38.6598
+Segmentierung von Seg 2253
+135, 135, 
+####### Trennen (1710,772)>>45
+Segmentierung von Seg 2265
+128.66, 
+####### Trennen (1705,774)>>51.3402
+Segmentierung von Seg 2275
+116.565, 
+####### Trennen (1628,778)>>18.4349
+135, 
+####### Trennen (1633,778)>>45
+Segmentierung von Seg 2276
+135, 135, 
+####### Trennen (997,778)>>45
+Segmentierung von Seg 2278
+135, 135, 
+####### Trennen (1439,780)>>45
+Segmentierung von Seg 2288
+Segmentierung von Seg 2290
+172.875, Segmentierung von Seg 2298
+114.624, 
+####### Trennen (586,781)>>39.6071
+154.231, 158.629, 153.435, 
+####### Trennen (575,789)>>18.4349
+135, Segmentierung von Seg 2299
+139.574, 135, 135, 135, 
+####### Trennen (990,818)>>45
+Segmentierung von Seg 2302
+Segmentierung von Seg 2304
+135, Segmentierung von Seg 2305
+Segmentierung von Seg 2310
+158.962, 
+####### Trennen (1013,802)>>23.9625
+135, 135, 135, Segmentierung von Seg 2318
+123.69, 
+####### Trennen (1614,787)>>11.3099
+135, 
+####### Trennen (1622,787)>>45
+Segmentierung von Seg 2320
+168.69, 
+####### Trennen (1746,788)>>11.3099
+Segmentierung von Seg 2321
+130.533, 139.97, Segmentierung von Seg 2322
+142.125, 135, 
+####### Trennen (560,796)>>45
+Segmentierung von Seg 2326
+Segmentierung von Seg 2328
+135, 135, 
+####### Trennen (1725,790)>>45
+Segmentierung von Seg 2330
+176.615, 
+####### Trennen (593,768)>>80.3902
+96.2253, 
+####### Trennen (666,862)>>45.942
+142.167, 141.34, 
+####### Trennen (682,883)>>30.9638
+172.304, 
+####### Trennen (685,888)>>51.3402
+120.964, 
+####### Trennen (688,888)>>24.2118
+145.176, 
+####### Trennen (711,872)>>32.7791
+177.955, 171.87, Segmentierung von Seg 2331
+127.875, 135, 
+####### Trennen (989,791)>>45
+Segmentierung von Seg 2332
+56.3099, 
+####### Trennen (1001,794)>>45
+101.31, 
+####### Trennen (1001,797)>>11.3099
+90, 
+####### Trennen (1004,797)>>45
+135, Segmentierung von Seg 2333
+153.435, 
+####### Trennen (1160,797)>>18.4349
+135, 135, 135, Segmentierung von Seg 2335
+135, 135, 
+####### Trennen (1708,792)>>45
+Segmentierung von Seg 2338
+125.538, 135, 
+####### Trennen (1725,792)>>45
+Segmentierung von Seg 2342
+141.499, 
+####### Trennen (1435,794)>>28.3008
+Segmentierung von Seg 2350
+Segmentierung von Seg 2351
+Segmentierung von Seg 2354
+81.8699, 90, 
+####### Trennen (1760,796)>>90
+Segmentierung von Seg 2360
+135, 135, 
+####### Trennen (1481,797)>>45
+Segmentierung von Seg 2362
+Segmentierung von Seg 2366
+Segmentierung von Seg 2367
+130.601, 135, 
+####### Trennen (1756,797)>>45
+Segmentierung von Seg 2368
+161.565, 
+####### Trennen (170,803)>>26.5651
+Segmentierung von Seg 2369
+177.356, 167.574, 167.005, 172.716, 
+####### Trennen (431,885)>>32.0054
+Segmentierung von Seg 2375
+135, 135, 
+####### Trennen (1482,799)>>45
+Segmentierung von Seg 2378
+170.311, 161.565, 167.276, 167.276, 
+####### Trennen (501,831)>>32.2756
+135, 135, 135, 135, 135, 135, 135, 135, 135, Segmentierung von Seg 2379
+154.335, 
+####### Trennen (565,816)>>12.6706
+167.005, 
+####### Trennen (567,818)>>32.0054
+Segmentierung von Seg 2384
+161.565, 
+####### Trennen (1552,800)>>18.4349
+Segmentierung von Seg 2385
+Segmentierung von Seg 2386
+135, 135, 
+####### Trennen (1796,800)>>45
+Segmentierung von Seg 2387
+172.875, Segmentierung von Seg 2389
+Segmentierung von Seg 2393
+135, Segmentierung von Seg 2394
+100.305, 107.103, 107.103, 108.435, 
+####### Trennen (869,790)>>26.5651
+135, 
+####### Trennen (871,790)>>71.5651
+63.4349, Segmentierung von Seg 2397
+Segmentierung von Seg 2398
+139.185, 
+####### Trennen (584,813)>>15.4948
+Segmentierung von Seg 2399
+177.852, 
+####### Trennen (868,759)>>65.2325
+112.62, 
+####### Trennen (874,763)>>47.9401
+160.56, 
+####### Trennen (886,779)>>16.5044
+177.064, 
+####### Trennen (906,803)>>70.56
+106.504, 
+####### Trennen (904,806)>>52.4581
+158.962, 
+####### Trennen (863,835)>>19.8407
+178.803, 171.469, 
+####### Trennen (837,855)>>74.7823
+96.6869, 
+####### Trennen (901,936)>>56.3099
+152.997, 
+####### Trennen (902,941)>>37.6411
+115.356, 
+####### Trennen (632,1142)>>61.5044
+176.86, 173.884, 
+####### Trennen (617,1154)>>66.2344
+107.65, 
+####### Trennen (612,1150)>>21.0097
+128.66, 135, 135, 135, 135, Segmentierung von Seg 2401
+127.875, 135, 
+####### Trennen (61,804)>>45
+Segmentierung von Seg 2403
+157.249, 
+####### Trennen (795,812)>>11.3099
+168.559, 169.144, 
+####### Trennen (781,822)>>11.3099
+157.834, 153.435, 
+####### Trennen (774,827)>>18.4349
+135, 135, 135, Segmentierung von Seg 2407
+120.964, 
+####### Trennen (876,796)>>30.9638
+90, 
+####### Trennen (869,796)>>26.5651
+116.565, Segmentierung von Seg 2409
+161.565, 
+####### Trennen (1498,806)>>18.4349
+Segmentierung von Seg 2413
+115.56, 
+####### Trennen (610,814)>>11.8887
+103.671, 113.199, 
+####### Trennen (603,814)>>21.8014
+Segmentierung von Seg 2416
+164.055, 
+####### Trennen (996,807)>>15.9454
+Segmentierung von Seg 2417
+135, 135, 
+####### Trennen (1432,806)>>45
+Segmentierung von Seg 2418
+153.435, 
+####### Trennen (1558,806)>>26.5651
+Segmentierung von Seg 2419
+90, 90, 
+####### Trennen (1575,808)>>90
+Segmentierung von Seg 2420
+Segmentierung von Seg 2422
+169.992, 160.263, 164.876, 
+####### Trennen (217,873)>>26.0619
+Segmentierung von Seg 2423
+163.496, 
+####### Trennen (857,813)>>79.6111
+83.8845, 90, 
+####### Trennen (850,809)>>78.6901
+168.69, 
+####### Trennen (849,808)>>11.3099
+Segmentierung von Seg 2429
+109.44, 
+####### Trennen (1175,813)>>36.8699
+146.31, 
+####### Trennen (1175,815)>>11.3099
+135, Segmentierung von Seg 2433
+Segmentierung von Seg 2434
+165.379, 
+####### Trennen (620,818)>>56.9442
+Segmentierung von Seg 2435
+129.56, 
+####### Trennen (1008,808)>>26.5651
+156.125, Segmentierung von Seg 2436
+173.729, 
+####### Trennen (1141,883)>>10.4915
+163.237, 154.44, 
+####### Trennen (1137,892)>>12.9178
+167.358, 165.235, 
+####### Trennen (1127,918)>>20.7723
+Segmentierung von Seg 2437
+Segmentierung von Seg 2441
+145.62, 
+####### Trennen (169,828)>>34.3803
+Segmentierung von Seg 2444
+144.462, 135, 
+####### Trennen (1395,819)>>21.0375
+156.038, Segmentierung von Seg 2447
+Segmentierung von Seg 2449
+126.254, Segmentierung von Seg 2452
+Segmentierung von Seg 2454
+153.435, 
+####### Trennen (608,824)>>11.3099
+142.125, 
+####### Trennen (611,826)>>18.4349
+Segmentierung von Seg 2457
+135, Segmentierung von Seg 2458
+135, 135, 
+####### Trennen (1439,813)>>45
+Segmentierung von Seg 2459
+145.305, 
+####### Trennen (1541,812)>>18.4349
+126.87, 135, 
+####### Trennen (1534,813)>>45
+Segmentierung von Seg 2464
+Segmentierung von Seg 2467
+130.236, 135, 
+####### Trennen (1572,814)>>45
+Segmentierung von Seg 2468
+Segmentierung von Seg 2471
+157.834, 
+####### Trennen (180,832)>>41.2686
+Segmentierung von Seg 2473
+144.462, 
+####### Trennen (845,810)>>13.861
+130.601, 
+####### Trennen (851,817)>>36.2026
+94.3987, 84.8056, 
+####### Trennen (844,813)>>18.4349
+103.241, 
+####### Trennen (840,815)>>16.4204
+86.8202, 
+####### Trennen (844,822)>>18.4349
+105.255, 
+####### Trennen (842,824)>>23.3852
+81.8699, 
+####### Trennen (839,820)>>90
+171.87, Segmentierung von Seg 2475
+135, 135, 
+####### Trennen (1718,814)>>45
+Segmentierung von Seg 2477
+135, 135, 
+####### Trennen (1819,816)>>45
+Segmentierung von Seg 2480
+Segmentierung von Seg 2482
+135, 
+####### Trennen (628,822)>>33.6901
+168.69, 168.69, 
+####### Trennen (636,833)>>11.3099
+Segmentierung von Seg 2483
+163.072, 
+####### Trennen (1172,826)>>14.0362
+Segmentierung von Seg 2484
+Segmentierung von Seg 2488
+125.538, 135, 135, 135, 
+####### Trennen (1815,819)>>45
+Segmentierung von Seg 2492
+135, Segmentierung von Seg 2494
+Segmentierung von Seg 2495
+129.806, Segmentierung von Seg 2497
+116.565, Segmentierung von Seg 2498
+165.964, 
+####### Trennen (556,828)>>30.9638
+Segmentierung von Seg 2512
+135, Segmentierung von Seg 2513
+Segmentierung von Seg 2516
+135, 135, 
+####### Trennen (1984,822)>>45
+Segmentierung von Seg 2518
+90, 
+####### Trennen (2014,821)>>45
+135, 
+####### Trennen (2025,821)>>45
+Segmentierung von Seg 2520
+171.254, 
+####### Trennen (1543,824)>>36.2538
+Segmentierung von Seg 2521
+116.565, 
+####### Trennen (118,823)>>18.4349
+135, 
+####### Trennen (126,823)>>45
+Segmentierung von Seg 2523
+116.565, 
+####### Trennen (579,832)>>26.5651
+90, 
+####### Trennen (578,832)>>90
+Segmentierung von Seg 2524
+123.69, 
+####### Trennen (834,820)>>16.2797
+139.97, 
+####### Trennen (838,825)>>32.3196
+107.65, 
+####### Trennen (836,828)>>34.1545
+73.4956, 
+####### Trennen (831,822)>>19.44
+92.9357, 88.2101, 
+####### Trennen (831,830)>>53.1301
+141.34, 135, 
+####### Trennen (830,833)>>45
+Segmentierung von Seg 2535
+Segmentierung von Seg 2540
+153.435, 
+####### Trennen (1425,826)>>18.4349
+135, 135, 
+####### Trennen (1432,827)>>45
+Segmentierung von Seg 2541
+Segmentierung von Seg 2543
+153.435, 149.036, Segmentierung von Seg 2545
+Segmentierung von Seg 2548
+Segmentierung von Seg 2550
+Segmentierung von Seg 2551
+129.289, 135, 
+####### Trennen (1654,827)>>45
+Segmentierung von Seg 2554
+153.435, 
+####### Trennen (1497,829)>>26.5651
+Segmentierung von Seg 2557
+Segmentierung von Seg 2561
+165.964, 
+####### Trennen (1511,830)>>16.9275
+Segmentierung von Seg 2562
+126.87, 126.87, 135, 
+####### Trennen (1580,830)>>45
+Segmentierung von Seg 2563
+Segmentierung von Seg 2569
+120.964, 
+####### Trennen (1474,830)>>14.0362
+135, 
+####### Trennen (1478,830)>>45
+Segmentierung von Seg 2571
+Segmentierung von Seg 2572
+138.945, Segmentierung von Seg 2573
+172.304, 167.905, 
+####### Trennen (739,852)>>14.4703
+153.435, 153.435, 161.565, 161.565, 
+####### Trennen (726,861)>>26.5651
+135, 135, 135, Segmentierung von Seg 2575
+135, 135, 135, 
+####### Trennen (1416,833)>>45
+Segmentierung von Seg 2576
+Segmentierung von Seg 2577
+126.87, 135, Segmentierung von Seg 2587
+168.559, 168.559, 168.559, 169.778, 165.964, 171.87, 
+####### Trennen (219,886)>>28.7398
+Segmentierung von Seg 2590
+135, 135, 
+####### Trennen (1009,836)>>45
+Segmentierung von Seg 2591
+146.31, 
+####### Trennen (1514,834)>>18.4349
+127.875, 135, 
+####### Trennen (1538,835)>>45
+Segmentierung von Seg 2595
+158.385, 161.565, 
+####### Trennen (1420,837)>>18.4349
+Segmentierung von Seg 2599
+178.755, 
+####### Trennen (644,849)>>85.3882
+93.3665, 
+####### Trennen (647,848)>>23.1986
+116.565, 
+####### Trennen (649,850)>>18.4349
+Segmentierung von Seg 2603
+158.199, 
+####### Trennen (1014,838)>>21.8014
+Segmentierung von Seg 2605
+Segmentierung von Seg 2609
+158.385, 
+####### Trennen (1533,837)>>26.5651
+131.82, 135, 
+####### Trennen (1539,838)>>45
+Segmentierung von Seg 2610
+128.66, 128.66, 135, 
+####### Trennen (1666,838)>>45
+Segmentierung von Seg 2611
+153.435, 
+####### Trennen (1691,838)>>26.5651
+Segmentierung von Seg 2612
+161.565, 
+####### Trennen (1829,838)>>18.4349
+Segmentierung von Seg 2618
+144.462, 146.31, Segmentierung von Seg 2621
+120.964, 
+####### Trennen (593,848)>>30.9638
+Segmentierung von Seg 2623
+146.31, 
+####### Trennen (806,832)>>82.875
+63.4349, Segmentierung von Seg 2625
+148.671, 153.435, 
+####### Trennen (1421,840)>>26.5651
+Segmentierung von Seg 2629
+117.35, 
+####### Trennen (809,849)>>60.2551
+57.0948, 
+####### Trennen (810,846)>>66.5953
+123.69, 
+####### Trennen (803,837)>>18.4349
+142.125, Segmentierung von Seg 2632
+153.435, 
+####### Trennen (1436,841)>>26.5651
+Segmentierung von Seg 2633
+108.435, 
+####### Trennen (1471,840)>>26.5651
+135, 
+####### Trennen (1481,840)>>45
+Segmentierung von Seg 2634
+Segmentierung von Seg 2635
+Segmentierung von Seg 2637
+169.114, 
+####### Trennen (421,885)>>48.1507
+120.964, 
+####### Trennen (422,889)>>28.0725
+149.036, 
+####### Trennen (425,892)>>17.9691
+167.005, 167.005, 
+####### Trennen (433,903)>>32.0054
+135, 135, 
+####### Trennen (434,905)>>45
+Segmentierung von Seg 2641
+129.289, 135, 
+####### Trennen (1615,841)>>45
+Segmentierung von Seg 2642
+160.346, Segmentierung von Seg 2644
+171.87, Segmentierung von Seg 2653
+146.31, 146.31, 
+####### Trennen (186,853)>>11.3099
+135, Segmentierung von Seg 2654
+81.0274, Segmentierung von Seg 2656
+135, 135, 
+####### Trennen (1497,845)>>45
+Segmentierung von Seg 2663
+116.565, 
+####### Trennen (1441,845)>>18.4349
+135, 
+####### Trennen (1468,845)>>45
+Segmentierung von Seg 2665
+77.4712, 
+####### Trennen (544,849)>>71.5651
+149.036, 
+####### Trennen (550,855)>>14.0362
+135, 140.194, 
+####### Trennen (555,863)>>26.5651
+166.759, 
+####### Trennen (556,865)>>13.3245
+Segmentierung von Seg 2667
+165.343, 
+####### Trennen (1049,858)>>35.5377
+Segmentierung von Seg 2668
+165.964, 
+####### Trennen (1511,847)>>14.0362
+Segmentierung von Seg 2669
+116.565, 
+####### Trennen (1651,846)>>18.4349
+135, 
+####### Trennen (1662,846)>>45
+Segmentierung von Seg 2673
+Segmentierung von Seg 2674
+Segmentierung von Seg 2675
+Segmentierung von Seg 2680
+153.435, 
+####### Trennen (1511,849)>>26.5651
+Segmentierung von Seg 2685
+135, 
+####### Trennen (556,854)>>26.5651
+161.565, Segmentierung von Seg 2689
+Segmentierung von Seg 2690
+Segmentierung von Seg 2693
+120.964, 
+####### Trennen (602,858)>>30.9638
+Segmentierung von Seg 2696
+Segmentierung von Seg 2698
+138.013, Segmentierung von Seg 2699
+161.565, 
+####### Trennen (617,857)>>116.565
+Segmentierung von Seg 2700
+135, 135, 
+####### Trennen (1427,852)>>45
+Segmentierung von Seg 2701
+Segmentierung von Seg 2712
+128.66, 135, 
+####### Trennen (1534,853)>>45
+Segmentierung von Seg 2713
+Segmentierung von Seg 2719
+144.462, 135, 135, Segmentierung von Seg 2721
+143.13, 135, Segmentierung von Seg 2723
+153.435, 
+####### Trennen (1151,869)>>18.4349
+135, Segmentierung von Seg 2725
+135, 135, 
+####### Trennen (1391,856)>>45
+Segmentierung von Seg 2729
+129.806, Segmentierung von Seg 2733
+Segmentierung von Seg 2735
+170.538, Segmentierung von Seg 2736
+165.964, 
+####### Trennen (1445,859)>>14.0362
+Segmentierung von Seg 2737
+143.13, 
+####### Trennen (783,852)>>13.3245
+129.806, 132.064, 131.82, 
+####### Trennen (784,867)>>45
+176.82, 
+####### Trennen (780,870)>>78.6901
+98.1301, 
+####### Trennen (777,867)>>81.8699
+Segmentierung von Seg 2739
+Segmentierung von Seg 2740
+Segmentierung von Seg 2748
+126.87, 
+####### Trennen (1436,860)>>36.8699
+90, 
+####### Trennen (1437,861)>>45
+135, 
+####### Trennen (1450,861)>>45
+Segmentierung von Seg 2749
+129.289, 135, 
+####### Trennen (1626,859)>>45
+Segmentierung von Seg 2757
+129.289, 123.69, 
+####### Trennen (653,867)>>22.3801
+101.31, 
+####### Trennen (650,867)>>33.6901
+135, 135, Segmentierung von Seg 2760
+163.74, 
+####### Trennen (1057,868)>>20.6097
+Segmentierung von Seg 2763
+172.875, 
+####### Trennen (581,881)>>37.875
+Segmentierung von Seg 2768
+156.371, 161.565, 
+####### Trennen (174,864)>>18.4349
+Segmentierung von Seg 2769
+177.903, 
+####### Trennen (897,805)>>39.5794
+138.323, 
+####### Trennen (898,801)>>11.0192
+127.304, 117.35, 
+####### Trennen (865,767)>>37.8906
+155.241, 
+####### Trennen (784,826)>>24.1071
+179.348, 171.148, 
+####### Trennen (692,891)>>17.713
+Segmentierung von Seg 2774
+176.82, 178.668, 
+####### Trennen (723,931)>>52.6404
+126.027, 
+####### Trennen (717,929)>>17.1027
+143.13, 
+####### Trennen (708,916)>>29.9315
+173.062, 164.932, 161.565, 
+####### Trennen (693,898)>>26.5651
+135, 135, 135, Segmentierung von Seg 2776
+159.146, 153.435, 
+####### Trennen (226,891)>>26.565
+Segmentierung von Seg 2781
+135, 135, 135, Segmentierung von Seg 2791
+157.834, 
+####### Trennen (649,883)>>14.7036
+Segmentierung von Seg 2795
+116.565, 
+####### Trennen (1500,867)>>18.4349
+135, 
+####### Trennen (1505,867)>>45
+Segmentierung von Seg 2796
+Segmentierung von Seg 2797
+Segmentierung von Seg 2814
+Segmentierung von Seg 2816
+171.87, Segmentierung von Seg 2818
+141.072, 140.194, 140.194, 135, 
+####### Trennen (573,908)>>18.4349
+153.435, Segmentierung von Seg 2821
+165.964, 
+####### Trennen (1042,881)>>30.9638
+135, Segmentierung von Seg 2834
+169.909, 
+####### Trennen (1332,899)>>23.599
+146.31, 
+####### Trennen (1331,899)>>11.3099
+135, 
+####### Trennen (1330,898)>>45
+Segmentierung von Seg 2846
+Segmentierung von Seg 2847
+135, 135, 135, Segmentierung von Seg 2848
+Segmentierung von Seg 2852
+141.34, 135, 
+####### Trennen (619,882)>>45
+Segmentierung von Seg 2863
+33.6901, 
+####### Trennen (636,881)>>135
+168.69, 
+####### Trennen (633,884)>>11.3099
+Segmentierung von Seg 2864
+41.8202, 
+####### Trennen (759,876)>>101.31
+143.13, 
+####### Trennen (757,874)>>34.6952
+108.435, 116.565, 
+####### Trennen (763,868)>>53.1301
+63.4349, Segmentierung von Seg 2865
+171.87, 
+####### Trennen (833,859)>>36.8699
+135, 143.13, 
+####### Trennen (782,895)>>34.439
+177.569, 173.253, 168.559, 172.875, 175.865, 176.144, 175.016, 170.422, 
+####### Trennen (591,1033)>>13.1726
+157.249, 157.834, 165.964, 165.964, 165.964, 161.565, 
+####### Trennen (563,1053)>>26.5651
+135, 135, 135, Segmentierung von Seg 2866
+127.875, 135, 
+####### Trennen (1624,879)>>45
+Segmentierung von Seg 2869
+138.366, 
+####### Trennen (858,890)>>30.9638
+169.33, 165.964, 169.992, 169.992, 
+####### Trennen (876,913)>>34.992
+135, 135, 135, 135, 
+####### Trennen (884,923)>>30.9638
+165.964, 165.964, 
+####### Trennen (889,930)>>14.0362
+Segmentierung von Seg 2872
+138.366, 139.399, 
+####### Trennen (768,873)>>35.3625
+104.036, 
+####### Trennen (761,873)>>30.9638
+135, 
+####### Trennen (760,872)>>45
+Segmentierung von Seg 2881
+93.7314, 
+####### Trennen (594,885)>>14.0362
+79.6952, 
+####### Trennen (594,889)>>34.6952
+45, 
+####### Trennen (596,887)>>77.4712
+122.471, 
+####### Trennen (605,889)>>25.0576
+Segmentierung von Seg 2884
+161.565, 159.717, 
+####### Trennen (1141,901)>>15.2551
+144.462, 135, 
+####### Trennen (1139,904)>>45
+Segmentierung von Seg 2887
+170.538, Segmentierung von Seg 2888
+108.435, 
+####### Trennen (233,886)>>18.4349
+126.87, 126.87, Segmentierung von Seg 2893
+168.69, 
+####### Trennen (1779,885)>>11.3099
+Segmentierung von Seg 2895
+172.875, Segmentierung von Seg 2897
+160.56, 169.695, 
+####### Trennen (1250,901)>>106.26
+Segmentierung von Seg 2902
+135, 
+####### Trennen (1520,886)>>45
+Segmentierung von Seg 2903
+135, 129.289, Segmentierung von Seg 2904
+135, 135, 
+####### Trennen (1814,886)>>45
+Segmentierung von Seg 2911
+116.565, 
+####### Trennen (1391,888)>>18.4349
+135, 135, 
+####### Trennen (1386,887)>>45
+Segmentierung von Seg 2921
+156.038, 
+####### Trennen (648,891)>>21.0375
+135, 135, 135, Segmentierung von Seg 2922
+145.62, 153.435, 
+####### Trennen (652,896)>>26.5651
+Segmentierung von Seg 2923
+171.87, Segmentierung von Seg 2940
+Segmentierung von Seg 2946
+Segmentierung von Seg 2951
+137.862, 135, 
+####### Trennen (1404,893)>>45
+Segmentierung von Seg 2958
+128.66, 128.66, Segmentierung von Seg 2962
+128.66, 135, 
+####### Trennen (1384,893)>>45
+Segmentierung von Seg 2963
+129.289, 135, 
+####### Trennen (1444,893)>>45
+Segmentierung von Seg 2964
+Segmentierung von Seg 2967
+129.806, 135, 
+####### Trennen (1532,893)>>45
+Segmentierung von Seg 2975
+128.758, 
+####### Trennen (1127,922)>>12.193
+Segmentierung von Seg 2991
+161.565, 
+####### Trennen (1531,896)>>18.4349
+Segmentierung von Seg 2993
+157.011, 
+####### Trennen (243,916)>>14.8863
+142.125, 
+####### Trennen (246,918)>>18.4349
+Segmentierung von Seg 2994
+171.119, 
+####### Trennen (516,1008)>>36.1193
+Segmentierung von Seg 2995
+124.249, 132.51, 
+####### Trennen (650,895)>>20.9245
+Segmentierung von Seg 2998
+Segmentierung von Seg 3000
+132.51, 135, 
+####### Trennen (1488,896)>>45
+Segmentierung von Seg 3001
+Segmentierung von Seg 3003
+120.964, 
+####### Trennen (618,904)>>30.9638
+90, 
+####### Trennen (620,904)>>45
+135, 
+####### Trennen (622,902)>>45
+Segmentierung von Seg 3012
+135, Segmentierung von Seg 3013
+172.282, 
+####### Trennen (1122,914)>>12.2648
+160.017, 
+####### Trennen (1124,916)>>96.5819
+63.4349, 
+####### Trennen (1125,913)>>90
+Segmentierung von Seg 3015
+135, 135, 
+####### Trennen (1609,899)>>45
+Segmentierung von Seg 3016
+Segmentierung von Seg 3019
+175.956, 
+####### Trennen (1072,918)>>32.8254
+Segmentierung von Seg 3025
+104.036, 
+####### Trennen (669,903)>>35.3625
+139.399, 
+####### Trennen (668,905)>>22.1663
+Segmentierung von Seg 3027
+95.1944, 
+####### Trennen (822,918)>>58.2405
+Segmentierung von Seg 3030
+Segmentierung von Seg 3031
+135, 135, 135, 
+####### Trennen (227,887)>>45
+Segmentierung von Seg 3046
+135, 135, 
+####### Trennen (1394,903)>>45
+Segmentierung von Seg 3051
+40.6013, 
+####### Trennen (721,903)>>83.0888
+123.69, 
+####### Trennen (729,904)>>26.5651
+97.125, 90, 
+####### Trennen (724,907)>>63.4349
+153.435, 153.435, 
+####### Trennen (719,905)>>26.5651
+Segmentierung von Seg 3057
+146.31, 
+####### Trennen (611,911)>>37.875
+108.435, Segmentierung von Seg 3058
+94.3987, 
+####### Trennen (817,912)>>78.6901
+173.089, 
+####### Trennen (819,915)>>26.7788
+Segmentierung von Seg 3063
+81.8699, 
+####### Trennen (1291,905)>>30.9638
+112.834, 
+####### Trennen (1284,911)>>72.2324
+Segmentierung von Seg 3065
+135, 135, 135, 135, 135, Segmentierung von Seg 3066
+158.199, 
+####### Trennen (629,907)>>21.8014
+Segmentierung von Seg 3067
+123.69, 
+####### Trennen (1255,913)>>11.3099
+135, 
+####### Trennen (1254,912)>>45
+Segmentierung von Seg 3068
+129.806, Segmentierung von Seg 3069
+135, 135, 
+####### Trennen (1680,906)>>45
+Segmentierung von Seg 3079
+70.56, 
+####### Trennen (713,899)>>30.75
+101.31, 
+####### Trennen (714,900)>>33.6901
+Segmentierung von Seg 3081
+113.199, 
+####### Trennen (1264,915)>>23.1986
+Segmentierung von Seg 3082
+173.66, Segmentierung von Seg 3084
+153.435, 
+####### Trennen (235,915)>>13.5704
+167.005, 
+####### Trennen (240,923)>>19.0108
+Segmentierung von Seg 3085
+178.234, 
+####### Trennen (457,936)>>33.7714
+Segmentierung von Seg 3087
+150.313, 
+####### Trennen (618,915)>>53.9726
+96.3402, 
+####### Trennen (616,913)>>38.6598
+135, 
+####### Trennen (616,912)>>45
+Segmentierung von Seg 3091
+60.2551, 
+####### Trennen (1277,913)>>63.4349
+123.69, 
+####### Trennen (1277,915)>>11.3099
+Segmentierung von Seg 3097
+141.34, 135, 
+####### Trennen (243,924)>>45
+Segmentierung von Seg 3100
+153.435, 
+####### Trennen (1243,925)>>26.5651
+Segmentierung von Seg 3102
+156.501, 
+####### Trennen (1473,911)>>14.226
+170.727, 
+####### Trennen (1485,912)>>40.491
+130.236, Segmentierung von Seg 3107
+172.405, 
+####### Trennen (1394,913)>>37.4054
+135, 135, 
+####### Trennen (1397,912)>>45
+Segmentierung von Seg 3112
+153.435, 
+####### Trennen (1414,913)>>18.4349
+135, 135, 
+####### Trennen (1422,914)>>45
+Segmentierung von Seg 3113
+168.69, 
+####### Trennen (1465,914)>>11.3099
+Segmentierung von Seg 3116
+90, 90, 
+####### Trennen (1249,910)>>45
+135, 
+####### Trennen (1249,903)>>45
+Segmentierung von Seg 3117
+125.538, 125.538, 135, 
+####### Trennen (1255,927)>>45
+Segmentierung von Seg 3124
+63.4349, 
+####### Trennen (1337,915)>>78.6901
+142.125, 
+####### Trennen (1336,920)>>18.4349
+123.69, 
+####### Trennen (1337,921)>>11.3099
+135, 
+####### Trennen (1337,923)>>45
+Segmentierung von Seg 3126
+120.964, 
+####### Trennen (1510,913)>>30.9638
+90, 
+####### Trennen (1511,914)>>45
+Segmentierung von Seg 3131
+105.255, 
+####### Trennen (1297,915)>>11.3099
+Segmentierung von Seg 3138
+Segmentierung von Seg 3142
+108.435, 
+####### Trennen (1457,917)>>45
+153.435, 
+####### Trennen (1466,917)>>26.5651
+Segmentierung von Seg 3143
+90, 
+####### Trennen (1502,917)>>40.2364
+130.236, 130.236, 135, 
+####### Trennen (1516,917)>>45
+Segmentierung von Seg 3146
+90, 
+####### Trennen (1259,924)>>45
+135, 
+####### Trennen (1260,925)>>45
+Segmentierung von Seg 3147
+114.775, 
+####### Trennen (582,925)>>38.6598
+153.435, 
+####### Trennen (582,926)>>26.5651
+Segmentierung von Seg 3155
+135, 135, 
+####### Trennen (1653,919)>>45
+Segmentierung von Seg 3163
+171.87, Segmentierung von Seg 3164
+164.438, 171.87, 
+####### Trennen (1513,920)>>36.8699
+Segmentierung von Seg 3165
+128.66, Segmentierung von Seg 3166
+161.565, 
+####### Trennen (1751,920)>>18.4349
+Segmentierung von Seg 3168
+145.491, 138.366, 
+####### Trennen (254,930)>>21.8014
+116.565, 
+####### Trennen (254,932)>>18.4349
+Segmentierung von Seg 3170
+129.806, 
+####### Trennen (809,929)>>10.3889
+140.194, 135, 
+####### Trennen (801,928)>>45
+Segmentierung von Seg 3172
+147.995, 
+####### Trennen (1265,925)>>12.9946
+Segmentierung von Seg 3173
+26.5651, 
+####### Trennen (1288,921)>>63.4349
+90, 
+####### Trennen (1287,923)>>26.5651
+Segmentierung von Seg 3174
+Segmentierung von Seg 3177
+135, Segmentierung von Seg 3181
+91.1458, 
+####### Trennen (808,911)>>37.514
+128.66, 135, 
+####### Trennen (796,916)>>11.3099
+146.31, 142.125, 
+####### Trennen (796,923)>>19.44
+161.565, 
+####### Trennen (797,924)>>18.4349
+Segmentierung von Seg 3182
+141.34, 135, 
+####### Trennen (803,924)>>45
+Segmentierung von Seg 3183
+78.6901, 
+####### Trennen (864,926)>>84.7226
+163.413, 153.925, 
+####### Trennen (870,939)>>18.9246
+135, 
+####### Trennen (865,946)>>12.3391
+147.339, 
+####### Trennen (860,948)>>114.678
+32.6609, 
+####### Trennen (865,941)>>95.856
+128.517, 
+####### Trennen (863,934)>>54.4623
+Segmentierung von Seg 3185
+171.192, 172.304, 
+####### Trennen (1231,935)>>37.3039
+135, 135, 
+####### Trennen (1241,934)>>45
+Segmentierung von Seg 3187
+163.163, 
+####### Trennen (1415,924)>>39.4725
+123.69, 
+####### Trennen (1416,925)>>11.3099
+135, 
+####### Trennen (1434,925)>>45
+Segmentierung von Seg 3188
+139.764, 148.736, 
+####### Trennen (1424,922)>>68.1986
+Segmentierung von Seg 3189
+Segmentierung von Seg 3190
+151.144, 153.435, 
+####### Trennen (1649,923)>>26.5651
+Segmentierung von Seg 3191
+Segmentierung von Seg 3195
+135, 126.87, 
+####### Trennen (846,935)>>16.2602
+143.13, 135, 135, 
+####### Trennen (861,938)>>26.5651
+161.565, Segmentierung von Seg 3203
+161.565, 161.565, 158.199, 158.199, 
+####### Trennen (1507,928)>>21.8014
+Segmentierung von Seg 3205
+174.289, Segmentierung von Seg 3206
+126.87, 135, 
+####### Trennen (1639,924)>>45
+Segmentierung von Seg 3207
+137.726, 
+####### Trennen (286,931)>>11.3099
+149.036, 
+####### Trennen (289,934)>>12.5288
+161.565, Segmentierung von Seg 3213
+Segmentierung von Seg 3216
+154.983, 161.936, 168.518, 
+####### Trennen (615,972)>>60.0831
+108.435, 
+####### Trennen (613,974)>>71.565
+Segmentierung von Seg 3224
+127.304, 
+####### Trennen (250,936)>>14.0362
+141.34, 
+####### Trennen (250,938)>>38.6598
+Segmentierung von Seg 3225
+32.4712, 
+####### Trennen (1283,931)>>70.0576
+102.529, 
+####### Trennen (1285,931)>>12.5288
+90, 
+####### Trennen (1285,929)>>90
+Segmentierung von Seg 3228
+168.69, 
+####### Trennen (1444,929)>>33.6901
+135, 135, 
+####### Trennen (1448,928)>>45
+Segmentierung von Seg 3229
+142.125, 
+####### Trennen (248,939)>>37.875
+Segmentierung von Seg 3239
+170.311, 
+####### Trennen (260,946)>>16.8763
+Segmentierung von Seg 3240
+153.435, 153.435, 153.435, Segmentierung von Seg 3241
+117.255, 
+####### Trennen (1267,936)>>105.945
+11.3099, 
+####### Trennen (1267,929)>>123.69
+135, 
+####### Trennen (1270,926)>>26.5651
+161.565, 
+####### Trennen (1271,924)>>108.435
+53.1301, 
+####### Trennen (1274,930)>>108.435
+161.565, 
+####### Trennen (1277,933)>>71.5651
+90, 
+####### Trennen (1276,934)>>45
+135, 
+####### Trennen (1274,934)>>45
+Segmentierung von Seg 3244
+161.565, 
+####### Trennen (1639,930)>>18.4349
+Segmentierung von Seg 3257
+159.228, 
+####### Trennen (1437,932)>>11.3099
+170.538, 
+####### Trennen (1453,932)>>35.5377
+135, 135, 
+####### Trennen (1458,933)>>45
+Segmentierung von Seg 3258
+170.473, 
+####### Trennen (1505,931)>>30.7091
+139.764, 
+####### Trennen (1504,932)>>40.2364
+Segmentierung von Seg 3259
+173.66, Segmentierung von Seg 3265
+116.565, 
+####### Trennen (1261,938)>>26.5651
+90, 90, 
+####### Trennen (1259,935)>>90
+Segmentierung von Seg 3266
+Segmentierung von Seg 3269
+120.964, 
+####### Trennen (894,941)>>16.7626
+137.726, 
+####### Trennen (882,949)>>30.9638
+168.69, 169.509, 169.509, 161.565, 161.565, 161.565, 161.565, 170.538, 170.538, 
+####### Trennen (811,1003)>>35.5377
+135, 135, 
+####### Trennen (809,1004)>>45
+Segmentierung von Seg 3277
+153.435, 145.491, 
+####### Trennen (270,955)>>11.3099
+156.801, 158.199, 150.068, 
+####### Trennen (284,972)>>23.1986
+Segmentierung von Seg 3279
+145.305, 
+####### Trennen (539,943)>>10.3048
+135, 
+####### Trennen (538,944)>>45
+Segmentierung von Seg 3283
+170.538, 
+####### Trennen (1336,935)>>58.7363
+111.801, 
+####### Trennen (1334,940)>>43.6028
+Segmentierung von Seg 3284
+135, 135, 
+####### Trennen (1376,935)>>45
+Segmentierung von Seg 3285
+152.103, 
+####### Trennen (1426,934)>>26.5651
+125.538, 135, 
+####### Trennen (1444,935)>>45
+Segmentierung von Seg 3286
+114.829, 
+####### Trennen (1519,935)>>46.7357
+Segmentierung von Seg 3289
+123.69, 
+####### Trennen (564,943)>>45
+Segmentierung von Seg 3292
+155.854, 
+####### Trennen (1405,935)>>39.2894
+116.565, 
+####### Trennen (1406,936)>>18.4349
+135, 
+####### Trennen (1415,936)>>45
+Segmentierung von Seg 3293
+Segmentierung von Seg 3294
+135, Segmentierung von Seg 3296
+99.4623, 
+####### Trennen (667,942)>>53.9726
+153.435, Segmentierung von Seg 3298
+113.199, 
+####### Trennen (1096,936)>>30.9638
+144.162, 
+####### Trennen (1100,937)>>21.8014
+165.964, 
+####### Trennen (1103,937)>>14.0362
+Segmentierung von Seg 3299
+Segmentierung von Seg 3302
+57.5288, 
+####### Trennen (697,940)>>32.4712
+90, 
+####### Trennen (696,942)>>26.5651
+Segmentierung von Seg 3305
+161.565, 
+####### Trennen (1376,938)>>18.4349
+Segmentierung von Seg 3314
+135, Segmentierung von Seg 3315
+174.659, 
+####### Trennen (498,993)>>70.623
+104.036, 
+####### Trennen (491,1000)>>62.5713
+166.608, 172.318, 
+####### Trennen (467,1017)>>13.1726
+159.146, 159.775, 159.775, Segmentierung von Seg 3319
+111.371, 
+####### Trennen (699,944)>>45
+156.371, 153.435, 
+####### Trennen (696,945)>>26.5651
+Segmentierung von Seg 3323
+135, 
+####### Trennen (1531,940)>>45
+Segmentierung von Seg 3332
+Segmentierung von Seg 3335
+Segmentierung von Seg 3336
+170.538, Segmentierung von Seg 3337
+90, 
+####### Trennen (290,944)>>47.7263
+137.726, 137.726, 
+####### Trennen (300,958)>>14.0362
+123.69, 123.69, 
+####### Trennen (303,961)>>11.3099
+Segmentierung von Seg 3339
+118.443, Segmentierung von Seg 3344
+156.801, 156.801, 
+####### Trennen (304,955)>>21.8014
+Segmentierung von Seg 3351
+Segmentierung von Seg 3356
+161.565, 161.565, 
+####### Trennen (1304,948)>>18.4349
+Segmentierung von Seg 3358
+Segmentierung von Seg 3359
+Segmentierung von Seg 3361
+153.435, Segmentierung von Seg 3363
+71.5651, 
+####### Trennen (532,948)>>53.9726
+125.538, 
+####### Trennen (521,956)>>18.4349
+143.973, Segmentierung von Seg 3364
+131.634, 126.87, 
+####### Trennen (662,959)>>18.4349
+145.305, 
+####### Trennen (659,960)>>13.3245
+158.629, 
+####### Trennen (653,965)>>18.4349
+140.194, 135, Segmentierung von Seg 3365
+135, 
+####### Trennen (686,942)>>56.3099
+78.6901, 
+####### Trennen (688,945)>>22.6199
+101.31, 
+####### Trennen (685,948)>>33.6901
+Segmentierung von Seg 3368
+167.642, 
+####### Trennen (1448,947)>>37.4054
+130.236, Segmentierung von Seg 3370
+135, Segmentierung von Seg 3373
+71.5651, 
+####### Trennen (692,950)>>26.5651
+45, 
+####### Trennen (691,949)>>48.3665
+93.3665, 
+####### Trennen (682,957)>>45
+138.366, 
+####### Trennen (681,957)>>41.6335
+Segmentierung von Seg 3377
+149.036, 
+####### Trennen (1304,950)>>30.9638
+Segmentierung von Seg 3382
+128.66, 135, 
+####### Trennen (1482,948)>>45
+Segmentierung von Seg 3383
+172.515, 
+####### Trennen (1486,949)>>35.2244
+Segmentierung von Seg 3384
+153.435, 157.834, 
+####### Trennen (271,961)>>18.4349
+139.399, 135, 135, Segmentierung von Seg 3387
+130.914, 135, 
+####### Trennen (1658,949)>>45
+Segmentierung von Seg 3388
+Segmentierung von Seg 3389
+130.236, Segmentierung von Seg 3393
+127.875, 135, 
+####### Trennen (1457,950)>>45
+Segmentierung von Seg 3395
+135, 135, 
+####### Trennen (1618,951)>>45
+Segmentierung von Seg 3399
+131.186, 135, 
+####### Trennen (1823,950)>>45
+Segmentierung von Seg 3400
+116.565, 
+####### Trennen (1833,952)>>18.4349
+135, Segmentierung von Seg 3402
+139.399, Segmentierung von Seg 3413
+Segmentierung von Seg 3415
+135, 135, 
+####### Trennen (1707,953)>>45
+Segmentierung von Seg 3418
+Segmentierung von Seg 3421
+165.964, 
+####### Trennen (1453,954)>>14.0362
+Segmentierung von Seg 3422
+152.987, 
+####### Trennen (1600,955)>>21.8014
+Segmentierung von Seg 3423
+Segmentierung von Seg 3426
+116.565, Segmentierung von Seg 3429
+167.905, 
+####### Trennen (1269,963)>>14.4703
+153.435, 
+####### Trennen (1271,963)>>26.5651
+Segmentierung von Seg 3433
+164.745, 
+####### Trennen (1333,942)>>14.4898
+Segmentierung von Seg 3434
+149.036, 
+####### Trennen (1674,952)>>14.0362
+135, 
+####### Trennen (1672,954)>>71.5651
+63.4349, 
+####### Trennen (1675,955)>>45
+Segmentierung von Seg 3437
+108.435, 
+####### Trennen (530,959)>>45
+153.435, 
+####### Trennen (532,959)>>26.5651
+Segmentierung von Seg 3440
+104.323, 
+####### Trennen (667,962)>>17.3355
+86.9872, 
+####### Trennen (668,963)>>48.0128
+Segmentierung von Seg 3442
+156.161, 165.75, 
+####### Trennen (1280,964)>>12.315
+153.435, Segmentierung von Seg 3443
+171.87, Segmentierung von Seg 3447
+130.601, 135, 
+####### Trennen (1513,957)>>45
+Segmentierung von Seg 3449
+175.711, 
+####### Trennen (1600,960)>>40.7108
+135, Segmentierung von Seg 3456
+174.289, Segmentierung von Seg 3457
+Segmentierung von Seg 3458
+135, 
+####### Trennen (1571,959)>>45
+Segmentierung von Seg 3459
+173.66, Segmentierung von Seg 3463
+153.435, 
+####### Trennen (566,946)>>33.6901
+119.745, 
+####### Trennen (563,948)>>33.9298
+85.8151, 
+####### Trennen (570,957)>>56.3099
+142.125, 
+####### Trennen (570,960)>>37.875
+Segmentierung von Seg 3466
+146.31, 
+####### Trennen (1521,961)>>11.3099
+Segmentierung von Seg 3467
+Segmentierung von Seg 3470
+135, 135, 
+####### Trennen (1584,961)>>45
+Segmentierung von Seg 3475
+126.87, 135, 
+####### Trennen (1708,961)>>45
+Segmentierung von Seg 3476
+Segmentierung von Seg 3477
+108.435, 
+####### Trennen (265,963)>>53.1301
+Segmentierung von Seg 3479
+164.055, 
+####### Trennen (585,969)>>29.0546
+Segmentierung von Seg 3482
+Segmentierung von Seg 3484
+96.3402, 87.2737, 
+####### Trennen (818,965)>>51.7098
+35.5639, 
+####### Trennen (816,948)>>61.7626
+97.3264, 
+####### Trennen (820,947)>>18.4429
+115.769, 113.629, 116.565, 108.435, 
+####### Trennen (824,966)>>36.8699
+145.305, 
+####### Trennen (820,969)>>11.6371
+133.668, 
+####### Trennen (814,968)>>10.7945
+144.462, Segmentierung von Seg 3487
+Segmentierung von Seg 3489
+135, 135, 
+####### Trennen (1386,965)>>45
+Segmentierung von Seg 3490
+153.435, 
+####### Trennen (1533,965)>>26.5651
+Segmentierung von Seg 3491
+164.055, 
+####### Trennen (1549,966)>>15.9454
+Segmentierung von Seg 3492
+155.966, 158.908, 163.217, Segmentierung von Seg 3494
+158.199, 
+####### Trennen (1287,967)>>23.1986
+135, 135, 
+####### Trennen (1293,968)>>45
+Segmentierung von Seg 3496
+130.236, 135, 
+####### Trennen (1594,965)>>45
+Segmentierung von Seg 3504
+71.5651, 
+####### Trennen (278,971)>>63.4349
+135, 135, 135, Segmentierung von Seg 3510
+127.875, Segmentierung von Seg 3513
+108.435, 
+####### Trennen (1272,968)>>26.5651
+135, 135, 135, 
+####### Trennen (1281,969)>>45
+Segmentierung von Seg 3517
+156.801, 156.801, 
+####### Trennen (630,981)>>21.8014
+Segmentierung von Seg 3518
+112.38, 
+####### Trennen (801,974)>>48.1798
+160.56, 
+####### Trennen (805,977)>>17.4299
+143.13, 135, 
+####### Trennen (812,975)>>18.4349
+116.565, 
+####### Trennen (811,972)>>45
+Segmentierung von Seg 3524
+126.87, 135, 
+####### Trennen (1645,970)>>45
+Segmentierung von Seg 3527
+41.6335, 
+####### Trennen (607,979)>>48.3665
+Segmentierung von Seg 3538
+135, Segmentierung von Seg 3540
+169.16, 
+####### Trennen (338,1004)>>34.1597
+Segmentierung von Seg 3541
+135, 135, 135, 135, 
+####### Trennen (507,963)>>45
+Segmentierung von Seg 3542
+138.576, 135, 
+####### Trennen (1315,976)>>45
+Segmentierung von Seg 3543
+126.87, 
+####### Trennen (292,983)>>16.2602
+143.13, Segmentierung von Seg 3544
+145.305, 153.435, 161.565, 
+####### Trennen (539,986)>>18.4349
+Segmentierung von Seg 3553
+135, 135, 
+####### Trennen (1358,977)>>45
+Segmentierung von Seg 3554
+135, 135, 
+####### Trennen (1593,977)>>45
+Segmentierung von Seg 3556
+138.366, 138.366, 138.814, 
+####### Trennen (298,999)>>32.2756
+171.09, 171.674, 172.423, 
+####### Trennen (329,1045)>>22.8337
+149.589, 145.62, 
+####### Trennen (336,1055)>>18.4349
+164.055, 
+####### Trennen (339,1058)>>29.0546
+135, 135, 135, 135, 135, Segmentierung von Seg 3557
+108.435, 
+####### Trennen (522,982)>>26.5651
+Segmentierung von Seg 3558
+85.6013, 
+####### Trennen (552,974)>>22.1663
+63.4349, 
+####### Trennen (554,976)>>71.5651
+135, 
+####### Trennen (554,978)>>45
+Segmentierung von Seg 3559
+156.371, 
+####### Trennen (609,985)>>26.5651
+Segmentierung von Seg 3560
+135, 
+####### Trennen (1623,978)>>45
+Segmentierung von Seg 3563
+160.665, 
+####### Trennen (614,990)>>57.6706
+102.995, 
+####### Trennen (616,992)>>19.3348
+83.6598, 
+####### Trennen (620,987)>>45
+128.66, 135, 
+####### Trennen (624,985)>>45
+Segmentierung von Seg 3571
+102.095, 97.125, 
+####### Trennen (647,972)>>26.5651
+123.69, 
+####### Trennen (649,972)>>17.6501
+141.34, 141.34, 135, 135, Segmentierung von Seg 3576
+145.751, 
+####### Trennen (595,990)>>21.3706
+124.38, 
+####### Trennen (594,993)>>10.6197
+135, 
+####### Trennen (590,995)>>63.4349
+71.5651, 
+####### Trennen (592,997)>>29.7449
+101.31, 
+####### Trennen (595,995)>>45
+Segmentierung von Seg 3580
+108.435, 104.036, 
+####### Trennen (532,992)>>65.1073
+169.144, 
+####### Trennen (536,999)>>63.8885
+Segmentierung von Seg 3582
+Segmentierung von Seg 3583
+116.565, 116.565, 
+####### Trennen (725,995)>>53.1301
+63.4349, 
+####### Trennen (729,998)>>34.6952
+98.1301, 
+####### Trennen (736,991)>>36.8699
+135, 141.843, 
+####### Trennen (725,970)>>31.3145
+173.157, 
+####### Trennen (723,968)>>83.1572
+90, 
+####### Trennen (719,972)>>45
+Segmentierung von Seg 3590
+135, 135, Segmentierung von Seg 3591
+128.66, 135, 
+####### Trennen (712,985)>>26.5651
+161.565, 153.435, 
+####### Trennen (711,978)>>18.4349
+135, 135, 
+####### Trennen (717,973)>>45
+Segmentierung von Seg 3593
+128.991, 
+####### Trennen (301,996)>>12.018
+141.009, 141.009, 
+####### Trennen (327,1033)>>12.4259
+153.435, 
+####### Trennen (329,1035)>>18.4349
+135, Segmentierung von Seg 3596
+55.3048, 
+####### Trennen (560,992)>>61.2602
+Segmentierung von Seg 3598
+135, 
+####### Trennen (602,993)>>18.4349
+153.435, 
+####### Trennen (601,993)>>18.4349
+Segmentierung von Seg 3615
+Segmentierung von Seg 3625
+Segmentierung von Seg 3630
+171.87, 
+####### Trennen (1432,994)>>73.7398
+Segmentierung von Seg 3634
+142.815, 
+####### Trennen (550,1004)>>36.8699
+Segmentierung von Seg 3643
+149.036, 
+####### Trennen (334,1006)>>11.3099
+137.726, 
+####### Trennen (337,1008)>>22.8337
+160.56, 
+####### Trennen (340,1012)>>17.4299
+Segmentierung von Seg 3645
+57.5288, 
+####### Trennen (711,990)>>95.9061
+153.435, 
+####### Trennen (706,985)>>18.4349
+135, 135, 
+####### Trennen (693,991)>>18.4349
+116.565, 
+####### Trennen (694,994)>>53.1301
+63.4349, 
+####### Trennen (700,988)>>57.5288
+120.964, 
+####### Trennen (704,989)>>54.8025
+66.1613, 
+####### Trennen (697,998)>>75.9638
+142.125, 135, 135, 135, 135, 
+####### Trennen (709,1001)>>45
+Segmentierung von Seg 3647
+135, 135, 
+####### Trennen (1270,999)>>45
+Segmentierung von Seg 3651
+161.565, 
+####### Trennen (1164,1000)>>18.4349
+Segmentierung von Seg 3657
+90, 
+####### Trennen (701,998)>>29.7449
+119.745, 123.69, 
+####### Trennen (704,995)>>11.3099
+Segmentierung von Seg 3661
+170.538, 
+####### Trennen (518,1010)>>72.4076
+98.1301, 
+####### Trennen (521,1014)>>45
+143.13, 
+####### Trennen (521,1015)>>36.8699
+Segmentierung von Seg 3665
+138.576, Segmentierung von Seg 3667
+Segmentierung von Seg 3671
+135, 135, 
+####### Trennen (157,1003)>>45
+Segmentierung von Seg 3672
+127.875, 
+####### Trennen (293,1002)>>37.875
+Segmentierung von Seg 3677
+147.426, 
+####### Trennen (601,1014)>>32.982
+114.444, 
+####### Trennen (600,1013)>>20.556
+135, 
+####### Trennen (599,1013)>>45
+Segmentierung von Seg 3680
+Segmentierung von Seg 3681
+Segmentierung von Seg 3683
+170.538, Segmentierung von Seg 3684
+Segmentierung von Seg 3689
+Segmentierung von Seg 3690
+174.495, 
+####### Trennen (376,1057)>>70.4583
+Segmentierung von Seg 3694
+90, 
+####### Trennen (743,1020)>>78.6901
+168.69, 
+####### Trennen (746,1023)>>134.31
+34.3803, 
+####### Trennen (743,1007)>>98.1301
+132.51, 
+####### Trennen (746,1003)>>60.9454
+71.5651, 
+####### Trennen (743,1002)>>45
+116.565, 
+####### Trennen (740,1005)>>18.4349
+135, 
+####### Trennen (740,1007)>>45
+Segmentierung von Seg 3695
+141.34, Segmentierung von Seg 3697
+149.349, 
+####### Trennen (1165,1006)>>18.4349
+130.914, 135, 
+####### Trennen (1167,1007)>>45
+Segmentierung von Seg 3700
+Segmentierung von Seg 3705
+135, 
+####### Trennen (256,1011)>>45
+Segmentierung von Seg 3706
+158.199, 
+####### Trennen (547,1006)>>68.1986
+90, 
+####### Trennen (548,1005)>>45
+Segmentierung von Seg 3712
+105.255, 113.629, 
+####### Trennen (674,1021)>>16.1762
+129.806, 135, 135, 135, Segmentierung von Seg 3716
+167.905, 
+####### Trennen (742,992)>>77.9052
+90, 
+####### Trennen (746,990)>>26.5651
+63.4349, 
+####### Trennen (746,991)>>71.5651
+135, 
+####### Trennen (751,996)>>39.8056
+95.1944, 
+####### Trennen (757,991)>>45
+140.194, 139.399, 140.064, 136.848, 
+####### Trennen (767,1009)>>13.1575
+123.69, 
+####### Trennen (764,1009)>>11.3099
+135, 
+####### Trennen (760,1013)>>90
+Segmentierung von Seg 3719
+133.152, Segmentierung von Seg 3732
+146.31, 153.435, 
+####### Trennen (584,1031)>>29.7449
+123.69, 
+####### Trennen (583,1031)>>11.3099
+135, 
+####### Trennen (582,1032)>>45
+Segmentierung von Seg 3733
+135, 135, 
+####### Trennen (1899,1017)>>45
+Segmentierung von Seg 3735
+135, 135, 
+####### Trennen (160,1018)>>45
+Segmentierung von Seg 3736
+165.964, 
+####### Trennen (349,1025)>>14.0362
+Segmentierung von Seg 3738
+174.352, 172.504, 168.69, 161.565, 161.565, 161.565, 161.565, 
+####### Trennen (727,1065)>>18.4349
+Segmentierung von Seg 3742
+128.66, 128.66, Segmentierung von Seg 3746
+Segmentierung von Seg 3752
+135, 
+####### Trennen (528,1023)>>26.5651
+161.565, 
+####### Trennen (530,1027)>>90
+71.5651, 
+####### Trennen (532,1025)>>63.4349
+135, 
+####### Trennen (532,1024)>>45
+Segmentierung von Seg 3753
+139.764, Segmentierung von Seg 3758
+135, Segmentierung von Seg 3763
+128.66, 
+####### Trennen (727,1030)>>12.0948
+116.565, 108.435, 
+####### Trennen (733,1030)>>26.5651
+135, 
+####### Trennen (733,1025)>>45
+Segmentierung von Seg 3765
+131.634, 
+####### Trennen (1529,1024)>>21.8014
+153.435, 
+####### Trennen (1534,1024)>>26.5651
+Segmentierung von Seg 3766
+120.964, 
+####### Trennen (127,1024)>>14.0362
+135, 
+####### Trennen (133,1024)>>45
+Segmentierung von Seg 3769
+168.69, 
+####### Trennen (1168,1034)>>33.6901
+135, 135, 
+####### Trennen (1170,1037)>>45
+Segmentierung von Seg 3770
+153.435, 
+####### Trennen (1563,1025)>>18.4349
+135, 135, 
+####### Trennen (1580,1026)>>45
+Segmentierung von Seg 3774
+131.424, Segmentierung von Seg 3782
+86.2686, 
+####### Trennen (668,1030)>>44.3327
+130.601, 123.69, 
+####### Trennen (665,1034)>>28.0907
+95.5993, 
+####### Trennen (656,1023)>>33.6901
+129.289, 
+####### Trennen (653,1023)>>12.7244
+116.565, 
+####### Trennen (650,1029)>>10.3048
+126.87, 
+####### Trennen (652,1033)>>34.6952
+161.565, 
+####### Trennen (657,1038)>>45
+116.565, 
+####### Trennen (656,1041)>>46.7899
+69.7751, 
+####### Trennen (646,1033)>>89.8484
+159.624, 
+####### Trennen (643,1028)>>10.5873
+149.036, 
+####### Trennen (643,1027)>>14.0362
+Segmentierung von Seg 3784
+135, 
+####### Trennen (41,1027)>>18.4349
+116.565, 
+####### Trennen (42,1028)>>18.4349
+135, 
+####### Trennen (50,1028)>>45
+Segmentierung von Seg 3791
+148.671, 158.299, 
+####### Trennen (369,1055)>>11.4966
+169.796, 164.932, 164.932, 156.801, Segmentierung von Seg 3793
+30.5297, 
+####### Trennen (712,1033)>>105.255
+135.785, 
+####### Trennen (719,1042)>>20.2249
+115.56, 
+####### Trennen (718,1044)>>52.125
+Segmentierung von Seg 3798
+157.38, 
+####### Trennen (422,1049)>>56.0702
+101.31, 
+####### Trennen (426,1053)>>60.2551
+161.565, 165.379, 173.57, 
+####### Trennen (470,1116)>>34.7778
+138.792, 129.094, 
+####### Trennen (514,1087)>>32.4712
+161.565, 161.2, 
+####### Trennen (542,1067)>>15.2551
+176.455, 
+####### Trennen (548,1063)>>63.8354
+112.62, 
+####### Trennen (551,1065)>>29.5052
+142.125, 
+####### Trennen (552,1068)>>18.2629
+160.388, 168.518, 169.418, 161.288, 153.435, 
+####### Trennen (601,1134)>>18.4349
+135, 135, 135, Segmentierung von Seg 3802
+165.964, 
+####### Trennen (1376,1032)>>61.9275
+Segmentierung von Seg 3805
+135, Segmentierung von Seg 3808
+135, 
+####### Trennen (1645,1034)>>45
+Segmentierung von Seg 3813
+158.199, 
+####### Trennen (1606,1034)>>26.5651
+131.634, 135, 
+####### Trennen (1600,1035)>>45
+Segmentierung von Seg 3818
+178.115, 
+####### Trennen (645,1482)>>31.8048
+146.31, 
+####### Trennen (645,1483)>>11.3099
+135, 
+####### Trennen (644,1484)>>45
+Segmentierung von Seg 3819
+101.31, 
+####### Trennen (476,1036)>>33.6901
+135, Segmentierung von Seg 3823
+128.66, 
+####### Trennen (716,1045)>>51.3402
+Segmentierung von Seg 3824
+85.2364, 90, 
+####### Trennen (1177,1036)>>90
+Segmentierung von Seg 3825
+90, 
+####### Trennen (1224,1035)>>45
+135, 
+####### Trennen (1240,1035)>>45
+Segmentierung von Seg 3827
+Segmentierung von Seg 3842
+135, 
+####### Trennen (633,1034)>>45
+90, 
+####### Trennen (635,1032)>>23.1986
+113.199, 
+####### Trennen (640,1034)>>33.5948
+146.793, 145.008, 
+####### Trennen (647,1046)>>34.992
+Segmentierung von Seg 3843
+161.565, 
+####### Trennen (1793,1040)>>18.4349
+Segmentierung von Seg 3847
+153.435, 
+####### Trennen (640,1048)>>18.4349
+135, 
+####### Trennen (638,1050)>>42.2737
+92.7263, 
+####### Trennen (627,1040)>>45
+137.726, 
+####### Trennen (625,1040)>>42.2737
+Segmentierung von Seg 3853
+152.319, Segmentierung von Seg 3859
+116.565, 
+####### Trennen (627,1049)>>55.3048
+171.87, 
+####### Trennen (633,1055)>>71.8619
+100.008, 
+####### Trennen (643,1048)>>45
+145.008, 
+####### Trennen (645,1048)>>10.008
+Segmentierung von Seg 3861
+138.013, 135, 
+####### Trennen (549,1052)>>45
+Segmentierung von Seg 3862
+153.435, 
+####### Trennen (1549,1045)>>26.5651
+Segmentierung von Seg 3865
+Segmentierung von Seg 3868
+132.955, Segmentierung von Seg 3872
+153.435, 
+####### Trennen (1615,1047)>>26.5651
+Segmentierung von Seg 3873
+131.987, 135, 
+####### Trennen (1734,1046)>>45
+Segmentierung von Seg 3877
+169.796, 
+####### Trennen (473,1109)>>34.796
+135, Segmentierung von Seg 3878
+178.328, 
+####### Trennen (500,999)>>32.0177
+146.31, 
+####### Trennen (503,999)>>21.3179
+124.992, 
+####### Trennen (524,1029)>>49.3987
+174.391, 174.936, 
+####### Trennen (545,1057)>>48.909
+126.027, 
+####### Trennen (544,1060)>>15.1428
+141.17, 
+####### Trennen (530,1069)>>26.5651
+167.735, 
+####### Trennen (528,1071)>>12.2648
+Segmentierung von Seg 3881
+Segmentierung von Seg 3884
+75.9638, 
+####### Trennen (616,1046)>>54.6375
+130.601, 
+####### Trennen (615,1048)>>22.8337
+153.435, 
+####### Trennen (615,1050)>>26.5651
+Segmentierung von Seg 3889
+135, 135, 135, 
+####### Trennen (615,1059)>>45
+Segmentierung von Seg 3890
+146.31, 
+####### Trennen (620,1058)>>22.3801
+168.69, 
+####### Trennen (624,1062)>>78.6901
+90, 
+####### Trennen (620,1066)>>18.4349
+71.5651, 
+####### Trennen (619,1064)>>90
+161.565, 
+####### Trennen (618,1063)>>18.4349
+Segmentierung von Seg 3892
+154.612, 147.529, 
+####### Trennen (1204,1079)>>18.4349
+165.964, 
+####### Trennen (1207,1082)>>14.0362
+Segmentierung von Seg 3893
+126.87, 135, 
+####### Trennen (1702,1050)>>45
+Segmentierung von Seg 3894
+167.935, 
+####### Trennen (1737,1050)>>30.3326
+Segmentierung von Seg 3898
+118.072, 
+####### Trennen (540,1057)>>59.0362
+59.0362, 
+####### Trennen (539,1058)>>75.9638
+135, 
+####### Trennen (537,1058)>>45
+Segmentierung von Seg 3904
+170.538, Segmentierung von Seg 3905
+Segmentierung von Seg 3906
+113.962, 
+####### Trennen (338,1064)>>45
+158.962, 
+####### Trennen (342,1068)>>23.9625
+135, 
+####### Trennen (342,1070)>>18.4349
+116.565, 
+####### Trennen (344,1071)>>33.6901
+150.255, Segmentierung von Seg 3908
+168.69, 
+####### Trennen (1349,1056)>>11.3099
+Segmentierung von Seg 3910
+168.69, 
+####### Trennen (1437,1058)>>11.3099
+Segmentierung von Seg 3913
+135, 135, Segmentierung von Seg 3916
+150.255, 
+####### Trennen (531,1061)>>48.9452
+101.31, 
+####### Trennen (529,1063)>>29.7449
+71.5651, 
+####### Trennen (528,1061)>>90
+161.565, 
+####### Trennen (527,1060)>>18.4349
+Segmentierung von Seg 3917
+159.955, 
+####### Trennen (564,1073)>>14.6615
+174.616, 178.833, 171.384, 
+####### Trennen (617,1146)>>36.3844
+135, 138.814, 
+####### Trennen (627,1139)>>26.5651
+165.379, 169.958, 171.607, Segmentierung von Seg 3919
+144.462, 144.462, 
+####### Trennen (683,1062)>>78.4248
+66.0375, 
+####### Trennen (679,1053)>>90
+156.038, 
+####### Trennen (679,1050)>>21.0375
+135, 
+####### Trennen (681,1048)>>45
+90, 
+####### Trennen (684,1051)>>60.2551
+150.255, 
+####### Trennen (687,1062)>>14.4898
+164.745, 
+####### Trennen (687,1067)>>52.9435
+111.801, 
+####### Trennen (682,1069)>>19.8321
+131.634, 
+####### Trennen (678,1067)>>29.9315
+161.565, 
+####### Trennen (677,1066)>>18.4349
+Segmentierung von Seg 3923
+162.962, 153.435, 
+####### Trennen (622,1404)>>15.2551
+168.69, 172.875, 
+####### Trennen (627,1412)>>19.44
+Segmentierung von Seg 3937
+161.03, 164.745, 168.69, 
+####### Trennen (366,1093)>>11.3099
+Segmentierung von Seg 3941
+116.565, 
+####### Trennen (522,1067)>>10.3048
+126.87, 
+####### Trennen (522,1071)>>15.0685
+111.801, 113.199, 
+####### Trennen (516,1072)>>21.8014
+135, 
+####### Trennen (516,1071)>>45
+Segmentierung von Seg 3943
+153.435, 153.435, 
+####### Trennen (714,1075)>>18.4349
+135, 135, 
+####### Trennen (712,1076)>>45
+Segmentierung von Seg 3948
+135, 
+####### Trennen (1853,1070)>>45
+Segmentierung von Seg 3952
+154.654, 
+####### Trennen (502,1077)>>32.1826
+122.471, 
+####### Trennen (503,1079)>>64.9424
+57.5288, 
+####### Trennen (506,1074)>>10.3048
+67.8337, 
+####### Trennen (509,1078)>>42.2737
+25.56, 
+####### Trennen (508,1073)>>71.5651
+97.125, 
+####### Trennen (511,1072)>>37.875
+135, 
+####### Trennen (515,1074)>>108.435
+26.5651, 
+####### Trennen (512,1070)>>100.305
+Segmentierung von Seg 3956
+Segmentierung von Seg 3957
+83.991, 
+####### Trennen (653,1090)>>38.5831
+122.574, 
+####### Trennen (652,1093)>>51.009
+Segmentierung von Seg 3965
+116.565, 
+####### Trennen (637,1078)>>45
+161.565, 
+####### Trennen (640,1081)>>26.5651
+135, 135, 135, 135, 135, Segmentierung von Seg 3966
+130.914, Segmentierung von Seg 3967
+176.035, 167.905, 161.565, 161.565, 
+####### Trennen (383,1121)>>18.4349
+Segmentierung von Seg 3969
+152.103, Segmentierung von Seg 3970
+129.806, 135, 
+####### Trennen (1311,1077)>>45
+Segmentierung von Seg 3976
+135, 135, 135, 
+####### Trennen (701,1085)>>26.5651
+161.565, 161.565, 
+####### Trennen (696,1088)>>18.4349
+Segmentierung von Seg 3980
+116.565, 
+####### Trennen (500,1077)>>45
+71.5651, 
+####### Trennen (499,1080)>>56.3099
+127.875, 119.745, 
+####### Trennen (500,1085)>>48.1798
+71.5651, 
+####### Trennen (498,1083)>>108.435
+Segmentierung von Seg 3981
+169.939, 169.144, 165.964, 165.964, 
+####### Trennen (483,1104)>>26.5651
+139.399, 135, 135, Segmentierung von Seg 3983
+131.186, 135, 
+####### Trennen (1289,1081)>>45
+Segmentierung von Seg 3985
+123.69, 124.509, 
+####### Trennen (497,1089)>>12.7071
+111.801, 
+####### Trennen (497,1086)>>68.1986
+Segmentierung von Seg 3987
+Segmentierung von Seg 3990
+162.35, 168.69, 165.964, 165.964, 165.964, 165.964, 
+####### Trennen (1171,1115)>>14.0362
+Segmentierung von Seg 3993
+144.605, 
+####### Trennen (643,1100)>>43.9855
+100.62, 101.004, 
+####### Trennen (631,1088)>>71.5651
+172.569, 
+####### Trennen (630,1087)>>37.5686
+Segmentierung von Seg 3995
+161.684, 
+####### Trennen (413,1114)>>18.9876
+142.696, 
+####### Trennen (414,1118)>>11.8677
+154.564, 158.962, 157.834, 
+####### Trennen (435,1145)>>13.1726
+171.006, 166.608, 
+####### Trennen (445,1160)>>13.3925
+Segmentierung von Seg 3998
+165.964, 
+####### Trennen (677,1103)>>30.9638
+135, 135, 135, Segmentierung von Seg 4002
+138.013, Segmentierung von Seg 4005
+82.2348, 90, 
+####### Trennen (620,1097)>>30.9638
+120.964, 
+####### Trennen (620,1095)>>59.0362
+Segmentierung von Seg 4008
+171.085, 164.745, 
+####### Trennen (383,1116)>>29.7449
+135, 135, 135, Segmentierung von Seg 4010
+108.435, 108.435, 
+####### Trennen (475,1097)>>34.6952
+143.13, 
+####### Trennen (478,1101)>>42.8253
+100.305, 
+####### Trennen (480,1100)>>20.6097
+79.6952, 86.8202, 90, 
+####### Trennen (482,1097)>>33.6901
+123.69, 
+####### Trennen (483,1097)>>11.3099
+Segmentierung von Seg 4011
+137.726, 
+####### Trennen (622,1087)>>16.7626
+120.964, 
+####### Trennen (616,1087)>>25.3462
+146.31, 
+####### Trennen (607,1093)>>11.0702
+157.38, 
+####### Trennen (605,1096)>>47.324
+110.056, 
+####### Trennen (616,1111)>>61.1977
+171.254, 
+####### Trennen (620,1115)>>36.2538
+135, 143.13, 
+####### Trennen (627,1112)>>28.7398
+171.87, 
+####### Trennen (633,1106)>>36.8699
+135, 135, 135, Segmentierung von Seg 4019
+85.6013, 
+####### Trennen (1211,1108)>>87.4875
+173.089, 
+####### Trennen (1213,1111)>>90.2138
+82.875, 
+####### Trennen (1209,1113)>>56.5237
+139.399, 149.036, 
+####### Trennen (1203,1110)>>14.0362
+Segmentierung von Seg 4025
+78.6901, 
+####### Trennen (1200,1112)>>74.7449
+153.435, 153.435, 
+####### Trennen (1202,1116)>>26.565
+Segmentierung von Seg 4028
+128.454, 119.932, 
+####### Trennen (1680,1114)>>18.2483
+138.18, Segmentierung von Seg 4036
+59.0362, 
+####### Trennen (1683,1118)>>75.9638
+135, 135, 135, Segmentierung von Seg 4040
+161.565, 168.69, 
+####### Trennen (1253,1139)>>15.2551
+Segmentierung von Seg 4044
+155.225, 155.225, 
+####### Trennen (392,1140)>>12.0948
+143.13, 
+####### Trennen (394,1141)>>18.4349
+Segmentierung von Seg 4048
+119.932, 
+####### Trennen (1662,1109)>>11.8887
+131.82, 
+####### Trennen (1665,1107)>>14.4898
+Segmentierung von Seg 4052
+59.712, 
+####### Trennen (1717,1135)>>68.706
+128.418, 
+####### Trennen (1720,1132)>>51.5819
+Segmentierung von Seg 4053
+171.027, 172.828, 174.697, 
+####### Trennen (1159,1169)>>126.684
+Segmentierung von Seg 4056
+90, 
+####### Trennen (388,1127)>>78.6901
+168.69, 
+####### Trennen (392,1133)>>22.3801
+Segmentierung von Seg 4058
+135, 
+####### Trennen (1418,1125)>>45
+90, 
+####### Trennen (1420,1127)>>45
+Segmentierung von Seg 4060
+141.34, 135, Segmentierung von Seg 4069
+153.435, 
+####### Trennen (1523,1131)>>26.5651
+Segmentierung von Seg 4072
+135, 135, 135, 135, 
+####### Trennen (1163,1122)>>45
+Segmentierung von Seg 4074
+172.569, Segmentierung von Seg 4079
+128.66, Segmentierung von Seg 4082
+170.819, 
+####### Trennen (413,1158)>>13.5704
+157.249, 153.435, 161.565, 161.565, 164.745, 164.745, 
+####### Trennen (429,1181)>>29.7449
+135, Segmentierung von Seg 4084
+165.964, 
+####### Trennen (1499,1135)>>14.0362
+Segmentierung von Seg 4087
+81.8699, 
+####### Trennen (1739,1136)>>26.5651
+108.435, 
+####### Trennen (1736,1139)>>63.4349
+Segmentierung von Seg 4088
+175.797, 
+####### Trennen (490,1273)>>26.7611
+149.036, 
+####### Trennen (490,1276)>>30.9638
+Segmentierung von Seg 4089
+90, 90, 
+####### Trennen (1174,1141)>>30.9638
+120.964, 
+####### Trennen (1173,1145)>>70.0576
+50.9061, 
+####### Trennen (1167,1137)>>118.789
+169.695, 
+####### Trennen (1165,1133)>>61.2602
+108.435, 
+####### Trennen (1168,1130)>>26.5651
+135, 
+####### Trennen (1172,1130)>>23.1986
+111.801, 
+####### Trennen (1174,1135)>>26.5651
+138.366, 
+####### Trennen (1180,1138)>>85.2364
+53.1301, 
+####### Trennen (1176,1140)>>73.7398
+126.87, 
+####### Trennen (1174,1139)>>34.6952
+161.565, 
+####### Trennen (1173,1138)>>18.4349
+Segmentierung von Seg 4091
+Segmentierung von Seg 4092
+111.371, 
+####### Trennen (1648,1144)>>23.6294
+135, 
+####### Trennen (1647,1146)>>26.5651
+Segmentierung von Seg 4095
+153.435, 
+####### Trennen (1230,1136)>>18.4349
+135, 
+####### Trennen (1237,1143)>>26.5651
+108.435, 116.565, 
+####### Trennen (1235,1145)>>18.4349
+Segmentierung von Seg 4098
+Segmentierung von Seg 4107
+96.9112, 
+####### Trennen (1229,1150)>>22.6199
+74.2914, 
+####### Trennen (1223,1143)>>56.3099
+130.601, Segmentierung von Seg 4108
+90, 
+####### Trennen (1727,1143)>>45
+135, Segmentierung von Seg 4109
+142.125, 
+####### Trennen (1246,1157)>>19.44
+161.565, 
+####### Trennen (1243,1159)>>15.2551
+Segmentierung von Seg 4112
+94.7636, 
+####### Trennen (403,1157)>>16.0736
+78.6901, 
+####### Trennen (406,1159)>>68.1986
+146.889, 
+####### Trennen (409,1166)>>15.124
+162.013, 168.559, 
+####### Trennen (420,1181)>>18.3038
+Segmentierung von Seg 4115
+71.5651, 
+####### Trennen (1218,1147)>>45
+116.565, 
+####### Trennen (1218,1148)>>18.4349
+135, 135, Segmentierung von Seg 4116
+153.435, 
+####### Trennen (1226,1154)>>36.8699
+116.565, 
+####### Trennen (1223,1157)>>18.4349
+135, 135, 
+####### Trennen (1221,1158)>>45
+Segmentierung von Seg 4117
+119.745, 
+####### Trennen (1703,1144)>>33.6901
+153.435, 
+####### Trennen (1706,1144)>>18.4349
+135, 135, 
+####### Trennen (1708,1145)>>45
+Segmentierung von Seg 4118
+133.995, 
+####### Trennen (1675,1150)>>19.44
+Segmentierung von Seg 4126
+63.4349, 
+####### Trennen (1711,1151)>>90
+153.435, 
+####### Trennen (1709,1153)>>108.435
+Segmentierung von Seg 4128
+90, 90, 
+####### Trennen (1425,1150)>>90
+Segmentierung von Seg 4130
+119.745, 
+####### Trennen (221,1150)>>11.3099
+108.435, 
+####### Trennen (220,1151)>>26.5651
+135, 
+####### Trennen (216,1151)>>45
+Segmentierung von Seg 4134
+165.964, 
+####### Trennen (1315,1150)>>14.0362
+Segmentierung von Seg 4135
+Segmentierung von Seg 4137
+129.289, 135, 
+####### Trennen (1511,1149)>>45
+Segmentierung von Seg 4143
+135, 135, 
+####### Trennen (1311,1151)>>45
+Segmentierung von Seg 4145
+131.82, Segmentierung von Seg 4149
+106.314, 111.125, 
+####### Trennen (1168,1145)>>24.1114
+87.0134, 79.992, 
+####### Trennen (1160,1154)>>55.008
+Segmentierung von Seg 4155
+168.476, 
+####### Trennen (1319,1152)>>40.6013
+127.875, 135, 
+####### Trennen (1304,1153)>>45
+Segmentierung von Seg 4165
+159.075, 
+####### Trennen (1736,1158)>>28.711
+130.365, 124.509, 
+####### Trennen (1725,1156)>>11.3099
+Segmentierung von Seg 4169
+135, 135, 
+####### Trennen (1486,1156)>>45
+Segmentierung von Seg 4181
+153.435, 153.435, 
+####### Trennen (408,1168)>>18.4349
+135, 135, 135, Segmentierung von Seg 4183
+105.709, 
+####### Trennen (1208,1168)>>30.8326
+74.876, 
+####### Trennen (1201,1160)>>56.3099
+131.186, 
+####### Trennen (1200,1160)>>48.8141
+Segmentierung von Seg 4184
+100.62, 
+####### Trennen (1640,1158)>>60.9454
+Segmentierung von Seg 4186
+168.69, 165.964, 165.964, 
+####### Trennen (1137,1179)>>30.9638
+135, 135, 135, 135, 
+####### Trennen (1142,1186)>>45
+Segmentierung von Seg 4187
+109.44, 
+####### Trennen (1205,1155)>>42.0599
+67.3801, 
+####### Trennen (1208,1157)>>56.3099
+123.69, 
+####### Trennen (1208,1158)>>11.3099
+135, 
+####### Trennen (1212,1162)>>45
+Segmentierung von Seg 4191
+Segmentierung von Seg 4194
+153.435, 
+####### Trennen (1234,1168)>>36.8699
+116.565, 
+####### Trennen (1235,1170)>>45
+161.565, 
+####### Trennen (1238,1173)>>26.5651
+135, 
+####### Trennen (1258,1173)>>45
+Segmentierung von Seg 4196
+90, 
+####### Trennen (1588,1165)>>18.4349
+108.435, 
+####### Trennen (1583,1165)>>26.5651
+135, 135, 135, Segmentierung von Seg 4199
+45, 
+####### Trennen (1197,1160)>>90
+135, 135, 135, 135, 
+####### Trennen (1202,1167)>>45
+Segmentierung von Seg 4205
+162.944, 
+####### Trennen (612,1396)>>46.3794
+116.565, 
+####### Trennen (611,1397)>>18.4349
+Segmentierung von Seg 4206
+135, 141.34, 139.97, 135, 
+####### Trennen (1202,1174)>>11.3099
+Segmentierung von Seg 4210
+135, 135, 
+####### Trennen (1459,1164)>>45
+Segmentierung von Seg 4219
+131.82, Segmentierung von Seg 4221
+Segmentierung von Seg 4222
+116.565, 
+####### Trennen (1414,1167)>>18.4349
+135, 
+####### Trennen (1423,1167)>>45
+Segmentierung von Seg 4224
+Segmentierung von Seg 4226
+125.538, 135, 
+####### Trennen (1289,1168)>>45
+Segmentierung von Seg 4227
+157.834, 
+####### Trennen (1896,1168)>>53.7974
+Segmentierung von Seg 4228
+Segmentierung von Seg 4231
+131.987, Segmentierung von Seg 4232
+161.565, 
+####### Trennen (1421,1170)>>53.1301
+Segmentierung von Seg 4236
+Segmentierung von Seg 4242
+135, 135, 
+####### Trennen (201,1172)>>45
+Segmentierung von Seg 4244
+135, Segmentierung von Seg 4252
+113.199, 
+####### Trennen (1193,1166)>>66.8014
+Segmentierung von Seg 4257
+171.87, Segmentierung von Seg 4263
+174.144, 
+####### Trennen (1177,1215)>>39.144
+135, 135, 
+####### Trennen (1173,1218)>>45
+Segmentierung von Seg 4264
+Segmentierung von Seg 4267
+129.289, 129.289, 135, 
+####### Trennen (227,1176)>>45
+Segmentierung von Seg 4269
+168.69, 
+####### Trennen (1256,1176)>>11.3099
+Segmentierung von Seg 4270
+131.186, 135, 
+####### Trennen (1492,1175)>>45
+Segmentierung von Seg 4271
+169.423, 
+####### Trennen (217,1175)>>73.0832
+Segmentierung von Seg 4272
+149.621, 
+####### Trennen (1188,1185)>>21.7459
+127.875, Segmentierung von Seg 4273
+135, Segmentierung von Seg 4291
+108.435, 
+####### Trennen (1168,1185)>>63.4349
+45, 
+####### Trennen (1165,1182)>>45
+90, 
+####### Trennen (1163,1184)>>45
+135, Segmentierung von Seg 4293
+Segmentierung von Seg 4294
+Segmentierung von Seg 4295
+159.444, 
+####### Trennen (1639,1184)>>20.556
+Segmentierung von Seg 4297
+132.879, 135, 
+####### Trennen (1357,1182)>>45
+Segmentierung von Seg 4301
+Segmentierung von Seg 4304
+Segmentierung von Seg 4305
+135, 135, 
+####### Trennen (1368,1185)>>45
+Segmentierung von Seg 4308
+98.1301, 101.31, 
+####### Trennen (1647,1187)>>45
+Segmentierung von Seg 4310
+164.497, 165.998, 162.632, 162.181, 162.181, 153.435, 
+####### Trennen (520,1311)>>13.5704
+167.005, 173.346, 176.035, 
+####### Trennen (547,1350)>>30.7305
+Segmentierung von Seg 4322
+161.565, 
+####### Trennen (1155,1175)>>10.3048
+171.87, 
+####### Trennen (1158,1171)>>28.7398
+Segmentierung von Seg 4323
+119.745, 
+####### Trennen (1168,1187)>>33.6901
+153.435, 
+####### Trennen (1173,1187)>>26.5651
+126.87, 124.695, 
+####### Trennen (1174,1197)>>53.1301
+Segmentierung von Seg 4327
+153.435, 
+####### Trennen (1634,1189)>>26.5651
+Segmentierung von Seg 4328
+132.614, 132.614, 135, 
+####### Trennen (323,1189)>>45
+Segmentierung von Seg 4329
+92.7263, 
+####### Trennen (1154,1200)>>83.1572
+175.884, 175.533, 
+####### Trennen (1167,1217)>>29.2229
+Segmentierung von Seg 4330
+174.806, 173.367, 168.198, 161.565, 
+####### Trennen (1232,1120)>>26.5651
+Segmentierung von Seg 4331
+115.56, 123.69, 
+####### Trennen (1173,1191)>>56.3099
+Segmentierung von Seg 4333
+Segmentierung von Seg 4334
+108.435, 
+####### Trennen (1240,1188)>>36.8699
+71.5651, 
+####### Trennen (1239,1187)>>63.4349
+135, 
+####### Trennen (1237,1187)>>45
+Segmentierung von Seg 4340
+135, 135, 135, Segmentierung von Seg 4342
+Segmentierung von Seg 4345
+135, 135, 
+####### Trennen (1373,1191)>>45
+Segmentierung von Seg 4346
+135, 
+####### Trennen (1639,1191)>>45
+Segmentierung von Seg 4348
+Segmentierung von Seg 4351
+171.967, 
+####### Trennen (1008,1217)>>26.959
+145.008, 
+####### Trennen (1008,1219)>>34.992
+Segmentierung von Seg 4353
+Segmentierung von Seg 4354
+128.66, Segmentierung von Seg 4356
+127.405, 
+####### Trennen (1365,1193)>>37.4054
+90, 90, 
+####### Trennen (1367,1193)>>45
+135, 
+####### Trennen (1371,1193)>>45
+Segmentierung von Seg 4359
+120.964, 120.964, 
+####### Trennen (1311,1194)>>14.0362
+135, 
+####### Trennen (1301,1194)>>45
+Segmentierung von Seg 4361
+153.435, 
+####### Trennen (1391,1194)>>26.5651
+Segmentierung von Seg 4362
+116.565, 
+####### Trennen (1490,1193)>>18.4349
+135, 
+####### Trennen (1498,1193)>>45
+Segmentierung von Seg 4365
+114.775, 
+####### Trennen (431,1201)>>43.2101
+71.5651, 
+####### Trennen (428,1198)>>63.4349
+135, 135, Segmentierung von Seg 4369
+130.914, 135, 
+####### Trennen (1420,1195)>>45
+Segmentierung von Seg 4371
+135, 135, 135, Segmentierung von Seg 4376
+63.4349, 
+####### Trennen (988,1196)>>71.5651
+135, 135, 135, 135, 135, 
+####### Trennen (995,1205)>>45
+Segmentierung von Seg 4378
+Segmentierung von Seg 4380
+170.538, Segmentierung von Seg 4387
+153.435, 161.565, 161.565, 
+####### Trennen (988,1210)>>18.4349
+Segmentierung von Seg 4390
+Segmentierung von Seg 4399
+Segmentierung von Seg 4403
+139.399, 
+####### Trennen (1250,1202)>>30.9638
+108.435, 
+####### Trennen (1249,1203)>>26.5651
+135, 
+####### Trennen (1242,1203)>>45
+Segmentierung von Seg 4407
+146.31, 
+####### Trennen (1859,1204)>>33.6901
+Segmentierung von Seg 4411
+157.249, 
+####### Trennen (983,1214)>>18.4349
+138.814, Segmentierung von Seg 4413
+135, 135, 
+####### Trennen (1354,1203)>>45
+Segmentierung von Seg 4419
+119.745, 
+####### Trennen (1255,1205)>>26.5651
+146.31, 
+####### Trennen (1242,1205)>>33.6901
+Segmentierung von Seg 4420
+156.93, 
+####### Trennen (1287,1205)>>29.0546
+127.875, 135, 
+####### Trennen (1289,1206)>>45
+Segmentierung von Seg 4423
+Segmentierung von Seg 4428
+170.538, 170.538, Segmentierung von Seg 4430
+Segmentierung von Seg 4432
+95.7106, 
+####### Trennen (1006,1219)>>18.4349
+114.146, 
+####### Trennen (1005,1221)>>50.7106
+Segmentierung von Seg 4436
+123.69, 
+####### Trennen (442,1213)>>11.3099
+135, 
+####### Trennen (444,1215)>>30.9638
+165.964, 
+####### Trennen (447,1220)>>16.9275
+Segmentierung von Seg 4439
+154.134, 
+####### Trennen (1002,1223)>>45.6987
+Segmentierung von Seg 4440
+Segmentierung von Seg 4443
+161.565, 161.565, 
+####### Trennen (992,1219)>>18.4349
+Segmentierung von Seg 4452
+Segmentierung von Seg 4453
+170.538, Segmentierung von Seg 4454
+115.346, 123.69, 
+####### Trennen (971,1211)>>11.3099
+135, 135, 135, 
+####### Trennen (975,1216)>>45
+Segmentierung von Seg 4456
+165.964, 
+####### Trennen (1208,1204)>>30.9638
+135, 135, 135, 135, 
+####### Trennen (1216,1198)>>45
+Segmentierung von Seg 4459
+135, 
+####### Trennen (109,1214)>>45
+Segmentierung von Seg 4464
+169.992, 
+####### Trennen (979,1235)>>79.992
+90, 
+####### Trennen (980,1234)>>45
+Segmentierung von Seg 4468
+116.565, 
+####### Trennen (1438,1215)>>53.1301
+63.4349, 
+####### Trennen (1444,1215)>>116.565
+Segmentierung von Seg 4472
+126.87, 135, 
+####### Trennen (1002,1225)>>45
+Segmentierung von Seg 4473
+135, 135, 
+####### Trennen (1384,1215)>>45
+Segmentierung von Seg 4474
+146.31, 
+####### Trennen (236,1215)>>18.4349
+127.875, 135, 
+####### Trennen (243,1216)>>45
+Segmentierung von Seg 4478
+150.255, 
+####### Trennen (1500,1215)>>26.5651
+123.69, 
+####### Trennen (1501,1216)>>11.3099
+135, 
+####### Trennen (1503,1216)>>45
+Segmentierung von Seg 4480
+Segmentierung von Seg 4481
+135, 135, 135, 135, Segmentierung von Seg 4483
+98.9726, 
+####### Trennen (985,1230)>>72.0547
+171.027, 
+####### Trennen (988,1233)>>81.0274
+90, 84.8056, 
+####### Trennen (981,1229)>>55.3889
+Segmentierung von Seg 4484
+160.56, Segmentierung von Seg 4489
+63.4349, 
+####### Trennen (1891,1220)>>116.565
+Segmentierung von Seg 4498
+122.905, Segmentierung von Seg 4499
+164.745, 160.56, 
+####### Trennen (473,1256)>>33.6901
+126.87, 135, 
+####### Trennen (474,1259)>>45
+Segmentierung von Seg 4501
+71.5651, 
+####### Trennen (964,1222)>>74.7449
+146.31, 146.31, 
+####### Trennen (970,1230)>>11.3099
+135, 
+####### Trennen (971,1233)>>18.4349
+153.435, 
+####### Trennen (973,1235)>>26.565
+Segmentierung von Seg 4507
+165.343, 156.371, 
+####### Trennen (1158,1244)>>54.2759
+102.095, 
+####### Trennen (1154,1239)>>39.2454
+Segmentierung von Seg 4511
+Segmentierung von Seg 4514
+Segmentierung von Seg 4517
+74.7449, 71.5651, 
+####### Trennen (988,1218)>>63.4349
+135, 135, 135, 
+####### Trennen (992,1223)>>45
+Segmentierung von Seg 4519
+128.66, 135, 135, 135, 
+####### Trennen (1154,1232)>>45
+Segmentierung von Seg 4521
+137.291, 
+####### Trennen (1187,1209)>>30.9638
+168.254, 165.964, 165.964, 165.964, 
+####### Trennen (1207,1193)>>30.9638
+135, 135, 135, 135, 
+####### Trennen (1213,1189)>>45
+Segmentierung von Seg 4522
+135, Segmentierung von Seg 4523
+63.4349, 
+####### Trennen (1448,1224)>>53.1301
+116.565, 
+####### Trennen (1441,1224)>>63.4349
+Segmentierung von Seg 4527
+126.87, 135, 135, Segmentierung von Seg 4529
+143.13, 135, Segmentierung von Seg 4533
+165.964, 
+####### Trennen (1160,1232)>>30.9638
+135, 135, 135, Segmentierung von Seg 4542
+135, 135, 
+####### Trennen (1307,1225)>>45
+Segmentierung von Seg 4545
+161.565, 
+####### Trennen (145,1226)>>18.4349
+Segmentierung von Seg 4548
+169.38, 
+####### Trennen (963,1246)>>10.6197
+Segmentierung von Seg 4552
+135, 135, 
+####### Trennen (1323,1226)>>45
+Segmentierung von Seg 4557
+Segmentierung von Seg 4558
+135, 135, 135, 135, 
+####### Trennen (967,1235)>>45
+Segmentierung von Seg 4560
+168.69, 
+####### Trennen (1277,1227)>>11.3099
+Segmentierung von Seg 4568
+123.69, 
+####### Trennen (358,1228)>>11.3099
+135, 135, 135, 
+####### Trennen (348,1229)>>45
+Segmentierung von Seg 4571
+Segmentierung von Seg 4572
+123.69, 
+####### Trennen (284,1229)>>11.3099
+135, 
+####### Trennen (293,1229)>>45
+Segmentierung von Seg 4573
+125.538, 135, 
+####### Trennen (340,1229)>>45
+Segmentierung von Seg 4575
+120.964, 
+####### Trennen (1419,1229)>>14.0362
+135, 
+####### Trennen (1430,1229)>>45
+Segmentierung von Seg 4578
+135, 135, 
+####### Trennen (1599,1230)>>45
+Segmentierung von Seg 4579
+Segmentierung von Seg 4580
+126.87, 135, 
+####### Trennen (275,1230)>>45
+Segmentierung von Seg 4582
+174.289, Segmentierung von Seg 4587
+139.399, 
+####### Trennen (203,1231)>>35.3625
+104.036, 
+####### Trennen (203,1234)>>14.0362
+90, 
+####### Trennen (200,1234)>>45
+Segmentierung von Seg 4590
+168.69, 
+####### Trennen (1327,1232)>>11.3099
+Segmentierung von Seg 4599
+168.69, 
+####### Trennen (1426,1233)>>11.3099
+Segmentierung von Seg 4601
+Segmentierung von Seg 4604
+161.565, 
+####### Trennen (1208,1234)>>71.5651
+90, 94.3987, 
+####### Trennen (1203,1236)>>26.5651
+120.964, 
+####### Trennen (1202,1237)>>14.0362
+135, 
+####### Trennen (1193,1237)>>45
+Segmentierung von Seg 4612
+144.246, 
+####### Trennen (952,1262)>>94.456
+49.7901, 
+####### Trennen (953,1258)>>77.5138
+127.304, 
+####### Trennen (941,1243)>>32.4712
+159.775, 153.435, 
+####### Trennen (936,1236)>>18.4349
+Segmentierung von Seg 4618
+149.859, Segmentierung von Seg 4622
+154.654, 
+####### Trennen (1143,1241)>>11.3099
+165.964, 173.157, 173.157, Segmentierung von Seg 4623
+Segmentierung von Seg 4625
+135, Segmentierung von Seg 4626
+131.424, 135, 135, 135, 
+####### Trennen (1423,1236)>>45
+Segmentierung von Seg 4639
+Segmentierung von Seg 4641
+Segmentierung von Seg 4645
+123.69, 
+####### Trennen (1148,1241)>>17.0205
+140.711, 
+####### Trennen (1137,1250)>>33.5788
+174.289, 
+####### Trennen (1135,1252)>>129.289
+Segmentierung von Seg 4646
+Segmentierung von Seg 4648
+146.31, 
+####### Trennen (1752,1240)>>33.6901
+Segmentierung von Seg 4652
+Segmentierung von Seg 4653
+Segmentierung von Seg 4657
+165.964, 
+####### Trennen (283,1242)>>14.0362
+Segmentierung von Seg 4660
+153.435, 
+####### Trennen (931,1237)>>63.4349
+90, 
+####### Trennen (934,1240)>>45
+135, 135, 
+####### Trennen (935,1243)>>45
+Segmentierung von Seg 4661
+174.401, 
+####### Trennen (958,1255)>>28.0907
+Segmentierung von Seg 4663
+Segmentierung von Seg 4664
+Segmentierung von Seg 4665
+Segmentierung von Seg 4666
+110.056, 
+####### Trennen (933,1260)>>61.1977
+171.254, 
+####### Trennen (935,1262)>>36.2538
+Segmentierung von Seg 4667
+141.34, Segmentierung von Seg 4670
+118.301, 
+####### Trennen (1240,1244)>>16.6992
+Segmentierung von Seg 4675
+Segmentierung von Seg 4677
+175.601, 
+####### Trennen (1422,1245)>>40.6013
+Segmentierung von Seg 4678
+Segmentierung von Seg 4682
+135, 
+####### Trennen (1267,1245)>>45
+Segmentierung von Seg 4683
+90, 90, 
+####### Trennen (1344,1244)>>45
+135, 
+####### Trennen (1351,1244)>>45
+Segmentierung von Seg 4686
+135, 
+####### Trennen (216,1246)>>45
+Segmentierung von Seg 4688
+172.875, 
+####### Trennen (1136,1261)>>127.875
+Segmentierung von Seg 4694
+127.875, 135, 
+####### Trennen (1355,1246)>>45
+Segmentierung von Seg 4704
+161.565, 
+####### Trennen (216,1249)>>18.4349
+Segmentierung von Seg 4709
+141.34, 135, 
+####### Trennen (928,1262)>>45
+Segmentierung von Seg 4713
+Segmentierung von Seg 4715
+139.086, 135, 135, 135, 
+####### Trennen (1592,1252)>>45
+Segmentierung von Seg 4716
+45, 
+####### Trennen (1804,1251)>>90
+135, 
+####### Trennen (1815,1251)>>45
+Segmentierung von Seg 4717
+Segmentierung von Seg 4718
+45, 
+####### Trennen (1496,1250)>>45
+Segmentierung von Seg 4719
+135, 135, 
+####### Trennen (135,1252)>>45
+Segmentierung von Seg 4720
+135, 
+####### Trennen (255,1252)>>45
+Segmentierung von Seg 4721
+89.7077, 
+####### Trennen (938,1270)>>51.9248
+141.633, 
+####### Trennen (938,1274)>>51.6325
+Segmentierung von Seg 4724
+168.69, 
+####### Trennen (1589,1253)>>33.6901
+135, 135, 
+####### Trennen (1593,1254)>>45
+Segmentierung von Seg 4725
+140.711, 135, 135, 135, 135, Segmentierung von Seg 4727
+131.424, Segmentierung von Seg 4732
+161.565, 
+####### Trennen (1324,1254)>>18.4349
+Segmentierung von Seg 4742
+157.166, 
+####### Trennen (950,1266)>>47.5125
+109.654, Segmentierung von Seg 4753
+Segmentierung von Seg 4758
+Segmentierung von Seg 4762
+129.289, Segmentierung von Seg 4763
+Segmentierung von Seg 4764
+135, 135, 
+####### Trennen (265,1258)>>45
+Segmentierung von Seg 4765
+168.69, 
+####### Trennen (917,1271)>>11.3099
+Segmentierung von Seg 4766
+90, 
+####### Trennen (1564,1258)>>53.1301
+143.13, 
+####### Trennen (1571,1259)>>28.7398
+171.87, Segmentierung von Seg 4772
+Segmentierung von Seg 4777
+Segmentierung von Seg 4781
+Segmentierung von Seg 4786
+139.399, 
+####### Trennen (1292,1261)>>18.4349
+120.964, 
+####### Trennen (1293,1262)>>14.0362
+135, 
+####### Trennen (1295,1262)>>45
+Segmentierung von Seg 4792
+135, 135, 
+####### Trennen (1234,1263)>>45
+Segmentierung von Seg 4797
+128.66, 135, 
+####### Trennen (1951,1263)>>45
+Segmentierung von Seg 4798
+155.659, 
+####### Trennen (929,1280)>>34.6952
+Segmentierung von Seg 4802
+Segmentierung von Seg 4803
+153.435, 
+####### Trennen (1520,1265)>>18.4349
+135, 135, 
+####### Trennen (1522,1266)>>45
+Segmentierung von Seg 4805
+142.125, 
+####### Trennen (184,1265)>>18.4349
+123.69, 
+####### Trennen (185,1266)>>11.3099
+135, 
+####### Trennen (191,1266)>>45
+Segmentierung von Seg 4807
+153.435, 
+####### Trennen (327,1265)>>36.8699
+116.565, 
+####### Trennen (326,1266)>>18.4349
+135, 
+####### Trennen (315,1266)>>45
+Segmentierung von Seg 4812
+135, 
+####### Trennen (1176,1266)>>45
+Segmentierung von Seg 4817
+165.256, 165.256, 
+####### Trennen (486,1282)>>14.7436
+Segmentierung von Seg 4821
+135, 135, 
+####### Trennen (329,1268)>>45
+Segmentierung von Seg 4825
+Segmentierung von Seg 4826
+135, 135, 
+####### Trennen (1515,1268)>>45
+Segmentierung von Seg 4829
+126.87, 135, 
+####### Trennen (190,1268)>>45
+Segmentierung von Seg 4832
+Segmentierung von Seg 4834
+90, 
+####### Trennen (962,1262)>>26.5651
+116.565, 108.435, 
+####### Trennen (966,1263)>>26.5651
+135, Segmentierung von Seg 4840
+91.6366, 90, 
+####### Trennen (916,1288)>>90
+Segmentierung von Seg 4843
+131.82, 135, 
+####### Trennen (255,1270)>>45
+Segmentierung von Seg 4851
+135, Segmentierung von Seg 4856
+165.964, 161.565, 
+####### Trennen (903,1286)>>26.5651
+135, 135, 135, Segmentierung von Seg 4860
+128.66, 126.87, 126.87, 
+####### Trennen (970,1281)>>14.712
+141.582, 
+####### Trennen (941,1304)>>31.8361
+173.418, 
+####### Trennen (939,1306)>>128.418
+Segmentierung von Seg 4879
+116.565, 
+####### Trennen (886,1283)>>18.4349
+135, 135, 
+####### Trennen (887,1285)>>45
+Segmentierung von Seg 4883
+173.29, 
+####### Trennen (1368,1277)>>38.2902
+Segmentierung von Seg 4885
+170.538, Segmentierung von Seg 4886
+149.036, 
+####### Trennen (895,1285)>>11.3099
+137.726, 142.125, 
+####### Trennen (899,1290)>>11.3099
+153.435, 
+####### Trennen (903,1294)>>18.4349
+135, Segmentierung von Seg 4888
+101.31, 
+####### Trennen (953,1271)>>19.6538
+120.964, 122.471, 116.565, 
+####### Trennen (952,1280)>>18.4349
+135, Segmentierung von Seg 4890
+Segmentierung von Seg 4891
+172.875, Segmentierung von Seg 4893
+161.565, 
+####### Trennen (1550,1277)>>18.4349
+Segmentierung von Seg 4901
+160.56, 
+####### Trennen (923,1287)>>59.25
+101.31, 
+####### Trennen (925,1285)>>78.6901
+Segmentierung von Seg 4904
+170.538, Segmentierung von Seg 4909
+135, 125.538, 
+####### Trennen (941,1290)>>94.2739
+31.2637, 
+####### Trennen (938,1283)>>80.5377
+111.801, 
+####### Trennen (939,1282)>>23.1986
+135, 
+####### Trennen (939,1281)>>45
+Segmentierung von Seg 4910
+105.709, 104.036, 
+####### Trennen (949,1279)>>30.9638
+Segmentierung von Seg 4914
+131.186, Segmentierung von Seg 4927
+170.455, 174.289, 
+####### Trennen (944,1310)>>129.289
+Segmentierung von Seg 4929
+135, 
+####### Trennen (1768,1282)>>45
+Segmentierung von Seg 4932
+33.6901, 
+####### Trennen (947,1281)>>112.62
+146.31, 
+####### Trennen (947,1282)>>33.6901
+Segmentierung von Seg 4933
+144.462, 
+####### Trennen (1306,1287)>>35.5377
+Segmentierung von Seg 4935
+135, 135, 
+####### Trennen (1401,1283)>>45
+Segmentierung von Seg 4937
+112.751, 
+####### Trennen (1674,1285)>>26.0631
+Segmentierung von Seg 4938
+150.255, 
+####### Trennen (1668,1282)>>26.5651
+123.69, 
+####### Trennen (1667,1283)>>11.3099
+135, 
+####### Trennen (1663,1283)>>45
+Segmentierung von Seg 4944
+161.565, 
+####### Trennen (1193,1284)>>18.4349
+Segmentierung von Seg 4950
+Segmentierung von Seg 4951
+168.69, 
+####### Trennen (1398,1285)>>67.3801
+Segmentierung von Seg 4954
+135, 135, 
+####### Trennen (388,1284)>>45
+Segmentierung von Seg 4955
+108.435, 
+####### Trennen (496,1281)>>15.66
+124.095, 
+####### Trennen (540,1346)>>45
+169.095, 
+####### Trennen (544,1350)>>34.095
+135, Segmentierung von Seg 4956
+155.772, 
+####### Trennen (498,1300)>>12.9178
+168.69, 
+####### Trennen (502,1304)>>33.6901
+135, 135, 
+####### Trennen (503,1306)>>45
+Segmentierung von Seg 4958
+167.005, 
+####### Trennen (898,1296)>>12.9946
+Segmentierung von Seg 4960
+135, 
+####### Trennen (1595,1286)>>18.4349
+153.435, 
+####### Trennen (1599,1286)>>26.5651
+Segmentierung von Seg 4961
+129.289, 129.289, 135, 
+####### Trennen (1837,1286)>>45
+Segmentierung von Seg 4962
+130.601, 135, 
+####### Trennen (254,1286)>>45
+Segmentierung von Seg 4965
+168.024, 
+####### Trennen (509,1309)>>33.0239
+135, Segmentierung von Seg 4969
+135, 
+####### Trennen (1221,1287)>>45
+Segmentierung von Seg 4976
+125.538, 135, 
+####### Trennen (1129,1287)>>45
+Segmentierung von Seg 4977
+140.906, 
+####### Trennen (1592,1288)>>26.5651
+167.471, 
+####### Trennen (1600,1288)>>12.5288
+Segmentierung von Seg 4979
+Segmentierung von Seg 4980
+135, 135, 
+####### Trennen (406,1289)>>45
+Segmentierung von Seg 4985
+158.199, 
+####### Trennen (1308,1290)>>23.1986
+Segmentierung von Seg 4987
+127.875, 
+####### Trennen (1625,1288)>>10.3048
+138.18, 138.18, Segmentierung von Seg 4989
+128.66, 135, 
+####### Trennen (332,1289)>>45
+Segmentierung von Seg 4994
+135, Segmentierung von Seg 4998
+158.629, 
+####### Trennen (874,1299)>>18.4349
+140.194, Segmentierung von Seg 5005
+129.806, 135, 
+####### Trennen (1518,1290)>>45
+Segmentierung von Seg 5006
+Segmentierung von Seg 5007
+153.435, 
+####### Trennen (1729,1291)>>18.4349
+135, 135, 135, 135, 
+####### Trennen (1712,1293)>>45
+Segmentierung von Seg 5011
+157.38, 
+####### Trennen (898,1299)>>33.6901
+123.69, 
+####### Trennen (898,1300)>>11.3099
+Segmentierung von Seg 5013
+135, 135, 
+####### Trennen (1188,1292)>>45
+Segmentierung von Seg 5015
+135, 135, 
+####### Trennen (1356,1292)>>45
+Segmentierung von Seg 5016
+131.186, Segmentierung von Seg 5025
+Segmentierung von Seg 5036
+Segmentierung von Seg 5037
+161.565, 
+####### Trennen (1476,1295)>>18.4349
+Segmentierung von Seg 5039
+108.435, 
+####### Trennen (1565,1294)>>26.5651
+135, 
+####### Trennen (1578,1294)>>45
+Segmentierung von Seg 5040
+164.055, 
+####### Trennen (1717,1296)>>11.3099
+152.745, 
+####### Trennen (1712,1295)>>29.0546
+123.69, 
+####### Trennen (1711,1296)>>11.3099
+135, 
+####### Trennen (1709,1296)>>45
+Segmentierung von Seg 5041
+168.69, 
+####### Trennen (243,1296)>>11.3099
+Segmentierung von Seg 5049
+135, 135, 
+####### Trennen (1597,1296)>>45
+Segmentierung von Seg 5050
+161.565, 
+####### Trennen (1829,1296)>>18.4349
+Segmentierung von Seg 5057
+Segmentierung von Seg 5060
+Segmentierung von Seg 5061
+129.289, 135, 
+####### Trennen (1780,1296)>>45
+Segmentierung von Seg 5062
+Segmentierung von Seg 5066
+160.56, 
+####### Trennen (1114,1278)>>36.8699
+123.69, 
+####### Trennen (1115,1278)>>15.7086
+139.399, 139.399, 135, 135, Segmentierung von Seg 5068
+168.69, 
+####### Trennen (1265,1299)>>33.6901
+135, 135, 
+####### Trennen (1269,1300)>>45
+Segmentierung von Seg 5069
+168.69, 
+####### Trennen (1610,1299)>>33.6901
+135, 135, 
+####### Trennen (1616,1300)>>45
+Segmentierung von Seg 5070
+Segmentierung von Seg 5071
+Segmentierung von Seg 5072
+135, 128.66, 128.66, 135, 135, 135, 
+####### Trennen (1713,1299)>>45
+Segmentierung von Seg 5073
+169.695, 
+####### Trennen (1779,1299)>>34.6952
+Segmentierung von Seg 5074
+129.289, Segmentierung von Seg 5076
+Segmentierung von Seg 5077
+161.565, 161.565, 
+####### Trennen (889,1308)>>26.5651
+135, Segmentierung von Seg 5078
+167.005, 
+####### Trennen (1081,1305)>>122.005
+Segmentierung von Seg 5079
+129.289, 135, 
+####### Trennen (1105,1298)>>45
+Segmentierung von Seg 5080
+168.69, 
+####### Trennen (1416,1300)>>11.3099
+Segmentierung von Seg 5085
+130.236, 130.236, Segmentierung von Seg 5087
+135, 135, 
+####### Trennen (1869,1299)>>45
+Segmentierung von Seg 5100
+Segmentierung von Seg 5105
+136.364, 135, 
+####### Trennen (1714,1301)>>45
+Segmentierung von Seg 5107
+164.438, 160.56, 168.69, 
+####### Trennen (1133,1253)>>33.6901
+Segmentierung von Seg 5117
+Segmentierung von Seg 5121
+Segmentierung von Seg 5123
+81.8699, 90, 
+####### Trennen (1617,1306)>>90
+Segmentierung von Seg 5124
+125.538, 135, 
+####### Trennen (178,1305)>>45
+Segmentierung von Seg 5130
+135, Segmentierung von Seg 5131
+135, 135, 
+####### Trennen (1412,1306)>>45
+Segmentierung von Seg 5134
+143.746, Segmentierung von Seg 5138
+Segmentierung von Seg 5141
+80.5377, 90, 
+####### Trennen (1167,1309)>>90
+Segmentierung von Seg 5144
+170.538, 
+####### Trennen (1421,1309)>>35.5377
+135, 135, 
+####### Trennen (1430,1310)>>45
+Segmentierung von Seg 5147
+126.87, Segmentierung von Seg 5152
+135, 135, 
+####### Trennen (1781,1309)>>45
+Segmentierung von Seg 5162
+Segmentierung von Seg 5177
+Segmentierung von Seg 5180
+116.565, 116.565, 
+####### Trennen (507,1319)>>63.4349
+Segmentierung von Seg 5182
+135, 
+####### Trennen (234,1315)>>45
+Segmentierung von Seg 5190
+123.69, 
+####### Trennen (1564,1315)>>11.3099
+135, 
+####### Trennen (1571,1315)>>45
+Segmentierung von Seg 5196
+170.538, Segmentierung von Seg 5197
+135, 135, 
+####### Trennen (1349,1317)>>45
+Segmentierung von Seg 5198
+116.565, 
+####### Trennen (1833,1316)>>18.4349
+135, 
+####### Trennen (1844,1316)>>45
+Segmentierung von Seg 5199
+135, 
+####### Trennen (1123,1318)>>45
+Segmentierung von Seg 5205
+Segmentierung von Seg 5206
+135, 
+####### Trennen (519,1324)>>18.4349
+116.565, Segmentierung von Seg 5207
+Segmentierung von Seg 5208
+108.435, 
+####### Trennen (1101,1318)>>26.5651
+135, 
+####### Trennen (1111,1318)>>45
+Segmentierung von Seg 5214
+161.565, 
+####### Trennen (1357,1319)>>18.4349
+Segmentierung von Seg 5220
+Segmentierung von Seg 5222
+163.926, 
+####### Trennen (1803,1319)>>33.6901
+130.236, 135, 
+####### Trennen (1798,1320)>>45
+Segmentierung von Seg 5223
+130.601, 135, 
+####### Trennen (1851,1319)>>45
+Segmentierung von Seg 5226
+164.745, 
+####### Trennen (942,1311)>>29.7449
+Segmentierung von Seg 5233
+Segmentierung von Seg 5234
+Segmentierung von Seg 5235
+Segmentierung von Seg 5238
+Segmentierung von Seg 5243
+Segmentierung von Seg 5245
+135, Segmentierung von Seg 5254
+63.4349, 
+####### Trennen (2012,1325)>>116.565
+Segmentierung von Seg 5255
+162.35, 
+####### Trennen (454,1324)>>21.0097
+Segmentierung von Seg 5259
+168.69, 
+####### Trennen (1268,1325)>>11.3099
+Segmentierung von Seg 5263
+153.97, 
+####### Trennen (241,1326)>>37.4054
+116.565, 
+####### Trennen (240,1327)>>18.4349
+135, 135, 135, 
+####### Trennen (215,1328)>>45
+Segmentierung von Seg 5265
+161.565, 
+####### Trennen (1151,1325)>>96.9112
+64.6538, 
+####### Trennen (1150,1329)>>39.3824
+104.036, 
+####### Trennen (1144,1329)>>75.9638
+Segmentierung von Seg 5271
+Segmentierung von Seg 5272
+157.989, Segmentierung von Seg 5273
+Segmentierung von Seg 5275
+145.84, 153.435, 
+####### Trennen (393,1328)>>26.5651
+Segmentierung von Seg 5278
+Segmentierung von Seg 5283
+122.784, 130.914, 135, 135, Segmentierung von Seg 5287
+Segmentierung von Seg 5291
+129.289, 129.289, 135, 
+####### Trennen (1629,1329)>>45
+Segmentierung von Seg 5293
+116.565, 
+####### Trennen (155,1330)>>18.4349
+135, 
+####### Trennen (163,1330)>>45
+Segmentierung von Seg 5298
+98.1301, 
+####### Trennen (1264,1331)>>63.4349
+161.565, 
+####### Trennen (1259,1331)>>18.4349
+Segmentierung von Seg 5300
+169.695, 
+####### Trennen (1301,1332)>>34.6952
+Segmentierung von Seg 5301
+Segmentierung von Seg 5304
+129.806, Segmentierung von Seg 5311
+131.634, 135, 
+####### Trennen (1626,1331)>>45
+Segmentierung von Seg 5318
+135, 135, 
+####### Trennen (1393,1333)>>45
+Segmentierung von Seg 5319
+Segmentierung von Seg 5322
+168.69, 
+####### Trennen (532,1348)>>11.3099
+Segmentierung von Seg 5323
+173.66, Segmentierung von Seg 5327
+116.565, 
+####### Trennen (1231,1335)>>18.4349
+Segmentierung von Seg 5337
+130.236, 
+####### Trennen (1255,1334)>>40.2364
+Segmentierung von Seg 5339
+170.538, Segmentierung von Seg 5340
+135, 135, 
+####### Trennen (1471,1335)>>45
+Segmentierung von Seg 5341
+135, 135, 
+####### Trennen (1511,1335)>>45
+Segmentierung von Seg 5342
+135, 135, 
+####### Trennen (1672,1335)>>45
+Segmentierung von Seg 5343
+Segmentierung von Seg 5348
+98.9726, 
+####### Trennen (1197,1337)>>71.5651
+170.538, Segmentierung von Seg 5349
+135, 
+####### Trennen (1361,1335)>>26.5651
+108.435, 
+####### Trennen (1362,1336)>>26.5651
+135, 
+####### Trennen (1365,1336)>>45
+Segmentierung von Seg 5351
+131.186, 135, 
+####### Trennen (1543,1336)>>45
+Segmentierung von Seg 5356
+161.565, 
+####### Trennen (1471,1337)>>18.4349
+Segmentierung von Seg 5361
+175.486, Segmentierung von Seg 5364
+176.496, 171.87, 
+####### Trennen (568,1396)>>81.8699
+Segmentierung von Seg 5365
+90, 
+####### Trennen (1063,1341)>>45
+45, 
+####### Trennen (1062,1340)>>90
+135, 
+####### Trennen (1060,1340)>>45
+Segmentierung von Seg 5366
+143.13, 
+####### Trennen (1082,1338)>>26.5651
+116.565, 
+####### Trennen (1083,1339)>>18.4349
+135, 
+####### Trennen (1085,1339)>>45
+Segmentierung von Seg 5369
+135, 
+####### Trennen (1337,1339)>>45
+Segmentierung von Seg 5371
+129.806, 135, 
+####### Trennen (1436,1338)>>45
+Segmentierung von Seg 5372
+Segmentierung von Seg 5374
+135, 135, 
+####### Trennen (1052,1340)>>45
+Segmentierung von Seg 5377
+104.036, 
+####### Trennen (1108,1343)>>30.9638
+Segmentierung von Seg 5385
+146.31, 146.31, 
+####### Trennen (1157,1342)>>11.3099
+Segmentierung von Seg 5386
+165.964, 
+####### Trennen (1337,1341)>>14.0362
+Segmentierung von Seg 5387
+65.7256, Segmentierung von Seg 5392
+146.31, 
+####### Trennen (1135,1347)>>49.1849
+97.125, 
+####### Trennen (1137,1346)>>11.3099
+108.435, 
+####### Trennen (1138,1347)>>18.4349
+90, 
+####### Trennen (1139,1346)>>45
+135, 
+####### Trennen (1141,1346)>>45
+Segmentierung von Seg 5396
+Segmentierung von Seg 5402
+Segmentierung von Seg 5403
+Segmentierung von Seg 5404
+157.218, 
+####### Trennen (1707,1343)>>36.2538
+120.964, 
+####### Trennen (1706,1344)>>14.0362
+135, 
+####### Trennen (1700,1344)>>45
+Segmentierung von Seg 5406
+Segmentierung von Seg 5407
+135, Segmentierung von Seg 5411
+122.905, 
+####### Trennen (1111,1347)>>38.6598
+Segmentierung von Seg 5415
+135, 
+####### Trennen (1759,1344)>>26.5651
+108.435, 
+####### Trennen (1758,1345)>>26.5651
+135, 
+####### Trennen (1755,1345)>>45
+Segmentierung von Seg 5418
+135, 135, 
+####### Trennen (1642,1346)>>45
+Segmentierung von Seg 5419
+Segmentierung von Seg 5420
+132.614, 135, 
+####### Trennen (1816,1345)>>45
+Segmentierung von Seg 5422
+97.125, 90, 
+####### Trennen (1861,1348)>>45
+135, Segmentierung von Seg 5429
+137.045, 135, 
+####### Trennen (1439,1348)>>45
+Segmentierung von Seg 5436
+153.435, 
+####### Trennen (1137,1349)>>18.4349
+Segmentierung von Seg 5439
+Segmentierung von Seg 5442
+135, 135, 
+####### Trennen (1350,1349)>>45
+Segmentierung von Seg 5443
+116.565, 
+####### Trennen (1376,1348)>>18.4349
+135, 
+####### Trennen (1381,1348)>>45
+Segmentierung von Seg 5444
+144.689, 
+####### Trennen (1423,1349)>>36.2538
+108.435, 
+####### Trennen (1424,1350)>>26.5651
+135, 
+####### Trennen (1435,1350)>>45
+Segmentierung von Seg 5448
+79.3302, 70.3462, 
+####### Trennen (1047,1352)>>75.9638
+Segmentierung von Seg 5450
+60.2551, 
+####### Trennen (1087,1351)>>63.4349
+Segmentierung von Seg 5460
+165.964, 
+####### Trennen (1346,1351)>>14.0362
+Segmentierung von Seg 5461
+108.435, 
+####### Trennen (1371,1350)>>26.5651
+135, 
+####### Trennen (1380,1350)>>45
+Segmentierung von Seg 5463
+135, 135, 
+####### Trennen (1798,1351)>>45
+Segmentierung von Seg 5469
+161.565, 
+####### Trennen (22,1353)>>18.4349
+Segmentierung von Seg 5474
+81.8699, 90, 
+####### Trennen (1238,1355)>>45
+135, 
+####### Trennen (1240,1355)>>45
+Segmentierung von Seg 5476
+170.538, Segmentierung von Seg 5478
+149.036, 
+####### Trennen (551,1360)>>17.9691
+167.005, 167.005, 165.964, 172.304, 173.811, 
+####### Trennen (586,1411)>>26.2826
+147.529, 153.435, Segmentierung von Seg 5479
+168.024, 165.964, 165.964, 166.608, 166.608, 
+####### Trennen (587,1407)>>31.6075
+135, Segmentierung von Seg 5480
+172.875, 
+####### Trennen (1052,1328)>>37.875
+Segmentierung von Seg 5483
+152.103, 
+####### Trennen (1539,1353)>>35.5377
+116.565, 
+####### Trennen (1540,1354)>>18.4349
+135, 
+####### Trennen (1558,1354)>>45
+Segmentierung von Seg 5484
+116.565, 
+####### Trennen (1613,1353)>>18.4349
+135, 
+####### Trennen (1619,1353)>>45
+Segmentierung von Seg 5491
+147.095, 
+####### Trennen (1313,1355)>>18.4349
+128.66, Segmentierung von Seg 5492
+Segmentierung von Seg 5493
+Segmentierung von Seg 5494
+153.435, 
+####### Trennen (1614,1355)>>26.5651
+Segmentierung von Seg 5506
+Segmentierung von Seg 5507
+165.964, 
+####### Trennen (1578,1355)>>14.0362
+Segmentierung von Seg 5508
+Segmentierung von Seg 5513
+Segmentierung von Seg 5514
+135, Segmentierung von Seg 5515
+133.152, Segmentierung von Seg 5516
+143.973, 
+####### Trennen (546,1369)>>36.0274
+Segmentierung von Seg 5519
+139.764, 
+####### Trennen (1273,1358)>>18.4349
+158.199, 
+####### Trennen (1265,1358)>>21.8014
+Segmentierung von Seg 5523
+153.435, 
+####### Trennen (1415,1359)>>26.5651
+Segmentierung von Seg 5524
+Segmentierung von Seg 5530
+132.797, 135, 
+####### Trennen (1783,1358)>>45
+Segmentierung von Seg 5537
+123.69, 
+####### Trennen (1372,1359)>>11.3099
+135, 
+####### Trennen (1378,1359)>>45
+Segmentierung von Seg 5538
+153.435, 
+####### Trennen (1445,1360)>>26.5651
+Segmentierung von Seg 5540
+Segmentierung von Seg 5541
+135, Segmentierung von Seg 5542
+Segmentierung von Seg 5543
+105.751, 
+####### Trennen (887,1357)>>64.0252
+169.776, 
+####### Trennen (921,1329)>>13.7389
+156.038, 161.565, 
+####### Trennen (923,1326)>>18.4349
+Segmentierung von Seg 5551
+113.199, 
+####### Trennen (867,1363)>>45.7239
+158.923, 168.085, 168.977, 171.703, 168.69, 161.565, 164.578, 
+####### Trennen (933,1310)>>26.5651
+138.013, 135, 135, Segmentierung von Seg 5556
+147.724, 
+####### Trennen (1117,1361)>>18.4349
+129.289, 135, 
+####### Trennen (1122,1362)>>45
+Segmentierung von Seg 5557
+Segmentierung von Seg 5558
+Segmentierung von Seg 5559
+Segmentierung von Seg 5560
+Segmentierung von Seg 5564
+135, 135, 135, 135, 
+####### Trennen (1474,1364)>>45
+Segmentierung von Seg 5565
+Segmentierung von Seg 5567
+169.992, 
+####### Trennen (996,1372)>>124.992
+Segmentierung von Seg 5568
+135, 135, 
+####### Trennen (1068,1365)>>45
+Segmentierung von Seg 5569
+168.69, 
+####### Trennen (1119,1364)>>11.3099
+Segmentierung von Seg 5573
+Segmentierung von Seg 5575
+129.806, 135, 
+####### Trennen (1823,1364)>>45
+Segmentierung von Seg 5577
+143.13, 
+####### Trennen (1097,1368)>>87.8253
+55.3048, 
+####### Trennen (1094,1369)>>61.2602
+Segmentierung von Seg 5579
+147.724, 
+####### Trennen (1520,1365)>>18.4349
+129.289, 135, 
+####### Trennen (1525,1366)>>45
+Segmentierung von Seg 5588
+108.435, 
+####### Trennen (116,1368)>>26.5651
+135, 
+####### Trennen (124,1368)>>45
+Segmentierung von Seg 5591
+130.914, 135, 
+####### Trennen (1337,1368)>>45
+Segmentierung von Seg 5592
+135, 135, 
+####### Trennen (1485,1369)>>45
+Segmentierung von Seg 5594
+Segmentierung von Seg 5597
+158.199, 
+####### Trennen (1055,1371)>>23.1986
+135, Segmentierung von Seg 5600
+130.236, 135, 
+####### Trennen (1192,1369)>>45
+Segmentierung von Seg 5603
+137.49, 
+####### Trennen (1507,1370)>>15.2551
+152.745, 
+####### Trennen (1512,1369)>>29.0546
+123.69, 
+####### Trennen (1513,1370)>>11.3099
+135, 
+####### Trennen (1524,1370)>>45
+Segmentierung von Seg 5604
+135, 135, 
+####### Trennen (1683,1370)>>45
+Segmentierung von Seg 5612
+Segmentierung von Seg 5613
+152.103, 
+####### Trennen (1568,1370)>>26.5651
+125.538, 135, 
+####### Trennen (1577,1371)>>45
+Segmentierung von Seg 5617
+Segmentierung von Seg 5626
+135, 
+####### Trennen (1504,1371)>>18.4349
+116.565, 
+####### Trennen (1505,1372)>>18.4349
+135, 
+####### Trennen (1509,1372)>>45
+Segmentierung von Seg 5627
+Segmentierung von Seg 5631
+146.31, 
+####### Trennen (288,1374)>>26.5651
+119.745, 
+####### Trennen (286,1373)>>11.3099
+Segmentierung von Seg 5636
+164.055, 
+####### Trennen (558,1386)>>29.0546
+135, Segmentierung von Seg 5637
+93.8141, 90, 
+####### Trennen (1072,1376)>>90
+Segmentierung von Seg 5640
+Segmentierung von Seg 5641
+169.611, 
+####### Trennen (1640,1373)>>39.8056
+129.806, 135, 
+####### Trennen (1679,1374)>>45
+Segmentierung von Seg 5644
+126.87, 
+####### Trennen (1954,1373)>>18.4349
+108.435, 
+####### Trennen (1953,1374)>>26.5651
+135, 
+####### Trennen (1946,1374)>>45
+Segmentierung von Seg 5654
+108.435, 108.435, 
+####### Trennen (1092,1376)>>26.5651
+135, 
+####### Trennen (1097,1376)>>45
+Segmentierung von Seg 5657
+123.69, 
+####### Trennen (1387,1375)>>11.3099
+135, 
+####### Trennen (1392,1375)>>45
+Segmentierung von Seg 5660
+159.341, 
+####### Trennen (318,1375)>>79.6459
+79.6952, 
+####### Trennen (317,1378)>>23.0292
+102.724, 
+####### Trennen (307,1377)>>26.5651
+129.289, 135, 
+####### Trennen (303,1378)>>45
+Segmentierung von Seg 5662
+153.435, 
+####### Trennen (1207,1378)>>26.5651
+Segmentierung von Seg 5664
+Segmentierung von Seg 5665
+129.806, 135, 
+####### Trennen (1752,1376)>>45
+Segmentierung von Seg 5667
+135, 
+####### Trennen (1023,1378)>>45
+Segmentierung von Seg 5670
+Segmentierung von Seg 5671
+135, Segmentierung von Seg 5672
+135, 135, 135, 135, 
+####### Trennen (1480,1379)>>45
+Segmentierung von Seg 5673
+163.235, 
+####### Trennen (1650,1377)>>10.6197
+173.854, 
+####### Trennen (1680,1376)>>40.7636
+Segmentierung von Seg 5677
+126.87, 135, 
+####### Trennen (1708,1378)>>45
+Segmentierung von Seg 5679
+Segmentierung von Seg 5682
+123.69, 
+####### Trennen (380,1379)>>11.3099
+135, 135, Segmentierung von Seg 5683
+171.87, 
+####### Trennen (975,1389)>>126.87
+Segmentierung von Seg 5687
+146.31, 
+####### Trennen (1122,1381)>>33.6901
+Segmentierung von Seg 5691
+175.914, Segmentierung von Seg 5698
+161.565, 
+####### Trennen (1479,1381)>>18.4349
+Segmentierung von Seg 5700
+90, 90, 
+####### Trennen (208,1384)>>90
+Segmentierung von Seg 5701
+119.745, 
+####### Trennen (380,1382)>>33.6901
+153.435, 
+####### Trennen (384,1382)>>26.5651
+Segmentierung von Seg 5702
+113.199, 
+####### Trennen (1026,1382)>>10.4915
+123.69, 123.69, 
+####### Trennen (1032,1382)>>11.3099
+135, 
+####### Trennen (1035,1382)>>45
+Segmentierung von Seg 5708
+135, 135, 
+####### Trennen (1585,1382)>>45
+Segmentierung von Seg 5709
+138.576, 135, 
+####### Trennen (1628,1383)>>45
+Segmentierung von Seg 5714
+135, 126.87, 
+####### Trennen (1119,1387)>>53.1301
+Segmentierung von Seg 5715
+171.87, Segmentierung von Seg 5717
+131.424, 135, 
+####### Trennen (1529,1382)>>45
+Segmentierung von Seg 5727
+144.162, 
+####### Trennen (1200,1392)>>23.1986
+120.964, 
+####### Trennen (1201,1393)>>14.0362
+135, 
+####### Trennen (1201,1395)>>45
+Segmentierung von Seg 5730
+153.435, 
+####### Trennen (1927,1384)>>26.5651
+Segmentierung von Seg 5733
+161.565, 
+####### Trennen (1135,1386)>>18.4349
+Segmentierung von Seg 5735
+Segmentierung von Seg 5736
+171.87, Segmentierung von Seg 5737
+Segmentierung von Seg 5738
+108.435, 
+####### Trennen (1881,1387)>>26.5651
+Segmentierung von Seg 5741
+125.538, 135, 
+####### Trennen (1332,1385)>>45
+Segmentierung von Seg 5742
+135, 135, 
+####### Trennen (1428,1386)>>45
+Segmentierung von Seg 5743
+Segmentierung von Seg 5744
+161.565, 
+####### Trennen (1544,1386)>>18.4349
+Segmentierung von Seg 5746
+Segmentierung von Seg 5747
+127.875, 127.875, 135, 
+####### Trennen (1855,1387)>>45
+Segmentierung von Seg 5751
+40.6013, 
+####### Trennen (1232,1387)>>30.9638
+71.5651, 
+####### Trennen (1233,1388)>>18.4349
+Segmentierung von Seg 5755
+Segmentierung von Seg 5759
+123.69, 
+####### Trennen (987,1389)>>11.3099
+135, 
+####### Trennen (982,1389)>>45
+Segmentierung von Seg 5762
+175.236, 
+####### Trennen (1003,1392)>>40.2364
+135, 135, 
+####### Trennen (1000,1391)>>45
+Segmentierung von Seg 5770
+126.87, 135, 
+####### Trennen (1446,1389)>>45
+Segmentierung von Seg 5775
+Segmentierung von Seg 5780
+105.945, 
+####### Trennen (1073,1396)>>39.6743
+145.62, 
+####### Trennen (1070,1395)>>15.9454
+161.565, 
+####### Trennen (1068,1395)>>18.4349
+Segmentierung von Seg 5782
+Segmentierung von Seg 5785
+96.3402, 
+####### Trennen (1050,1394)>>83.6598
+Segmentierung von Seg 5786
+Segmentierung von Seg 5788
+Segmentierung von Seg 5790
+152.103, 
+####### Trennen (1505,1393)>>26.5651
+125.538, 135, 
+####### Trennen (1511,1394)>>45
+Segmentierung von Seg 5795
+167.005, 
+####### Trennen (969,1385)>>12.9946
+Segmentierung von Seg 5799
+130.914, 135, Segmentierung von Seg 5800
+153.435, 
+####### Trennen (1419,1394)>>26.5651
+Segmentierung von Seg 5801
+135, 135, Segmentierung von Seg 5802
+135, Segmentierung von Seg 5805
+133.409, 135, 
+####### Trennen (1721,1394)>>45
+Segmentierung von Seg 5807
+165.964, 
+####### Trennen (969,1397)>>16.9275
+Segmentierung von Seg 5820
+129.806, Segmentierung von Seg 5823
+119.055, 
+####### Trennen (574,1406)>>15.9454
+135, Segmentierung von Seg 5825
+Segmentierung von Seg 5830
+173.66, 
+####### Trennen (1132,1399)>>77.3196
+Segmentierung von Seg 5831
+Segmentierung von Seg 5840
+Segmentierung von Seg 5841
+135, 135, 
+####### Trennen (1653,1400)>>45
+Segmentierung von Seg 5842
+Segmentierung von Seg 5851
+131.186, 135, 
+####### Trennen (1551,1400)>>45
+Segmentierung von Seg 5857
+120.964, 
+####### Trennen (1375,1402)>>30.9638
+90, 
+####### Trennen (1374,1403)>>45
+135, 
+####### Trennen (1371,1403)>>45
+Segmentierung von Seg 5858
+143.924, 140.599, 
+####### Trennen (1716,1401)>>11.3099
+129.289, 135, 
+####### Trennen (1714,1402)>>45
+Segmentierung von Seg 5863
+75.9638, 
+####### Trennen (1036,1406)>>16.9275
+59.0362, 
+####### Trennen (1034,1404)>>75.9638
+135, 
+####### Trennen (1030,1404)>>45
+Segmentierung von Seg 5868
+Segmentierung von Seg 5870
+161.565, 
+####### Trennen (331,1404)>>18.4349
+Segmentierung von Seg 5879
+165.964, 
+####### Trennen (1324,1404)>>14.0362
+Segmentierung von Seg 5880
+130.601, 135, 
+####### Trennen (1737,1403)>>45
+Segmentierung von Seg 5881
+Segmentierung von Seg 5889
+123.69, 123.69, 
+####### Trennen (1290,1405)>>11.3099
+135, 135, 135, 
+####### Trennen (1280,1406)>>45
+Segmentierung von Seg 5891
+135, Segmentierung von Seg 5892
+123.69, 
+####### Trennen (1728,1404)>>11.3099
+135, 135, 135, 
+####### Trennen (1699,1405)>>45
+Segmentierung von Seg 5893
+135, Segmentierung von Seg 5901
+Segmentierung von Seg 5904
+135, Segmentierung von Seg 5908
+143.13, 
+####### Trennen (955,1409)>>61.2602
+81.8699, 
+####### Trennen (956,1410)>>53.1301
+135, 
+####### Trennen (957,1410)>>45
+Segmentierung von Seg 5913
+Segmentierung von Seg 5914
+Segmentierung von Seg 5917
+135, 135, 
+####### Trennen (1280,1408)>>45
+Segmentierung von Seg 5920
+135, 135, 135, 
+####### Trennen (1029,1410)>>45
+Segmentierung von Seg 5924
+Segmentierung von Seg 5925
+Segmentierung von Seg 5934
+135, 135, 
+####### Trennen (1463,1410)>>45
+Segmentierung von Seg 5937
+135, 135, 
+####### Trennen (933,1418)>>45
+Segmentierung von Seg 5938
+165.256, 
+####### Trennen (967,1395)>>30.2564
+135, 135, 135, Segmentierung von Seg 5940
+132.955, 
+####### Trennen (960,1415)>>69.5196
+Segmentierung von Seg 5945
+Segmentierung von Seg 5948
+157.85, 
+####### Trennen (611,1441)>>15.7247
+142.125, 
+####### Trennen (612,1444)>>11.3099
+153.435, 
+####### Trennen (613,1445)>>26.565
+Segmentierung von Seg 5949
+126.87, 
+####### Trennen (938,1418)>>53.1301
+Segmentierung von Seg 5954
+137.779, 146.31, 
+####### Trennen (1461,1412)>>11.3099
+135, 135, 
+####### Trennen (1463,1413)>>45
+Segmentierung von Seg 5959
+132.825, 
+####### Trennen (1185,1413)>>36.8699
+169.695, 
+####### Trennen (1176,1413)>>10.3048
+Segmentierung von Seg 5960
+135, 
+####### Trennen (280,1414)>>18.4349
+153.435, 153.435, 
+####### Trennen (275,1416)>>26.5651
+Segmentierung von Seg 5964
+102.095, 
+####### Trennen (952,1418)>>51.3402
+153.435, 
+####### Trennen (953,1418)>>26.5651
+Segmentierung von Seg 5965
+139.97, 
+####### Trennen (1029,1415)>>10.2854
+150.255, 
+####### Trennen (1028,1417)>>86.8202
+Segmentierung von Seg 5971
+Segmentierung von Seg 5974
+82.875, 
+####### Trennen (988,1421)>>33.6901
+116.565, 
+####### Trennen (988,1423)>>63.4349
+Segmentierung von Seg 5976
+135, 135, 135, 135, 
+####### Trennen (1196,1417)>>45
+Segmentierung von Seg 5985
+168.69, 
+####### Trennen (1508,1419)>>33.6901
+Segmentierung von Seg 5990
+Segmentierung von Seg 5997
+Segmentierung von Seg 6005
+139.574, 149.036, 
+####### Trennen (982,1422)>>14.0362
+Segmentierung von Seg 6007
+127.875, 135, 
+####### Trennen (1254,1420)>>45
+Segmentierung von Seg 6008
+176.634, 
+####### Trennen (1523,1422)>>41.6335
+Segmentierung von Seg 6018
+Segmentierung von Seg 6019
+Segmentierung von Seg 6023
+146.31, 
+####### Trennen (1670,1421)>>18.4349
+127.875, 135, 
+####### Trennen (1674,1422)>>45
+Segmentierung von Seg 6029
+108.435, 
+####### Trennen (939,1422)>>26.5651
+135, 135, Segmentierung von Seg 6032
+90, 
+####### Trennen (1134,1422)>>45
+135, 135, 135, 
+####### Trennen (1141,1423)>>45
+Segmentierung von Seg 6033
+116.565, 
+####### Trennen (1175,1422)>>26.5651
+90, 
+####### Trennen (1176,1423)>>45
+135, 
+####### Trennen (1180,1423)>>45
+Segmentierung von Seg 6036
+132.879, 135, 
+####### Trennen (1394,1422)>>45
+Segmentierung von Seg 6039
+74.3461, 
+####### Trennen (613,1448)>>94.7428
+169.089, 170.727, 
+####### Trennen (629,1472)>>89.8897
+80.8377, 
+####### Trennen (631,1470)>>20.4723
+101.31, 
+####### Trennen (623,1458)>>67.3801
+168.69, 
+####### Trennen (620,1455)>>33.6901
+135, 135, 135, 135, 
+####### Trennen (616,1449)>>45
+Segmentierung von Seg 6046
+161.565, Segmentierung von Seg 6047
+135, 135, 
+####### Trennen (1609,1424)>>45
+Segmentierung von Seg 6051
+Segmentierung von Seg 6053
+158.07, 
+####### Trennen (594,1440)>>15.9454
+142.125, 
+####### Trennen (594,1441)>>37.875
+Segmentierung von Seg 6061
+70.56, 
+####### Trennen (1139,1427)>>46.0051
+Segmentierung von Seg 6064
+147.095, 
+####### Trennen (1378,1424)>>18.4349
+128.66, 135, 
+####### Trennen (1391,1425)>>45
+Segmentierung von Seg 6065
+151.26, 
+####### Trennen (1452,1424)>>34.6952
+116.565, 
+####### Trennen (1453,1425)>>18.4349
+135, 
+####### Trennen (1459,1425)>>45
+Segmentierung von Seg 6066
+158.552, 
+####### Trennen (1649,1424)>>65.5395
+Segmentierung von Seg 6067
+Segmentierung von Seg 6076
+90, 
+####### Trennen (1396,1425)>>45
+135, 
+####### Trennen (1406,1425)>>45
+Segmentierung von Seg 6078
+Segmentierung von Seg 6083
+135, 135, 
+####### Trennen (977,1429)>>45
+Segmentierung von Seg 6087
+Segmentierung von Seg 6088
+135, 135, 
+####### Trennen (1435,1427)>>45
+Segmentierung von Seg 6095
+135, 135, 
+####### Trennen (1361,1428)>>45
+Segmentierung von Seg 6097
+Segmentierung von Seg 6099
+140.599, Segmentierung von Seg 6103
+65.556, 
+####### Trennen (991,1435)>>37.578
+103.134, 
+####### Trennen (989,1432)>>46.8241
+Segmentierung von Seg 6104
+132.51, 135, 
+####### Trennen (1101,1428)>>45
+Segmentierung von Seg 6107
+158.629, Segmentierung von Seg 6112
+174.289, Segmentierung von Seg 6113
+135, 
+####### Trennen (938,1435)>>18.4349
+153.435, Segmentierung von Seg 6119
+84.2894, 
+####### Trennen (82,1431)>>50.7106
+Segmentierung von Seg 6120
+29.7449, 
+####### Trennen (146,1430)>>33.6901
+Segmentierung von Seg 6126
+130.236, 135, 
+####### Trennen (1334,1431)>>45
+Segmentierung von Seg 6128
+113.199, 
+####### Trennen (153,1431)>>21.8014
+135, 
+####### Trennen (159,1431)>>45
+Segmentierung von Seg 6129
+120.964, 
+####### Trennen (199,1432)>>14.0362
+135, 135, Segmentierung von Seg 6130
+114.444, 
+####### Trennen (223,1434)>>20.556
+135, 
+####### Trennen (221,1434)>>45
+Segmentierung von Seg 6133
+93.1798, 
+####### Trennen (1048,1435)>>86.8202
+Segmentierung von Seg 6135
+127.875, 135, 
+####### Trennen (1063,1433)>>45
+Segmentierung von Seg 6139
+90, 
+####### Trennen (1193,1432)>>45
+135, 135, Segmentierung von Seg 6140
+Segmentierung von Seg 6141
+145.305, 143.13, 135, 135, Segmentierung von Seg 6147
+Segmentierung von Seg 6149
+104.036, 
+####### Trennen (965,1436)>>18.4349
+122.471, 
+####### Trennen (964,1437)>>12.5288
+Segmentierung von Seg 6151
+24.0755, 
+####### Trennen (1028,1437)>>147.794
+171.87, Segmentierung von Seg 6155
+153.435, 
+####### Trennen (1154,1434)>>26.5651
+126.87, 135, 
+####### Trennen (1159,1435)>>45
+Segmentierung von Seg 6158
+128.66, 135, 
+####### Trennen (1552,1434)>>45
+Segmentierung von Seg 6159
+173.66, Segmentierung von Seg 6163
+131.634, Segmentierung von Seg 6164
+Segmentierung von Seg 6174
+Segmentierung von Seg 6178
+108.435, 
+####### Trennen (1290,1437)>>26.5651
+135, 
+####### Trennen (1301,1437)>>45
+Segmentierung von Seg 6183
+158.199, 
+####### Trennen (948,1440)>>21.8014
+Segmentierung von Seg 6194
+71.5651, 
+####### Trennen (1027,1442)>>36.8699
+108.435, 
+####### Trennen (1023,1442)>>26.5651
+Segmentierung von Seg 6220
+161.565, 
+####### Trennen (605,1457)>>26.5651
+Segmentierung von Seg 6235
+167.471, 
+####### Trennen (502,1446)>>12.5288
+Segmentierung von Seg 6237
+167.276, 
+####### Trennen (893,1454)>>13.8407
+Segmentierung von Seg 6249
+135, 135, 
+####### Trennen (1182,1446)>>45
+Segmentierung von Seg 6250
+90, 
+####### Trennen (601,1448)>>26.5651
+116.565, 
+####### Trennen (603,1449)>>26.5651
+143.13, 
+####### Trennen (605,1453)>>18.4349
+161.565, 
+####### Trennen (606,1454)>>18.4349
+Segmentierung von Seg 6254
+21.8014, 
+####### Trennen (959,1448)>>113.199
+135, 
+####### Trennen (957,1450)>>26.5651
+108.435, 
+####### Trennen (958,1452)>>45
+Segmentierung von Seg 6274
+Segmentierung von Seg 6275
+137.862, 137.862, 135, 135, 135, 
+####### Trennen (334,1452)>>45
+Segmentierung von Seg 6281
+119.745, 
+####### Trennen (990,1453)>>41.0548
+78.6901, 
+####### Trennen (991,1452)>>56.3099
+135, 
+####### Trennen (997,1452)>>45
+Segmentierung von Seg 6291
+120.964, 
+####### Trennen (1286,1449)>>14.0362
+135, 
+####### Trennen (1291,1449)>>45
+Segmentierung von Seg 6296
+108.435, 
+####### Trennen (982,1447)>>20.9245
+87.5104, 
+####### Trennen (980,1454)>>63.4349
+150.945, 
+####### Trennen (979,1455)>>15.9454
+135, 
+####### Trennen (978,1455)>>45
+Segmentierung von Seg 6301
+127.875, 127.875, 135, 135, 135, 
+####### Trennen (1559,1452)>>45
+Segmentierung von Seg 6306
+53.1301, 
+####### Trennen (1080,1452)>>55.3048
+108.435, 
+####### Trennen (1079,1452)>>26.5651
+Segmentierung von Seg 6307
+Segmentierung von Seg 6309
+135, 135, 135, Segmentierung von Seg 6311
+127.875, Segmentierung von Seg 6318
+127.875, Segmentierung von Seg 6320
+153.435, 
+####### Trennen (1059,1449)>>26.5651
+126.87, 
+####### Trennen (1061,1450)>>10.3048
+116.565, 
+####### Trennen (1061,1452)>>18.4349
+135, 135, 135, Segmentierung von Seg 6321
+116.565, 
+####### Trennen (1071,1448)>>18.4349
+135, 135, 
+####### Trennen (1072,1452)>>45
+Segmentierung von Seg 6323
+126.87, 
+####### Trennen (253,1454)>>26.5651
+153.435, 
+####### Trennen (242,1454)>>18.4349
+135, 135, 135, Segmentierung von Seg 6324
+Segmentierung von Seg 6325
+108.435, 116.565, 
+####### Trennen (905,1458)>>90
+26.5651, 
+####### Trennen (899,1458)>>153.435
+Segmentierung von Seg 6328
+135, Segmentierung von Seg 6331
+Segmentierung von Seg 6335
+126.87, 
+####### Trennen (982,1458)>>47.1747
+79.6952, 
+####### Trennen (984,1459)>>81.8699
+Segmentierung von Seg 6336
+153.435, 
+####### Trennen (1010,1455)>>26.5651
+Segmentierung von Seg 6339
+Segmentierung von Seg 6341
+101.31, 
+####### Trennen (903,1460)>>33.6901
+135, 
+####### Trennen (902,1461)>>45
+Segmentierung von Seg 6346
+135, 135, 
+####### Trennen (217,1457)>>45
+Segmentierung von Seg 6348
+157.62, 
+####### Trennen (886,1459)>>11.0702
+168.69, 
+####### Trennen (885,1460)>>11.3099
+Segmentierung von Seg 6358
+138.366, 
+####### Trennen (960,1458)>>25.1679
+113.199, 
+####### Trennen (960,1461)>>21.8014
+135, Segmentierung von Seg 6366
+161.565, 
+####### Trennen (923,1458)>>18.4349
+Segmentierung von Seg 6368
+78.6901, 
+####### Trennen (955,1467)>>56.3099
+Segmentierung von Seg 6376
+135, 
+####### Trennen (924,1460)>>45
+Segmentierung von Seg 6382
+145.923, 
+####### Trennen (630,1496)>>10.9228
+135, Segmentierung von Seg 6385
+143.13, 
+####### Trennen (955,1463)>>16.2602
+126.87, Segmentierung von Seg 6391
+140.793, 
+####### Trennen (521,1464)>>35.5377
+105.255, 108.435, 108.435, 
+####### Trennen (517,1463)>>26.5651
+Segmentierung von Seg 6397
+135, 135, 
+####### Trennen (983,1463)>>45
+Segmentierung von Seg 6398
+138.18, 
+####### Trennen (1003,1468)>>10.3048
+127.875, 
+####### Trennen (1001,1471)>>49.1849
+78.6901, 
+####### Trennen (998,1468)>>56.3099
+135, 
+####### Trennen (994,1468)>>45
+Segmentierung von Seg 6407
+135, 
+####### Trennen (900,1466)>>30.9638
+165.964, 
+####### Trennen (896,1467)>>16.9275
+Segmentierung von Seg 6410
+55.6197, 
+####### Trennen (969,1461)>>23.7607
+79.3803, 
+####### Trennen (968,1463)>>37.1847
+116.565, 
+####### Trennen (967,1463)>>63.4349
+Segmentierung von Seg 6420
+45, 
+####### Trennen (1100,1465)>>135
+Segmentierung von Seg 6433
+135, 135, 
+####### Trennen (145,1466)>>45
+Segmentierung von Seg 6434
+126.87, 
+####### Trennen (523,1466)>>26.5651
+153.435, 
+####### Trennen (519,1466)>>26.5651
+Segmentierung von Seg 6443
+67.6199, 
+####### Trennen (972,1469)>>33.6901
+101.31, 
+####### Trennen (972,1472)>>56.3099
+45, 
+####### Trennen (973,1471)>>45
+90, 
+####### Trennen (974,1472)>>45
+135, 135, Segmentierung von Seg 6447
+90, 90, 
+####### Trennen (890,1467)>>90
+Segmentierung von Seg 6451
+137.726, Segmentierung von Seg 6455
+108.435, 
+####### Trennen (1007,1465)>>53.9726
+54.4623, 
+####### Trennen (1006,1471)>>26.0754
+Segmentierung von Seg 6456
+129.806, Segmentierung von Seg 6457
+Segmentierung von Seg 6478
+90, 90, 
+####### Trennen (951,1471)>>90
+Segmentierung von Seg 6488
+116.565, 
+####### Trennen (1011,1472)>>45
+Segmentierung von Seg 6493
+67.5206, 
+####### Trennen (905,1473)>>49.0445
+116.565, 
+####### Trennen (904,1473)>>63.4349
+Segmentierung von Seg 6497
+90, 
+####### Trennen (957,1473)>>45
+Segmentierung von Seg 6507
+90, 90, 
+####### Trennen (1181,1474)>>90
+Segmentierung von Seg 6518
+105.945, 
+####### Trennen (883,1478)>>29.0546
+Segmentierung von Seg 6520
+81.8699, 
+####### Trennen (884,1472)>>10.3048
+71.5651, 
+####### Trennen (886,1473)>>45
+116.565, 
+####### Trennen (886,1476)>>18.4349
+Segmentierung von Seg 6547
+77.0054, 
+####### Trennen (935,1475)>>57.9946
+Segmentierung von Seg 6564
+94.0856, 
+####### Trennen (1088,1480)>>40.9144
+Segmentierung von Seg 6570
+11.3099, 
+####### Trennen (898,1480)>>123.69
+135, 135, Segmentierung von Seg 6581
+26.5651, 
+####### Trennen (979,1481)>>104.036
+130.601, 135, 
+####### Trennen (975,1482)>>45
+Segmentierung von Seg 6587
+167.905, 
+####### Trennen (637,1500)>>32.9052
+135, Segmentierung von Seg 6604
+90, 
+####### Trennen (1011,1484)>>45
+Segmentierung von Seg 6608
+116.565, 108.435, 
+####### Trennen (966,1485)>>26.5651
+Segmentierung von Seg 6616
+49.3987, 
+####### Trennen (939,1485)>>67.1663
+116.565, 
+####### Trennen (944,1485)>>63.4349
+Segmentierung von Seg 6619
+90, 
+####### Trennen (964,1490)>>26.5651
+116.565, 
+####### Trennen (963,1490)>>63.4349
+Segmentierung von Seg 6627
+126.87, 
+####### Trennen (1004,1494)>>10.3048
+116.565, 
+####### Trennen (1003,1494)>>18.4349
+Segmentierung von Seg 6631
+168.69, 
+####### Trennen (680,1535)>>33.6901
+Segmentierung von Seg 6638
+125.538, 135, 
+####### Trennen (871,1485)>>45
+Segmentierung von Seg 6640
+139.399, 
+####### Trennen (912,1486)>>22.8337
+116.565, 
+####### Trennen (912,1493)>>63.4349
+Segmentierung von Seg 6649
+63.4349, 
+####### Trennen (849,1490)>>63.4349
+126.87, 
+####### Trennen (847,1491)>>34.6952
+161.565, 
+####### Trennen (846,1492)>>18.4349
+Segmentierung von Seg 6662
+143.13, 135, 135, Segmentierung von Seg 6665
+78.6901, 
+####### Trennen (924,1490)>>48.1798
+126.87, 126.87, Segmentierung von Seg 6676
+135, 
+####### Trennen (978,1491)>>63.4349
+71.5651, 
+####### Trennen (980,1492)>>45
+116.565, 
+####### Trennen (980,1493)>>18.4349
+Segmentierung von Seg 6679
+78.6901, 
+####### Trennen (1009,1490)>>11.3099
+90, 
+####### Trennen (1024,1490)>>45
+135, Segmentierung von Seg 6692
+173.55, 
+####### Trennen (818,1505)>>86.5633
+86.9872, 90, 
+####### Trennen (819,1508)>>45
+135, 
+####### Trennen (819,1510)>>45
+Segmentierung von Seg 6706
+114.775, 
+####### Trennen (921,1496)>>55.7389
+59.0362, 
+####### Trennen (930,1494)>>108.435
+167.471, 
+####### Trennen (932,1494)>>12.5288
+Segmentierung von Seg 6715
+105.255, 
+####### Trennen (866,1494)>>18.4349
+123.69, 
+####### Trennen (868,1496)>>11.3099
+Segmentierung von Seg 6716
+120.964, 
+####### Trennen (880,1496)>>40.6013
+Segmentierung von Seg 6726
+165.964, 
+####### Trennen (824,1504)>>16.9275
+Segmentierung von Seg 6749
+138.715, 146.31, 
+####### Trennen (1024,1496)>>33.6901
+Segmentierung von Seg 6755
+Segmentierung von Seg 6756
+108.435, 
+####### Trennen (899,1497)>>26.5651
+135, 
+####### Trennen (905,1497)>>45
+Segmentierung von Seg 6767
+123.69, 116.565, 
+####### Trennen (636,1503)>>18.4349
+135, 
+####### Trennen (637,1506)>>18.4349
+153.435, 
+####### Trennen (640,1509)>>18.4349
+Segmentierung von Seg 6775
+135, 
+####### Trennen (1033,1503)>>45
+90, 
+####### Trennen (1034,1504)>>45
+Segmentierung von Seg 6791
+165.964, 
+####### Trennen (926,1501)>>14.0362
+Segmentierung von Seg 6815
+90, 
+####### Trennen (899,1502)>>33.6901
+123.69, 
+####### Trennen (894,1502)>>11.3099
+Segmentierung von Seg 6816
+102.724, 95.7106, 90, 
+####### Trennen (948,1502)>>33.6901
+123.69, 123.69, 
+####### Trennen (954,1505)>>56.3099
+Segmentierung von Seg 6836
+124.509, 
+####### Trennen (1067,1510)>>45.8185
+Segmentierung von Seg 6849
+90, 
+####### Trennen (981,1507)>>45
+135, Segmentierung von Seg 6861
+180, 
+####### Trennen (512,1513)>>135
+45, 
+####### Trennen (510,1511)>>90
+135, 
+####### Trennen (510,1510)>>45
+Segmentierung von Seg 6862
+41.1859, 
+####### Trennen (824,1513)>>48.8141
+Segmentierung von Seg 6871
+140.194, 135, Segmentierung von Seg 6873
+108.435, 
+####### Trennen (865,1510)>>71.5651
+Segmentierung von Seg 6878
+116.565, 
+####### Trennen (951,1509)>>14.4703
+102.095, 
+####### Trennen (956,1513)>>26.5651
+128.66, 
+####### Trennen (956,1516)>>51.3402
+Segmentierung von Seg 6881
+90, 
+####### Trennen (844,1510)>>45
+Segmentierung von Seg 6891
+135, 135, 
+####### Trennen (1005,1510)>>45
+Segmentierung von Seg 6895
+133.152, 
+####### Trennen (646,1517)>>31.8425
+101.31, 
+####### Trennen (647,1516)>>11.3099
+Segmentierung von Seg 6900
+154.44, 
+####### Trennen (940,1509)>>46.0051
+Segmentierung von Seg 6928
+101.31, 
+####### Trennen (822,1518)>>33.6901
+135, 
+####### Trennen (820,1520)>>45
+Segmentierung von Seg 6929
+128.66, 135, 
+####### Trennen (844,1513)>>45
+Segmentierung von Seg 6930
+135, 
+####### Trennen (847,1514)>>45
+Segmentierung von Seg 6933
+74.7449, Segmentierung von Seg 6936
+116.565, 
+####### Trennen (943,1517)>>18.4349
+135, Segmentierung von Seg 6944
+113.962, 
+####### Trennen (803,1522)>>42.075
+156.038, 
+####### Trennen (802,1522)>>23.9625
+Segmentierung von Seg 6946
+143.746, Segmentierung von Seg 6970
+143.973, 143.973, 
+####### Trennen (929,1518)>>35.5377
+108.435, 
+####### Trennen (930,1517)>>18.4349
+90, 
+####### Trennen (931,1518)>>45
+135, 
+####### Trennen (933,1518)>>45
+Segmentierung von Seg 6972
+123.69, 
+####### Trennen (947,1514)>>15.2551
+108.435, 105.255, 
+####### Trennen (949,1519)>>41.0548
+Segmentierung von Seg 6985
+163.926, 156.801, 
+####### Trennen (656,1534)>>23.1986
+Segmentierung von Seg 7028
+152.969, 
+####### Trennen (1010,1521)>>62.9691
+90, 
+####### Trennen (1009,1525)>>12.5288
+77.4712, 
+####### Trennen (1005,1523)>>75.9638
+153.435, 
+####### Trennen (1004,1523)>>26.5651
+Segmentierung von Seg 7031
+108.435, 116.565, 
+####### Trennen (838,1527)>>18.4349
+98.1301, 
+####### Trennen (838,1528)>>81.8699
+Segmentierung von Seg 7036
+157.457, 167.005, 
+####### Trennen (800,1517)>>32.0054
+Segmentierung von Seg 7037
+120.964, 
+####### Trennen (850,1529)>>14.0362
+135, Segmentierung von Seg 7041
+90, 
+####### Trennen (925,1524)>>45
+135, 135, 135, 
+####### Trennen (932,1525)>>45
+Segmentierung von Seg 7043
+167.525, 
+####### Trennen (458,1525)>>35.5377
+131.987, 135, 
+####### Trennen (441,1526)>>45
+Segmentierung von Seg 7057
+68.1986, 71.5651, 
+####### Trennen (994,1526)>>45
+116.565, 
+####### Trennen (993,1527)>>18.4349
+135, 
+####### Trennen (992,1527)>>45
+Segmentierung von Seg 7060
+90, 90, 
+####### Trennen (432,1529)>>90
+Segmentierung von Seg 7061
+127.875, Segmentierung von Seg 7063
+105.945, 
+####### Trennen (806,1533)>>74.0546
+Segmentierung von Seg 7078
+Segmentierung von Seg 7079
+108.435, 
+####### Trennen (531,1528)>>26.5651
+135, 
+####### Trennen (543,1528)>>45
+Segmentierung von Seg 7082
+147.095, 
+####### Trennen (794,1533)>>57.0948
+90, 
+####### Trennen (793,1534)>>90
+Segmentierung von Seg 7083
+104.036, 
+####### Trennen (829,1532)>>75.9638
+Segmentierung von Seg 7085
+153.435, 
+####### Trennen (895,1526)>>63.4349
+90, 90, 
+####### Trennen (891,1529)>>90
+Segmentierung von Seg 7089
+129.806, 129.806, Segmentierung von Seg 7090
+Segmentierung von Seg 7100
+129.806, Segmentierung von Seg 7104
+180, 
+####### Trennen (1010,1530)>>45
+135, Segmentierung von Seg 7118
+157.834, Segmentierung von Seg 7150
+135, Segmentierung von Seg 7161
+90, 
+####### Trennen (712,520)>>45
+135, 
+####### Trennen (707,520)>>71.5651
+63.4349, 
+####### Trennen (708,518)>>98.1301
+Segmentierung von Seg 7168
+136.848, 144.462, 135, 135, Segmentierung von Seg 7180
+163.639, 160.378, 162.387, 163.072, 160.994, 159.769, 160.201, 169.992, 160.532, 
+####### Trennen (1220,795)>>11.0688
+171.601, 
+####### Trennen (1204,797)>>11.5302
+160.071, 161.375, 161.53, 160.455, 162.624, 165.51, 164.745, 163.856, 163.175, 164.79, 164.745, 
+####### Trennen (1195,678)>>15.2551
+Segmentierung von Seg 7195
+116.565, 
+####### Trennen (865,802)>>14.4703
+102.095, 
+####### Trennen (860,806)>>18.4349
+83.6598, 
+####### Trennen (862,808)>>14.4703
+98.1301, 
+####### Trennen (866,805)>>45
+53.1301, 
+####### Trennen (866,809)>>45
+98.1301, 
+####### Trennen (859,810)>>28.7398
+126.87, 
+####### Trennen (855,806)>>26.5651
+153.435, 
+####### Trennen (854,803)>>18.4349
+135, 
+####### Trennen (855,801)>>26.5651
+161.565, 
+####### Trennen (856,800)>>18.4349
+Segmentierung von Seg 7205
+135, 137.726, 
+####### Trennen (824,839)>>22.3801
+115.346, 
+####### Trennen (816,841)>>13.7477
+129.094, 138.18, 
+####### Trennen (811,833)>>14.4898
+123.69, 
+####### Trennen (815,829)>>11.3099
+135, 
+####### Trennen (816,829)>>45
+Segmentierung von Seg 7207
+94.5739, 
+####### Trennen (820,838)>>14.0362
+Segmentierung von Seg 7212
+116.565, 122.471, 
+####### Trennen (782,866)>>42.1087
+80.3625, 
+####### Trennen (775,860)>>68.6738
+149.036, 
+####### Trennen (774,857)>>32.4712
+Segmentierung von Seg 7215
+123.69, 
+####### Trennen (756,878)>>45
+168.69, 
+####### Trennen (760,882)>>69.2277
+99.4623, 
+####### Trennen (755,889)>>26.0754
+125.538, 135, 
+####### Trennen (745,883)>>33.6901
+101.31, 
+####### Trennen (747,880)>>27.8143
+73.4956, 70.7693, 
+####### Trennen (755,881)>>44.5768
+115.346, 
+####### Trennen (753,878)>>53.3439
+168.69, 
+####### Trennen (752,877)>>11.3099
+Segmentierung von Seg 7219
+129.806, 121.759, 
+####### Trennen (746,894)>>50.1944
+Segmentierung von Seg 7222
+45, 
+####### Trennen (738,887)>>45
+90, 90, 
+####### Trennen (736,893)>>45
+135, 
+####### Trennen (736,896)>>26.5651
+108.435, 116.565, 
+####### Trennen (744,896)>>63.4349
+Segmentierung von Seg 7223
+135, 
+####### Trennen (734,903)>>90
+45, 
+####### Trennen (730,899)>>127.875
+172.875, 
+####### Trennen (723,890)>>30.75
+Segmentierung von Seg 7240
+100.154, 
+####### Trennen (792,942)>>52.8331
+152.987, 144.162, 149.036, 144.462, 
+####### Trennen (776,931)>>12.5845
+131.878, 
+####### Trennen (780,926)>>10.8182
+142.696, 
+####### Trennen (784,925)>>65.2249
+77.4712, 
+####### Trennen (780,917)>>49.3987
+126.87, 
+####### Trennen (781,915)>>10.3048
+Segmentierung von Seg 7243
+108.435, 108.435, 
+####### Trennen (803,920)>>53.1301
+161.565, 
+####### Trennen (804,919)>>18.4349
+Segmentierung von Seg 7252
+119.745, 
+####### Trennen (860,935)>>21.6148
+98.1301, 
+####### Trennen (856,937)>>10.3048
+108.435, 
+####### Trennen (849,930)>>26.5651
+135, 135, 
+####### Trennen (850,927)>>45
+Segmentierung von Seg 7253
+123.69, 124.509, 
+####### Trennen (790,939)>>39.2722
+85.2364, 
+####### Trennen (782,935)>>42.6386
+127.875, Segmentierung von Seg 7258
+130.426, 
+####### Trennen (844,940)>>40.7321
+171.158, 
+####### Trennen (849,946)>>75.9638
+95.1944, 86.9872, 
+####### Trennen (837,939)>>45
+131.987, 
+####### Trennen (833,939)>>15.4222
+116.565, 118.443, 
+####### Trennen (838,953)>>26.5651
+145.008, 
+####### Trennen (838,955)>>10.008
+135, 
+####### Trennen (836,957)>>45
+90, 
+####### Trennen (830,951)>>75.9638
+165.964, 165.964, 
+####### Trennen (825,944)>>49.3987
+116.565, 108.435, 
+####### Trennen (828,941)>>20.2249
+128.66, 128.66, Segmentierung von Seg 7265
+149.5, 
+####### Trennen (771,954)>>23.4728
+126.027, 
+####### Trennen (770,957)>>54.4623
+Segmentierung von Seg 7271
+135, 135, 
+####### Trennen (757,957)>>33.6901
+168.69, 
+####### Trennen (761,963)>>85.8151
+82.875, 
+####### Trennen (757,965)>>20.3655
+103.241, 
+####### Trennen (747,953)>>10.3889
+113.629, 
+####### Trennen (749,949)>>42.0643
+Segmentierung von Seg 7273
+126.87, 
+####### Trennen (766,956)>>45
+171.87, 
+####### Trennen (768,958)>>36.8699
+Segmentierung von Seg 7280
+132.51, 
+####### Trennen (748,963)>>33.5378
+98.9726, 
+####### Trennen (741,968)>>71.5651
+170.538, 
+####### Trennen (738,971)>>145.521
+25.0169, 
+####### Trennen (749,967)>>71.5651
+96.5819, 
+####### Trennen (751,971)>>11.853
+108.435, 
+####### Trennen (747,975)>>45
+153.435, 
+####### Trennen (741,977)>>15.0685
+138.366, 
+####### Trennen (734,974)>>11.702
+150.068, 143.13, 135, 135, 
+####### Trennen (737,958)>>45
+Segmentierung von Seg 7282
+135, 
+####### Trennen (799,961)>>30.9638
+165.964, 
+####### Trennen (803,960)>>90
+75.9638, 
+####### Trennen (803,962)>>47.7263
+123.69, 
+####### Trennen (800,964)>>37.875
+85.8151, 
+####### Trennen (807,973)>>42.0599
+127.875, 
+####### Trennen (809,973)>>52.125
+Segmentierung von Seg 7286
+74.7449, 
+####### Trennen (740,966)>>68.3852
+143.13, 
+####### Trennen (736,968)>>46.0051
+97.125, 
+####### Trennen (734,965)>>22.6199
+119.745, 
+####### Trennen (735,963)>>41.8202
+Segmentierung von Seg 7287
+79.6952, 81.8699, 90, 
+####### Trennen (780,965)>>90
+Segmentierung von Seg 7290
+158.839, 
+####### Trennen (799,984)>>50.4038
+108.435, 108.435, 
+####### Trennen (793,984)>>45
+153.435, 
+####### Trennen (784,972)>>55.3048
+Segmentierung von Seg 7292
+143.13, 
+####### Trennen (726,978)>>16.2602
+126.87, 
+####### Trennen (726,985)>>15.0685
+111.801, 113.199, 
+####### Trennen (716,982)>>21.8014
+135, 135, Segmentierung von Seg 7293
+141.34, 
+####### Trennen (786,982)>>31.1153
+110.225, 
+####### Trennen (785,985)>>24.7751
+135, 
+####### Trennen (781,987)>>26.5651
+161.565, 
+####### Trennen (776,992)>>98.1301
+63.4349, 
+####### Trennen (782,994)>>47.9357
+111.371, 
+####### Trennen (787,988)>>45
+66.3706, 
+####### Trennen (789,992)>>32.602
+98.9726, 
+####### Trennen (782,997)>>45.4897
+144.462, 139.399, 130.601, 
+####### Trennen (769,984)>>12.5288
+143.13, 
+####### Trennen (772,980)>>16.2602
+126.87, Segmentierung von Seg 7296
+120.964, 
+####### Trennen (774,988)>>16.9275
+104.036, 
+####### Trennen (776,988)>>30.9638
+135, 
+####### Trennen (777,987)>>45
+Segmentierung von Seg 7301
+124.144, 
+####### Trennen (695,1012)>>51.0711
+73.0725, 
+####### Trennen (690,1009)>>84.7612
+157.834, 
+####### Trennen (678,993)>>11.8615
+169.695, 
+####### Trennen (677,991)>>61.2602
+Segmentierung von Seg 7304
+151.504, 
+####### Trennen (687,1018)>>58.7781
+92.7263, 
+####### Trennen (683,1019)>>45
+137.726, 142.125, 
+####### Trennen (676,1026)>>19.44
+161.565, 
+####### Trennen (672,1026)>>26.5651
+135, 144.462, 
+####### Trennen (664,1013)>>12.5845
+131.878, 
+####### Trennen (668,1008)>>10.8182
+142.696, 
+####### Trennen (672,1007)>>62.6223
+80.0738, 
+####### Trennen (668,998)>>30.9638
+111.038, 
+####### Trennen (669,997)>>68.9625
+Segmentierung von Seg 7305
+135, 135, 
+####### Trennen (765,1006)>>33.6901
+101.31, 
+####### Trennen (760,1007)>>22.3801
+123.69, 
+####### Trennen (755,1002)>>11.3099
+135, Segmentierung von Seg 7309
+70.3462, 
+####### Trennen (593,1007)>>50.6176
+120.964, 
+####### Trennen (592,1006)>>30.9638
+90, 
+####### Trennen (593,1005)>>90
+Segmentierung von Seg 7311
+63.4349, 71.5651, 
+####### Trennen (301,1014)>>63.4349
+Segmentierung von Seg 7313
+138.18, 
+####### Trennen (740,1028)>>21.6148
+116.565, 
+####### Trennen (731,1035)>>25.56
+142.125, 
+####### Trennen (725,1035)>>15.2551
+126.87, 
+####### Trennen (722,1031)>>22.3996
+104.47, 
+####### Trennen (730,1021)>>16.2602
+88.2101, 
+####### Trennen (726,1018)>>15.1144
+103.325, 
+####### Trennen (720,1023)>>34.6952
+68.6294, 
+####### Trennen (719,1020)>>47.9357
+116.565, 
+####### Trennen (722,1017)>>52.125
+168.69, 
+####### Trennen (725,1015)>>22.3801
+Segmentierung von Seg 7316
+146.31, 
+####### Trennen (706,1041)>>22.6199
+123.69, 120.964, 
+####### Trennen (701,1046)>>45
+165.964, 
+####### Trennen (696,1051)>>102.529
+63.4349, 
+####### Trennen (702,1053)>>47.9357
+111.371, 
+####### Trennen (707,1047)>>37.875
+73.4956, 
+####### Trennen (709,1050)>>27.8143
+101.31, 
+####### Trennen (703,1056)>>41.8202
+143.13, 
+####### Trennen (696,1057)>>11.8615
+131.269, 137.726, 127.875, 135, Segmentierung von Seg 7317
+160.56, 168.69, 
+####### Trennen (503,1062)>>70.56
+98.1301, 
+####### Trennen (500,1066)>>65.6097
+163.74, 
+####### Trennen (496,1069)>>39.0446
+124.695, 
+####### Trennen (490,1067)>>17.4299
+142.125, 
+####### Trennen (480,1052)>>26.5651
+168.69, 
+####### Trennen (476,1048)>>15.2551
+153.435, 
+####### Trennen (475,1045)>>42.0643
+111.371, 
+####### Trennen (481,1040)>>28.8238
+140.194, Segmentierung von Seg 7318
+129.094, 
+####### Trennen (693,1048)>>25.0576
+104.036, 
+####### Trennen (695,1048)>>30.9638
+135, 
+####### Trennen (698,1045)>>33.6901
+168.69, 
+####### Trennen (700,1042)>>67.3801
+101.31, 
+####### Trennen (699,1041)>>33.6901
+135, 
+####### Trennen (697,1041)>>45
+Segmentierung von Seg 7322
+157.834, 149.036, 
+####### Trennen (585,1070)>>10.6698
+138.366, 
+####### Trennen (593,1079)>>11.1316
+127.235, 
+####### Trennen (606,1078)>>23.4738
+150.709, 
+####### Trennen (609,1076)>>17.9814
+168.69, 
+####### Trennen (614,1071)>>57.6526
+111.038, 
+####### Trennen (610,1062)>>39.7949
+150.832, 
+####### Trennen (606,1059)>>41.3924
+109.44, 
+####### Trennen (600,1063)>>14.25
+123.69, 
+####### Trennen (600,1067)>>60.2551
+63.4349, 
+####### Trennen (604,1065)>>53.1301
+116.565, 
+####### Trennen (608,1068)>>10.3048
+126.87, 
+####### Trennen (608,1072)>>21.6148
+105.255, 
+####### Trennen (597,1075)>>20.83
+126.085, 
+####### Trennen (592,1071)>>29.1398
+155.225, 
+####### Trennen (590,1067)>>11.2522
+143.973, 144.462, Segmentierung von Seg 7324
+125.599, 
+####### Trennen (672,1079)>>21.563
+104.036, 
+####### Trennen (669,1079)>>25.7693
+129.806, 139.268, 129.936, 
+####### Trennen (651,1080)>>27.23
+157.166, 
+####### Trennen (649,1076)>>15.0413
+142.125, 146.31, 
+####### Trennen (654,1067)>>15.2551
+161.565, 
+####### Trennen (658,1065)>>74.7449
+86.8202, 
+####### Trennen (654,1058)>>63.4349
+150.255, 
+####### Trennen (654,1057)>>15.2551
+Segmentierung von Seg 7327
+49.5739, 
+####### Trennen (524,1066)>>52.9549
+102.529, 
+####### Trennen (523,1064)>>59.0362
+161.565, 
+####### Trennen (521,1062)>>18.4349
+Segmentierung von Seg 7331
+125.538, 122.661, 
+####### Trennen (664,1081)>>10.8595
+111.801, 
+####### Trennen (660,1081)>>18.7999
+130.601, 139.399, 135, 
+####### Trennen (655,1071)>>45
+Segmentierung von Seg 7335
+71.5651, 
+####### Trennen (627,1082)>>10.3048
+81.8699, 
+####### Trennen (625,1080)>>53.1301
+135, Segmentierung von Seg 7337
+105.945, 
+####### Trennen (486,1094)>>27.2553
+78.6901, 
+####### Trennen (482,1088)>>67.6199
+146.31, 
+####### Trennen (482,1085)>>33.6901
+Segmentierung von Seg 7338
+81.8699, 
+####### Trennen (493,1089)>>10.3048
+71.5651, 
+####### Trennen (491,1087)>>63.4349
+135, 
+####### Trennen (491,1086)>>45
+Segmentierung von Seg 7342
+115.346, 
+####### Trennen (628,1105)>>11.9578
+127.304, 
+####### Trennen (624,1110)>>43.6441
+83.6598, 
+####### Trennen (618,1104)>>24.7751
+108.435, 116.565, 
+####### Trennen (620,1102)>>18.4349
+Segmentierung von Seg 7346
+135, 
+####### Trennen (1199,1117)>>12.5288
+122.471, 
+####### Trennen (1197,1126)>>45
+Segmentierung von Seg 7348
+117.031, 122.005, 
+####### Trennen (1195,1127)>>57.9946
+Segmentierung von Seg 7349
+117.897, 114.228, 115.346, 
+####### Trennen (1189,1122)>>19.6538
+135, 
+####### Trennen (1188,1118)>>14.0362
+120.964, 
+####### Trennen (1189,1117)>>14.0362
+Segmentierung von Seg 7353
+94.3987, 90, 
+####### Trennen (1184,1133)>>18.4349
+Segmentierung von Seg 7354
+90, 
+####### Trennen (1186,1127)>>21.8014
+111.801, 113.199, 108.435, 
+####### Trennen (1182,1135)>>36.8699
+Segmentierung von Seg 7365
+98.1301, 
+####### Trennen (1150,1158)>>65.6097
+163.74, 
+####### Trennen (1154,1161)>>57.4796
+106.26, 
+####### Trennen (1158,1158)>>20.6097
+Segmentierung von Seg 7369
+135, 135, 
+####### Trennen (1144,1161)>>96.3402
+38.6598, 
+####### Trennen (1140,1156)>>56.3099
+94.9697, 
+####### Trennen (1137,1158)>>11.881
+83.0888, 
+####### Trennen (1143,1165)>>74.7449
+157.834, 
+####### Trennen (1144,1168)>>59.7036
+98.1301, 99.4623, 
+####### Trennen (1134,1158)>>10.8202
+110.283, 
+####### Trennen (1136,1155)>>13.4075
+Segmentierung von Seg 7376
+126.87, 126.87, 135, 
+####### Trennen (1177,1188)>>45
+Segmentierung von Seg 7405
+108.435, 116.565, 108.435, 116.565, 
+####### Trennen (956,1269)>>18.4349
+135, 
+####### Trennen (956,1268)>>45
+Segmentierung von Seg 7413
+119.745, 126.87, 
+####### Trennen (932,1298)>>28.7398
+98.1301, 
+####### Trennen (926,1292)>>36.8699
+135, 135, 
+####### Trennen (927,1288)>>45
+Segmentierung von Seg 7481
+63.4349, 
+####### Trennen (950,1454)>>53.1301
+116.565, 
+####### Trennen (950,1452)>>18.4349
+Segmentierung von Seg 7548
+81.8699, 
+####### Trennen (945,1528)>>49.9503

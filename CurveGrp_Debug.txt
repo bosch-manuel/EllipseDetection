@@ -1,32 +1,596 @@
-Seg 4
-Abstand: 7  Winkel an Enden: M1(547,173) M2(557,200) und N1(544,167) N2(528,141) ::0.196949
-Abstand: 4  Winkel an Enden: M1(545,171) M2(547,173) und N1(544,167) N2(528,141) ::0.233743
-Abstand: 2  Winkel an Enden: M1(544,169) M2(545,170) und N1(544,167) N2(528,141) ::0.233743
-Abstand: 2  Winkel an Enden: M1(546,168) M2(571,169) und N1(544,167) N2(528,141) ::0.979163
-Seg 4 mit Seg 9-> kleinster Winkel: 0.196949
+Seg 7571
+Seg 7573
+Seg 7575
+Seg 7594
+Seg 7596
+Seg 7621
+Seg 7624
+Seg 7626
+Seg 7638
+Seg 7640
+Seg 7644
+Seg 7662
+Seg 7673
+Seg 7692
+Seg 7703
+Seg 7724
+Seg 7729
+Seg 7737
+Seg 7744
+Abstand: 6  Winkel an Enden: M1(1545,194) M2(1539,194) und N1(1542,189) N2(1543,189) ::0
+Seg 7746
+Seg 7750
+Seg 7755
+Abstand: 6  Winkel an Enden: M1(1542,189) M2(1543,189) und N1(1545,194) N2(1539,194) ::0
+Seg 7757
+Seg 7792
+Seg 7801
+Seg 7819
+Seg 7820
+Seg 7827
+Abstand: 3  Winkel an Enden: M1(1983,243) M2(1982,243) und N1(1983,240) N2(1975,241) ::3.01724
+Seg 7831
+Abstand: 3  Winkel an Enden: M1(1983,240) M2(1975,241) und N1(1983,243) N2(1982,243) ::3.01724
+Seg 7839
+Seg 7847
+Seg 7851
+Seg 7864
+Seg 7909
+Abstand: 3  Winkel an Enden: M1(1906,293) M2(1905,292) und N1(1905,296) N2(1904,296) ::2.35619
+Seg 7913
+Seg 7916
+Seg 7919
+Seg 7921
+Seg 7926
+Abstand: 2  Winkel an Enden: M1(859,343) M2(862,347) und N1(858,341) N2(857,340) ::0.141897
+Seg 7928
+Seg 7938
+Seg 7939
+Seg 7952
+Seg 7960
+Seg 7969
+Abstand: 2  Winkel an Enden: M1(858,341) M2(857,340) und N1(859,343) N2(862,347) ::0.141897
+Seg 7975
+Seg 7976
+Seg 7999
+Seg 8016
+Seg 8026
+Seg 8027
+Seg 8039
+Seg 8047
+Seg 8071
+Seg 8082
+Seg 8109
+Seg 8117
+Abstand: 4  Winkel an Enden: M1(1496,412) M2(1509,414) und N1(1499,410) N2(1522,412) ::3.07568
+Seg 8122
+Abstand: 4  Winkel an Enden: M1(1499,410) M2(1522,412) und N1(1496,412) N2(1509,414) ::3.07568
+Seg 8123
+Seg 8131
+Seg 8139
+Seg 8149
+Seg 8151
+Seg 8156
+Seg 8165
+Seg 8167
+Seg 8173
+Seg 8182
+Seg 8184
+Seg 8186
+Seg 8198
+Seg 8204
+Seg 8207
+Seg 8213
+Seg 8214
+Seg 8237
+Abstand: 2  Winkel an Enden: M1(651,521) M2(645,534) und N1(652,519) N2(658,513) ::0.35299
+Seg 8238
+Abstand: 2  Winkel an Enden: M1(652,519) M2(658,513) und N1(651,521) N2(645,534) ::0.35299
+Seg 8299
+Abstand: 5  Winkel an Enden: M1(682,570) M2(690,564) und N1(677,570) N2(678,569) ::2.9997
+Seg 8302
+Abstand: 5  Winkel an Enden: M1(677,570) M2(678,569) und N1(682,570) N2(690,564) ::2.9997
+Seg 8343
+Seg 8347
+Seg 8350
+Abstand: 2  Winkel an Enden: M1(1262,598) M2(1259,604) und N1(1263,596) N2(1263,595) ::0.463648
+Seg 8359
+Seg 8375
+Seg 8381
+Abstand: 6  Winkel an Enden: M1(1346,588) M2(1347,589) und N1(1347,594) N2(1355,603) ::3.08284
+Seg 8382
+Abstand: 2  Winkel an Enden: M1(1263,596) M2(1263,595) und N1(1262,598) N2(1259,604) ::0.463648
+Seg 8385
+Abstand: 6  Winkel an Enden: M1(1347,594) M2(1355,603) und N1(1346,588) N2(1347,589) ::3.08284
+Seg 8397
+Seg 8399
+Seg 8425
+Abstand: 2  Winkel an Enden: M1(1020,632) M2(1019,632) und N1(1020,630) N2(1019,630) ::3.14159
+Seg 8426
+Abstand: 2  Winkel an Enden: M1(1020,630) M2(1019,630) und N1(1020,632) N2(1019,632) ::3.14159
+Seg 8434
+Seg 8445
+Seg 8449
+Seg 8459
+Abstand: 8  Winkel an Enden: M1(1413,654) M2(1414,654) und N1(1405,654) N2(1404,653) ::0.785398
+Seg 8461
+Abstand: 8  Winkel an Enden: M1(1405,654) M2(1404,653) und N1(1413,654) N2(1414,654) ::0.785398
+Seg 8467
+Abstand: 7  Winkel an Enden: M1(952,661) M2(951,661) und N1(947,656) N2(953,655) ::0.165149
+Seg 8478
+Abstand: 7  Winkel an Enden: M1(947,656) M2(953,655) und N1(952,661) N2(951,661) ::0.165149
+Seg 8481
+Abstand: 3  Winkel an Enden: M1(1509,665) M2(1537,667) und N1(1511,663) N2(1527,663) ::3.07029
+Seg 8483
+Abstand: 3  Winkel an Enden: M1(1511,663) M2(1527,663) und N1(1509,665) N2(1537,667) ::3.07029
+Seg 8519
+Seg 8525
+Seg 8528
+Seg 8542
+Seg 8585
+Seg 8592
+Seg 8602
+Seg 8617
+Seg 8620
+Seg 8666
+Seg 8682
+Abstand: 8  Winkel an Enden: M1(1775,749) M2(1774,749) und N1(1775,741) N2(1774,741) ::3.14159
+Seg 8697
+Abstand: 8  Winkel an Enden: M1(1775,741) M2(1774,741) und N1(1775,749) N2(1774,749) ::3.14159
+Abstand: 2  Winkel an Enden: M1(1774,751) M2(1773,751) und N1(1775,749) N2(1774,749) ::3.14159
+Seg 8713
+Abstand: 2  Winkel an Enden: M1(1775,749) M2(1774,749) und N1(1774,751) N2(1773,751) ::3.14159
+Seg 8715
+Seg 8732
+Seg 8736
+Seg 8755
+Seg 8764
+Seg 8769
+Seg 8784
+Seg 8788
+Seg 8791
+Seg 8794
+Seg 8800
+Abstand: 2  Winkel an Enden: M1(610,800) M2(617,809) und N1(609,798) N2(609,797) ::0.661043
+Seg 8812
+Abstand: 2  Winkel an Enden: M1(720,865) M2(721,864) und N1(718,866) N2(717,867) ::2.10734e-008
+Seg 8820
+Seg 8839
+Seg 8843
+Abstand: 4  Winkel an Enden: M1(501,831) M2(500,831) und N1(504,828) N2(523,816) ::0.563316
+Seg 8844
+Abstand: 4  Winkel an Enden: M1(504,828) M2(523,816) und N1(501,831) N2(500,831) ::0.563316
+Seg 8853
+Abstand: 2  Winkel an Enden: M1(609,798) M2(609,797) und N1(610,800) N2(617,809) ::0.661043
+Seg 8855
+Seg 8856
+Seg 8874
+Abstand: 3  Winkel an Enden: M1(604,1139) M2(603,1138) und N1(606,1141) N2(607,1142) ::2.10734e-008
+Seg 8880
+Seg 8898
+Seg 8922
+Seg 8927
+Abstand: 6  Winkel an Enden: M1(1423,819) M2(1442,819) und N1(1424,813) N2(1423,813) ::0
+Seg 8958
+Abstand: 3  Winkel an Enden: M1(1794,819) M2(1793,819) und N1(1797,818) N2(1803,817) ::0.165149
+Seg 8960
+Abstand: 6  Winkel an Enden: M1(1424,813) M2(1423,813) und N1(1423,819) N2(1442,819) ::0
+Seg 8962
+Abstand: 3  Winkel an Enden: M1(1797,818) M2(1803,817) und N1(1794,819) N2(1793,819) ::0.165149
+Seg 8963
+Seg 8966
+Abstand: 8  Winkel an Enden: M1(1595,829) M2(1594,830) und N1(1591,822) N2(1590,822) ::2.35619
+Seg 8993
+Seg 9004
+Abstand: 8  Winkel an Enden: M1(1591,822) M2(1590,822) und N1(1595,829) N2(1594,830) ::2.35619
+Seg 9011
+Seg 9013
+Abstand: 4  Winkel an Enden: M1(726,861) M2(725,861) und N1(729,858) N2(733,856) ::0.463648
+Seg 9014
+Abstand: 2  Winkel an Enden: M1(718,866) M2(717,867) und N1(720,865) N2(721,864) ::2.10734e-008
+Abstand: 4  Winkel an Enden: M1(729,858) M2(733,856) und N1(726,861) N2(725,861) ::0.463648
+Seg 9015
+Seg 9018
+Seg 9019
+Abstand: 6  Winkel an Enden: M1(207,877) M2(206,876) und N1(213,878) N2(209,874) ::3.14159
+Seg 9038
+Seg 9044
+Abstand: 2  Winkel an Enden: M1(545,870) M2(566,896) und N1(544,868) N2(544,867) ::0.679414
+Seg 9070
+Abstand: 2  Winkel an Enden: M1(633,844) M2(639,845) und N1(632,842) N2(631,837) ::1.20825
+Seg 9071
+Seg 9074
+Abstand: 2  Winkel an Enden: M1(632,842) M2(631,837) und N1(633,844) N2(639,845) ::1.20825
+Seg 9104
+Seg 9113
+Abstand: 6  Winkel an Enden: M1(1381,857) M2(1387,858) und N1(1377,853) N2(1382,846) ::2.0259
+Seg 9114
+Seg 9119
+Seg 9121
+Abstand: 6  Winkel an Enden: M1(1377,853) M2(1382,846) und N1(1381,857) N2(1387,858) ::2.0259
+Seg 9139
+Seg 9156
+Seg 9159
+Abstand: 6  Winkel an Enden: M1(213,878) M2(209,874) und N1(207,877) N2(206,876) ::3.14159
+Seg 9168
+Seg 9169
+Abstand: 2  Winkel an Enden: M1(544,868) M2(544,867) und N1(545,870) N2(566,896) ::0.679414
+Seg 9178
+Seg 9191
+Seg 9192
+Abstand: 4  Winkel an Enden: M1(563,1053) M2(562,1053) und N1(566,1050) N2(570,1048) ::0.463648
+Seg 9193
+Abstand: 4  Winkel an Enden: M1(566,1050) M2(570,1048) und N1(563,1053) N2(562,1053) ::0.463648
+Seg 9197
+Abstand: 6  Winkel an Enden: M1(876,913) M2(876,914) und N1(872,909) N2(865,899) ::0.610726
+Seg 9198
+Abstand: 6  Winkel an Enden: M1(872,909) M2(865,899) und N1(876,913) N2(876,914) ::0.610726
+Seg 9213
+Seg 9215
+Abstand: 3  Winkel an Enden: M1(231,888) M2(239,894) und N1(233,886) N2(237,889) ::3.14159
+Abstand: 5  Winkel an Enden: M1(229,889) M2(229,890) und N1(233,886) N2(237,889) ::2.2143
+Seg 9218
+Abstand: 2  Winkel an Enden: M1(1057,897) M2(1066,897) und N1(1055,897) N2(1054,896) ::0.785398
+Seg 9223
+Seg 9230
+Seg 9233
+Abstand: 3  Winkel an Enden: M1(233,886) M2(237,889) und N1(231,888) N2(239,894) ::3.14159
+Abstand: 2  Winkel an Enden: M1(229,889) M2(229,890) und N1(231,888) N2(239,894) ::2.2143
+Seg 9238
+Seg 9265
+Abstand: 2  Winkel an Enden: M1(1055,897) M2(1054,896) und N1(1057,897) N2(1066,897) ::0.785398
+Seg 9281
+Abstand: 5  Winkel an Enden: M1(233,886) M2(237,889) und N1(229,889) N2(229,890) ::2.2143
+Abstand: 2  Winkel an Enden: M1(231,888) M2(239,894) und N1(229,889) N2(229,890) ::2.2143
+Seg 9298
+Seg 9304
+Seg 9312
+Seg 9343
+Seg 9370
+Seg 9373
+Seg 9388
+Abstand: 3  Winkel an Enden: M1(1571,924) M2(1581,925) und N1(1572,921) N2(1587,921) ::3.04192
+Seg 9419
+Seg 9421
+Abstand: 3  Winkel an Enden: M1(1572,921) M2(1587,921) und N1(1571,924) N2(1581,925) ::3.04192
+Seg 9428
+Seg 9445
+Abstand: 4  Winkel an Enden: M1(537,942) M2(527,949) und N1(539,938) N2(540,937) ::0.174672
+Seg 9464
+Seg 9471
+Seg 9497
+Seg 9510
+Seg 9514
+Seg 9522
+Seg 9527
+Abstand: 4  Winkel an Enden: M1(539,938) M2(540,937) und N1(537,942) N2(527,949) ::0.174672
+Seg 9535
+Abstand: 9  Winkel an Enden: M1(1759,956) M2(1773,958) und N1(1762,947) N2(1761,946) ::0.643501
+Seg 9542
+Abstand: 4  Winkel an Enden: M1(649,972) M2(654,968) und N1(647,968) N2(648,968) ::2.46685
+Seg 9549
+Seg 9562
+Abstand: 4  Winkel an Enden: M1(270,965) M2(282,984) und N1(274,966) N2(273,965) ::0.222082
+Abstand: 6  Winkel an Enden: M1(278,971) M2(278,972) und N1(274,966) N2(273,965) ::0.785398
+Abstand: 8  Winkel an Enden: M1(272,974) M2(278,980) und N1(274,966) N2(273,965) ::0
+Seg 9566
+Abstand: 9  Winkel an Enden: M1(1778,958) M2(1777,958) und N1(1778,949) N2(1790,950) ::0.0831412
+Seg 9575
+Seg 9585
+Seg 9603
+Abstand: 9  Winkel an Enden: M1(1762,947) M2(1761,946) und N1(1759,956) N2(1773,958) ::0.643501
+Abstand: 9  Winkel an Enden: M1(1778,949) M2(1790,950) und N1(1778,958) N2(1777,958) ::0.0831412
+Seg 9608
+Seg 9612
+Seg 9634
+Seg 9645
+Abstand: 4  Winkel an Enden: M1(274,966) M2(273,965) und N1(270,965) N2(282,984) ::0.222082
+Abstand: 9  Winkel an Enden: M1(272,974) M2(278,980) und N1(270,965) N2(282,984) ::2.91951
+Seg 9652
+Abstand: 6  Winkel an Enden: M1(274,966) M2(273,965) und N1(278,971) N2(278,972) ::0.785398
+Abstand: 7  Winkel an Enden: M1(279,983) M2(278,982) und N1(281,976) N2(280,975) ::3.14159
+Abstand: 2  Winkel an Enden: M1(283,977) M2(283,980) und N1(281,976) N2(280,975) ::0.785398
+Seg 9653
+Seg 9668
+Abstand: 8  Winkel an Enden: M1(274,966) M2(273,965) und N1(272,974) N2(278,980) ::0
+Abstand: 9  Winkel an Enden: M1(270,965) M2(282,984) und N1(272,974) N2(278,980) ::2.91951
+Abstand: 7  Winkel an Enden: M1(281,976) M2(280,975) und N1(279,983) N2(278,982) ::3.14159
+Abstand: 7  Winkel an Enden: M1(283,977) M2(283,980) und N1(279,983) N2(278,982) ::0.785398
+Seg 9671
+Seg 9677
+Seg 9683
+Abstand: 2  Winkel an Enden: M1(281,976) M2(280,975) und N1(283,977) N2(283,980) ::0.785398
+Abstand: 7  Winkel an Enden: M1(279,983) M2(278,982) und N1(283,977) N2(283,980) ::0.785398
+Seg 9687
+Abstand: 2  Winkel an Enden: M1(347,1066) M2(360,1083) und N1(346,1068) N2(345,1067) ::0.132552
+Abstand: 9  Winkel an Enden: M1(351,1076) M2(366,1096) und N1(346,1068) N2(345,1067) ::0.141897
+Abstand: 9  Winkel an Enden: M1(347,1077) M2(362,1098) und N1(346,1068) N2(345,1067) ::0.165149
+Seg 9705
+Abstand: 4  Winkel an Enden: M1(647,968) M2(648,968) und N1(649,972) N2(654,968) ::2.46685
+Seg 9723
+Seg 9754
+Seg 9767
+Seg 9779
+Seg 9792
+Abstand: 3  Winkel an Enden: M1(792,1017) M2(764,1037) und N1(794,1015) N2(795,1014) ::0.165149
+Seg 9803
+Seg 9809
+Seg 9813
+Seg 9824
+Abstand: 3  Winkel an Enden: M1(794,1015) M2(795,1014) und N1(792,1017) N2(764,1037) ::0.165149
+Seg 9826
+Seg 9833
+Seg 9834
+Seg 9851
+Seg 9869
+Seg 9882
+Abstand: 4  Winkel an Enden: M1(601,1134) M2(601,1135) und N1(598,1131) N2(597,1128) ::0.321751
+Seg 9883
+Abstand: 3  Winkel an Enden: M1(606,1141) M2(607,1142) und N1(604,1139) N2(603,1138) ::2.10734e-008
+Abstand: 4  Winkel an Enden: M1(598,1131) M2(597,1128) und N1(601,1134) N2(601,1135) ::0.321751
+Seg 9886
+Seg 9918
+Seg 9929
+Seg 9949
+Seg 9968
+Seg 9979
+Seg 9988
+Abstand: 2  Winkel an Enden: M1(671,1107) M2(672,1106) und N1(669,1108) N2(668,1109) ::2.10734e-008
+Seg 10003
+Abstand: 2  Winkel an Enden: M1(346,1068) M2(345,1067) und N1(347,1066) N2(360,1083) ::0.132552
+Abstand: 8  Winkel an Enden: M1(365,1100) M2(364,1099) und N1(365,1092) N2(361,1086) ::2.9442
+Seg 10030
+Seg 10031
+Seg 10032
+Abstand: 9  Winkel an Enden: M1(346,1068) M2(345,1067) und N1(351,1076) N2(366,1096) ::0.141897
+Abstand: 4  Winkel an Enden: M1(347,1077) M2(362,1098) und N1(351,1076) N2(366,1096) ::3.11834
+Abstand: 4  Winkel an Enden: M1(386,1121) M2(385,1120) und N1(382,1120) N2(380,1116) ::2.81984
+Seg 10034
+Abstand: 9  Winkel an Enden: M1(346,1068) M2(345,1067) und N1(347,1077) N2(362,1098) ::0.165149
+Abstand: 8  Winkel an Enden: M1(365,1092) M2(361,1086) und N1(365,1100) N2(364,1099) ::2.9442
+Abstand: 4  Winkel an Enden: M1(351,1076) M2(366,1096) und N1(347,1077) N2(362,1098) ::3.11834
+Seg 10034 mit Seg 9687-> kleinster Winkel: 0.165149
 ################ Zusammengefuegt ######################
-Seg 5
-Seg 6
-Seg 7
-Seg 8
-Seg 9
-Abstand: 7  Winkel an Enden: M1(544,167) M2(528,141) und N1(547,173) N2(557,200) ::0.196949
-Abstand: 3  Winkel an Enden: M1(545,171) M2(545,170) und N1(547,173) N2(557,200) ::0.354706
-Abstand: 5  Winkel an Enden: M1(546,168) M2(571,169) und N1(547,173) N2(557,200) ::1.96548
-Seg 9 mit Seg 4-> kleinster Winkel: 0.196949
+Seg 10037
+Seg 10045
+Abstand: 9  Winkel an Enden: M1(483,1104) M2(482,1104) und N1(490,1098) N2(494,1096) ::0.463648
+Seg 10046
+Abstand: 9  Winkel an Enden: M1(490,1098) M2(494,1096) und N1(483,1104) N2(482,1104) ::0.463648
+Seg 10053
+Seg 10065
+Abstand: 2  Winkel an Enden: M1(669,1108) M2(668,1109) und N1(671,1107) N2(672,1106) ::2.10734e-008
+Seg 10066
+Seg 10071
+Abstand: 4  Winkel an Enden: M1(382,1120) M2(380,1116) und N1(386,1121) N2(385,1120) ::2.81984
+Seg 10086
+Seg 10098
+Seg 10110
+Abstand: 7  Winkel an Enden: M1(1231,1121) M2(1201,1136) und N1(1224,1121) N2(1202,1132) ::3.14159
+Seg 10118
+Seg 10121
+Abstand: 3  Winkel an Enden: M1(1152,1131) M2(1126,1151) und N1(1154,1129) N2(1157,1126) ::0.129703
+Seg 10123
+Abstand: 3  Winkel an Enden: M1(1154,1129) M2(1157,1126) und N1(1152,1131) N2(1126,1151) ::0.129703
+Abstand: 2  Winkel an Enden: M1(1121,1159) M2(1125,1165) und N1(1119,1158) N2(1120,1157) ::1.3734
+Seg 10124
+Seg 10126
+Abstand: 9  Winkel an Enden: M1(431,1185) M2(447,1206) und N1(426,1178) N2(422,1171) ::0.131931
+Seg 10172
+Seg 10199
+Seg 10212
+Seg 10219
+Abstand: 2  Winkel an Enden: M1(1119,1158) M2(1120,1157) und N1(1121,1159) N2(1125,1165) ::1.3734
+Abstand: 6  Winkel an Enden: M1(1137,1179) M2(1137,1180) und N1(1133,1175) N2(1130,1170) ::0.54042
+Seg 10220
+Abstand: 6  Winkel an Enden: M1(1133,1175) M2(1130,1170) und N1(1137,1179) N2(1137,1180) ::0.54042
+Abstand: 7  Winkel an Enden: M1(1147,1188) M2(1162,1170) und N1(1141,1185) N2(1141,1184) ::2.44685
+Seg 10235
+Seg 10237
+Abstand: 5  Winkel an Enden: M1(1193,1163) M2(1190,1166) und N1(1197,1160) N2(1197,1161) ::2.35619
+Seg 10242
+Abstand: 5  Winkel an Enden: M1(1197,1160) M2(1197,1161) und N1(1193,1163) N2(1190,1166) ::2.35619
+Abstand: 8  Winkel an Enden: M1(1193,1181) M2(1194,1180) und N1(1199,1176) N2(1194,1175) ::0.982794
+Seg 10246
+Seg 10257
+Seg 10263
+Abstand: 8  Winkel an Enden: M1(1199,1176) M2(1194,1175) und N1(1193,1181) N2(1194,1180) ::0.982794
+Abstand: 4  Winkel an Enden: M1(1189,1181) M2(1188,1182) und N1(1193,1181) N2(1194,1180) ::2.10734e-008
+Seg 10263 mit Seg 10281-> kleinster Winkel: 2.10734e-008
 ################ Zusammengefuegt ######################
-Seg 10
-Abstand: 4  Winkel an Enden: M1(544,167) M2(528,141) und N1(545,171) N2(547,173) ::0.233743
-Abstand: 3  Winkel an Enden: M1(546,168) M2(571,169) und N1(545,171) N2(547,173) ::2.39617
-Seg 10 mit Seg 4-> kleinster Winkel: 0.233743
+Seg 10266
+Seg 10271
+Seg 10281
+Abstand: 4  Winkel an Enden: M1(1193,1181) M2(1194,1180) und N1(1189,1181) N2(1188,1182) ::2.10734e-008
+Seg 10281 mit Seg 10263-> kleinster Winkel: 2.10734e-008
 ################ Zusammengefuegt ######################
-Seg 11
-Abstand: 2  Winkel an Enden: M1(544,167) M2(528,141) und N1(544,169) N2(545,170) ::0.233743
-Abstand: 3  Winkel an Enden: M1(547,173) M2(557,200) und N1(545,171) N2(545,170) ::0.354706
-Abstand: 2  Winkel an Enden: M1(546,168) M2(571,169) und N1(544,169) N2(545,170) ::2.39617
-Seg 12
-Abstand: 2  Winkel an Enden: M1(544,167) M2(528,141) und N1(546,168) N2(571,169) ::0.979163
-Abstand: 5  Winkel an Enden: M1(547,173) M2(557,200) und N1(546,168) N2(571,169) ::1.96548
-Abstand: 3  Winkel an Enden: M1(545,171) M2(547,173) und N1(546,168) N2(571,169) ::2.39617
-Abstand: 2  Winkel an Enden: M1(544,169) M2(545,170) und N1(546,168) N2(571,169) ::2.39617
-Seg 13
+Seg 10298
+Abstand: 9  Winkel an Enden: M1(426,1178) M2(422,1171) und N1(431,1185) N2(447,1206) ::0.131931
+Seg 10310
+Seg 10315
+Abstand: 7  Winkel an Enden: M1(1224,1121) M2(1202,1132) und N1(1231,1121) N2(1201,1136) ::3.14159
+Abstand: 7  Winkel an Enden: M1(1141,1185) M2(1141,1184) und N1(1147,1188) N2(1162,1170) ::2.44685
+Seg 10324
+Seg 10335
+Seg 10350
+Seg 10353
+Seg 10355
+Abstand: 8  Winkel an Enden: M1(981,1199) M2(982,1202) und N1(988,1196) N2(991,1199) ::2.67795
+Seg 10358
+Seg 10359
+Abstand: 8  Winkel an Enden: M1(988,1196) M2(991,1199) und N1(981,1199) N2(982,1202) ::2.67795
+Seg 10380
+Seg 10395
+Seg 10400
+Abstand: 8  Winkel an Enden: M1(1202,1198) M2(1197,1201) und N1(1208,1204) N2(1209,1204) ::0.54042
+Seg 10422
+Abstand: 8  Winkel an Enden: M1(980,1218) M2(987,1227) und N1(979,1226) N2(978,1225) ::0.124355
+Seg 10427
+Abstand: 8  Winkel an Enden: M1(979,1226) M2(978,1225) und N1(980,1218) N2(987,1227) ::0.124355
+Seg 10430
+Abstand: 2  Winkel an Enden: M1(188,1224) M2(189,1224) und N1(186,1223) N2(185,1223) ::0
+Seg 10447
+Abstand: 5  Winkel an Enden: M1(1154,1236) M2(1155,1235) und N1(1155,1231) N2(1156,1231) ::2.35619
+Seg 10450
+Abstand: 8  Winkel an Enden: M1(1208,1204) M2(1209,1204) und N1(1202,1198) N2(1197,1201) ::0.54042
+Abstand: 7  Winkel an Enden: M1(1207,1193) M2(1208,1193) und N1(1202,1198) N2(1197,1201) ::0.54042
+Seg 10451
+Abstand: 7  Winkel an Enden: M1(1202,1198) M2(1197,1201) und N1(1207,1193) N2(1208,1193) ::0.54042
+Seg 10453
+Seg 10457
+Abstand: 2  Winkel an Enden: M1(186,1223) M2(185,1223) und N1(188,1224) N2(189,1224) ::0
+Seg 10458
+Abstand: 8  Winkel an Enden: M1(966,1234) M2(966,1233) und N1(964,1242) N2(964,1241) ::3.14159
+Seg 10460
+Abstand: 5  Winkel an Enden: M1(1155,1231) M2(1156,1231) und N1(1154,1236) N2(1155,1235) ::2.35619
+Seg 10470
+Abstand: 8  Winkel an Enden: M1(964,1242) M2(964,1241) und N1(966,1234) N2(966,1233) ::3.14159
+Seg 10491
+Abstand: 5  Winkel an Enden: M1(1453,1235) M2(1437,1234) und N1(1453,1230) N2(1463,1231) ::0.0372498
+Seg 10511
+Seg 10513
+Seg 10515
+Seg 10516
+Abstand: 5  Winkel an Enden: M1(1453,1230) M2(1463,1231) und N1(1453,1235) N2(1437,1234) ::0.0372498
+Seg 10543
+Seg 10566
+Seg 10584
+Seg 10585
+Seg 10592
+Seg 10645
+Seg 10647
+Seg 10648
+Seg 10657
+Seg 10666
+Seg 10672
+Seg 10680
+Seg 10718
+Seg 10737
+Abstand: 3  Winkel an Enden: M1(1643,1292) M2(1642,1291) und N1(1645,1290) N2(1644,1290) ::2.35619
+Seg 10740
+Seg 10747
+Abstand: 6  Winkel an Enden: M1(1715,1299) M2(1716,1298) und N1(1717,1293) N2(1718,1292) ::3.14159
+Seg 10756
+Abstand: 3  Winkel an Enden: M1(1645,1290) M2(1644,1290) und N1(1643,1292) N2(1642,1291) ::2.35619
+Seg 10782
+Seg 10791
+Abstand: 6  Winkel an Enden: M1(1717,1293) M2(1718,1292) und N1(1715,1299) N2(1716,1298) ::3.14159
+Abstand: 2  Winkel an Enden: M1(1776,1298) M2(1775,1299) und N1(1777,1296) N2(1740,1296) ::2.35619
+Seg 10795
+Seg 10805
+Abstand: 2  Winkel an Enden: M1(1777,1296) M2(1740,1296) und N1(1776,1298) N2(1775,1299) ::2.35619
+Seg 10811
+Seg 10819
+Seg 10822
+Seg 10829
+Seg 10841
+Seg 10871
+Seg 10887
+Seg 10892
+Seg 10894
+Seg 10905
+Seg 10913
+Seg 10918
+Seg 10936
+Abstand: 9  Winkel an Enden: M1(1519,1343) M2(1518,1343) und N1(1512,1337) N2(1550,1340) ::0.078784
+Seg 10960
+Abstand: 9  Winkel an Enden: M1(1512,1337) M2(1550,1340) und N1(1519,1343) N2(1518,1343) ::0.078784
+Abstand: 9  Winkel an Enden: M1(1516,1352) M2(1522,1353) und N1(1519,1343) N2(1518,1343) ::0.165149
+Seg 10975
+Seg 11019
+Abstand: 9  Winkel an Enden: M1(1519,1343) M2(1518,1343) und N1(1516,1352) N2(1522,1353) ::0.165149
+Abstand: 3  Winkel an Enden: M1(1529,1356) M2(1560,1357) und N1(1528,1353) N2(1527,1353) ::0.0322469
+Seg 11021
+Abstand: 6  Winkel an Enden: M1(584,1404) M2(576,1391) und N1(579,1400) N2(571,1390) ::3.01851
+Seg 11022
+Abstand: 7  Winkel an Enden: M1(584,1404) M2(576,1391) und N1(586,1411) N2(586,1413) ::0.551655
+Seg 11023
+Abstand: 6  Winkel an Enden: M1(579,1400) M2(571,1390) und N1(584,1404) N2(576,1391) ::3.01851
+Abstand: 7  Winkel an Enden: M1(586,1411) M2(586,1413) und N1(584,1404) N2(576,1391) ::0.551655
+Seg 11045
+Seg 11046
+Abstand: 3  Winkel an Enden: M1(1528,1353) M2(1527,1353) und N1(1529,1356) N2(1560,1357) ::0.0322469
+Seg 11063
+Seg 11070
+Seg 11071
+Seg 11079
+Seg 11160
+Seg 11161
+Abstand: 6  Winkel an Enden: M1(1467,1380) M2(1466,1380) und N1(1473,1379) N2(1472,1378) ::2.35619
+Seg 11170
+Seg 11175
+Abstand: 6  Winkel an Enden: M1(1473,1379) M2(1472,1378) und N1(1467,1380) N2(1466,1380) ::2.35619
+Seg 11193
+Seg 11205
+Seg 11217
+Abstand: 6  Winkel an Enden: M1(1848,1393) M2(1847,1394) und N1(1850,1387) N2(1849,1386) ::1.5708
+Seg 11246
+Seg 11249
+Abstand: 6  Winkel an Enden: M1(1850,1387) M2(1849,1386) und N1(1848,1393) N2(1847,1394) ::1.5708
+Seg 11250
+Seg 11255
+Seg 11290
+Seg 11294
+Seg 11296
+Seg 11305
+Seg 11314
+Seg 11343
+Seg 11361
+Seg 11376
+Seg 11378
+Seg 11409
+Seg 11415
+Seg 11416
+Seg 11429
+Seg 11438
+Seg 11440
+Seg 11452
+Seg 11453
+Seg 11482
+Seg 11496
+Abstand: 9  Winkel an Enden: M1(1566,1451) M2(1582,1451) und N1(1557,1452) N2(1556,1451) ::0.785398
+Seg 11502
+Abstand: 9  Winkel an Enden: M1(1557,1452) M2(1556,1451) und N1(1566,1451) N2(1582,1451) ::0.785398
+Seg 11503
+Seg 11504
+Abstand: 4  Winkel an Enden: M1(1048,1453) M2(1058,1453) und N1(1044,1452) N2(1043,1452) ::0
+Seg 11508
+Abstand: 2  Winkel an Enden: M1(1060,1454) M2(1059,1454) und N1(1061,1452) N2(1062,1453) ::0.785398
+Seg 11514
+Seg 11519
+Abstand: 4  Winkel an Enden: M1(1044,1452) M2(1043,1452) und N1(1048,1453) N2(1058,1453) ::0
+Abstand: 2  Winkel an Enden: M1(1061,1452) M2(1062,1453) und N1(1060,1454) N2(1059,1454) ::0.785398
+Seg 11576
+Seg 11579
+Seg 11583
+Seg 11607
+Seg 11637
+Seg 11639
+Seg 11680
+Seg 11693
+Seg 11716
+Seg 11722
+Seg 11757
+Seg 11772
+Seg 11774
+Seg 11777
+Seg 11778
+Abstand: 3  Winkel an Enden: M1(1905,296) M2(1904,296) und N1(1906,293) N2(1905,292) ::2.35619
+Seg 11783
+Seg 11784
+Abstand: 7  Winkel an Enden: M1(1190,678) M2(1179,681) und N1(1197,677) N2(1218,679) ::0.361204
+Seg 11784 mit Seg 11786-> kleinster Winkel: 0.361204
+################ Zusammengefuegt ######################
+Seg 11786
+Abstand: 7  Winkel an Enden: M1(1197,677) M2(1218,679) und N1(1190,678) N2(1179,681) ::0.361204
+Seg 11786 mit Seg 11784-> kleinster Winkel: 0.361204
+################ Zusammengefuegt ######################
+Seg 11832
+Seg 11859
+Seg 11880
+Seg 11894
+Seg 11903
+Seg 11963
+Seg 11995
+Seg 12034
+Seg 12055
+Seg 12057

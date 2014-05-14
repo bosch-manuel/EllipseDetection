@@ -250,11 +250,13 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 		}
 	}
 	else {
-		/*for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
+#ifdef DRAW_POINTS
+		for (std::list<Point*>::iterator it = edgeList.begin(); it != edgeList.end(); it++)	{
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[0] = color.val[0];
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[1] = color.val[1];
 			image->at<cv::Vec3b>((*it)->getY(), (*it)->getX())[2] = color.val[2];
-			}*/
+		}
+#else
 		//draw the lines between the end points
 		std::list<Point*>::iterator a, a_1;
 		cv::Point p1;
@@ -267,6 +269,7 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 			cv::line(*image, p1, p2, c, 1, 8);
 
 		}
+#endif
 	}
 }
 
@@ -337,12 +340,12 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 
 	Point *l1, *l2, *P1, *P2, *P3;
-	double b1, b2,deg;
+	double b1, b2, deg;
 	b1 = -1;
 #ifdef DEBUG_EVAL_CURVE
 	*csf << "Winkelverlauf von Segment " << ID << endl;
 #endif
-	if (type == CURVESEG && edgeList.size() > 2) {
+	if (/*type == CURVESEG &&*/ edgeList.size() > 2) {
 		std::list<Point*>::const_iterator i = edgeList.begin();
 		std::list<Point*>::const_iterator j = i;
 		j++;
@@ -364,9 +367,9 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 #endif
 				if (abs(b1 - b2) > TH /*|| b1<B_MIN || b1>B_MAX*/) {
 #ifdef DEBUG_EVAL_CURVE
-					*csf << endl << "#######" << endl;
+					*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(b1 - b2)*(180 / PI) << endl;
 #endif
-					return false;
+					//return false;
 				}
 			}
 
@@ -384,7 +387,7 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 	}
 
 #ifdef DEBUG_EVAL_CURVE
-	*csf <<endl<<"#######"<< endl;
+	*csf << endl << "#######" << endl;
 #endif
 	return true;
 }
@@ -405,6 +408,9 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 	}
 	//go through the whole segment
 	cS = new EdgeSegment(CURVESEG);
+#ifdef DEBUB_CURVE_SEG
+	*csf << "Segmentierung von Seg " << ID << endl;
+#endif
 	for (i = edgeList.begin(); i != edgeList.end(); i++)	{
 		P = *i;
 		cS->push_backPoint(P);//collect all visited points
@@ -428,9 +434,11 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 				*csf << "lenght cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif
 				//split the line at P
-				curveSegments->push_back(cS);
-				nCurvSegs++;
 				lastSplit = P;// keep the last splitting point in mind
+				if (cS->getLength() > NP) {
+					curveSegments->push_back(cS);
+					nCurvSegs++;
+				}
 				cS = new EdgeSegment(CURVESEG); // next curve segment
 				cS->push_backPoint(P);//collect all visited points
 				continue;
@@ -452,8 +460,10 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 				*csf << "curve cond left at: " << P->getX() << ", " << P->getY() << endl;
 #endif
 				//split the line at P
-				curveSegments->push_back(cS);
-				nCurvSegs++;
+				if (cS->getLength() > NP) {
+					curveSegments->push_back(cS);
+					nCurvSegs++;
+				}
 				lastSplit = P;// keep the last splitting point in mind
 				cS = new EdgeSegment(CURVESEG); // next curve segment
 				cS->push_backPoint(P);//collect all visited points
@@ -477,8 +487,10 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 				*csf << "curve cond right at: " << P->getX() << ", " << P->getY() << endl;
 #endif
 				//split the line at P
-				curveSegments->push_back(cS);
-				nCurvSegs++;
+				if (cS->getLength() > NP) {
+					curveSegments->push_back(cS);
+					nCurvSegs++;
+				}
 				lastSplit = P;// keep the last splitting point in mind
 				cS = new EdgeSegment(CURVESEG); // next curve segment
 				cS->push_backPoint(P);//collect all visited points
@@ -503,8 +515,10 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 				*csf << "angle cond at: " << P->getX() << ", " << P->getY() << endl;
 #endif
 				//split the line at P
-				curveSegments->push_back(cS);
-				nCurvSegs++;
+				if (cS->getLength() > NP) {
+					curveSegments->push_back(cS);
+					nCurvSegs++;
+				}
 				lastSplit = P;// keep the last splitting point in mind
 				cS = new EdgeSegment(CURVESEG); // next curve segment
 				cS->push_backPoint(P);//collect all visited points
@@ -515,8 +529,77 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 
 	}
 	//add last curve segment to list
-	curveSegments->push_back(cS);
-	nCurvSegs++;
+	if (cS->getLength() > NP) {
+		curveSegments->push_back(cS);
+		nCurvSegs++;
+	}
+
+	return nCurvSegs;
+}
+
+int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegments, std::fstream *csf) {
+	Point *P1, *P2=NULL, *P3=NULL, *l1, *l2;
+	int nCurvSegs = 0;
+	double a_pre = -1,a=-1,deg=-1;
+	EdgeSegment *cS = NULL;
+
+	//segment must be segmented into lines and more than 2 points
+	if (type != LSEG_EDGE && edgeList.size()>2) {
+		return -1;
+	}
+	//go through the whole segment
+	cS = new EdgeSegment(CURVESEG);
+#ifdef DEBUB_CURVE_SEG
+	*csf << "Segmentierung von Seg " << ID << endl;
+#endif
+	std::list<Point*>::const_iterator i = edgeList.begin();
+	std::list<Point*>::const_iterator j = i;
+	j++;
+	std::list<Point*>::const_iterator k = j;
+	k++;
+	for (; k != edgeList.end(); i++,j++,k++){
+		P1 = (*i);
+		P2 = (*j);
+		P3 = (*k);
+		l1 = &(*P2 - *P1);
+		l2 = &(*P2 - *P3);
+		cS->push_backPoint(P1);//collect all visited points
+
+		a = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
+		if (a_pre != -1){
+			//calc dif
+#ifdef DEBUB_CURVE_SEG
+			deg = a_pre*(180 / PI);
+			*csf << deg << ", ";
+#endif
+			if (abs(a_pre - a) > TH /*|| b1<B_MIN || b1>B_MAX*/) {
+#ifdef DEBUB_CURVE_SEG
+				*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
+#endif
+				//split the segment at P2 and add the curve segmente if it contains more than NP points
+				if (cS->getLength() > NP) {
+					curveSegments->push_back(cS);
+					nCurvSegs++;
+				}
+				a_pre = -1;
+				cS = new EdgeSegment(CURVESEG);
+			}
+		}
+
+		/*i = j;
+		j = k;*/
+		a_pre = a;
+	
+		
+	}
+	//add two last points to the current curve segments
+	cS->push_backPoint(P2);
+	cS->push_backPoint(P3);
+	//add last curve segment to list
+	if (cS->getLength() > NP) {
+		curveSegments->push_back(cS);
+		nCurvSegs++;
+	}
 
 	return nCurvSegs;
 }

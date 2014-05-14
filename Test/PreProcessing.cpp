@@ -511,7 +511,12 @@ int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*>
 	//check every edge segment
 	int nCurvSegs = 0;
 	for (std::list<EdgeSegment*>::const_iterator i = edgeSegs->begin(); i != edgeSegs->end(); i++) {
+#ifdef IMPROVED_SEGMENTATION
+		nCurvSegs += (*i)->curveSegmentationImproved(curveSegs, &csf);
+#else
+		(*i)->evaluateCurvature(&csf);
 		nCurvSegs += (*i)->curveSegmentation(curveSegs, &csf);
+#endif
 	}
 
 #ifdef DEBUB_CURVE_SEG
