@@ -1,27 +1,32 @@
+Seg 4
+Abstand: 7  Winkel an Enden: M1(547,173) M2(557,200) und N1(544,167) N2(528,141) ::0.196949
+Abstand: 4  Winkel an Enden: M1(545,171) M2(547,173) und N1(544,167) N2(528,141) ::0.233743
+Abstand: 2  Winkel an Enden: M1(544,169) M2(545,170) und N1(544,167) N2(528,141) ::0.233743
+Abstand: 2  Winkel an Enden: M1(546,168) M2(571,169) und N1(544,167) N2(528,141) ::0.979163
+Seg 4 mit Seg 9-> kleinster Winkel: 0.196949
+################ Zusammengefuegt ######################
+Seg 5
+Seg 6
 Seg 7
-Abstand: 2  Winkel an Enden: M1(455,152) M2(459,134) und N1(453,152) N2(441,141) ::2.09407
-Abstand: 4  Winkel an Enden: M1(456,154) M2(469,171) und N1(453,152) N2(441,141) ::0.176002
-Seg 7 mit Seg 27-> kleinster Winkel: 0.176002
-################ Zusammengefuegt ######################
+Seg 8
 Seg 9
-Seg 19
-Abstand: 2  Winkel an Enden: M1(453,152) M2(441,141) und N1(455,152) N2(459,134) ::2.09407
-Abstand: 2  Winkel an Enden: M1(456,154) M2(469,171) und N1(455,152) N2(459,134) ::0.871516
-Seg 22
-Seg 24
-Abstand: 9  Winkel an Enden: M1(257,306) M2(269,310) und N1(248,303) N2(254,317) ::2.29744
-Seg 27
-Abstand: 4  Winkel an Enden: M1(453,152) M2(441,141) und N1(456,154) N2(469,171) ::0.176002
-Abstand: 2  Winkel an Enden: M1(455,152) M2(459,134) und N1(456,154) N2(469,171) ::0.871516
-Seg 27 mit Seg 7-> kleinster Winkel: 0.176002
+Abstand: 7  Winkel an Enden: M1(544,167) M2(528,141) und N1(547,173) N2(557,200) ::0.196949
+Abstand: 3  Winkel an Enden: M1(545,171) M2(545,170) und N1(547,173) N2(557,200) ::0.354706
+Abstand: 5  Winkel an Enden: M1(546,168) M2(571,169) und N1(547,173) N2(557,200) ::1.96548
+Seg 9 mit Seg 4-> kleinster Winkel: 0.196949
 ################ Zusammengefuegt ######################
-Seg 33
-Abstand: 2  Winkel an Enden: M1(424,233) M2(408,233) und N1(426,232) N2(468,232) ::0
-Seg 33 mit Seg 37-> kleinster Winkel: 0
+Seg 10
+Abstand: 4  Winkel an Enden: M1(544,167) M2(528,141) und N1(545,171) N2(547,173) ::0.233743
+Abstand: 3  Winkel an Enden: M1(546,168) M2(571,169) und N1(545,171) N2(547,173) ::2.39617
+Seg 10 mit Seg 4-> kleinster Winkel: 0.233743
 ################ Zusammengefuegt ######################
-Seg 34
-Abstand: 9  Winkel an Enden: M1(248,303) M2(254,317) und N1(257,306) N2(269,310) ::2.29744
-Seg 37
-Abstand: 2  Winkel an Enden: M1(426,232) M2(468,232) und N1(424,233) N2(408,233) ::0
-Seg 37 mit Seg 33-> kleinster Winkel: 0
-################ Zusammengefuegt ######################
+Seg 11
+Abstand: 2  Winkel an Enden: M1(544,167) M2(528,141) und N1(544,169) N2(545,170) ::0.233743
+Abstand: 3  Winkel an Enden: M1(547,173) M2(557,200) und N1(545,171) N2(545,170) ::0.354706
+Abstand: 2  Winkel an Enden: M1(546,168) M2(571,169) und N1(544,169) N2(545,170) ::2.39617
+Seg 12
+Abstand: 2  Winkel an Enden: M1(544,167) M2(528,141) und N1(546,168) N2(571,169) ::0.979163
+Abstand: 5  Winkel an Enden: M1(547,173) M2(557,200) und N1(546,168) N2(571,169) ::1.96548
+Abstand: 3  Winkel an Enden: M1(545,171) M2(547,173) und N1(546,168) N2(571,169) ::2.39617
+Abstand: 2  Winkel an Enden: M1(544,169) M2(545,170) und N1(546,168) N2(571,169) ::2.39617
+Seg 13

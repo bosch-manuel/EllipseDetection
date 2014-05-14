@@ -63,7 +63,7 @@ public:
 		true	curve segmente is an real curve segment
 		false	curve segmente is not an real curve segment
 		*/
-	bool evaluateCurvature();
+	bool evaluateCurvature(std::fstream *csf);
 
 	/*Curve segmentation based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu
 	to get a result, the edge segment must have been segmented into lines!

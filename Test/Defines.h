@@ -11,12 +11,14 @@
 #define FINDENDS_DEBUG "..\\FindEnds_Debug.txt"
 #define CURVE_SEG_DEBUG "..\\CurveSeg_Debug.txt"
 #define CURVE_GRP_DEBUG "..\\CurveGrp_Debug.txt"
+#define EVAL_CURVE_DEBUG "..\\EvalCurvature.txt"
 #define EDGEPOINT 255
 #define ENDPOINT 200
 //#define DEBUG_MAXLINEDEV
 #define DEBUG_SHOW_LINESEGMENTEDEDGES
 #define DEBUG_SHOW_EDGESEGS
 #define DEBUG_SHOW_EDGES
+#define DEBUG_EVAL_CURVE
 
 /*Line segmentation*/
 #define MIN_LENGTH 10

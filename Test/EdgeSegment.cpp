@@ -334,14 +334,21 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 //
 //}
 
-bool EdgeSegment::evaluateCurvature() {
+bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
+
 	Point *l1, *l2, *P1, *P2, *P3;
-	double b1, b2;
+	double b1, b2,deg;
 	b1 = -1;
+#ifdef DEBUG_EVAL_CURVE
+	*csf << "Winkelverlauf von Segment " << ID << endl;
+#endif
 	if (type == CURVESEG && edgeList.size() > 2) {
 		std::list<Point*>::const_iterator i = edgeList.begin();
-		std::list<Point*>::const_iterator j = ++i;
-		for (std::list<Point*>::const_iterator k = ++j; k != edgeList.end(); k++)	{
+		std::list<Point*>::const_iterator j = i;
+		j++;
+		std::list<Point*>::const_iterator k = j;
+		k++;
+		for (; k != edgeList.end(); k++)	{
 			P1 = (*i);
 			P2 = (*j);
 			P3 = (*k);
@@ -351,7 +358,14 @@ bool EdgeSegment::evaluateCurvature() {
 			b2 = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
 			if (b1 != -1){
 				//calc dif
+#ifdef DEBUG_EVAL_CURVE
+				deg = b2*(180 / PI);
+				*csf << deg << ", ";
+#endif
 				if (abs(b1 - b2) > TH /*|| b1<B_MIN || b1>B_MAX*/) {
+#ifdef DEBUG_EVAL_CURVE
+					*csf << endl << "#######" << endl;
+#endif
 					return false;
 				}
 			}
@@ -363,9 +377,15 @@ bool EdgeSegment::evaluateCurvature() {
 
 	}
 	else {
+#ifdef DEBUG_EVAL_CURVE
+		*csf << endl << "#######" << endl;
+#endif
 		return false;
 	}
 
+#ifdef DEBUG_EVAL_CURVE
+	*csf <<endl<<"#######"<< endl;
+#endif
 	return true;
 }
 
