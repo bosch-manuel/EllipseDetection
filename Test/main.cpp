@@ -178,11 +178,11 @@ int main(int argc, char** argv) {
 		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		(*it)->drawToImage(&curveSegImage, color);
 		(*it)->evaluateCurvature(&csf);
-		/*char* curveSegments_window = "Curve Segments";
+		char* curveSegments_window = "Curve Segments";
 		cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
 		cv::imshow(curveSegments_window, curveSegImage);
 		cout << (*it)->ID << endl;
-		cv::waitKey(0);*/
+		cv::waitKey(0);
 	}
 	char* curveSegments_window = "Curve Segments";
 	cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);

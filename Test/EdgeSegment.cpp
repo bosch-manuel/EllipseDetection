@@ -343,7 +343,7 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 	double b1, b2, deg;
 	b1 = -1;
 #ifdef DEBUG_EVAL_CURVE
-	*csf << "Winkelverlauf von Segment " << ID << endl;
+	*csf << "Winkelverlauf von Segment " << ID <<"Anz. Punkte: "<<this->getLength()<< endl;
 #endif
 	if (/*type == CURVESEG &&*/ edgeList.size() > 2) {
 		std::list<Point*>::const_iterator i = edgeList.begin();
@@ -377,6 +377,10 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 			j = k;
 			b1 = b2;
 		}
+#ifdef DEBUG_EVAL_CURVE
+		deg = b2*(180 / PI);
+		*csf << deg << ", ";
+#endif
 
 	}
 	else {
