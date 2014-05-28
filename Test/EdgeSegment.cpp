@@ -339,11 +339,16 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 
 bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 
-	Point *l1, *l2, *P1, *P2, *P3;
-	double b1, b2, deg;
+	Point *l1=NULL, *l2=NULL, *P1, *P2, *P3;
+	double b1, b2, deg,kp;
 	b1 = -1;
 #ifdef DEBUG_EVAL_CURVE
 	*csf << "Winkelverlauf von Segment " << ID <<"Anz. Punkte: "<<this->getLength()<< endl;
+	for (std::list<Point*>::const_iterator i = edgeList.cbegin(); i !=edgeList.cend(); i++)
+	{
+		*csf << "(" << (*i)->getX() << "," << (*i)->getY() << ")";
+	} 
+	*csf << endl;
 #endif
 	if (/*type == CURVESEG &&*/ edgeList.size() > 2) {
 		std::list<Point*>::const_iterator i = edgeList.begin();
@@ -355,15 +360,18 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 			P1 = (*i);
 			P2 = (*j);
 			P3 = (*k);
-			l1 = &(*P2 - *P1);
-			l2 = &(*P2 - *P3);
+			l1 = &(*P1 - *P2);
+			l2 = &(*P3 - *P2);
 
 			b2 = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
+			kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
+			*csf <<"kp(" << kp << ")";
 			if (b1 != -1){
 				//calc dif
 #ifdef DEBUG_EVAL_CURVE
 				deg = b2*(180 / PI);
-				*csf << deg << ", ";
+				//kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
+				*csf << deg /*<<"kp("<<kp<<")"*/<< ", ";
 #endif
 				if (abs(b1 - b2) > TH /*|| b1<B_MIN || b1>B_MAX*/) {
 #ifdef DEBUG_EVAL_CURVE
@@ -379,7 +387,8 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 		}
 #ifdef DEBUG_EVAL_CURVE
 		deg = b2*(180 / PI);
-		*csf << deg << ", ";
+		//kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
+		*csf << deg /*<< "kp(" << kp << ")"*/ <<endl;
 #endif
 
 	}
@@ -544,7 +553,7 @@ int EdgeSegment::curveSegmentation(std::list<EdgeSegment*> *curveSegments, std::
 int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegments, std::fstream *csf) {
 	Point *P1, *P2=NULL, *P3=NULL, *l1, *l2;
 	int nCurvSegs = 0;
-	double a_pre = -1,a=-1,deg=-1;
+	double a_pre = -1,a=-1,deg=-1,kp=0,kp_pre=0;
 	EdgeSegment *cS = NULL;
 
 	//segment must be segmented into lines and more than 2 points
@@ -565,18 +574,23 @@ int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegment
 		P1 = (*i);
 		P2 = (*j);
 		P3 = (*k);
-		l1 = &(*P2 - *P1);
-		l2 = &(*P2 - *P3);
+		l1 = &(*P1 - *P2);
+		l2 = &(*P3 - *P2);
 		cS->push_backPoint(P1);//collect all visited points
 
 		a = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
+		kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
+#ifdef DEBUB_CURVE_SEG
+		
+		*csf << "kp(" << kp << ")";
+#endif
 		if (a_pre != -1){
 			//calc dif
 #ifdef DEBUB_CURVE_SEG
 			deg = a_pre*(180 / PI);
 			*csf << deg << ", ";
 #endif
-			if (abs(a_pre - a) > TH /*|| b1<B_MIN || b1>B_MAX*/) {
+			if (abs(a_pre - a) > TH ||(kp*kp_pre)<0 /*|| b1<B_MIN || b1>B_MAX*/) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
 #endif
@@ -593,6 +607,7 @@ int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegment
 		/*i = j;
 		j = k;*/
 		a_pre = a;
+		kp_pre = kp;
 	
 		
 	}
