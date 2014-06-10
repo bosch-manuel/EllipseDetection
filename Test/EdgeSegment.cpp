@@ -590,7 +590,7 @@ int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegment
 			deg = a_pre*(180 / PI);
 			*csf << deg << ", ";
 #endif
-			if (abs(a_pre - a) > TH ||(kp*kp_pre)<0 /*|| b1<B_MIN || b1>B_MAX*/) {
+			if (abs(a_pre - a) > TH ||(kp*kp_pre)<=0 /*|| b1<B_MIN || b1>B_MAX*/) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
 #endif

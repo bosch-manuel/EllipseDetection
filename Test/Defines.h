@@ -15,6 +15,7 @@
 #define EDGEPOINT 255
 #define ENDPOINT 200
 //#define DEBUG_MAXLINEDEV
+//#define DEBUG_LINESEG
 #define DEBUG_SHOW_LINESEGMENTEDEDGES
 #define DEBUG_SHOW_EDGESEGS
 #define DEBUG_SHOW_EDGES
@@ -22,18 +23,20 @@
 
 /*Line segmentation*/
 #define MIN_LENGTH 10
-#define D_TOL 4
+#define D_TOL 3
 //#define DRAW_POINTS
 
 /*Curve segmentation*/
 #define IMPROVED_SEGMENTATION
 #define DEBUB_CURVE_SEG
 #define LTH 4 /* if LTH* length of line 1 > length of line 2 or the other way round an edge segment will be splitted at their connection point P   */
-#define TH .2618//15  .1745 //10  .5236//30	.698 /*40 max dif between angles of neighboring line segments (in radian)  */
+#define TH 0.4363//25  //.2618//15  .1745 //10  .5236//30	.698 /*40 max dif between angles of neighboring line segments (in radian)  */
 #define NP 3 /*a curve segment must contain more than NP pixels otherwise it will be deleted*/
 #define A_TOL -.07 //-4 deg /*if A_TOL < a2-a1 < 0, segment will not be splitted at point P in regard to curvature condition */
 #define B_MIN 1.745 /*angles between the neighbouring lines in a curve segments must all be greater than B_MIN (in radian)*/
 #define B_MAX 3.054 /*angles between the neighbouring lines in a curve segments must all be smaller than B_MAX (in radian)*/
+
+//#define SINGLESTEPCURVE
 
 /*Curve grouping*/
 #define DEBUB_CURVE_GRP

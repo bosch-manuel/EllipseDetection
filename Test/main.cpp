@@ -45,8 +45,8 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\Test.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\3Ellipsen.png", CV_LOAD_IMAGE_GRAYSCALE);
 	 //cv::Mat src = cv::imread("..\\bloederFall1.png", CV_LOAD_IMAGE_GRAYSCALE);
-	//cv::Mat src = cv::imread("..\\TestBild2.jpg", CV_LOAD_IMAGE_GRAYSCALE);
-	cv::Mat src = cv::imread("..\\Unbenannt.png", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat src = cv::imread("..\\Bild3.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	//cv::Mat src = cv::imread("..\\Unbenannt.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
 	cv::RNG rng(12353);
@@ -151,14 +151,24 @@ int main(int argc, char** argv) {
 	cout << "Laufzeit lineSegmentation: " << time << " ms" << endl;
 
 #ifdef DEBUG_SHOW_LINESEGMENTEDEDGES
+	char* lineSegmentedEdges_window = "LineSegmentedEdges";
+	cv::namedWindow(lineSegmentedEdges_window, CV_WINDOW_AUTOSIZE);
+#ifdef DEBUG_LINESEG
+	std::fstream c;
+	c.open(EVAL_CURVE_DEBUG, std::ios::out);
+#endif
 	std::cout << "Gültige Segmente: " << edgeSegments.size() << std::endl;
 	//draw segments
 	for (list<EdgeSegment*>::iterator it = edgeSegments.begin(); it != edgeSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
 		(*it)->drawToImage(&lineSegmentedEdges, color);
+#ifdef DEBUG_LINESEG
+		cv::imshow(lineSegmentedEdges_window, lineSegmentedEdges);
+		(*it)->evaluateCurvature(&c);
+		cv::waitKey(0);
+#endif
 	}
-	char* lineSegmentedEdges_window = "LineSegmentedEdges";
-	cv::namedWindow(lineSegmentedEdges_window, CV_WINDOW_AUTOSIZE);
+	
 	cv::imshow(lineSegmentedEdges_window, lineSegmentedEdges);
 	cv::imwrite("..\\lineSegmentedEdges.jpg", lineSegmentedEdges);
 #endif
@@ -179,11 +189,13 @@ int main(int argc, char** argv) {
 		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		(*it)->drawToImage(&curveSegImage, color);
 		(*it)->evaluateCurvature(&csf);
+#ifdef SINGLESTEPCURVE
 		char* curveSegments_window = "Curve Segments";
 		cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
 		cv::imshow(curveSegments_window, curveSegImage);
 		cout << (*it)->ID << endl;
 		cv::waitKey(0);
+#endif
 	}
 	char* curveSegments_window = "Curve Segments";
 	cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
