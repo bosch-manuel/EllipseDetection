@@ -4,6 +4,7 @@
 #include "Defines.h"
 #include "Point.h"
 #include "opencv2/imgproc/imgproc.hpp"
+#include "Conic.h"
 #include <list>
 
 #define LSEG_EDGE 0 //line segmented edge segment

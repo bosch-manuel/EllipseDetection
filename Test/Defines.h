@@ -46,5 +46,7 @@
 #define BEGIN_END 3
 #define BEGIN_BEGIN 4
 
+/*Conic calculation*/
+#define DEBUG_CALC
 
 #endif
