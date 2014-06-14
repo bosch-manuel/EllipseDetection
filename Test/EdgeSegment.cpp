@@ -2,6 +2,7 @@
 #include "Point.h"
 #include "Defines.h"
 #include "PreProcessing.hpp"
+#include "Conic.h"
 #include <iostream>
 
 using namespace std;
@@ -621,5 +622,63 @@ int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegment
 	}
 
 	return nCurvSegs;
+}
+
+int EdgeSegment::calcConic(Conic* c) {
+	if (edgeList.size < 6) {
+		return -1; //Error too few points
+	}
+	//% Build design matrix
+	//D = [x.*x  x.*y  y.*y  x  y  ones(size(x))];
+	cv::Mat D(6, edgeList.size, cv::DataType<double>::type);
+	cv::Mat S,Dt;
+	cv::Mat C = cv::Mat::zeros(6, 6,cv::DataType<double>::type);
+	int index = 0;
+	int x, y;
+	for (std::list<Point*>::const_iterator i = edgeList.cbegin(); i != edgeList.cend(); i++)	{
+		//D(row,col)
+		x = (*i)->getX();
+		y = (*i)->getY();
+		D.at<double>(index, 0) = x*x;
+		D.at<double>(index, 1) = x*y;
+		D.at<double>(index, 2) = y*y;
+		D.at<double>(index, 3) = x;
+		D.at<double>(index, 4) = y;
+		D.at<double>(index, 5) = 1;
+
+		index++;
+	}
+	
+	/*% Build scatter matrix
+		S = D'*D;*/
+	cv::transpose(D, Dt);
+	S = Dt*D;
+
+	/*% Build 6x6 constraint matrix
+	C(6, 6) = 0; C(1, 3) = -2; C(2, 2) = 1; C(3, 1) = -2;*/
+	C.at<double>(1, 3) = -2;
+	C.at<double>(2, 2) = 1;
+	C.at<double>(3, 1) = -2;
+
+	//% New way, numerically stabler in C[gevec, geval] = eig(S, C);
+
+	/*% Break into blocks
+	tmpA = S(1:3, 1 : 3);
+	tmpB = S(1:3, 4 : 6);
+	tmpC = S(4:6, 4 : 6);
+	tmpD = C(1:3, 1 : 3);
+	tmpE = inv(tmpC)*tmpB';
+		[evec_x, eval_x] = eig(inv(tmpD) * (tmpA - tmpB*tmpE));*/
+
+
+	/*% Find the positive(as det(tmpD) < 0) eigenvalue
+		I = find(real(diag(eval_x)) < 1e-8 & ~isinf(diag(eval_x)));
+
+	% Extract eigenvector corresponding to negative eigenvalue
+		A = real(evec_x(:, I));
+
+	% Recover the bottom half...
+		evec_y = -tmpE * A;
+	A = [A; evec_y];*/
 }
 

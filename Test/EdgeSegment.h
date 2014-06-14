@@ -81,6 +81,8 @@ public:
 	num of curve segments; -1 if edge segment was not segmented*/
 	int curveSegmentationImproved(std::list<EdgeSegment*> *curveSegments, std::fstream *csf);
 
+	int calcConic(Conic* c);
+
 	//bool operator<(const EdgeSegment& other) const;
 
 	//bool operator>(const EdgeSegment& other) const;

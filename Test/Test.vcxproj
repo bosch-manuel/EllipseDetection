@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Conic.cpp" />
     <ClCompile Include="EdgeSegment.cpp" />
     <ClCompile Include="EllipticalArc.cpp" />
     <ClCompile Include="LinearizedEdgeSegment.cpp" />
@@ -28,6 +29,7 @@
     <ClCompile Include="testMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Conic.h" />
     <ClInclude Include="Defines.h" />
     <ClInclude Include="EdgeSegment.h" />
     <ClInclude Include="EllipticalArc.h" />
