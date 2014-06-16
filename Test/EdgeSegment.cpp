@@ -3,6 +3,8 @@
 #include "Defines.h"
 #include "PreProcessing.hpp"
 #include "Conic.h"
+#include <climits>
+#include "\eigen\eigen-eigen-6b38706d90a9\Eigen\Eigenvalues"
 #include <iostream>
 
 using namespace std;
@@ -632,51 +634,94 @@ int EdgeSegment::calcConic(Conic* c) {
 	if (edgeList.size() < 6) {
 		return -1; //Error too few points
 	}
+	double mx, my, sx, sy, xmax,xmin, ymax,ymin,x,y;
+	int ind = 0;
+	int i_neg_eigenval;
+	mx = 0;
+	my = 0;
+	xmax = 0;
+	ymax = 0;
+	xmin = FLT_MAX;
+	ymin = FLT_MAX;
+	for (std::list<Point*>::const_iterator i = edgeList.cbegin(); i != edgeList.cend(); i++)	{
+		//(row,col)
+		x = (*i)->getX();
+		y = (*i)->getY();
+		mx += x;
+		my += y;
+		if (x > xmax) {
+			xmax = x;
+		}
+		if (x < xmin) {
+			xmin = x;
+		}
+		if (y > ymax) {
+			ymax = y;
+		}
+		if (y < ymin) {
+			ymin = y;
+		}
+		ind++;
+	}
 	//normalize data
 	//mx = mean(X);
 	//my = mean(Y);
 	//sx = (max(X) - min(X)) / 2;
 	//sy = (max(Y) - min(Y)) / 2;
-	//x = (X - mx) / sx;
-	//y = (Y - my) / sy;
+	mx /= edgeList.size();
+	my /= edgeList.size();
+	sx = (xmax - xmin) / 2;
+	sy = (ymax - ymin) / 2;
 
+#ifdef DEBUG_CALC
+	cout << "mx= " << mx << endl << "my= " << my << "sx= " << sx << endl << "sy= " << sy << endl;
+	cout << "maxx= " << xmax<< endl << "maxy= " << ymax << endl;
+	cout << "minx= " << xmin << endl << "miny= " << ymin << endl;
+#endif
+	
+	Eigen::MatrixXd D(edgeList.size(), 6);
+	Eigen::MatrixXd C(6,6);
+	Eigen::MatrixXd tmpA(3, 3);
+	Eigen::MatrixXd tmpB(3, 3);
+	Eigen::MatrixXd tmpD(3, 3);
+	Eigen::MatrixXd tmpC(3, 3);
+	Eigen::MatrixXd S, tmp, tmpE, tmp1, tmp2, evec_y;
+	
+	Eigen::VectorXd A(6);
 
 	//% Build design matrix
 	//D = [x.*x  x.*y  y.*y  x  y  ones(size(x))];
-	cv::Mat D(edgeList.size(), 6, CV_32FC1);
-	cv::Mat S, tmpE,tmp,tmp1,tmp2, evec_x, eval_x;
-	cv::Mat C = cv::Mat::zeros(6, 6, CV_32FC1);
-	cv::Mat tmpA = cv::Mat(3, 3, CV_32FC1);
-	cv::Mat tmpB = cv::Mat(3, 3, CV_32FC1);
-	cv::Mat tmpC = cv::Mat(3, 3, CV_32FC1);
-	cv::Mat tmpD = cv::Mat(3, 3, CV_32FC1);
 	int index = 0;
-	int x, y;
 	for (std::list<Point*>::const_iterator i = edgeList.cbegin(); i != edgeList.cend(); i++)	{
 		//D(row,col)
-		x = (*i)->getX();
-		y = (*i)->getY();
-		D.at<float>(index, 0) = x*x;
-		D.at<float>(index, 1) = x*y;
-		D.at<float>(index, 2) = y*y;
-		D.at<float>(index, 3) = x;
-		D.at<float>(index, 4) = y;
-		D.at<float>(index, 5) = 1;
+		//normalize step 2
+		//x = (X - mx) / sx;
+		//y = (Y - my) / sy;
+		x = ((*i)->getX()-mx)/sx;
+		y = ((*i)->getY()-my)/sy;
+		D(index, 0) = x*x;
+		D(index, 1) = x*y;
+		D(index, 2) = y*y;
+		D(index, 3) = x;
+		D(index, 4) = y;
+		D(index, 5) = 1;
 
 		index++;
 	}
 	
 	/*% Build scatter matrix
 		S = D'*D;*/
-	S = D.t()*D;
+	S = D.transpose()*D;
+
 #ifdef DEBUG_CALC
 	cout << "S=" << endl << S << endl << endl;
 #endif
 	/*% Build 6x6 constraint matrix
 	C(6, 6) = 0; C(1, 3) = -2; C(2, 2) = 1; C(3, 1) = -2;*/
-	C.at<float>(0, 2) = -2;
-	C.at<float>(1, 1) = 1;
-	C.at<float>(2, 0) = -2;
+	C=C.Zero(6,6);
+	C(0, 2) = -2;
+	C(1, 1) = 1;
+	C(2, 0) = -2;
 
 	//% New way, numerically stabler in C[gevec, geval] = eig(S, C);
 #ifdef DEBUG_CALC
@@ -684,24 +729,24 @@ int EdgeSegment::calcConic(Conic* c) {
 #endif
 	/*% Break into blocks*/
 	//tmpA = S(1:3, 1 : 3);
-	tmpA.at<float>(0, 0) = S.at<float>(0, 0);		tmpA.at<float>(0, 1) = S.at<float>(0, 1);		tmpA.at<float>(0, 2) = S.at<float>(0, 2);
-	tmpA.at<float>(1, 0) = S.at<float>(1, 0);		tmpA.at<float>(1, 1) = S.at<float>(1, 1);		tmpA.at<float>(1, 2) = S.at<float>(1, 2);
-	tmpA.at<float>(2, 0) = S.at<float>(2, 0);		tmpA.at<float>(2, 1) = S.at<float>(2, 1);		tmpA.at<float>(2, 2) = S.at<float>(2, 2);
+	tmpA(0, 0) = S(0, 0);		tmpA(0, 1) = S(0, 1);		tmpA(0, 2) = S(0, 2);
+	tmpA(1, 0) = S(1, 0);		tmpA(1, 1) = S(1, 1);		tmpA(1, 2) = S(1, 2);
+	tmpA(2, 0) = S(2, 0);		tmpA(2, 1) = S(2, 1);		tmpA(2, 2) = S(2, 2);
 
 	//tmpB = S(1:3, 4 : 6);
-	tmpB.at<float>(0, 0) = S.at<float>(0, 3);		tmpB.at<float>(0, 1) = S.at<float>(0, 4);		tmpB.at<float>(0, 2) = S.at<float>(0, 5);
-	tmpB.at<float>(1, 0) = S.at<float>(1, 3);		tmpB.at<float>(1, 1) = S.at<float>(1, 4);		tmpB.at<float>(1, 2) = S.at<float>(1, 5);
-	tmpB.at<float>(2, 0) = S.at<float>(2, 3);		tmpB.at<float>(2, 1) = S.at<float>(2, 4);		tmpB.at<float>(2, 2) = S.at<float>(2, 5);
+	tmpB(0, 0) = S(0, 3);		tmpB(0, 1) = S(0, 4);		tmpB(0, 2) = S(0, 5);
+	tmpB(1, 0) = S(1, 3);		tmpB(1, 1) = S(1, 4);		tmpB(1, 2) = S(1, 5);
+	tmpB(2, 0) = S(2, 3);		tmpB(2, 1) = S(2, 4);		tmpB(2, 2) = S(2, 5);
 
 	//tmpC = S(4:6, 4 : 6);
-	tmpC.at<float>(0, 0) = S.at<float>(3, 3);		tmpC.at<float>(0, 1) = S.at<float>(3, 4);		tmpC.at<float>(0, 2) = S.at<float>(3, 5);
-	tmpC.at<float>(1, 0) = S.at<float>(4, 3);		tmpC.at<float>(1, 1) = S.at<float>(4, 4);		tmpC.at<float>(1, 2) = S.at<float>(4, 5);
-	tmpC.at<float>(2, 0) = S.at<float>(5, 3);		tmpC.at<float>(2, 1) = S.at<float>(5, 4);		tmpC.at<float>(2, 2) = S.at<float>(5, 5);
+	tmpC(0, 0) = S(3, 3);		tmpC(0, 1) = S(3, 4);		tmpC(0, 2) = S(3, 5);
+	tmpC(1, 0) = S(4, 3);		tmpC(1, 1) = S(4, 4);		tmpC(1, 2) = S(4, 5);
+	tmpC(2, 0) = S(5, 3);		tmpC(2, 1) = S(5, 4);		tmpC(2, 2) = S(5, 5);
 
 	//tmpD = C(1:3, 1 : 3);
-	tmpD.at<float>(0, 0) = C.at<float>(0, 0);		tmpD.at<float>(0, 1) = C.at<float>(0, 1);		tmpD.at<float>(0, 2) = C.at<float>(0, 2);
-	tmpD.at<float>(1, 0) = C.at<float>(1, 0);		tmpD.at<float>(1, 1) = C.at<float>(1, 1);		tmpD.at<float>(1, 2) = C.at<float>(1, 2);
-	tmpD.at<float>(2, 0) = C.at<float>(2, 0);		tmpD.at<float>(2, 1) = C.at<float>(2, 1);		tmpD.at<float>(2, 2) = C.at<float>(2, 2);
+	tmpD(0, 0) = C(0, 0);		tmpD(0, 1) = C(0, 1);		tmpD(0, 2) = C(0, 2);
+	tmpD(1, 0) = C(1, 0);		tmpD(1, 1) = C(1, 1);		tmpD(1, 2) = C(1, 2);
+	tmpD(2, 0) = C(2, 0);		tmpD(2, 1) = C(2, 1);		tmpD(2, 2) = C(2, 2);
 
 #ifdef DEBUG_CALC
 	cout << "tmpA=" << endl << tmpA << endl << endl;
@@ -710,37 +755,61 @@ int EdgeSegment::calcConic(Conic* c) {
 	cout << "tmpD=" << endl << tmpD << endl << endl;
 #endif
 	//tmpE = inv(tmpC)*tmpB';
-	tmpE = tmpC.inv(cv::DECOMP_LU)*tmpB.t();
+	tmpE = tmpC.inverse()*tmpB.transpose();
+
 #ifdef DEBUG_CALC
 	cout << "tmpE=" << endl << tmpE << endl << endl;
 #endif
+
 	//[evec_x, eval_x] = eig(inv(tmpD) * (tmpA - tmpB*tmpE)); 
 	tmp1 = tmpB*tmpE;
 	tmp2 = tmpA - tmp1;
-	tmp = tmpD.inv(cv::DECOMP_LU)*tmp2;
+	tmp = tmpD.inverse()*tmp2;
+
 #ifdef DEBUG_CALC
 	cout << "tmp1=" << endl << tmp1 << endl << endl;
 	cout << "tmp2=" << endl << tmp2 << endl << endl;
 	cout << "tmp=" << endl << tmp << endl << endl;
 #endif
-	cv::eigen(tmp, eval_x, evec_x);
-#ifdef DEBUG_CALC
 
-	cout << "eval_x=" << endl << eval_x << endl << endl;
-	cout << "evec_x=" << endl << evec_x << endl << endl;
+	Eigen::EigenSolver<Eigen::MatrixXd> es(tmp);
+	Eigen::MatrixXd eigenval=es.eigenvalues().real();
+	Eigen::MatrixXd eigenvec = es.eigenvectors().real();
+
+#ifdef DEBUG_CALC
+	cout << "val=" << endl << eigenval << endl << endl;
+	cout << "val rows=" << eigenval.rows() << endl << "val cols=" << eigenval.cols() <<  endl;
+	cout << "vec=" << endl << eigenvec << endl << endl;
 #endif
+
 	//% Find the negative(as det(tmpD) < 0) eigenvalue
 	//I = find(real(diag(eval_x)) < 1e-8 & ~isinf(diag(eval_x)));
-	/*for (size_t i = 0; i < length; i++)
-	{
+	for (int i = 0; i < eigenval.rows(); i++)	{
+		if (eigenval(i,0) < 0) {
+			i_neg_eigenval = i;
+			break;
+		}
+	}
 
-	}*/
+#ifdef DEBUG_CALC
+	cout << "Negative eigenvalue: " << eigenval(i_neg_eigenval, 0) << endl;
+#endif
 
 	/*% Extract eigenvector corresponding to negative eigenvalue
 		A = real(evec_x(:, I));*/
+	Eigen::VectorXd at=eigenvec.col(i_neg_eigenval).real();
+
+#ifdef DEBUG_CALC
+	cout << "coresponding eigenvector: " << at << endl;
+#endif
 
 	/*% Recover the bottom half...
 		evec_y = -tmpE * A;
 	A = [A; evec_y];*/
+	evec_y = -tmpE*at;
+#ifdef DEBUG_CALC
+	cout << " Evec_y: " << evec_y <<"  "<<evec_y.rows()<<"  "<<evec_y.cols() <<endl;
+#endif
+	A << at(0), at(1), at(2), evec_y(0), evec_y(1), evec_y(2);
 }
 
