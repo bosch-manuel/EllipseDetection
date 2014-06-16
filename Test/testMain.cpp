@@ -97,7 +97,6 @@ int main(int argc, char** argv)
 
 	///// Wait until user exit program by pressing a key
 	//waitKey(0);
-
 	Point *p1 = new Point(50, 8);
 	Point *p2 = new Point(53, 7);
 	Point *p3 = new Point(57, 9);
