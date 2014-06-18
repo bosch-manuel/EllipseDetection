@@ -2,6 +2,7 @@
 #define ELLIPSE_H
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
+#include "Point.h"
 
 class Ellipse
 {
@@ -18,6 +19,8 @@ public:
 	double getTheta();
 
 	void drawToImage(cv::Mat *img,cv::Scalar *color);
+
+	double calcSumOfDistances(std::list<Point*> *points);
 private:
 	double x0;
 	double y0;

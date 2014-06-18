@@ -1,5 +1,7 @@
 #include "Ellipse.h"
 #include "Defines.h"
+#include <list>
+#include <iostream>
 
 
 
@@ -46,6 +48,24 @@ double Ellipse::getb() {
 
 double Ellipse::getTheta() {
 	return theta;
+}
+
+double Ellipse::calcSumOfDistances(std::list<Point*> *points) {
+	int xi, yi, y1,y2;
+	double dist;
+	double sum_dist=0;
+	for (std::list<Point*>::const_iterator i = points->cbegin(); i != points->cend(); i++)	{
+		//calc algebraic distance to ellipse
+		xi = (*i)->getX();
+		yi = (*i)->getY();
+		y1 = y0+(b/a)*sqrt(a*a-(xi-x0)*(xi-x0));
+		y2 = y0 - (b / a)*sqrt(a*a - (xi - x0)*(xi - x0));
+		dist = std::min(abs(yi - y1), abs(yi - y2));
+#ifdef DEBUG_ELLIP_DIST
+		std::cout << ": " << dist << std::endl << std::endl;
+#endif
+		sum_dist += dist;
+	}
 }
 
 void Ellipse::drawToImage(cv::Mat *img,cv::Scalar *color) {

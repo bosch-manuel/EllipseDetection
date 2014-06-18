@@ -47,6 +47,8 @@
 #define BEGIN_BEGIN 4
 
 /*Conic calculation*/
-#define DEBUG_CALC
+//#define DEBUG_CALC
+#define DEBUG_ELLIP_DIST
+#define TH_E /*an ellipse is a valid if the sum of the devations of all points from the ellipse is smaller than TH_E*/
 
 #endif
