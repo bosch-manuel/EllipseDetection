@@ -4,7 +4,7 @@
 #include "Defines.h"
 #include "Point.h"
 #include "opencv2/imgproc/imgproc.hpp"
-#include "Conic.h"
+#include "Ellipse.h"
 #include <list>
 
 #define LSEG_EDGE 0 //line segmented edge segment
@@ -82,7 +82,7 @@ public:
 	num of curve segments; -1 if edge segment was not segmented*/
 	int curveSegmentationImproved(std::list<EdgeSegment*> *curveSegments, std::fstream *csf);
 
-	int calcConic(Conic* c);
+	Ellipse* calcEllipse();
 
 	//bool operator<(const EdgeSegment& other) const;
 

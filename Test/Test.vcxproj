@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Conic.cpp" />
     <ClCompile Include="EdgeSegment.cpp" />
+    <ClCompile Include="Ellipse.cpp" />
     <ClCompile Include="EllipticalArc.cpp" />
     <ClCompile Include="LinearizedEdgeSegment.cpp" />
     <ClCompile Include="main.cpp" />
@@ -32,6 +33,7 @@
     <ClInclude Include="Conic.h" />
     <ClInclude Include="Defines.h" />
     <ClInclude Include="EdgeSegment.h" />
+    <ClInclude Include="Ellipse.h" />
     <ClInclude Include="EllipticalArc.h" />
     <ClInclude Include="LinearizedEdgeSegment.h" />
     <ClInclude Include="Point.h" />
@@ -122,7 +124,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(OPENCV_DIR)\include;D:\eigen\eigen-eigen-6b38706d90a9\Eigen</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(OPENCV_DIR)\include;$(EIGEN)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

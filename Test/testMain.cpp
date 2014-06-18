@@ -7,7 +7,7 @@
 #include <iostream>
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
-#include "Conic.h"
+#include "Ellipse.h"
 //
 //using namespace std;
 //int main(int argc, char** argv) {
@@ -97,6 +97,8 @@ int main(int argc, char** argv)
 
 	///// Wait until user exit program by pressing a key
 	//waitKey(0);
+	cv::Mat img(100, 50, CV_8UC3);
+	img= cv::Scalar(255, 255, 255);
 	Point *p1 = new Point(50, 8);
 	Point *p2 = new Point(53, 7);
 	Point *p3 = new Point(57, 9);
@@ -115,8 +117,15 @@ int main(int argc, char** argv)
 	e1.push_backPoint(p6);
 	e1.push_backPoint(p7);
 	e1.push_backPoint(p8);
-	Conic c(0,0,0,0,0,0);
-	e1.calcConic(&c);
-	while (1){}
+	Ellipse *e;
+	e=e1.calcEllipse();
+
+	e->drawToImage(&img, new cv::Scalar(50, 50, 50));
+
+	char* ellipse = "Edges";
+	cv::namedWindow(ellipse, CV_WINDOW_AUTOSIZE);
+	cv::imshow(ellipse, img);
+	cv::imwrite("..\\testelp.jpg",img);
+	cv::waitKey(0);
 	return 0;
 }

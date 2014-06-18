@@ -4,7 +4,7 @@
 #include "PreProcessing.hpp"
 #include "Conic.h"
 #include <climits>
-#include "\eigen\eigen-eigen-6b38706d90a9\Eigen\Eigenvalues"
+#include "\eigen-eigen-6b38706d90a9\Eigen\Eigenvalues"
 #include <iostream>
 
 using namespace std;
@@ -630,9 +630,9 @@ int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegment
 Based on optimized MAtlab code from "Direct Least Squares Fitting for Ellipses"
 http://research.microsoft.com/en-us/um/people/awf/ellipse/fitellipse.html
 */
-int EdgeSegment::calcConic(Conic* c) {
+Ellipse* EdgeSegment::calcEllipse() {
 	if (edgeList.size() < 6) {
-		return -1; //Error too few points
+		return NULL; //Error too few points
 	}
 	double mx, my, sx, sy, xmax,xmin, ymax,ymin,x,y;
 	int ind = 0;
@@ -688,6 +688,7 @@ int EdgeSegment::calcConic(Conic* c) {
 	Eigen::MatrixXd S, tmp, tmpE, tmp1, tmp2, evec_y;
 	
 	Eigen::VectorXd A(6);
+	Eigen::VectorXd a(6);
 
 	//% Build design matrix
 	//D = [x.*x  x.*y  y.*y  x  y  ones(size(x))];
@@ -792,7 +793,7 @@ int EdgeSegment::calcConic(Conic* c) {
 	}
 
 #ifdef DEBUG_CALC
-	cout << "Negative eigenvalue: " << eigenval(i_neg_eigenval, 0) << endl;
+	cout << "Negative eigenvalue: " << eigenval(i_neg_eigenval, 0) << endl << endl;
 #endif
 
 	/*% Extract eigenvector corresponding to negative eigenvalue
@@ -800,7 +801,7 @@ int EdgeSegment::calcConic(Conic* c) {
 	Eigen::VectorXd at=eigenvec.col(i_neg_eigenval).real();
 
 #ifdef DEBUG_CALC
-	cout << "coresponding eigenvector: " << at << endl;
+	cout << "coresponding eigenvector: " << endl << at << endl << endl;
 #endif
 
 	/*% Recover the bottom half...
@@ -808,8 +809,36 @@ int EdgeSegment::calcConic(Conic* c) {
 	A = [A; evec_y];*/
 	evec_y = -tmpE*at;
 #ifdef DEBUG_CALC
-	cout << " Evec_y: " << evec_y <<"  "<<evec_y.rows()<<"  "<<evec_y.cols() <<endl;
+	cout << " Evec_y: " << endl << evec_y << "  " << evec_y.rows() << "  " << evec_y.cols() << endl << endl;
 #endif
 	A << at(0), at(1), at(2), evec_y(0), evec_y(1), evec_y(2);
+#ifdef DEBUG_CALC
+	cout << " A: " << endl << A << endl << endl;
+#endif
+
+	/*% unnormalize
+		par = [
+			A(1)*sy*sy, ...
+				A(2)*sx*sy, ...
+				A(3)*sx*sx, ...
+				- 2 * A(1)*sy*sy*mx - A(2)*sx*sy*my + A(4)*sx*sy*sy, ...
+				- A(2)*sx*sy*mx - 2 * A(3)*sx*sx*my + A(5)*sx*sx*sy, ...
+				A(1)*sy*sy*mx*mx + A(2)*sx*sy*mx*my + A(3)*sx*sx*my*my   ...
+				- A(4)*sx*sy*sy*mx - A(5)*sx*sx*sy*my   ...
+				+ A(6)*sx*sx*sy*sy   ...
+		]';*/
+	a(0) =A(0)* sy*sy;
+	a(1) = A(1)*sx*sy;
+	a(2) = A(2)*sx*sx;
+	a(3) = -2 * A(0)*sy*sy*mx - A(1)*sx*sy*my + A(3)*sx*sy*sy;
+	a(4) = -A(1)*sx*sy*mx - 2 * A(2)*sx*sx*my + A(4)*sx*sx*sy;
+	a(5) = A(0)*sy*sy*mx*mx + A(1)*sx*sy*mx*my + A(2)*sx*sx*my*my- A(3)*sx*sy*sy*mx - A(4)*sx*sx*sy*my+ A(5)*sx*sx*sy*sy;
+
+#ifdef DEBUG_CALC
+	cout << " a: " << endl << a << endl << endl;
+#endif
+
+	return new Ellipse(a(0), a(1), a(2), a(3), a(4), a(5));
+
 }
 
