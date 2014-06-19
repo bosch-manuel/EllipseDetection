@@ -843,16 +843,18 @@ Ellipse* EdgeSegment::calcEllipse() {
 	double dist;
 	double sum_dist=0;
 
-	for (std::list<Point*>::const_iterator i = edgeList.cbegin(); i != edgeList.cend(); i++)	{
-		//calc algebraic distance to ellipse
-		x = (*i)->getX();
-		y = (*i)->getY();
-		dist = abs(a(0)*x*x + a(1)*x*y + a(2)*y*y + a(3)*x + a(4)*y + a(5));
-		cout << ": " << dist << endl << endl;
-		sum_dist += dist;
-	}
-	cout << "Summe der Abweichungen: "<<sum_dist << endl << endl;
-	return new Ellipse(a(0), a(1), a(2), a(3), a(4), a(5));
+	//for (std::list<Point*>::const_iterator i = edgeList.cbegin(); i != edgeList.cend(); i++)	{
+	//	//calc algebraic distance to ellipse
+	//	x = (*i)->getX();
+	//	y = (*i)->getY();
+	//	dist = abs(a(0)*x*x + a(1)*x*y + a(2)*y*y + a(3)*x + a(4)*y + a(5));
+	//	cout << ": " << dist << endl << endl;
+	//	sum_dist += dist;
+	//}
+	//cout << "Summe der Abweichungen: "<<sum_dist << endl << endl;
+	Ellipse *e=new Ellipse(a(0), a(1), a(2), a(3), a(4), a(5));
+	e->calcSumOfDistances(&edgeList);
+	return e;
 
 }
 

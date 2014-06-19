@@ -51,21 +51,34 @@ double Ellipse::getTheta() {
 }
 
 double Ellipse::calcSumOfDistances(std::list<Point*> *points) {
-	int xi, yi, y1,y2;
+	double xi, yi, y1,y2,dyiy1,dyiy2;
 	double dist;
 	double sum_dist=0;
+#ifdef DEBUG_ELLIP_DIST
+	std::cout << "Ellipse: x0,y0,a,b>> " << " (" << x0 << ")" << " (" << y0 << ")" << "(" << a << ")" << "(" << b << ")" << std::endl << std::endl;
+#endif
 	for (std::list<Point*>::const_iterator i = points->cbegin(); i != points->cend(); i++)	{
 		//calc algebraic distance to ellipse
 		xi = (*i)->getX();
 		yi = (*i)->getY();
 		y1 = y0+(b/a)*sqrt(a*a-(xi-x0)*(xi-x0));
 		y2 = y0 - (b / a)*sqrt(a*a - (xi - x0)*(xi - x0));
-		dist = std::min(abs(yi - y1), abs(yi - y2));
+		dyiy1 = abs(yi - y1);
+		dyiy2 = abs(yi - y2);
+		dist = std::min(dyiy1, dyiy2);
+		if (dist < -DBL_MAX) {
+			dist = 0;
+		}
 #ifdef DEBUG_ELLIP_DIST
-		std::cout << ": " << dist << std::endl << std::endl;
+		std::cout << "xi, yi (" << xi << ")"<<"("<<yi<<") - ("<<y1<<", "<<y2<<") : " << dist << std::endl << std::endl;
 #endif
 		sum_dist += dist;
 	}
+
+#ifdef DEBUG_ELLIP_DIST
+	std::cout << ">>>>>> " << sum_dist/points->size() << std::endl << std::endl;
+#endif
+	return sum_dist;
 }
 
 void Ellipse::drawToImage(cv::Mat *img,cv::Scalar *color) {
