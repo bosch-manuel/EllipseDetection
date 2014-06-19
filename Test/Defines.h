@@ -16,10 +16,10 @@
 #define ENDPOINT 200
 //#define DEBUG_MAXLINEDEV
 //#define DEBUG_LINESEG
-#define DEBUG_SHOW_LINESEGMENTEDEDGES
-#define DEBUG_SHOW_EDGESEGS
-#define DEBUG_SHOW_EDGES
-#define DEBUG_EVAL_CURVE
+//#define DEBUG_SHOW_LINESEGMENTEDEDGES
+//#define DEBUG_SHOW_EDGESEGS
+//#define DEBUG_SHOW_EDGES
+//#define DEBUG_EVAL_CURVE
 
 /*Line segmentation*/
 #define MIN_LENGTH 10
@@ -35,20 +35,20 @@
 #define A_TOL -.07 //-4 deg /*if A_TOL < a2-a1 < 0, segment will not be splitted at point P in regard to curvature condition */
 #define B_MIN 1.745 /*angles between the neighbouring lines in a curve segments must all be greater than B_MIN (in radian)*/
 #define B_MAX 3.054 /*angles between the neighbouring lines in a curve segments must all be smaller than B_MAX (in radian)*/
-
 //#define SINGLESTEPCURVE
 
-/*Curve grouping*/
-#define DEBUB_CURVE_GRP
-#define D0 10/*max distance between neighbouring curve segments*/
-#define END_END 1
-#define END_BEGIN 2
-#define BEGIN_END 3
-#define BEGIN_BEGIN 4
+///*Curve grouping*/
+////#define DEBUB_CURVE_GRP
+//#define D0 10/*max distance between neighbouring curve segments*/
+//#define END_END 1
+//#define END_BEGIN 2
+//#define BEGIN_END 3
+//#define BEGIN_BEGIN 4
 
-/*Conic calculation*/
+/*Ellipse calculation*/
 //#define DEBUG_CALC
-#define DEBUG_ELLIP_DIST
-#define TH_E /*an ellipse is a valid if the sum of the devations of all points from the ellipse is smaller than TH_E*/
+#define DRAW_ELLIPSES
+//#define DEBUG_ELLIP_DIST
+#define TH_E 1.1 /*an ellipse is a valid if the avarage distance of all points from the ellipse is smaller than TH_E*/
 
 #endif

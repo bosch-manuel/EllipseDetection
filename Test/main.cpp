@@ -46,7 +46,7 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\3Ellipsen.png", CV_LOAD_IMAGE_GRAYSCALE);
 	 //cv::Mat src = cv::imread("..\\bloederFall1.png", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat src = cv::imread("..\\Bild3.jpg", CV_LOAD_IMAGE_GRAYSCALE);
-	cv::Mat ellipses = cv::imread("..\\Bild3.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat ellipseImage = cv::imread("..\\Bild3.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\Unbenannt.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
@@ -67,6 +67,7 @@ int main(int argc, char** argv) {
 	list<EdgeSegment*> edgeSegments;
 	list<Point*> endPoints;
 	list<EdgeSegment*> curveSegments;
+	list<Ellipse*> ellipses;
 	set<EllipticalArc*> ellipticalArcs;
 	int edgeCnt=0;
 
@@ -180,11 +181,12 @@ int main(int argc, char** argv) {
 	end = clock();
 	time = (end - start);
 	cout << "Laufzeit curveSegmentation: " << time << " ms" << endl;
-	std::fstream csf;
-	csf.open(EVAL_CURVE_DEBUG, std::ios::out);
+	
 	
 
 #ifdef DEBUB_CURVE_SEG
+	std::fstream csf;
+	csf.open(EVAL_CURVE_DEBUG, std::ios::out);
 	std::cout << "Curve Segments: " << t <<"Verwendete Segmente: "<<curveSegments.size()<< std::endl;
 	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
 		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
@@ -205,60 +207,58 @@ int main(int argc, char** argv) {
 	cv::imwrite("..\\curveSegments.jpg", curveSegImage);
 #endif
 
-	//curve grouping
-	start = clock();
-	int nArcs=curveGrouping(&curveSegments, &ellipticalArcs);
-	end = clock();
-	time = (end - start);
-	cout << "Laufzeit curveGrouping: " << time << " ms" << endl;
-
-#ifdef DEBUB_CURVE_GRP
-	cout << "Elliptical Arcs: " << nArcs << endl;
-	cv::Mat arcImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
-	for (set<EllipticalArc*>::iterator it = ellipticalArcs.begin(); it != ellipticalArcs.end(); it++){
-		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
-		(*it)->drawToImage(&arcImage, color);
-		//char* arcs_window = "Elliptical Arcs";
-		//cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
-		//cv::imshow(arcs_window, arcImage);
-		////cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
-		//cv::waitKey(0);
-	}
-	char* arcs_window = "Elliptical Arcs";
-	cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
-	cv::imshow(arcs_window, arcImage);
-	cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
-#endif
-
+//	//curve grouping
+//	start = clock();
+//	int nArcs=curveGrouping(&curveSegments, &ellipticalArcs);
+//	end = clock();
+//	time = (end - start);
+//	cout << "Laufzeit curveGrouping: " << time << " ms" << endl;
+//
+//#ifdef DEBUB_CURVE_GRP
+//	cout << "Elliptical Arcs: " << nArcs << endl;
+//	cv::Mat arcImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
+//	for (set<EllipticalArc*>::iterator it = ellipticalArcs.begin(); it != ellipticalArcs.end(); it++){
+//		cv::Vec3b color(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
+//		(*it)->drawToImage(&arcImage, color);
+//		//char* arcs_window = "Elliptical Arcs";
+//		//cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
+//		//cv::imshow(arcs_window, arcImage);
+//		////cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
+//		//cv::waitKey(0);
+//	}
+//	char* arcs_window = "Elliptical Arcs";
+//	cv::namedWindow(arcs_window, CV_WINDOW_AUTOSIZE);
+//	cv::imshow(arcs_window, arcImage);
+//	cv::imwrite("..\\ellipticalArcs.jpg", arcImage);
+//#endif
+//
 	//calc ellipses
+	start = clock();
 	Ellipse *e;
 	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
-		cv::Vec3b color(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		e = (*it)->calcEllipse();
 		if (e != NULL) {
-			(*it)->drawToImage(&ellipses,cv::Vec3b(255, 0, 0));
-			char* Ellipse_window = "Ellipses";
-			cv::namedWindow(Ellipse_window, CV_WINDOW_AUTOSIZE);
-			cv::imshow(Ellipse_window, ellipses);
-			cv::waitKey(0);
-			e->drawToImage(&ellipses,new cv::Scalar(255,0,0));
-			cv::namedWindow(Ellipse_window, CV_WINDOW_AUTOSIZE);
-			cv::imshow(Ellipse_window, ellipses);
-			cv::waitKey(0);
+			ellipses.push_back(e);
 		}
-#ifdef SINGLESTEPCURVE
-		char* curveSegments_window = "Curve Segments";
-		cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
-		cv::imshow(curveSegments_window, curveSegImage);
-		cout << (*it)->ID << endl;
-		cv::waitKey(0);
-#endif
+	}
+
+	end = clock();
+	time = (end - start);
+	cout << "Laufzeit Ellipsenberechnung: " << time << " ms" << endl;
+
+#ifdef DRAW_ELLIPSES
+	for (list<Ellipse*>::iterator it = ellipses.begin(); it != ellipses.end(); it++){
+		cv::Scalar color(255,255,255);
+
+		(*it)->drawToImage(&ellipseImage, &color);
+
 	}
 	char* Ellipse_window = "Ellipses";
 	cv::namedWindow(Ellipse_window, CV_WINDOW_AUTOSIZE);
-	cv::imshow(Ellipse_window, ellipses);
+	cv::imshow(Ellipse_window, ellipseImage);
 	//cv::waitKey(0);
-	cv::imwrite("..\\Ellipses.jpg", ellipses);
+	cv::imwrite("..\\Ellipses.jpg", ellipseImage);
+#endif
 	cv::waitKey(0);
 	return(0);
 }

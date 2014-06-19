@@ -572,151 +572,151 @@ void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2, std::set<EllipticalArc*
 	}
 }
 
-int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *arcs) {
-#ifdef DEBUB_CURVE_GRP
-	std::fstream csf;
-	csf.open(CURVE_GRP_DEBUG, std::ios::out);
-#endif 
-	Point *nfirst = NULL, *nend = NULL, *mfirst = NULL, *mend = NULL, *N1 = NULL, *M1 = NULL, *N2 = NULL, *M2 = NULL, *r1 = NULL, *r2 = NULL;
-	Point *L1 = NULL, *L2 = NULL, *L3 = NULL, *R1 = NULL, *R2 = NULL, *R3 = NULL;
-	EdgeSegment *cS_min = NULL;
-	int order_min; //eS_min must be added in this order
-	int order_tmp;
-	int d, s = 0;
-	int nEmE, nEmB, nBmE, nBmB;
-	double a_min = 2 * PI, a_tmp;
-	//neightbourhood curve grouping:
-	//search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
-	for (std::list<EdgeSegment*>::iterator n = curveSegs->begin(); n != curveSegs->end(); n++) {
-		if (*n != NULL) {
-			/*EllipticalArc *tmp = new EllipticalArc;
-			tmp->addSegment((*n));
-			arcs->insert(tmp);*/
-#ifdef DEBUB_CURVE_GRP
-			csf << "Seg " << (*n)->ID << std::endl;
-#endif
-			nfirst = (*n)->getFirstPoint();
-			nend = (*n)->getLastPoint();
-			for (std::list<EdgeSegment*>::iterator m = curveSegs->begin(); m != curveSegs->end(); m++) {
-				if (*n != *m) {
-					mfirst = (*m)->getFirstPoint();
-					mend = (*m)->getLastPoint();
-					//calc distance between n and m
-					nEmE/*mEnE*/ = (*mend - *nend).norm() + .5;
-					nBmE/*mEnB*/ = (*mend - *nfirst).norm() + .5;
-					nEmB/*mBnE*/ = (*mfirst - *nend).norm() + .5;
-					nBmB/*mBnB*/ = (*mfirst - *nfirst).norm() + .5;
-					d = std::min(std::min(nEmE, nBmE), std::min(nEmB, nBmB));
-					if (d>0 && d < D0) {
-						if (d == nEmE) {
-							order_tmp = END_END;
-							M1 = (*m)->getLastPoint();
-							N1 = (*n)->getLastPoint();
-							M2 = (*m)->getNextToLastPoint();
-							N2 = (*n)->getNextToLastPoint();
-						}
-						else if (d == nBmE) {
-							order_tmp = BEGIN_END;
-							M1 = (*m)->getLastPoint();
-							N1 = (*n)->getFirstPoint();
-							M2 = (*m)->getNextToLastPoint();
-							N2 = (*n)->getSecondPoint();
-						}
-						else if (d == nEmB) {
-							order_tmp = END_BEGIN;
-							M1 = (*m)->getFirstPoint();
-							N1 = (*n)->getLastPoint();
-							M2 = (*m)->getSecondPoint();
-							N2 = (*n)->getNextToLastPoint();
-						}
-						else if (d == nBmB) {
-							order_tmp = BEGIN_BEGIN;
-							M1 = (*m)->getFirstPoint();
-							N1 = (*n)->getFirstPoint();
-							M2 = (*m)->getSecondPoint();
-							N2 = (*n)->getSecondPoint();
-						}
-
-						//calc angle between the tangents of m and n
-						r1 = &(*M1 - *M2);
-						r2 = &(*N2 - *N1);
-						a_tmp = acos((*r1 * *r2) / (r1->norm()* r2->norm()));
-#ifdef DEBUB_CURVE_GRP
-						csf << "Abstand: " << d << "  Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() << ") ::" << a_tmp << std::endl;
-#endif
-						if (a_tmp < a_min) {
-							//current angle between n and m is the smallest so far, so keep it in mind
-							order_min = order_tmp;
-							a_min = a_tmp;
-							cS_min = (*m);
-							L2 = M2;
-							L1 = M1;
-							R1 = N1;
-							R2 = N2;
-						}
-					}
-				}
-			}
-
-			//group n with the curve segment which has the smallest angle between tangents
-			if (cS_min != NULL) {
-				s = 0;
-				//get third point of cS_min in regard to connection order (order_min)
-				if (order_min == END_END || order_min==BEGIN_END){
-					for (std::list<Point*>::const_reverse_iterator i = cS_min->crbegin(); i != cS_min->crend() && s < 3; i++, s++)	{
-						L3 = (*i);
-					}
-				}
-				else if (order_min == BEGIN_BEGIN || order_min == END_BEGIN) {
-					for (std::list<Point*>::const_iterator i = cS_min->cbegin(); i != cS_min->cend() && s < 3; i++, s++)	{
-						L3 = (*i);
-					}
-				}
-				s = 0;
-				//get third point of n
-				if (order_min == END_END || order_min == END_BEGIN){
-					for (std::list<Point*>::const_reverse_iterator i = (*n)->crbegin(); i != (*n)->crend() && s < 3; i++, s++)	{
-						R3 = (*i);
-					}
-				}
-				else if (order_min == BEGIN_BEGIN || order_min == BEGIN_END) {
-					for (std::list<Point*>::const_iterator i = (*n)->cbegin(); i != (*n)->cend() && s < 3; i++, s++)	{
-						R3 = (*i);
-					}
-				}
-
-				if (angleCond(L3, L2, L1, R1, R2) || angleCond(R3, R2, R1, L1, L2) ||curvatureCond(R1,L1,L2,L3) || curvatureCond(L1,R1,R2,R3)) {
-					connectSegments((*n), NULL, arcs);// all segments must be contained in the arc segment set, even unconnected ones
-				}
-				else {
-					connectSegments((*n), cS_min, arcs);
-#ifdef DEBUB_CURVE_GRP
-					csf << "Seg " << (*n)->ID << " mit Seg " << cS_min->ID << "-> kleinster Winkel: " << a_min << std::endl;
-					csf << "################ Zusammengefuegt ######################" << std::endl;
-#endif
-				}
-			}
-			else {// all segments must be contained in the arc segment set, even unconnected ones
-				connectSegments((*n), NULL, arcs);
-			}
-			cS_min = NULL;
-			a_min = 2 * PI;
-		}
-
-	}
-
-	//global curve grouping:
-	for (std::set<EllipticalArc*>::iterator n = arcs->begin(); n != arcs->end(); n++) {
-		if (*n != NULL) {
-			for (std::list<EdgeSegment*>::iterator m = curveSegs->begin(); m != curveSegs->end(); m++) {
-
-			}
-		}
-	}
-
-#ifdef DEBUB_CURVE_GRP
-	csf.close();
-#endif
-
-	return arcs->size();
-}
+//int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *arcs) {
+//#ifdef DEBUB_CURVE_GRP
+//	std::fstream csf;
+//	csf.open(CURVE_GRP_DEBUG, std::ios::out);
+//#endif 
+//	Point *nfirst = NULL, *nend = NULL, *mfirst = NULL, *mend = NULL, *N1 = NULL, *M1 = NULL, *N2 = NULL, *M2 = NULL, *r1 = NULL, *r2 = NULL;
+//	Point *L1 = NULL, *L2 = NULL, *L3 = NULL, *R1 = NULL, *R2 = NULL, *R3 = NULL;
+//	EdgeSegment *cS_min = NULL;
+//	int order_min; //eS_min must be added in this order
+//	int order_tmp;
+//	int d, s = 0;
+//	int nEmE, nEmB, nBmE, nBmB;
+//	double a_min = 2 * PI, a_tmp;
+//	//neightbourhood curve grouping:
+//	//search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
+//	for (std::list<EdgeSegment*>::iterator n = curveSegs->begin(); n != curveSegs->end(); n++) {
+//		if (*n != NULL) {
+//			/*EllipticalArc *tmp = new EllipticalArc;
+//			tmp->addSegment((*n));
+//			arcs->insert(tmp);*/
+//#ifdef DEBUB_CURVE_GRP
+//			csf << "Seg " << (*n)->ID << std::endl;
+//#endif
+//			nfirst = (*n)->getFirstPoint();
+//			nend = (*n)->getLastPoint();
+//			for (std::list<EdgeSegment*>::iterator m = curveSegs->begin(); m != curveSegs->end(); m++) {
+//				if (*n != *m) {
+//					mfirst = (*m)->getFirstPoint();
+//					mend = (*m)->getLastPoint();
+//					//calc distance between n and m
+//					nEmE/*mEnE*/ = (*mend - *nend).norm() + .5;
+//					nBmE/*mEnB*/ = (*mend - *nfirst).norm() + .5;
+//					nEmB/*mBnE*/ = (*mfirst - *nend).norm() + .5;
+//					nBmB/*mBnB*/ = (*mfirst - *nfirst).norm() + .5;
+//					d = std::min(std::min(nEmE, nBmE), std::min(nEmB, nBmB));
+//					if (d>0 && d < D0) {
+//						if (d == nEmE) {
+//							order_tmp = END_END;
+//							M1 = (*m)->getLastPoint();
+//							N1 = (*n)->getLastPoint();
+//							M2 = (*m)->getNextToLastPoint();
+//							N2 = (*n)->getNextToLastPoint();
+//						}
+//						else if (d == nBmE) {
+//							order_tmp = BEGIN_END;
+//							M1 = (*m)->getLastPoint();
+//							N1 = (*n)->getFirstPoint();
+//							M2 = (*m)->getNextToLastPoint();
+//							N2 = (*n)->getSecondPoint();
+//						}
+//						else if (d == nEmB) {
+//							order_tmp = END_BEGIN;
+//							M1 = (*m)->getFirstPoint();
+//							N1 = (*n)->getLastPoint();
+//							M2 = (*m)->getSecondPoint();
+//							N2 = (*n)->getNextToLastPoint();
+//						}
+//						else if (d == nBmB) {
+//							order_tmp = BEGIN_BEGIN;
+//							M1 = (*m)->getFirstPoint();
+//							N1 = (*n)->getFirstPoint();
+//							M2 = (*m)->getSecondPoint();
+//							N2 = (*n)->getSecondPoint();
+//						}
+//
+//						//calc angle between the tangents of m and n
+//						r1 = &(*M1 - *M2);
+//						r2 = &(*N2 - *N1);
+//						a_tmp = acos((*r1 * *r2) / (r1->norm()* r2->norm()));
+//#ifdef DEBUB_CURVE_GRP
+//						csf << "Abstand: " << d << "  Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() << ") ::" << a_tmp << std::endl;
+//#endif
+//						if (a_tmp < a_min) {
+//							//current angle between n and m is the smallest so far, so keep it in mind
+//							order_min = order_tmp;
+//							a_min = a_tmp;
+//							cS_min = (*m);
+//							L2 = M2;
+//							L1 = M1;
+//							R1 = N1;
+//							R2 = N2;
+//						}
+//					}
+//				}
+//			}
+//
+//			//group n with the curve segment which has the smallest angle between tangents
+//			if (cS_min != NULL) {
+//				s = 0;
+//				//get third point of cS_min in regard to connection order (order_min)
+//				if (order_min == END_END || order_min==BEGIN_END){
+//					for (std::list<Point*>::const_reverse_iterator i = cS_min->crbegin(); i != cS_min->crend() && s < 3; i++, s++)	{
+//						L3 = (*i);
+//					}
+//				}
+//				else if (order_min == BEGIN_BEGIN || order_min == END_BEGIN) {
+//					for (std::list<Point*>::const_iterator i = cS_min->cbegin(); i != cS_min->cend() && s < 3; i++, s++)	{
+//						L3 = (*i);
+//					}
+//				}
+//				s = 0;
+//				//get third point of n
+//				if (order_min == END_END || order_min == END_BEGIN){
+//					for (std::list<Point*>::const_reverse_iterator i = (*n)->crbegin(); i != (*n)->crend() && s < 3; i++, s++)	{
+//						R3 = (*i);
+//					}
+//				}
+//				else if (order_min == BEGIN_BEGIN || order_min == BEGIN_END) {
+//					for (std::list<Point*>::const_iterator i = (*n)->cbegin(); i != (*n)->cend() && s < 3; i++, s++)	{
+//						R3 = (*i);
+//					}
+//				}
+//
+//				if (angleCond(L3, L2, L1, R1, R2) || angleCond(R3, R2, R1, L1, L2) ||curvatureCond(R1,L1,L2,L3) || curvatureCond(L1,R1,R2,R3)) {
+//					connectSegments((*n), NULL, arcs);// all segments must be contained in the arc segment set, even unconnected ones
+//				}
+//				else {
+//					connectSegments((*n), cS_min, arcs);
+//#ifdef DEBUB_CURVE_GRP
+//					csf << "Seg " << (*n)->ID << " mit Seg " << cS_min->ID << "-> kleinster Winkel: " << a_min << std::endl;
+//					csf << "################ Zusammengefuegt ######################" << std::endl;
+//#endif
+//				}
+//			}
+//			else {// all segments must be contained in the arc segment set, even unconnected ones
+//				connectSegments((*n), NULL, arcs);
+//			}
+//			cS_min = NULL;
+//			a_min = 2 * PI;
+//		}
+//
+//	}
+//
+//	//global curve grouping:
+//	for (std::set<EllipticalArc*>::iterator n = arcs->begin(); n != arcs->end(); n++) {
+//		if (*n != NULL) {
+//			for (std::list<EdgeSegment*>::iterator m = curveSegs->begin(); m != curveSegs->end(); m++) {
+//
+//			}
+//		}
+//	}
+//
+//#ifdef DEBUB_CURVE_GRP
+//	csf.close();
+//#endif
+//
+//	return arcs->size();
+//}

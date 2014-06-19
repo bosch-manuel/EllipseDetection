@@ -50,9 +50,9 @@ double Ellipse::getTheta() {
 	return theta;
 }
 
-double Ellipse::calcSumOfDistances(std::list<Point*> *points) {
-	double xi, yi, y1,y2,dyiy1,dyiy2;
-	double dist;
+double Ellipse::calcAvarageDistances(std::list<Point*> *points) {
+	double xi, yi, y1,y2,dyiy1,dyiy2,x1,x2,k,m;
+	double dist,d1,d2;
 	double sum_dist=0;
 #ifdef DEBUG_ELLIP_DIST
 	std::cout << "Ellipse: x0,y0,a,b>> " << " (" << x0 << ")" << " (" << y0 << ")" << "(" << a << ")" << "(" << b << ")" << std::endl << std::endl;
@@ -61,16 +61,23 @@ double Ellipse::calcSumOfDistances(std::list<Point*> *points) {
 		//calc algebraic distance to ellipse
 		xi = (*i)->getX();
 		yi = (*i)->getY();
-		y1 = y0+(b/a)*sqrt(a*a-(xi-x0)*(xi-x0));
-		y2 = y0 - (b / a)*sqrt(a*a - (xi - x0)*(xi - x0));
-		dyiy1 = abs(yi - y1);
-		dyiy2 = abs(yi - y2);
-		dist = std::min(dyiy1, dyiy2);
-		if (dist < -DBL_MAX) {
-			dist = 0;
-		}
+		/*parameter of line through M and (xi,yi)*/
+		m = (yi - y0) / (xi - x0);
+		k = -((yi - y0) / (xi - x0))*x0 + y0;
+		/*Calc intersection between line and ellipse*/
+		x1 = (b *b * x0 + a *a * m*y0 + a*b*sqrt(a *a * m *m + b *b - k *k - 2 * k*m*x0 + 2 * k*y0 - m *m * x0 *x0 + 2 * m*x0*y0 - y0 *y0) - a *a * k*m) / (a *a * m*m + b *b);
+		x2 = (b *b * x0 + a *a * m*y0 - a*b*sqrt(a *a * m *m + b *b - k *k - 2 * k*m*x0 + 2 * k*y0 - m *m * x0 *x0 + 2 * m*x0*y0 - y0 *y0) - a *a* k*m) / (a *a * m *m + b *b);
+
+		y1 = m*x1 + k;
+		y2 = m*x2 + k;
+
+		d1 = sqrt(pow(y1 - yi, 2) + pow(x1 - xi, 2));
+		d2 = sqrt(pow(y2 - yi, 2) + pow(x2 - xi, 2));
+
+		dist = std::min(d1, d2);
+
 #ifdef DEBUG_ELLIP_DIST
-		std::cout << "xi, yi (" << xi << ")"<<"("<<yi<<") - ("<<y1<<", "<<y2<<") : " << dist << std::endl << std::endl;
+		std::cout << "xi, yi : " << dist << std::endl << std::endl;
 #endif
 		sum_dist += dist;
 	}
@@ -78,7 +85,8 @@ double Ellipse::calcSumOfDistances(std::list<Point*> *points) {
 #ifdef DEBUG_ELLIP_DIST
 	std::cout << ">>>>>> " << sum_dist/points->size() << std::endl << std::endl;
 #endif
-	return sum_dist;
+
+	return sum_dist / points->size();
 }
 
 void Ellipse::drawToImage(cv::Mat *img,cv::Scalar *color) {
