@@ -48,7 +48,7 @@
 /*Ellipse calculation*/
 //#define DEBUG_CALC
 #define DRAW_ELLIPSES
-//#define DEBUG_ELLIP_DIST
-#define TH_E 1.1 /*an ellipse is a valid if the avarage distance of all points from the ellipse is smaller than TH_E*/
+#define DEBUG_ELLIP_DIST
+#define TH_E 2 /*an ellipse is a valid if the avarage distance of all points from the ellipse is smaller than TH_E*/
 
 #endif

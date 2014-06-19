@@ -45,8 +45,10 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\Test.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\3Ellipsen.png", CV_LOAD_IMAGE_GRAYSCALE);
 	 //cv::Mat src = cv::imread("..\\bloederFall1.png", CV_LOAD_IMAGE_GRAYSCALE);
-	cv::Mat src = cv::imread("..\\Bild3.jpg", CV_LOAD_IMAGE_GRAYSCALE);
-	cv::Mat ellipseImage = cv::imread("..\\Bild3.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat src = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat ellipseImage = cv::imread("..\\strassenschilder2.png", CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat ellipseOnlyImage(src.rows, src.cols, CV_8UC3);
+	ellipseOnlyImage = cv::Scalar(255, 255, 255);
 	//cv::Mat src = cv::imread("..\\Unbenannt.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
@@ -238,26 +240,46 @@ int main(int argc, char** argv) {
 	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
 		e = (*it)->calcEllipse();
 		if (e != NULL) {
+#ifdef DEBUG_ELLIP_DIST
 			ellipses.push_back(e);
+			cv::Scalar color2(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
+			e->drawToImage(&ellipseOnlyImage, &color2);
+			char* Ellipse_window = "Ellipses";
+			cv::namedWindow(Ellipse_window, CV_WINDOW_AUTOSIZE);
+			cv::imshow(Ellipse_window, ellipseOnlyImage);
+			cv::waitKey(0);
+#else
+			ellipses.push_back(e);
+#endif
+			
 		}
 	}
 
 	end = clock();
 	time = (end - start);
+	cout << "Berechnete Ellipsen: " << ellipses.size() << endl;
 	cout << "Laufzeit Ellipsenberechnung: " << time << " ms" << endl;
 
 #ifdef DRAW_ELLIPSES
 	for (list<Ellipse*>::iterator it = ellipses.begin(); it != ellipses.end(); it++){
 		cv::Scalar color(255,255,255);
-
+		cv::Scalar color2(rng.uniform(10, 255), rng.uniform(10, 255), rng.uniform(10, 255));
 		(*it)->drawToImage(&ellipseImage, &color);
+		(*it)->drawToImage(&ellipseOnlyImage, &color2);
+		
 
 	}
+	char* EllipseOnSource_window = "EllipsesOnSource";
+	cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
+	cv::imshow(EllipseOnSource_window, ellipseImage);
+	//cv::waitKey(0);
+	cv::imwrite("..\\EllipsesOnSource.jpg", ellipseImage);
+
 	char* Ellipse_window = "Ellipses";
 	cv::namedWindow(Ellipse_window, CV_WINDOW_AUTOSIZE);
-	cv::imshow(Ellipse_window, ellipseImage);
+	cv::imshow(Ellipse_window, ellipseOnlyImage);
 	//cv::waitKey(0);
-	cv::imwrite("..\\Ellipses.jpg", ellipseImage);
+	cv::imwrite("..\\Ellipses.jpg", ellipseOnlyImage);
 #endif
 	cv::waitKey(0);
 	return(0);

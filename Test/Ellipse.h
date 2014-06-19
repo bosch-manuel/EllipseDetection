@@ -23,6 +23,7 @@ public:
 
 	double calcAvarageDistances(std::list<Point*> *points);
 private:
+	double A, B, C, D, E, F;
 	double x0;
 	double y0;
 	double a;

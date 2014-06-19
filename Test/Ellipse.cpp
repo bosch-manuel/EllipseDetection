@@ -6,6 +6,12 @@
 
 
 Ellipse::Ellipse(double A, double B, double C, double D, double E, double F) {
+	this->A = A;
+	this->B = B;
+	this->C = C;
+	this->D = D;
+	this->E = E;
+	this->F = F;
 	double A_, C_, D_, E_,cost,sint,x0_,y0_;
 	theta = atan2(B, A - C)/2;
 	cost = cos(theta);
@@ -51,11 +57,12 @@ double Ellipse::getTheta() {
 }
 
 double Ellipse::calcAvarageDistances(std::list<Point*> *points) {
-	double xi, yi, y1,y2,dyiy1,dyiy2,x1,x2,k,m;
+	double xi, yi, y1,y2,dyiy1,dyiy2,x1,x2,k,m,x1t,x2t,y1t,y2t,d1t,d2t;
 	double dist,d1,d2;
 	double sum_dist=0;
 #ifdef DEBUG_ELLIP_DIST
-	std::cout << "Ellipse: x0,y0,a,b>> " << " (" << x0 << ")" << " (" << y0 << ")" << "(" << a << ")" << "(" << b << ")" << std::endl << std::endl;
+	std::cout << "Ellipse: x0,y0,a,b : A B C D E F>> " << " (" << x0 << ")" << " (" << y0 << ")" << "(" << a << ")" << "(" << b << ") : " << "(" << A << ")" << "(" << B 
+		<< ")" << "(" << C << ")" << "(" << D << ")" << "(" << E << ")" << "(" << F << ")" << std::endl << std::endl;
 #endif
 	for (std::list<Point*>::const_iterator i = points->cbegin(); i != points->cend(); i++)	{
 		//calc algebraic distance to ellipse
@@ -74,10 +81,25 @@ double Ellipse::calcAvarageDistances(std::list<Point*> *points) {
 		d1 = sqrt(pow(y1 - yi, 2) + pow(x1 - xi, 2));
 		d2 = sqrt(pow(y2 - yi, 2) + pow(x2 - xi, 2));
 
-		dist = std::min(d1, d2);
+		/*x1t = (a *a * x0 + b *b * m*y0 + a*b*sqrt(b *b * m *m + a *a - k *k - 2 * k*m*x0 + 2 * k*y0 - m *m * x0 *x0 + 2 * m*x0*y0 - y0 *y0) - b *b * k*m) / (b *b * m*m + a *a);
+		x2t = (a *a * x0 + b *b * m*y0 - a*b*sqrt(b *b * m *m + a *a - k *k - 2 * k*m*x0 + 2 * k*y0 - m *m * x0 *x0 + 2 * m*x0*y0 - y0 *y0) - b *b * k*m) / (b *b * m*m + a *a);
+
+		y1t = m*x1 + k;
+		y2t = m*x2 + k;
+
+		d1t = sqrt(pow(y1 - yi, 2) + pow(x1 - xi, 2));
+		d2t = sqrt(pow(y2 - yi, 2) + pow(x2 - xi, 2));*/
+
+		dist =std::min(d1, d2);
 
 #ifdef DEBUG_ELLIP_DIST
-		std::cout << "xi, yi : " << dist << std::endl << std::endl;
+		if (dist == d1) {
+			std::cout << "xi, yi <> x1 y1 " << "(" << xi << ", " << yi << ")<>" << "(" << x1 << ", " << y1 << ")" << dist << std::endl << std::endl;
+		}
+		else {
+			std::cout << "xi, yi <> x2 y2 " << "(" << xi << ", " << yi << ")<>" << "(" << x2 << ", " << y2 << ")" << dist << std::endl << std::endl;
+		}
+		
 #endif
 		sum_dist += dist;
 	}
@@ -91,6 +113,6 @@ double Ellipse::calcAvarageDistances(std::list<Point*> *points) {
 
 void Ellipse::drawToImage(cv::Mat *img,cv::Scalar *color) {
 	cv::Point center(x0, y0);
-	cv::Size size(a, b);
+	cv::Size size(b, a);
 	cv::ellipse(*img, center, size, theta*(180/PI), 0, 360, *color,1,8,0);
 }

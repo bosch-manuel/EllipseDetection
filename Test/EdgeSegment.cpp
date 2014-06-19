@@ -841,9 +841,9 @@ Ellipse* EdgeSegment::calcEllipse() {
 	//calculate if the ellipse is a true ellipse for the given pixels
 	Ellipse *e=new Ellipse(a(0), a(1), a(2), a(3), a(4), a(5));
 	double avdist=e->calcAvarageDistances(&edgeList);
-	if (avdist >= TH_E) {
+	/*if (avdist >= TH_E) {
 		e = NULL;
-	}
+	}*/
 
 
 	return e;
