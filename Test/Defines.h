@@ -3,7 +3,8 @@
 #include <fstream>
 
 //#define SOURCE_IMAGE "..\\6Ellipsen.jpg"
-#define SOURCE_IMAGE "..\\strassenschilder2.png"
+//#define SOURCE_IMAGE "..\\strassenschilder2.png"
+#define SOURCE_IMAGE "..\\Bild3.jpg"
 
 #define TRUE 1
 #define FALSE 0
@@ -52,6 +53,6 @@
 //#define DEBUG_CALC
 #define DRAW_ELLIPSES
 #define DEBUG_ELLIP_DIST
-#define TH_E 2 /*an ellipse is a valid if the avarage distance of all points from the ellipse is smaller than TH_E*/
+#define TH_E 20 /*an ellipse is a valid if the avarage distance of all points from the ellipse is smaller than TH_E*/
 
 #endif

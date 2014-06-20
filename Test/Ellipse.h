@@ -21,7 +21,8 @@ public:
 
 	void drawToImage(cv::Mat *img,cv::Scalar *color);
 
-	double calcAvarageDistances(std::list<Point*> *points);
+	//double calcAvarageDistances(std::list<Point*> *points);
+	double calcDistanceToPoints(std::list<Point*> *points);
 private:
 	double A, B, C, D, E, F;
 	double x0;
