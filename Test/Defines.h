@@ -2,6 +2,9 @@
 #define DEFINES
 #include <fstream>
 
+//#define SOURCE_IMAGE "..\\6Ellipsen.jpg"
+#define SOURCE_IMAGE "..\\strassenschilder2.png"
+
 #define TRUE 1
 #define FALSE 0
 #define PI 3.14159265359

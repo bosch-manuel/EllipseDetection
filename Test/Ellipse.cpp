@@ -22,8 +22,8 @@ Ellipse::Ellipse(double A, double B, double C, double D, double E, double F) {
 	D_ = D*cost + E*sint;
 	E_ = -D*sint + E*cost;
 
-	a = sqrt((-4 * F*A_*C_ + C_*D_*D_ + A_*E_*E_) / (4 * A_*C_*C_));
-	b = sqrt((-4 * F*A_*C_ + C_*D_*D_ + A_*E_*E_) / (4 * A_*A_*C_));
+	b = sqrt((-4 * F*A_*C_ + C_*D_*D_ + A_*E_*E_) / (4 * A_*C_*C_));
+	a = sqrt((-4 * F*A_*C_ + C_*D_*D_ + A_*E_*E_) / (4 * A_*A_*C_));
 
 	x0_ = -D_ / (2 * A_);
 	y0_ = -E_ / (2 * C_);
@@ -57,7 +57,7 @@ double Ellipse::getTheta() {
 }
 
 double Ellipse::calcAvarageDistances(std::list<Point*> *points) {
-	double xi, yi, y1,y2,dyiy1,dyiy2,x1,x2,k,m,x1t,x2t,y1t,y2t,d1t,d2t;
+	double xi, yi, y1,y2,x1,x2,k,m;
 	double dist,d1,d2;
 	double sum_dist=0;
 #ifdef DEBUG_ELLIP_DIST
@@ -70,7 +70,7 @@ double Ellipse::calcAvarageDistances(std::list<Point*> *points) {
 		yi = (*i)->getY();
 		/*parameter of line through M and (xi,yi)*/
 		m = (yi - y0) / (xi - x0);
-		k = -((yi - y0) / (xi - x0))*x0 + y0;
+		k = -m*x0 + y0;
 		/*Calc intersection between line and ellipse*/
 		x1 = (b *b * x0 + a *a * m*y0 + a*b*sqrt(a *a * m *m + b *b - k *k - 2 * k*m*x0 + 2 * k*y0 - m *m * x0 *x0 + 2 * m*x0*y0 - y0 *y0) - a *a * k*m) / (a *a * m*m + b *b);
 		x2 = (b *b * x0 + a *a * m*y0 - a*b*sqrt(a *a * m *m + b *b - k *k - 2 * k*m*x0 + 2 * k*y0 - m *m * x0 *x0 + 2 * m*x0*y0 - y0 *y0) - a *a* k*m) / (a *a * m *m + b *b);
@@ -81,38 +81,23 @@ double Ellipse::calcAvarageDistances(std::list<Point*> *points) {
 		d1 = sqrt(pow(y1 - yi, 2) + pow(x1 - xi, 2));
 		d2 = sqrt(pow(y2 - yi, 2) + pow(x2 - xi, 2));
 
-		/*x1t = (a *a * x0 + b *b * m*y0 + a*b*sqrt(b *b * m *m + a *a - k *k - 2 * k*m*x0 + 2 * k*y0 - m *m * x0 *x0 + 2 * m*x0*y0 - y0 *y0) - b *b * k*m) / (b *b * m*m + a *a);
-		x2t = (a *a * x0 + b *b * m*y0 - a*b*sqrt(b *b * m *m + a *a - k *k - 2 * k*m*x0 + 2 * k*y0 - m *m * x0 *x0 + 2 * m*x0*y0 - y0 *y0) - b *b * k*m) / (b *b * m*m + a *a);
-
-		y1t = m*x1 + k;
-		y2t = m*x2 + k;
-
-		d1t = sqrt(pow(y1 - yi, 2) + pow(x1 - xi, 2));
-		d2t = sqrt(pow(y2 - yi, 2) + pow(x2 - xi, 2));*/
-
-		dist =std::min(d1, d2);
-
+		dist = std::min(d1, d2);
 #ifdef DEBUG_ELLIP_DIST
-		if (dist == d1) {
 			std::cout << "xi, yi <> x1 y1 " << "(" << xi << ", " << yi << ")<>" << "(" << x1 << ", " << y1 << ")" << dist << std::endl << std::endl;
-		}
-		else {
-			std::cout << "xi, yi <> x2 y2 " << "(" << xi << ", " << yi << ")<>" << "(" << x2 << ", " << y2 << ")" << dist << std::endl << std::endl;
-		}
-		
 #endif
 		sum_dist += dist;
 	}
+	sum_dist /= (points->size());
 
 #ifdef DEBUG_ELLIP_DIST
-	std::cout << ">>>>>> " << sum_dist/points->size() << std::endl << std::endl;
+	std::cout << ">>>>>> " << sum_dist << std::endl << std::endl;
 #endif
 
-	return sum_dist / points->size();
+	return sum_dist;
 }
 
 void Ellipse::drawToImage(cv::Mat *img,cv::Scalar *color) {
 	cv::Point center(x0, y0);
-	cv::Size size(b, a);
+	cv::Size size(a, b);
 	cv::ellipse(*img, center, size, theta*(180/PI), 0, 360, *color,1,8,0);
 }
