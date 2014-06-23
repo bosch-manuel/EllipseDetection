@@ -4,7 +4,8 @@
 #include "PreProcessing.hpp"
 #include "Conic.h"
 #include <climits>
-#include "\eigen-eigen-6b38706d90a9\Eigen\Eigenvalues"
+//#include "\eigen-eigen-6b38706d90a9\Eigen\Eigenvalues"
+#include "Eigenvalues"
 #include <iostream>
 
 using namespace std;
@@ -840,7 +841,7 @@ Ellipse* EdgeSegment::calcEllipse() {
 
 	//calculate if the ellipse is a true ellipse for the given pixels
 	Ellipse *e=new Ellipse(a(0), a(1), a(2), a(3), a(4), a(5));
-	double avdist=e->calcDistanceToPoints(&edgeList);
+	double avdist=e->calcAvarageDistances(&edgeList);
 	if (avdist >= TH_E) {
 		e = NULL;
 	}

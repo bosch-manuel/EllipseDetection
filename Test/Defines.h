@@ -55,4 +55,8 @@
 #define DEBUG_ELLIP_DIST
 #define TH_E 20 /*an ellipse is a valid if the avarage distance of all points from the ellipse is smaller than TH_E*/
 
+/*RANSAC*/
+#define TH_DIST 10 //a pixel mathes the calculated ellipse if its distance is <= TH_DIST
+#define N_T	//number of tries
+#define TH_ACCEPT 0.6	// an curve segment matches an ellipse if: (num of matching pixels)/(num of segment pixels) >= TH_ACCEPT
 #endif
