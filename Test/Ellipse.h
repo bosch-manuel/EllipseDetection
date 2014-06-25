@@ -13,6 +13,7 @@ public:
 			A,B,C,D,E,F		coeffs of the conic*/
 	Ellipse(double A, double B, double C, double D, double E, double F);
 	~Ellipse();
+
 	double getX0();
 	double getY0();
 	double geta();
@@ -31,5 +32,7 @@ private:
 	double b;
 	double theta;
 };
+
+Ellipse* calcEllipse(std::vector<Point*> *points);
 #endif
 

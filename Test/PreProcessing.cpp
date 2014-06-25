@@ -4,6 +4,7 @@
 #include <list>
 #include <set>
 #include <fstream>
+#include <vector>
 #include <algorithm> 
 #include "Defines.h"
 #include "EdgeSegment.h"
@@ -576,9 +577,9 @@ void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2, std::set<EllipticalArc*
 /*
 	return
 		index of seg with min diff of tangents (-1 if no segment was found)*/
-int findSegWithMinTangDiff(EdgeSegment *seg, EdgeSegment* segments[], int size) {
+int findSegWithMinTangDiff(EdgeSegment *seg, std::vector<EdgeSegment*> *segments, int size) {
 	Point *mfirst, *mend, *nfirst, *nend, *N1 = NULL, *M1 = NULL, *N2 = NULL, *M2 = NULL, *r1 = NULL, *r2 = NULL;
-	EdgeSegment *cS_min = NULL,*m;
+	EdgeSegment *cS_min = NULL,*m=NULL;
 	int d, s = 0;
 	int nEmE, nEmB, nBmE, nBmB,index_min=-1;
 
@@ -587,7 +588,8 @@ int findSegWithMinTangDiff(EdgeSegment *seg, EdgeSegment* segments[], int size) 
 	nfirst = seg->getFirstPoint();
 	nend = seg->getLastPoint();
 	for (int i = 0; i < size;i++) {
-		m = segments[i];
+		for (std::vector<EdgeSegment*>::const_iterator it= segments->cbegin(); it !=segments->cend(); it++)
+		m = (*it);
 		if (seg != m) {
 			mfirst = m->getFirstPoint();
 			mend = m->getLastPoint();
@@ -643,13 +645,62 @@ int findSegWithMinTangDiff(EdgeSegment *seg, EdgeSegment* segments[], int size) 
 }
 
 int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses) {
-	int j = 0;
-	EdgeSegment** segs = new EdgeSegment*[segments->size()];
+	int j = 0, a = 0,idx;
+	int size = segments->size();
+	int n_tries = 0; //number of tries for estimation of consensus set for 
+	EdgeSegment *cur_seg = NULL, *minG_seg = NULL;
+	Ellipse *e=NULL;
+
+	std::vector<EdgeSegment*> segs(size);
+	std::vector<Point*> *pt;
+	std::vector<std::vector<Point*>*> seg_points(size);
+	std::vector<Point*> randomEdgePixels(N_POINTS);
+
 	for (std::list<EdgeSegment*>::iterator i = segments->begin(); i !=segments->end(); i++) {
 		segs[j] = (*i);
+
+		//get segment points and store them into array
+		seg_points[j] = new std::vector<Point*>((*i)->getLength());
+		a = 0;
+		for (std::list<Point*>::const_iterator b = (*i)->cbegin(); b != (*i)->cend(); b++){
+			seg_points[j]->at(a) = (*b);
+			a++;
+		}
+
 		j++;
 	}
 
+	for (int i = 0; i < size;i++) {
+		//find neighbouring segment with min diff of tangents at end points
+		cur_seg = segs[i];
+		j = findSegWithMinTangDiff(cur_seg, &segs, size);
+		if (j != -1) {
+			//segment found
+			minG_seg = segs[j];
+			//get 6 random points from cur_seg and minG_seg 
+			//array with indexes from 0 - cur_seg.size()+minG_seg.size()-1
+			std::vector<int> indexes(cur_seg->getLength() + minG_seg->getLength() - 1);
+			for (int x = 0; x<indexes.size(); x++){
+				indexes[x] = x;
+			}
+			std::random_shuffle(indexes.begin(), indexes.end());
+
+			//get random pixels
+			for (int x = 0; x<N_POINTS; x++){
+				idx = indexes[x];
+				if (idx < cur_seg->getLength()) {//take pixels from cur_seg (index i in seg_points)
+					randomEdgePixels[x] = seg_points[i]->at(idx);
+				}
+				else { //take pixel from ming_seg (index j in seg_points)
+					randomEdgePixels[x] = seg_points[i]->at(idx - cur_seg->getLength());
+				}
+			}
+
+			//calculate best fitting ellipse for all points in randomEdgePixels
+			e = calcEllipse(&randomEdgePixels);
+		}
+	}
+	return 0;
 }
 
 //int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *arcs) {
