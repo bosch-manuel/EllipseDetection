@@ -572,6 +572,86 @@ void connectSegments(EdgeSegment* cS1, EdgeSegment* cS2, std::set<EllipticalArc*
 	}
 }
 
+////search for every m-th curve segment the n-th curve segment that has the min difference of tangents at their end points
+/*
+	return
+		index of seg with min diff of tangents (-1 if no segment was found)*/
+int findSegWithMinTangDiff(EdgeSegment *seg, EdgeSegment* segments[], int size) {
+	Point *mfirst, *mend, *nfirst, *nend, *N1 = NULL, *M1 = NULL, *N2 = NULL, *M2 = NULL, *r1 = NULL, *r2 = NULL;
+	EdgeSegment *cS_min = NULL,*m;
+	int d, s = 0;
+	int nEmE, nEmB, nBmE, nBmB,index_min=-1;
+
+
+	double a_min = 2 * PI, a_tmp;
+	nfirst = seg->getFirstPoint();
+	nend = seg->getLastPoint();
+	for (int i = 0; i < size;i++) {
+		m = segments[i];
+		if (seg != m) {
+			mfirst = m->getFirstPoint();
+			mend = m->getLastPoint();
+			//calc distance between n and m
+			nEmE/*mEnE*/ = (*mend - *nend).norm() + .5;
+			nBmE/*mEnB*/ = (*mend - *nfirst).norm() + .5;
+			nEmB/*mBnE*/ = (*mfirst - *nend).norm() + .5;
+			nBmB/*mBnB*/ = (*mfirst - *nfirst).norm() + .5;
+			d = std::min(std::min(nEmE, nBmE), std::min(nEmB, nBmB));
+			if (d > 0 && d < D0) {
+				if (d == nEmE) {
+					M1 = m->getLastPoint();
+					N1 = seg->getLastPoint();
+					M2 = m->getNextToLastPoint();
+					N2 = seg->getNextToLastPoint();
+				}
+				else if (d == nBmE) {
+					M1 = m->getLastPoint();
+					N1 = seg->getFirstPoint();
+					M2 = m->getNextToLastPoint();
+					N2 = seg->getSecondPoint();
+				}
+				else if (d == nEmB) {
+					M1 = m->getFirstPoint();
+					N1 = seg->getLastPoint();
+					M2 = m->getSecondPoint();
+					N2 = seg->getNextToLastPoint();
+				}
+				else if (d == nBmB) {
+					M1 = m->getFirstPoint();
+					N1 = seg->getFirstPoint();
+					M2 = m->getSecondPoint();
+					N2 = seg->getSecondPoint();
+				}
+
+				//calc angle between the tangents of m and n
+				r1 = &(*M1 - *M2);
+				r2 = &(*N2 - *N1);
+				a_tmp = acos((*r1 * *r2) / (r1->norm()* r2->norm()));
+#ifdef DEBUB_CURVE_GRP
+				csf << "Abstand: " << d << "  Winkel an Enden: M1(" << M1->getX() << "," << M1->getY() << ") M2(" << M2->getX() << "," << M2->getY() << ") und N1(" << N1->getX() << "," << N1->getY() << ") N2(" << N2->getX() << "," << N2->getY() << ") ::" << a_tmp << std::endl;
+#endif
+				if (a_tmp < a_min) {
+					//current angle between n and m is the smallest so far, so keep it in mind
+					a_min = a_tmp;
+					index_min = i;
+				}
+			}
+		}
+	}
+
+	return index_min;
+}
+
+int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses) {
+	int j = 0;
+	EdgeSegment** segs = new EdgeSegment*[segments->size()];
+	for (std::list<EdgeSegment*>::iterator i = segments->begin(); i !=segments->end(); i++) {
+		segs[j] = (*i);
+		j++;
+	}
+
+}
+
 //int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *arcs) {
 //#ifdef DEBUB_CURVE_GRP
 //	std::fstream csf;

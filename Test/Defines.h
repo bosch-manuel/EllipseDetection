@@ -43,11 +43,11 @@
 
 ///*Curve grouping*/
 ////#define DEBUB_CURVE_GRP
-//#define D0 10/*max distance between neighbouring curve segments*/
-//#define END_END 1
-//#define END_BEGIN 2
-//#define BEGIN_END 3
-//#define BEGIN_BEGIN 4
+#define D0 10/*max distance between neighbouring curve segments*/
+#define END_END 1
+#define END_BEGIN 2
+#define BEGIN_END 3
+#define BEGIN_BEGIN 4
 
 /*Ellipse calculation*/
 //#define DEBUG_CALC
@@ -58,5 +58,7 @@
 /*RANSAC*/
 #define TH_DIST 10 //a pixel mathes the calculated ellipse if its distance is <= TH_DIST
 #define N_T	//number of tries
-#define TH_ACCEPT 0.6	// an curve segment matches an ellipse if: (num of matching pixels)/(num of segment pixels) >= TH_ACCEPT
+#define TH_FULLFIT 0.8	// an curve segment matches an ellipse as a whole if: (num of matching pixels)/(num of segment pixels) >= TH_FULLFIT
+#define TH_PARTIALFIT 0.4 // a curve segment matches an ellipse partly if:(num of matching pixels)/(num of segment pixels) >= TH_PARTIALFIT
+
 #endif

@@ -77,6 +77,10 @@ void evaluateCurvature(std::list<EdgeSegment*>*segments);
 /*Curve segmentation based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu*/
 int curveSegmentation(std::list<EdgeSegment*> *edgeSegs, std::list<EdgeSegment*> *curveSegs);
 
+/*RANSAC based ellipse fitting*/
+int fitEllipses(std::list<EdgeSegment*> *segments,std::list<Ellipse*> *ellipses);
+
+
 /*Curve grouping based on the approach in "A real-time ellipse detection based on edge grouping" by Thanh Minh Nguyen, Siddhant Ahuja and Q. M. Jonathan Wu*/
 int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *arcs);
 
