@@ -4,6 +4,7 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include "Point.h"
 #include <list>
+#include <ostream>
 
 class Ellipse
 {
@@ -27,6 +28,7 @@ public:
 	double calcAvarageDistances(std::list<Point*> *points);
 	double calcDistanceToPoints(std::list<Point*> *points);
 
+	friend std::ostream& operator<<(std::ostream& os, Ellipse& e);
 	/*Get the indexes of those points which matches this ellipse
 		param:
 			points		considered points
@@ -34,6 +36,7 @@ public:
 		return:
 			vector with indexes of matching points*/
 	std::vector<int>* getIndexesOfMatchingPoints(std::vector<Point*> *points);
+	
 private:
 	double A, B, C, D, E, F;
 	double x0;
@@ -42,6 +45,9 @@ private:
 	double b;
 	double theta;
 };
+//std::ostream& operator<<(std::ostream& os, Ellipse& e) {
+//	E
+//}
 
 Ellipse* calcEllipse(std::vector<Point*> *points);
 #endif

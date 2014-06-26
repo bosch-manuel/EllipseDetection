@@ -52,10 +52,11 @@
 /*Ellipse calculation*/
 //#define DEBUG_CALC
 #define DRAW_ELLIPSES
-#define DEBUG_ELLIP_DIST
+//#define DEBUG_ELLIP_DIST
 #define TH_E 20 /*an ellipse is a valid if the avarage distance of all points from the ellipse is smaller than TH_E*/
 
 /*RANSAC*/
+#define DEBUG_RANSAC
 #define N_POINTS 6	// number of points needed to calculate an ellipse
 #define TH_DIST 10 //a pixel mathes the calculated ellipse if its distance is <= TH_DIST
 #define N_T	4//number of tries
