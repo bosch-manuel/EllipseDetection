@@ -58,7 +58,7 @@
 /*RANSAC*/
 #define N_POINTS 6	// number of points needed to calculate an ellipse
 #define TH_DIST 10 //a pixel mathes the calculated ellipse if its distance is <= TH_DIST
-#define N_T	//number of tries
+#define N_T	4//number of tries
 #define TH_FULLFIT 0.8	// an curve segment matches an ellipse as a whole if: (num of matching pixels)/(num of segment pixels) >= TH_FULLFIT
 #define TH_PARTIALFIT 0.4 // a curve segment matches an ellipse partly if:(num of matching pixels)/(num of segment pixels) >= TH_PARTIALFIT
 

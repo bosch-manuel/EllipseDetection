@@ -646,13 +646,17 @@ int findSegWithMinTangDiff(EdgeSegment *seg, std::vector<EdgeSegment*> *segments
 
 int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses) {
 	int j = 0, a = 0,idx;
-	int size = segments->size();
-	int n_tries = 0; //number of tries for estimation of consensus set for 
+	int size = segments->size(),size_i=0,size_j=0;
+	int n_tries = 0;//number of tries for estimation of consensus set for 
 	EdgeSegment *cur_seg = NULL, *minG_seg = NULL;
-	Ellipse *e=NULL;
+	Ellipse *eS1=NULL;
+	double fitting_factor = 0;
+	bool s1_isValid = false;
 
 	std::vector<EdgeSegment*> segs(size);
 	std::vector<Point*> *pt;
+	std::vector<int> *indexesOfMatchingPoints;
+	std::vector<Point*> consesusSet;
 	std::vector<std::vector<Point*>*> seg_points(size);
 	std::vector<Point*> randomEdgePixels(N_POINTS);
 
@@ -670,35 +674,91 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 		j++;
 	}
 
-	for (int i = 0; i < size;i++) {
+	for (int i = 0; i < size; i++) {
 		//find neighbouring segment with min diff of tangents at end points
-		cur_seg = segs[i];
+		size_i = segs[i]->getLength();
+		size_j = 0;
 		j = findSegWithMinTangDiff(cur_seg, &segs, size);
 		if (j != -1) {
-			//segment found
-			minG_seg = segs[j];
+			size_j = segs[j]->getLength();
+		}
+
+		//calcualte S1
+		while (!s1_isValid && n_tries < N_T) {
 			//get 6 random points from cur_seg and minG_seg 
 			//array with indexes from 0 - cur_seg.size()+minG_seg.size()-1
-			std::vector<int> indexes(cur_seg->getLength() + minG_seg->getLength() - 1);
-			for (int x = 0; x<indexes.size(); x++){
+			std::vector<int> indexes(size_i + size_j);
+			for (int x = 0; x < indexes.size(); x++){
 				indexes[x] = x;
 			}
 			std::random_shuffle(indexes.begin(), indexes.end());
 
-			//get random pixels
-			for (int x = 0; x<N_POINTS; x++){
+			//get random pixels S1
+			for (int x = 0; x < N_POINTS; x++){
 				idx = indexes[x];
-				if (idx < cur_seg->getLength()) {//take pixels from cur_seg (index i in seg_points)
+				if (idx < size_i) {//take pixels from segs[i] (index i in seg_points)
 					randomEdgePixels[x] = seg_points[i]->at(idx);
 				}
-				else { //take pixel from ming_seg (index j in seg_points)
-					randomEdgePixels[x] = seg_points[i]->at(idx - cur_seg->getLength());
+				else { //take pixel from segs[j] (index j in seg_points)
+					randomEdgePixels[x] = seg_points[j]->at(idx - size_i);
 				}
 			}
 
 			//calculate best fitting ellipse for all points in randomEdgePixels
-			e = calcEllipse(&randomEdgePixels);
+			eS1 = calcEllipse(&randomEdgePixels);
+
+			//estimate consensus sets S1* for both segments
+			indexesOfMatchingPoints = eS1->getIndexesOfMatchingPoints(seg_points[i]);
+			fitting_factor = indexesOfMatchingPoints->size() / size_i;
+			if (fitting_factor >= TH_PARTIALFIT) { //TH_PRATIALFIT % of the points from an segment must match the ellipse to have a valid consensus set
+				s1_isValid = true;
+				//if TH_FULLFIT % of the points match the calculated ellipse e, this curve segement will not be included in further calculations
+				if (fitting_factor >= TH_FULLFIT) {
+					segs[i] = NULL; //mark segment as assinged to an ellipse 
+					//add points to the consensus set
+					for (std::vector<int>::const_iterator it = indexesOfMatchingPoints->cbegin(); it != indexesOfMatchingPoints->cend(); it++){
+						consesusSet.push_back(seg_points[i]->at(*it));
+					}
+				}
+				else {
+					//add points and remove them from segment
+					for (std::vector<int>::const_iterator it = indexesOfMatchingPoints->cbegin(); it != indexesOfMatchingPoints->cend(); it++){
+						consesusSet.push_back(seg_points[i]->at(*it));
+						seg_points[i]->erase(seg_points[i]->begin() + *it);
+					}
+				}
+			}
+
+			if (j != -1) {// if no neighbouring segment exists, just take the points from segs[i]
+				indexesOfMatchingPoints = eS1->getIndexesOfMatchingPoints(seg_points[j]);
+				fitting_factor = indexesOfMatchingPoints->size() / seg_points[j]->size();
+				if (fitting_factor >= TH_PARTIALFIT) { //TH_PRATIALFIT % of the points from an segment must match the ellipse to have a valid consensus set
+					if (fitting_factor >= TH_FULLFIT) {
+						segs[j] = NULL; //mark segment as assinged to an ellipse 
+						//add points to the consensus set
+						for (std::vector<int>::const_iterator it = indexesOfMatchingPoints->cbegin(); it != indexesOfMatchingPoints->cend(); it++){
+							consesusSet.push_back(seg_points[j]->at(*it));
+						}
+					}
+					else {
+						//add points and remove them from segment
+						for (std::vector<int>::const_iterator it = indexesOfMatchingPoints->cbegin(); it != indexesOfMatchingPoints->cend(); it++){
+							consesusSet.push_back(seg_points[j]->at(*it));
+							seg_points[j]->erase(seg_points[j]->begin() + *it);
+						}
+					}
+				}
+			}
+
+			//----------------- if there is a valid consensus set, continue the matching process, else calculate new ellipse with new random pixels
+			n_tries++;
 		}
+
+		//--------if no valid consensus set could be found skip this segment, else search for further mathching segments
+		if (s1_isValid) {
+			//search for every segment which comply with global curve grouping condition
+		}
+
 	}
 	return 0;
 }

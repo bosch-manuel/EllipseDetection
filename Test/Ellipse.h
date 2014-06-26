@@ -22,8 +22,18 @@ public:
 
 	void drawToImage(cv::Mat *img,cv::Scalar *color);
 
+	double calcDistance(Point *p);
+
 	double calcAvarageDistances(std::list<Point*> *points);
 	double calcDistanceToPoints(std::list<Point*> *points);
+
+	/*Get the indexes of those points which matches this ellipse
+		param:
+			points		considered points
+			
+		return:
+			vector with indexes of matching points*/
+	std::vector<int>* getIndexesOfMatchingPoints(std::vector<Point*> *points);
 private:
 	double A, B, C, D, E, F;
 	double x0;
