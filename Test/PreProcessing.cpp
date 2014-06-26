@@ -646,6 +646,27 @@ int findSegWithMinTangDiff(EdgeSegment *seg, std::vector<EdgeSegment*> *segments
 	return index_min;
 }
 
+/* Test whether tow curvesegments could match an ellipse in regard to global curve grouping condition*/
+bool couldMakeEllipse(EdgeSegment* m,Point *P_m, EdgeSegment *n,Point *P_n) {
+	Point *P_m, *P_n;
+	double y, x;
+	double d_P_m_P_n;
+	if (m->getType != CURVESEG || n->getType() != CURVESEG) {
+		return false;
+	}
+	//calc C_m, C_n
+	y = (m->getFirstPoint()->getY() + m->getLastPoint()->getY()) / 2;
+	x = (m->getFirstPoint()->getX() + m->getLastPoint()->getX()) / 2;
+	Point C_m(y, x);
+
+	y = (n->getFirstPoint()->getY() + n->getLastPoint()->getY()) / 2;
+	x = (n->getFirstPoint()->getX() + n->getLastPoint()->getX()) / 2;
+	Point C_n(y, x);
+
+	//calc distances
+	d_P_m_P_n = sqrt();
+}
+
 int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses) {
 	int j = 0, a = 0,idx;
 	int size = segments->size(),size_i=0,size_j=0;
@@ -680,9 +701,18 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 #ifdef DEBUG_RANSAC
 			std::cout << "##############################"<<std::endl<<"Betrachtung fuer Segment:" << segs[i]->ID<< std::endl << std::endl;
 #endif
-			//find neighbouring segment with min diff of tangents at end points
 			size_i = seg_points[i]->size();
 			size_j = 0;
+			//get the next segment which could be a part of the same ellipse (global curve grounping conditions)
+			for (size_t i = 0; i < length; i++)	{
+
+			}
+
+
+
+
+
+
 			j = findSegWithMinTangDiff(segs[i], &segs, size);
 			if (j != -1) {
 				size_j = seg_points[j]->size();
