@@ -4,7 +4,7 @@
 
 //#define SOURCE_IMAGE "..\\6Ellipsen.jpg"
 //#define SOURCE_IMAGE "..\\strassenschilder2.png"
-#define SOURCE_IMAGE "..\\Bild3.jpg"
+
 
 #define TRUE 1
 #define FALSE 0
@@ -50,15 +50,16 @@
 #define BEGIN_BEGIN 4
 
 /*Ellipse calculation*/
+//#define DIRECT_FIT
 //#define DEBUG_CALC
 #define DRAW_ELLIPSES
 //#define DEBUG_ELLIP_DIST
 #define TH_E 20 /*an ellipse is a valid if the avarage distance of all points from the ellipse is smaller than TH_E*/
 
 /*RANSAC*/
-#define DEBUG_RANSAC
+//#define DEBUG_RANSAC
 #define N_POINTS 6	// number of points needed to calculate an ellipse
-#define TH_DIST 10 //a pixel mathes the calculated ellipse if its distance is <= TH_DIST
+#define TH_DIST 3 //a pixel mathes the calculated ellipse if its distance is <= TH_DIST
 #define N_T	4//number of tries
 #define TH_FULLFIT 0.8	// an curve segment matches an ellipse as a whole if: (num of matching pixels)/(num of segment pixels) >= TH_FULLFIT
 #define TH_PARTIALFIT 0.4 // a curve segment matches an ellipse partly if:(num of matching pixels)/(num of segment pixels) >= TH_PARTIALFIT

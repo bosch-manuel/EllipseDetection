@@ -9,6 +9,7 @@
 #include "Point.h"
 #include "PreProcessing.hpp"
 
+#define SOURCE_IMAGE "..\\strassenschilder2.png"
 
 using namespace std;
 
@@ -139,12 +140,19 @@ int main(int argc, char** argv) {
 	cv::imwrite("..\\Segments.jpg", segImage);
 #endif 
 
+	/*char* lineSegmentedEdges_window = "LineSegmentedEdges";
+	cv::namedWindow(lineSegmentedEdges_window, CV_WINDOW_AUTOSIZE);*/
+
 	//line segmentation for each Edge segment
 	list<EdgeSegment*>::iterator it;
 	start = clock();
 	for (it=edgeSegments.begin(); it!=edgeSegments.end();)	{
 		if ((*it)->getLength() > MIN_LENGTH) {
 			(*it)->lineSegmentation(D_TOL);
+			/*cout << (*it)->ID;
+			(*it)->drawToImage(&lineSegmentedEdges, cv::Vec3b(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255)));
+			cv::imshow(lineSegmentedEdges_window, lineSegmentedEdges);
+			cv::waitKey(0);*/
 			it++;
 		}else{
 			it=edgeSegments.erase(it);
@@ -207,6 +215,7 @@ int main(int argc, char** argv) {
 	cv::imshow(curveSegments_window, curveSegImage);
 	//cv::waitKey(0);
 	cv::imwrite("..\\curveSegments.jpg", curveSegImage);
+	csf.close();
 #endif
 
 //	//curve grouping
@@ -237,7 +246,8 @@ int main(int argc, char** argv) {
 	//calc ellipses
 	start = clock();
 	Ellipse *e;
-	/*for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
+#ifdef DIRECT_FIT
+	for (list<EdgeSegment*>::iterator it = curveSegments.begin(); it != curveSegments.end(); it++){
 		e = (*it)->calcEllipse();
 		if (e != NULL) {
 #ifdef DEBUG_ELLIP_DIST
@@ -253,11 +263,12 @@ int main(int argc, char** argv) {
 #else
 			ellipses.push_back(e);
 #endif
-			
-		}
-	}*/
-	fitEllipses(&curveSegments, &ellipses);
 
+		}
+	}
+#else
+	fitEllipses(&curveSegments, &ellipses);
+#endif
 	end = clock();
 	time = (end - start);
 	cout << "Berechnete Ellipsen: " << ellipses.size() << endl;

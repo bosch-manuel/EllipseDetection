@@ -42,6 +42,7 @@ Based on optimized MAtlab code from "Direct Least Squares Fitting for Ellipses"
 http://research.microsoft.com/en-us/um/people/awf/ellipse/fitellipse.html
 */
 Ellipse* calcEllipse(std::vector<Point*> *points) {
+	using namespace std;
 	if (points->size() < 6) {
 		return NULL; //Error too few points
 	}

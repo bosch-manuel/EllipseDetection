@@ -54,6 +54,8 @@ size_t EdgeSegment::getLength() {
 }
 
 int EdgeSegment::getType() {
+
+
 	return type;
 }
 
@@ -94,11 +96,15 @@ double maxlinedev(list<Point*>::iterator *start, list<Point*>::iterator *end) {
 	C = (**end)->getY() * (**start)->getX() - (**start)->getY() * (**end)->getX();
 
 	//calulate distance from line for every point between the two end points
-	for (tmp = *start; tmp != *end; tmp++) {
+	for (tmp = *start;; tmp++) {
 		dev = abs((*tmp)->getX()*y1my2 + (*tmp)->getY()*x2mx1 + C) / D;
 		if (dev >= maxDev) {
 			cur_max = tmp;
 			maxDev = dev;
+		}
+
+		if (tmp == *end) {
+			break;
 		}
 	}
 #ifdef DEBUG_MAXLINEDEV
@@ -211,11 +217,19 @@ int EdgeSegment::lineSegmentation(int d_tol) {
 	list<Point*>::iterator lastElem = edgeList.begin();
 	list<Point*>::iterator first = edgeList.begin();
 	list<Point*>::iterator tmp;
-
-	//set iterator last on last element
+	//std::fstream s;
+	//s.open("..\\TestText.txt", std::ios::out);
+	//s << "L={(";
+	//for (list<Point*>::iterator  i = edgeList.begin(); i!=edgeList.end() ; i++)
+	//{
+	//	s << "(" << (*i)->getX() << "," << (*i)->getY() << "),";
+	//}
+	//s << "}" << endl;
+		//set iterator last on last element
 	for (size_t i = 0; i < size - 1; i++){
 		lastElem++;
 	}
+
 	last = lastElem;
 	while (first != last) {
 		maxDev = maxlinedev(&first, &last);
@@ -224,6 +238,7 @@ int EdgeSegment::lineSegmentation(int d_tol) {
 			maxDev = maxlinedev(&first, &last);
 		}
 		//remove all Points between first and last (end points of the line Segment)
+
 		if (first != last) {
 			first = edgeList.erase(++first, last);
 			last = edgeList.begin();
@@ -342,70 +357,63 @@ void EdgeSegment::drawToImage(cv::Mat *image, cv::Vec3b color) {
 //}
 
 bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
+	Point *P1, *P2 = NULL, *P3 = NULL, *l1, *l2;
+	int nCurvSegs = 0;
+	double a_pre = -1, a = -1, deg = -1, kp = 0, kp_pre = 0;
 
-	Point *l1=NULL, *l2=NULL, *P1, *P2, *P3;
-	double b1, b2, deg,kp;
-	b1 = -1;
+	//segment must be segmented into lines and more than 2 points
+	/*if (type != LSEG_EDGE && edgeList.size()<2) {
+		return -1;
+	}*/
+	//go through the whole segment
 #ifdef DEBUG_EVAL_CURVE
-	*csf << "Winkelverlauf von Segment " << ID <<"Anz. Punkte: "<<this->getLength()<< endl;
-	for (std::list<Point*>::const_iterator i = edgeList.cbegin(); i !=edgeList.cend(); i++)
-	{
-		*csf << "(" << (*i)->getX() << "," << (*i)->getY() << ")";
-	} 
-	*csf << endl;
+	*csf << "Segmentierung von Seg " << ID << endl;
+	for (std::list<Point*>::const_iterator i = edgeList.begin(); i != edgeList.end(); i++){
+		*csf << "(" << (*i)->getX() << ", " << (*i)->getY() << ")";
+	}
+	*csf << endl << endl;
 #endif
-	if (/*type == CURVESEG &&*/ edgeList.size() > 2) {
-		std::list<Point*>::const_iterator i = edgeList.begin();
-		std::list<Point*>::const_iterator j = i;
-		j++;
-		std::list<Point*>::const_iterator k = j;
-		k++;
-		for (; k != edgeList.end(); k++)	{
-			P1 = (*i);
-			P2 = (*j);
-			P3 = (*k);
-			l1 = &(*P1 - *P2);
-			l2 = &(*P3 - *P2);
+	std::list<Point*>::const_iterator i = edgeList.begin();
+	std::list<Point*>::const_iterator j = i;
+	j++;
+	std::list<Point*>::const_iterator k = j;
+	k++;
+	for (; k != edgeList.end(); i++, j++, k++){
+		P1 = (*i);
+		P2 = (*j);
+		P3 = (*k);
+		l1 = &(*P1 - *P2);
+		l2 = &(*P3 - *P2);
 
-			b2 = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
-			kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
-			*csf <<"kp(" << kp << ")";
-			if (b1 != -1){
-				//calc dif
+		a = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
+		kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
 #ifdef DEBUG_EVAL_CURVE
-				deg = b2*(180 / PI);
-				//kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
-				*csf << deg /*<<"kp("<<kp<<")"*/<< ", ";
+
+		*csf << "kp(" << kp << ")";
 #endif
-				if (abs(b1 - b2) > TH /*|| b1<B_MIN || b1>B_MAX*/) {
-#ifdef DEBUG_EVAL_CURVE
-					*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(b1 - b2)*(180 / PI) << endl;
-#endif
-					//return false;
-				}
+		if (a_pre != -1){
+			//calc dif
+//#ifdef DEBUG_EVAL_CURVE
+//			deg = a_pre*(180 / PI);
+//			*csf << deg << ", ";
+//#endif
+			if (abs(a_pre - a) > TH || (kp*kp_pre) <= 0 /*|| b1<B_MIN || b1>B_MAX*/) {
+//#ifdef DEBUG_EVAL_CURVE
+//				*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
+//#endif
+
+				a_pre = -1;
 			}
-
-			i = j;
-			j = k;
-			b1 = b2;
 		}
-#ifdef DEBUG_EVAL_CURVE
-		deg = b2*(180 / PI);
-		//kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
-		*csf << deg /*<< "kp(" << kp << ")"*/ <<endl;
-#endif
+
+		/*i = j;
+		j = k;*/
+		a_pre = a;
+		kp_pre = kp;
+
 
 	}
-	else {
-#ifdef DEBUG_EVAL_CURVE
-		*csf << endl << "#######" << endl;
-#endif
-		return false;
-	}
-
-#ifdef DEBUG_EVAL_CURVE
-	*csf << endl << "#######" << endl;
-#endif
+	*csf << endl<<endl;
 	return true;
 }
 
@@ -561,7 +569,7 @@ int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegment
 	EdgeSegment *cS = NULL;
 
 	//segment must be segmented into lines and more than 2 points
-	if (type != LSEG_EDGE && edgeList.size()>2) {
+	if (type != LSEG_EDGE && edgeList.size()<2) {
 		return -1;
 	}
 	//go through the whole segment
@@ -594,7 +602,7 @@ int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegment
 			deg = a_pre*(180 / PI);
 			*csf << deg << ", ";
 #endif
-			if (abs(a_pre - a) > TH ||(kp*kp_pre)<=0 /*|| b1<B_MIN || b1>B_MAX*/) {
+			if (abs(a_pre - a) > TH ||(kp*kp_pre)<0 /*|| b1<B_MIN || b1>B_MAX*/) {
 #ifdef DEBUB_CURVE_SEG
 				*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
 #endif
@@ -841,10 +849,10 @@ Ellipse* EdgeSegment::calcEllipse() {
 
 	//calculate if the ellipse is a true ellipse for the given pixels
 	Ellipse *e=new Ellipse(a(0), a(1), a(2), a(3), a(4), a(5));
-	double avdist=e->calcAvarageDistances(&edgeList);
+	/*double avdist=e->calcAvarageDistances(&edgeList);
 	if (avdist >= TH_E) {
 		e = NULL;
-	}
+	}*/
 
 
 	return e;
