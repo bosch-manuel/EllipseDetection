@@ -9,7 +9,7 @@
 #include "Point.h"
 #include "PreProcessing.hpp"
 
-#define SOURCE_IMAGE "..\\strassenschilder2.png"
+#define SOURCE_IMAGE "..\\Bild5.jpg"
 
 using namespace std;
 
@@ -47,9 +47,13 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\3Ellipsen.png", CV_LOAD_IMAGE_GRAYSCALE);
 	 //cv::Mat src = cv::imread("..\\bloederFall1.png", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat src = cv::imread(SOURCE_IMAGE, CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat gauss;
 	cv::Mat ellipseImage = cv::imread(SOURCE_IMAGE, CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat ellipseOnlyImage(src.rows, src.cols, CV_8UC3);
 	ellipseOnlyImage = cv::Scalar(255, 255, 255);
+
+	cv::GaussianBlur(src, gauss, cv::Size(5,5), 0, 0);
+
 	//cv::Mat src = cv::imread("..\\Unbenannt.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat test = cv::Mat::zeros(20, 20, CV_8UC1);
@@ -83,7 +87,7 @@ int main(int argc, char** argv) {
 
 	start = clock();
 	//detect edges
-	edgeDetection(src, edgeImage, 100, 150, 3);
+	edgeDetection(gauss, edgeImage, 100, 150, 3);
 	end = clock();
 	time = (end - start);
 	cout << "Laufzeit edgeDetection: " << time << " ms" << endl;
@@ -94,6 +98,14 @@ int main(int argc, char** argv) {
 	cv::imshow(edge_window, edgeImage);
 	cv::imwrite("..\\edgeImage.jpg", edgeImage);
 	
+#endif
+
+#ifdef DEBUG_SHOW_GAUSS
+	char* gauss_window = "Gauss";
+	cv::namedWindow(gauss_window, CV_WINDOW_AUTOSIZE);
+	cv::imshow(gauss_window, gauss);
+	cv::imwrite("..\\gauss.jpg", edgeImage);
+
 #endif
 	cv::Mat edgeImage2(edgeImage);
 

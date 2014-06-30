@@ -27,6 +27,7 @@ public:
 
 	double calcAvarageDistances(std::list<Point*> *points);
 	double calcDistanceToPoints(std::list<Point*> *points);
+	double calcDistanceToPoints(std::vector<Point*> *points);
 
 	friend std::ostream& operator<<(std::ostream& os, Ellipse& e);
 	/*Get the indexes of those points which matches this ellipse

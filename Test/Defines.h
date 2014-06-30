@@ -5,6 +5,7 @@
 //#define SOURCE_IMAGE "..\\6Ellipsen.jpg"
 //#define SOURCE_IMAGE "..\\strassenschilder2.png"
 
+#define DEBUG_SHOW_GAUSS
 
 #define TRUE 1
 #define FALSE 0
@@ -21,7 +22,7 @@
 //#define DEBUG_MAXLINEDEV
 //#define DEBUG_LINESEG
 //#define DEBUG_SHOW_LINESEGMENTEDEDGES
-//#define DEBUG_SHOW_EDGESEGS
+#define DEBUG_SHOW_EDGESEGS
 //#define DEBUG_SHOW_EDGES
 //#define DEBUG_EVAL_CURVE
 
@@ -58,9 +59,15 @@
 
 /*RANSAC*/
 //#define DEBUG_RANSAC
+//#define DEBUG_RANSAC_SHOW_LAST_ELLIPSE
+//#define DEBUG_RANSAC_SHOW_ALL_POSSIBLE_SEGMENTS
+//#define DEBUG_RANSAC_SHOW_ALL_FITTING_SEGMENTS
+//#define DEBUG_RANSAC_RANDOM_POINTS
+//#define DEBUG_COULD_MAKE_ELLIPSE
 #define N_POINTS 6	// number of points needed to calculate an ellipse
-#define TH_DIST 3 //a pixel mathes the calculated ellipse if its distance is <= TH_DIST
+#define TH_DIST 3 //3 a pixel matches the calculated ellipse if its distance is <= TH_DIST
 #define N_T	4//number of tries
+#define TH_AVDIST 2
 #define TH_FULLFIT 0.8	// an curve segment matches an ellipse as a whole if: (num of matching pixels)/(num of segment pixels) >= TH_FULLFIT
 #define TH_PARTIALFIT 0.4 // a curve segment matches an ellipse partly if:(num of matching pixels)/(num of segment pixels) >= TH_PARTIALFIT
 

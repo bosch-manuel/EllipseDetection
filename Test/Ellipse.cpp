@@ -2,6 +2,7 @@
 #include "Defines.h"
 #include <list>
 #include <iostream>
+#include <vector>
 #include "Eigenvalues"
 
 
@@ -198,7 +199,7 @@ Ellipse* calcEllipse(std::vector<Point*> *points) {
 	//% Find the negative(as det(tmpD) < 0) eigenvalue
 	//I = find(real(diag(eval_x)) < 1e-8 & ~isinf(diag(eval_x)));
 	for (int i = 0; i < eigenval.rows(); i++)	{
-		if (eigenval(i, 0) < 0) {
+		if (eigenval(i, 0) < pow(10,-8)) {
 			i_neg_eigenval = i;
 			break;
 		}
@@ -412,6 +413,60 @@ double Ellipse::calcDistanceToPoints(std::list<Point*> *points) {
 	std::cout << "Sum Min Dist >>>" << sum_min_dist << std::endl << std::endl;
 #endif
 	sum_min_dist /= (pointsOnEllipse);
+#ifdef DEBUG_ELLIP_DIST
+	std::cout << "Sum Min Dist geteilt >>>" << sum_min_dist << std::endl << std::endl;
+#endif
+	return sum_min_dist;
+}
+
+double Ellipse::calcDistanceToPoints(std::vector<Point*> *points) {
+	int pointsOnEllipse = 2 * points->size();
+	double step = (1.5*PI) / pointsOnEllipse;
+	double phi = 0;
+	double x_phi, y_phi, cos_theta, sin_theta, cos_phi, sin_phi, dist, min_dist, xi, yi, sum_min_dist, x_min, y_min;
+
+	sin_theta = sin(theta);
+	cos_theta = cos(theta);
+	//calc points on ellipse
+#ifdef DEBUG_ELLIP_DIST
+	std::cout << "Ellipse: x0,y0,a,b : A B C D E F>> " << " (" << x0 << ")" << " (" << y0 << ")" << "(" << a << ")" << "(" << b << ") : " << "(" << A << ")" << "(" << B
+		<< ")" << "(" << C << ")" << "(" << D << ")" << "(" << E << ")" << "(" << F << ")" << std::endl << std::endl;
+#endif
+	sum_min_dist = 0;
+	for (int i = 0; i < pointsOnEllipse; i++) {
+		sin_phi = sin(phi);
+		cos_phi = cos(phi);
+		x_phi = x0 + a*cos_phi*cos_theta - b*sin_phi*sin_theta;
+		y_phi = y0 + b*cos_phi*sin_theta + B*sin_phi*cos_theta;
+
+#ifdef DEBUG_ELLIP_DIST
+		std::cout << phi*(180 / PI) << "(" << x_phi << "," << y_phi << ")" << std::endl << std::endl;
+#endif
+
+		//calc min distance 
+		min_dist = 1000000000000000000;
+		for (std::vector<Point*>::const_iterator j = points->cbegin(); j != points->cend(); j++)	{
+			xi = (*j)->getX();
+			yi = (*j)->getY();
+			dist = sqrt(pow(y_phi - yi, 2) + pow(x_phi - xi, 2));
+			if (dist < min_dist) {
+				min_dist = dist;
+				x_min = xi;
+				y_min = yi;
+			}
+		}
+#ifdef DEBUG_ELLIP_DIST
+		std::cout << "Min Dist: " << "(" << x_min << "," << y_min << ")" << ">>>" << min_dist << std::endl << std::endl;
+#endif
+		sum_min_dist += min_dist;
+		phi += step;
+	}
+
+
+#ifdef DEBUG_ELLIP_DIST
+	std::cout << "Sum Min Dist >>>" << sum_min_dist << std::endl << std::endl;
+#endif
+	sum_min_dist /= (pointsOnEllipse*b);
 #ifdef DEBUG_ELLIP_DIST
 	std::cout << "Sum Min Dist geteilt >>>" << sum_min_dist << std::endl << std::endl;
 #endif

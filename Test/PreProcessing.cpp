@@ -667,6 +667,15 @@ bool couldMakeEllipse(EdgeSegment* m,Point *P_m, EdgeSegment *n,Point *P_n) {
 	d_P_m_C_n = sqrt(pow(P_m->getY() - C_n.getY(), 2) + pow(P_m->getX() - C_n.getX(), 2));
 	d_P_n_C_m = sqrt(pow(P_n->getY() - C_m.getY(), 2) + pow(P_n->getX() - C_m.getX(), 2));
 
+#ifdef DEBUG_COULD_MAKE_ELLIPSE
+	using namespace std;
+	cout << "Cm:(" << C_m.getX() << "," << C_m.getY() << ")" << endl;
+	cout << "Cn:(" << C_n.getX() << "," << C_n.getY() << ")" << endl;
+	cout << "Distsanzen:"<<endl<<" dPs:" << d_P_m_P_n << endl;
+	cout << "d_P_m_C_n" << d_P_m_C_n << endl;
+	cout << "d_P_n_C_m" << d_P_n_C_m << endl;
+#endif
+
 	if ((d_P_m_P_n > d_P_m_C_n) && (d_P_m_P_n > d_P_n_C_m)) {//global curve grounping cond 
 		return true;
 	}
@@ -689,6 +698,7 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 	std::vector<Point*> *pt;
 	std::vector<int> *indexesOfMatchingPoints_i, *indexesOfMatchingPoints_j, *indexesOfMatchingPoints_k;
 	std::vector<Point*> consesusSet;
+	std::vector<std::vector<Point*>*> cosensusSegments;
 	std::vector<std::vector<Point*>*> seg_points(size);
 	std::vector<Point*> randomEdgePixels(N_POINTS);
 
@@ -711,8 +721,12 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 	cv::Mat ellipseImage(640, 480, CV_8UC3); ellipseImage = cv::Scalar(255, 255, 255);
 	char* EllipseOnSource_window = "Ellipse";
 #endif
+#ifdef DEBUG_RANSAC_SHOW_LAST_ELLIPSE
+	cv::Mat ellipseImage(2000, 2000, CV_8UC3); ellipseImage = cv::Scalar(255, 255, 255);
+	char* EllipseOnSource_window = "Ellipse";
+#endif
 	for (int i = 0; i < size; i++) {
-		if (segs[i]!=NULL) {
+		if (segs[i]!=NULL && segs[i]->getLength()>=N_POINTS/2) {
 #ifdef DEBUG_RANSAC
 			std::cout << "##############################"<<std::endl<<"Betrachtung fuer Segment:" << segs[i]->ID<< std::endl << std::endl;
 			ellipseImage = cv::Scalar(255, 255, 255);
@@ -722,7 +736,7 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 			cur_Seg = segs[i];
 			//get the next segment which could be a part of the same ellipse (global curve grounping conditions)
 			for (size_t j = 0; j < segs.size(); j++)	{
-				if (segs[i] != segs[j] && segs[j]!=NULL) {
+				if (segs[i] != segs[j] && segs[j] != NULL/* &&segs[j]->getLength()>N_POINTS*/) {
 					size_j = seg_points[j]->size();
 					Point* P_i = seg_points[i]->at(seg_points[i]->size()/2); //get P_i
 					Point *P_j = seg_points[j]->at(seg_points[j]->size() / 2);//get P_j
@@ -739,6 +753,8 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 							//				std::srand(unsigned(std::time(0)));
 							//				std::cout << "Zufällige Indizes ziehen:" << std::endl << std::endl;
 							//#endif
+
+
 							std::vector<int> indexes(size_i + size_j);
 							for (int x = 0; x < indexes.size(); x++){
 								indexes[x] = x;
@@ -752,6 +768,7 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 							//				}
 							//				cout << endl << endl;
 							//#endif
+
 							//get random pixels S1
 							for (int x = 0; x < N_POINTS &&x< indexes.size(); x++){
 								idx = indexes[x];
@@ -763,7 +780,7 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 								}
 							}
 
-#ifdef DEBUG_RANSAC
+#ifdef DEBUG_RANSAC_RANDOM_POINTS
 							using namespace std;
 							cout << "Zufällige Punkte:" << endl << endl;
 							for (int i = 0; i < randomEdgePixels.size(); i++)	{
@@ -784,16 +801,30 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 
 							eS1 = calcEllipse(&randomEdgePixels);
 
+							//take all pixels
+							//randomEdgePixels.clear();
+							//for (int x = 0; x < size_j+size_i; x++){
+							//	//idx = indexes[x];
+							//	if (x < size_i) {//take pixels from segs[i] (index i in seg_points)
+							//		randomEdgePixels.push_back(seg_points[i]->at(x));
+							//	}
+							//	else { //take pixel from segs[j] (index j in seg_points)
+							//		randomEdgePixels.push_back(seg_points[j]->at(x - size_i));
+							//	}
+							//}
+							//eS1 = calcEllipse(&randomEdgePixels);
+							//n_tries = max_tries;
+
 							//estimate consensus sets S1* for both segments
 							indexesOfMatchingPoints_i = eS1->getIndexesOfMatchingPoints(seg_points[i]);
 							fitting_factor_i = indexesOfMatchingPoints_i->size() / size_i;
 							indexesOfMatchingPoints_j = eS1->getIndexesOfMatchingPoints(seg_points[j]);
 							fitting_factor_j = indexesOfMatchingPoints_j->size() / size_j;
-#ifdef DEBUG_RANSAC
-							using namespace std;
-							cout << "Übereinstimmung von " << segs[i]->ID << ": " << fitting_factor_i << endl << endl;
-							cout << "Übereinstimmung von " << segs[j]->ID << ": " << fitting_factor_j << endl << endl;
-#endif
+//#ifdef DEBUG_RANSAC
+//							using namespace std;
+//							cout << "Übereinstimmung von " << segs[i]->ID << ": " << fitting_factor_i << endl << endl;
+//							cout << "Übereinstimmung von " << segs[j]->ID << ": " << fitting_factor_j << endl << endl;
+//#endif
 							if (fitting_factor_i >= TH_PARTIALFIT && fitting_factor_j >= TH_PARTIALFIT) { //TH_PRATIALFIT % of the points from an segment must match the ellipse to have a valid consensus set
 								s1_isValid = true;
 								//if TH_FULLFIT % of the points match the calculated ellipse e, this curve segement will not be included in further calculations
@@ -805,13 +836,13 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 										consesusSet.push_back(seg_points[i]->at(*it));
 									}
 								}
-								//else {
-								//	//add points and remove them from segment
-								//	for (std::vector<int>::const_iterator it = indexesOfMatchingPoints_i->cbegin(); it != indexesOfMatchingPoints_i->cend(); it++){
-								//		consesusSet.push_back(seg_points[i]->at(*it));
-								//		seg_points[i]->erase(seg_points[i]->begin() + *it);
-								//	}
-								//}
+								else {
+									//add points and remove them from segment
+									for (std::vector<int>::const_iterator it = indexesOfMatchingPoints_i->cbegin(); it != indexesOfMatchingPoints_i->cend(); it++){
+										consesusSet.push_back(seg_points[i]->at(*it));
+										seg_points[i]->erase(seg_points[i]->begin() + *it);
+									}
+								}
 								if (fitting_factor_j >= TH_FULLFIT) {
 									segj = segs[j];
 									segs[j] = NULL; //mark segment as assinged to an ellipse 
@@ -820,13 +851,14 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 										consesusSet.push_back(seg_points[j]->at(*it));
 									}
 								}
-								//else {
-								//	//add points and remove them from segment
-								//	for (std::vector<int>::const_iterator it = indexesOfMatchingPoints_j->cbegin(); it != indexesOfMatchingPoints_j->cend(); it++){
-								//		consesusSet.push_back(seg_points[j]->at(*it));
-								//		seg_points[j]->erase(seg_points[j]->begin() + *it);
-								//	}
-								//}
+								else {
+									//add points and remove them from segment
+									for (std::vector<int>::const_iterator it = indexesOfMatchingPoints_j->cbegin(); it != indexesOfMatchingPoints_j->cend(); it++){
+										consesusSet.push_back(seg_points[j]->at(*it));
+										seg_points[j]->erase(seg_points[j]->begin() + *it);
+									}
+								}
+								
 							}
 //#ifdef DEBUG_RANSAC
 //							ellipseImage = cv::Scalar(255, 255, 255);
@@ -859,18 +891,16 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 							//--- if a valid ellipse was found, search for all matching points from other segments which could make an ellipse
 							for (size_t k = 0; k < segs.size(); k++)	{
 								if (segs[k] != NULL) {
-//#ifdef DEBUG_RANSAC
-//									ellipseImage = cv::Scalar(255, 255, 255);
-//									eS1->drawToImage(&ellipseImage, new cv::Scalar(50, 50, 255));
-//									segs[k]->drawToImage(&ellipseImage, cv::Vec3d(255, 0, 0));
-//									cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
-//									cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
-//									cv::imshow(EllipseOnSource_window, ellipseImage);
-//									cv::waitKey(0);
-//#endif
 									size_k = seg_points[k]->size();
 									Point *P_k = seg_points[k]->at(seg_points[k]->size() / 2);//get P_j
-									if (couldMakeEllipse(cur_Seg, P_i, segs[k], P_k)) {
+									if (couldMakeEllipse(cur_Seg, P_i, segs[k], P_k) || couldMakeEllipse(segj, P_j, segs[k], P_k)) {
+#ifdef DEBUG_RANSAC_SHOW_ALL_POSSIBLE_SEGMENTS
+										
+										
+										segs[k]->drawToImage(&ellipseImage, cv::Vec3d(0, 0, 0));
+										cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
+										cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
+#endif
 										indexesOfMatchingPoints_k = eS1->getIndexesOfMatchingPoints(seg_points[k]);
 										fitting_factor_k = indexesOfMatchingPoints_k->size() / size_k;
 #ifdef DEBUG_RANSAC
@@ -878,34 +908,52 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 										cout << "Übereinstimmung von " << segs[k]->ID << ": " << fitting_factor_k << endl << endl;
 #endif
 										if (fitting_factor_k >= TH_FULLFIT) {
+											segk = segs[k];
 											segs[k] = NULL; //mark segment as assinged to an ellipse 
 											//add points to the consensus set
+#ifdef DEBUG_RANSAC_SHOW_ALL_FITTING_SEGMENTS
+											using namespace std;
+											segk->drawToImage(&ellipseImage, cv::Vec3d(0, 0, 0));
+											
+#endif
 											for (std::vector<int>::const_iterator it = indexesOfMatchingPoints_k->cbegin(); it != indexesOfMatchingPoints_k->cend(); it++){
 												consesusSet.push_back(seg_points[k]->at(*it));
 											}
 										}
-										//else if(fitting_factor_k>=TH_PARTIALFIT) {
-										//	//add points and remove them from segment
-										//	for (std::vector<int>::const_iterator it = indexesOfMatchingPoints_k->cbegin(); it != indexesOfMatchingPoints_k->cend(); it++){
-										//		consesusSet.push_back(seg_points[k]->at(*it));
-										//		seg_points[k]->erase(seg_points[k]->begin() + *it);
-										//	}
-										//}
+										else if(fitting_factor_k>=TH_PARTIALFIT) {
+											//add points and remove them from segment
+											for (std::vector<int>::const_iterator it = indexesOfMatchingPoints_k->cbegin(); it != indexesOfMatchingPoints_k->cend(); it++){
+												consesusSet.push_back(seg_points[k]->at(*it));
+												seg_points[k]->erase(seg_points[k]->begin() + *it);
+											}
+										}
 									}
 								}
 							}
 
 							//all matching points are found, calc the ellipse for all points in the consensus set
 							eS1 = calcEllipse(&consesusSet);
-#ifdef DEBUG_RANSAC
+#ifdef DEBUG_RANSAC_SHOW_LAST_ELLIPSE
+							using namespace std;
+							
+							
 							segi->drawToImage(&ellipseImage, cv::Vec3d(0, 0, 0));
 							segj->drawToImage(&ellipseImage, cv::Vec3d(0, 0, 0));
-							eS1->drawToImage(&ellipseImage, new cv::Scalar(50, 50, 255));
 							cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
 							cv::imshow(EllipseOnSource_window, ellipseImage);
 							cv::waitKey(0);
+							eS1->drawToImage(&ellipseImage, new cv::Scalar(50, 50, 255));
+							cout<<"Abstände zu Segmentpunkten: "<<eS1->calcDistanceToPoints(&consesusSet)<<endl;
+							cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
+							cv::imshow(EllipseOnSource_window, ellipseImage);
+							cv::waitKey(0);
+							ellipseImage = cv::Scalar(255, 255, 255);
 #endif
-							ellipses->push_back(eS1);
+							//validate ellipse
+							if (eS1->calcDistanceToPoints(&consesusSet)<TH_AVDIST) {
+								ellipses->push_back(eS1);
+							}
+							
 							consesusSet.clear();
 							break; // proceed with next segment
 						}
@@ -916,10 +964,23 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 	}
 
 	//---- all segments should fitt an ellipse, only segments for which no matching segment was found remain ---- 
-	for (int i = 0; i < size-1; i++) {
-		if (segs[i] != NULL) {
-			eS1=segs[i]->calcEllipse();
+	for (int i = 0; i < size; i++) {
+		if (segs[i] != NULL ) {
+			
+			eS1=calcEllipse(seg_points[i]);
+#ifdef DEBUG_RANSAC_SHOW_LAST_ELLIPSE
 			if (eS1 != NULL) {
+				using namespace std;
+				segs[i]->drawToImage(&ellipseImage, cv::Vec3d(0, 0, 0));
+				eS1->drawToImage(&ellipseImage, new cv::Scalar(50, 50, 255));
+				cout << "Abstände zu Segmentpunkten: " << eS1->calcDistanceToPoints(seg_points[i]) << endl;
+				cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
+				cv::imshow(EllipseOnSource_window, ellipseImage);
+				cv::waitKey(0);
+				ellipseImage = cv::Scalar(255, 255, 255);
+			}
+#endif
+			if (eS1 != NULL && eS1->calcDistanceToPoints(seg_points[i])<TH_AVDIST) {
 				ellipses->push_back(eS1);
 #ifdef DEBUG_RANSAC
 				eS1->drawToImage(&ellipseImage, new cv::Scalar(50, 50, 255));

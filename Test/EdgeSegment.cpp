@@ -202,6 +202,17 @@ Point* EdgeSegment::getSecondPoint() {
 //	}
 //}
 
+void EdgeSegment::printToFile(const char* file) {
+	std::fstream s; 
+	s.open(file, std::ios::out);
+	s << "L={";
+	for (list<Point*>::iterator  i = edgeList.begin(); i!=edgeList.end() ; i++)
+	{
+		s << "(" << (*i)->getX() << "," << (*i)->getY() << "),";
+	}
+	s << "}" << endl;
+}
+
 int EdgeSegment::lineSegmentation(int d_tol) {
 	nLineSegs = 0;
 	double maxDev = 0;
@@ -795,7 +806,7 @@ Ellipse* EdgeSegment::calcEllipse() {
 	//% Find the negative(as det(tmpD) < 0) eigenvalue
 	//I = find(real(diag(eval_x)) < 1e-8 & ~isinf(diag(eval_x)));
 	for (int i = 0; i < eigenval.rows(); i++)	{
-		if (eigenval(i,0) < 0) {
+		if (eigenval(i,0) < pow(10,-8)) {
 			i_neg_eigenval = i;
 			break;
 		}

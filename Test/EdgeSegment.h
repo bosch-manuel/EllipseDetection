@@ -88,6 +88,7 @@ public:
 
 	//bool operator>(const EdgeSegment& other) const;
 
+	void printToFile(const char*);
 	int const ID;
 
 private:
