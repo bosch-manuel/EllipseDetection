@@ -145,6 +145,7 @@ int main(int argc, char** argv) {
 			(*it)->drawToImage(&segImage, color);
 			/*cv::imshow(segment_window, segImage);
 			cout << "ID: " << (*it)->ID<<endl;
+			(*it)->printToFile("E:\\aktuellesSegment.txt");
 			cv::waitKey();*/
 		}
 	}
@@ -152,8 +153,8 @@ int main(int argc, char** argv) {
 	cv::imwrite("..\\Segments.jpg", segImage);
 #endif 
 
-	/*char* lineSegmentedEdges_window = "LineSegmentedEdges";
-	cv::namedWindow(lineSegmentedEdges_window, CV_WINDOW_AUTOSIZE);*/
+	char* lineSegmentedEdges_window = "LineSegmentedEdges";
+	cv::namedWindow(lineSegmentedEdges_window, CV_WINDOW_AUTOSIZE);
 
 	//line segmentation for each Edge segment
 	list<EdgeSegment*>::iterator it;
@@ -161,10 +162,14 @@ int main(int argc, char** argv) {
 	for (it=edgeSegments.begin(); it!=edgeSegments.end();)	{
 		if ((*it)->getLength() > MIN_LENGTH) {
 			(*it)->lineSegmentation(D_TOL);
-			/*cout << (*it)->ID;
+			cout << (*it)->ID;
 			(*it)->drawToImage(&lineSegmentedEdges, cv::Vec3b(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255)));
 			cv::imshow(lineSegmentedEdges_window, lineSegmentedEdges);
-			cv::waitKey(0);*/
+			std::fstream c;
+			c.open("E:\\Curvature.txt", std::ios::out);
+			(*it)->printToFile("E:\\aktuellesSegment.txt");
+			(*it)->evaluateCurvature(&c);
+			cv::waitKey(0);
 			it++;
 		}else{
 			it=edgeSegments.erase(it);

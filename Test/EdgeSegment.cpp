@@ -371,19 +371,20 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 	Point *P1, *P2 = NULL, *P3 = NULL, *l1, *l2;
 	int nCurvSegs = 0;
 	double a_pre = -1, a = -1, deg = -1, kp = 0, kp_pre = 0;
+	vector<double> kps;
+	vector<double> angs;
 
 	//segment must be segmented into lines and more than 2 points
 	/*if (type != LSEG_EDGE && edgeList.size()<2) {
 		return -1;
 	}*/
 	//go through the whole segment
-#ifdef DEBUG_EVAL_CURVE
 	*csf << "Segmentierung von Seg " << ID << endl;
 	for (std::list<Point*>::const_iterator i = edgeList.begin(); i != edgeList.end(); i++){
 		*csf << "(" << (*i)->getX() << ", " << (*i)->getY() << ")";
 	}
 	*csf << endl << endl;
-#endif
+
 	std::list<Point*>::const_iterator i = edgeList.begin();
 	std::list<Point*>::const_iterator j = i;
 	j++;
@@ -398,6 +399,8 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 
 		a = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
 		kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
+		kps.push_back(kp);
+		angs.push_back(a);
 #ifdef DEBUG_EVAL_CURVE
 
 		*csf << "kp(" << kp << ")";
@@ -409,11 +412,7 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 //			*csf << deg << ", ";
 //#endif
 			if (abs(a_pre - a) > TH || (kp*kp_pre) <= 0 /*|| b1<B_MIN || b1>B_MAX*/) {
-//#ifdef DEBUG_EVAL_CURVE
-//				*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
-//#endif
-
-				a_pre = -1;
+				*csf << endl << "####### Trennen (" << P1->getX() << "," << P1->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
 			}
 		}
 
@@ -425,6 +424,18 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 
 	}
 	*csf << endl<<endl;
+	*csf << "Kreuzprodukte:" << endl;
+	for (size_t i = 0; i < kps.size(); i++)
+	{
+		*csf << kps[i] << ", ";
+	}
+	*csf << endl;
+	*csf << "Winkel:" << endl;
+	for (size_t i = 0; i < angs.size(); i++)
+	{
+		*csf << angs[i]*(180/PI) << ", ";
+	}
+	*csf << endl;
 	return true;
 }
 
