@@ -16,7 +16,7 @@
 #define FINDENDS_DEBUG "..\\FindEnds_Debug.txt"
 #define CURVE_SEG_DEBUG "..\\CurveSeg_Debug.txt"
 #define CURVE_GRP_DEBUG "..\\CurveGrp_Debug.txt"
-#define EVAL_CURVE_DEBUG "..\\EvalCurvature.txt"
+#define EVAL_CURVE_DEBUG "E:\\Curvature.txt"
 #define EDGEPOINT 255
 #define ENDPOINT 200
 //#define DEBUG_MAXLINEDEV

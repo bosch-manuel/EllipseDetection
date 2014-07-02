@@ -401,41 +401,29 @@ bool EdgeSegment::evaluateCurvature(std::fstream *csf) {
 		kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
 		kps.push_back(kp);
 		angs.push_back(a);
-#ifdef DEBUG_EVAL_CURVE
 
-		*csf << "kp(" << kp << ")";
-#endif
 		if (a_pre != -1){
-			//calc dif
-//#ifdef DEBUG_EVAL_CURVE
-//			deg = a_pre*(180 / PI);
-//			*csf << deg << ", ";
-//#endif
-			if (abs(a_pre - a) > TH || (kp*kp_pre) <= 0 /*|| b1<B_MIN || b1>B_MAX*/) {
+			if (abs(a_pre - a) > TH || (kp*kp_pre) <= 0) {
 				*csf << endl << "####### Trennen (" << P1->getX() << "," << P1->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
 			}
 		}
-
-		/*i = j;
-		j = k;*/
 		a_pre = a;
 		kp_pre = kp;
-
-
 	}
 	*csf << endl<<endl;
 	*csf << "Kreuzprodukte:" << endl;
 	for (size_t i = 0; i < kps.size(); i++)
 	{
-		*csf << kps[i] << ", ";
+		*csf << kps[i] << " ";
 	}
 	*csf << endl;
 	*csf << "Winkel:" << endl;
 	for (size_t i = 0; i < angs.size(); i++)
 	{
-		*csf << angs[i]*(180/PI) << ", ";
+		*csf << angs[i]*(180/PI) << " ";
 	}
 	*csf << endl;
+
 	return true;
 }
 
@@ -614,36 +602,32 @@ int EdgeSegment::curveSegmentationImproved(std::list<EdgeSegment*> *curveSegment
 
 		a = acos((*l1 * *l2) / (l1->norm()* l2->norm()));
 		kp = l1->getX()*l2->getY() - l1->getY()*l2->getX();
-#ifdef DEBUB_CURVE_SEG
-		
-		*csf << "kp(" << kp << ")";
-#endif
-		if (a_pre != -1){
+		if (lengthCond(P1, P2, P3)) {
+			//splitt at point P2
+			cS->push_backPoint(P2);
+			if (cS->getLength() > NP) {
+				curveSegments->push_back(cS);
+				nCurvSegs++;
+			}
+			cS = new EdgeSegment(CURVESEG);
+		}
+		else if (a_pre != -1){
 			//calc dif
+			if (abs(a_pre - a) > TH ||(kp*kp_pre)<0) {
 #ifdef DEBUB_CURVE_SEG
-			deg = a_pre*(180 / PI);
-			*csf << deg << ", ";
-#endif
-			if (abs(a_pre - a) > TH ||(kp*kp_pre)<0 /*|| b1<B_MIN || b1>B_MAX*/) {
-#ifdef DEBUB_CURVE_SEG
-				*csf << endl << "####### Trennen (" << P2->getX() << "," << P2->getY() << ")>>" << abs(a - a_pre)*(180 / PI) << endl;
+				*csf << endl << "####### Trennen (" << P1->getX() << "," << P1->getY() << ")####" << endl;
 #endif
 				//split the segment at P2 and add the curve segmente if it contains more than NP points
 				if (cS->getLength() > NP) {
 					curveSegments->push_back(cS);
 					nCurvSegs++;
 				}
-				a_pre = -1;
 				cS = new EdgeSegment(CURVESEG);
+				cS->push_backPoint(P1);
 			}
 		}
-
-		/*i = j;
-		j = k;*/
 		a_pre = a;
 		kp_pre = kp;
-	
-		
 	}
 	//add two last points to the current curve segments
 	cS->push_backPoint(P2);

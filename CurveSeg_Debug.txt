@@ -1,546 +1,445 @@
 Segmentierung von Seg 1
-kp(297)kp(-27)176.116, 
-####### Trennen (2,189)>>41.1155
-kp(10)135, 
-####### Trennen (1,190)>>0
 Segmentierung von Seg 2
-kp(-30)kp(-42)152.65, kp(14)139.97, 
-####### Trennen (44,2)>>6.34019
+
+####### Trennen (47,4)####
 Segmentierung von Seg 3
-kp(-14)kp(2)142.125, 
-####### Trennen (66,7)>>11.3099
+
+####### Trennen (69,6)####
 Segmentierung von Seg 4
-kp(277)Segmentierung von Seg 5
-kp(-36)kp(88)164.291, 
-####### Trennen (166,9)>>2.04541
-kp(-65)166.337, 
-####### Trennen (227,28)>>2.72631
-kp(12)163.61, 
-####### Trennen (230,30)>>4.77172
-kp(-12)158.839, 
-####### Trennen (239,32)>>0
-kp(9)158.839, 
-####### Trennen (242,34)>>3.06649
-kp(-87)155.772, 
-####### Trennen (248,35)>>15.2551
-kp(-58)171.027, Segmentierung von Seg 6
-kp(-28)kp(9)157.011, 
-####### Trennen (453,34)>>48.5763
-kp(42)108.435, 
-####### Trennen (456,37)>>26.5651
-kp(-14)135, 
-####### Trennen (470,37)>>0
-kp(8)135, 
-####### Trennen (471,38)>>0
+Segmentierung von Seg 5
+
+####### Trennen (227,28)####
+
+####### Trennen (230,30)####
+
+####### Trennen (239,32)####
+Segmentierung von Seg 6
+
+####### Trennen (454,32)####
+
+####### Trennen (453,34)####
 Segmentierung von Seg 7
-kp(-8)kp(20)90, 
-####### Trennen (25,4)>>75.2564
-kp(135)165.256, kp(22)152.47, kp(-2)132.274, 
-####### Trennen (59,11)>>2.72631
+
+####### Trennen (21,0)####
+
+####### Trennen (58,12)####
 Segmentierung von Seg 8
-kp(104)kp(32)178.374, kp(-8)164.055, 
-####### Trennen (350,47)>>5.85601
-kp(15)158.199, 
-####### Trennen (355,49)>>5.71059
-kp(-9)163.909, 
-####### Trennen (365,50)>>23.1986
-kp(4)140.711, 
-####### Trennen (366,51)>>5.71059
-kp(-4)135, 
-####### Trennen (370,51)>>0
-kp(1)135, 
-####### Trennen (371,52)>>0
+
+####### Trennen (346,47)####
+
+####### Trennen (350,47)####
+
+####### Trennen (365,50)####
+
+####### Trennen (366,51)####
+
+####### Trennen (370,51)####
 Segmentierung von Seg 9
-kp(20)Segmentierung von Seg 13
-kp(-81)kp(-507)156.125, kp(-159)168.373, kp(120)175.266, 
-####### Trennen (226,51)>>1.05446
-kp(-126)176.32, 
-####### Trennen (336,87)>>1.24536
-kp(-12)177.566, kp(-10)173.991, kp(20)161.565, 
-####### Trennen (369,103)>>71.5651
-kp(4)90, Segmentierung von Seg 14
-kp(-16)kp(4)135, 
-####### Trennen (91,13)>>0
-kp(-4)135, 
-####### Trennen (95,13)>>0
-kp(4)135, 
-####### Trennen (96,14)>>0
-kp(-4)135, 
-####### Trennen (100,14)>>0
-kp(3)135, 
-####### Trennen (101,15)>>0
+Segmentierung von Seg 13
+
+####### Trennen (364,98)####
+Segmentierung von Seg 14
+
+####### Trennen (90,12)####
+
+####### Trennen (91,13)####
+
+####### Trennen (95,13)####
+
+####### Trennen (96,14)####
+
+####### Trennen (100,14)####
 Segmentierung von Seg 20
-kp(-21)kp(43)158.749, 
-####### Trennen (195,37)>>14.7436
-kp(-23)173.493, 
-####### Trennen (214,42)>>12.4396
-kp(4)161.053, 
-####### Trennen (217,44)>>14.7436
-kp(-2)146.31, 
-####### Trennen (219,44)>>11.3099
-kp(2)135, 
-####### Trennen (220,45)>>0
-kp(-2)135, 
-####### Trennen (222,45)>>0
-kp(2)135, 
-####### Trennen (223,46)>>0
-kp(-2)135, 
-####### Trennen (225,46)>>0
-kp(2)135, 
-####### Trennen (226,47)>>0
-kp(-2)135, 
-####### Trennen (228,47)>>0
-kp(1)135, 
-####### Trennen (229,48)>>0
+
+####### Trennen (177,30)####
+
+####### Trennen (214,42)####
+
+####### Trennen (217,44)####
+
+####### Trennen (219,44)####
+
+####### Trennen (220,45)####
+
+####### Trennen (222,45)####
+
+####### Trennen (223,46)####
+
+####### Trennen (225,46)####
+
+####### Trennen (226,47)####
+
+####### Trennen (228,47)####
 Segmentierung von Seg 21
-kp(72)kp(24)177.911, kp(-4)164.055, 
-####### Trennen (360,65)>>29.0546
-kp(3)135, 
-####### Trennen (361,66)>>0
+
+####### Trennen (356,65)####
+
+####### Trennen (360,65)####
 Segmentierung von Seg 28
-kp(28)kp(-4)125.538, 
-####### Trennen (134,37)>>9.46232
+
+####### Trennen (132,39)####
 Segmentierung von Seg 33
-kp(-19)kp(12)162.699, 
-####### Trennen (236,47)>>2.04541
-kp(36)164.745, 
-####### Trennen (248,51)>>36.8699
-kp(-6)127.875, 
-####### Trennen (251,49)>>18.4349
+
+####### Trennen (233,45)####
+
+####### Trennen (236,47)####
+
+####### Trennen (248,51)####
 Segmentierung von Seg 34
-kp(-526)kp(-333)135.325, 
-####### Trennen (340,91)>>37.7682
-kp(6)173.093, 
-####### Trennen (355,98)>>0.324925
-kp(2)173.418, Segmentierung von Seg 35
-kp(-26)kp(23)105.068, 
-####### Trennen (234,43)>>42.3575
-kp(25)147.426, kp(-5)125.754, 
-####### Trennen (245,44)>>24.444
+Segmentierung von Seg 35
+
+####### Trennen (231,39)####
+
+####### Trennen (242,46)####
 Segmentierung von Seg 39
-kp(-36)kp(12)174.144, 
-####### Trennen (268,61)>>15.9454
-kp(-2)158.199, 
-####### Trennen (270,61)>>23.1986
-kp(2)135, 
-####### Trennen (271,62)>>0
-kp(-2)135, 
-####### Trennen (273,62)>>0
-kp(2)135, 
-####### Trennen (274,63)>>0
-kp(-2)135, 
-####### Trennen (276,63)>>0
-kp(2)135, 
-####### Trennen (277,64)>>0
-kp(-2)135, 
-####### Trennen (279,64)>>0
-kp(2)135, 
-####### Trennen (280,65)>>0
-kp(-2)135, 
-####### Trennen (282,65)>>0
-kp(2)135, 
-####### Trennen (283,66)>>0
-kp(-2)135, 
-####### Trennen (285,66)>>0
-kp(1)135, 
-####### Trennen (286,67)>>0
+
+####### Trennen (268,61)####
+
+####### Trennen (270,61)####
+
+####### Trennen (271,62)####
+
+####### Trennen (273,62)####
+
+####### Trennen (274,63)####
+
+####### Trennen (276,63)####
+
+####### Trennen (277,64)####
+
+####### Trennen (279,64)####
+
+####### Trennen (280,65)####
+
+####### Trennen (282,65)####
+
+####### Trennen (283,66)####
+
+####### Trennen (285,66)####
 Segmentierung von Seg 40
-kp(-18)kp(12)127.875, 
-####### Trennen (260,55)>>18.4349
-kp(-30)146.31, 
-####### Trennen (263,55)>>13.3669
-kp(30)159.677, 
-####### Trennen (290,65)>>0
-kp(-36)159.677, 
-####### Trennen (293,65)>>0.883102
-kp(24)160.56, 
-####### Trennen (327,77)>>0
+
+####### Trennen (254,51)####
 Segmentierung von Seg 41
-kp(12)kp(-8)163.301, 
-####### Trennen (353,67)>>5.10217
-kp(8)158.199, 
-####### Trennen (358,69)>>0
-kp(-4)158.199, 
-####### Trennen (362,69)>>23.1986
-kp(4)135, 
-####### Trennen (363,70)>>0
-kp(-4)135, 
-####### Trennen (367,70)>>0
-kp(2)135, 
-####### Trennen (368,71)>>0
+
+####### Trennen (349,67)####
+
+####### Trennen (353,67)####
+
+####### Trennen (358,69)####
+
+####### Trennen (362,69)####
+
+####### Trennen (363,70)####
+
+####### Trennen (367,70)####
 Segmentierung von Seg 42
-kp(-10)kp(1)128.66, 
-####### Trennen (51,76)>>6.34019
+
+####### Trennen (52,75)####
 Segmentierung von Seg 45
-kp(-25)kp(-21)157.714, kp(-42)159.775, kp(-36)156.371, kp(-8)158.629, kp(-25)174.56, kp(-3)152.969, Segmentierung von Seg 47
-kp(-12)kp(-17)147.724, 
-####### Trennen (403,69)>>97.1968
-kp(-8)50.5275, 
-####### Trennen (394,73)>>105.51
-kp(-2)156.038, Segmentierung von Seg 48
-kp(43)kp(19)151.742, kp(2)160.615, Segmentierung von Seg 54
-kp(-38)kp(-11)122.276, kp(3)129.289, 
-####### Trennen (328,80)>>5.71059
-kp(-3)135, 
-####### Trennen (325,80)>>0
-kp(2)135, 
-####### Trennen (324,79)>>0
-kp(-2)135, 
-####### Trennen (322,79)>>0
-kp(1)135, 
-####### Trennen (321,78)>>0
+Segmentierung von Seg 47
+Segmentierung von Seg 48
+Segmentierung von Seg 54
+
+####### Trennen (329,81)####
+
+####### Trennen (328,80)####
+
+####### Trennen (325,80)####
+
+####### Trennen (324,79)####
+
+####### Trennen (322,79)####
 Segmentierung von Seg 57
-kp(14)kp(18)154.231, kp(9)139.399, kp(9)161.565, kp(22)156.801, kp(11)158.199, kp(4)161.565, kp(-4)153.435, 
-####### Trennen (404,102)>>12.5288
-kp(26)165.964, 
-####### Trennen (409,99)>>21.8014
-kp(12)144.162, Segmentierung von Seg 59
-kp(10)kp(10)137.726, kp(8)120.964, kp(4)135, 
-####### Trennen (169,93)>>45
+
+####### Trennen (402,104)####
+
+####### Trennen (404,102)####
+Segmentierung von Seg 59
+
+####### Trennen (169,89)####
 Segmentierung von Seg 60
-kp(6)kp(-9)153.435, 
-####### Trennen (172,98)>>45
-kp(-6)108.435, 
-####### Trennen (169,98)>>26.5651
+
+####### Trennen (173,95)####
+
+####### Trennen (172,98)####
 Segmentierung von Seg 62
-kp(-48)kp(-18)150.255, kp(-14)156.801, kp(-42)158.199, kp(-74)160.56, kp(-22)167.435, kp(-28)174.13, kp(-16)163.413, kp(-10)162.897, Segmentierung von Seg 65
-kp(30)kp(25)146.31, Segmentierung von Seg 66
-kp(26)kp(67)153.435, kp(38)146.441, kp(8)160.615, Segmentierung von Seg 67
-kp(-7)kp(-1)171.347, Segmentierung von Seg 68
-kp(15)kp(-5)161.565, 
-####### Trennen (177,113)>>7.12502
-kp(-2)168.69, Segmentierung von Seg 69
-kp(-35)kp(42)111.801, 
-####### Trennen (205,112)>>27.5973
-kp(6)139.399, 
-####### Trennen (198,118)>>98.7974
+Segmentierung von Seg 65
+Segmentierung von Seg 66
+Segmentierung von Seg 67
+Segmentierung von Seg 68
+
+####### Trennen (182,108)####
+Segmentierung von Seg 69
+
+####### Trennen (212,112)####
 Segmentierung von Seg 70
-kp(-12)kp(-32)143.13, 
-####### Trennen (219,115)>>39.0939
-kp(26)104.036, 
-####### Trennen (211,117)>>36.8699
-kp(-19)140.906, 
-####### Trennen (208,121)>>9.16235
-kp(-30)150.068, 
-####### Trennen (201,124)>>38.2671
+
+####### Trennen (219,111)####
+
+####### Trennen (219,115)####
+
+####### Trennen (211,117)####
+
+####### Trennen (208,121)####
 Segmentierung von Seg 76
-kp(9)Segmentierung von Seg 79
-kp(21)kp(-90)139.97, 
-####### Trennen (184,128)>>56.3099
-kp(10)83.6598, 
-####### Trennen (174,118)>>77.9052
-kp(2)161.565, kp(18)153.435, 
-####### Trennen (170,117)>>25.56
-kp(42)127.875, kp(30)142.125, kp(30)120.964, kp(-12)118.072, 
-####### Trennen (173,132)>>30.9638
+Segmentierung von Seg 79
+
+####### Trennen (188,123)####
+
+####### Trennen (168,135)####
 Segmentierung von Seg 80
-kp(68)kp(-44)70.56, 
-####### Trennen (184,137)>>88.6678
-kp(-43)159.228, 
-####### Trennen (177,142)>>67.8955
-kp(8)91.3322, 
-####### Trennen (174,138)>>35.5377
-kp(-2)126.87, 
-####### Trennen (172,138)>>8.1301
-kp(1)135, 
-####### Trennen (171,137)>>0
+
+####### Trennen (192,125)####
+
+####### Trennen (184,137)####
+
+####### Trennen (177,142)####
+
+####### Trennen (174,138)####
+
+####### Trennen (172,138)####
 Segmentierung von Seg 83
-kp(4)kp(12)135, kp(9)135, kp(31)149.036, 
-####### Trennen (331,138)>>49.8739
-kp(20)99.1623, kp(2)111.801, Segmentierung von Seg 85
-kp(24)kp(12)158.199, kp(4)135, kp(2)135, kp(-1)135, 
-####### Trennen (344,136)>>0
+
+####### Trennen (332,134)####
+Segmentierung von Seg 85
+
+####### Trennen (343,135)####
 Segmentierung von Seg 86
-kp(-42)kp(-34)133.603, 
-####### Trennen (120,136)>>46.9693
-kp(-12)86.6335, 
-####### Trennen (118,140)>>56.4966
-kp(-20)143.13, 
-####### Trennen (114,142)>>26.5651
-kp(-7)116.565, 
-####### Trennen (110,139)>>34.6952
+
+####### Trennen (113,133)####
+
+####### Trennen (120,136)####
+
+####### Trennen (118,140)####
+
+####### Trennen (114,142)####
 Segmentierung von Seg 87
-kp(-4)kp(-18)146.31, kp(-12)123.69, kp(2)135, 
-####### Trennen (404,146)>>0
+
+####### Trennen (406,144)####
 Segmentierung von Seg 91
-kp(14)kp(6)81.8699, 
-####### Trennen (366,143)>>61.2602
-kp(2)143.13, kp(-1)135, 
-####### Trennen (369,142)>>0
+
+####### Trennen (362,140)####
+
+####### Trennen (368,143)####
 Segmentierung von Seg 96
-kp(16)kp(21)129.094, kp(15)136.332, kp(3)136.848, Segmentierung von Seg 99
-kp(-12)kp(10)112.62, 
-####### Trennen (421,147)>>33.6901
+Segmentierung von Seg 99
+
+####### Trennen (423,144)####
 Segmentierung von Seg 100
-kp(-36)kp(-2)145.305, Segmentierung von Seg 103
-kp(-12)kp(3)146.31, 
-####### Trennen (137,139)>>11.3099
+Segmentierung von Seg 103
+
+####### Trennen (134,139)####
 Segmentierung von Seg 104
-kp(12)kp(4)149.036, kp(-2)135, 
-####### Trennen (132,149)>>0
+
+####### Trennen (132,147)####
 Segmentierung von Seg 108
-kp(6)kp(12)135, 
-####### Trennen (444,146)>>45
-kp(6)90, 
-####### Trennen (447,149)>>45
+
+####### Trennen (446,144)####
+
+####### Trennen (444,146)####
 Segmentierung von Seg 113
-kp(10)Segmentierung von Seg 114
-kp(-20)kp(-3)130.365, Segmentierung von Seg 117
-kp(143)kp(29)138.033, kp(2)146.004, Segmentierung von Seg 125
-kp(-10)Segmentierung von Seg 126
-kp(16)kp(-8)126.87, 
-####### Trennen (321,167)>>0
-kp(5)126.87, 
-####### Trennen (322,167)>>17.5924
-kp(-55)144.462, 
-####### Trennen (329,162)>>0
-kp(-22)144.462, kp(-10)158.199, kp(-7)163.142, kp(-9)162.35, kp(-36)164.745, kp(-12)161.565, 
-####### Trennen (355,192)>>26.5651
+Segmentierung von Seg 114
+Segmentierung von Seg 117
+Segmentierung von Seg 125
+Segmentierung von Seg 126
+
+####### Trennen (322,167)####
 Segmentierung von Seg 128
-kp(8)kp(-12)116.565, 
-####### Trennen (257,176)>>38.6598
-kp(10)155.225, 
-####### Trennen (266,177)>>26.5651
-kp(-4)128.66, 
-####### Trennen (267,176)>>6.34019
+
+####### Trennen (254,177)####
+
+####### Trennen (266,177)####
 Segmentierung von Seg 130
-kp(22)kp(-16)157.834, 
-####### Trennen (312,192)>>30.9638
-kp(-16)126.87, kp(-8)135, kp(1)135, 
-####### Trennen (301,193)>>0
+
+####### Trennen (311,185)####
+
+####### Trennen (302,194)####
 Segmentierung von Seg 138
-kp(5)kp(-5)135, 
-####### Trennen (419,188)>>0
-kp(4)135, 
-####### Trennen (420,189)>>0
-kp(-4)135, 
-####### Trennen (424,189)>>0
-kp(3)135, 
-####### Trennen (425,190)>>0
+
+####### Trennen (414,188)####
+
+####### Trennen (419,188)####
+
+####### Trennen (420,189)####
+
+####### Trennen (424,189)####
 Segmentierung von Seg 140
-kp(30)kp(-6)139.399, 
-####### Trennen (321,202)>>2.54444e-014
 Segmentierung von Seg 142
-kp(9)kp(6)149.036, Segmentierung von Seg 143
-kp(29)kp(-10)117.35, 
-####### Trennen (444,195)>>11.3099
-kp(-1)128.66, Segmentierung von Seg 145
-kp(20)kp(8)130.365, 
-####### Trennen (369,194)>>33.2395
-kp(7)97.125, 
-####### Trennen (370,196)>>33.4763
-kp(5)130.601, 
-####### Trennen (374,197)>>35.3625
+Segmentierung von Seg 143
+Segmentierung von Seg 145
+
+####### Trennen (372,192)####
+
+####### Trennen (369,194)####
+
+####### Trennen (370,196)####
 Segmentierung von Seg 147
-kp(18)kp(6)156.801, Segmentierung von Seg 149
-kp(-146)kp(-48)140.641, kp(12)126.87, 
-####### Trennen (328,207)>>8.1301
+Segmentierung von Seg 149
+
+####### Trennen (331,210)####
 Segmentierung von Seg 151
-kp(-14)kp(-20)158.199, 
-####### Trennen (460,198)>>46.3972
+
+####### Trennen (455,196)####
 Segmentierung von Seg 155
-kp(32)kp(33)157.166, kp(42)157.834, kp(42)161.565, kp(25)159.444, kp(20)155.556, kp(27)158.199, kp(45)156.801, kp(29)150.945, kp(16)158.86, kp(48)166.759, kp(32)157.521, kp(-12)149.349, 
-####### Trennen (167,217)>>9.95063
-kp(-25)139.399, kp(24)127.235, 
-####### Trennen (159,224)>>30.9638
-kp(24)158.199, kp(12)161.565, kp(24)171.87, kp(32)161.565, kp(40)156.038, kp(16)158.962, kp(24)161.565, Segmentierung von Seg 156
-kp(-14)kp(-21)158.199, kp(12)156.801, 
-####### Trennen (196,249)>>0
-kp(-4)156.801, 
-####### Trennen (196,253)>>9.16235
-kp(2)165.964, 
-####### Trennen (195,257)>>0
-kp(18)165.964, 
-####### Trennen (195,259)>>63.4349
-kp(-29)102.529, 
-####### Trennen (204,261)>>57.9946
-kp(-34)160.523, kp(-10)158.875, kp(-3)161.565, Segmentierung von Seg 157
-kp(-20)kp(-8)153.435, Segmentierung von Seg 159
-kp(-8)kp(-6)126.87, 
-####### Trennen (287,253)>>36.8699
-kp(-9)90, 
-####### Trennen (290,256)>>45
-kp(-3)135, kp(1)135, 
-####### Trennen (289,260)>>0
+
+####### Trennen (165,213)####
+
+####### Trennen (166,221)####
+Segmentierung von Seg 156
+
+####### Trennen (199,242)####
+
+####### Trennen (196,249)####
+
+####### Trennen (196,253)####
+
+####### Trennen (195,259)####
+Segmentierung von Seg 157
+Segmentierung von Seg 159
+
+####### Trennen (286,254)####
+
+####### Trennen (287,253)####
+
+####### Trennen (290,259)####
 Segmentierung von Seg 160
-kp(-32)kp(-16)159.146, kp(16)161.565, 
-####### Trennen (232,245)>>45
-kp(24)116.565, 
-####### Trennen (231,242)>>53.1301
-kp(24)63.4349, 
-####### Trennen (225,248)>>98.1301
-kp(40)161.565, kp(13)158.199, 
-####### Trennen (220,268)>>27.9622
-kp(-2)130.236, 
-####### Trennen (221,269)>>4.76364
+
+####### Trennen (228,249)####
+
+####### Trennen (232,245)####
+
+####### Trennen (231,242)####
+
+####### Trennen (220,268)####
 Segmentierung von Seg 162
-kp(27)kp(24)152.103, kp(6)162.897, kp(21)171.87, kp(24)158.385, kp(8)164.745, 
-####### Trennen (173,321)>>29.7449
-kp(-2)135, 
-####### Trennen (174,321)>>0
-kp(2)135, 
-####### Trennen (176,323)>>26.5651
-kp(-32)161.565, 
-####### Trennen (178,324)>>78.6901
-kp(48)82.875, 
-####### Trennen (170,336)>>75.9638
-kp(-15)158.839, 
-####### Trennen (168,345)>>7.12502
-kp(6)165.964, 
-####### Trennen (165,351)>>12.5288
-kp(-2)153.435, 
-####### Trennen (165,353)>>18.4349
-kp(1)135, 
-####### Trennen (164,354)>>0
+
+####### Trennen (173,321)####
+
+####### Trennen (174,321)####
+
+####### Trennen (178,324)####
+
+####### Trennen (170,336)####
+
+####### Trennen (168,345)####
+
+####### Trennen (165,351)####
+
+####### Trennen (165,353)####
 Segmentierung von Seg 163
-kp(-23)kp(7)150.709, 
-####### Trennen (217,290)>>6.91123
-kp(-2)157.62, 
-####### Trennen (219,293)>>11.3099
+
+####### Trennen (216,285)####
+
+####### Trennen (217,290)####
 Segmentierung von Seg 164
-kp(6)kp(3)161.565, kp(-11)153.435, 
-####### Trennen (222,273)>>53.1301
-kp(30)100.305, 
-####### Trennen (226,270)>>53.1301
-kp(-36)153.435, 
-####### Trennen (232,258)>>8.1301
-kp(-36)161.565, kp(-65)159.444, kp(-13)155.556, kp(-11)165.964, kp(-20)164.982, kp(-10)164.055, kp(-30)168.69, kp(-120)160.346, kp(-48)156.501, kp(-24)162.897, kp(-16)161.565, kp(-47)165.964, kp(-52)155.045, kp(-14)158.046, kp(-44)166.201, kp(-8)159.55, kp(-3)166.759, Segmentierung von Seg 166
-kp(-104)kp(-34)151.305, kp(-2)154.722, Segmentierung von Seg 167
-kp(-114)kp(-70)136.941, kp(18)153.104, 
-####### Trennen (218,352)>>6.34019
+
+####### Trennen (223,275)####
+
+####### Trennen (222,273)####
+
+####### Trennen (226,270)####
+Segmentierung von Seg 166
+Segmentierung von Seg 167
+
+####### Trennen (221,344)####
 Segmentierung von Seg 168
-kp(82)kp(44)155.019, kp(85)160.168, kp(23)148.736, kp(26)169.237, kp(56)159.624, kp(60)154.231, kp(56)160.769, kp(40)163.072, kp(50)165.964, kp(35)153.435, kp(35)161.565, kp(35)161.565, kp(-35)153.435, 
-####### Trennen (111,354)>>41.6335
-kp(-27)111.801, kp(33)131.634, 
-####### Trennen (110,365)>>21.8014
-kp(55)153.435, kp(-27)150.945, 
-####### Trennen (115,385)>>12.5288
-kp(38)163.474, 
-####### Trennen (117,394)>>7.81529
-kp(16)155.659, kp(3)165.53, kp(1)167.905, Segmentierung von Seg 169
-kp(-44)kp(-15)144.638, kp(-6)165.964, Segmentierung von Seg 174
-kp(-9)kp(-10)145.305, 
-####### Trennen (252,356)>>55.3048
-kp(-20)90, 
-####### Trennen (249,357)>>26.5651
-kp(-5)116.565, Segmentierung von Seg 175
-kp(-12)kp(-24)156.801, kp(-12)158.199, kp(-10)161.565, Segmentierung von Seg 178
-kp(-13)kp(-45)145.62, kp(-36)150.945, kp(-35)160.017, kp(-75)154.983, kp(-72)144.462, kp(-18)143.973, kp(-36)161.565, kp(-60)156.801, kp(24)146.889, 
-####### Trennen (198,380)>>23.1986
-kp(22)123.69, kp(-31)139.764, 
-####### Trennen (184,377)>>14.0362
-kp(40)153.8, 
-####### Trennen (179,374)>>49.7636
-kp(50)104.036, 
-####### Trennen (174,379)>>40.4261
-kp(-32)144.462, 
-####### Trennen (172,391)>>18.4349
-kp(-36)162.897, kp(-26)157.751, kp(-4)157.249, Segmentierung von Seg 179
-kp(-12)kp(-28)161.565, kp(-129)157.62, kp(-45)151.94, kp(-54)167.005, kp(-80)158.629, kp(-48)151.607, kp(-24)158.199, kp(-64)165.964, kp(-64)151.526, kp(-44)156.473, kp(-33)156.038, kp(-60)165.964, kp(8)160.346, 
-####### Trennen (130,413)>>14.0362
+
+####### Trennen (104,354)####
+
+####### Trennen (113,359)####
+
+####### Trennen (110,376)####
+
+####### Trennen (115,385)####
+Segmentierung von Seg 169
+Segmentierung von Seg 174
+
+####### Trennen (251,353)####
+
+####### Trennen (252,356)####
+Segmentierung von Seg 175
+Segmentierung von Seg 178
+
+####### Trennen (196,390)####
+
+####### Trennen (196,378)####
+
+####### Trennen (184,377)####
+
+####### Trennen (179,374)####
+
+####### Trennen (174,379)####
+Segmentierung von Seg 179
 Segmentierung von Seg 180
-kp(-4)kp(6)90, 
-####### Trennen (136,409)>>18.4349
-kp(-3)108.435, 
-####### Trennen (138,408)>>0
-kp(7)108.435, 
-####### Trennen (139,409)>>26.5651
+
+####### Trennen (134,407)####
+
+####### Trennen (136,409)####
 Segmentierung von Seg 182
-kp(10)Segmentierung von Seg 183
-kp(18)kp(-6)168.69, 
-####### Trennen (399,432)>>33.6901
-kp(6)135, 
-####### Trennen (398,433)>>0
-kp(-6)135, 
-####### Trennen (398,439)>>0
-kp(4)135, 
-####### Trennen (397,440)>>0
+Segmentierung von Seg 183
+
+####### Trennen (398,439)####
 Segmentierung von Seg 184
-kp(-33)kp(6)142.496, 
-####### Trennen (158,416)>>3.81407
-kp(-3)146.31, 
-####### Trennen (161,416)>>11.3099
+
+####### Trennen (155,414)####
+
+####### Trennen (158,416)####
 Segmentierung von Seg 185
-kp(-31)kp(-8)155.171, kp(-4)170.134, 
-####### Trennen (165,421)>>53.5691
 Segmentierung von Seg 186
-kp(82)kp(60)155.746, kp(66)160.769, kp(-7)152.723, 
-####### Trennen (405,461)>>5.19443
 Segmentierung von Seg 188
-kp(31)kp(-8)131.055, 
-####### Trennen (256,444)>>15.2551
-kp(6)146.31, 
-####### Trennen (254,446)>>37.875
-kp(3)108.435, 
-####### Trennen (255,448)>>53.1301
+
+####### Trennen (257,439)####
+
+####### Trennen (256,444)####
+
+####### Trennen (254,446)####
 Segmentierung von Seg 190
-kp(36)kp(50)157.521, kp(32)155.358, kp(19)159.37, kp(3)162.15, Segmentierung von Seg 191
-kp(-41)kp(-29)154.25, kp(-7)162.681, Segmentierung von Seg 192
-kp(14)kp(4)159.775, Segmentierung von Seg 196
-kp(-7)kp(-91)175.601, kp(-36)169.624, Segmentierung von Seg 198
-kp(31)kp(46)153.8, kp(-10)150.709, 
-####### Trennen (414,481)>>49.3987
+Segmentierung von Seg 191
+Segmentierung von Seg 192
+Segmentierung von Seg 196
+Segmentierung von Seg 198
 Segmentierung von Seg 199
-kp(41)kp(33)166.592, 
-####### Trennen (409,487)>>40.5651
 Segmentierung von Seg 200
-kp(86)kp(68)150.499, kp(36)151.26, kp(57)158.629, kp(77)157.703, kp(46)155.116, kp(22)162.951, kp(14)164.982, kp(7)164.055, 
-####### Trennen (406,472)>>29.0546
-kp(-4)135, 
-####### Trennen (407,473)>>0
+
+####### Trennen (406,472)####
 Segmentierung von Seg 201
-kp(-21)kp(-27)139.97, kp(-42)148.465, kp(-24)151.074, kp(-4)156.801, kp(3)135, 
-####### Trennen (421,449)>>0
 Segmentierung von Seg 203
-kp(-23)kp(-21)147.426, Segmentierung von Seg 205
-kp(-26)kp(18)172.482, 
-####### Trennen (432,510)>>2.48955
-kp(-18)169.992, 
-####### Trennen (438,516)>>3.16521
-kp(-109)173.157, kp(22)156.774, 
-####### Trennen (453,545)>>6.84277
-kp(-2)149.931, 
-####### Trennen (455,547)>>14.9314
-kp(1)135, 
-####### Trennen (455,548)>>0
+Segmentierung von Seg 205
+
+####### Trennen (425,500)####
+
+####### Trennen (432,510)####
+
+####### Trennen (453,545)####
+
+####### Trennen (455,547)####
 Segmentierung von Seg 208
-kp(49)kp(34)147.529, kp(6)153.435, Segmentierung von Seg 209
-kp(-8)kp(-1)168.408, Segmentierung von Seg 210
-kp(6)kp(-24)165.964, 
-####### Trennen (471,539)>>39.0939
-kp(-23)126.87, kp(8)149.47, 
-####### Trennen (459,534)>>8.1301
+Segmentierung von Seg 209
+Segmentierung von Seg 210
+
+####### Trennen (474,536)####
+
+####### Trennen (464,538)####
 Segmentierung von Seg 214
-kp(-58)kp(65)168.877, 
-####### Trennen (465,574)>>4.01158
-kp(-35)172.889, 
-####### Trennen (472,599)>>8.53077
-kp(10)164.358, 
-####### Trennen (472,604)>>10.9228
-kp(-28)153.435, 
-####### Trennen (474,608)>>8.53077
-kp(8)161.966, 
-####### Trennen (477,628)>>12.5288
-kp(3)174.495, 
-####### Trennen (478,632)>>25.4583
+
+####### Trennen (462,554)####
+
+####### Trennen (472,599)####
+
+####### Trennen (477,628)####
 Segmentierung von Seg 215
-kp(-190)kp(-95)147.653, 
-####### Trennen (475,594)>>27.4601
-kp(19)175.113, 
-####### Trennen (478,616)>>32.3474
-kp(-1)142.765, 
-####### Trennen (479,617)>>7.76517
+
+####### Trennen (464,545)####
+
+####### Trennen (478,616)####
 Segmentierung von Seg 217
-kp(-9)kp(-1)166.675, 
-####### Trennen (466,594)>>31.6755
+
+####### Trennen (466,593)####
 Segmentierung von Seg 218
-kp(13)kp(12)161.565, Segmentierung von Seg 220
-kp(48)kp(-20)120.256, 
-####### Trennen (474,635)>>45
+Segmentierung von Seg 220
 Segmentierung von Seg 227
-kp(-21)kp(-27)142.125, kp(-27)135, kp(-6)135, 
-####### Trennen (177,100)>>26.5651
-kp(-16)161.565, kp(-26)143.973, kp(-33)138.122, kp(-24)133.21, Segmentierung von Seg 239
-kp(40)kp(24)150.945, kp(14)164.745, kp(14)166.201, kp(7)164.055, kp(35)168.69, kp(43)149.323, kp(30)155.186, kp(30)156.801, kp(20)156.801, kp(35)158.199, kp(60)154.983, kp(45)160.017, kp(20)156.801, kp(20)158.199, kp(14)153.435, Segmentierung von Seg 241
-kp(-16)kp(-36)166.759, kp(-63)153.435, kp(-48)154.983, kp(-12)160.017, kp(-13)171.87, kp(-37)167.574, kp(-77)158.923, kp(-63)152.671, kp(-31)153.252, kp(-21)161.748, kp(-16)164.157, kp(-10)163.496, kp(-33)169.509, kp(-44)156.801, kp(-48)161.565, kp(-12)160.56, kp(-18)172.875, kp(-8)156.801, Segmentierung von Seg 242
-kp(-12)kp(-23)164.055, kp(-9)156.14, kp(-65)166.675, kp(-77)145.62, kp(-20)156.954, kp(-20)155.556, kp(-45)161.565, kp(-54)153.435, kp(-30)149.036, kp(-68)160.769, kp(-44)147.319, kp(-34)154.44, kp(-35)160.866, kp(-6)158.532, 
+
+####### Trennen (180,97)####
+Segmentierung von Seg 239
+Segmentierung von Seg 241
+Segmentierung von Seg 242
