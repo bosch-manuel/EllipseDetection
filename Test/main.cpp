@@ -95,10 +95,30 @@ int main(int argc, char** argv) {
 	cout << "Laufzeit edgeDetection: " << time << " ms" << endl;
 
 #ifdef DEBUG_SHOW_EDGES
+	cv::Mat prettyEdgeImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
+	prettyEdgeImage = cv::Scalar(255, 255, 255);
+	for (size_t i = 0; i < prettyEdgeImage.rows; i++)
+	{
+		for (size_t j = 0; j < prettyEdgeImage.cols; j++) {
+			if (edgeImage.at<uchar>(i, j)==EDGEPOINT) {
+				prettyEdgeImage.at<cv::Vec3b>(i,j)[0] = 0;
+				prettyEdgeImage.at<cv::Vec3b>(i, j)[1] = 0;
+				prettyEdgeImage.at<cv::Vec3b>(i, j)[2] = 0;
+			}
+			else if (edgeImage.at<uchar>(i, j) == ENDPOINT) {
+				prettyEdgeImage.at<cv::Vec3b>(i, j)[0] = 0;
+				prettyEdgeImage.at<cv::Vec3b>(i, j)[1] = 255;
+				prettyEdgeImage.at<cv::Vec3b>(i, j)[2] = 0;
+			}
+		}
+	}
 	char* edge_window = "Edges";
 	cv::namedWindow(edge_window, CV_WINDOW_AUTOSIZE);
+
+	//Farbe fuer Ausgabe umkehren
 	cv::imshow(edge_window, edgeImage);
 	cv::imwrite(EDEGE_IMG_PATH, edgeImage);
+	cv::imwrite(PRETTY_EDEGE_IMG_PATH, prettyEdgeImage);
 	
 #endif
 	cv::Mat edgeImage2(edgeImage);
@@ -112,10 +132,29 @@ int main(int argc, char** argv) {
 	cout << "Laufzeit findEnds: " << time << " ms" << endl;
 
 #ifdef DEBUG_SHOW_EDGES
+	cv::Mat prettyEdgeImage2 = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
+	prettyEdgeImage2 = cv::Scalar(255, 255, 255);
+	for (size_t i = 0; i < prettyEdgeImage.rows; i++)
+	{
+		for (size_t j = 0; j < prettyEdgeImage.cols; j++) {
+			if (edgeImage.at<uchar>(i, j) == EDGEPOINT) {
+				prettyEdgeImage2.at<cv::Vec3b>(i, j)[0] = 0;
+				prettyEdgeImage2.at<cv::Vec3b>(i, j)[1] = 0;
+				prettyEdgeImage2.at<cv::Vec3b>(i, j)[2] = 0;
+			}
+			else if (edgeImage.at<uchar>(i, j) == ENDPOINT) {
+				prettyEdgeImage2.at<cv::Vec3b>(i, j)[0] = 0;
+				prettyEdgeImage2.at<cv::Vec3b>(i, j)[1] = 255;
+				prettyEdgeImage2.at<cv::Vec3b>(i, j)[2] = 0;
+			}
+		}
+	}
+
 	char* edge2_window = "Edges2";
 	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge2_window, edgeImage2);
 	cv::imwrite(EDGE_IMG_AFTER_FIND_PATH, edgeImage2);
+	cv::imwrite(PRETTY_EDEGE_IMG_PATH2, prettyEdgeImage2);
 #endif
 
 

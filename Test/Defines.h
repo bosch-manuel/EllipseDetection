@@ -5,8 +5,8 @@
 //#define SOURCE_IMAGE "..\\6Ellipsen.jpg"
 //#define SOURCE_IMAGE "..\\strassenschilder2.png"
 /*edge detection*/
-#define TH_U 150  //150
-#define TH_L 100  //100
+#define TH_U 30  //150
+#define TH_L 20  //100
 #define DEBUG_SHOW_GAUSS
 
 #define TRUE 1
@@ -29,6 +29,8 @@
 #define CURVE_SEG_IMG_PATH "E:\\curveSegments.png"
 #define ELLIP_ON_SRC_IMG_PATH "E\\EllipsesOnSource.png"
 #define ELLIP_IMG_PATH "E:\\Ellipses.png"
+#define PRETTY_EDEGE_IMG_PATH "E:\\PrettyEdgeImage.png"
+#define PRETTY_EDEGE_IMG_PATH2 "E:\\PrettyEdgeImage_NachFindEnds.png"
 
 #define EDGEPOINT 255
 #define ENDPOINT 200
