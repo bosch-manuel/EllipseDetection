@@ -5,8 +5,8 @@
 //#define SOURCE_IMAGE "..\\6Ellipsen.jpg"
 //#define SOURCE_IMAGE "..\\strassenschilder2.png"
 /*edge detection*/
-#define TH_U 30  //150
-#define TH_L 20  //100
+#define TH_U 150  //150
+#define TH_L 100  //100
 #define DEBUG_SHOW_GAUSS
 
 #define TRUE 1
@@ -35,7 +35,7 @@
 //#define DEBUG_MAXLINEDEV
 //#define DEBUG_LINESEG
 //#define DEBUG_SHOW_LINESEGMENTEDEDGES
-//#define DEBUG_SHOW_EDGESEGS
+#define DEBUG_SHOW_EDGESEGS
 #define DEBUG_SHOW_EDGES
 //#define DEBUG_EVAL_CURVE
 

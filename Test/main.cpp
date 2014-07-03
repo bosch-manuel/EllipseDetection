@@ -64,9 +64,13 @@ int main(int argc, char** argv) {
 	cv::Mat edgeImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
 	//cv::Mat edgeImage2(src);
 	cv::Mat segImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
+	segImage = cv::Scalar(255, 255, 255);
 	cv::Mat lineSegmentedEdges = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
+	lineSegmentedEdges = cv::Scalar(255, 255, 255);
 	cv::Mat endPointImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC1);
+	endPointImage = cv::Scalar(255, 255, 255);
 	cv::Mat curveSegImage = cv::Mat::zeros(src.rows, src.cols, CV_8UC3);
+	curveSegImage = cv::Scalar(255, 255, 255);
 
 	list<EdgeSegment*> edgeSegments;
 	list<Point*> endPoints;
