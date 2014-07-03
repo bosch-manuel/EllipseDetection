@@ -47,12 +47,9 @@ int main(int argc, char** argv) {
 	//cv::Mat src = cv::imread("..\\3Ellipsen.png", CV_LOAD_IMAGE_GRAYSCALE);
 	 //cv::Mat src = cv::imread("..\\bloederFall1.png", CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat src = cv::imread(SOURCE_IMAGE, CV_LOAD_IMAGE_GRAYSCALE);
-	cv::Mat gauss;
 	cv::Mat ellipseImage = cv::imread(SOURCE_IMAGE, CV_LOAD_IMAGE_GRAYSCALE);
 	cv::Mat ellipseOnlyImage(src.rows, src.cols, CV_8UC3);
 	ellipseOnlyImage = cv::Scalar(255, 255, 255);
-
-	cv::GaussianBlur(src, gauss, cv::Size(5,5), 0, 0);
 
 	//cv::Mat src = cv::imread("..\\Unbenannt.png", CV_LOAD_IMAGE_GRAYSCALE);
 	//cv::Mat src = cv::imread("..\\strassenschilder.jpg", CV_LOAD_IMAGE_GRAYSCALE);
@@ -83,11 +80,12 @@ int main(int argc, char** argv) {
 	printf("Hallo Startrows: %d, cols: %d\n",src.rows,src.cols);
 	char* source_window = "Source";
 	cv::namedWindow(source_window, CV_WINDOW_AUTOSIZE);
+	cv::imwrite(SRC_IMG_PATH, src);
 	cv::imshow(source_window, src);
 
 	start = clock();
 	//detect edges
-	edgeDetection(gauss, edgeImage, 100, 150, 3);
+	edgeDetection(src, edgeImage, TH_L, TH_U, 3);
 	end = clock();
 	time = (end - start);
 	cout << "Laufzeit edgeDetection: " << time << " ms" << endl;
@@ -96,16 +94,8 @@ int main(int argc, char** argv) {
 	char* edge_window = "Edges";
 	cv::namedWindow(edge_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge_window, edgeImage);
-	cv::imwrite("..\\edgeImage.jpg", edgeImage);
+	cv::imwrite(EDEGE_IMG_PATH, edgeImage);
 	
-#endif
-
-#ifdef DEBUG_SHOW_GAUSS
-	char* gauss_window = "Gauss";
-	cv::namedWindow(gauss_window, CV_WINDOW_AUTOSIZE);
-	cv::imshow(gauss_window, gauss);
-	cv::imwrite("..\\gauss.jpg", edgeImage);
-
 #endif
 	cv::Mat edgeImage2(edgeImage);
 
@@ -121,7 +111,7 @@ int main(int argc, char** argv) {
 	char* edge2_window = "Edges2";
 	cv::namedWindow(edge2_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(edge2_window, edgeImage2);
-	cv::imwrite("..\\edgeImage_NachFindEnds.jpg", edgeImage2);
+	cv::imwrite(EDGE_IMG_AFTER_FIND_PATH, edgeImage2);
 #endif
 
 
@@ -150,7 +140,7 @@ int main(int argc, char** argv) {
 		}
 	}
 	cv::imshow(segment_window, segImage);
-	cv::imwrite("..\\Segments.jpg", segImage);
+	cv::imwrite(EDGE_SEG_IMG_PATH, segImage);
 #endif 
 
 	//char* lineSegmentedEdges_window = "LineSegmentedEdges";
@@ -199,7 +189,7 @@ int main(int argc, char** argv) {
 	}
 	
 	cv::imshow(lineSegmentedEdges_window, lineSegmentedEdges);
-	cv::imwrite("..\\lineSegmentedEdges.jpg", lineSegmentedEdges);
+	cv::imwrite(LINE_SEG_IMG_PATH, lineSegmentedEdges);
 #endif
 
 	//curve segmentation
@@ -233,7 +223,7 @@ int main(int argc, char** argv) {
 	cv::namedWindow(curveSegments_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(curveSegments_window, curveSegImage);
 	//cv::waitKey(0);
-	cv::imwrite("..\\curveSegments.jpg", curveSegImage);
+	cv::imwrite(CURVE_SEG_IMG_PATH, curveSegImage);
 	csf.close();
 #endif
 
@@ -306,13 +296,13 @@ int main(int argc, char** argv) {
 	cv::namedWindow(EllipseOnSource_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(EllipseOnSource_window, ellipseImage);
 	//cv::waitKey(0);
-	cv::imwrite("..\\EllipsesOnSource.jpg", ellipseImage);
+	cv::imwrite(ELLIP_ON_SRC_IMG_PATH, ellipseImage);
 
 	char* Ellipse_window = "Ellipses";
 	cv::namedWindow(Ellipse_window, CV_WINDOW_AUTOSIZE);
 	cv::imshow(Ellipse_window, ellipseOnlyImage);
 	//cv::waitKey(0);
-	cv::imwrite("..\\Ellipses.jpg", ellipseOnlyImage);
+	cv::imwrite(ELLIP_IMG_PATH, ellipseOnlyImage);
 #endif
 	cv::waitKey(0);
 	return(0);

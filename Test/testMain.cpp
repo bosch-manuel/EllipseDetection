@@ -75,79 +75,79 @@
 ///** @function main */
 //int main(int argc, char** argv)
 //{
-//	///// Load an image
-//	//src_gray =  cv::imread("..\\Test.png", CV_LOAD_IMAGE_GRAYSCALE);
+//	/////// Load an image
+//	////src_gray =  cv::imread("..\\Test.png", CV_LOAD_IMAGE_GRAYSCALE);
 //
+//	////
+//
+//	/////// Create a matrix of the same type and size as src (for dst)
+//	////dst.create(src.size(), src.type());
+//
+//	/////// Convert the image to grayscale
+//	//////cvtColor(src, src_gray, CV_BGR2GRAY);
+//
+//	/////// Create a window
+//	////namedWindow(window_name, CV_WINDOW_AUTOSIZE);
+//
+//	/////// Create a Trackbar for user to enter threshold
+//	////createTrackbar("Min Threshold:", window_name, &lowThreshold, max_lowThreshold, CannyThreshold);
+//
+//	/////// Show the image
+//	////CannyThreshold(0, 0);
+//
+//	/////// Wait until user exit program by pressing a key
+//	////waitKey(0);
+//	//cv::Mat img(100, 50, CV_8UC3);
+//	//img= cv::Scalar(255, 255, 255);
+//	//Point *p1 = new Point(50, 8);
+//	//Point *p2 = new Point(53, 7);
+//	//Point *p3 = new Point(57, 9);
+//	//Point *p4 = new Point(60, 10);
+//	//Point *p5 = new Point(61, 12);
+//	//Point *p6 = new Point(64, 14);
+//	//Point *p7 = new Point(63, 16);
+//	//Point *p8 = new Point(64, 20);
+//
+//	//std::list<EdgeSegment*> segs;
+//	//std::list<Ellipse*> els;
+//	//EdgeSegment *e1 = new EdgeSegment(), *e2 = new EdgeSegment();
 //	//
+//	//e1->push_backPoint(p1);
+//	//e1->push_backPoint(p2);
+//	//e1->push_backPoint(p3);
+//	//e1->push_backPoint(p4);
+//	//e1->push_backPoint(p5);
+//	//e1->push_backPoint(p6);
+//	//e1->push_backPoint(p7);
+//	//e1->push_backPoint(p8);
 //
-//	///// Create a matrix of the same type and size as src (for dst)
-//	//dst.create(src.size(), src.type());
+//	//e2->push_backPoint(p1);
+//	//e2->push_backPoint(p2);
+//	//e2->push_backPoint(p3);
+//	//e2->push_backPoint(p4);
+//	//e2->push_backPoint(p5);
+//	//e2->push_backPoint(p6);
+//	//e2->push_backPoint(p7);
+//	//e2->push_backPoint(p8);
+//	//Ellipse *e;
 //
-//	///// Convert the image to grayscale
-//	////cvtColor(src, src_gray, CV_BGR2GRAY);
+//	//segs.push_back(e1);
+//	//segs.push_back(e2);
+//	//fitEllipses(&segs,&els);
 //
-//	///// Create a window
-//	//namedWindow(window_name, CV_WINDOW_AUTOSIZE);
+//	//int *d = new int[segs.size()];
+//	//for (size_t i = 0; i < segs.size(); i++)
+//	//{
 //
-//	///// Create a Trackbar for user to enter threshold
-//	//createTrackbar("Min Threshold:", window_name, &lowThreshold, max_lowThreshold, CannyThreshold);
+//	//}
+//	///*e=e1.calcEllipse();
 //
-//	///// Show the image
-//	//CannyThreshold(0, 0);
+//	//e->drawToImage(&img, new cv::Scalar(50, 50, 50));
 //
-//	///// Wait until user exit program by pressing a key
-//	//waitKey(0);
-//	cv::Mat img(100, 50, CV_8UC3);
-//	img= cv::Scalar(255, 255, 255);
-//	Point *p1 = new Point(50, 8);
-//	Point *p2 = new Point(53, 7);
-//	Point *p3 = new Point(57, 9);
-//	Point *p4 = new Point(60, 10);
-//	Point *p5 = new Point(61, 12);
-//	Point *p6 = new Point(64, 14);
-//	Point *p7 = new Point(63, 16);
-//	Point *p8 = new Point(64, 20);
-//
-//	std::list<EdgeSegment*> segs;
-//	std::list<Ellipse*> els;
-//	EdgeSegment *e1 = new EdgeSegment(), *e2 = new EdgeSegment();
-//	
-//	e1->push_backPoint(p1);
-//	e1->push_backPoint(p2);
-//	e1->push_backPoint(p3);
-//	e1->push_backPoint(p4);
-//	e1->push_backPoint(p5);
-//	e1->push_backPoint(p6);
-//	e1->push_backPoint(p7);
-//	e1->push_backPoint(p8);
-//
-//	e2->push_backPoint(p1);
-//	e2->push_backPoint(p2);
-//	e2->push_backPoint(p3);
-//	e2->push_backPoint(p4);
-//	e2->push_backPoint(p5);
-//	e2->push_backPoint(p6);
-//	e2->push_backPoint(p7);
-//	e2->push_backPoint(p8);
-//	Ellipse *e;
-//
-//	segs.push_back(e1);
-//	segs.push_back(e2);
-//	fitEllipses(&segs,&els);
-//
-//	int *d = new int[segs.size()];
-//	for (size_t i = 0; i < segs.size(); i++)
-//	{
-//
-//	}
-//	/*e=e1.calcEllipse();
-//
-//	e->drawToImage(&img, new cv::Scalar(50, 50, 50));
-//
-//	char* ellipse = "Edges";
-//	cv::namedWindow(ellipse, CV_WINDOW_AUTOSIZE);
-//	cv::imshow(ellipse, img);
-//	cv::imwrite("..\\testelp.jpg",img);
-//	cv::waitKey(0);*/
+//	//char* ellipse = "Edges";
+//	//cv::namedWindow(ellipse, CV_WINDOW_AUTOSIZE);
+//	//cv::imshow(ellipse, img);
+//	//cv::imwrite("..\\testelp.jpg",img);
+//	//cv::waitKey(0);*/
 //	return 0;
 //}
