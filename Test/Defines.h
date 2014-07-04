@@ -5,8 +5,8 @@
 //#define SOURCE_IMAGE "..\\6Ellipsen.jpg"
 //#define SOURCE_IMAGE "..\\strassenschilder2.png"
 /*edge detection*/
-#define TH_U 30  //150
-#define TH_L 20  //100
+#define TH_U 150  //150
+#define TH_L 100  //100
 #define DEBUG_SHOW_GAUSS
 
 #define TRUE 1
@@ -14,21 +14,21 @@
 #define PI 3.14159265359
 //#define DEBUG
 //#define DEBUG_MAIN
-#define EDGE_DEBUG "E:\\EdgeLink_Debug.txt"
-#define FINDENDS_DEBUG "E:\\FindEnds_Debug.txt"
-#define CURVE_SEG_DEBUG "E:\\CurveSeg_Debug.txt"
-#define CURVE_GRP_DEBUG "E:\\CurveGrp_Debug.txt"
-#define EVAL_CURVE_DEBUG "E:\\Curvature.txt"
+#define EDGE_DEBUG "..\\EdgeLink_Debug.txt"
+#define FINDENDS_DEBUG "..\\FindEnds_Debug.txt"
+#define CURVE_SEG_DEBUG "..\\CurveSeg_Debug.txt"
+#define CURVE_GRP_DEBUG "..\\CurveGrp_Debug.txt"
+#define EVAL_CURVE_DEBUG "..\\Curvature.txt"
 
 /*image paths*/
-#define SRC_IMG_PATH "E:\\source.png"
-#define EDEGE_IMG_PATH "E:\\edgeImage.png"
-#define EDGE_IMG_AFTER_FIND_PATH "E:\\edgeImage_NachFindEnds.png"
-#define EDGE_SEG_IMG_PATH "E:\\Segments.png"
-#define LINE_SEG_IMG_PATH "E:\\lineSegmentedEdges.png"
-#define CURVE_SEG_IMG_PATH "E:\\curveSegments.png"
-#define ELLIP_ON_SRC_IMG_PATH "E\\EllipsesOnSource.png"
-#define ELLIP_IMG_PATH "E:\\Ellipses.png"
+#define SRC_IMG_PATH "..\\source.png"
+#define EDEGE_IMG_PATH "..\\edgeImage.png"
+#define EDGE_IMG_AFTER_FIND_PATH "..\\edgeImage_NachFindEnds.png"
+#define EDGE_SEG_IMG_PATH "..\\Segments.png"
+#define LINE_SEG_IMG_PATH "..\\lineSegmentedEdges.png"
+#define CURVE_SEG_IMG_PATH "..\\curveSegments.png"
+#define ELLIP_ON_SRC_IMG_PATH "..\\EllipsesOnSource.png"
+#define ELLIP_IMG_PATH "..\\Ellipses.png"
 #define PRETTY_EDEGE_IMG_PATH "E:\\PrettyEdgeImage.png"
 #define PRETTY_EDEGE_IMG_PATH2 "E:\\PrettyEdgeImage_NachFindEnds.png"
 

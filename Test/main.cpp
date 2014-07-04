@@ -9,7 +9,7 @@
 #include "Point.h"
 #include "PreProcessing.hpp"
 
-#define SOURCE_IMAGE "..\\Bild5.jpg"
+#define SOURCE_IMAGE "..\\Bild1.jpg"
 
 using namespace std;
 
@@ -186,23 +186,25 @@ int main(int argc, char** argv) {
 	cv::imwrite(EDGE_SEG_IMG_PATH, segImage);
 #endif 
 
-	//char* lineSegmentedEdges_window = "LineSegmentedEdges";
-	//cv::namedWindow(lineSegmentedEdges_window, CV_WINDOW_AUTOSIZE);
+	char* lineSegmentedEdges_window = "LineSegmentedEdges";
+	cv::namedWindow(lineSegmentedEdges_window, CV_WINDOW_AUTOSIZE);
 
 	//line segmentation for each Edge segment
 	list<EdgeSegment*>::iterator it;
 	start = clock();
 	for (it=edgeSegments.begin(); it!=edgeSegments.end();)	{
 		if ((*it)->getLength() > MIN_LENGTH) {
-			(*it)->lineSegmentation(D_TOL);
-			(*it)->drawToImage(&lineSegmentedEdges, cv::Vec3b(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255)));
-			/*cv::imshow(lineSegmentedEdges_window, lineSegmentedEdges);
-			cout << (*it)->ID;
 			std::fstream c;
 			c.open("E:\\Curvature.txt", std::ios::out);
-			(*it)->printToFile("E:\\aktuellesSegment.txt");
-			(*it)->evaluateCurvature(&c);
-			cv::waitKey(0);*/
+			(*it)->printToFile("..\\aktuellesSegment.txt");
+			(*it)->lineSegmentation(D_TOL);
+			(*it)->drawToImage(&lineSegmentedEdges, cv::Vec3b(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255)));
+			cv::imshow(lineSegmentedEdges_window, lineSegmentedEdges);
+			cout << (*it)->ID;
+			
+			(*it)->printToFile("..\\aktuellesSegmentdanach.txt");
+			//(*it)->evaluateCurvature(&c);
+			cv::waitKey(0);
 			it++;
 		}else{
 			it=edgeSegments.erase(it);

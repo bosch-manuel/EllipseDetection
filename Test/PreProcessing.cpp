@@ -950,9 +950,9 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 							ellipseImage = cv::Scalar(255, 255, 255);
 #endif
 							//validate ellipse
-							if (eS1->calcDistanceToPoints(&consesusSet)<TH_AVDIST) {
+							//if (eS1->calcDistanceToPoints(&consesusSet)<TH_AVDIST) {
 								ellipses->push_back(eS1);
-							}
+							//}
 							
 							consesusSet.clear();
 							break; // proceed with next segment
@@ -980,7 +980,7 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 				ellipseImage = cv::Scalar(255, 255, 255);
 			}
 #endif
-			if (eS1 != NULL && eS1->calcDistanceToPoints(seg_points[i])<TH_AVDIST) {
+			if (eS1 != NULL /*&& eS1->calcDistanceToPoints(seg_points[i])<TH_AVDIST*/) {
 				ellipses->push_back(eS1);
 #ifdef DEBUG_RANSAC
 				eS1->drawToImage(&ellipseImage, new cv::Scalar(50, 50, 255));
