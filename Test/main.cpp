@@ -9,7 +9,7 @@
 #include "Point.h"
 #include "PreProcessing.hpp"
 
-#define SOURCE_IMAGE "..\\Bild6.jpg"
+#define SOURCE_IMAGE "..\\WinkelVer2.png"
 
 using namespace std;
 
