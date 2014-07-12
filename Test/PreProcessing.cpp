@@ -991,7 +991,7 @@ int fitEllipses(std::list<EdgeSegment*> *segments, std::list<Ellipse*> *ellipses
 			}
 		}
 	}
-	return 0;
+	return ellipses->size();
 }
 
 //int curveGrouping(std::list<EdgeSegment*> *curveSegs, std::set<EllipticalArc*> *arcs) {

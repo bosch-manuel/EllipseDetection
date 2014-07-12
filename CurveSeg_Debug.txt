@@ -1,1 +1,7531 @@
-Segmentierung von Seg 1
+Segmentierung von Seg 2
+Segmentierung von Seg 3
+
+####### Trennen (15,7)####
+Segmentierung von Seg 4
+
+####### Trennen (18,12)####
+
+####### Trennen (28,16)####
+
+####### Trennen (29,13)####
+Segmentierung von Seg 6
+
+####### Trennen (36,5)####
+
+####### Trennen (37,8)####
+
+####### Trennen (38,9)####
+Segmentierung von Seg 9
+
+####### Trennen (67,5)####
+
+####### Trennen (69,9)####
+
+####### Trennen (68,11)####
+
+####### Trennen (59,7)####
+Segmentierung von Seg 12
+Segmentierung von Seg 13
+
+####### Trennen (85,10)####
+Segmentierung von Seg 17
+Segmentierung von Seg 24
+
+####### Trennen (117,7)####
+
+####### Trennen (115,9)####
+Segmentierung von Seg 25
+
+####### Trennen (140,2)####
+
+####### Trennen (127,6)####
+Segmentierung von Seg 28
+
+####### Trennen (153,0)####
+Segmentierung von Seg 32
+
+####### Trennen (209,14)####
+
+####### Trennen (209,19)####
+
+####### Trennen (216,37)####
+Segmentierung von Seg 35
+
+####### Trennen (246,5)####
+Segmentierung von Seg 36
+Segmentierung von Seg 37
+
+####### Trennen (273,1)####
+
+####### Trennen (275,0)####
+
+####### Trennen (276,6)####
+Segmentierung von Seg 42
+
+####### Trennen (306,11)####
+
+####### Trennen (301,14)####
+
+####### Trennen (299,13)####
+
+####### Trennen (302,10)####
+
+####### Trennen (302,8)####
+
+####### Trennen (304,6)####
+
+####### Trennen (304,4)####
+Segmentierung von Seg 44
+
+####### Trennen (328,10)####
+Segmentierung von Seg 47
+Segmentierung von Seg 48
+Segmentierung von Seg 49
+
+####### Trennen (349,12)####
+
+####### Trennen (349,15)####
+Segmentierung von Seg 50
+Segmentierung von Seg 51
+Segmentierung von Seg 60
+
+####### Trennen (391,4)####
+
+####### Trennen (386,10)####
+Segmentierung von Seg 63
+
+####### Trennen (415,5)####
+Segmentierung von Seg 66
+
+####### Trennen (428,5)####
+Segmentierung von Seg 71
+
+####### Trennen (464,24)####
+
+####### Trennen (471,2)####
+Segmentierung von Seg 73
+
+####### Trennen (470,17)####
+
+####### Trennen (470,21)####
+Segmentierung von Seg 74
+Segmentierung von Seg 79
+
+####### Trennen (3,6)####
+
+####### Trennen (3,9)####
+
+####### Trennen (1,11)####
+Segmentierung von Seg 81
+
+####### Trennen (53,9)####
+
+####### Trennen (53,5)####
+Segmentierung von Seg 86
+
+####### Trennen (210,0)####
+Segmentierung von Seg 89
+Segmentierung von Seg 91
+
+####### Trennen (142,6)####
+
+####### Trennen (147,13)####
+
+####### Trennen (148,21)####
+
+####### Trennen (140,13)####
+
+####### Trennen (131,9)####
+
+####### Trennen (129,7)####
+
+####### Trennen (138,3)####
+Segmentierung von Seg 94
+
+####### Trennen (409,13)####
+
+####### Trennen (412,18)####
+
+####### Trennen (416,19)####
+
+####### Trennen (413,21)####
+Segmentierung von Seg 96
+Segmentierung von Seg 103
+
+####### Trennen (286,8)####
+
+####### Trennen (282,11)####
+
+####### Trennen (288,22)####
+
+####### Trennen (290,24)####
+Segmentierung von Seg 105
+
+####### Trennen (296,14)####
+
+####### Trennen (292,13)####
+
+####### Trennen (293,12)####
+
+####### Trennen (293,9)####
+Segmentierung von Seg 106
+
+####### Trennen (452,2)####
+
+####### Trennen (461,5)####
+Segmentierung von Seg 109
+
+####### Trennen (193,1)####
+
+####### Trennen (171,5)####
+Segmentierung von Seg 111
+
+####### Trennen (367,7)####
+
+####### Trennen (367,9)####
+Segmentierung von Seg 113
+
+####### Trennen (74,15)####
+Segmentierung von Seg 114
+
+####### Trennen (79,11)####
+Segmentierung von Seg 120
+
+####### Trennen (224,8)####
+Segmentierung von Seg 122
+
+####### Trennen (393,7)####
+Segmentierung von Seg 123
+Segmentierung von Seg 126
+Segmentierung von Seg 127
+Segmentierung von Seg 128
+Segmentierung von Seg 138
+
+####### Trennen (424,15)####
+
+####### Trennen (425,16)####
+Segmentierung von Seg 140
+
+####### Trennen (434,13)####
+Segmentierung von Seg 141
+
+####### Trennen (56,12)####
+
+####### Trennen (56,14)####
+Segmentierung von Seg 145
+
+####### Trennen (246,20)####
+Segmentierung von Seg 149
+
+####### Trennen (399,9)####
+Segmentierung von Seg 160
+
+####### Trennen (143,19)####
+
+####### Trennen (147,23)####
+
+####### Trennen (150,25)####
+Segmentierung von Seg 161
+Segmentierung von Seg 166
+Segmentierung von Seg 167
+
+####### Trennen (100,18)####
+
+####### Trennen (102,17)####
+
+####### Trennen (103,18)####
+
+####### Trennen (108,18)####
+Segmentierung von Seg 168
+
+####### Trennen (133,21)####
+
+####### Trennen (135,23)####
+Segmentierung von Seg 169
+
+####### Trennen (188,9)####
+Segmentierung von Seg 174
+Segmentierung von Seg 176
+Segmentierung von Seg 177
+Segmentierung von Seg 181
+Segmentierung von Seg 182
+
+####### Trennen (151,17)####
+
+####### Trennen (153,25)####
+
+####### Trennen (155,27)####
+Segmentierung von Seg 184
+
+####### Trennen (185,17)####
+Segmentierung von Seg 192
+
+####### Trennen (429,28)####
+Segmentierung von Seg 196
+Segmentierung von Seg 198
+Segmentierung von Seg 201
+
+####### Trennen (454,12)####
+Segmentierung von Seg 205
+Segmentierung von Seg 212
+
+####### Trennen (336,20)####
+
+####### Trennen (337,19)####
+
+####### Trennen (342,19)####
+
+####### Trennen (345,23)####
+Segmentierung von Seg 214
+
+####### Trennen (393,13)####
+
+####### Trennen (406,13)####
+Segmentierung von Seg 215
+
+####### Trennen (428,18)####
+Segmentierung von Seg 220
+Segmentierung von Seg 222
+
+####### Trennen (357,21)####
+Segmentierung von Seg 226
+
+####### Trennen (349,24)####
+Segmentierung von Seg 227
+
+####### Trennen (360,14)####
+
+####### Trennen (351,5)####
+Segmentierung von Seg 232
+
+####### Trennen (292,57)####
+
+####### Trennen (289,60)####
+Segmentierung von Seg 235
+
+####### Trennen (77,18)####
+
+####### Trennen (77,24)####
+
+####### Trennen (81,25)####
+
+####### Trennen (82,29)####
+
+####### Trennen (83,28)####
+
+####### Trennen (88,28)####
+
+####### Trennen (89,27)####
+
+####### Trennen (91,27)####
+
+####### Trennen (91,32)####
+
+####### Trennen (91,35)####
+
+####### Trennen (94,35)####
+
+####### Trennen (97,37)####
+Segmentierung von Seg 237
+
+####### Trennen (172,24)####
+
+####### Trennen (171,26)####
+
+####### Trennen (182,35)####
+Segmentierung von Seg 239
+
+####### Trennen (316,39)####
+Segmentierung von Seg 241
+Segmentierung von Seg 246
+
+####### Trennen (127,22)####
+
+####### Trennen (132,23)####
+
+####### Trennen (144,39)####
+
+####### Trennen (158,44)####
+
+####### Trennen (171,52)####
+Segmentierung von Seg 248
+Segmentierung von Seg 250
+Segmentierung von Seg 254
+
+####### Trennen (70,26)####
+Segmentierung von Seg 260
+
+####### Trennen (22,26)####
+
+####### Trennen (32,29)####
+
+####### Trennen (34,33)####
+
+####### Trennen (11,26)####
+Segmentierung von Seg 264
+Segmentierung von Seg 265
+
+####### Trennen (261,58)####
+
+####### Trennen (262,61)####
+
+####### Trennen (259,66)####
+
+####### Trennen (256,69)####
+
+####### Trennen (262,91)####
+Segmentierung von Seg 266
+
+####### Trennen (278,39)####
+Segmentierung von Seg 267
+Segmentierung von Seg 270
+
+####### Trennen (6,22)####
+Segmentierung von Seg 272
+Segmentierung von Seg 277
+Segmentierung von Seg 279
+
+####### Trennen (28,24)####
+
+####### Trennen (17,14)####
+
+####### Trennen (26,18)####
+
+####### Trennen (30,20)####
+Segmentierung von Seg 280
+
+####### Trennen (300,19)####
+
+####### Trennen (295,18)####
+
+####### Trennen (293,28)####
+Segmentierung von Seg 286
+Segmentierung von Seg 287
+
+####### Trennen (210,27)####
+
+####### Trennen (206,38)####
+Segmentierung von Seg 289
+Segmentierung von Seg 296
+
+####### Trennen (203,26)####
+Segmentierung von Seg 298
+Segmentierung von Seg 299
+Segmentierung von Seg 309
+Segmentierung von Seg 310
+
+####### Trennen (73,30)####
+
+####### Trennen (76,30)####
+Segmentierung von Seg 312
+
+####### Trennen (323,18)####
+
+####### Trennen (327,14)####
+
+####### Trennen (328,25)####
+Segmentierung von Seg 320
+
+####### Trennen (354,29)####
+
+####### Trennen (354,35)####
+Segmentierung von Seg 322
+
+####### Trennen (434,30)####
+
+####### Trennen (421,38)####
+
+####### Trennen (415,36)####
+
+####### Trennen (423,35)####
+
+####### Trennen (425,33)####
+Segmentierung von Seg 323
+
+####### Trennen (447,29)####
+
+####### Trennen (455,25)####
+
+####### Trennen (464,27)####
+Segmentierung von Seg 325
+Segmentierung von Seg 326
+
+####### Trennen (89,30)####
+
+####### Trennen (76,34)####
+
+####### Trennen (79,30)####
+Segmentierung von Seg 330
+
+####### Trennen (339,27)####
+Segmentierung von Seg 332
+
+####### Trennen (439,47)####
+
+####### Trennen (434,57)####
+
+####### Trennen (435,60)####
+Segmentierung von Seg 334
+
+####### Trennen (2,45)####
+Segmentierung von Seg 335
+
+####### Trennen (37,17)####
+
+####### Trennen (29,3)####
+Segmentierung von Seg 336
+
+####### Trennen (61,26)####
+
+####### Trennen (69,20)####
+
+####### Trennen (53,43)####
+
+####### Trennen (48,42)####
+Segmentierung von Seg 339
+Segmentierung von Seg 352
+
+####### Trennen (350,40)####
+Segmentierung von Seg 354
+Segmentierung von Seg 360
+Segmentierung von Seg 361
+
+####### Trennen (437,62)####
+Segmentierung von Seg 366
+
+####### Trennen (234,29)####
+
+####### Trennen (241,27)####
+
+####### Trennen (245,23)####
+
+####### Trennen (253,32)####
+Segmentierung von Seg 367
+
+####### Trennen (242,37)####
+
+####### Trennen (253,40)####
+
+####### Trennen (259,36)####
+
+####### Trennen (253,68)####
+
+####### Trennen (250,65)####
+
+####### Trennen (248,68)####
+Segmentierung von Seg 369
+Segmentierung von Seg 373
+Segmentierung von Seg 374
+
+####### Trennen (56,18)####
+
+####### Trennen (61,15)####
+
+####### Trennen (63,16)####
+
+####### Trennen (49,35)####
+Segmentierung von Seg 375
+Segmentierung von Seg 377
+
+####### Trennen (167,31)####
+Segmentierung von Seg 378
+
+####### Trennen (202,37)####
+
+####### Trennen (190,51)####
+
+####### Trennen (190,53)####
+Segmentierung von Seg 379
+
+####### Trennen (218,29)####
+
+####### Trennen (219,24)####
+
+####### Trennen (230,17)####
+Segmentierung von Seg 383
+
+####### Trennen (402,42)####
+Segmentierung von Seg 385
+Segmentierung von Seg 386
+Segmentierung von Seg 388
+Segmentierung von Seg 389
+
+####### Trennen (327,46)####
+Segmentierung von Seg 391
+Segmentierung von Seg 392
+
+####### Trennen (426,46)####
+Segmentierung von Seg 393
+
+####### Trennen (452,49)####
+Segmentierung von Seg 395
+
+####### Trennen (25,39)####
+Segmentierung von Seg 396
+
+####### Trennen (42,42)####
+
+####### Trennen (40,43)####
+Segmentierung von Seg 401
+
+####### Trennen (252,44)####
+
+####### Trennen (246,53)####
+
+####### Trennen (247,56)####
+Segmentierung von Seg 403
+Segmentierung von Seg 404
+
+####### Trennen (363,38)####
+
+####### Trennen (366,35)####
+
+####### Trennen (367,39)####
+Segmentierung von Seg 406
+
+####### Trennen (421,44)####
+
+####### Trennen (422,43)####
+
+####### Trennen (424,43)####
+Segmentierung von Seg 409
+Segmentierung von Seg 410
+
+####### Trennen (210,47)####
+
+####### Trennen (213,46)####
+
+####### Trennen (213,40)####
+Segmentierung von Seg 414
+Segmentierung von Seg 420
+
+####### Trennen (198,43)####
+
+####### Trennen (197,46)####
+
+####### Trennen (195,48)####
+Segmentierung von Seg 423
+Segmentierung von Seg 424
+Segmentierung von Seg 425
+
+####### Trennen (345,45)####
+Segmentierung von Seg 428
+
+####### Trennen (68,52)####
+
+####### Trennen (67,51)####
+
+####### Trennen (62,51)####
+Segmentierung von Seg 429
+Segmentierung von Seg 433
+Segmentierung von Seg 436
+
+####### Trennen (36,44)####
+Segmentierung von Seg 437
+
+####### Trennen (85,51)####
+Segmentierung von Seg 438
+
+####### Trennen (169,49)####
+Segmentierung von Seg 439
+Segmentierung von Seg 440
+
+####### Trennen (209,91)####
+
+####### Trennen (209,94)####
+Segmentierung von Seg 445
+
+####### Trennen (313,40)####
+Segmentierung von Seg 446
+
+####### Trennen (394,36)####
+
+####### Trennen (396,35)####
+Segmentierung von Seg 448
+Segmentierung von Seg 449
+Segmentierung von Seg 451
+
+####### Trennen (18,46)####
+
+####### Trennen (10,50)####
+
+####### Trennen (12,52)####
+
+####### Trennen (34,49)####
+Segmentierung von Seg 453
+Segmentierung von Seg 454
+
+####### Trennen (274,68)####
+
+####### Trennen (271,73)####
+
+####### Trennen (266,57)####
+
+####### Trennen (267,49)####
+
+####### Trennen (264,49)####
+Segmentierung von Seg 455
+
+####### Trennen (352,51)####
+Segmentierung von Seg 458
+
+####### Trennen (140,41)####
+
+####### Trennen (137,37)####
+
+####### Trennen (135,42)####
+Segmentierung von Seg 460
+Segmentierung von Seg 462
+
+####### Trennen (305,50)####
+
+####### Trennen (302,50)####
+Segmentierung von Seg 465
+
+####### Trennen (399,52)####
+Segmentierung von Seg 466
+
+####### Trennen (469,63)####
+
+####### Trennen (469,74)####
+
+####### Trennen (470,80)####
+Segmentierung von Seg 467
+Segmentierung von Seg 473
+Segmentierung von Seg 474
+
+####### Trennen (49,74)####
+
+####### Trennen (48,75)####
+
+####### Trennen (48,78)####
+Segmentierung von Seg 476
+
+####### Trennen (129,44)####
+
+####### Trennen (120,41)####
+Segmentierung von Seg 479
+Segmentierung von Seg 482
+Segmentierung von Seg 485
+
+####### Trennen (138,46)####
+Segmentierung von Seg 486
+
+####### Trennen (388,49)####
+Segmentierung von Seg 488
+Segmentierung von Seg 493
+
+####### Trennen (183,53)####
+
+####### Trennen (179,54)####
+Segmentierung von Seg 502
+
+####### Trennen (432,58)####
+
+####### Trennen (429,62)####
+
+####### Trennen (431,68)####
+
+####### Trennen (433,70)####
+Segmentierung von Seg 505
+
+####### Trennen (169,71)####
+
+####### Trennen (171,78)####
+Segmentierung von Seg 506
+
+####### Trennen (243,53)####
+
+####### Trennen (248,45)####
+
+####### Trennen (250,43)####
+
+####### Trennen (240,39)####
+Segmentierung von Seg 507
+
+####### Trennen (312,50)####
+
+####### Trennen (315,52)####
+Segmentierung von Seg 511
+
+####### Trennen (83,53)####
+
+####### Trennen (88,58)####
+Segmentierung von Seg 512
+Segmentierung von Seg 514
+
+####### Trennen (125,44)####
+Segmentierung von Seg 519
+
+####### Trennen (357,60)####
+
+####### Trennen (350,63)####
+
+####### Trennen (347,66)####
+Segmentierung von Seg 526
+
+####### Trennen (184,56)####
+Segmentierung von Seg 527
+
+####### Trennen (204,68)####
+
+####### Trennen (204,71)####
+
+####### Trennen (202,75)####
+
+####### Trennen (201,83)####
+Segmentierung von Seg 528
+Segmentierung von Seg 529
+
+####### Trennen (310,54)####
+
+####### Trennen (311,55)####
+
+####### Trennen (315,55)####
+Segmentierung von Seg 532
+Segmentierung von Seg 536
+
+####### Trennen (209,50)####
+
+####### Trennen (206,44)####
+
+####### Trennen (196,62)####
+
+####### Trennen (190,85)####
+
+####### Trennen (187,92)####
+
+####### Trennen (187,94)####
+Segmentierung von Seg 540
+
+####### Trennen (89,68)####
+Segmentierung von Seg 543
+
+####### Trennen (140,67)####
+Segmentierung von Seg 544
+Segmentierung von Seg 545
+
+####### Trennen (184,63)####
+
+####### Trennen (184,66)####
+Segmentierung von Seg 546
+
+####### Trennen (201,70)####
+
+####### Trennen (201,73)####
+
+####### Trennen (199,78)####
+
+####### Trennen (199,82)####
+
+####### Trennen (197,89)####
+Segmentierung von Seg 551
+Segmentierung von Seg 552
+Segmentierung von Seg 554
+
+####### Trennen (58,62)####
+
+####### Trennen (67,68)####
+Segmentierung von Seg 556
+Segmentierung von Seg 557
+
+####### Trennen (155,90)####
+Segmentierung von Seg 562
+
+####### Trennen (467,62)####
+Segmentierung von Seg 563
+
+####### Trennen (7,61)####
+
+####### Trennen (11,61)####
+Segmentierung von Seg 564
+Segmentierung von Seg 566
+
+####### Trennen (392,58)####
+Segmentierung von Seg 569
+
+####### Trennen (440,67)####
+Segmentierung von Seg 570
+Segmentierung von Seg 571
+
+####### Trennen (90,59)####
+
+####### Trennen (88,66)####
+
+####### Trennen (90,66)####
+Segmentierung von Seg 572
+
+####### Trennen (102,56)####
+
+####### Trennen (111,55)####
+Segmentierung von Seg 575
+
+####### Trennen (266,72)####
+
+####### Trennen (269,76)####
+
+####### Trennen (282,72)####
+Segmentierung von Seg 581
+
+####### Trennen (1,67)####
+Segmentierung von Seg 582
+Segmentierung von Seg 585
+
+####### Trennen (366,60)####
+Segmentierung von Seg 587
+Segmentierung von Seg 593
+
+####### Trennen (330,68)####
+Segmentierung von Seg 595
+Segmentierung von Seg 599
+Segmentierung von Seg 602
+Segmentierung von Seg 604
+
+####### Trennen (411,56)####
+
+####### Trennen (413,53)####
+
+####### Trennen (415,66)####
+
+####### Trennen (419,70)####
+
+####### Trennen (418,72)####
+Segmentierung von Seg 608
+
+####### Trennen (135,67)####
+
+####### Trennen (146,84)####
+Segmentierung von Seg 611
+
+####### Trennen (383,65)####
+
+####### Trennen (384,66)####
+
+####### Trennen (387,66)####
+Segmentierung von Seg 612
+
+####### Trennen (411,87)####
+
+####### Trennen (409,90)####
+Segmentierung von Seg 613
+
+####### Trennen (417,57)####
+Segmentierung von Seg 615
+
+####### Trennen (102,63)####
+
+####### Trennen (98,65)####
+Segmentierung von Seg 616
+
+####### Trennen (127,74)####
+
+####### Trennen (132,68)####
+Segmentierung von Seg 621
+Segmentierung von Seg 622
+Segmentierung von Seg 624
+Segmentierung von Seg 626
+Segmentierung von Seg 627
+
+####### Trennen (49,80)####
+
+####### Trennen (50,81)####
+
+####### Trennen (50,84)####
+
+####### Trennen (51,85)####
+
+####### Trennen (51,88)####
+Segmentierung von Seg 628
+
+####### Trennen (159,95)####
+Segmentierung von Seg 629
+
+####### Trennen (353,70)####
+Segmentierung von Seg 634
+
+####### Trennen (188,84)####
+Segmentierung von Seg 643
+
+####### Trennen (8,63)####
+Segmentierung von Seg 644
+
+####### Trennen (72,84)####
+Segmentierung von Seg 646
+Segmentierung von Seg 648
+
+####### Trennen (291,63)####
+
+####### Trennen (295,61)####
+
+####### Trennen (295,69)####
+
+####### Trennen (304,66)####
+Segmentierung von Seg 657
+
+####### Trennen (434,75)####
+
+####### Trennen (437,75)####
+Segmentierung von Seg 658
+Segmentierung von Seg 659
+Segmentierung von Seg 660
+
+####### Trennen (167,77)####
+Segmentierung von Seg 663
+Segmentierung von Seg 668
+Segmentierung von Seg 670
+
+####### Trennen (365,70)####
+Segmentierung von Seg 673
+
+####### Trennen (114,78)####
+
+####### Trennen (130,88)####
+Segmentierung von Seg 674
+
+####### Trennen (222,84)####
+
+####### Trennen (223,85)####
+
+####### Trennen (223,89)####
+Segmentierung von Seg 675
+
+####### Trennen (236,74)####
+Segmentierung von Seg 676
+
+####### Trennen (278,87)####
+Segmentierung von Seg 677
+
+####### Trennen (359,96)####
+
+####### Trennen (347,80)####
+Segmentierung von Seg 678
+
+####### Trennen (381,67)####
+
+####### Trennen (377,68)####
+Segmentierung von Seg 680
+
+####### Trennen (423,69)####
+
+####### Trennen (425,69)####
+Segmentierung von Seg 681
+
+####### Trennen (18,74)####
+
+####### Trennen (33,74)####
+Segmentierung von Seg 682
+
+####### Trennen (19,76)####
+
+####### Trennen (41,54)####
+Segmentierung von Seg 683
+Segmentierung von Seg 684
+
+####### Trennen (112,80)####
+Segmentierung von Seg 691
+
+####### Trennen (369,83)####
+Segmentierung von Seg 695
+Segmentierung von Seg 697
+
+####### Trennen (321,80)####
+
+####### Trennen (313,84)####
+Segmentierung von Seg 702
+Segmentierung von Seg 703
+Segmentierung von Seg 705
+
+####### Trennen (361,79)####
+
+####### Trennen (362,97)####
+
+####### Trennen (362,100)####
+Segmentierung von Seg 712
+
+####### Trennen (126,77)####
+
+####### Trennen (132,82)####
+
+####### Trennen (147,95)####
+
+####### Trennen (147,96)####
+
+####### Trennen (150,97)####
+Segmentierung von Seg 715
+Segmentierung von Seg 716
+Segmentierung von Seg 718
+Segmentierung von Seg 720
+Segmentierung von Seg 728
+Segmentierung von Seg 729
+
+####### Trennen (95,74)####
+
+####### Trennen (89,72)####
+Segmentierung von Seg 730
+
+####### Trennen (184,86)####
+
+####### Trennen (182,88)####
+
+####### Trennen (181,83)####
+
+####### Trennen (173,90)####
+
+####### Trennen (181,96)####
+
+####### Trennen (170,94)####
+
+####### Trennen (166,94)####
+Segmentierung von Seg 734
+
+####### Trennen (75,88)####
+Segmentierung von Seg 736
+
+####### Trennen (172,85)####
+
+####### Trennen (163,89)####
+
+####### Trennen (167,83)####
+Segmentierung von Seg 738
+Segmentierung von Seg 739
+
+####### Trennen (240,106)####
+
+####### Trennen (235,110)####
+
+####### Trennen (231,105)####
+Segmentierung von Seg 744
+
+####### Trennen (252,100)####
+
+####### Trennen (251,100)####
+
+####### Trennen (249,102)####
+
+####### Trennen (248,102)####
+
+####### Trennen (246,104)####
+Segmentierung von Seg 750
+
+####### Trennen (451,82)####
+Segmentierung von Seg 752
+
+####### Trennen (112,92)####
+
+####### Trennen (120,97)####
+
+####### Trennen (123,100)####
+Segmentierung von Seg 753
+Segmentierung von Seg 754
+
+####### Trennen (244,98)####
+
+####### Trennen (244,100)####
+
+####### Trennen (243,101)####
+
+####### Trennen (243,103)####
+Segmentierung von Seg 755
+
+####### Trennen (306,80)####
+Segmentierung von Seg 758
+Segmentierung von Seg 763
+
+####### Trennen (309,86)####
+
+####### Trennen (312,87)####
+
+####### Trennen (318,84)####
+
+####### Trennen (320,82)####
+
+####### Trennen (322,82)####
+Segmentierung von Seg 766
+
+####### Trennen (423,88)####
+
+####### Trennen (422,89)####
+
+####### Trennen (420,89)####
+Segmentierung von Seg 767
+Segmentierung von Seg 773
+Segmentierung von Seg 776
+
+####### Trennen (472,87)####
+
+####### Trennen (457,84)####
+
+####### Trennen (441,82)####
+Segmentierung von Seg 778
+
+####### Trennen (51,92)####
+
+####### Trennen (41,102)####
+
+####### Trennen (37,102)####
+
+####### Trennen (36,103)####
+
+####### Trennen (38,105)####
+Segmentierung von Seg 779
+Segmentierung von Seg 780
+
+####### Trennen (293,87)####
+Segmentierung von Seg 781
+
+####### Trennen (378,89)####
+
+####### Trennen (382,93)####
+
+####### Trennen (391,96)####
+Segmentierung von Seg 785
+Segmentierung von Seg 787
+Segmentierung von Seg 790
+Segmentierung von Seg 792
+Segmentierung von Seg 794
+
+####### Trennen (90,84)####
+
+####### Trennen (94,85)####
+Segmentierung von Seg 798
+Segmentierung von Seg 799
+
+####### Trennen (144,96)####
+
+####### Trennen (149,101)####
+
+####### Trennen (122,90)####
+Segmentierung von Seg 800
+
+####### Trennen (250,74)####
+
+####### Trennen (255,71)####
+Segmentierung von Seg 803
+
+####### Trennen (32,92)####
+Segmentierung von Seg 805
+Segmentierung von Seg 806
+
+####### Trennen (311,103)####
+
+####### Trennen (310,104)####
+
+####### Trennen (310,107)####
+
+####### Trennen (308,110)####
+
+####### Trennen (295,123)####
+Segmentierung von Seg 807
+
+####### Trennen (319,90)####
+
+####### Trennen (313,96)####
+
+####### Trennen (327,98)####
+
+####### Trennen (332,93)####
+
+####### Trennen (335,99)####
+
+####### Trennen (335,103)####
+
+####### Trennen (336,106)####
+
+####### Trennen (332,109)####
+
+####### Trennen (327,109)####
+
+####### Trennen (324,115)####
+Segmentierung von Seg 809
+
+####### Trennen (381,82)####
+
+####### Trennen (370,72)####
+
+####### Trennen (384,76)####
+Segmentierung von Seg 813
+Segmentierung von Seg 814
+Segmentierung von Seg 816
+
+####### Trennen (271,91)####
+Segmentierung von Seg 817
+
+####### Trennen (381,98)####
+
+####### Trennen (369,93)####
+Segmentierung von Seg 818
+
+####### Trennen (424,90)####
+
+####### Trennen (423,91)####
+
+####### Trennen (421,91)####
+
+####### Trennen (420,92)####
+
+####### Trennen (418,92)####
+Segmentierung von Seg 821
+Segmentierung von Seg 824
+
+####### Trennen (260,109)####
+
+####### Trennen (258,113)####
+
+####### Trennen (253,114)####
+
+####### Trennen (250,116)####
+
+####### Trennen (248,116)####
+Segmentierung von Seg 825
+Segmentierung von Seg 832
+
+####### Trennen (318,95)####
+Segmentierung von Seg 833
+
+####### Trennen (343,99)####
+
+####### Trennen (342,100)####
+
+####### Trennen (342,104)####
+
+####### Trennen (340,109)####
+
+####### Trennen (362,124)####
+Segmentierung von Seg 836
+Segmentierung von Seg 842
+Segmentierung von Seg 845
+
+####### Trennen (201,98)####
+
+####### Trennen (197,100)####
+
+####### Trennen (200,101)####
+Segmentierung von Seg 846
+
+####### Trennen (405,96)####
+Segmentierung von Seg 848
+
+####### Trennen (221,117)####
+Segmentierung von Seg 851
+
+####### Trennen (242,73)####
+
+####### Trennen (244,73)####
+
+####### Trennen (249,72)####
+
+####### Trennen (244,94)####
+Segmentierung von Seg 854
+Segmentierung von Seg 856
+Segmentierung von Seg 857
+
+####### Trennen (168,100)####
+
+####### Trennen (169,101)####
+
+####### Trennen (172,101)####
+
+####### Trennen (178,103)####
+
+####### Trennen (181,100)####
+
+####### Trennen (186,98)####
+
+####### Trennen (196,102)####
+Segmentierung von Seg 858
+
+####### Trennen (218,103)####
+
+####### Trennen (216,119)####
+Segmentierung von Seg 859
+
+####### Trennen (286,104)####
+
+####### Trennen (289,105)####
+
+####### Trennen (290,104)####
+
+####### Trennen (294,104)####
+
+####### Trennen (295,103)####
+
+####### Trennen (298,103)####
+
+####### Trennen (299,102)####
+
+####### Trennen (302,102)####
+Segmentierung von Seg 861
+
+####### Trennen (439,92)####
+
+####### Trennen (440,89)####
+Segmentierung von Seg 864
+
+####### Trennen (2,101)####
+Segmentierung von Seg 865
+
+####### Trennen (98,107)####
+Segmentierung von Seg 869
+
+####### Trennen (111,104)####
+Segmentierung von Seg 871
+
+####### Trennen (193,94)####
+
+####### Trennen (196,93)####
+Segmentierung von Seg 874
+
+####### Trennen (404,100)####
+Segmentierung von Seg 876
+Segmentierung von Seg 878
+
+####### Trennen (87,141)####
+
+####### Trennen (91,159)####
+Segmentierung von Seg 882
+Segmentierung von Seg 884
+Segmentierung von Seg 885
+Segmentierung von Seg 887
+
+####### Trennen (371,98)####
+
+####### Trennen (367,100)####
+
+####### Trennen (391,107)####
+Segmentierung von Seg 889
+
+####### Trennen (422,97)####
+
+####### Trennen (458,102)####
+Segmentierung von Seg 892
+
+####### Trennen (11,115)####
+Segmentierung von Seg 898
+Segmentierung von Seg 902
+Segmentierung von Seg 904
+Segmentierung von Seg 909
+Segmentierung von Seg 910
+
+####### Trennen (122,108)####
+Segmentierung von Seg 912
+
+####### Trennen (238,115)####
+Segmentierung von Seg 917
+
+####### Trennen (467,131)####
+Segmentierung von Seg 921
+Segmentierung von Seg 922
+Segmentierung von Seg 923
+
+####### Trennen (414,135)####
+
+####### Trennen (411,131)####
+Segmentierung von Seg 925
+
+####### Trennen (60,108)####
+
+####### Trennen (80,134)####
+Segmentierung von Seg 929
+Segmentierung von Seg 930
+
+####### Trennen (448,109)####
+
+####### Trennen (423,108)####
+
+####### Trennen (427,127)####
+
+####### Trennen (430,138)####
+Segmentierung von Seg 932
+
+####### Trennen (169,103)####
+
+####### Trennen (163,103)####
+Segmentierung von Seg 933
+Segmentierung von Seg 935
+Segmentierung von Seg 936
+Segmentierung von Seg 937
+Segmentierung von Seg 941
+
+####### Trennen (240,128)####
+
+####### Trennen (239,137)####
+Segmentierung von Seg 942
+
+####### Trennen (304,104)####
+
+####### Trennen (307,102)####
+
+####### Trennen (308,106)####
+Segmentierung von Seg 943
+
+####### Trennen (366,114)####
+
+####### Trennen (365,121)####
+Segmentierung von Seg 944
+Segmentierung von Seg 945
+
+####### Trennen (457,117)####
+Segmentierung von Seg 951
+Segmentierung von Seg 952
+Segmentierung von Seg 954
+
+####### Trennen (418,123)####
+Segmentierung von Seg 955
+
+####### Trennen (476,130)####
+
+####### Trennen (477,131)####
+
+####### Trennen (477,135)####
+Segmentierung von Seg 956
+
+####### Trennen (60,120)####
+Segmentierung von Seg 957
+
+####### Trennen (95,110)####
+
+####### Trennen (94,111)####
+
+####### Trennen (91,111)####
+Segmentierung von Seg 960
+
+####### Trennen (377,109)####
+Segmentierung von Seg 961
+
+####### Trennen (34,114)####
+
+####### Trennen (36,116)####
+Segmentierung von Seg 962
+Segmentierung von Seg 969
+
+####### Trennen (47,120)####
+Segmentierung von Seg 970
+
+####### Trennen (98,112)####
+
+####### Trennen (108,117)####
+Segmentierung von Seg 975
+
+####### Trennen (162,107)####
+
+####### Trennen (161,113)####
+
+####### Trennen (183,118)####
+Segmentierung von Seg 976
+
+####### Trennen (198,113)####
+
+####### Trennen (195,115)####
+
+####### Trennen (192,115)####
+Segmentierung von Seg 978
+Segmentierung von Seg 980
+Segmentierung von Seg 983
+Segmentierung von Seg 986
+
+####### Trennen (32,110)####
+
+####### Trennen (34,110)####
+Segmentierung von Seg 987
+
+####### Trennen (104,122)####
+
+####### Trennen (110,126)####
+
+####### Trennen (108,126)####
+Segmentierung von Seg 991
+Segmentierung von Seg 992
+
+####### Trennen (470,136)####
+Segmentierung von Seg 995
+
+####### Trennen (155,127)####
+Segmentierung von Seg 1000
+
+####### Trennen (372,116)####
+Segmentierung von Seg 1003
+Segmentierung von Seg 1005
+
+####### Trennen (218,127)####
+Segmentierung von Seg 1006
+
+####### Trennen (270,111)####
+
+####### Trennen (278,110)####
+
+####### Trennen (294,118)####
+Segmentierung von Seg 1007
+
+####### Trennen (353,139)####
+Segmentierung von Seg 1009
+
+####### Trennen (344,123)####
+Segmentierung von Seg 1013
+
+####### Trennen (382,126)####
+Segmentierung von Seg 1014
+
+####### Trennen (464,112)####
+
+####### Trennen (456,123)####
+
+####### Trennen (455,128)####
+Segmentierung von Seg 1019
+
+####### Trennen (264,122)####
+
+####### Trennen (266,122)####
+Segmentierung von Seg 1020
+
+####### Trennen (351,127)####
+Segmentierung von Seg 1022
+
+####### Trennen (465,128)####
+
+####### Trennen (464,129)####
+
+####### Trennen (464,132)####
+Segmentierung von Seg 1024
+
+####### Trennen (49,110)####
+
+####### Trennen (43,107)####
+
+####### Trennen (64,116)####
+Segmentierung von Seg 1025
+Segmentierung von Seg 1029
+Segmentierung von Seg 1030
+Segmentierung von Seg 1033
+
+####### Trennen (22,126)####
+
+####### Trennen (23,130)####
+Segmentierung von Seg 1040
+
+####### Trennen (170,120)####
+Segmentierung von Seg 1047
+
+####### Trennen (161,122)####
+
+####### Trennen (155,145)####
+
+####### Trennen (154,146)####
+
+####### Trennen (154,148)####
+Segmentierung von Seg 1049
+Segmentierung von Seg 1055
+Segmentierung von Seg 1063
+
+####### Trennen (353,144)####
+Segmentierung von Seg 1066
+
+####### Trennen (478,129)####
+Segmentierung von Seg 1069
+
+####### Trennen (121,122)####
+Segmentierung von Seg 1071
+Segmentierung von Seg 1073
+Segmentierung von Seg 1075
+
+####### Trennen (460,129)####
+
+####### Trennen (452,141)####
+
+####### Trennen (461,138)####
+Segmentierung von Seg 1078
+Segmentierung von Seg 1083
+Segmentierung von Seg 1096
+Segmentierung von Seg 1101
+Segmentierung von Seg 1102
+
+####### Trennen (278,128)####
+
+####### Trennen (275,133)####
+Segmentierung von Seg 1105
+
+####### Trennen (417,130)####
+
+####### Trennen (416,137)####
+Segmentierung von Seg 1107
+
+####### Trennen (31,122)####
+Segmentierung von Seg 1108
+Segmentierung von Seg 1109
+Segmentierung von Seg 1111
+
+####### Trennen (193,140)####
+
+####### Trennen (176,154)####
+
+####### Trennen (176,156)####
+Segmentierung von Seg 1112
+
+####### Trennen (199,144)####
+Segmentierung von Seg 1114
+Segmentierung von Seg 1115
+Segmentierung von Seg 1116
+
+####### Trennen (382,129)####
+Segmentierung von Seg 1120
+
+####### Trennen (423,135)####
+
+####### Trennen (422,136)####
+
+####### Trennen (422,138)####
+Segmentierung von Seg 1123
+
+####### Trennen (76,141)####
+Segmentierung von Seg 1139
+
+####### Trennen (59,140)####
+
+####### Trennen (61,142)####
+Segmentierung von Seg 1141
+
+####### Trennen (110,134)####
+
+####### Trennen (114,136)####
+Segmentierung von Seg 1143
+
+####### Trennen (317,138)####
+Segmentierung von Seg 1147
+
+####### Trennen (31,131)####
+
+####### Trennen (25,129)####
+Segmentierung von Seg 1148
+
+####### Trennen (40,138)####
+
+####### Trennen (56,144)####
+
+####### Trennen (58,147)####
+
+####### Trennen (54,149)####
+
+####### Trennen (53,148)####
+
+####### Trennen (50,148)####
+Segmentierung von Seg 1153
+
+####### Trennen (330,139)####
+Segmentierung von Seg 1159
+
+####### Trennen (237,150)####
+Segmentierung von Seg 1160
+
+####### Trennen (264,134)####
+
+####### Trennen (258,132)####
+
+####### Trennen (273,127)####
+
+####### Trennen (260,123)####
+
+####### Trennen (253,118)####
+
+####### Trennen (242,121)####
+
+####### Trennen (242,129)####
+Segmentierung von Seg 1161
+
+####### Trennen (281,156)####
+
+####### Trennen (281,163)####
+
+####### Trennen (272,166)####
+Segmentierung von Seg 1163
+Segmentierung von Seg 1166
+Segmentierung von Seg 1173
+
+####### Trennen (442,134)####
+
+####### Trennen (445,147)####
+Segmentierung von Seg 1178
+Segmentierung von Seg 1179
+
+####### Trennen (217,143)####
+
+####### Trennen (217,159)####
+
+####### Trennen (218,169)####
+
+####### Trennen (212,166)####
+Segmentierung von Seg 1180
+Segmentierung von Seg 1181
+
+####### Trennen (393,137)####
+
+####### Trennen (397,154)####
+Segmentierung von Seg 1182
+Segmentierung von Seg 1183
+
+####### Trennen (115,143)####
+Segmentierung von Seg 1187
+
+####### Trennen (141,139)####
+Segmentierung von Seg 1190
+Segmentierung von Seg 1191
+
+####### Trennen (414,159)####
+Segmentierung von Seg 1199
+
+####### Trennen (232,148)####
+
+####### Trennen (232,155)####
+
+####### Trennen (228,158)####
+
+####### Trennen (233,158)####
+Segmentierung von Seg 1200
+
+####### Trennen (246,133)####
+Segmentierung von Seg 1203
+Segmentierung von Seg 1210
+Segmentierung von Seg 1211
+
+####### Trennen (274,153)####
+
+####### Trennen (274,154)####
+
+####### Trennen (276,156)####
+Segmentierung von Seg 1216
+
+####### Trennen (450,148)####
+Segmentierung von Seg 1218
+
+####### Trennen (90,161)####
+Segmentierung von Seg 1220
+Segmentierung von Seg 1221
+
+####### Trennen (254,145)####
+
+####### Trennen (255,146)####
+
+####### Trennen (255,149)####
+Segmentierung von Seg 1222
+
+####### Trennen (331,149)####
+Segmentierung von Seg 1224
+Segmentierung von Seg 1227
+
+####### Trennen (127,147)####
+Segmentierung von Seg 1229
+
+####### Trennen (200,125)####
+
+####### Trennen (204,130)####
+
+####### Trennen (204,139)####
+Segmentierung von Seg 1230
+
+####### Trennen (219,158)####
+Segmentierung von Seg 1231
+
+####### Trennen (272,154)####
+
+####### Trennen (272,155)####
+
+####### Trennen (258,155)####
+Segmentierung von Seg 1237
+Segmentierung von Seg 1240
+
+####### Trennen (201,141)####
+
+####### Trennen (201,145)####
+Segmentierung von Seg 1243
+
+####### Trennen (383,151)####
+
+####### Trennen (388,155)####
+Segmentierung von Seg 1245
+
+####### Trennen (441,137)####
+Segmentierung von Seg 1253
+
+####### Trennen (243,152)####
+
+####### Trennen (249,157)####
+
+####### Trennen (251,160)####
+
+####### Trennen (249,161)####
+Segmentierung von Seg 1254
+
+####### Trennen (315,125)####
+Segmentierung von Seg 1255
+
+####### Trennen (317,142)####
+Segmentierung von Seg 1262
+Segmentierung von Seg 1273
+Segmentierung von Seg 1277
+Segmentierung von Seg 1279
+Segmentierung von Seg 1282
+Segmentierung von Seg 1285
+
+####### Trennen (78,154)####
+Segmentierung von Seg 1288
+
+####### Trennen (115,161)####
+Segmentierung von Seg 1289
+
+####### Trennen (126,156)####
+
+####### Trennen (127,162)####
+
+####### Trennen (130,164)####
+Segmentierung von Seg 1290
+Segmentierung von Seg 1292
+
+####### Trennen (195,160)####
+
+####### Trennen (181,182)####
+Segmentierung von Seg 1296
+
+####### Trennen (433,159)####
+
+####### Trennen (433,160)####
+
+####### Trennen (431,162)####
+
+####### Trennen (431,163)####
+
+####### Trennen (429,165)####
+
+####### Trennen (429,166)####
+
+####### Trennen (427,168)####
+Segmentierung von Seg 1298
+
+####### Trennen (10,155)####
+Segmentierung von Seg 1299
+
+####### Trennen (196,180)####
+Segmentierung von Seg 1302
+Segmentierung von Seg 1303
+
+####### Trennen (314,153)####
+Segmentierung von Seg 1306
+
+####### Trennen (468,149)####
+Segmentierung von Seg 1309
+
+####### Trennen (192,154)####
+Segmentierung von Seg 1311
+
+####### Trennen (34,143)####
+
+####### Trennen (25,135)####
+
+####### Trennen (65,159)####
+Segmentierung von Seg 1312
+
+####### Trennen (158,150)####
+
+####### Trennen (164,165)####
+Segmentierung von Seg 1314
+
+####### Trennen (345,169)####
+
+####### Trennen (354,169)####
+Segmentierung von Seg 1315
+
+####### Trennen (352,159)####
+
+####### Trennen (358,156)####
+
+####### Trennen (357,155)####
+Segmentierung von Seg 1318
+
+####### Trennen (453,166)####
+
+####### Trennen (451,168)####
+
+####### Trennen (454,169)####
+
+####### Trennen (455,168)####
+
+####### Trennen (458,168)####
+Segmentierung von Seg 1321
+Segmentierung von Seg 1322
+
+####### Trennen (327,166)####
+Segmentierung von Seg 1323
+Segmentierung von Seg 1325
+Segmentierung von Seg 1327
+
+####### Trennen (471,153)####
+Segmentierung von Seg 1335
+
+####### Trennen (69,152)####
+
+####### Trennen (67,154)####
+Segmentierung von Seg 1336
+Segmentierung von Seg 1338
+Segmentierung von Seg 1339
+Segmentierung von Seg 1340
+
+####### Trennen (437,163)####
+Segmentierung von Seg 1341
+
+####### Trennen (446,155)####
+
+####### Trennen (447,166)####
+
+####### Trennen (459,171)####
+Segmentierung von Seg 1342
+Segmentierung von Seg 1346
+
+####### Trennen (292,162)####
+Segmentierung von Seg 1347
+
+####### Trennen (371,159)####
+Segmentierung von Seg 1348
+
+####### Trennen (21,147)####
+Segmentierung von Seg 1349
+
+####### Trennen (26,158)####
+
+####### Trennen (30,161)####
+Segmentierung von Seg 1354
+
+####### Trennen (456,146)####
+
+####### Trennen (459,144)####
+
+####### Trennen (455,158)####
+
+####### Trennen (453,160)####
+Segmentierung von Seg 1357
+
+####### Trennen (176,163)####
+
+####### Trennen (177,180)####
+
+####### Trennen (179,181)####
+Segmentierung von Seg 1358
+
+####### Trennen (188,165)####
+
+####### Trennen (187,168)####
+
+####### Trennen (185,170)####
+Segmentierung von Seg 1359
+
+####### Trennen (305,164)####
+Segmentierung von Seg 1361
+
+####### Trennen (469,175)####
+Segmentierung von Seg 1362
+
+####### Trennen (24,142)####
+
+####### Trennen (22,143)####
+Segmentierung von Seg 1368
+
+####### Trennen (472,171)####
+
+####### Trennen (477,171)####
+Segmentierung von Seg 1372
+Segmentierung von Seg 1373
+
+####### Trennen (174,180)####
+Segmentierung von Seg 1375
+
+####### Trennen (238,163)####
+
+####### Trennen (239,164)####
+
+####### Trennen (241,164)####
+
+####### Trennen (242,165)####
+
+####### Trennen (244,165)####
+
+####### Trennen (245,166)####
+
+####### Trennen (247,166)####
+
+####### Trennen (248,167)####
+
+####### Trennen (250,167)####
+
+####### Trennen (251,168)####
+
+####### Trennen (253,168)####
+Segmentierung von Seg 1377
+
+####### Trennen (397,139)####
+Segmentierung von Seg 1378
+Segmentierung von Seg 1379
+Segmentierung von Seg 1380
+
+####### Trennen (413,165)####
+
+####### Trennen (416,163)####
+Segmentierung von Seg 1382
+Segmentierung von Seg 1383
+Segmentierung von Seg 1389
+
+####### Trennen (223,168)####
+Segmentierung von Seg 1392
+
+####### Trennen (265,168)####
+
+####### Trennen (266,168)####
+
+####### Trennen (274,174)####
+Segmentierung von Seg 1394
+Segmentierung von Seg 1395
+
+####### Trennen (53,170)####
+Segmentierung von Seg 1396
+
+####### Trennen (86,163)####
+Segmentierung von Seg 1402
+
+####### Trennen (16,165)####
+Segmentierung von Seg 1408
+
+####### Trennen (99,170)####
+Segmentierung von Seg 1418
+
+####### Trennen (313,159)####
+
+####### Trennen (313,158)####
+
+####### Trennen (315,156)####
+
+####### Trennen (352,172)####
+
+####### Trennen (354,174)####
+
+####### Trennen (364,169)####
+
+####### Trennen (379,166)####
+
+####### Trennen (382,168)####
+
+####### Trennen (384,168)####
+Segmentierung von Seg 1425
+Segmentierung von Seg 1426
+Segmentierung von Seg 1433
+
+####### Trennen (424,182)####
+Segmentierung von Seg 1435
+Segmentierung von Seg 1437
+
+####### Trennen (292,171)####
+
+####### Trennen (290,173)####
+Segmentierung von Seg 1449
+
+####### Trennen (269,178)####
+
+####### Trennen (271,181)####
+
+####### Trennen (268,187)####
+Segmentierung von Seg 1450
+Segmentierung von Seg 1451
+
+####### Trennen (311,171)####
+Segmentierung von Seg 1453
+
+####### Trennen (10,176)####
+
+####### Trennen (23,181)####
+Segmentierung von Seg 1454
+
+####### Trennen (78,173)####
+
+####### Trennen (78,176)####
+
+####### Trennen (79,177)####
+
+####### Trennen (79,180)####
+
+####### Trennen (80,181)####
+
+####### Trennen (83,193)####
+
+####### Trennen (82,195)####
+
+####### Trennen (80,193)####
+
+####### Trennen (80,192)####
+
+####### Trennen (78,190)####
+Segmentierung von Seg 1455
+
+####### Trennen (93,186)####
+Segmentierung von Seg 1457
+
+####### Trennen (155,181)####
+
+####### Trennen (159,180)####
+Segmentierung von Seg 1465
+
+####### Trennen (294,175)####
+
+####### Trennen (293,176)####
+
+####### Trennen (288,176)####
+Segmentierung von Seg 1466
+
+####### Trennen (312,173)####
+
+####### Trennen (308,177)####
+
+####### Trennen (328,191)####
+
+####### Trennen (330,192)####
+
+####### Trennen (327,194)####
+Segmentierung von Seg 1467
+
+####### Trennen (365,172)####
+
+####### Trennen (363,176)####
+
+####### Trennen (363,187)####
+Segmentierung von Seg 1468
+
+####### Trennen (395,185)####
+
+####### Trennen (401,204)####
+
+####### Trennen (410,207)####
+
+####### Trennen (401,178)####
+Segmentierung von Seg 1470
+Segmentierung von Seg 1471
+
+####### Trennen (13,182)####
+
+####### Trennen (19,191)####
+Segmentierung von Seg 1473
+
+####### Trennen (75,184)####
+Segmentierung von Seg 1474
+
+####### Trennen (142,172)####
+
+####### Trennen (156,153)####
+
+####### Trennen (160,153)####
+
+####### Trennen (161,152)####
+
+####### Trennen (148,170)####
+Segmentierung von Seg 1475
+Segmentierung von Seg 1477
+
+####### Trennen (216,187)####
+Segmentierung von Seg 1479
+
+####### Trennen (447,174)####
+
+####### Trennen (448,176)####
+Segmentierung von Seg 1480
+
+####### Trennen (472,175)####
+
+####### Trennen (476,180)####
+Segmentierung von Seg 1484
+
+####### Trennen (203,182)####
+
+####### Trennen (203,190)####
+
+####### Trennen (208,194)####
+
+####### Trennen (211,201)####
+
+####### Trennen (213,203)####
+Segmentierung von Seg 1493
+
+####### Trennen (201,181)####
+
+####### Trennen (201,195)####
+Segmentierung von Seg 1494
+
+####### Trennen (212,194)####
+
+####### Trennen (220,211)####
+Segmentierung von Seg 1497
+Segmentierung von Seg 1499
+Segmentierung von Seg 1500
+
+####### Trennen (34,173)####
+
+####### Trennen (34,170)####
+Segmentierung von Seg 1504
+Segmentierung von Seg 1507
+
+####### Trennen (35,183)####
+
+####### Trennen (35,186)####
+Segmentierung von Seg 1508
+
+####### Trennen (192,191)####
+
+####### Trennen (189,200)####
+
+####### Trennen (188,212)####
+Segmentierung von Seg 1509
+
+####### Trennen (221,187)####
+
+####### Trennen (219,190)####
+Segmentierung von Seg 1515
+
+####### Trennen (98,181)####
+
+####### Trennen (98,185)####
+
+####### Trennen (97,199)####
+Segmentierung von Seg 1521
+
+####### Trennen (298,182)####
+
+####### Trennen (304,186)####
+Segmentierung von Seg 1522
+Segmentierung von Seg 1527
+
+####### Trennen (101,186)####
+Segmentierung von Seg 1528
+Segmentierung von Seg 1532
+
+####### Trennen (379,176)####
+
+####### Trennen (395,196)####
+
+####### Trennen (394,197)####
+
+####### Trennen (394,202)####
+Segmentierung von Seg 1537
+
+####### Trennen (298,190)####
+Segmentierung von Seg 1538
+Segmentierung von Seg 1539
+
+####### Trennen (384,195)####
+
+####### Trennen (383,196)####
+
+####### Trennen (383,199)####
+Segmentierung von Seg 1540
+Segmentierung von Seg 1543
+
+####### Trennen (5,189)####
+Segmentierung von Seg 1544
+
+####### Trennen (21,183)####
+
+####### Trennen (22,184)####
+
+####### Trennen (25,184)####
+
+####### Trennen (27,185)####
+
+####### Trennen (27,187)####
+
+####### Trennen (29,189)####
+
+####### Trennen (31,194)####
+Segmentierung von Seg 1545
+
+####### Trennen (142,192)####
+Segmentierung von Seg 1552
+
+####### Trennen (148,194)####
+Segmentierung von Seg 1554
+
+####### Trennen (432,189)####
+Segmentierung von Seg 1556
+
+####### Trennen (448,196)####
+
+####### Trennen (447,197)####
+Segmentierung von Seg 1561
+
+####### Trennen (419,227)####
+
+####### Trennen (421,230)####
+
+####### Trennen (423,222)####
+Segmentierung von Seg 1562
+
+####### Trennen (434,200)####
+
+####### Trennen (434,201)####
+
+####### Trennen (432,203)####
+
+####### Trennen (432,204)####
+
+####### Trennen (430,206)####
+
+####### Trennen (430,207)####
+
+####### Trennen (428,209)####
+Segmentierung von Seg 1563
+
+####### Trennen (12,195)####
+
+####### Trennen (20,205)####
+
+####### Trennen (21,208)####
+
+####### Trennen (18,209)####
+Segmentierung von Seg 1564
+Segmentierung von Seg 1569
+
+####### Trennen (436,202)####
+
+####### Trennen (432,207)####
+
+####### Trennen (431,210)####
+
+####### Trennen (426,218)####
+
+####### Trennen (428,229)####
+Segmentierung von Seg 1575
+
+####### Trennen (161,182)####
+
+####### Trennen (164,175)####
+
+####### Trennen (166,175)####
+
+####### Trennen (161,186)####
+Segmentierung von Seg 1587
+Segmentierung von Seg 1588
+
+####### Trennen (102,190)####
+
+####### Trennen (102,200)####
+
+####### Trennen (100,203)####
+Segmentierung von Seg 1596
+
+####### Trennen (184,194)####
+
+####### Trennen (187,199)####
+Segmentierung von Seg 1598
+Segmentierung von Seg 1602
+
+####### Trennen (167,194)####
+Segmentierung von Seg 1603
+
+####### Trennen (256,207)####
+Segmentierung von Seg 1604
+
+####### Trennen (281,186)####
+
+####### Trennen (283,188)####
+
+####### Trennen (283,190)####
+Segmentierung von Seg 1607
+Segmentierung von Seg 1609
+Segmentierung von Seg 1610
+
+####### Trennen (170,197)####
+
+####### Trennen (170,200)####
+Segmentierung von Seg 1612
+Segmentierung von Seg 1615
+
+####### Trennen (307,191)####
+
+####### Trennen (306,192)####
+
+####### Trennen (304,192)####
+Segmentierung von Seg 1617
+Segmentierung von Seg 1620
+Segmentierung von Seg 1622
+
+####### Trennen (312,202)####
+Segmentierung von Seg 1623
+Segmentierung von Seg 1629
+Segmentierung von Seg 1631
+Segmentierung von Seg 1632
+Segmentierung von Seg 1634
+
+####### Trennen (151,198)####
+
+####### Trennen (142,216)####
+Segmentierung von Seg 1638
+
+####### Trennen (280,218)####
+
+####### Trennen (284,224)####
+
+####### Trennen (278,226)####
+Segmentierung von Seg 1641
+
+####### Trennen (418,197)####
+
+####### Trennen (412,206)####
+Segmentierung von Seg 1648
+Segmentierung von Seg 1649
+
+####### Trennen (75,188)####
+
+####### Trennen (73,188)####
+
+####### Trennen (82,204)####
+Segmentierung von Seg 1656
+Segmentierung von Seg 1661
+Segmentierung von Seg 1663
+Segmentierung von Seg 1667
+
+####### Trennen (221,200)####
+
+####### Trennen (223,204)####
+Segmentierung von Seg 1670
+
+####### Trennen (26,201)####
+
+####### Trennen (28,203)####
+Segmentierung von Seg 1675
+
+####### Trennen (196,204)####
+
+####### Trennen (195,213)####
+
+####### Trennen (192,218)####
+
+####### Trennen (196,226)####
+Segmentierung von Seg 1676
+
+####### Trennen (203,211)####
+Segmentierung von Seg 1679
+
+####### Trennen (452,208)####
+
+####### Trennen (432,223)####
+
+####### Trennen (432,228)####
+Segmentierung von Seg 1682
+
+####### Trennen (66,202)####
+Segmentierung von Seg 1684
+
+####### Trennen (136,203)####
+
+####### Trennen (135,208)####
+Segmentierung von Seg 1687
+
+####### Trennen (466,196)####
+
+####### Trennen (467,189)####
+
+####### Trennen (466,184)####
+
+####### Trennen (472,178)####
+
+####### Trennen (474,201)####
+Segmentierung von Seg 1688
+
+####### Trennen (20,202)####
+Segmentierung von Seg 1689
+
+####### Trennen (29,208)####
+Segmentierung von Seg 1691
+Segmentierung von Seg 1693
+
+####### Trennen (271,203)####
+
+####### Trennen (271,215)####
+
+####### Trennen (273,221)####
+
+####### Trennen (273,226)####
+Segmentierung von Seg 1694
+
+####### Trennen (295,228)####
+Segmentierung von Seg 1698
+
+####### Trennen (135,235)####
+
+####### Trennen (133,235)####
+Segmentierung von Seg 1699
+Segmentierung von Seg 1700
+
+####### Trennen (452,193)####
+
+####### Trennen (454,193)####
+Segmentierung von Seg 1701
+
+####### Trennen (55,212)####
+Segmentierung von Seg 1707
+
+####### Trennen (351,203)####
+Segmentierung von Seg 1708
+Segmentierung von Seg 1712
+
+####### Trennen (111,217)####
+Segmentierung von Seg 1713
+Segmentierung von Seg 1714
+
+####### Trennen (193,212)####
+Segmentierung von Seg 1715
+Segmentierung von Seg 1716
+
+####### Trennen (367,208)####
+
+####### Trennen (372,209)####
+Segmentierung von Seg 1720
+
+####### Trennen (112,202)####
+
+####### Trennen (107,202)####
+
+####### Trennen (112,210)####
+
+####### Trennen (126,214)####
+Segmentierung von Seg 1722
+
+####### Trennen (175,200)####
+
+####### Trennen (175,197)####
+Segmentierung von Seg 1723
+Segmentierung von Seg 1725
+Segmentierung von Seg 1727
+Segmentierung von Seg 1728
+
+####### Trennen (369,202)####
+
+####### Trennen (364,197)####
+
+####### Trennen (364,194)####
+Segmentierung von Seg 1736
+
+####### Trennen (166,197)####
+
+####### Trennen (168,198)####
+
+####### Trennen (167,199)####
+
+####### Trennen (165,208)####
+
+####### Trennen (143,232)####
+Segmentierung von Seg 1737
+
+####### Trennen (205,213)####
+
+####### Trennen (206,214)####
+
+####### Trennen (206,218)####
+
+####### Trennen (207,219)####
+
+####### Trennen (207,222)####
+Segmentierung von Seg 1738
+Segmentierung von Seg 1739
+Segmentierung von Seg 1740
+Segmentierung von Seg 1741
+
+####### Trennen (392,209)####
+
+####### Trennen (394,211)####
+
+####### Trennen (396,209)####
+
+####### Trennen (395,205)####
+
+####### Trennen (398,202)####
+Segmentierung von Seg 1743
+Segmentierung von Seg 1745
+
+####### Trennen (252,216)####
+
+####### Trennen (249,219)####
+Segmentierung von Seg 1748
+
+####### Trennen (39,212)####
+Segmentierung von Seg 1751
+
+####### Trennen (296,221)####
+Segmentierung von Seg 1755
+
+####### Trennen (36,204)####
+Segmentierung von Seg 1758
+
+####### Trennen (232,208)####
+
+####### Trennen (233,209)####
+
+####### Trennen (235,209)####
+Segmentierung von Seg 1765
+Segmentierung von Seg 1770
+
+####### Trennen (476,226)####
+Segmentierung von Seg 1775
+
+####### Trennen (146,232)####
+
+####### Trennen (145,235)####
+
+####### Trennen (143,237)####
+Segmentierung von Seg 1777
+
+####### Trennen (222,220)####
+
+####### Trennen (219,227)####
+
+####### Trennen (220,230)####
+Segmentierung von Seg 1780
+
+####### Trennen (46,213)####
+Segmentierung von Seg 1795
+Segmentierung von Seg 1797
+Segmentierung von Seg 1798
+
+####### Trennen (205,223)####
+
+####### Trennen (206,224)####
+
+####### Trennen (206,226)####
+
+####### Trennen (207,227)####
+
+####### Trennen (207,229)####
+
+####### Trennen (208,230)####
+
+####### Trennen (208,232)####
+Segmentierung von Seg 1801
+
+####### Trennen (452,233)####
+
+####### Trennen (440,237)####
+
+####### Trennen (431,243)####
+Segmentierung von Seg 1802
+
+####### Trennen (54,218)####
+
+####### Trennen (50,218)####
+
+####### Trennen (47,220)####
+
+####### Trennen (42,221)####
+
+####### Trennen (39,223)####
+
+####### Trennen (37,223)####
+
+####### Trennen (36,224)####
+
+####### Trennen (34,224)####
+Segmentierung von Seg 1805
+Segmentierung von Seg 1806
+
+####### Trennen (233,221)####
+
+####### Trennen (229,225)####
+Segmentierung von Seg 1807
+Segmentierung von Seg 1810
+Segmentierung von Seg 1813
+
+####### Trennen (428,232)####
+Segmentierung von Seg 1817
+
+####### Trennen (30,216)####
+
+####### Trennen (28,219)####
+Segmentierung von Seg 1818
+Segmentierung von Seg 1821
+Segmentierung von Seg 1824
+
+####### Trennen (409,225)####
+Segmentierung von Seg 1826
+
+####### Trennen (476,210)####
+
+####### Trennen (473,205)####
+
+####### Trennen (475,204)####
+
+####### Trennen (477,205)####
+
+####### Trennen (479,207)####
+Segmentierung von Seg 1828
+
+####### Trennen (111,221)####
+Segmentierung von Seg 1834
+Segmentierung von Seg 1838
+
+####### Trennen (446,222)####
+
+####### Trennen (441,223)####
+Segmentierung von Seg 1841
+
+####### Trennen (100,226)####
+
+####### Trennen (96,230)####
+
+####### Trennen (96,247)####
+Segmentierung von Seg 1842
+
+####### Trennen (111,231)####
+
+####### Trennen (111,233)####
+Segmentierung von Seg 1846
+Segmentierung von Seg 1848
+
+####### Trennen (128,224)####
+Segmentierung von Seg 1854
+
+####### Trennen (114,231)####
+
+####### Trennen (103,250)####
+Segmentierung von Seg 1855
+
+####### Trennen (182,209)####
+Segmentierung von Seg 1856
+
+####### Trennen (332,221)####
+
+####### Trennen (331,222)####
+
+####### Trennen (328,222)####
+Segmentierung von Seg 1857
+
+####### Trennen (365,222)####
+Segmentierung von Seg 1870
+
+####### Trennen (360,232)####
+
+####### Trennen (357,232)####
+
+####### Trennen (354,234)####
+
+####### Trennen (351,234)####
+
+####### Trennen (350,235)####
+
+####### Trennen (347,235)####
+Segmentierung von Seg 1872
+
+####### Trennen (386,237)####
+
+####### Trennen (384,239)####
+
+####### Trennen (385,255)####
+
+####### Trennen (386,256)####
+Segmentierung von Seg 1875
+
+####### Trennen (19,225)####
+
+####### Trennen (18,236)####
+Segmentierung von Seg 1876
+
+####### Trennen (83,222)####
+Segmentierung von Seg 1877
+
+####### Trennen (334,227)####
+
+####### Trennen (335,226)####
+
+####### Trennen (337,226)####
+Segmentierung von Seg 1879
+
+####### Trennen (394,231)####
+Segmentierung von Seg 1882
+Segmentierung von Seg 1885
+
+####### Trennen (214,232)####
+
+####### Trennen (211,233)####
+
+####### Trennen (211,231)####
+Segmentierung von Seg 1886
+Segmentierung von Seg 1890
+
+####### Trennen (298,229)####
+Segmentierung von Seg 1891
+
+####### Trennen (358,224)####
+
+####### Trennen (352,224)####
+
+####### Trennen (347,223)####
+
+####### Trennen (341,227)####
+
+####### Trennen (332,229)####
+
+####### Trennen (329,231)####
+
+####### Trennen (353,232)####
+
+####### Trennen (356,230)####
+Segmentierung von Seg 1900
+Segmentierung von Seg 1904
+
+####### Trennen (50,229)####
+
+####### Trennen (55,228)####
+
+####### Trennen (55,230)####
+Segmentierung von Seg 1905
+Segmentierung von Seg 1906
+
+####### Trennen (201,245)####
+Segmentierung von Seg 1907
+
+####### Trennen (226,230)####
+
+####### Trennen (223,231)####
+
+####### Trennen (224,234)####
+
+####### Trennen (227,235)####
+
+####### Trennen (229,237)####
+
+####### Trennen (233,239)####
+
+####### Trennen (236,236)####
+
+####### Trennen (239,236)####
+Segmentierung von Seg 1909
+
+####### Trennen (419,232)####
+
+####### Trennen (417,236)####
+
+####### Trennen (418,239)####
+
+####### Trennen (420,235)####
+
+####### Trennen (422,233)####
+Segmentierung von Seg 1910
+
+####### Trennen (259,213)####
+Segmentierung von Seg 1911
+Segmentierung von Seg 1915
+Segmentierung von Seg 1917
+
+####### Trennen (120,235)####
+
+####### Trennen (120,251)####
+
+####### Trennen (106,280)####
+Segmentierung von Seg 1927
+Segmentierung von Seg 1931
+
+####### Trennen (181,222)####
+
+####### Trennen (183,220)####
+
+####### Trennen (185,223)####
+
+####### Trennen (151,240)####
+
+####### Trennen (149,242)####
+Segmentierung von Seg 1932
+
+####### Trennen (198,250)####
+
+####### Trennen (198,252)####
+
+####### Trennen (195,252)####
+Segmentierung von Seg 1935
+Segmentierung von Seg 1941
+
+####### Trennen (184,236)####
+
+####### Trennen (160,252)####
+
+####### Trennen (158,254)####
+Segmentierung von Seg 1942
+
+####### Trennen (410,251)####
+
+####### Trennen (409,252)####
+
+####### Trennen (409,257)####
+Segmentierung von Seg 1944
+
+####### Trennen (469,239)####
+Segmentierung von Seg 1946
+
+####### Trennen (125,246)####
+Segmentierung von Seg 1950
+
+####### Trennen (382,234)####
+
+####### Trennen (379,236)####
+
+####### Trennen (376,236)####
+Segmentierung von Seg 1951
+Segmentierung von Seg 1956
+
+####### Trennen (78,236)####
+
+####### Trennen (75,238)####
+Segmentierung von Seg 1960
+Segmentierung von Seg 1967
+Segmentierung von Seg 1969
+
+####### Trennen (434,238)####
+Segmentierung von Seg 1973
+
+####### Trennen (203,244)####
+
+####### Trennen (205,248)####
+Segmentierung von Seg 1974
+
+####### Trennen (236,243)####
+
+####### Trennen (238,243)####
+
+####### Trennen (241,250)####
+
+####### Trennen (248,258)####
+
+####### Trennen (239,258)####
+Segmentierung von Seg 1975
+
+####### Trennen (256,231)####
+
+####### Trennen (254,229)####
+
+####### Trennen (243,237)####
+
+####### Trennen (241,237)####
+
+####### Trennen (240,238)####
+
+####### Trennen (238,238)####
+Segmentierung von Seg 1977
+Segmentierung von Seg 1978
+
+####### Trennen (12,245)####
+
+####### Trennen (14,253)####
+
+####### Trennen (13,254)####
+Segmentierung von Seg 1982
+Segmentierung von Seg 1983
+
+####### Trennen (362,248)####
+Segmentierung von Seg 1984
+Segmentierung von Seg 1988
+
+####### Trennen (160,240)####
+
+####### Trennen (159,241)####
+
+####### Trennen (156,241)####
+
+####### Trennen (155,242)####
+
+####### Trennen (153,242)####
+Segmentierung von Seg 1992
+
+####### Trennen (355,242)####
+Segmentierung von Seg 1994
+
+####### Trennen (420,242)####
+
+####### Trennen (419,241)####
+Segmentierung von Seg 1996
+Segmentierung von Seg 2002
+Segmentierung von Seg 2006
+Segmentierung von Seg 2007
+Segmentierung von Seg 2013
+Segmentierung von Seg 2024
+Segmentierung von Seg 2027
+
+####### Trennen (390,253)####
+
+####### Trennen (390,255)####
+
+####### Trennen (388,258)####
+
+####### Trennen (391,260)####
+Segmentierung von Seg 2028
+Segmentierung von Seg 2029
+
+####### Trennen (443,242)####
+Segmentierung von Seg 2031
+
+####### Trennen (5,245)####
+
+####### Trennen (6,242)####
+
+####### Trennen (8,241)####
+
+####### Trennen (11,249)####
+Segmentierung von Seg 2032
+
+####### Trennen (152,246)####
+
+####### Trennen (157,251)####
+
+####### Trennen (161,250)####
+Segmentierung von Seg 2034
+
+####### Trennen (291,251)####
+Segmentierung von Seg 2042
+Segmentierung von Seg 2043
+
+####### Trennen (457,247)####
+Segmentierung von Seg 2044
+Segmentierung von Seg 2049
+
+####### Trennen (242,244)####
+
+####### Trennen (246,252)####
+
+####### Trennen (252,256)####
+Segmentierung von Seg 2060
+Segmentierung von Seg 2066
+
+####### Trennen (44,279)####
+Segmentierung von Seg 2067
+
+####### Trennen (54,235)####
+Segmentierung von Seg 2071
+
+####### Trennen (324,252)####
+Segmentierung von Seg 2073
+Segmentierung von Seg 2076
+
+####### Trennen (56,252)####
+
+####### Trennen (58,254)####
+
+####### Trennen (58,255)####
+
+####### Trennen (60,257)####
+Segmentierung von Seg 2078
+Segmentierung von Seg 2084
+
+####### Trennen (38,282)####
+
+####### Trennen (38,285)####
+
+####### Trennen (37,286)####
+
+####### Trennen (37,289)####
+Segmentierung von Seg 2085
+
+####### Trennen (51,271)####
+
+####### Trennen (52,272)####
+
+####### Trennen (52,274)####
+Segmentierung von Seg 2086
+Segmentierung von Seg 2090
+
+####### Trennen (207,250)####
+
+####### Trennen (213,251)####
+Segmentierung von Seg 2092
+Segmentierung von Seg 2095
+
+####### Trennen (455,255)####
+
+####### Trennen (462,270)####
+Segmentierung von Seg 2097
+Segmentierung von Seg 2100
+
+####### Trennen (231,257)####
+
+####### Trennen (215,244)####
+
+####### Trennen (213,238)####
+
+####### Trennen (215,236)####
+
+####### Trennen (215,234)####
+
+####### Trennen (217,231)####
+Segmentierung von Seg 2106
+Segmentierung von Seg 2107
+
+####### Trennen (380,254)####
+
+####### Trennen (378,253)####
+
+####### Trennen (376,251)####
+
+####### Trennen (378,249)####
+
+####### Trennen (378,247)####
+Segmentierung von Seg 2109
+Segmentierung von Seg 2114
+
+####### Trennen (396,267)####
+Segmentierung von Seg 2115
+Segmentierung von Seg 2116
+Segmentierung von Seg 2118
+
+####### Trennen (23,264)####
+Segmentierung von Seg 2121
+Segmentierung von Seg 2122
+Segmentierung von Seg 2123
+Segmentierung von Seg 2125
+Segmentierung von Seg 2136
+
+####### Trennen (376,265)####
+
+####### Trennen (375,274)####
+Segmentierung von Seg 2137
+
+####### Trennen (441,258)####
+
+####### Trennen (434,256)####
+
+####### Trennen (432,258)####
+Segmentierung von Seg 2139
+
+####### Trennen (71,260)####
+
+####### Trennen (75,271)####
+
+####### Trennen (73,271)####
+Segmentierung von Seg 2142
+Segmentierung von Seg 2146
+
+####### Trennen (250,260)####
+
+####### Trennen (259,256)####
+
+####### Trennen (264,261)####
+
+####### Trennen (268,264)####
+
+####### Trennen (269,268)####
+Segmentierung von Seg 2149
+
+####### Trennen (372,273)####
+
+####### Trennen (366,266)####
+
+####### Trennen (354,254)####
+
+####### Trennen (359,251)####
+
+####### Trennen (367,252)####
+Segmentierung von Seg 2150
+
+####### Trennen (384,270)####
+Segmentierung von Seg 2151
+
+####### Trennen (40,253)####
+Segmentierung von Seg 2152
+Segmentierung von Seg 2153
+Segmentierung von Seg 2154
+
+####### Trennen (161,267)####
+Segmentierung von Seg 2156
+
+####### Trennen (189,291)####
+
+####### Trennen (192,290)####
+
+####### Trennen (193,288)####
+
+####### Trennen (185,267)####
+Segmentierung von Seg 2157
+
+####### Trennen (190,256)####
+
+####### Trennen (183,256)####
+Segmentierung von Seg 2160
+Segmentierung von Seg 2163
+Segmentierung von Seg 2164
+
+####### Trennen (88,285)####
+Segmentierung von Seg 2168
+
+####### Trennen (234,267)####
+
+####### Trennen (229,272)####
+Segmentierung von Seg 2169
+Segmentierung von Seg 2172
+
+####### Trennen (69,270)####
+
+####### Trennen (75,275)####
+
+####### Trennen (80,281)####
+
+####### Trennen (75,282)####
+
+####### Trennen (74,281)####
+
+####### Trennen (69,281)####
+
+####### Trennen (68,280)####
+
+####### Trennen (65,280)####
+Segmentierung von Seg 2175
+
+####### Trennen (342,281)####
+Segmentierung von Seg 2183
+Segmentierung von Seg 2188
+
+####### Trennen (394,275)####
+
+####### Trennen (400,285)####
+Segmentierung von Seg 2189
+Segmentierung von Seg 2191
+
+####### Trennen (97,289)####
+
+####### Trennen (96,292)####
+Segmentierung von Seg 2199
+
+####### Trennen (21,292)####
+
+####### Trennen (26,293)####
+Segmentierung von Seg 2206
+Segmentierung von Seg 2210
+
+####### Trennen (97,271)####
+
+####### Trennen (97,276)####
+
+####### Trennen (98,277)####
+
+####### Trennen (98,282)####
+Segmentierung von Seg 2218
+Segmentierung von Seg 2219
+
+####### Trennen (31,285)####
+
+####### Trennen (30,284)####
+Segmentierung von Seg 2234
+
+####### Trennen (334,272)####
+
+####### Trennen (336,285)####
+
+####### Trennen (336,289)####
+Segmentierung von Seg 2240
+
+####### Trennen (43,275)####
+
+####### Trennen (42,276)####
+
+####### Trennen (42,278)####
+Segmentierung von Seg 2242
+Segmentierung von Seg 2245
+
+####### Trennen (463,280)####
+Segmentierung von Seg 2247
+
+####### Trennen (120,267)####
+
+####### Trennen (116,267)####
+
+####### Trennen (113,265)####
+
+####### Trennen (111,272)####
+Segmentierung von Seg 2253
+Segmentierung von Seg 2255
+Segmentierung von Seg 2259
+Segmentierung von Seg 2262
+Segmentierung von Seg 2272
+
+####### Trennen (442,273)####
+
+####### Trennen (442,276)####
+
+####### Trennen (442,278)####
+Segmentierung von Seg 2275
+
+####### Trennen (22,302)####
+
+####### Trennen (25,305)####
+Segmentierung von Seg 2276
+Segmentierung von Seg 2277
+
+####### Trennen (209,278)####
+
+####### Trennen (206,280)####
+Segmentierung von Seg 2280
+Segmentierung von Seg 2286
+
+####### Trennen (113,276)####
+
+####### Trennen (112,277)####
+
+####### Trennen (112,281)####
+Segmentierung von Seg 2300
+
+####### Trennen (268,283)####
+
+####### Trennen (270,285)####
+
+####### Trennen (272,289)####
+Segmentierung von Seg 2302
+Segmentierung von Seg 2305
+
+####### Trennen (328,278)####
+
+####### Trennen (328,282)####
+
+####### Trennen (329,283)####
+
+####### Trennen (329,287)####
+Segmentierung von Seg 2306
+
+####### Trennen (327,274)####
+
+####### Trennen (322,276)####
+
+####### Trennen (315,275)####
+Segmentierung von Seg 2314
+Segmentierung von Seg 2317
+Segmentierung von Seg 2319
+
+####### Trennen (332,291)####
+Segmentierung von Seg 2323
+Segmentierung von Seg 2326
+
+####### Trennen (430,278)####
+
+####### Trennen (434,283)####
+
+####### Trennen (432,284)####
+Segmentierung von Seg 2327
+
+####### Trennen (453,284)####
+Segmentierung von Seg 2328
+Segmentierung von Seg 2331
+
+####### Trennen (232,280)####
+
+####### Trennen (239,284)####
+Segmentierung von Seg 2332
+Segmentierung von Seg 2334
+
+####### Trennen (441,280)####
+
+####### Trennen (458,286)####
+
+####### Trennen (459,285)####
+
+####### Trennen (463,285)####
+
+####### Trennen (467,284)####
+
+####### Trennen (467,286)####
+Segmentierung von Seg 2335
+Segmentierung von Seg 2338
+
+####### Trennen (231,284)####
+Segmentierung von Seg 2339
+
+####### Trennen (273,311)####
+Segmentierung von Seg 2340
+
+####### Trennen (352,255)####
+Segmentierung von Seg 2341
+
+####### Trennen (374,283)####
+Segmentierung von Seg 2344
+Segmentierung von Seg 2352
+Segmentierung von Seg 2355
+
+####### Trennen (390,290)####
+Segmentierung von Seg 2357
+
+####### Trennen (28,269)####
+
+####### Trennen (29,251)####
+Segmentierung von Seg 2358
+Segmentierung von Seg 2359
+
+####### Trennen (160,288)####
+
+####### Trennen (162,290)####
+
+####### Trennen (163,290)####
+
+####### Trennen (165,292)####
+
+####### Trennen (166,292)####
+
+####### Trennen (168,294)####
+Segmentierung von Seg 2360
+
+####### Trennen (311,281)####
+
+####### Trennen (297,298)####
+
+####### Trennen (305,293)####
+
+####### Trennen (305,290)####
+Segmentierung von Seg 2362
+Segmentierung von Seg 2364
+
+####### Trennen (403,273)####
+
+####### Trennen (408,240)####
+
+####### Trennen (404,224)####
+Segmentierung von Seg 2365
+Segmentierung von Seg 2366
+Segmentierung von Seg 2369
+
+####### Trennen (425,285)####
+
+####### Trennen (428,291)####
+
+####### Trennen (430,293)####
+Segmentierung von Seg 2371
+
+####### Trennen (164,301)####
+Segmentierung von Seg 2373
+Segmentierung von Seg 2376
+
+####### Trennen (435,286)####
+
+####### Trennen (450,293)####
+Segmentierung von Seg 2381
+Segmentierung von Seg 2386
+Segmentierung von Seg 2392
+Segmentierung von Seg 2395
+Segmentierung von Seg 2397
+
+####### Trennen (341,293)####
+Segmentierung von Seg 2398
+Segmentierung von Seg 2399
+
+####### Trennen (448,291)####
+Segmentierung von Seg 2400
+
+####### Trennen (82,288)####
+
+####### Trennen (83,289)####
+
+####### Trennen (85,289)####
+Segmentierung von Seg 2401
+
+####### Trennen (102,295)####
+
+####### Trennen (102,299)####
+Segmentierung von Seg 2402
+
+####### Trennen (152,292)####
+
+####### Trennen (150,293)####
+Segmentierung von Seg 2409
+
+####### Trennen (57,292)####
+Segmentierung von Seg 2410
+
+####### Trennen (91,306)####
+
+####### Trennen (96,307)####
+
+####### Trennen (98,309)####
+
+####### Trennen (101,309)####
+Segmentierung von Seg 2416
+Segmentierung von Seg 2417
+
+####### Trennen (321,301)####
+Segmentierung von Seg 2425
+Segmentierung von Seg 2436
+Segmentierung von Seg 2448
+
+####### Trennen (350,319)####
+Segmentierung von Seg 2453
+
+####### Trennen (149,295)####
+
+####### Trennen (153,294)####
+
+####### Trennen (168,305)####
+
+####### Trennen (169,306)####
+
+####### Trennen (168,308)####
+
+####### Trennen (166,310)####
+Segmentierung von Seg 2458
+Segmentierung von Seg 2459
+Segmentierung von Seg 2460
+
+####### Trennen (438,299)####
+
+####### Trennen (427,296)####
+
+####### Trennen (425,297)####
+
+####### Trennen (430,303)####
+Segmentierung von Seg 2461
+Segmentierung von Seg 2462
+Segmentierung von Seg 2470
+
+####### Trennen (222,300)####
+
+####### Trennen (223,301)####
+
+####### Trennen (223,304)####
+
+####### Trennen (224,305)####
+
+####### Trennen (224,307)####
+Segmentierung von Seg 2471
+
+####### Trennen (276,297)####
+
+####### Trennen (278,301)####
+
+####### Trennen (300,309)####
+
+####### Trennen (303,309)####
+Segmentierung von Seg 2473
+Segmentierung von Seg 2474
+Segmentierung von Seg 2479
+
+####### Trennen (389,299)####
+
+####### Trennen (403,304)####
+Segmentierung von Seg 2480
+
+####### Trennen (424,295)####
+
+####### Trennen (421,298)####
+Segmentierung von Seg 2483
+
+####### Trennen (176,294)####
+
+####### Trennen (174,295)####
+
+####### Trennen (175,297)####
+
+####### Trennen (181,300)####
+Segmentierung von Seg 2486
+Segmentierung von Seg 2488
+Segmentierung von Seg 2492
+
+####### Trennen (41,298)####
+
+####### Trennen (43,314)####
+
+####### Trennen (46,317)####
+Segmentierung von Seg 2494
+
+####### Trennen (141,298)####
+Segmentierung von Seg 2497
+Segmentierung von Seg 2498
+Segmentierung von Seg 2500
+Segmentierung von Seg 2501
+
+####### Trennen (235,313)####
+Segmentierung von Seg 2506
+
+####### Trennen (27,305)####
+
+####### Trennen (29,308)####
+
+####### Trennen (20,308)####
+Segmentierung von Seg 2509
+
+####### Trennen (135,305)####
+
+####### Trennen (123,306)####
+Segmentierung von Seg 2522
+
+####### Trennen (86,304)####
+Segmentierung von Seg 2523
+Segmentierung von Seg 2525
+
+####### Trennen (210,313)####
+
+####### Trennen (211,314)####
+
+####### Trennen (211,316)####
+
+####### Trennen (212,317)####
+
+####### Trennen (212,319)####
+
+####### Trennen (213,320)####
+
+####### Trennen (213,322)####
+
+####### Trennen (214,323)####
+
+####### Trennen (214,325)####
+Segmentierung von Seg 2526
+
+####### Trennen (299,300)####
+Segmentierung von Seg 2527
+
+####### Trennen (305,298)####
+
+####### Trennen (307,296)####
+Segmentierung von Seg 2532
+
+####### Trennen (437,311)####
+Segmentierung von Seg 2539
+
+####### Trennen (323,305)####
+Segmentierung von Seg 2541
+
+####### Trennen (457,308)####
+Segmentierung von Seg 2542
+
+####### Trennen (8,311)####
+Segmentierung von Seg 2546
+Segmentierung von Seg 2547
+Segmentierung von Seg 2549
+
+####### Trennen (338,310)####
+
+####### Trennen (341,313)####
+Segmentierung von Seg 2551
+
+####### Trennen (60,310)####
+Segmentierung von Seg 2558
+
+####### Trennen (439,306)####
+Segmentierung von Seg 2559
+Segmentierung von Seg 2565
+Segmentierung von Seg 2568
+
+####### Trennen (252,302)####
+
+####### Trennen (245,298)####
+
+####### Trennen (236,290)####
+
+####### Trennen (256,315)####
+
+####### Trennen (258,318)####
+
+####### Trennen (261,317)####
+Segmentierung von Seg 2569
+
+####### Trennen (323,307)####
+Segmentierung von Seg 2570
+Segmentierung von Seg 2577
+Segmentierung von Seg 2582
+Segmentierung von Seg 2586
+
+####### Trennen (431,312)####
+
+####### Trennen (427,316)####
+
+####### Trennen (433,318)####
+
+####### Trennen (437,317)####
+
+####### Trennen (440,317)####
+
+####### Trennen (438,321)####
+
+####### Trennen (432,323)####
+Segmentierung von Seg 2588
+
+####### Trennen (266,321)####
+
+####### Trennen (266,325)####
+Segmentierung von Seg 2589
+
+####### Trennen (268,326)####
+Segmentierung von Seg 2591
+
+####### Trennen (399,307)####
+
+####### Trennen (392,312)####
+
+####### Trennen (389,312)####
+
+####### Trennen (387,314)####
+
+####### Trennen (385,314)####
+Segmentierung von Seg 2594
+
+####### Trennen (467,312)####
+
+####### Trennen (469,321)####
+
+####### Trennen (466,324)####
+
+####### Trennen (465,323)####
+
+####### Trennen (463,323)####
+
+####### Trennen (462,322)####
+
+####### Trennen (460,322)####
+Segmentierung von Seg 2598
+Segmentierung von Seg 2603
+
+####### Trennen (301,313)####
+Segmentierung von Seg 2610
+Segmentierung von Seg 2615
+
+####### Trennen (478,330)####
+Segmentierung von Seg 2617
+
+####### Trennen (19,312)####
+
+####### Trennen (22,314)####
+Segmentierung von Seg 2618
+Segmentierung von Seg 2626
+Segmentierung von Seg 2627
+
+####### Trennen (302,315)####
+
+####### Trennen (325,313)####
+
+####### Trennen (323,315)####
+Segmentierung von Seg 2631
+Segmentierung von Seg 2633
+
+####### Trennen (108,314)####
+Segmentierung von Seg 2638
+Segmentierung von Seg 2642
+Segmentierung von Seg 2643
+
+####### Trennen (128,310)####
+Segmentierung von Seg 2645
+
+####### Trennen (311,321)####
+
+####### Trennen (307,321)####
+Segmentierung von Seg 2648
+
+####### Trennen (404,315)####
+Segmentierung von Seg 2650
+Segmentierung von Seg 2652
+
+####### Trennen (94,321)####
+Segmentierung von Seg 2655
+
+####### Trennen (287,320)####
+Segmentierung von Seg 2659
+
+####### Trennen (390,320)####
+
+####### Trennen (385,320)####
+Segmentierung von Seg 2662
+
+####### Trennen (215,298)####
+
+####### Trennen (218,296)####
+
+####### Trennen (220,298)####
+
+####### Trennen (221,305)####
+
+####### Trennen (225,314)####
+
+####### Trennen (224,319)####
+Segmentierung von Seg 2664
+Segmentierung von Seg 2667
+Segmentierung von Seg 2668
+Segmentierung von Seg 2676
+Segmentierung von Seg 2682
+
+####### Trennen (405,318)####
+Segmentierung von Seg 2683
+Segmentierung von Seg 2687
+
+####### Trennen (132,326)####
+
+####### Trennen (129,328)####
+
+####### Trennen (139,331)####
+
+####### Trennen (142,331)####
+
+####### Trennen (138,336)####
+
+####### Trennen (134,335)####
+
+####### Trennen (131,333)####
+
+####### Trennen (129,333)####
+Segmentierung von Seg 2691
+
+####### Trennen (390,324)####
+
+####### Trennen (386,327)####
+
+####### Trennen (384,327)####
+Segmentierung von Seg 2694
+
+####### Trennen (79,323)####
+
+####### Trennen (82,326)####
+
+####### Trennen (80,328)####
+Segmentierung von Seg 2700
+Segmentierung von Seg 2703
+
+####### Trennen (470,327)####
+
+####### Trennen (471,332)####
+
+####### Trennen (457,327)####
+Segmentierung von Seg 2705
+Segmentierung von Seg 2709
+
+####### Trennen (263,332)####
+Segmentierung von Seg 2712
+Segmentierung von Seg 2715
+Segmentierung von Seg 2717
+Segmentierung von Seg 2725
+
+####### Trennen (104,327)####
+
+####### Trennen (102,329)####
+
+####### Trennen (99,330)####
+
+####### Trennen (97,332)####
+
+####### Trennen (96,332)####
+
+####### Trennen (94,334)####
+Segmentierung von Seg 2729
+
+####### Trennen (248,348)####
+
+####### Trennen (246,348)####
+Segmentierung von Seg 2730
+Segmentierung von Seg 2732
+Segmentierung von Seg 2733
+
+####### Trennen (305,324)####
+
+####### Trennen (308,328)####
+
+####### Trennen (308,329)####
+
+####### Trennen (310,331)####
+Segmentierung von Seg 2742
+Segmentierung von Seg 2747
+
+####### Trennen (344,321)####
+
+####### Trennen (350,326)####
+
+####### Trennen (353,327)####
+Segmentierung von Seg 2748
+
+####### Trennen (377,330)####
+
+####### Trennen (377,332)####
+Segmentierung von Seg 2753
+
+####### Trennen (154,329)####
+Segmentierung von Seg 2754
+
+####### Trennen (207,328)####
+
+####### Trennen (209,330)####
+
+####### Trennen (210,330)####
+
+####### Trennen (221,323)####
+Segmentierung von Seg 2758
+
+####### Trennen (416,324)####
+
+####### Trennen (417,323)####
+
+####### Trennen (415,322)####
+
+####### Trennen (413,320)####
+
+####### Trennen (409,322)####
+
+####### Trennen (406,325)####
+Segmentierung von Seg 2761
+
+####### Trennen (13,339)####
+Segmentierung von Seg 2763
+
+####### Trennen (295,331)####
+Segmentierung von Seg 2766
+
+####### Trennen (389,333)####
+Segmentierung von Seg 2769
+
+####### Trennen (435,326)####
+
+####### Trennen (430,324)####
+
+####### Trennen (425,341)####
+Segmentierung von Seg 2781
+Segmentierung von Seg 2788
+Segmentierung von Seg 2789
+Segmentierung von Seg 2795
+
+####### Trennen (36,339)####
+
+####### Trennen (42,341)####
+Segmentierung von Seg 2801
+Segmentierung von Seg 2803
+Segmentierung von Seg 2805
+
+####### Trennen (422,332)####
+Segmentierung von Seg 2807
+Segmentierung von Seg 2808
+
+####### Trennen (477,339)####
+
+####### Trennen (452,330)####
+Segmentierung von Seg 2809
+Segmentierung von Seg 2817
+
+####### Trennen (140,337)####
+
+####### Trennen (146,332)####
+
+####### Trennen (155,331)####
+Segmentierung von Seg 2818
+
+####### Trennen (154,348)####
+Segmentierung von Seg 2819
+
+####### Trennen (202,332)####
+
+####### Trennen (190,338)####
+
+####### Trennen (189,339)####
+
+####### Trennen (193,343)####
+
+####### Trennen (196,346)####
+Segmentierung von Seg 2822
+
+####### Trennen (314,334)####
+
+####### Trennen (313,338)####
+Segmentierung von Seg 2825
+
+####### Trennen (417,341)####
+Segmentierung von Seg 2826
+Segmentierung von Seg 2828
+Segmentierung von Seg 2835
+Segmentierung von Seg 2838
+Segmentierung von Seg 2839
+Segmentierung von Seg 2842
+
+####### Trennen (380,351)####
+Segmentierung von Seg 2850
+
+####### Trennen (354,339)####
+
+####### Trennen (358,343)####
+
+####### Trennen (358,346)####
+Segmentierung von Seg 2851
+
+####### Trennen (359,341)####
+
+####### Trennen (362,344)####
+
+####### Trennen (363,347)####
+
+####### Trennen (365,349)####
+Segmentierung von Seg 2852
+
+####### Trennen (406,339)####
+
+####### Trennen (406,349)####
+Segmentierung von Seg 2854
+
+####### Trennen (2,351)####
+Segmentierung von Seg 2855
+
+####### Trennen (104,354)####
+
+####### Trennen (89,366)####
+Segmentierung von Seg 2857
+
+####### Trennen (136,342)####
+Segmentierung von Seg 2858
+
+####### Trennen (169,346)####
+Segmentierung von Seg 2859
+
+####### Trennen (173,344)####
+
+####### Trennen (181,350)####
+
+####### Trennen (185,351)####
+
+####### Trennen (186,350)####
+
+####### Trennen (185,349)####
+
+####### Trennen (185,345)####
+Segmentierung von Seg 2863
+
+####### Trennen (230,347)####
+Segmentierung von Seg 2867
+
+####### Trennen (125,356)####
+Segmentierung von Seg 2870
+Segmentierung von Seg 2874
+Segmentierung von Seg 2876
+
+####### Trennen (443,339)####
+
+####### Trennen (444,347)####
+Segmentierung von Seg 2877
+Segmentierung von Seg 2879
+
+####### Trennen (121,344)####
+
+####### Trennen (118,362)####
+
+####### Trennen (115,363)####
+Segmentierung von Seg 2886
+Segmentierung von Seg 2887
+
+####### Trennen (446,357)####
+
+####### Trennen (446,365)####
+
+####### Trennen (444,366)####
+Segmentierung von Seg 2893
+Segmentierung von Seg 2897
+
+####### Trennen (276,344)####
+Segmentierung von Seg 2901
+Segmentierung von Seg 2907
+
+####### Trennen (26,335)####
+
+####### Trennen (32,340)####
+
+####### Trennen (23,343)####
+
+####### Trennen (19,343)####
+Segmentierung von Seg 2909
+
+####### Trennen (105,351)####
+Segmentierung von Seg 2911
+
+####### Trennen (214,343)####
+
+####### Trennen (218,343)####
+
+####### Trennen (218,345)####
+Segmentierung von Seg 2913
+
+####### Trennen (278,335)####
+
+####### Trennen (281,346)####
+
+####### Trennen (284,349)####
+Segmentierung von Seg 2914
+
+####### Trennen (449,354)####
+Segmentierung von Seg 2915
+
+####### Trennen (450,356)####
+Segmentierung von Seg 2921
+Segmentierung von Seg 2924
+Segmentierung von Seg 2926
+
+####### Trennen (464,351)####
+
+####### Trennen (459,355)####
+Segmentierung von Seg 2930
+
+####### Trennen (318,351)####
+Segmentierung von Seg 2932
+
+####### Trennen (204,349)####
+Segmentierung von Seg 2934
+Segmentierung von Seg 2935
+
+####### Trennen (308,362)####
+Segmentierung von Seg 2941
+Segmentierung von Seg 2944
+
+####### Trennen (124,367)####
+Segmentierung von Seg 2946
+Segmentierung von Seg 2949
+
+####### Trennen (366,354)####
+
+####### Trennen (365,358)####
+
+####### Trennen (356,353)####
+
+####### Trennen (351,353)####
+Segmentierung von Seg 2951
+
+####### Trennen (34,354)####
+Segmentierung von Seg 2953
+Segmentierung von Seg 2960
+Segmentierung von Seg 2963
+Segmentierung von Seg 2964
+
+####### Trennen (212,346)####
+
+####### Trennen (214,349)####
+Segmentierung von Seg 2966
+Segmentierung von Seg 2973
+
+####### Trennen (291,351)####
+
+####### Trennen (292,350)####
+
+####### Trennen (297,349)####
+
+####### Trennen (301,347)####
+
+####### Trennen (311,352)####
+
+####### Trennen (315,352)####
+
+####### Trennen (316,353)####
+
+####### Trennen (319,353)####
+Segmentierung von Seg 2974
+Segmentierung von Seg 2976
+Segmentierung von Seg 2979
+
+####### Trennen (202,370)####
+
+####### Trennen (201,374)####
+
+####### Trennen (204,352)####
+
+####### Trennen (207,349)####
+
+####### Trennen (208,354)####
+Segmentierung von Seg 2986
+
+####### Trennen (414,355)####
+Segmentierung von Seg 2989
+
+####### Trennen (55,356)####
+
+####### Trennen (62,358)####
+
+####### Trennen (62,362)####
+Segmentierung von Seg 2990
+Segmentierung von Seg 2991
+Segmentierung von Seg 2992
+
+####### Trennen (144,354)####
+Segmentierung von Seg 2993
+
+####### Trennen (177,357)####
+
+####### Trennen (182,357)####
+Segmentierung von Seg 2994
+
+####### Trennen (195,367)####
+Segmentierung von Seg 2996
+Segmentierung von Seg 2997
+Segmentierung von Seg 2998
+Segmentierung von Seg 3000
+
+####### Trennen (78,370)####
+
+####### Trennen (79,371)####
+
+####### Trennen (79,373)####
+Segmentierung von Seg 3002
+
+####### Trennen (223,350)####
+Segmentierung von Seg 3003
+
+####### Trennen (221,360)####
+
+####### Trennen (222,363)####
+Segmentierung von Seg 3007
+
+####### Trennen (441,365)####
+
+####### Trennen (442,368)####
+
+####### Trennen (443,369)####
+
+####### Trennen (440,371)####
+Segmentierung von Seg 3009
+Segmentierung von Seg 3011
+Segmentierung von Seg 3012
+
+####### Trennen (187,361)####
+Segmentierung von Seg 3016
+Segmentierung von Seg 3017
+
+####### Trennen (135,360)####
+
+####### Trennen (129,365)####
+Segmentierung von Seg 3018
+
+####### Trennen (139,364)####
+
+####### Trennen (136,376)####
+Segmentierung von Seg 3020
+
+####### Trennen (158,354)####
+
+####### Trennen (161,354)####
+Segmentierung von Seg 3022
+Segmentierung von Seg 3025
+
+####### Trennen (430,368)####
+Segmentierung von Seg 3026
+
+####### Trennen (8,359)####
+
+####### Trennen (13,359)####
+Segmentierung von Seg 3030
+
+####### Trennen (175,365)####
+Segmentierung von Seg 3033
+Segmentierung von Seg 3037
+Segmentierung von Seg 3038
+
+####### Trennen (469,363)####
+
+####### Trennen (465,367)####
+Segmentierung von Seg 3040
+Segmentierung von Seg 3042
+
+####### Trennen (111,362)####
+
+####### Trennen (113,352)####
+
+####### Trennen (114,351)####
+
+####### Trennen (114,347)####
+Segmentierung von Seg 3045
+
+####### Trennen (286,361)####
+
+####### Trennen (288,363)####
+
+####### Trennen (288,364)####
+
+####### Trennen (290,366)####
+Segmentierung von Seg 3048
+
+####### Trennen (396,361)####
+Segmentierung von Seg 3059
+Segmentierung von Seg 3061
+
+####### Trennen (116,366)####
+Segmentierung von Seg 3062
+Segmentierung von Seg 3063
+
+####### Trennen (235,374)####
+Segmentierung von Seg 3064
+
+####### Trennen (26,368)####
+
+####### Trennen (22,373)####
+Segmentierung von Seg 3065
+Segmentierung von Seg 3075
+
+####### Trennen (318,365)####
+Segmentierung von Seg 3076
+
+####### Trennen (48,363)####
+Segmentierung von Seg 3079
+
+####### Trennen (398,363)####
+
+####### Trennen (397,364)####
+
+####### Trennen (388,367)####
+Segmentierung von Seg 3080
+
+####### Trennen (71,367)####
+Segmentierung von Seg 3081
+Segmentierung von Seg 3084
+Segmentierung von Seg 3085
+
+####### Trennen (332,380)####
+
+####### Trennen (332,383)####
+Segmentierung von Seg 3086
+
+####### Trennen (344,380)####
+
+####### Trennen (337,389)####
+
+####### Trennen (368,362)####
+
+####### Trennen (370,360)####
+Segmentierung von Seg 3088
+
+####### Trennen (412,382)####
+
+####### Trennen (410,384)####
+Segmentierung von Seg 3090
+
+####### Trennen (472,377)####
+Segmentierung von Seg 3092
+Segmentierung von Seg 3094
+
+####### Trennen (229,370)####
+Segmentierung von Seg 3095
+
+####### Trennen (280,370)####
+
+####### Trennen (283,373)####
+Segmentierung von Seg 3100
+Segmentierung von Seg 3105
+
+####### Trennen (208,370)####
+Segmentierung von Seg 3107
+
+####### Trennen (226,364)####
+Segmentierung von Seg 3108
+Segmentierung von Seg 3111
+
+####### Trennen (338,376)####
+
+####### Trennen (338,378)####
+
+####### Trennen (336,381)####
+
+####### Trennen (336,383)####
+Segmentierung von Seg 3113
+
+####### Trennen (42,358)####
+
+####### Trennen (28,358)####
+
+####### Trennen (19,359)####
+Segmentierung von Seg 3114
+Segmentierung von Seg 3115
+Segmentierung von Seg 3116
+
+####### Trennen (34,386)####
+Segmentierung von Seg 3120
+
+####### Trennen (220,370)####
+
+####### Trennen (217,373)####
+
+####### Trennen (218,375)####
+Segmentierung von Seg 3122
+
+####### Trennen (331,363)####
+Segmentierung von Seg 3123
+Segmentierung von Seg 3124
+
+####### Trennen (336,362)####
+
+####### Trennen (352,358)####
+
+####### Trennen (357,356)####
+
+####### Trennen (361,358)####
+
+####### Trennen (346,362)####
+
+####### Trennen (335,371)####
+
+####### Trennen (331,371)####
+
+####### Trennen (330,372)####
+
+####### Trennen (327,372)####
+Segmentierung von Seg 3125
+
+####### Trennen (354,385)####
+Segmentierung von Seg 3128
+Segmentierung von Seg 3131
+Segmentierung von Seg 3134
+Segmentierung von Seg 3135
+Segmentierung von Seg 3140
+Segmentierung von Seg 3142
+Segmentierung von Seg 3143
+
+####### Trennen (7,374)####
+Segmentierung von Seg 3145
+
+####### Trennen (29,380)####
+Segmentierung von Seg 3146
+
+####### Trennen (116,373)####
+Segmentierung von Seg 3147
+
+####### Trennen (294,368)####
+
+####### Trennen (310,382)####
+
+####### Trennen (313,378)####
+Segmentierung von Seg 3148
+
+####### Trennen (444,374)####
+
+####### Trennen (446,369)####
+
+####### Trennen (449,365)####
+
+####### Trennen (452,367)####
+
+####### Trennen (452,371)####
+
+####### Trennen (463,369)####
+
+####### Trennen (461,376)####
+Segmentierung von Seg 3150
+
+####### Trennen (58,370)####
+Segmentierung von Seg 3152
+
+####### Trennen (201,387)####
+
+####### Trennen (200,388)####
+
+####### Trennen (200,392)####
+
+####### Trennen (199,393)####
+
+####### Trennen (199,395)####
+Segmentierung von Seg 3153
+
+####### Trennen (284,377)####
+
+####### Trennen (284,380)####
+Segmentierung von Seg 3155
+Segmentierung von Seg 3156
+
+####### Trennen (378,413)####
+Segmentierung von Seg 3158
+Segmentierung von Seg 3159
+
+####### Trennen (7,385)####
+
+####### Trennen (6,395)####
+
+####### Trennen (8,404)####
+Segmentierung von Seg 3160
+Segmentierung von Seg 3164
+Segmentierung von Seg 3165
+
+####### Trennen (257,351)####
+Segmentierung von Seg 3166
+Segmentierung von Seg 3168
+Segmentierung von Seg 3173
+
+####### Trennen (164,388)####
+
+####### Trennen (165,389)####
+
+####### Trennen (165,391)####
+Segmentierung von Seg 3179
+
+####### Trennen (88,378)####
+
+####### Trennen (85,381)####
+
+####### Trennen (84,386)####
+Segmentierung von Seg 3183
+
+####### Trennen (426,382)####
+Segmentierung von Seg 3186
+
+####### Trennen (145,380)####
+
+####### Trennen (149,384)####
+
+####### Trennen (151,383)####
+Segmentierung von Seg 3187
+
+####### Trennen (183,402)####
+
+####### Trennen (182,404)####
+Segmentierung von Seg 3188
+
+####### Trennen (358,413)####
+
+####### Trennen (356,416)####
+Segmentierung von Seg 3194
+
+####### Trennen (408,366)####
+Segmentierung von Seg 3196
+
+####### Trennen (63,380)####
+Segmentierung von Seg 3197
+Segmentierung von Seg 3198
+Segmentierung von Seg 3203
+
+####### Trennen (300,381)####
+Segmentierung von Seg 3204
+
+####### Trennen (391,381)####
+
+####### Trennen (388,379)####
+Segmentierung von Seg 3205
+
+####### Trennen (53,388)####
+
+####### Trennen (41,416)####
+
+####### Trennen (40,417)####
+
+####### Trennen (40,420)####
+Segmentierung von Seg 3207
+Segmentierung von Seg 3208
+Segmentierung von Seg 3213
+
+####### Trennen (401,383)####
+
+####### Trennen (401,387)####
+Segmentierung von Seg 3218
+
+####### Trennen (279,384)####
+Segmentierung von Seg 3220
+
+####### Trennen (332,375)####
+
+####### Trennen (319,387)####
+Segmentierung von Seg 3222
+
+####### Trennen (472,385)####
+
+####### Trennen (468,384)####
+
+####### Trennen (468,379)####
+
+####### Trennen (464,381)####
+
+####### Trennen (463,383)####
+
+####### Trennen (457,389)####
+Segmentierung von Seg 3223
+
+####### Trennen (56,397)####
+
+####### Trennen (46,428)####
+
+####### Trennen (54,423)####
+
+####### Trennen (58,420)####
+Segmentierung von Seg 3224
+
+####### Trennen (63,399)####
+
+####### Trennen (63,401)####
+
+####### Trennen (62,402)####
+
+####### Trennen (62,404)####
+Segmentierung von Seg 3231
+
+####### Trennen (323,387)####
+Segmentierung von Seg 3233
+
+####### Trennen (455,384)####
+
+####### Trennen (450,389)####
+
+####### Trennen (453,390)####
+Segmentierung von Seg 3234
+
+####### Trennen (16,381)####
+
+####### Trennen (9,386)####
+
+####### Trennen (9,391)####
+
+####### Trennen (10,396)####
+Segmentierung von Seg 3239
+
+####### Trennen (274,388)####
+Segmentierung von Seg 3242
+Segmentierung von Seg 3245
+
+####### Trennen (75,380)####
+
+####### Trennen (73,413)####
+
+####### Trennen (70,421)####
+
+####### Trennen (70,424)####
+Segmentierung von Seg 3246
+
+####### Trennen (138,391)####
+Segmentierung von Seg 3249
+Segmentierung von Seg 3251
+Segmentierung von Seg 3254
+Segmentierung von Seg 3257
+Segmentierung von Seg 3262
+
+####### Trennen (227,382)####
+
+####### Trennen (225,380)####
+
+####### Trennen (233,384)####
+
+####### Trennen (232,387)####
+Segmentierung von Seg 3265
+
+####### Trennen (242,404)####
+Segmentierung von Seg 3268
+Segmentierung von Seg 3271
+Segmentierung von Seg 3274
+
+####### Trennen (148,394)####
+Segmentierung von Seg 3275
+Segmentierung von Seg 3276
+Segmentierung von Seg 3291
+
+####### Trennen (335,393)####
+
+####### Trennen (336,394)####
+Segmentierung von Seg 3292
+Segmentierung von Seg 3295
+
+####### Trennen (416,389)####
+
+####### Trennen (417,391)####
+Segmentierung von Seg 3296
+
+####### Trennen (264,387)####
+
+####### Trennen (268,388)####
+
+####### Trennen (269,387)####
+
+####### Trennen (252,385)####
+Segmentierung von Seg 3300
+
+####### Trennen (404,390)####
+
+####### Trennen (400,392)####
+
+####### Trennen (407,394)####
+Segmentierung von Seg 3301
+
+####### Trennen (410,403)####
+Segmentierung von Seg 3317
+
+####### Trennen (71,412)####
+
+####### Trennen (70,413)####
+
+####### Trennen (65,424)####
+
+####### Trennen (58,426)####
+
+####### Trennen (69,394)####
+
+####### Trennen (69,392)####
+
+####### Trennen (70,391)####
+
+####### Trennen (70,389)####
+Segmentierung von Seg 3319
+
+####### Trennen (333,400)####
+Segmentierung von Seg 3320
+
+####### Trennen (341,397)####
+
+####### Trennen (362,367)####
+Segmentierung von Seg 3322
+
+####### Trennen (1,410)####
+Segmentierung von Seg 3324
+Segmentierung von Seg 3327
+
+####### Trennen (83,393)####
+
+####### Trennen (85,395)####
+Segmentierung von Seg 3329
+
+####### Trennen (91,394)####
+Segmentierung von Seg 3331
+
+####### Trennen (191,401)####
+Segmentierung von Seg 3337
+
+####### Trennen (435,396)####
+Segmentierung von Seg 3340
+
+####### Trennen (159,392)####
+
+####### Trennen (159,396)####
+Segmentierung von Seg 3341
+
+####### Trennen (267,393)####
+
+####### Trennen (269,395)####
+
+####### Trennen (271,395)####
+Segmentierung von Seg 3342
+Segmentierung von Seg 3343
+
+####### Trennen (283,400)####
+Segmentierung von Seg 3345
+
+####### Trennen (305,386)####
+Segmentierung von Seg 3346
+Segmentierung von Seg 3349
+Segmentierung von Seg 3350
+
+####### Trennen (409,411)####
+
+####### Trennen (408,419)####
+
+####### Trennen (422,398)####
+Segmentierung von Seg 3351
+
+####### Trennen (431,411)####
+Segmentierung von Seg 3354
+Segmentierung von Seg 3355
+Segmentierung von Seg 3359
+Segmentierung von Seg 3361
+
+####### Trennen (449,402)####
+Segmentierung von Seg 3364
+
+####### Trennen (260,396)####
+
+####### Trennen (261,397)####
+
+####### Trennen (264,397)####
+Segmentierung von Seg 3367
+
+####### Trennen (393,406)####
+Segmentierung von Seg 3368
+Segmentierung von Seg 3369
+Segmentierung von Seg 3370
+Segmentierung von Seg 3374
+
+####### Trennen (348,403)####
+
+####### Trennen (341,410)####
+
+####### Trennen (339,408)####
+
+####### Trennen (347,395)####
+Segmentierung von Seg 3375
+Segmentierung von Seg 3381
+
+####### Trennen (140,402)####
+
+####### Trennen (137,406)####
+Segmentierung von Seg 3386
+Segmentierung von Seg 3387
+
+####### Trennen (157,401)####
+Segmentierung von Seg 3389
+
+####### Trennen (241,391)####
+
+####### Trennen (240,390)####
+
+####### Trennen (241,385)####
+Segmentierung von Seg 3390
+
+####### Trennen (273,403)####
+Segmentierung von Seg 3393
+
+####### Trennen (376,412)####
+Segmentierung von Seg 3394
+Segmentierung von Seg 3395
+
+####### Trennen (439,399)####
+
+####### Trennen (424,418)####
+
+####### Trennen (430,420)####
+
+####### Trennen (432,418)####
+
+####### Trennen (456,418)####
+
+####### Trennen (457,417)####
+
+####### Trennen (460,417)####
+Segmentierung von Seg 3397
+
+####### Trennen (32,407)####
+
+####### Trennen (32,409)####
+
+####### Trennen (31,410)####
+
+####### Trennen (31,412)####
+
+####### Trennen (30,413)####
+
+####### Trennen (30,415)####
+Segmentierung von Seg 3398
+
+####### Trennen (41,403)####
+Segmentierung von Seg 3399
+
+####### Trennen (191,404)####
+
+####### Trennen (189,404)####
+
+####### Trennen (186,406)####
+
+####### Trennen (187,407)####
+
+####### Trennen (190,407)####
+Segmentierung von Seg 3408
+Segmentierung von Seg 3409
+
+####### Trennen (261,402)####
+Segmentierung von Seg 3410
+
+####### Trennen (448,410)####
+
+####### Trennen (455,416)####
+Segmentierung von Seg 3413
+
+####### Trennen (296,400)####
+Segmentierung von Seg 3414
+Segmentierung von Seg 3418
+
+####### Trennen (103,402)####
+
+####### Trennen (102,406)####
+Segmentierung von Seg 3419
+
+####### Trennen (253,405)####
+
+####### Trennen (256,419)####
+Segmentierung von Seg 3427
+Segmentierung von Seg 3432
+Segmentierung von Seg 3433
+Segmentierung von Seg 3435
+Segmentierung von Seg 3441
+
+####### Trennen (205,414)####
+
+####### Trennen (206,415)####
+
+####### Trennen (206,418)####
+Segmentierung von Seg 3442
+
+####### Trennen (338,401)####
+
+####### Trennen (339,403)####
+
+####### Trennen (334,409)####
+
+####### Trennen (332,406)####
+
+####### Trennen (330,412)####
+Segmentierung von Seg 3447
+Segmentierung von Seg 3448
+
+####### Trennen (186,410)####
+
+####### Trennen (188,420)####
+
+####### Trennen (200,415)####
+Segmentierung von Seg 3452
+Segmentierung von Seg 3453
+
+####### Trennen (10,411)####
+
+####### Trennen (3,416)####
+
+####### Trennen (1,414)####
+
+####### Trennen (3,410)####
+Segmentierung von Seg 3455
+
+####### Trennen (286,411)####
+Segmentierung von Seg 3457
+Segmentierung von Seg 3459
+Segmentierung von Seg 3460
+
+####### Trennen (45,421)####
+Segmentierung von Seg 3474
+Segmentierung von Seg 3480
+
+####### Trennen (21,409)####
+
+####### Trennen (14,401)####
+
+####### Trennen (12,407)####
+
+####### Trennen (11,416)####
+
+####### Trennen (17,419)####
+
+####### Trennen (21,419)####
+Segmentierung von Seg 3485
+
+####### Trennen (97,405)####
+
+####### Trennen (86,403)####
+
+####### Trennen (83,413)####
+Segmentierung von Seg 3486
+Segmentierung von Seg 3487
+
+####### Trennen (208,414)####
+
+####### Trennen (213,419)####
+
+####### Trennen (212,420)####
+
+####### Trennen (212,423)####
+Segmentierung von Seg 3494
+Segmentierung von Seg 3499
+Segmentierung von Seg 3502
+
+####### Trennen (388,426)####
+Segmentierung von Seg 3503
+Segmentierung von Seg 3509
+Segmentierung von Seg 3510
+Segmentierung von Seg 3511
+Segmentierung von Seg 3512
+
+####### Trennen (32,420)####
+Segmentierung von Seg 3513
+
+####### Trennen (103,423)####
+Segmentierung von Seg 3514
+
+####### Trennen (127,423)####
+
+####### Trennen (127,426)####
+Segmentierung von Seg 3520
+
+####### Trennen (248,424)####
+
+####### Trennen (252,425)####
+
+####### Trennen (252,427)####
+Segmentierung von Seg 3521
+Segmentierung von Seg 3523
+
+####### Trennen (310,416)####
+Segmentierung von Seg 3524
+
+####### Trennen (324,419)####
+Segmentierung von Seg 3526
+
+####### Trennen (231,417)####
+
+####### Trennen (231,421)####
+
+####### Trennen (238,422)####
+
+####### Trennen (240,421)####
+Segmentierung von Seg 3529
+
+####### Trennen (355,388)####
+Segmentierung von Seg 3531
+
+####### Trennen (355,426)####
+
+####### Trennen (355,424)####
+
+####### Trennen (339,418)####
+
+####### Trennen (339,413)####
+
+####### Trennen (338,412)####
+Segmentierung von Seg 3533
+
+####### Trennen (393,451)####
+Segmentierung von Seg 3535
+
+####### Trennen (9,418)####
+Segmentierung von Seg 3536
+Segmentierung von Seg 3545
+
+####### Trennen (130,422)####
+Segmentierung von Seg 3548
+
+####### Trennen (390,423)####
+Segmentierung von Seg 3554
+
+####### Trennen (132,429)####
+Segmentierung von Seg 3556
+Segmentierung von Seg 3557
+Segmentierung von Seg 3560
+
+####### Trennen (13,424)####
+
+####### Trennen (22,423)####
+Segmentierung von Seg 3561
+
+####### Trennen (29,425)####
+
+####### Trennen (46,430)####
+
+####### Trennen (46,433)####
+
+####### Trennen (64,434)####
+
+####### Trennen (68,430)####
+Segmentierung von Seg 3562
+
+####### Trennen (319,424)####
+Segmentierung von Seg 3564
+
+####### Trennen (89,458)####
+
+####### Trennen (89,460)####
+Segmentierung von Seg 3570
+
+####### Trennen (352,418)####
+Segmentierung von Seg 3574
+
+####### Trennen (96,421)####
+Segmentierung von Seg 3579
+
+####### Trennen (101,429)####
+
+####### Trennen (102,428)####
+Segmentierung von Seg 3582
+
+####### Trennen (322,429)####
+
+####### Trennen (324,431)####
+Segmentierung von Seg 3585
+Segmentierung von Seg 3586
+Segmentierung von Seg 3589
+Segmentierung von Seg 3592
+
+####### Trennen (35,429)####
+Segmentierung von Seg 3597
+
+####### Trennen (204,417)####
+
+####### Trennen (188,424)####
+
+####### Trennen (186,424)####
+
+####### Trennen (186,426)####
+
+####### Trennen (184,428)####
+Segmentierung von Seg 3612
+
+####### Trennen (12,433)####
+
+####### Trennen (15,432)####
+Segmentierung von Seg 3614
+
+####### Trennen (330,429)####
+Segmentierung von Seg 3616
+Segmentierung von Seg 3619
+Segmentierung von Seg 3625
+Segmentierung von Seg 3627
+Segmentierung von Seg 3628
+
+####### Trennen (102,435)####
+
+####### Trennen (105,433)####
+Segmentierung von Seg 3636
+
+####### Trennen (27,433)####
+Segmentierung von Seg 3637
+
+####### Trennen (49,432)####
+
+####### Trennen (51,428)####
+Segmentierung von Seg 3647
+Segmentierung von Seg 3651
+
+####### Trennen (161,461)####
+
+####### Trennen (163,463)####
+Segmentierung von Seg 3652
+Segmentierung von Seg 3655
+
+####### Trennen (330,434)####
+
+####### Trennen (333,435)####
+Segmentierung von Seg 3659
+
+####### Trennen (447,431)####
+Segmentierung von Seg 3664
+
+####### Trennen (209,431)####
+
+####### Trennen (206,432)####
+Segmentierung von Seg 3674
+
+####### Trennen (245,465)####
+Segmentierung von Seg 3675
+Segmentierung von Seg 3686
+
+####### Trennen (108,438)####
+
+####### Trennen (107,439)####
+
+####### Trennen (107,442)####
+Segmentierung von Seg 3692
+
+####### Trennen (19,442)####
+Segmentierung von Seg 3703
+Segmentierung von Seg 3706
+Segmentierung von Seg 3709
+Segmentierung von Seg 3711
+
+####### Trennen (221,445)####
+
+####### Trennen (209,442)####
+
+####### Trennen (206,442)####
+Segmentierung von Seg 3712
+
+####### Trennen (224,445)####
+
+####### Trennen (240,463)####
+Segmentierung von Seg 3714
+Segmentierung von Seg 3717
+
+####### Trennen (451,465)####
+Segmentierung von Seg 3718
+Segmentierung von Seg 3722
+
+####### Trennen (324,437)####
+Segmentierung von Seg 3725
+
+####### Trennen (394,437)####
+Segmentierung von Seg 3727
+Segmentierung von Seg 3732
+Segmentierung von Seg 3733
+
+####### Trennen (74,458)####
+
+####### Trennen (60,459)####
+
+####### Trennen (59,455)####
+Segmentierung von Seg 3735
+
+####### Trennen (124,447)####
+
+####### Trennen (124,449)####
+Segmentierung von Seg 3737
+Segmentierung von Seg 3743
+
+####### Trennen (64,448)####
+
+####### Trennen (63,448)####
+
+####### Trennen (61,450)####
+Segmentierung von Seg 3744
+Segmentierung von Seg 3747
+
+####### Trennen (323,466)####
+Segmentierung von Seg 3754
+Segmentierung von Seg 3758
+Segmentierung von Seg 3759
+Segmentierung von Seg 3760
+
+####### Trennen (464,451)####
+
+####### Trennen (455,462)####
+Segmentierung von Seg 3762
+Segmentierung von Seg 3768
+
+####### Trennen (332,445)####
+
+####### Trennen (331,444)####
+
+####### Trennen (326,445)####
+Segmentierung von Seg 3771
+Segmentierung von Seg 3773
+
+####### Trennen (45,447)####
+Segmentierung von Seg 3774
+
+####### Trennen (66,442)####
+Segmentierung von Seg 3781
+
+####### Trennen (206,451)####
+
+####### Trennen (210,452)####
+Segmentierung von Seg 3786
+
+####### Trennen (371,441)####
+
+####### Trennen (378,434)####
+
+####### Trennen (381,448)####
+
+####### Trennen (378,470)####
+Segmentierung von Seg 3791
+
+####### Trennen (244,447)####
+
+####### Trennen (244,450)####
+
+####### Trennen (247,453)####
+Segmentierung von Seg 3793
+
+####### Trennen (351,452)####
+Segmentierung von Seg 3794
+
+####### Trennen (348,459)####
+
+####### Trennen (348,460)####
+
+####### Trennen (346,462)####
+Segmentierung von Seg 3797
+Segmentierung von Seg 3800
+Segmentierung von Seg 3805
+Segmentierung von Seg 3816
+Segmentierung von Seg 3817
+
+####### Trennen (98,451)####
+
+####### Trennen (102,451)####
+Segmentierung von Seg 3822
+
+####### Trennen (445,456)####
+
+####### Trennen (445,457)####
+
+####### Trennen (447,459)####
+Segmentierung von Seg 3826
+
+####### Trennen (111,451)####
+Segmentierung von Seg 3832
+
+####### Trennen (46,453)####
+Segmentierung von Seg 3834
+Segmentierung von Seg 3835
+Segmentierung von Seg 3837
+
+####### Trennen (275,450)####
+Segmentierung von Seg 3838
+
+####### Trennen (300,451)####
+
+####### Trennen (302,453)####
+Segmentierung von Seg 3839
+
+####### Trennen (441,456)####
+
+####### Trennen (445,460)####
+
+####### Trennen (447,463)####
+
+####### Trennen (436,466)####
+
+####### Trennen (429,459)####
+
+####### Trennen (426,459)####
+Segmentierung von Seg 3841
+
+####### Trennen (1,461)####
+Segmentierung von Seg 3846
+
+####### Trennen (108,458)####
+
+####### Trennen (123,463)####
+
+####### Trennen (127,466)####
+Segmentierung von Seg 3848
+
+####### Trennen (354,465)####
+
+####### Trennen (346,468)####
+
+####### Trennen (344,470)####
+
+####### Trennen (345,475)####
+
+####### Trennen (345,481)####
+
+####### Trennen (348,482)####
+Segmentierung von Seg 3849
+
+####### Trennen (365,467)####
+Segmentierung von Seg 3850
+Segmentierung von Seg 3851
+
+####### Trennen (28,457)####
+
+####### Trennen (37,457)####
+Segmentierung von Seg 3852
+
+####### Trennen (45,459)####
+
+####### Trennen (48,458)####
+
+####### Trennen (50,456)####
+Segmentierung von Seg 3854
+Segmentierung von Seg 3856
+Segmentierung von Seg 3857
+
+####### Trennen (394,481)####
+
+####### Trennen (393,485)####
+
+####### Trennen (391,485)####
+Segmentierung von Seg 3858
+Segmentierung von Seg 3863
+
+####### Trennen (187,452)####
+Segmentierung von Seg 3864
+
+####### Trennen (405,466)####
+Segmentierung von Seg 3865
+
+####### Trennen (404,451)####
+Segmentierung von Seg 3867
+
+####### Trennen (229,466)####
+Segmentierung von Seg 3869
+Segmentierung von Seg 3870
+Segmentierung von Seg 3872
+Segmentierung von Seg 3873
+Segmentierung von Seg 3874
+Segmentierung von Seg 3876
+Segmentierung von Seg 3880
+Segmentierung von Seg 3881
+Segmentierung von Seg 3884
+
+####### Trennen (275,458)####
+
+####### Trennen (270,463)####
+
+####### Trennen (267,465)####
+
+####### Trennen (272,466)####
+
+####### Trennen (278,466)####
+
+####### Trennen (290,494)####
+Segmentierung von Seg 3889
+
+####### Trennen (463,465)####
+Segmentierung von Seg 3897
+
+####### Trennen (399,469)####
+
+####### Trennen (399,472)####
+Segmentierung von Seg 3898
+
+####### Trennen (417,464)####
+Segmentierung von Seg 3899
+Segmentierung von Seg 3900
+Segmentierung von Seg 3901
+Segmentierung von Seg 3908
+
+####### Trennen (110,461)####
+
+####### Trennen (113,461)####
+
+####### Trennen (114,462)####
+
+####### Trennen (124,483)####
+
+####### Trennen (129,501)####
+Segmentierung von Seg 3910
+
+####### Trennen (241,469)####
+
+####### Trennen (239,471)####
+Segmentierung von Seg 3914
+
+####### Trennen (367,446)####
+
+####### Trennen (357,460)####
+Segmentierung von Seg 3918
+Segmentierung von Seg 3920
+
+####### Trennen (107,465)####
+
+####### Trennen (109,468)####
+
+####### Trennen (109,471)####
+Segmentierung von Seg 3926
+
+####### Trennen (474,467)####
+Segmentierung von Seg 3927
+
+####### Trennen (216,466)####
+Segmentierung von Seg 3928
+Segmentierung von Seg 3931
+Segmentierung von Seg 3935
+Segmentierung von Seg 3938
+
+####### Trennen (1,472)####
+Segmentierung von Seg 3942
+
+####### Trennen (343,463)####
+
+####### Trennen (345,459)####
+
+####### Trennen (347,457)####
+Segmentierung von Seg 3944
+Segmentierung von Seg 3947
+
+####### Trennen (131,470)####
+Segmentierung von Seg 3948
+
+####### Trennen (200,462)####
+
+####### Trennen (200,465)####
+Segmentierung von Seg 3949
+
+####### Trennen (350,501)####
+
+####### Trennen (354,504)####
+
+####### Trennen (357,507)####
+Segmentierung von Seg 3954
+
+####### Trennen (43,464)####
+
+####### Trennen (41,462)####
+Segmentierung von Seg 3955
+
+####### Trennen (123,473)####
+Segmentierung von Seg 3957
+Segmentierung von Seg 3958
+Segmentierung von Seg 3959
+
+####### Trennen (280,466)####
+
+####### Trennen (283,464)####
+Segmentierung von Seg 3960
+
+####### Trennen (360,499)####
+
+####### Trennen (358,501)####
+Segmentierung von Seg 3963
+
+####### Trennen (45,482)####
+
+####### Trennen (43,484)####
+Segmentierung von Seg 3965
+
+####### Trennen (206,475)####
+Segmentierung von Seg 3968
+
+####### Trennen (334,484)####
+Segmentierung von Seg 3970
+Segmentierung von Seg 3977
+Segmentierung von Seg 3978
+
+####### Trennen (402,472)####
+Segmentierung von Seg 3980
+Segmentierung von Seg 3991
+
+####### Trennen (47,484)####
+
+####### Trennen (44,487)####
+
+####### Trennen (46,492)####
+
+####### Trennen (48,495)####
+
+####### Trennen (47,496)####
+
+####### Trennen (47,498)####
+Segmentierung von Seg 3995
+Segmentierung von Seg 3996
+
+####### Trennen (254,485)####
+Segmentierung von Seg 4000
+
+####### Trennen (91,484)####
+Segmentierung von Seg 4001
+Segmentierung von Seg 4002
+Segmentierung von Seg 4005
+Segmentierung von Seg 4007
+
+####### Trennen (300,494)####
+Segmentierung von Seg 4008
+
+####### Trennen (312,500)####
+
+####### Trennen (309,505)####
+
+####### Trennen (309,507)####
+Segmentierung von Seg 4010
+
+####### Trennen (430,472)####
+Segmentierung von Seg 4012
+
+####### Trennen (64,481)####
+
+####### Trennen (62,485)####
+Segmentierung von Seg 4025
+
+####### Trennen (120,480)####
+Segmentierung von Seg 4036
+
+####### Trennen (74,481)####
+Segmentierung von Seg 4037
+Segmentierung von Seg 4038
+
+####### Trennen (319,493)####
+
+####### Trennen (319,494)####
+
+####### Trennen (317,496)####
+
+####### Trennen (317,497)####
+
+####### Trennen (315,499)####
+
+####### Trennen (315,500)####
+
+####### Trennen (313,502)####
+Segmentierung von Seg 4040
+Segmentierung von Seg 4041
+
+####### Trennen (446,479)####
+
+####### Trennen (451,480)####
+Segmentierung von Seg 4047
+Segmentierung von Seg 4050
+
+####### Trennen (107,472)####
+Segmentierung von Seg 4053
+
+####### Trennen (167,476)####
+Segmentierung von Seg 4059
+
+####### Trennen (158,501)####
+Segmentierung von Seg 4061
+
+####### Trennen (281,469)####
+Segmentierung von Seg 4062
+Segmentierung von Seg 4063
+Segmentierung von Seg 4066
+Segmentierung von Seg 4069
+Segmentierung von Seg 4070
+
+####### Trennen (284,482)####
+
+####### Trennen (286,484)####
+
+####### Trennen (293,494)####
+Segmentierung von Seg 4076
+Segmentierung von Seg 4077
+
+####### Trennen (242,483)####
+Segmentierung von Seg 4080
+
+####### Trennen (217,482)####
+
+####### Trennen (226,482)####
+Segmentierung von Seg 4084
+
+####### Trennen (395,487)####
+
+####### Trennen (398,483)####
+
+####### Trennen (401,474)####
+
+####### Trennen (437,479)####
+
+####### Trennen (439,481)####
+Segmentierung von Seg 4086
+
+####### Trennen (476,480)####
+Segmentierung von Seg 4089
+
+####### Trennen (31,479)####
+
+####### Trennen (34,476)####
+
+####### Trennen (36,475)####
+Segmentierung von Seg 4092
+
+####### Trennen (96,482)####
+
+####### Trennen (98,473)####
+
+####### Trennen (96,467)####
+
+####### Trennen (94,469)####
+Segmentierung von Seg 4093
+Segmentierung von Seg 4106
+
+####### Trennen (475,484)####
+Segmentierung von Seg 4108
+
+####### Trennen (445,487)####
+
+####### Trennen (428,510)####
+
+####### Trennen (426,522)####
+
+####### Trennen (411,517)####
+
+####### Trennen (401,517)####
+Segmentierung von Seg 4115
+
+####### Trennen (466,507)####
+
+####### Trennen (467,510)####
+Segmentierung von Seg 4116
+Segmentierung von Seg 4119
+Segmentierung von Seg 4120
+Segmentierung von Seg 4121
+Segmentierung von Seg 4123
+Segmentierung von Seg 4128
+
+####### Trennen (70,489)####
+Segmentierung von Seg 4131
+Segmentierung von Seg 4138
+
+####### Trennen (200,500)####
+Segmentierung von Seg 4144
+
+####### Trennen (61,501)####
+Segmentierung von Seg 4148
+
+####### Trennen (317,473)####
+
+####### Trennen (328,471)####
+
+####### Trennen (324,484)####
+
+####### Trennen (318,490)####
+
+####### Trennen (316,494)####
+
+####### Trennen (314,496)####
+Segmentierung von Seg 4149
+
+####### Trennen (342,490)####
+
+####### Trennen (344,505)####
+
+####### Trennen (342,508)####
+
+####### Trennen (344,510)####
+
+####### Trennen (359,512)####
+Segmentierung von Seg 4151
+Segmentierung von Seg 4152
+Segmentierung von Seg 4153
+
+####### Trennen (26,484)####
+Segmentierung von Seg 4154
+Segmentierung von Seg 4158
+
+####### Trennen (2,484)####
+Segmentierung von Seg 4160
+Segmentierung von Seg 4161
+
+####### Trennen (228,495)####
+Segmentierung von Seg 4163
+
+####### Trennen (355,480)####
+
+####### Trennen (357,480)####
+
+####### Trennen (360,478)####
+
+####### Trennen (363,483)####
+
+####### Trennen (362,484)####
+
+####### Trennen (362,486)####
+
+####### Trennen (361,487)####
+
+####### Trennen (361,489)####
+
+####### Trennen (360,490)####
+
+####### Trennen (360,492)####
+Segmentierung von Seg 4164
+Segmentierung von Seg 4165
+Segmentierung von Seg 4166
+
+####### Trennen (2,503)####
+Segmentierung von Seg 4169
+
+####### Trennen (50,515)####
+
+####### Trennen (51,514)####
+Segmentierung von Seg 4170
+
+####### Trennen (202,503)####
+
+####### Trennen (201,503)####
+
+####### Trennen (199,505)####
+Segmentierung von Seg 4173
+Segmentierung von Seg 4182
+
+####### Trennen (337,505)####
+
+####### Trennen (333,509)####
+
+####### Trennen (335,510)####
+Segmentierung von Seg 4183
+
+####### Trennen (380,507)####
+
+####### Trennen (387,512)####
+Segmentierung von Seg 4184
+
+####### Trennen (386,504)####
+
+####### Trennen (400,523)####
+
+####### Trennen (400,525)####
+
+####### Trennen (396,524)####
+Segmentierung von Seg 4185
+Segmentierung von Seg 4190
+Segmentierung von Seg 4193
+
+####### Trennen (342,503)####
+Segmentierung von Seg 4195
+
+####### Trennen (450,500)####
+
+####### Trennen (451,501)####
+
+####### Trennen (451,505)####
+Segmentierung von Seg 4196
+Segmentierung von Seg 4199
+
+####### Trennen (368,531)####
+Segmentierung von Seg 4200
+
+####### Trennen (377,506)####
+Segmentierung von Seg 4201
+
+####### Trennen (472,501)####
+
+####### Trennen (477,502)####
+Segmentierung von Seg 4202
+Segmentierung von Seg 4203
+
+####### Trennen (28,499)####
+
+####### Trennen (30,503)####
+
+####### Trennen (30,514)####
+
+####### Trennen (31,519)####
+Segmentierung von Seg 4204
+
+####### Trennen (36,505)####
+Segmentierung von Seg 4206
+
+####### Trennen (242,499)####
+
+####### Trennen (243,510)####
+
+####### Trennen (242,515)####
+
+####### Trennen (248,524)####
+
+####### Trennen (240,527)####
+
+####### Trennen (230,525)####
+
+####### Trennen (226,527)####
+Segmentierung von Seg 4207
+
+####### Trennen (272,502)####
+Segmentierung von Seg 4208
+Segmentierung von Seg 4209
+Segmentierung von Seg 4210
+Segmentierung von Seg 4211
+Segmentierung von Seg 4212
+Segmentierung von Seg 4218
+
+####### Trennen (72,503)####
+
+####### Trennen (90,529)####
+Segmentierung von Seg 4219
+
+####### Trennen (316,516)####
+Segmentierung von Seg 4221
+Segmentierung von Seg 4222
+Segmentierung von Seg 4223
+
+####### Trennen (269,503)####
+
+####### Trennen (279,529)####
+Segmentierung von Seg 4224
+
+####### Trennen (307,517)####
+
+####### Trennen (309,524)####
+
+####### Trennen (309,529)####
+Segmentierung von Seg 4225
+
+####### Trennen (468,514)####
+Segmentierung von Seg 4226
+
+####### Trennen (24,513)####
+
+####### Trennen (20,518)####
+
+####### Trennen (22,519)####
+Segmentierung von Seg 4229
+
+####### Trennen (67,513)####
+Segmentierung von Seg 4230
+Segmentierung von Seg 4231
+
+####### Trennen (169,505)####
+
+####### Trennen (170,506)####
+
+####### Trennen (173,506)####
+Segmentierung von Seg 4232
+
+####### Trennen (186,507)####
+Segmentierung von Seg 4235
+
+####### Trennen (23,500)####
+
+####### Trennen (24,504)####
+
+####### Trennen (23,505)####
+
+####### Trennen (23,508)####
+Segmentierung von Seg 4237
+Segmentierung von Seg 4239
+
+####### Trennen (334,495)####
+Segmentierung von Seg 4242
+
+####### Trennen (20,507)####
+Segmentierung von Seg 4243
+Segmentierung von Seg 4244
+Segmentierung von Seg 4251
+
+####### Trennen (215,512)####
+Segmentierung von Seg 4253
+
+####### Trennen (446,518)####
+Segmentierung von Seg 4254
+Segmentierung von Seg 4255
+Segmentierung von Seg 4256
+
+####### Trennen (168,507)####
+
+####### Trennen (169,508)####
+
+####### Trennen (172,508)####
+
+####### Trennen (173,509)####
+
+####### Trennen (175,509)####
+Segmentierung von Seg 4257
+
+####### Trennen (322,514)####
+Segmentierung von Seg 4260
+
+####### Trennen (455,521)####
+Segmentierung von Seg 4266
+
+####### Trennen (1,519)####
+Segmentierung von Seg 4272
+
+####### Trennen (150,513)####
+
+####### Trennen (166,537)####
+Segmentierung von Seg 4274
+
+####### Trennen (171,511)####
+Segmentierung von Seg 4281
+Segmentierung von Seg 4287
+Segmentierung von Seg 4289
+Segmentierung von Seg 4290
+Segmentierung von Seg 4291
+Segmentierung von Seg 4292
+
+####### Trennen (202,520)####
+Segmentierung von Seg 4295
+
+####### Trennen (338,516)####
+
+####### Trennen (336,518)####
+Segmentierung von Seg 4298
+Segmentierung von Seg 4300
+Segmentierung von Seg 4301
+
+####### Trennen (432,522)####
+Segmentierung von Seg 4303
+
+####### Trennen (181,520)####
+
+####### Trennen (176,516)####
+Segmentierung von Seg 4304
+
+####### Trennen (255,522)####
+
+####### Trennen (259,522)####
+Segmentierung von Seg 4305
+
+####### Trennen (284,523)####
+Segmentierung von Seg 4311
+
+####### Trennen (471,516)####
+Segmentierung von Seg 4313
+Segmentierung von Seg 4316
+
+####### Trennen (381,519)####
+
+####### Trennen (382,520)####
+
+####### Trennen (382,523)####
+
+####### Trennen (385,529)####
+
+####### Trennen (385,531)####
+Segmentierung von Seg 4319
+
+####### Trennen (66,504)####
+
+####### Trennen (65,520)####
+Segmentierung von Seg 4322
+Segmentierung von Seg 4326
+
+####### Trennen (373,521)####
+
+####### Trennen (373,527)####
+
+####### Trennen (371,534)####
+Segmentierung von Seg 4327
+
+####### Trennen (381,528)####
+Segmentierung von Seg 4329
+
+####### Trennen (55,533)####
+Segmentierung von Seg 4332
+
+####### Trennen (396,527)####
+
+####### Trennen (400,531)####
+Segmentierung von Seg 4337
+
+####### Trennen (244,505)####
+
+####### Trennen (246,501)####
+Segmentierung von Seg 4339
+
+####### Trennen (315,552)####
+Segmentierung von Seg 4341
+
+####### Trennen (319,520)####
+
+####### Trennen (318,522)####
+Segmentierung von Seg 4343
+
+####### Trennen (332,529)####
+
+####### Trennen (323,541)####
+Segmentierung von Seg 4344
+Segmentierung von Seg 4345
+
+####### Trennen (145,525)####
+
+####### Trennen (146,526)####
+
+####### Trennen (146,531)####
+Segmentierung von Seg 4349
+
+####### Trennen (38,518)####
+
+####### Trennen (50,526)####
+
+####### Trennen (53,523)####
+Segmentierung von Seg 4350
+
+####### Trennen (134,531)####
+Segmentierung von Seg 4352
+
+####### Trennen (143,551)####
+
+####### Trennen (139,558)####
+Segmentierung von Seg 4357
+
+####### Trennen (75,524)####
+
+####### Trennen (81,533)####
+Segmentierung von Seg 4358
+
+####### Trennen (159,534)####
+Segmentierung von Seg 4360
+
+####### Trennen (313,528)####
+
+####### Trennen (312,529)####
+
+####### Trennen (312,531)####
+Segmentierung von Seg 4363
+
+####### Trennen (167,550)####
+
+####### Trennen (167,552)####
+
+####### Trennen (170,558)####
+
+####### Trennen (170,561)####
+Segmentierung von Seg 4367
+
+####### Trennen (349,528)####
+Segmentierung von Seg 4368
+
+####### Trennen (401,521)####
+
+####### Trennen (402,532)####
+
+####### Trennen (399,538)####
+
+####### Trennen (404,538)####
+Segmentierung von Seg 4372
+Segmentierung von Seg 4373
+
+####### Trennen (363,521)####
+
+####### Trennen (364,523)####
+Segmentierung von Seg 4375
+
+####### Trennen (448,530)####
+Segmentierung von Seg 4377
+
+####### Trennen (461,526)####
+Segmentierung von Seg 4379
+
+####### Trennen (8,529)####
+Segmentierung von Seg 4380
+
+####### Trennen (24,520)####
+
+####### Trennen (27,518)####
+Segmentierung von Seg 4382
+
+####### Trennen (250,503)####
+
+####### Trennen (248,501)####
+
+####### Trennen (248,498)####
+Segmentierung von Seg 4387
+
+####### Trennen (473,527)####
+Segmentierung von Seg 4389
+Segmentierung von Seg 4397
+Segmentierung von Seg 4399
+
+####### Trennen (197,532)####
+Segmentierung von Seg 4401
+
+####### Trennen (278,532)####
+
+####### Trennen (282,529)####
+Segmentierung von Seg 4402
+
+####### Trennen (290,534)####
+
+####### Trennen (293,536)####
+Segmentierung von Seg 4404
+Segmentierung von Seg 4409
+Segmentierung von Seg 4410
+
+####### Trennen (343,546)####
+Segmentierung von Seg 4413
+
+####### Trennen (45,525)####
+Segmentierung von Seg 4414
+
+####### Trennen (68,523)####
+
+####### Trennen (72,524)####
+
+####### Trennen (88,544)####
+
+####### Trennen (91,545)####
+Segmentierung von Seg 4415
+
+####### Trennen (232,527)####
+Segmentierung von Seg 4416
+
+####### Trennen (286,540)####
+
+####### Trennen (279,544)####
+
+####### Trennen (270,545)####
+Segmentierung von Seg 4418
+Segmentierung von Seg 4424
+Segmentierung von Seg 4426
+
+####### Trennen (149,544)####
+
+####### Trennen (152,553)####
+Segmentierung von Seg 4427
+Segmentierung von Seg 4432
+
+####### Trennen (61,544)####
+Segmentierung von Seg 4433
+
+####### Trennen (142,542)####
+Segmentierung von Seg 4434
+Segmentierung von Seg 4436
+
+####### Trennen (390,545)####
+
+####### Trennen (383,545)####
+
+####### Trennen (380,542)####
+Segmentierung von Seg 4437
+Segmentierung von Seg 4438
+Segmentierung von Seg 4439
+
+####### Trennen (27,530)####
+
+####### Trennen (31,521)####
+
+####### Trennen (23,528)####
+Segmentierung von Seg 4442
+Segmentierung von Seg 4445
+Segmentierung von Seg 4448
+
+####### Trennen (19,536)####
+
+####### Trennen (12,543)####
+Segmentierung von Seg 4453
+
+####### Trennen (381,561)####
+Segmentierung von Seg 4455
+
+####### Trennen (418,530)####
+Segmentierung von Seg 4458
+
+####### Trennen (100,536)####
+
+####### Trennen (101,537)####
+
+####### Trennen (104,537)####
+
+####### Trennen (107,539)####
+
+####### Trennen (109,539)####
+Segmentierung von Seg 4460
+
+####### Trennen (165,558)####
+Segmentierung von Seg 4461
+
+####### Trennen (180,538)####
+
+####### Trennen (184,539)####
+Segmentierung von Seg 4465
+
+####### Trennen (445,529)####
+
+####### Trennen (441,511)####
+
+####### Trennen (444,506)####
+
+####### Trennen (444,504)####
+Segmentierung von Seg 4466
+Segmentierung von Seg 4467
+
+####### Trennen (52,532)####
+Segmentierung von Seg 4471
+
+####### Trennen (333,513)####
+Segmentierung von Seg 4472
+Segmentierung von Seg 4482
+
+####### Trennen (468,542)####
+
+####### Trennen (459,542)####
+
+####### Trennen (454,541)####
+
+####### Trennen (453,542)####
+Segmentierung von Seg 4487
+
+####### Trennen (204,547)####
+Segmentierung von Seg 4490
+Segmentierung von Seg 4495
+
+####### Trennen (31,530)####
+
+####### Trennen (34,534)####
+Segmentierung von Seg 4500
+Segmentierung von Seg 4502
+
+####### Trennen (295,554)####
+
+####### Trennen (291,571)####
+
+####### Trennen (278,581)####
+
+####### Trennen (277,584)####
+Segmentierung von Seg 4503
+
+####### Trennen (417,548)####
+
+####### Trennen (426,557)####
+Segmentierung von Seg 4504
+Segmentierung von Seg 4509
+
+####### Trennen (345,571)####
+Segmentierung von Seg 4511
+
+####### Trennen (117,546)####
+
+####### Trennen (120,549)####
+Segmentierung von Seg 4514
+
+####### Trennen (218,543)####
+
+####### Trennen (219,544)####
+
+####### Trennen (224,544)####
+Segmentierung von Seg 4515
+Segmentierung von Seg 4516
+Segmentierung von Seg 4517
+
+####### Trennen (279,557)####
+
+####### Trennen (280,575)####
+
+####### Trennen (281,576)####
+Segmentierung von Seg 4518
+Segmentierung von Seg 4521
+
+####### Trennen (401,543)####
+
+####### Trennen (399,542)####
+
+####### Trennen (395,548)####
+
+####### Trennen (412,563)####
+
+####### Trennen (414,563)####
+Segmentierung von Seg 4523
+Segmentierung von Seg 4524
+
+####### Trennen (78,565)####
+
+####### Trennen (76,551)####
+
+####### Trennen (76,549)####
+Segmentierung von Seg 4529
+
+####### Trennen (302,579)####
+Segmentierung von Seg 4530
+
+####### Trennen (408,553)####
+Segmentierung von Seg 4532
+
+####### Trennen (281,545)####
+Segmentierung von Seg 4534
+
+####### Trennen (436,536)####
+Segmentierung von Seg 4536
+
+####### Trennen (146,552)####
+
+####### Trennen (148,554)####
+Segmentierung von Seg 4539
+Segmentierung von Seg 4540
+Segmentierung von Seg 4542
+Segmentierung von Seg 4545
+
+####### Trennen (414,555)####
+Segmentierung von Seg 4547
+
+####### Trennen (469,546)####
+
+####### Trennen (467,549)####
+Segmentierung von Seg 4549
+
+####### Trennen (100,557)####
+Segmentierung von Seg 4550
+
+####### Trennen (185,554)####
+Segmentierung von Seg 4553
+
+####### Trennen (252,561)####
+
+####### Trennen (243,562)####
+
+####### Trennen (241,560)####
+
+####### Trennen (236,560)####
+Segmentierung von Seg 4554
+
+####### Trennen (271,556)####
+Segmentierung von Seg 4555
+
+####### Trennen (392,549)####
+Segmentierung von Seg 4558
+Segmentierung von Seg 4559
+
+####### Trennen (242,548)####
+
+####### Trennen (237,546)####
+Segmentierung von Seg 4561
+
+####### Trennen (459,550)####
+
+####### Trennen (455,549)####
+Segmentierung von Seg 4562
+Segmentierung von Seg 4564
+
+####### Trennen (190,553)####
+
+####### Trennen (190,558)####
+Segmentierung von Seg 4566
+
+####### Trennen (226,556)####
+Segmentierung von Seg 4568
+Segmentierung von Seg 4569
+
+####### Trennen (332,554)####
+
+####### Trennen (327,560)####
+Segmentierung von Seg 4570
+
+####### Trennen (392,568)####
+
+####### Trennen (397,572)####
+Segmentierung von Seg 4571
+
+####### Trennen (446,554)####
+Segmentierung von Seg 4575
+
+####### Trennen (171,565)####
+Segmentierung von Seg 4578
+
+####### Trennen (472,552)####
+
+####### Trennen (473,553)####
+
+####### Trennen (476,553)####
+Segmentierung von Seg 4580
+Segmentierung von Seg 4582
+Segmentierung von Seg 4583
+
+####### Trennen (471,559)####
+
+####### Trennen (475,560)####
+
+####### Trennen (477,562)####
+Segmentierung von Seg 4584
+
+####### Trennen (143,559)####
+
+####### Trennen (141,563)####
+
+####### Trennen (115,591)####
+Segmentierung von Seg 4587
+
+####### Trennen (349,558)####
+
+####### Trennen (337,560)####
+Segmentierung von Seg 4589
+Segmentierung von Seg 4590
+
+####### Trennen (220,557)####
+
+####### Trennen (224,557)####
+Segmentierung von Seg 4591
+
+####### Trennen (323,572)####
+
+####### Trennen (321,570)####
+Segmentierung von Seg 4594
+
+####### Trennen (46,542)####
+
+####### Trennen (50,539)####
+Segmentierung von Seg 4597
+Segmentierung von Seg 4599
+
+####### Trennen (129,552)####
+
+####### Trennen (126,549)####
+
+####### Trennen (123,548)####
+
+####### Trennen (133,541)####
+
+####### Trennen (134,542)####
+
+####### Trennen (134,546)####
+
+####### Trennen (135,547)####
+
+####### Trennen (135,550)####
+
+####### Trennen (136,551)####
+
+####### Trennen (136,554)####
+Segmentierung von Seg 4602
+Segmentierung von Seg 4603
+
+####### Trennen (183,560)####
+
+####### Trennen (179,556)####
+
+####### Trennen (170,554)####
+
+####### Trennen (173,560)####
+
+####### Trennen (173,564)####
+Segmentierung von Seg 4612
+Segmentierung von Seg 4613
+
+####### Trennen (313,566)####
+Segmentierung von Seg 4614
+
+####### Trennen (422,564)####
+Segmentierung von Seg 4615
+Segmentierung von Seg 4616
+
+####### Trennen (91,559)####
+
+####### Trennen (93,540)####
+Segmentierung von Seg 4621
+
+####### Trennen (382,551)####
+
+####### Trennen (382,548)####
+
+####### Trennen (376,546)####
+
+####### Trennen (380,552)####
+Segmentierung von Seg 4623
+
+####### Trennen (112,566)####
+
+####### Trennen (109,569)####
+
+####### Trennen (96,564)####
+Segmentierung von Seg 4624
+Segmentierung von Seg 4628
+Segmentierung von Seg 4634
+
+####### Trennen (400,572)####
+Segmentierung von Seg 4635
+
+####### Trennen (414,573)####
+Segmentierung von Seg 4636
+Segmentierung von Seg 4639
+
+####### Trennen (457,570)####
+
+####### Trennen (459,570)####
+
+####### Trennen (463,573)####
+
+####### Trennen (465,573)####
+
+####### Trennen (466,574)####
+
+####### Trennen (468,574)####
+Segmentierung von Seg 4640
+
+####### Trennen (35,556)####
+
+####### Trennen (46,536)####
+
+####### Trennen (46,532)####
+
+####### Trennen (44,531)####
+
+####### Trennen (42,535)####
+
+####### Trennen (15,560)####
+
+####### Trennen (12,564)####
+
+####### Trennen (12,566)####
+
+####### Trennen (10,568)####
+Segmentierung von Seg 4642
+
+####### Trennen (52,565)####
+
+####### Trennen (57,556)####
+
+####### Trennen (57,547)####
+
+####### Trennen (64,556)####
+Segmentierung von Seg 4644
+
+####### Trennen (211,577)####
+Segmentierung von Seg 4645
+
+####### Trennen (248,571)####
+
+####### Trennen (237,589)####
+Segmentierung von Seg 4651
+
+####### Trennen (393,573)####
+Segmentierung von Seg 4653
+
+####### Trennen (81,569)####
+
+####### Trennen (85,569)####
+
+####### Trennen (85,571)####
+
+####### Trennen (83,573)####
+Segmentierung von Seg 4654
+
+####### Trennen (97,572)####
+Segmentierung von Seg 4657
+
+####### Trennen (206,577)####
+
+####### Trennen (210,591)####
+
+####### Trennen (206,585)####
+Segmentierung von Seg 4658
+
+####### Trennen (300,597)####
+Segmentierung von Seg 4659
+
+####### Trennen (450,568)####
+Segmentierung von Seg 4660
+Segmentierung von Seg 4661
+
+####### Trennen (106,571)####
+
+####### Trennen (109,571)####
+
+####### Trennen (110,572)####
+
+####### Trennen (113,572)####
+Segmentierung von Seg 4663
+
+####### Trennen (251,571)####
+
+####### Trennen (257,573)####
+
+####### Trennen (263,569)####
+Segmentierung von Seg 4666
+
+####### Trennen (446,571)####
+
+####### Trennen (451,578)####
+
+####### Trennen (455,580)####
+
+####### Trennen (451,573)####
+Segmentierung von Seg 4668
+
+####### Trennen (111,585)####
+
+####### Trennen (129,587)####
+
+####### Trennen (123,583)####
+Segmentierung von Seg 4670
+
+####### Trennen (271,581)####
+
+####### Trennen (270,582)####
+Segmentierung von Seg 4672
+
+####### Trennen (453,563)####
+
+####### Trennen (452,557)####
+
+####### Trennen (466,567)####
+
+####### Trennen (468,570)####
+Segmentierung von Seg 4673
+
+####### Trennen (220,579)####
+
+####### Trennen (220,581)####
+Segmentierung von Seg 4675
+
+####### Trennen (113,568)####
+
+####### Trennen (115,571)####
+Segmentierung von Seg 4677
+
+####### Trennen (262,573)####
+
+####### Trennen (259,574)####
+Segmentierung von Seg 4681
+Segmentierung von Seg 4683
+
+####### Trennen (315,566)####
+
+####### Trennen (320,563)####
+
+####### Trennen (318,571)####
+Segmentierung von Seg 4684
+
+####### Trennen (381,584)####
+
+####### Trennen (378,585)####
+
+####### Trennen (369,571)####
+
+####### Trennen (365,568)####
+Segmentierung von Seg 4690
+Segmentierung von Seg 4691
+
+####### Trennen (41,580)####
+Segmentierung von Seg 4694
+Segmentierung von Seg 4695
+Segmentierung von Seg 4697
+Segmentierung von Seg 4700
+Segmentierung von Seg 4703
+
+####### Trennen (402,577)####
+
+####### Trennen (408,578)####
+Segmentierung von Seg 4704
+
+####### Trennen (127,583)####
+
+####### Trennen (144,577)####
+Segmentierung von Seg 4712
+
+####### Trennen (246,581)####
+Segmentierung von Seg 4713
+Segmentierung von Seg 4714
+Segmentierung von Seg 4719
+
+####### Trennen (172,578)####
+
+####### Trennen (175,578)####
+
+####### Trennen (176,579)####
+
+####### Trennen (180,579)####
+Segmentierung von Seg 4721
+
+####### Trennen (215,594)####
+Segmentierung von Seg 4724
+
+####### Trennen (2,577)####
+
+####### Trennen (5,574)####
+Segmentierung von Seg 4726
+
+####### Trennen (221,587)####
+
+####### Trennen (224,605)####
+
+####### Trennen (226,615)####
+Segmentierung von Seg 4727
+
+####### Trennen (239,588)####
+Segmentierung von Seg 4728
+
+####### Trennen (262,581)####
+
+####### Trennen (265,596)####
+
+####### Trennen (266,597)####
+
+####### Trennen (266,602)####
+Segmentierung von Seg 4730
+
+####### Trennen (346,575)####
+
+####### Trennen (344,575)####
+
+####### Trennen (348,580)####
+
+####### Trennen (345,581)####
+Segmentierung von Seg 4731
+Segmentierung von Seg 4732
+
+####### Trennen (371,602)####
+Segmentierung von Seg 4736
+Segmentierung von Seg 4739
+Segmentierung von Seg 4743
+
+####### Trennen (225,581)####
+
+####### Trennen (225,584)####
+Segmentierung von Seg 4748
+
+####### Trennen (462,583)####
+Segmentierung von Seg 4749
+
+####### Trennen (24,573)####
+
+####### Trennen (43,572)####
+
+####### Trennen (48,569)####
+
+####### Trennen (50,570)####
+
+####### Trennen (35,579)####
+
+####### Trennen (31,579)####
+
+####### Trennen (30,580)####
+
+####### Trennen (27,580)####
+Segmentierung von Seg 4751
+
+####### Trennen (67,562)####
+
+####### Trennen (69,559)####
+
+####### Trennen (74,575)####
+Segmentierung von Seg 4752
+Segmentierung von Seg 4754
+
+####### Trennen (206,600)####
+
+####### Trennen (211,610)####
+
+####### Trennen (213,612)####
+Segmentierung von Seg 4755
+
+####### Trennen (230,601)####
+Segmentierung von Seg 4757
+
+####### Trennen (369,599)####
+
+####### Trennen (369,603)####
+
+####### Trennen (370,604)####
+
+####### Trennen (370,607)####
+
+####### Trennen (371,608)####
+
+####### Trennen (371,611)####
+Segmentierung von Seg 4758
+
+####### Trennen (384,622)####
+
+####### Trennen (380,627)####
+
+####### Trennen (386,637)####
+Segmentierung von Seg 4764
+
+####### Trennen (182,584)####
+
+####### Trennen (183,585)####
+
+####### Trennen (185,585)####
+Segmentierung von Seg 4765
+
+####### Trennen (274,585)####
+
+####### Trennen (274,588)####
+
+####### Trennen (275,589)####
+
+####### Trennen (275,592)####
+Segmentierung von Seg 4766
+
+####### Trennen (340,582)####
+
+####### Trennen (342,587)####
+Segmentierung von Seg 4767
+Segmentierung von Seg 4770
+
+####### Trennen (457,590)####
+Segmentierung von Seg 4771
+Segmentierung von Seg 4772
+Segmentierung von Seg 4773
+
+####### Trennen (216,612)####
+
+####### Trennen (216,614)####
+Segmentierung von Seg 4774
+Segmentierung von Seg 4778
+Segmentierung von Seg 4779
+
+####### Trennen (81,594)####
+
+####### Trennen (86,627)####
+
+####### Trennen (89,632)####
+Segmentierung von Seg 4780
+
+####### Trennen (90,588)####
+
+####### Trennen (89,591)####
+Segmentierung von Seg 4782
+
+####### Trennen (101,593)####
+Segmentierung von Seg 4783
+
+####### Trennen (102,588)####
+
+####### Trennen (106,588)####
+
+####### Trennen (107,589)####
+Segmentierung von Seg 4788
+
+####### Trennen (32,589)####
+Segmentierung von Seg 4794
+
+####### Trennen (4,590)####
+Segmentierung von Seg 4797
+Segmentierung von Seg 4800
+Segmentierung von Seg 4803
+
+####### Trennen (401,590)####
+Segmentierung von Seg 4804
+Segmentierung von Seg 4808
+
+####### Trennen (361,604)####
+
+####### Trennen (365,612)####
+Segmentierung von Seg 4809
+
+####### Trennen (412,591)####
+Segmentierung von Seg 4812
+Segmentierung von Seg 4813
+
+####### Trennen (53,598)####
+
+####### Trennen (53,600)####
+Segmentierung von Seg 4816
+
+####### Trennen (280,603)####
+Segmentierung von Seg 4817
+
+####### Trennen (294,627)####
+
+####### Trennen (295,628)####
+
+####### Trennen (295,630)####
+Segmentierung von Seg 4818
+
+####### Trennen (427,589)####
+Segmentierung von Seg 4819
+
+####### Trennen (26,590)####
+
+####### Trennen (40,604)####
+Segmentierung von Seg 4820
+
+####### Trennen (65,613)####
+
+####### Trennen (64,614)####
+
+####### Trennen (64,618)####
+
+####### Trennen (63,619)####
+
+####### Trennen (63,622)####
+Segmentierung von Seg 4822
+
+####### Trennen (172,600)####
+Segmentierung von Seg 4824
+
+####### Trennen (359,598)####
+Segmentierung von Seg 4825
+
+####### Trennen (20,592)####
+
+####### Trennen (20,593)####
+
+####### Trennen (22,595)####
+
+####### Trennen (17,596)####
+Segmentierung von Seg 4826
+
+####### Trennen (43,608)####
+Segmentierung von Seg 4829
+
+####### Trennen (88,576)####
+
+####### Trennen (86,573)####
+
+####### Trennen (84,591)####
+
+####### Trennen (86,591)####
+Segmentierung von Seg 4831
+
+####### Trennen (339,593)####
+
+####### Trennen (336,594)####
+Segmentierung von Seg 4834
+Segmentierung von Seg 4836
+Segmentierung von Seg 4837
+
+####### Trennen (227,620)####
+
+####### Trennen (226,621)####
+
+####### Trennen (227,625)####
+
+####### Trennen (230,624)####
+
+####### Trennen (228,631)####
+
+####### Trennen (228,635)####
+Segmentierung von Seg 4844
+Segmentierung von Seg 4845
+
+####### Trennen (175,591)####
+
+####### Trennen (168,585)####
+
+####### Trennen (196,596)####
+
+####### Trennen (209,621)####
+Segmentierung von Seg 4846
+
+####### Trennen (192,601)####
+Segmentierung von Seg 4849
+
+####### Trennen (326,604)####
+Segmentierung von Seg 4850
+
+####### Trennen (387,582)####
+
+####### Trennen (385,578)####
+
+####### Trennen (380,615)####
+Segmentierung von Seg 4851
+Segmentierung von Seg 4852
+
+####### Trennen (463,597)####
+
+####### Trennen (470,597)####
+Segmentierung von Seg 4858
+
+####### Trennen (337,596)####
+
+####### Trennen (338,597)####
+
+####### Trennen (340,597)####
+Segmentierung von Seg 4859
+
+####### Trennen (469,610)####
+
+####### Trennen (466,611)####
+
+####### Trennen (457,611)####
+Segmentierung von Seg 4860
+
+####### Trennen (97,603)####
+
+####### Trennen (99,603)####
+
+####### Trennen (101,605)####
+Segmentierung von Seg 4861
+
+####### Trennen (152,595)####
+
+####### Trennen (149,602)####
+
+####### Trennen (146,603)####
+
+####### Trennen (145,605)####
+
+####### Trennen (146,606)####
+
+####### Trennen (146,608)####
+Segmentierung von Seg 4863
+
+####### Trennen (246,603)####
+Segmentierung von Seg 4868
+
+####### Trennen (159,599)####
+Segmentierung von Seg 4869
+
+####### Trennen (279,607)####
+
+####### Trennen (281,609)####
+
+####### Trennen (282,612)####
+
+####### Trennen (284,614)####
+Segmentierung von Seg 4870
+
+####### Trennen (339,604)####
+Segmentierung von Seg 4871
+Segmentierung von Seg 4872
+Segmentierung von Seg 4876
+
+####### Trennen (361,611)####
+
+####### Trennen (370,624)####
+Segmentierung von Seg 4879
+
+####### Trennen (428,603)####
+Segmentierung von Seg 4883
+
+####### Trennen (290,603)####
+
+####### Trennen (290,605)####
+
+####### Trennen (291,606)####
+
+####### Trennen (291,608)####
+
+####### Trennen (292,609)####
+
+####### Trennen (292,611)####
+Segmentierung von Seg 4884
+
+####### Trennen (23,605)####
+
+####### Trennen (20,606)####
+
+####### Trennen (15,604)####
+
+####### Trennen (6,604)####
+Segmentierung von Seg 4885
+
+####### Trennen (106,610)####
+
+####### Trennen (108,610)####
+Segmentierung von Seg 4886
+
+####### Trennen (164,607)####
+Segmentierung von Seg 4889
+
+####### Trennen (357,610)####
+Segmentierung von Seg 4893
+
+####### Trennen (398,614)####
+
+####### Trennen (401,619)####
+
+####### Trennen (401,628)####
+Segmentierung von Seg 4897
+
+####### Trennen (88,614)####
+
+####### Trennen (88,625)####
+
+####### Trennen (90,627)####
+Segmentierung von Seg 4899
+Segmentierung von Seg 4903
+
+####### Trennen (428,624)####
+Segmentierung von Seg 4907
+Segmentierung von Seg 4910
+
+####### Trennen (175,606)####
+
+####### Trennen (180,613)####
+Segmentierung von Seg 4911
+
+####### Trennen (247,611)####
+
+####### Trennen (253,614)####
+
+####### Trennen (255,616)####
+
+####### Trennen (243,626)####
+
+####### Trennen (249,638)####
+Segmentierung von Seg 4914
+
+####### Trennen (430,612)####
+
+####### Trennen (436,616)####
+Segmentierung von Seg 4915
+
+####### Trennen (454,611)####
+
+####### Trennen (453,612)####
+
+####### Trennen (459,630)####
+
+####### Trennen (457,632)####
+Segmentierung von Seg 4916
+Segmentierung von Seg 4918
+
+####### Trennen (343,613)####
+Segmentierung von Seg 4919
+
+####### Trennen (366,625)####
+Segmentierung von Seg 4920
+Segmentierung von Seg 4921
+
+####### Trennen (117,613)####
+Segmentierung von Seg 4924
+
+####### Trennen (263,610)####
+
+####### Trennen (267,610)####
+Segmentierung von Seg 4925
+
+####### Trennen (429,637)####
+Segmentierung von Seg 4926
+Segmentierung von Seg 4927
+
+####### Trennen (34,620)####
+
+####### Trennen (36,622)####
+Segmentierung von Seg 4928
+Segmentierung von Seg 4931
+Segmentierung von Seg 4932
+
+####### Trennen (431,635)####
+
+####### Trennen (431,637)####
+Segmentierung von Seg 4935
+
+####### Trennen (153,605)####
+Segmentierung von Seg 4937
+
+####### Trennen (289,621)####
+Segmentierung von Seg 4939
+Segmentierung von Seg 4941
+Segmentierung von Seg 4947
+
+####### Trennen (425,636)####
+Segmentierung von Seg 4948
+
+####### Trennen (450,623)####
+Segmentierung von Seg 4951
+
+####### Trennen (187,627)####
+
+####### Trennen (189,627)####
+
+####### Trennen (192,629)####
+
+####### Trennen (194,629)####
+Segmentierung von Seg 4953
+
+####### Trennen (102,619)####
+
+####### Trennen (101,627)####
+Segmentierung von Seg 4954
+Segmentierung von Seg 4955
+
+####### Trennen (155,619)####
+
+####### Trennen (160,623)####
+
+####### Trennen (161,626)####
+Segmentierung von Seg 4956
+Segmentierung von Seg 4960
+
+####### Trennen (463,613)####
+
+####### Trennen (465,616)####
+Segmentierung von Seg 4962
+
+####### Trennen (102,611)####
+
+####### Trennen (100,613)####
+
+####### Trennen (103,615)####
+Segmentierung von Seg 4969
+
+####### Trennen (95,621)####
+
+####### Trennen (98,624)####
+Segmentierung von Seg 4978
+
+####### Trennen (143,630)####
+Segmentierung von Seg 4986
+
+####### Trennen (317,617)####
+
+####### Trennen (315,618)####
+
+####### Trennen (314,619)####
+
+####### Trennen (317,622)####
+Segmentierung von Seg 4987
+
+####### Trennen (322,619)####
+
+####### Trennen (327,621)####
+Segmentierung von Seg 4989
+
+####### Trennen (407,625)####
+
+####### Trennen (409,627)####
+
+####### Trennen (411,632)####
+
+####### Trennen (413,634)####
+
+####### Trennen (413,635)####
+
+####### Trennen (415,637)####
+Segmentierung von Seg 4991
+Segmentierung von Seg 4992
+
+####### Trennen (112,626)####
+Segmentierung von Seg 4994
+
+####### Trennen (190,624)####
+Segmentierung von Seg 4998
+
+####### Trennen (403,627)####
+
+####### Trennen (407,635)####
+Segmentierung von Seg 5000
+
+####### Trennen (29,632)####
+
+####### Trennen (30,632)####
+
+####### Trennen (32,634)####
+Segmentierung von Seg 5002
+
+####### Trennen (264,619)####
+Segmentierung von Seg 5007
+Segmentierung von Seg 5011
+Segmentierung von Seg 5012
+
+####### Trennen (124,635)####
+Segmentierung von Seg 5013
+Segmentierung von Seg 5017
+
+####### Trennen (332,624)####
+
+####### Trennen (361,637)####
+Segmentierung von Seg 5025
+Segmentierung von Seg 5027
+
+####### Trennen (416,635)####
+Segmentierung von Seg 5028
+Segmentierung von Seg 5029
+
+####### Trennen (188,630)####
+
+####### Trennen (190,630)####
+
+####### Trennen (193,632)####
+
+####### Trennen (196,632)####
+Segmentierung von Seg 5031
+
+####### Trennen (299,634)####
+Segmentierung von Seg 5032
+
+####### Trennen (338,638)####
+
+####### Trennen (340,638)####
+Segmentierung von Seg 5034
+
+####### Trennen (472,628)####
+
+####### Trennen (477,630)####
+Segmentierung von Seg 5040
+
+####### Trennen (76,598)####
+
+####### Trennen (75,594)####
+
+####### Trennen (71,595)####
+
+####### Trennen (61,633)####
+Segmentierung von Seg 5041
+Segmentierung von Seg 5043
+
+####### Trennen (181,635)####
+
+####### Trennen (183,635)####
+
+####### Trennen (192,638)####
+Segmentierung von Seg 5044
+Segmentierung von Seg 5046
+
+####### Trennen (44,620)####
+
+####### Trennen (23,598)####
+
+####### Trennen (56,632)####
+
+####### Trennen (57,635)####
+Segmentierung von Seg 5048
+
+####### Trennen (431,628)####
+
+####### Trennen (434,631)####
+
+####### Trennen (439,634)####
+Segmentierung von Seg 5050
+
+####### Trennen (13,620)####
+Segmentierung von Seg 5054
+
+####### Trennen (217,631)####
+
+####### Trennen (219,636)####
+
+####### Trennen (218,638)####
+
+####### Trennen (214,636)####
+Segmentierung von Seg 5059
+
+####### Trennen (14,638)####
+Segmentierung von Seg 5060
+Segmentierung von Seg 5063
+
+####### Trennen (250,622)####
+
+####### Trennen (246,626)####
+Segmentierung von Seg 5074
+Segmentierung von Seg 5075
+
+####### Trennen (472,638)####
+Segmentierung von Seg 5079
+
+####### Trennen (258,636)####
+Segmentierung von Seg 5080
+
+####### Trennen (280,633)####
+Segmentierung von Seg 5081
+
+####### Trennen (350,626)####
+
+####### Trennen (329,617)####
+Segmentierung von Seg 5084
+Segmentierung von Seg 5086
+Segmentierung von Seg 5088
+Segmentierung von Seg 5093
+
+####### Trennen (8,638)####
+Segmentierung von Seg 5098
+
+####### Trennen (91,630)####
+
+####### Trennen (94,625)####
+
+####### Trennen (99,628)####
+
+####### Trennen (101,635)####
+Segmentierung von Seg 5100
+
+####### Trennen (290,636)####
+
+####### Trennen (291,637)####
+
+####### Trennen (293,637)####
+Segmentierung von Seg 5101
+Segmentierung von Seg 5102
+
+####### Trennen (369,637)####
+Segmentierung von Seg 5104
+Segmentierung von Seg 5107
+
+####### Trennen (254,29)####
+Segmentierung von Seg 5115
+
+####### Trennen (187,19)####
+Segmentierung von Seg 5117
+
+####### Trennen (174,24)####
+Segmentierung von Seg 5126
+
+####### Trennen (173,39)####
+
+####### Trennen (175,41)####
+Segmentierung von Seg 5129
+
+####### Trennen (460,67)####
+
+####### Trennen (459,68)####
+
+####### Trennen (459,73)####
+Segmentierung von Seg 5130
+
+####### Trennen (358,48)####
+
+####### Trennen (353,47)####
+
+####### Trennen (356,42)####
+
+####### Trennen (359,42)####
+Segmentierung von Seg 5137
+
+####### Trennen (326,59)####
+
+####### Trennen (322,63)####
+
+####### Trennen (319,62)####
+
+####### Trennen (318,63)####
+
+####### Trennen (315,63)####
+
+####### Trennen (314,64)####
+
+####### Trennen (312,64)####
+
+####### Trennen (296,58)####
+Segmentierung von Seg 5139
+
+####### Trennen (226,64)####
+
+####### Trennen (223,67)####
+Segmentierung von Seg 5146
+
+####### Trennen (443,76)####
+Segmentierung von Seg 5158
+
+####### Trennen (296,92)####
+
+####### Trennen (263,111)####
+Segmentierung von Seg 5221
+Segmentierung von Seg 5225
+Segmentierung von Seg 5263
+
+####### Trennen (44,322)####
+
+####### Trennen (45,330)####
+
+####### Trennen (29,327)####
+
+####### Trennen (20,333)####
+
+####### Trennen (12,328)####
+
+####### Trennen (7,327)####
+
+####### Trennen (16,321)####
+Segmentierung von Seg 5303
+
+####### Trennen (13,399)####
+Segmentierung von Seg 5345
+Segmentierung von Seg 5351
+Segmentierung von Seg 5357
+
+####### Trennen (71,536)####
+
+####### Trennen (72,541)####
+
+####### Trennen (68,557)####
+
+####### Trennen (63,532)####
+Segmentierung von Seg 5388
+
+####### Trennen (169,592)####
+
+####### Trennen (210,633)####
+
+####### Trennen (215,632)####
+
+####### Trennen (200,618)####
+
+####### Trennen (182,595)####

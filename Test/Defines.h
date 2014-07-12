@@ -21,14 +21,14 @@
 #define EVAL_CURVE_DEBUG "..\\Curvature.txt"
 
 /*image paths*/
-#define SRC_IMG_PATH "..\\source.png"
-#define EDEGE_IMG_PATH "..\\edgeImage.png"
-#define EDGE_IMG_AFTER_FIND_PATH "..\\edgeImage_NachFindEnds.png"
-#define EDGE_SEG_IMG_PATH "..\\Segments.png"
-#define LINE_SEG_IMG_PATH "..\\lineSegmentedEdges.png"
-#define CURVE_SEG_IMG_PATH "..\\curveSegments.png"
-#define ELLIP_ON_SRC_IMG_PATH "..\\EllipsesOnSource.png"
-#define ELLIP_IMG_PATH "..\\Ellipses.png"
+#define SRC_IMG_PATH "E:\\source.png"
+#define EDEGE_IMG_PATH "E:\\edgeImage.png"
+#define EDGE_IMG_AFTER_FIND_PATH "E:\\edgeImage_NachFindEnds.png"
+#define EDGE_SEG_IMG_PATH "E:\\Segments.png"
+#define LINE_SEG_IMG_PATH "E:\\lineSegmentedEdges.png"
+#define CURVE_SEG_IMG_PATH "E:\\curveSegments.png"
+#define ELLIP_ON_SRC_IMG_PATH "E:\\EllipsesOnSource.png"
+#define ELLIP_IMG_PATH "E:\\Ellipses.png"
 #define PRETTY_EDEGE_IMG_PATH "E:\\PrettyEdgeImage.png"
 #define PRETTY_EDEGE_IMG_PATH2 "E:\\PrettyEdgeImage_NachFindEnds.png"
 
@@ -47,7 +47,7 @@
 //#define DRAW_POINTS
 
 /*Curve segmentation*/
-//#define IMPROVED_SEGMENTATION
+#define IMPROVED_SEGMENTATION
 #define DEBUB_CURVE_SEG
 #define LTH 4 /* if LTH* length of line 1 > length of line 2 or the other way round an edge segment will be splitted at their connection point P   */
 #define TH 0.4363//25  //.2618//15  .1745 //10  .5236//30	.698 /*40 max dif between angles of neighboring line segments (in radian)  */
@@ -55,7 +55,7 @@
 #define A_TOL -.07 //-4 deg /*if A_TOL < a2-a1 < 0, segment will not be splitted at point P in regard to curvature condition */
 #define B_MIN 1.745 /*angles between the neighbouring lines in a curve segments must all be greater than B_MIN (in radian)*/
 #define B_MAX 3.054 /*angles between the neighbouring lines in a curve segments must all be smaller than B_MAX (in radian)*/
-#define SINGLESTEPCURVE
+//#define SINGLESTEPCURVE
 
 ///*Curve grouping*/
 ////#define DEBUB_CURVE_GRP
@@ -84,6 +84,6 @@
 #define N_T	4//number of tries
 #define TH_AVDIST 2
 #define TH_FULLFIT 0.8	// an curve segment matches an ellipse as a whole if: (num of matching pixels)/(num of segment pixels) >= TH_FULLFIT
-#define TH_PARTIALFIT 0.4 // a curve segment matches an ellipse partly if:(num of matching pixels)/(num of segment pixels) >= TH_PARTIALFIT
+#define TH_PARTIALFIT 0.3 // a curve segment matches an ellipse partly if:(num of matching pixels)/(num of segment pixels) >= TH_PARTIALFIT
 
 #endif

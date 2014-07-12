@@ -9,7 +9,7 @@
 #include "Point.h"
 #include "PreProcessing.hpp"
 
-#define SOURCE_IMAGE "..\\WinkelVer2.png"
+#define SOURCE_IMAGE "..\\Bild10.jpg"
 
 using namespace std;
 
@@ -321,12 +321,13 @@ int main(int argc, char** argv) {
 		}
 	}
 #else
-	fitEllipses(&curveSegments, &ellipses);
+	int i= fitEllipses(&curveSegments, &ellipses);
 #endif
 	end = clock();
 	time = (end - start);
 	cout << "Berechnete Ellipsen: " << ellipses.size() << endl;
 	cout << "Laufzeit Ellipsenberechnung: " << time << " ms" << endl;
+	cout << "Gefundene Ellipsen: " << i << endl;
 
 #ifdef DRAW_ELLIPSES
 	for (list<Ellipse*>::iterator it = ellipses.begin(); it != ellipses.end(); it++){
